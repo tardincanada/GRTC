@@ -912,3 +912,8 @@ With Jade in the mods folder, the panel at the top of the screen shows:
   tanks behind it to those in front; redstone stops it.
 - Strings, research and Field Guide paragraphs (end of the Containers chapter, with recipe grids) in all ten
   languages: `tools/tanks.py`. Tests: `TankTests` (9). Screenshots: `PE_LANG=pt_br xvfb-run ./gradlew runTankShots`.
+
+## License
+
+All rights reserved. Copyright (c) 2026 Guilherme. The source is public so it can be read and built,
+but it may not be copied, modified or redistributed without permission.
