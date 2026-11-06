@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:hemp"
+    },
+    {
+      "item": "periodic_elements:hemp"
+    }
+  ],
+  "result": {
+    "id": "minecraft:string",
+    "count": 1
+  }
+}

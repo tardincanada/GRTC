@@ -1,0 +1,31 @@
+# Wildtiere
+Jedes Biom hat zwei bis vier eigene Tiere, die nur dort erscheinen. Die meisten fliehen vor dir; große wehren sich, wenn man sie schlägt. Nur der Gelbe Mittelmeerskorpion jagt dich, nachts, und der Schrecklicher Pfeilgiftfrosch vergiftet die bloße Hand, die ihn berührt.
+# Zucht
+Gib zwei Tieren einer Art das Futter, das sie mögen, damit sie sich vermehren. Fern ihres Klimas vermehren sie sich dreimal langsamer; ein auf ihr Klima beheiztes oder gekühltes Gewächshaus lässt sie wie gewohnt züchten.
+# Was Tiere geben
+Tiere in einem Gehege (ein Zaun innerhalb von 4 Blöcken) lassen ab und zu Mist fallen: nutze ihn an einer Pflanze wie Knochenmehl oder verbrenne ihn. Reibe Pfeile an einem Pfeilgiftfrosch, um bis zu 8 zu vergiften. Eine Glasflasche an einem Skorpion oder einer Gila-Krustenechse gewinnt ihr Gift, einmal alle fünf Minuten. Strauße legen Eier, so groß wie vier Hühnereier.
+# Kleine Tiere
+Insekten und Würmer sind Gegenstände und Blöcke. Beim Graben von Erde oder Gras kommt manchmal ein Regenwurm zum Vorschein, beim Scheren von Blättern des Weißen Maulbeerbaums ein Seidenspinner. Im Sumpfwasser kann sich ein Medizinischer Blutegel festsaugen und dich langsam bluten lassen: Salz löst ihn und gibt dir den Egel.
+Eine Wurmkiste (Bretter um Erde) nimmt einen Regenwurm auf; füttere sie mit Blättern, Pflanzen, Samen oder Mist und sie gibt Humus, einen Dünger.
+Seidenzucht (Stufe 1): die Seidenraupenhorde nimmt Seidenspinner auf; füttere sie mit Blättern des Weißen Maulbeerbaums und sie gibt Seidenkokons, die im Ofen zu Seidenfaden werden.
+Cochenille wächst auf Kakteen in Wüsten und Tafelbergen, die Lackschildlaus auf Dschungelholz; Kolonien erscheinen in deiner Nähe und breiten sich aus. Benutze eine reife Kolonie, um sie abzuschaben; benutze das Abgeschabte an einem anderen Kaktus oder Dschungelstamm, um eine Kolonie zu gründen.
+Karmin (Stufe 2): Cochenille im Färbebottich gibt Karminsäure, einen roten Farbstoff.
+Schellack (Stufe 3): Stocklack im Seifenkessel gibt Schellack.
+Gegengift (Stufe 4): Skorpiongift, Salz und eine Glasflasche ergeben Antiserum; trink es, um Vergiftung zu heilen.
+Hirudin (Stufe 5): Blutegel im Aufschlussbottich geben Hirudin. Exenatid (Stufe 7): Gift der Gila-Krustenechse im Bioreaktor gibt Exenatid.
+# Wälder, Felder und Flüsse
+Jagdfasane und Stockenten legen ab und zu Eier, und die Stockente lässt manchmal Entendaunen fallen. Ein Rothirsch wirft alle ein bis zwei Tage eine Geweihstange ab; gemahlen gibt sie Knochenmehl. Wildschweine verlieren Borsten, die mit einem Stock und einem Kupferbarren einen Pinsel ergeben. Störe geben Kaviar und Hausenblase.
+Der Braunbrustigel hält Schädlinge von Feldern innerhalb von 4 Blöcken fern. Der Europäische Biber frisst Weidenrinde und baut in seichtem Wasser nahe bei ihm Dämme aus Stöcken und Schlamm. Guanotölpel lassen Guano am Ufer zurück, bis zu einem halben Block hoch.
+Guano (Stufe 3): Guano im Aufschlussbottich gibt Salpeter.
+Galalith (Stufe 5): das Kasein der Milch im Aufschlussbottich, mit Formaldehyd im Reagenzfeld, gibt Galalith.
+# Kalte Wälder und Gebirge
+Rentiere und Yaks geben Milch in einen Eimer, und die Schere nimmt dem Yak oder dem Alpaka die Wolle; vier ergeben einen Wollblock. Rentiere werfen ihr Geweih ab wie der Rothirsch. Rentierflechte wächst in Schneeländern in deiner Nähe; Rentiere fressen sie.
+Braunbären plündern volle Bienenstöcke und Bienennester neben ihnen. Der Eurasische Luchs jagt Kaninchen. Das Hermelin wird weiß, wo es kalt ist.
+# Meere und Küsten
+Ringelrobben und Walrosse geben Speck, Walrosse auch Elfenbein; Speck ausgelassen gibt Lampenöl. Hering, Sepia und Kristallqualle passen in einen Eimer; die Qualle leuchtet und nesselt. Die Sepia gibt Sepiatinte (braune Farbe) und Sepiaschulp. Das Fleisch des Grönlandhais ist roh giftig: koche oder räuchere es zu Hákarl. Eine Glasflasche an einem Pfeilschwanzkrebs zapft sein blaues Blut, und der Krebs lebt weiter. Strandkrabben lassen Krabbenpanzer fallen.
+Perlmuscheln wachsen auf Sand unter warmen Meeren in deiner Nähe; brich eine ab für Austernschalen und ab und zu eine Perle. Der Pottwal kann nicht gejagt werden. Ambra aus seinem Darm wird ab und zu an Strände gespült, und sehr selten strandet ein Pottwal und stirbt dort; er hinterlässt Walrat und Speck. Walrat und Faden ergeben eine Kerze.
+Tyrischer Purpur (Stufe 2): Purpurschnecken im Färbebottich geben violette Farbe.
+Vitamin D (Stufe 5): Haileber im Aufschlussbottich gibt Vitamin D3. Chitosan (Stufe 6): Krabbenpanzer im Aufschlussbottich geben Chitosan.
+LAL-Test (Stufe 7): Pfeilschwanzkrebsblut im Aufschlussbottich gibt Limulus-Lysat. GFP (Stufe 7): Kristallquallengewebe im Bioreaktor gibt grün fluoreszierendes Protein.
+# Tierkompendium
+Ein Buch und eine Feder ergeben das Tierkompendium. In der Schnellleiste nennt es die Tiere, die du kennst. Sieh ein Tier eine Sekunde lang innerhalb von 16 Blöcken an, fang es in einer Falle oder heb ein kleines auf, um es zu notieren; benutze das Buch, um über sie zu lesen, Biom für Biom. Systema Naturae (Stufe 3) fügt die wissenschaftlichen Namen hinzu, Die Entstehung der Arten (Stufe 4) die Evolution jedes Tieres und Die Rote Liste (Stufe 6) seinen Status.

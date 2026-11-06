@@ -1,0 +1,50 @@
+{
+ "tracked": {
+  "uranium": {
+   "isotope": "U-235",
+   "natural": 0.72,
+   "step": 0.01,
+   "changedBy": "Calutron enrichment"
+  },
+  "plutonium": {
+   "isotope": "Pu-240",
+   "natural": 24.0,
+   "step": 0.1,
+   "changedBy": "how long it stayed in the reactor"
+  },
+  "lithium": {
+   "isotope": "Li-6",
+   "natural": 7.6,
+   "step": 0.01,
+   "changedBy": "Calutron enrichment"
+  },
+  "boron": {
+   "isotope": "B-10",
+   "natural": 19.9,
+   "step": 0.1,
+   "changedBy": "Calutron enrichment"
+  },
+  "calcium": {
+   "isotope": "Ca-48",
+   "natural": 0.19,
+   "step": 0.01,
+   "changedBy": "the Calutron taking calcium-48 out"
+  },
+  "hydrogen": {
+   "isotope": "H-2",
+   "natural": 0.016,
+   "step": 0.001,
+   "changedBy": "nothing: heavy water comes out as its own substance"
+  }
+ },
+ "irradiation": {
+  "periodic_elements:plutonium": 6.0
+ },
+ "irradiationIf": {
+  "periodic_elements:lithium": {
+   "element": "lithium",
+   "min": 90.0,
+   "product": "periodic_elements:tritium_vial"
+  }
+ }
+}

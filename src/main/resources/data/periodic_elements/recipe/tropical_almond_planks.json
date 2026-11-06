@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:tropical_almond_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:tropical_almond_planks",
+    "count": 4
+  }
+}

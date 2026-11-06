@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_helmet",
+    "periodic_elements:wrought_iron_helmet",
+    "periodic_elements:crucible_steel_helmet",
+    "periodic_elements:steel_helmet",
+    "periodic_elements:manganese_steel_helmet",
+    "periodic_elements:aluminium_helmet",
+    "periodic_elements:stainless_steel_helmet",
+    "periodic_elements:titanium_alloy_helmet",
+    "periodic_elements:composite_helmet"
+  ]
+}

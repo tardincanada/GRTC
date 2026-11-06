@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HWH",
+    " B ",
+    " H "
+  ],
+  "key": {
+    "H": {
+      "item": "periodic_elements:high_speed_steel_ingot"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "B": {
+      "item": "periodic_elements:brown_bakelite"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:rotary_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+# Animales salvajes
+Cada bioma tiene de dos a cuatro animales propios, que solo aparecen allí. La mayoría huye de ti; los grandes se defienden si los golpeas. Solo el Escorpión amarillo te caza, de noche, y la Rana dorada venenosa envenena la mano desnuda que la toca.
+# Cría
+Da a dos animales de la misma especie la comida que les gusta para que críen. Lejos de su clima crían tres veces más despacio; un invernadero calentado o enfriado a su clima les deja criar como siempre.
+# Lo que dan los animales
+Los animales en un cercado (una valla a menos de 4 bloques) sueltan Estiércol de vez en cuando: úsalo en una planta como harina de hueso, o quémalo. Frota flechas en una Rana dorada venenosa para envenenar hasta 8. Un frasco de cristal en un Escorpión amarillo o un Monstruo de Gila extrae su veneno, una vez cada cinco minutos. Los avestruces ponen huevos tan grandes como cuatro de gallina.
+# Animales pequeños
+Los insectos y gusanos son objetos y bloques. Al cavar tierra o césped a veces sale una Lombriz, y al esquilar hojas de morera blanca un Gusano de seda. En el agua del pantano puede pegarse una Sanguijuela medicinal y sangrarte poco a poco: la sal la quita y te da la sanguijuela.
+Un Vermicompostador (tablones alrededor de tierra) admite una lombriz; aliméntalo con hojas, plantas, semillas o estiércol y da Humus, un fertilizante.
+Sericultura (nivel 1): la Bandeja de sericultura admite gusanos de seda; aliméntala con hojas de morera blanca y da Capullos de seda, que fundidos en el horno dan Hilo de seda.
+La cochinilla crece en cactus de desiertos y badlands, y el Insecto de la laca en troncos de jungla; las colonias aparecen cerca de ti y se extienden. Usa una colonia madura para rasparla; usa lo raspado en otro cactus o tronco de jungla para empezar una colonia.
+Carmín (nivel 2): cochinilla en la Tina de tinte da ácido carmínico, un tinte rojo.
+Goma laca (nivel 3): laca en palo en el Caldero de jabón da goma laca.
+Antídoto (nivel 4): veneno de escorpión, sal y un frasco de cristal hacen Antídoto; bébelo para curar el envenenamiento.
+Hirudina (nivel 5): sanguijuelas en la Tina de digestión dan hirudina. Exenatida (nivel 7): veneno de Monstruo de Gila en el Biorreactor da exenatida.
+# Bosques, campos y ríos
+Los faisanes y los ánades reales ponen huevos de vez en cuando, y el ánade a veces deja Plumón de pato. El ciervo común muda un Asta cada uno o dos días; molida, da polvo de hueso. Los jabalíes sueltan cerdas, que con un palo y un lingote de cobre hacen un pincel. Los esturiones dan caviar y cola de pescado.
+El erizo europeo aleja las plagas de los cultivos a menos de 4 bloques. El castor europeo come corteza de sauce y construye presas de palos y barro en el agua poco profunda cerca de él. Los piqueros peruanos dejan guano en la costa, hasta medio bloque de alto.
+Guano (nivel 3): guano en la Tina de digestión da salitre.
+Galalita (nivel 5): la caseína de la leche en la Tina de digestión, con formaldehído en la ranura del reactivo, da galalita.
+# Bosques fríos y montañas
+Los renos y los yaks dan leche en un cubo, y las tijeras sacan lana del yak o de la alpaca; cuatro hacen un bloque de lana. Los renos mudan las astas como el ciervo. El liquen de los renos crece cerca de ti en las tierras nevadas; los renos lo comen.
+Los osos pardos asaltan las colmenas y nidos de abejas llenos junto a ellos. El lince europeo caza conejos. El armiño se vuelve blanco donde hace frío.
+# Mares y costas
+Las focas anilladas y las morsas dan grasa, y las morsas marfil; derrite la grasa para aceite de lámpara. El arenque, la sepia y la medusa de cristal van en un cubo; la medusa brilla y pica. La sepia da tinta sepia (tinte marrón) y jibión. La carne del tiburón de Groenlandia es venenosa cruda: cocínala o ahúmala para hacer hákarl. Un frasco de vidrio en el límulo extrae su sangre azul, y el límulo sigue vivo. Los cangrejos verdes sueltan caparazón de cangrejo.
+Las ostras perlíferas crecen en la arena bajo mares cálidos cerca de ti; rompe una para obtener conchas de ostra y, a veces, una perla. El cachalote no se puede cazar. El ámbar gris de su intestino llega a las playas de vez en cuando, y muy raramente un cachalote vara en una playa y muere allí, dejando espermaceti y grasa. Espermaceti e hilo hacen una vela.
+Púrpura de Tiro (nivel 2): las cañaíllas en la Cuba de tinte dan tinte morado.
+Vitamina D (nivel 5): hígado de tiburón en la Cuba de digestión da vitamina D3. Quitosano (nivel 6): caparazones de cangrejo en la Cuba de digestión dan quitosano.
+Prueba LAL (nivel 7): sangre de límulo en la Cuba de digestión da lisado de Limulus. GFP (nivel 7): tejido de medusa de cristal en el Biorreactor da proteína verde fluorescente.
+# Compendio de animales
+Un libro y una pluma hacen el Compendio de animales. En la barra rápida nombra los animales que conoces. Mira un animal un segundo a menos de 16 bloques, atrápalo en una trampa o recoge uno pequeño para anotarlo; usa el libro para leer sobre ellos, bioma a bioma. Systema Naturae (nivel 3) añade los nombres científicos, El origen de las especies (nivel 4) la evolución de cada animal y La Lista Roja (nivel 6) su estado.

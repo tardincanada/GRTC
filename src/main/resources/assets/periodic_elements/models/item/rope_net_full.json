@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "periodic_elements:item/rope_net_full"
+  }
+}

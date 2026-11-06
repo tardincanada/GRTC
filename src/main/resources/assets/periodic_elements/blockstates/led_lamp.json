@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "periodic_elements:block/led_lamp"
+    },
+    "lit=true": {
+      "model": "periodic_elements:block/led_lamp_lit"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:beans"
+  },
+  "result": {
+    "id": "periodic_elements:cooked_beans"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

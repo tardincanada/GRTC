@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "periodic_elements:block/laterite",
+    "top": "periodic_elements:block/laterite",
+    "bottom": "periodic_elements:block/laterite",
+    "overlay": "periodic_elements:block/ore_overlay_bauxite"
+  }
+}

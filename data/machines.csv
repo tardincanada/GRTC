@@ -1,0 +1,72 @@
+id,level,project,max_c,fire_kw,loss,heat_capacity,throughput,bellows,residue,description
+charcoal_pit,0,,700,4,0.005,2,1000,no,wood_ash,An earth-covered wood pile that smoulders with little air
+lime_kiln,1,lime_burning,1250,4,0.0027,4,1200,yes,slag,A stone shaft kiln that burns limestone into quicklime
+smelting_furnace,1,copper_smelting,1350,4,0.0027,3,1200,yes,slag,A clay furnace that roasts copper ore and reduces it with charcoal
+bloomery,1,iron_smelting,1450,4,0.0027,4,1600,yes,slag,A charcoal shaft furnace that reduces iron ore to a spongy bloom
+crucible,1,bronze_alloying,1300,4,0.0027,2,800,yes,slag,A clay crucible set in the fire to melt and mix metals
+cupel,1,silver_cupellation,1300,4,0.003,2,1000,yes,slag,A bone-ash dish that soaks up molten litharge and leaves silver
+alembic,2,alembic_distillation,800,3,0.004,2,1000,no,slag,A still with a glass head that boils and condenses what it distils
+crystallizer,2,saltpeter_refining,150,2,0.01,3,600,no,slag,Leaching vats and a boiling pan for crystallizing salts
+charcoal_blast_furnace,2,blast_furnace,1550,6,0.0025,6,800,yes,slag,A tall charcoal furnace that melts iron into pig iron
+cementation_furnace,2,steel_cementation,1200,3,0.0025,4,4000,no,slag,Sealed chests of iron bars and charcoal held red-hot for days
+zinc_retort,2,zinc_distillation,1350,4,0.0027,3,1200,yes,slag,A closed clay retort that reduces zinc ore and condenses the metal
+amalgamation_pan,2,patio_process,700,3,0.005,2,1000,no,slag,A pan to work ore with mercury and a hood to drive the mercury off
+phosphorus_retort,2,phosphorus_isolation,1450,4,0.0027,3,1200,yes,slag,A clay retort heated white-hot whose neck dips under water
+reverberatory_furnace,2,arsenic_sublimation,1450,8,0.0025,5,1000,yes,slag,A furnace whose roof throws the flame down onto the ore; the flue catches fumes
+pottery_kiln,1,fired_pottery,1250,4,0.0027,3,1000,yes,slag,An updraft kiln that fires clay into brick and terracotta
+salt_pan,1,salt_evaporation,100,2,0.01,3,600,no,bittern,Shallow clay pans where sun and wind dry seawater to salt
+desalination_still,2,desalination,250,3,0.004,2,1000,no,bittern,A copper pot still over a fire: seawater boils and its steam condenses as pure fresh water; the salt stays in the pot
+fermentation_barrel,1,fermentation,40,0.5,0.01,2,1000,no,slag,A sealed oak barrel where yeast turns sugar into alcohol
+vinegar_vat,1,fermentation,40,0.5,0.01,2,1000,no,slag,An open vat where wine sours into vinegar in the air
+glass_furnace,1,glassmaking,1300,5,0.0027,4,1000,yes,slag,A beehive furnace whose clay pots melt sand with wood ash
+porcelain_kiln,2,porcelain,1450,6,0.0025,5,1000,yes,slag,A climbing kiln whose last chamber reaches 1300 °C
+coke_oven,3,coking,1150,6,0.0025,6,1500,no,slag,A brick beehive oven that bakes coal for two days into coke
+huntsman_furnace,3,crucible_steel,1650,8,0.0025,4,1000,no,slag,Clay crucibles of steel melted in a coke fire with a tall chimney
+pneumatic_trough,3,pneumatic_chemistry,900,3,0.004,2,1000,no,slag,A retort over a water trough that collects the gas it gives off
+electrolysis_cell,3,electrolysis,1000,4,0.0008,1.5,1000,no,slag,Electrodes in a molten salt; powered by Voltaic Piles next to it
+digestion_vat,3,acid_digestion,300,3,0.006,2,1000,no,slag,A porcelain-lined vat where hot acid dissolves ores
+reduction_crucible,3,boron,1300,4,0.0027,2,800,yes,slag,A sealed iron crucible where potassium strips oxygen and chlorine from salts
+lead_chamber,3,lead_chamber,150,2,0.01,4,1500,no,slag,A room of lead sheet where burning sulfur becomes sulfuric acid
+bessemer_converter,4,bessemer,1700,10,0.003,5,500,yes,slag,A tilting steel pear lined with firebrick: air blown through molten iron burns out its carbon
+bayer_digester,4,bayer_process,260,4,0.004,3,800,no,slag,A steel pressure vessel where hot lye dissolves the alumina out of bauxite
+hall_heroult_cell,4,hall_heroult,1000,12,0.0015,2,1000,no,slag,A carbon-lined steel pot of molten cryolite; current splits the alumina dissolved in it
+chlor_alkali_cell,4,chlor_alkali,100,8,0.004,2,800,no,slag,A slate box with a flowing mercury cathode: brine becomes lye and chlorine
+solvay_tower,4,solvay,80,2,0.005,3,600,no,slag,A tall cast-iron tower where ammoniated brine meets carbon dioxide
+contact_converter,4,contact_process,600,4,0.004,3,400,no,slag,Trays of vanadium catalyst that turn sulfur dioxide into sulfur trioxide
+air_liquefier,4,air_liquefaction,40,8,0.002,2,200,no,liquid_air,A compressor and copper heat exchanger that liquefy air and boil it apart by temperature
+spectroscope_bench,4,spectroscopy,100,1,0.01,1,1000,no,slag,A prism spectroscope with a Bunsen burner: names the traces in a residue so they can be separated
+electrolytic_refinery,4,electrolytic_refining,80,6,0.004,2,500,no,slag,Lead-lined tanks where current carries copper from crude anodes to pure cathodes
+mond_reactor,4,mond_process,250,3,0.004,2,800,no,slag,Towers where carbon monoxide carries nickel off as a gas and lays it down pure
+moissan_cell,4,fluorine,100,6,0.004,2,1000,no,slag,A platinum U-tube with fluorite stoppers for electrolysing hydrogen fluoride
+electric_arc_furnace,5,arc_furnace,3000,12,0.0035,3,1000,no,slag,Three graphite electrodes strike an arc into the charge: ferroalloys and silicon at 2000 °C and more
+high_pressure_reactor,5,haber_process,550,6,0.006,4,600,no,slag,A thick steel bomb where nitrogen and hydrogen meet over an iron catalyst at 200 atmospheres
+ostwald_converter,5,ostwald_process,950,4,0.003,2,600,no,slag,Ammonia and air flash over a red-hot platinum-rhodium gauze and become nitric acid
+flotation_cell,5,flotation,60,2,0.05,2,1000,no,slag,Stirred tanks where oily bubbles carry sulfide grains up as froth and the rock sinks
+sintering_furnace,5,cemented_carbide,1600,8,0.004,2,500,no,slag,A hydrogen furnace where pressed tungsten carbide and cobalt powder bake into solid tips
+fractional_crystallizer,5,rare_earths,900,4,0.004,3,600,no,slag,"Rows of dishes for crystallizing salts again and again, with a muffle to ignite them to oxides"
+van_arkel_reactor,5,van_arkel,1500,4,0.002,1,400,no,slag,A glass bulb where a glowing tungsten wire grows a bar of pure metal from its iodide vapour
+chlorinator,6,kroll_process,1100,6,0.004,3,600,no,slag,A brick-lined shaft where chlorine meets hot ore and coke; titanium tetrachloride boils off
+kroll_reactor,6,kroll_process,1050,6,0.004,3,600,no,slag,A stainless steel retort under argon where molten magnesium strips the chlorine from titanium
+ion_exchange_column,6,ion_exchange,90,2,0.05,2,600,no,slag,Tall glass columns of resin beads: each rare earth comes off in its own band
+crystal_puller,6,crystal_growth,1600,6,0.003,1,300,no,slag,A quartz crucible of molten silicon under argon; a turning seed draws up one crystal
+zone_refiner,6,crystal_growth,1100,4,0.003,1,300,no,slag,A boat of germanium drawn slowly through ring heaters: the impurities ride the molten zone
+diamond_press,6,diamond_synthesis,1800,10,0.004,2,200,no,slag,A belt press of cemented carbide anvils: 50000 atmospheres and 1500 °C
+enrichment_cascade,6,isotope_separation,150,12,0.1,3,600,no,slag,"Thousands of porous nickel barriers in a row: uranium hexafluoride gas comes out a little richer in uranium-235 at each"
+hot_cell,6,reprocessing,150,2,0.05,2,400,no,high_level_waste,"Lead walls and a metre of lead glass: remote hands dissolve spent fuel in nitric acid and part it by solvent"
+cyclotron,6,cyclotron,100,10,0.2,2,400,no,slag,"Two hollow copper electrodes between the poles of a great magnet whirl alpha particles into a target"
+calutron,7,electromagnetic_separation,100,10,0.5,2,400,no,slag,"A vacuum tank between the poles of a great magnet: ions of each isotope bend into their own collector pocket"
+chip_fab,7,integrated_circuits,1200,6,0.005,2,300,no,slag,"A clean room of diffusion furnaces, photomask steppers and etching baths that builds circuits layer by layer on silicon"
+heavy_ion_accelerator,7,heavy_ion_accelerator,100,40,1.0,2,400,no,slag,"A linear accelerator and superconducting separator: heavy ions slam into a spinning target and the rare survivors are caught in a detector"
+refinery_still,4,oil_refining,600,6,0.003,4,800,no,bitumen,"A riveted steel still under a fractionating column: oil boils off cut by cut, light to heavy"
+cracking_unit,5,thermal_cracking,600,8,0.004,4,600,no,slag,"A pressure still over a furnace that breaks heavy oil into gasoline and gas; later a platinum reformer"
+soap_kettle,1,rendering,150,3,0.01,2,800,no,slag,A copper kettle over a brick hearth for rendering fat and boiling soap
+oil_press,1,oil_pressing,40,0.5,0.01,2,1500,no,oil_cake,A wooden screw press that squeezes oil out of seeds
+tanning_pit,1,pit_tanning,30,0.5,0.01,2,650000,no,spent_bark,A pit of bark liquor where hides lie for months to become leather
+vulcanizer,3,vulcanization,180,4,0.008,3,800,no,slag,An iron steam pan that cures rubber with sulfur under pressure
+dye_vat,2,prussian_blue,100,2,0.01,2,800,no,slag,A copper-lined vat over a small fire where pigments are precipitated and dyes made
+tar_still,3,tar_distillation,400,4,0.005,3,1000,no,pitch,An iron pot still with a column that cuts coal tar into its oils and leaves pitch
+autoclave,4,alizarin,250,6,0.006,3,1000,no,slag,A bolted steel pressure vessel for reactions at 200 °C and 20 atmospheres
+prilling_tower,5,prilled_fertilizer,200,6,0.004,3,800,no,slag,"An electric melt pot at the top of a tall tower: drops of fertilizer freeze into prills as they fall"
+deep_tank_fermenter,6,penicillin,40,4,0.004,4,800,no,spent_mycelium,"A steel tank stirred and blown with sterile air: the only way to grow antibiotics by the tonne"
+bioreactor,7,recombinant_dna,45,4,0.004,4,800,no,biomass,"A sterile glass and steel vessel run by a chip: engineered microbes make fuels, plastics and medicines"
+air_compressor,4,rock_drill,40,8,0.002,2,200,no,slag,"An electric piston compressor: draws in air and fills Steel Cylinders with it, no Compressor upgrade needed"

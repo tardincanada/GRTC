@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:protein_meal",
+    "periodic_elements:palo_verde_seeds",
+    "periodic_elements:rowan_berry",
+    "periodic_elements:rice",
+    "periodic_elements:maize_kernels",
+    "periodic_elements:soybeans",
+    "periodic_elements:sorghum",
+    "periodic_elements:oats",
+    "periodic_elements:balanced_feed"
+  ]
+}

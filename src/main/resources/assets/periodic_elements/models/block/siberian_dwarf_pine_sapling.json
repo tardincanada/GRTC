@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "periodic_elements:block/siberian_dwarf_pine_sapling"
+  }
+}

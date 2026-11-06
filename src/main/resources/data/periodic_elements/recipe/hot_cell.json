@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LGL",
+    "WPW",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:hot_cell",
+    "count": 1
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "materials": [
+    {
+      "id": "bronze",
+      "ingot": "periodic_elements:bronze_ingot",
+      "durability": 200,
+      "speed": 5.5,
+      "damage": 1.5,
+      "enchantability": 12,
+      "incorrect": "minecraft:incorrect_for_stone_tool",
+      "items": [
+        {
+          "id": "bronze_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "bronze_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "bronze_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "bronze_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "bronze_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "bronze_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "bronze_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "bronze_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "bronze_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        1,
+        4,
+        5,
+        2
+      ],
+      "toughness": 0.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 12,
+      "armorEnchantability": 12,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "wrought_iron",
+      "ingot": "minecraft:iron_ingot",
+      "durability": 300,
+      "speed": 6.0,
+      "damage": 2.0,
+      "enchantability": 14,
+      "incorrect": "minecraft:incorrect_for_iron_tool",
+      "items": [
+        {
+          "id": "wrought_iron_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "wrought_iron_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "wrought_iron_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "wrought_iron_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "wrought_iron_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "wrought_iron_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "wrought_iron_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "wrought_iron_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "wrought_iron_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        2,
+        5,
+        6,
+        2
+      ],
+      "toughness": 0.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 17,
+      "armorEnchantability": 9,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "crucible_steel",
+      "ingot": "periodic_elements:crucible_steel_ingot",
+      "durability": 900,
+      "speed": 7.0,
+      "damage": 3.0,
+      "enchantability": 14,
+      "incorrect": "minecraft:incorrect_for_diamond_tool",
+      "items": [
+        {
+          "id": "crucible_steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "crucible_steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "crucible_steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "crucible_steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "crucible_steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "crucible_steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "crucible_steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "crucible_steel_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "crucible_steel_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "crucible_steel_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "crucible_steel_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        2,
+        5,
+        7,
+        3
+      ],
+      "toughness": 1.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 28,
+      "armorEnchantability": 12,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "steel",
+      "ingot": "periodic_elements:steel_ingot",
+      "durability": 600,
+      "speed": 6.5,
+      "damage": 2.5,
+      "enchantability": 14,
+      "incorrect": "minecraft:incorrect_for_iron_tool",
+      "items": [
+        {
+          "id": "steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "steel_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "steel_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "steel_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "steel_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        2,
+        5,
+        6,
+        2
+      ],
+      "toughness": 1.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 22,
+      "armorEnchantability": 12,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "manganese_steel",
+      "ingot": "periodic_elements:manganese_steel_ingot",
+      "durability": 1000,
+      "speed": 6.5,
+      "damage": 3.0,
+      "enchantability": 12,
+      "incorrect": "minecraft:incorrect_for_diamond_tool",
+      "items": [
+        {
+          "id": "manganese_steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "manganese_steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "manganese_steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "manganese_steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "manganese_steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "manganese_steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "manganese_steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "manganese_steel_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "manganese_steel_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "manganese_steel_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "manganese_steel_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        2,
+        6,
+        7,
+        3
+      ],
+      "toughness": 2.0,
+      "knockback": 0.05,
+      "durabilityMultiplier": 30,
+      "armorEnchantability": 10,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "tungsten_steel",
+      "ingot": "periodic_elements:tungsten_steel_ingot",
+      "durability": 1300,
+      "speed": 8.5,
+      "damage": 3.0,
+      "enchantability": 10,
+      "incorrect": "minecraft:incorrect_for_diamond_tool",
+      "items": [
+        {
+          "id": "tungsten_steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "tungsten_steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "tungsten_steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "tungsten_steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "tungsten_steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "tungsten_steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "tungsten_steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        }
+      ]
+    },
+    {
+      "id": "aluminium",
+      "ingot": "periodic_elements:aluminium",
+      "durability": 400,
+      "speed": 7.0,
+      "damage": 2.0,
+      "enchantability": 16,
+      "incorrect": "minecraft:incorrect_for_iron_tool",
+      "items": [
+        {
+          "id": "aluminium_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "aluminium_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "aluminium_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "aluminium_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "aluminium_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "aluminium_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "aluminium_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "aluminium_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "aluminium_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "aluminium_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "aluminium_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        2,
+        5,
+        6,
+        2
+      ],
+      "toughness": 0.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 15,
+      "armorEnchantability": 18,
+      "armorSpeed": 0.0125
+    },
+    {
+      "id": "stainless_steel",
+      "ingot": "periodic_elements:stainless_steel_ingot",
+      "durability": 1800,
+      "speed": 8.0,
+      "damage": 3.0,
+      "enchantability": 12,
+      "incorrect": "minecraft:incorrect_for_diamond_tool",
+      "items": [
+        {
+          "id": "stainless_steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "stainless_steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "stainless_steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "stainless_steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "stainless_steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "stainless_steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "stainless_steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "stainless_steel_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "stainless_steel_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "stainless_steel_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "stainless_steel_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        3,
+        6,
+        8,
+        3
+      ],
+      "toughness": 2.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 33,
+      "armorEnchantability": 12,
+      "armorSpeed": 0.0
+    },
+    {
+      "id": "high_speed_steel",
+      "ingot": "periodic_elements:high_speed_steel_ingot",
+      "durability": 1600,
+      "speed": 10.0,
+      "damage": 3.0,
+      "enchantability": 10,
+      "incorrect": "minecraft:incorrect_for_netherite_tool",
+      "items": [
+        {
+          "id": "high_speed_steel_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "high_speed_steel_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "high_speed_steel_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "high_speed_steel_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "high_speed_steel_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "high_speed_steel_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "high_speed_steel_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        }
+      ]
+    },
+    {
+      "id": "cemented_carbide",
+      "ingot": "periodic_elements:cemented_carbide",
+      "durability": 1200,
+      "speed": 12.0,
+      "damage": 2.0,
+      "enchantability": 8,
+      "incorrect": "minecraft:incorrect_for_netherite_tool",
+      "items": [
+        {
+          "id": "cemented_carbide_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "cemented_carbide_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "cemented_carbide_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "cemented_carbide_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "cemented_carbide_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "cemented_carbide_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "cemented_carbide_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        }
+      ]
+    },
+    {
+      "id": "beryllium_copper",
+      "ingot": "periodic_elements:beryllium_copper_ingot",
+      "durability": 450,
+      "speed": 6.5,
+      "damage": 2.0,
+      "enchantability": 18,
+      "incorrect": "minecraft:incorrect_for_iron_tool",
+      "items": [
+        {
+          "id": "beryllium_copper_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "beryllium_copper_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "beryllium_copper_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "beryllium_copper_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "beryllium_copper_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "beryllium_copper_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "beryllium_copper_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        }
+      ]
+    },
+    {
+      "id": "titanium_alloy",
+      "ingot": "periodic_elements:titanium_alloy_ingot",
+      "durability": 2100,
+      "speed": 8.5,
+      "damage": 3.5,
+      "enchantability": 16,
+      "incorrect": "minecraft:incorrect_for_netherite_tool",
+      "items": [
+        {
+          "id": "titanium_alloy_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "titanium_alloy_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "titanium_alloy_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "titanium_alloy_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "titanium_alloy_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "titanium_alloy_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "titanium_alloy_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        },
+        {
+          "id": "titanium_alloy_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "titanium_alloy_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "titanium_alloy_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "titanium_alloy_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        3,
+        6,
+        8,
+        3
+      ],
+      "toughness": 3.0,
+      "knockback": 0.0,
+      "durabilityMultiplier": 37,
+      "armorEnchantability": 16,
+      "armorSpeed": 0.0125
+    },
+    {
+      "id": "synthetic_diamond",
+      "ingot": "periodic_elements:synthetic_diamond",
+      "durability": 2500,
+      "speed": 13.0,
+      "damage": 4.0,
+      "enchantability": 10,
+      "incorrect": "minecraft:incorrect_for_netherite_tool",
+      "items": [
+        {
+          "id": "synthetic_diamond_sword",
+          "kind": "sword",
+          "base": 3.0,
+          "speed": -2.4
+        },
+        {
+          "id": "synthetic_diamond_pickaxe",
+          "kind": "pickaxe",
+          "base": 1.0,
+          "speed": -2.8
+        },
+        {
+          "id": "synthetic_diamond_axe",
+          "kind": "axe",
+          "base": 6.0,
+          "speed": -3.1
+        },
+        {
+          "id": "synthetic_diamond_shovel",
+          "kind": "shovel",
+          "base": 1.5,
+          "speed": -3.0
+        },
+        {
+          "id": "synthetic_diamond_hoe",
+          "kind": "hoe",
+          "base": -1.5,
+          "speed": -1.0
+        },
+        {
+          "id": "synthetic_diamond_sledgehammer",
+          "kind": "sledgehammer",
+          "base": 5.0,
+          "speed": -3.4
+        },
+        {
+          "id": "synthetic_diamond_excavator",
+          "kind": "excavator",
+          "base": 2.0,
+          "speed": -3.2
+        }
+      ]
+    },
+    {
+      "id": "composite",
+      "ingot": "periodic_elements:composite_plate",
+      "durability": 1,
+      "speed": 1.0,
+      "damage": 0.0,
+      "enchantability": 1,
+      "incorrect": "minecraft:incorrect_for_netherite_tool",
+      "items": [
+        {
+          "id": "composite_helmet",
+          "kind": "helmet"
+        },
+        {
+          "id": "composite_chestplate",
+          "kind": "chestplate"
+        },
+        {
+          "id": "composite_leggings",
+          "kind": "leggings"
+        },
+        {
+          "id": "composite_boots",
+          "kind": "boots"
+        }
+      ],
+      "armor": [
+        3,
+        7,
+        9,
+        3
+      ],
+      "toughness": 4.0,
+      "knockback": 0.15,
+      "durabilityMultiplier": 40,
+      "armorEnchantability": 12,
+      "armorSpeed": 0.0
+    }
+  ],
+  "guns": [
+    {
+      "durability": 150,
+      "cooldown": 60,
+      "velocity": 4.5,
+      "damage": 2.2,
+      "project": "gunpowder",
+      "powder": "periodic_elements:black_powder",
+      "shot": "periodic_elements:lead",
+      "id": "hand_cannon"
+    },
+    {
+      "durability": 300,
+      "cooldown": 40,
+      "velocity": 6.0,
+      "damage": 2.4,
+      "project": "flintlock",
+      "powder": "periodic_elements:black_powder",
+      "shot": "periodic_elements:lead",
+      "id": "flintlock_musket"
+    },
+    {
+      "durability": 600,
+      "cooldown": 20,
+      "velocity": 8.0,
+      "damage": 3.0,
+      "project": "breech_loading",
+      "powder": "periodic_elements:smokeless_powder",
+      "shot": "periodic_elements:lead",
+      "id": "breech_loading_rifle"
+    }
+  ]
+}

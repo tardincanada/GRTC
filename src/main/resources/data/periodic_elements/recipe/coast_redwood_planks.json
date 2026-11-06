@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:coast_redwood_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:coast_redwood_planks",
+    "count": 4
+  }
+}

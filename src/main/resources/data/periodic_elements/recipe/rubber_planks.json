@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:rubber_log"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:rubber_planks",
+    "count": 4
+  }
+}

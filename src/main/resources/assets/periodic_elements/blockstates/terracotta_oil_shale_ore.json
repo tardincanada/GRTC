@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/terracotta_oil_shale_ore"
+      },
+      {
+        "model": "periodic_elements:block/terracotta_oil_shale_ore",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/terracotta_oil_shale_ore",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/terracotta_oil_shale_ore",
+        "y": 270
+      }
+    ]
+  }
+}

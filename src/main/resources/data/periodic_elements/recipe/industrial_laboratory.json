@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GSG",
+    "CLC",
+    "TTT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "periodic_elements:crucible_steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "L": {
+      "item": "periodic_elements:natural_philosophers_laboratory"
+    },
+    "T": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:industrial_laboratory",
+    "count": 1
+  }
+}

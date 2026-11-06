@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:polished_shale_slab",
+    "periodic_elements:polished_gneiss_slab",
+    "periodic_elements:polished_peridotite_slab",
+    "periodic_elements:polished_kimberlite_slab",
+    "periodic_elements:polished_laterite_slab"
+  ]
+}

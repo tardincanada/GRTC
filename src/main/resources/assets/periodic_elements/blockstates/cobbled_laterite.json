@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/cobbled_laterite"
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_laterite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

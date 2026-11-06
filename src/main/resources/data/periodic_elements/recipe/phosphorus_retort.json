@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "K K",
+    "KKK"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "K": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:phosphorus_retort",
+    "count": 1
+  }
+}

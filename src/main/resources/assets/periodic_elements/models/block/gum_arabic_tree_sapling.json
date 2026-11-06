@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "periodic_elements:block/gum_arabic_tree_sapling"
+  }
+}

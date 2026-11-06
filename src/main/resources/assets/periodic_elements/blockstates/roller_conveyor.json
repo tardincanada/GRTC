@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "periodic_elements:block/roller_conveyor"
+    },
+    "facing=east": {
+      "model": "periodic_elements:block/roller_conveyor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "periodic_elements:block/roller_conveyor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "periodic_elements:block/roller_conveyor",
+      "y": 270
+    }
+  }
+}

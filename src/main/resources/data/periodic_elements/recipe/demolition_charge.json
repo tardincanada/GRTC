@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:trinitrotoluene"
+    },
+    {
+      "item": "periodic_elements:trinitrotoluene"
+    },
+    {
+      "item": "periodic_elements:trinitrotoluene"
+    },
+    {
+      "item": "periodic_elements:trinitrotoluene"
+    },
+    {
+      "item": "periodic_elements:steel_ingot"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:demolition_charge",
+    "count": 1
+  }
+}

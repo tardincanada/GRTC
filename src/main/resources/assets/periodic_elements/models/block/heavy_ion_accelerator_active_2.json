@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/heavy_ion_accelerator_top_active_2",
+    "front": "periodic_elements:block/heavy_ion_accelerator_front_active_2",
+    "side": "periodic_elements:block/heavy_ion_accelerator_side"
+  }
+}

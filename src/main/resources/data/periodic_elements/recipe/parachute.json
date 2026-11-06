@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "N N",
+    "S S"
+  ],
+  "key": {
+    "N": {
+      "item": "periodic_elements:nylon"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:parachute",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:green_bakelite",
+    "count": 4
+  }
+}

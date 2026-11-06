@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "DLD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "L": {
+      "tag": "minecraft:logs_that_burn"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:charcoal_pit",
+    "count": 1
+  }
+}

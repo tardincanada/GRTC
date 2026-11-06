@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_boots",
+    "periodic_elements:wrought_iron_boots",
+    "periodic_elements:crucible_steel_boots",
+    "periodic_elements:steel_boots",
+    "periodic_elements:manganese_steel_boots",
+    "periodic_elements:aluminium_boots",
+    "periodic_elements:stainless_steel_boots",
+    "periodic_elements:titanium_alloy_boots",
+    "periodic_elements:composite_boots"
+  ]
+}

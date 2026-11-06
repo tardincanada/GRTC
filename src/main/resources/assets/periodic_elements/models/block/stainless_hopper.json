@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/hopper",
+  "textures": {
+    "particle": "periodic_elements:block/stainless_hopper_outside",
+    "top": "periodic_elements:block/stainless_hopper_top",
+    "side": "periodic_elements:block/stainless_hopper_outside",
+    "inside": "periodic_elements:block/stainless_hopper_inside"
+  }
+}

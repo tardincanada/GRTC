@@ -1,0 +1,979 @@
+{
+  "variants": {
+    "facing=north,level=0,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=0,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=0,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=0,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=0,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=1,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=1,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_1"
+    },
+    "facing=north,level=1,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_2"
+    },
+    "facing=north,level=1,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_3"
+    },
+    "facing=north,level=1,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=2,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=2,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_1"
+    },
+    "facing=north,level=2,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_2"
+    },
+    "facing=north,level=2,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_3"
+    },
+    "facing=north,level=2,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=3,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=3,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_1"
+    },
+    "facing=north,level=3,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_2"
+    },
+    "facing=north,level=3,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_3"
+    },
+    "facing=north,level=3,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=4,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=4,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_1"
+    },
+    "facing=north,level=4,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_2"
+    },
+    "facing=north,level=4,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_3"
+    },
+    "facing=north,level=4,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=5,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=5,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_1"
+    },
+    "facing=north,level=5,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_2"
+    },
+    "facing=north,level=5,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_3"
+    },
+    "facing=north,level=5,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=6,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=6,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_1"
+    },
+    "facing=north,level=6,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_2"
+    },
+    "facing=north,level=6,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_3"
+    },
+    "facing=north,level=6,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=7,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=7,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_1"
+    },
+    "facing=north,level=7,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_2"
+    },
+    "facing=north,level=7,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_3"
+    },
+    "facing=north,level=7,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=8,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=8,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_1"
+    },
+    "facing=north,level=8,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_2"
+    },
+    "facing=north,level=8,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_3"
+    },
+    "facing=north,level=8,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=9,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=9,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_1"
+    },
+    "facing=north,level=9,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_2"
+    },
+    "facing=north,level=9,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_3"
+    },
+    "facing=north,level=9,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=10,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=10,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_1"
+    },
+    "facing=north,level=10,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_2"
+    },
+    "facing=north,level=10,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_3"
+    },
+    "facing=north,level=10,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=11,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=11,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_1"
+    },
+    "facing=north,level=11,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_2"
+    },
+    "facing=north,level=11,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_3"
+    },
+    "facing=north,level=11,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=12,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=12,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=12,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=12,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0"
+    },
+    "facing=north,level=12,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_12_4"
+    },
+    "facing=east,level=0,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=0,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=0,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=0,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=0,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=1,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=1,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_1",
+      "y": 90
+    },
+    "facing=east,level=1,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_2",
+      "y": 90
+    },
+    "facing=east,level=1,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_3",
+      "y": 90
+    },
+    "facing=east,level=1,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=2,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=2,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_1",
+      "y": 90
+    },
+    "facing=east,level=2,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_2",
+      "y": 90
+    },
+    "facing=east,level=2,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_3",
+      "y": 90
+    },
+    "facing=east,level=2,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=3,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=3,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_1",
+      "y": 90
+    },
+    "facing=east,level=3,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_2",
+      "y": 90
+    },
+    "facing=east,level=3,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_3",
+      "y": 90
+    },
+    "facing=east,level=3,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=4,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=4,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_1",
+      "y": 90
+    },
+    "facing=east,level=4,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_2",
+      "y": 90
+    },
+    "facing=east,level=4,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_3",
+      "y": 90
+    },
+    "facing=east,level=4,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=5,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=5,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_1",
+      "y": 90
+    },
+    "facing=east,level=5,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_2",
+      "y": 90
+    },
+    "facing=east,level=5,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_3",
+      "y": 90
+    },
+    "facing=east,level=5,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=6,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=6,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_1",
+      "y": 90
+    },
+    "facing=east,level=6,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_2",
+      "y": 90
+    },
+    "facing=east,level=6,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_3",
+      "y": 90
+    },
+    "facing=east,level=6,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=7,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=7,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_1",
+      "y": 90
+    },
+    "facing=east,level=7,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_2",
+      "y": 90
+    },
+    "facing=east,level=7,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_3",
+      "y": 90
+    },
+    "facing=east,level=7,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=8,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=8,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_1",
+      "y": 90
+    },
+    "facing=east,level=8,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_2",
+      "y": 90
+    },
+    "facing=east,level=8,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_3",
+      "y": 90
+    },
+    "facing=east,level=8,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=9,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=9,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_1",
+      "y": 90
+    },
+    "facing=east,level=9,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_2",
+      "y": 90
+    },
+    "facing=east,level=9,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_3",
+      "y": 90
+    },
+    "facing=east,level=9,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=10,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=10,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_1",
+      "y": 90
+    },
+    "facing=east,level=10,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_2",
+      "y": 90
+    },
+    "facing=east,level=10,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_3",
+      "y": 90
+    },
+    "facing=east,level=10,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=11,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=11,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_1",
+      "y": 90
+    },
+    "facing=east,level=11,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_2",
+      "y": 90
+    },
+    "facing=east,level=11,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_3",
+      "y": 90
+    },
+    "facing=east,level=11,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=12,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=12,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=12,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=12,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 90
+    },
+    "facing=east,level=12,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_12_4",
+      "y": 90
+    },
+    "facing=south,level=0,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=0,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=0,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=0,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=0,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=1,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=1,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_1",
+      "y": 180
+    },
+    "facing=south,level=1,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_2",
+      "y": 180
+    },
+    "facing=south,level=1,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_3",
+      "y": 180
+    },
+    "facing=south,level=1,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=2,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=2,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_1",
+      "y": 180
+    },
+    "facing=south,level=2,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_2",
+      "y": 180
+    },
+    "facing=south,level=2,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_3",
+      "y": 180
+    },
+    "facing=south,level=2,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=3,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=3,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_1",
+      "y": 180
+    },
+    "facing=south,level=3,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_2",
+      "y": 180
+    },
+    "facing=south,level=3,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_3",
+      "y": 180
+    },
+    "facing=south,level=3,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=4,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=4,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_1",
+      "y": 180
+    },
+    "facing=south,level=4,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_2",
+      "y": 180
+    },
+    "facing=south,level=4,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_3",
+      "y": 180
+    },
+    "facing=south,level=4,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=5,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=5,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_1",
+      "y": 180
+    },
+    "facing=south,level=5,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_2",
+      "y": 180
+    },
+    "facing=south,level=5,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_3",
+      "y": 180
+    },
+    "facing=south,level=5,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=6,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=6,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_1",
+      "y": 180
+    },
+    "facing=south,level=6,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_2",
+      "y": 180
+    },
+    "facing=south,level=6,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_3",
+      "y": 180
+    },
+    "facing=south,level=6,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=7,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=7,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_1",
+      "y": 180
+    },
+    "facing=south,level=7,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_2",
+      "y": 180
+    },
+    "facing=south,level=7,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_3",
+      "y": 180
+    },
+    "facing=south,level=7,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=8,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=8,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_1",
+      "y": 180
+    },
+    "facing=south,level=8,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_2",
+      "y": 180
+    },
+    "facing=south,level=8,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_3",
+      "y": 180
+    },
+    "facing=south,level=8,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=9,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=9,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_1",
+      "y": 180
+    },
+    "facing=south,level=9,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_2",
+      "y": 180
+    },
+    "facing=south,level=9,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_3",
+      "y": 180
+    },
+    "facing=south,level=9,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=10,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=10,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_1",
+      "y": 180
+    },
+    "facing=south,level=10,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_2",
+      "y": 180
+    },
+    "facing=south,level=10,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_3",
+      "y": 180
+    },
+    "facing=south,level=10,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=11,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=11,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_1",
+      "y": 180
+    },
+    "facing=south,level=11,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_2",
+      "y": 180
+    },
+    "facing=south,level=11,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_3",
+      "y": 180
+    },
+    "facing=south,level=11,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=12,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=12,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=12,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=12,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 180
+    },
+    "facing=south,level=12,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_12_4",
+      "y": 180
+    },
+    "facing=west,level=0,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=0,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=0,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=0,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=0,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=1,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=1,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_1",
+      "y": 270
+    },
+    "facing=west,level=1,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_2",
+      "y": 270
+    },
+    "facing=west,level=1,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_1_3",
+      "y": 270
+    },
+    "facing=west,level=1,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=2,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=2,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_1",
+      "y": 270
+    },
+    "facing=west,level=2,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_2",
+      "y": 270
+    },
+    "facing=west,level=2,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_2_3",
+      "y": 270
+    },
+    "facing=west,level=2,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=3,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=3,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_1",
+      "y": 270
+    },
+    "facing=west,level=3,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_2",
+      "y": 270
+    },
+    "facing=west,level=3,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_3_3",
+      "y": 270
+    },
+    "facing=west,level=3,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=4,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=4,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_1",
+      "y": 270
+    },
+    "facing=west,level=4,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_2",
+      "y": 270
+    },
+    "facing=west,level=4,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_4_3",
+      "y": 270
+    },
+    "facing=west,level=4,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=5,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=5,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_1",
+      "y": 270
+    },
+    "facing=west,level=5,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_2",
+      "y": 270
+    },
+    "facing=west,level=5,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_5_3",
+      "y": 270
+    },
+    "facing=west,level=5,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=6,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=6,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_1",
+      "y": 270
+    },
+    "facing=west,level=6,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_2",
+      "y": 270
+    },
+    "facing=west,level=6,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_6_3",
+      "y": 270
+    },
+    "facing=west,level=6,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=7,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=7,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_1",
+      "y": 270
+    },
+    "facing=west,level=7,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_2",
+      "y": 270
+    },
+    "facing=west,level=7,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_7_3",
+      "y": 270
+    },
+    "facing=west,level=7,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=8,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=8,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_1",
+      "y": 270
+    },
+    "facing=west,level=8,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_2",
+      "y": 270
+    },
+    "facing=west,level=8,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_8_3",
+      "y": 270
+    },
+    "facing=west,level=8,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=9,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=9,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_1",
+      "y": 270
+    },
+    "facing=west,level=9,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_2",
+      "y": 270
+    },
+    "facing=west,level=9,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_9_3",
+      "y": 270
+    },
+    "facing=west,level=9,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=10,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=10,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_1",
+      "y": 270
+    },
+    "facing=west,level=10,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_2",
+      "y": 270
+    },
+    "facing=west,level=10,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_10_3",
+      "y": 270
+    },
+    "facing=west,level=10,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=11,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=11,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_1",
+      "y": 270
+    },
+    "facing=west,level=11,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_2",
+      "y": 270
+    },
+    "facing=west,level=11,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_11_3",
+      "y": 270
+    },
+    "facing=west,level=11,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=12,band=0": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=12,band=1": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=12,band=2": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=12,band=3": {
+      "model": "periodic_elements:block/lithium_ion_battery_0_0",
+      "y": 270
+    },
+    "facing=west,level=12,band=4": {
+      "model": "periodic_elements:block/lithium_ion_battery_12_4",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LWL",
+    "GCG"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "periodic_elements:caesium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:night_vision_goggles",
+    "count": 1
+  }
+}

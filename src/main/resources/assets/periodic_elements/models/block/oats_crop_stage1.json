@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "periodic_elements:block/oats_crop_stage1"
+  }
+}

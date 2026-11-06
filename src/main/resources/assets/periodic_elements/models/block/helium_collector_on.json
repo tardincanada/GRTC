@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/helium_collector_top_on",
+    "front": "periodic_elements:block/helium_collector_front_on",
+    "side": "periodic_elements:block/helium_collector_side"
+  }
+}

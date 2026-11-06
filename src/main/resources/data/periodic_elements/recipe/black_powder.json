@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "periodic_elements:potassium_nitrate"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "periodic_elements:sulfur"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:black_powder",
+    "count": 8
+  }
+}

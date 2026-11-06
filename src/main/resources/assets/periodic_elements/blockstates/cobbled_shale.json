@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/cobbled_shale"
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_shale",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

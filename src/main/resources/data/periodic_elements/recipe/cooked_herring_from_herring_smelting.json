@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:herring"
+  },
+  "result": {
+    "id": "periodic_elements:cooked_herring",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

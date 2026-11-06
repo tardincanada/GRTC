@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:maize_kernels"
+    },
+    {
+      "item": "periodic_elements:oats"
+    },
+    {
+      "item": "periodic_elements:protein_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "periodic_elements:sodium_chloride"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:balanced_feed",
+    "count": 4
+  }
+}

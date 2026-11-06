@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "periodic_elements:block/sagebrush_bush_stage2"
+  }
+}

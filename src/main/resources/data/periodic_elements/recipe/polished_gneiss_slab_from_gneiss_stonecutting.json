@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "periodic_elements:gneiss"
+  },
+  "result": {
+    "id": "periodic_elements:polished_gneiss_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KCK",
+    "KFK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "F": {
+      "item": "periodic_elements:smelting_furnace"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:zinc_retort",
+    "count": 1
+  }
+}

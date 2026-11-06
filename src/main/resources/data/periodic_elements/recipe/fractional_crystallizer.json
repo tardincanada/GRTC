@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "PCP",
+    "KKK"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:porcelain"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "periodic_elements:crystallizer"
+    },
+    "K": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fractional_crystallizer",
+    "count": 1
+  }
+}

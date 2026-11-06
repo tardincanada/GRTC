@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/natural_philosophers_laboratory_top",
+    "front": "periodic_elements:block/natural_philosophers_laboratory_front",
+    "side": "periodic_elements:block/natural_philosophers_laboratory_side"
+  }
+}

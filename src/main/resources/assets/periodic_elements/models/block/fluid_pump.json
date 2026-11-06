@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "periodic_elements:block/fluid_pump_side",
+    "north": "periodic_elements:block/fluid_pump_front",
+    "south": "periodic_elements:block/fluid_pump_back",
+    "east": "periodic_elements:block/fluid_pump_side",
+    "west": "periodic_elements:block/fluid_pump_side",
+    "up": "periodic_elements:block/fluid_pump_side",
+    "down": "periodic_elements:block/fluid_pump_side"
+  }
+}

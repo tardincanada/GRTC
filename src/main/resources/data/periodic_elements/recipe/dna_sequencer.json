@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:dna_sequencer",
+    "count": 1
+  }
+}

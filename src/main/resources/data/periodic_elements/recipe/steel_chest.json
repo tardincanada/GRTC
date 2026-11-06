@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:iron_chest"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:steel_chest",
+    "count": 1
+  }
+}

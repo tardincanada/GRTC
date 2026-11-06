@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/lead_sheet"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/lead_sheet_active"
+    }
+  }
+}

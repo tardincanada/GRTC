@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "periodic_elements:tungsten_steel_ingot"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tungsten_steel_bit",
+    "count": 1
+  }
+}

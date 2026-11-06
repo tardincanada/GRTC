@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SVS",
+    "S S",
+    "SVS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "V": {
+      "item": "periodic_elements:vanadium_pentoxide"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:contact_converter",
+    "count": 1
+  }
+}

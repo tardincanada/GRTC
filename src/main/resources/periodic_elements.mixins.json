@@ -1,0 +1,40 @@
+{
+	"required": true,
+	"package": "com.periodicelements.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"EntityMixin",
+		"AbstractMinecartEntityMixin",
+		"ZombieVillagerEntityMixin",
+		"PlayerEntityMixin",
+		"CropBlockMixin",
+		"FlowableFluidMixin",
+		"SweetBerryBushBlockMixin",
+		"MilkBucketItemMixin",
+		"NoiseChunkGeneratorMixin",
+		"BiomeTemperatureMixin",
+		"MultiNoiseBiomeSourceMixin",
+		"SpreadableBlockMixin",
+		"IceBlockMixin",
+		"CraftingResultSlotMixin",
+		"PlacedFeatureMixin",
+		"BlockItemMixin",
+		"AbstractBlockMixin",
+		"ItemEntityMixin",
+		"WaterFluidMixin",
+		"FluidBlockMixin",
+		"BiomeIceMixin",
+		"ChunkGeneratorMixin",
+		"NoiseConfigMixin",
+		"HostileEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"DrawContextMixin",
+		"WorldCreatorMixin",
+		"MinecraftClientMixin",
+		"WorldRendererRainMixin"
+	]
+}

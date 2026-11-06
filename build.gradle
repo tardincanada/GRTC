@@ -1,0 +1,311 @@
+plugins {
+	id 'fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+sourceSets {
+	// Automated game tests (src/gametest). Not shipped in the mod jar.
+	gametest {
+		compileClasspath += main.compileClasspath + main.output
+		runtimeClasspath += main.runtimeClasspath + main.output
+	}
+}
+
+loom {
+	mods {
+		"periodic_elements" {
+			sourceSet sourceSets.main
+		}
+		"periodic_elements_gametest" {
+			sourceSet sourceSets.gametest
+		}
+	}
+	runs {
+		// ./gradlew runGametest : starts a server, runs every test, exits non-zero on failure.
+		gametest {
+			server()
+			name "Game Test"
+			source sourceSets.gametest
+			vmArg "-Dfabric-api.gametest"
+			vmArg "-Dfabric-api.gametest.report-file=${project.buildDir}/gametest/report.xml"
+			runDir "build/gametest"
+		}
+		// ./gradlew runGuideShots : opens the Field Guide from the title screen and screenshots it.
+		guideShots {
+			client()
+			name "Guide Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.guideshots=true"
+			runDir "run"
+		}
+		// ./gradlew runGeoOptionsShots : the world-creation screen and the Geological "Customize" screen (3.49.0).
+		geoOptionsShots {
+			client()
+			name "Geo Options Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.geooptionsshots=true"
+			runDir "run"
+		}
+		// ./gradlew runCherenkovShots : makes a flat world and screenshots the Cherenkov glow.
+		cherenkovShots {
+			client()
+			name "Cherenkov Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.cherenkovshots=true"
+			runDir "run"
+		}
+		// ./gradlew runStructureShots : a flat world with a blast furnace stack and a coke battery (3.2.0).
+		structureShots {
+			client()
+			name "Structure Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.structureshots=true"
+			runDir "run"
+		}
+		// ./gradlew runOreServer : a plain dedicated server in build/oreserver, for counting ores per area (3.17.0).
+		oreServer {
+			server()
+			name "Ore Server"
+			runDir "build/oreserver"
+		}
+		// ./gradlew runWaterMap : generates a world (server.properties in build/watermap) and maps salt and fresh water.
+		waterMap {
+			server()
+			name "Water Map"
+			source sourceSets.gametest
+			vmArg "-Dpe.watermap=true"
+			vmArg "-Dpe.watermap.half=" + (project.findProperty("waterHalf") ?: "256")
+			vmArg "-Dpe.watermap.at=" + (project.findProperty("waterAt") ?: "")
+			runDir "build/watermap"
+		}
+		// ./gradlew runTerrainShots : makes a Geological world and screenshots its landforms from the air.
+		terrainShots {
+			client()
+			name "Terrain Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.terrainshots=true"
+			runDir "run"
+		}
+		// ./gradlew runTreeShots : makes a normal world and screenshots the new trees in the wild and in a sky arboretum.
+		treeShots {
+			client()
+			name "Tree Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.treeshots=true"
+			runDir "run"
+		}
+		// ./gradlew runShrubShots : screenshots the shrubs in the wild, in a sky garden and in a heated greenhouse.
+		shrubShots {
+			client()
+			name "Shrub Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.shrubshots=true"
+			runDir "run"
+		}
+		// ./gradlew runCropShots : screenshots the crops growing wild and a sky field of every crop.
+		cropShots {
+			client()
+			name "Crop Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.cropshots=true"
+			runDir "run"
+		}
+		// ./gradlew runCompendiumShots : screenshots the Tree Compendium's corner display and book in a forest.
+		compendiumShots {
+			client()
+			name "Compendium Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.compendiumshots=true"
+			runDir "run"
+		}
+		// ./gradlew runAtlasShots : makes a Geological world and screenshots the Field Atlas at each stage of research.
+		atlasShots {
+			client()
+			name "Atlas Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.atlasshots=true"
+			runDir "run"
+		}
+		// ./gradlew runProgressBookShots : opens the Book of Progress in a flat world, picks level 4 (3.20.0). -Dpe.lang via JAVA args.
+		progressBookShots {
+			client()
+			name "Progress Book Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.progressshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runCreativeShots : every creative tab of the mod, then the creative test blocks (3.51.0). PE_LANG for the language.
+		creativeShots {
+			client()
+			name "Creative Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.creativeshots=true"
+			programArgs "--width", "1600", "--height", "900"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew -PwithEmi runEmiShots : EMI's recipe screens for a few reactions and compositions (3.25.0).
+		emiShots {
+			client()
+			name "EMI Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.emishots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew -PwithJade runJadeShots : Jade's panel on machines, a dynamo, a tank and some blocks (3.26.0).
+		jadeShots {
+			client()
+			name "Jade Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.jadeshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runSearchShots : searching the Field Guide and the compendiums (3.27.0).
+		// ./gradlew runAnimationShots : two charcoal pits, one charring logs, screenshots of its animated texture (3.28.0).
+		animationShots {
+			client()
+			name "Animation Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.animationshots=true"
+			vmArg "-Dpe.animmachine=" + (System.getenv("PE_ANIM") ?: "charcoal_pit")
+			runDir "run"
+		}
+		searchShots {
+			client()
+			name "Search Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.searchshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runValveShots : the machine screen's relief valve, open and shut, and its Field Guide paragraph (3.29.0).
+		valveShots {
+			client()
+			name "Valve Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.valveshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runTankShots : a multiblock tank, pipes from a trough, a pump and a Storage Tank, and the guide page (3.38.0).
+		tankShots {
+			client()
+			name "Tank Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.tankshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runLogisticsShots : belts, sorter, hoppers and larger chests in a flat world (3.40.0).
+		logisticsShots {
+			client()
+			name "Logistics Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.logisticsshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runFaunaShots : the stage-1 animals, colonies, worm bin, sericulture tray and the Animal Compendium (3.50.0).
+		faunaShots {
+			client()
+			name "Fauna Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.faunashots=true"
+			vmArg "-Dpe.faunastage=" + (System.getenv("PE_FAUNA_STAGE") ?: "1")
+			programArgs "--width", "1280", "--height", "720"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runExploreShots : street lamps, tent, cap lamp, goggles and the backpack at night (3.47.0).
+		exploreShots {
+			client()
+			name "Explore Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.exploreshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew -PwithModMenu runCaseShots : the Sample Case and the settings screen (3.31.0).
+		caseShots {
+			client()
+			name "Case Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.caseshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runScreenshots : opens a saved world, sets up a machine and a station, and screenshots them.
+		screenshots {
+			client()
+			name "Screenshots"
+			source sourceSets.gametest
+			vmArg "-Dpe.screenshots=true"
+			programArgs "--quickPlaySingleplayer", "smoke"
+			runDir "run"
+		}
+	}
+}
+
+repositories {
+	// EMI recipe viewer (3.25.0), from Modrinth's maven. Optional: compiled against, not shipped or required.
+	exclusiveContent {
+		forRepository { maven { url "https://api.modrinth.com/maven" } }
+		filter { includeGroup "maven.modrinth" }
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modCompileOnly "maven.modrinth:emi:${project.emi_version}"
+	// ./gradlew -PwithEmi runEmiShots : EMI in the dev client. Game tests run without it, which proves it optional.
+	if (project.hasProperty("withEmi")) {
+		modLocalRuntime "maven.modrinth:emi:${project.emi_version}"
+	}
+	// Mod Menu (3.31.0): its "Configure" button opens the settings. Optional; -PwithModMenu puts it in the dev client.
+	modCompileOnly "maven.modrinth:modmenu:${project.modmenu_version}"
+	if (project.hasProperty("withModMenu")) {
+		modLocalRuntime "maven.modrinth:modmenu:${project.modmenu_version}"
+	}
+	// Jade (3.26.0), optional the same way: ./gradlew -PwithJade runJadeShots
+	modCompileOnly "maven.modrinth:jade:${project.jade_version}"
+	if (project.hasProperty("withJade")) {
+		modLocalRuntime "maven.modrinth:jade:${project.jade_version}"
+	}
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}" }
+	}
+}

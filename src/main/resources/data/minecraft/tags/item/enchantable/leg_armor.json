@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_leggings",
+    "periodic_elements:wrought_iron_leggings",
+    "periodic_elements:crucible_steel_leggings",
+    "periodic_elements:steel_leggings",
+    "periodic_elements:manganese_steel_leggings",
+    "periodic_elements:aluminium_leggings",
+    "periodic_elements:stainless_steel_leggings",
+    "periodic_elements:titanium_alloy_leggings",
+    "periodic_elements:composite_leggings"
+  ]
+}

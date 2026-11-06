@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/deepslate_pitchblende_ore"
+      },
+      {
+        "model": "periodic_elements:block/deepslate_pitchblende_ore",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/deepslate_pitchblende_ore",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/deepslate_pitchblende_ore",
+        "y": 270
+      }
+    ]
+  }
+}

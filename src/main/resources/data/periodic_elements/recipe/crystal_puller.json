@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WAW",
+    "SQS",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "A": {
+      "item": "periodic_elements:argon"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:crystal_puller",
+    "count": 1
+  }
+}

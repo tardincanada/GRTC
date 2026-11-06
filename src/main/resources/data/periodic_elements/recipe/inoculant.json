@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:soybeans"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "periodic_elements:glucose"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:inoculant",
+    "count": 4
+  }
+}

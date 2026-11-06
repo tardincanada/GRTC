@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:black_powder"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 1
+  }
+}

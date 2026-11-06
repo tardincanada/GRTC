@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KQK",
+    "KFK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "F": {
+      "item": "periodic_elements:pottery_kiln"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:porcelain_kiln",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/cementation_furnace_top",
+    "front": "periodic_elements:block/cementation_furnace_front",
+    "side": "periodic_elements:block/cementation_furnace_side"
+  }
+}

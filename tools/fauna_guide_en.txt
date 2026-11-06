@@ -1,0 +1,31 @@
+@0 # Wild animals
+@0 Every biome has two to four animals of its own, and they spawn only there. Most run from you; large ones fight back when hit. Only the Deathstalker Scorpion hunts you, at night, and the Golden Poison Frog poisons a bare hand that touches it.
+@0 # Breeding
+@0 Feed two animals of a kind the food they like to breed them. Away from their climate they breed three times more slowly; a greenhouse heated or cooled to their climate lets them breed as usual.
+@0 # What animals give
+@0 Animals in a pen (a fence within 4 blocks) drop Manure now and then: use it on a plant like bone meal, or burn it. Rub arrows on a Golden Poison Frog to tip up to 8 with poison. A glass bottle on a Deathstalker Scorpion or a Gila Monster draws its venom, once in five minutes. Ostriches lay eggs as big as four hen's eggs.
+@0 # Small animals
+@0 Insects and worms are items and blocks. Digging dirt or grass now and then turns up an Earthworm, and shearing white mulberry leaves a Silkworm. In swamp water a Medicinal Leech may latch on and slowly bleed you: salt takes it off and gives you the leech.
+@0 A Worm Bin (planks round dirt) takes an earthworm; feed it leaves, plants, seeds or manure and it gives Humus, a fertilizer.
+@1 Sericulture (level 1): the Sericulture Tray takes silkworms; feed it white mulberry leaves and it gives Silk Cocoons, which smelt into Silk Thread.
+@0 Cochineal grows on cactus in deserts and badlands, and the Lac Insect on jungle logs; colonies appear near you and spread. Use a ripe colony to scrape it; use what you scraped on another cactus or jungle log to start a colony.
+@2 Carmine (level 2): cochineal in the Dye Vat gives carminic acid, a red dye.
+@3 Shellac (level 3): sticklac in the Soap Kettle gives shellac.
+@4 Antivenom (level 4): scorpion venom, salt and a glass bottle make Antivenom; drink it to cure poison.
+@5 Hirudin (level 5): leeches in the Digestion Vat give hirudin. Exenatide (level 7): Gila Monster venom in the Bioreactor gives exenatide.
+@0 # Forests, fields and rivers
+@0 Pheasants and Mallards lay eggs now and then, and a mallard sometimes leaves Duck Down. A Red Deer sheds an Antler every day or two; ground, it gives bone meal. Wild Boars drop bristles, which with a stick and a copper ingot make a brush. Sturgeons give caviar and isinglass.
+@0 The European Hedgehog keeps pests off crops within 4 blocks. The Eurasian Beaver eats willow bark and builds dams of sticks and mud in shallow water near it. Peruvian Boobies leave guano on the shore, up to half a block deep.
+@3 Guano (level 3): guano in the Digestion Vat gives saltpetre.
+@5 Galalith (level 5): the casein of milk in the Digestion Vat, with formaldehyde in the reagent slot, gives galalith.
+@0 # Cold forests and mountains
+@0 Reindeer and Yaks give milk in a bucket, and shears take wool from a Yak or an Alpaca; four make a block of wool. Reindeer shed antlers like red deer. Reindeer Lichen grows near you in snowy lands; reindeer eat it.
+@0 Brown Bears raid full beehives and bee nests next to them. The Eurasian Lynx hunts rabbits. The Stoat turns white where it is cold.
+@0 # Seas and coasts
+@0 Ringed Seals and Walruses give blubber, and walruses ivory; render blubber for lamp oil. Herring, Cuttlefish and the Crystal Jelly go in a bucket; the jelly glows and stings. Cuttlefish give sepia ink (brown dye) and cuttlebone. The Greenland Shark's meat is poisonous raw: cook or smoke it into hákarl. A glass bottle on a Horseshoe Crab draws its blue blood, and the crab lives on. Green Crabs drop crab shell.
+@0 Pearl Oysters grow on sand under warm seas near you; break one for oyster shells and, now and then, a pearl. The Sperm Whale cannot be hunted. Ambergris from its gut washes up on beaches now and then, and very rarely a whale strands on a beach and dies there, leaving spermaceti and blubber. Spermaceti and string make a candle.
+@2 Tyrian Purple (level 2): murex snails in the Dye Vat give purple dye.
+@5 Vitamin D (level 5): shark liver in the Digestion Vat gives vitamin D3. Chitosan (level 6): crab shells in the Digestion Vat give chitosan.
+@7 LAL Test (level 7): horseshoe crab blood in the Digestion Vat gives Limulus lysate. GFP (level 7): crystal jelly tissue in the Bioreactor gives green fluorescent protein.
+@0 # Animal Compendium
+@0 A book and a feather make the Animal Compendium. Carried in the hotbar, it names the animals you know. Look at an animal for a second within 16 blocks, catch it in a trap, or pick up a small one to note it; use the book to read about them, biome by biome. Systema Naturae (level 3) adds scientific names, On the Origin of Species (level 4) each animal's evolution, and The Red List (level 6) its status.

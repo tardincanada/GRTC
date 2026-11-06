@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "periodic_elements:block/dahurian_larch_leaves"
+  }
+}

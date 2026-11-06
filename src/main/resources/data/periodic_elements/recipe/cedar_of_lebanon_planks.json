@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:cedar_of_lebanon_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:cedar_of_lebanon_planks",
+    "count": 4
+  }
+}

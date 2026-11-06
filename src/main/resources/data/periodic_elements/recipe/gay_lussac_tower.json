@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "SCS",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:lead_sheet"
+    },
+    "C": {
+      "item": "periodic_elements:coke"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:gay_lussac_tower",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:nitric_acid"
+    },
+    {
+      "item": "periodic_elements:hydrochloric_acid"
+    },
+    {
+      "item": "periodic_elements:hydrochloric_acid"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:aqua_regia",
+    "count": 3
+  }
+}

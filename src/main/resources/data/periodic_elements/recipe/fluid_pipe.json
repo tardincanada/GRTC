@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ILI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "periodic_elements:lead"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fluid_pipe",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "periodic_elements:block/worm_bin_0"
+    },
+    "stage=1": {
+      "model": "periodic_elements:block/worm_bin_1"
+    },
+    "stage=2": {
+      "model": "periodic_elements:block/worm_bin_2"
+    }
+  }
+}

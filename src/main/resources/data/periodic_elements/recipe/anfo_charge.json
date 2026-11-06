@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:ammonium_nitrate"
+    },
+    {
+      "item": "periodic_elements:diesel"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:anfo_charge",
+    "count": 1
+  }
+}

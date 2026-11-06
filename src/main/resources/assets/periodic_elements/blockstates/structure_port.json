@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/structure_port"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/structure_port_active"
+    }
+  }
+}

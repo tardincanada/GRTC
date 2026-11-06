@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BKB",
+    "B B",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "K": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:smelting_furnace",
+    "count": 1
+  }
+}

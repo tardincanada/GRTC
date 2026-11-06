@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:ostrich_egg"
+  },
+  "result": {
+    "id": "periodic_elements:cooked_egg",
+    "count": 4
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

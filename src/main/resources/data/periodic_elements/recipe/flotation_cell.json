@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WPW",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:flotation_cell",
+    "count": 1
+  }
+}

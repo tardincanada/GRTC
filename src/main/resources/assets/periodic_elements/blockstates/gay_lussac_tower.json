@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/gay_lussac_tower"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/gay_lussac_tower_active"
+    }
+  }
+}

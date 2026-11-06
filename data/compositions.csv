@@ -1,0 +1,341 @@
+id,amount,composition,note
+# Rocks: whole-rock oxide analyses (mass %),,,
+minecraft:stone,1000,silicon_dioxide:66.6;aluminium_oxide:15.4;iron_ii_oxide:5.0;calcium_oxide:3.6;sodium_oxide:3.3;potassium_oxide:2.8;magnesium_oxide:2.5;titanium_dioxide:0.6;phosphorus_pentoxide:0.2,Average upper continental crust
+minecraft:cobblestone,1000,block:minecraft:stone:100,
+minecraft:gravel,1000,block:minecraft:stone:100,Rock fragments
+minecraft:granite,1000,silicon_dioxide:72;aluminium_oxide:14;potassium_oxide:4.1;sodium_oxide:3.7;iron_ii_oxide:1.7;calcium_oxide:1.8;iron_oxide:1.2;magnesium_oxide:0.7;titanium_dioxide:0.3;water:0.5,Typical granite
+minecraft:diorite,1000,silicon_dioxide:57.5;aluminium_oxide:16.5;calcium_oxide:6.6;iron_ii_oxide:6.0;magnesium_oxide:4.0;sodium_oxide:3.5;iron_oxide:2.5;potassium_oxide:1.8;titanium_dioxide:1.0;water:0.6,Typical diorite
+minecraft:andesite,1000,silicon_dioxide:58;aluminium_oxide:17;calcium_oxide:7;iron_ii_oxide:4.2;sodium_oxide:3.5;magnesium_oxide:3.5;iron_oxide:3.1;potassium_oxide:1.5;titanium_dioxide:1.0;phosphorus_pentoxide:0.2;manganese_dioxide:0.2;water:0.8,Typical andesite
+minecraft:deepslate,1000,silicon_dioxide:60;aluminium_oxide:17;iron_ii_oxide:6;potassium_oxide:3.5;water:4;magnesium_oxide:2.5;calcium_oxide:1.5;sodium_oxide:1.5;carbon:1;titanium_dioxide:1;iron_disulfide:2,Slate
+minecraft:cobbled_deepslate,1000,block:minecraft:deepslate:100,
+minecraft:tuff,1000,silicon_dioxide:66;aluminium_oxide:14;water:6;potassium_oxide:3.5;sodium_oxide:3;iron_oxide:3;calcium_oxide:2.5;magnesium_oxide:1;titanium_dioxide:0.5;iron_ii_oxide:0.5,Welded volcanic ash
+minecraft:basalt,1000,silicon_dioxide:49;aluminium_oxide:15;calcium_oxide:10;iron_ii_oxide:9;magnesium_oxide:8;iron_oxide:3;sodium_oxide:2.5;titanium_dioxide:2;potassium_oxide:1;phosphorus_pentoxide:0.5,Typical basalt
+minecraft:smooth_basalt,1000,block:minecraft:basalt:100,
+minecraft:blackstone,1000,block:minecraft:basalt:90;iron_oxide:5;iron_disulfide:5,Proposed: sulfur-rich volcanic rock
+minecraft:calcite,1000,calcium_carbonate:100,
+minecraft:dripstone_block,1000,calcium_carbonate:98;iron_oxide:1;silicon_dioxide:1,Cave flowstone
+minecraft:obsidian,1000,silicon_dioxide:74;aluminium_oxide:13;potassium_oxide:4.5;sodium_oxide:4;iron_ii_oxide:1.5;calcium_oxide:1;iron_oxide:0.5;magnesium_oxide:0.3;water:0.2;titanium_dioxide:0.1;sodium_chloride:0.9,Rhyolitic volcanic glass
+minecraft:sandstone,1000,silicon_dioxide:85;calcium_carbonate:9;aluminium_oxide:3;iron_oxide:1.5;kaolinite:1.5,Quartz sand with calcite cement
+minecraft:red_sandstone,1000,silicon_dioxide:84;calcium_carbonate:6;iron_oxide:6;aluminium_oxide:3;kaolinite:1,Iron-stained sandstone
+# Loose material and soil,,,
+minecraft:sand,1000,silicon_dioxide:95;aluminium_oxide:2;calcium_carbonate:1;iron_oxide:1;potassium_oxide:1,Quartz sand
+minecraft:red_sand,1000,silicon_dioxide:90;iron_oxide:5;aluminium_oxide:3;calcium_carbonate:1;potassium_oxide:1,Desert sand
+minecraft:clay,1000,kaolinite:60;silicon_dioxide:20;water:15;iron_oxide:2;potassium_oxide:1.5;magnesium_oxide:1;calcium_carbonate:0.5,Wet kaolin clay
+minecraft:dirt,1000,silicon_dioxide:55;aluminium_oxide:10;water:18;cellulose:4;lignin:2;iron_oxide:4;calcium_carbonate:2;potassium_oxide:2;magnesium_oxide:1;sodium_oxide:1;phosphorus_pentoxide:0.5;ammonium_nitrate:0.5,Loam: minerals + water + organic matter
+minecraft:coarse_dirt,1000,block:minecraft:dirt:70;block:minecraft:gravel:30,
+minecraft:rooted_dirt,1000,block:minecraft:dirt:90;cellulose:6;lignin:4,
+minecraft:grass_block,1000,block:minecraft:dirt:95;water:3;cellulose:1.8;chlorophyll:0.2,
+minecraft:podzol,1000,block:minecraft:dirt:80;lignin:10;cellulose:10,Leaf-litter soil
+minecraft:mycelium,1000,block:minecraft:dirt:95;cellulose:3;water:2,
+minecraft:mud,1000,block:minecraft:dirt:60;water:40,
+minecraft:terracotta,1000,silicon_dioxide:60;aluminium_oxide:20;iron_oxide:7;potassium_oxide:3;calcium_oxide:3;magnesium_oxide:2;sodium_oxide:1;titanium_dioxide:1;water:3,Badlands clay band: hardened iron-stained clay
+minecraft:white_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:orange_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:magenta_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:light_blue_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:yellow_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:lime_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:pink_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:gray_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:light_gray_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:cyan_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:purple_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:blue_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:brown_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:green_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:red_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:black_terracotta,1000,block:minecraft:terracotta:100,
+minecraft:snow_block,1000,water:100,
+minecraft:ice,1000,water:100,
+minecraft:packed_ice,1000,water:100,
+minecraft:blue_ice,1000,water:100,
+# Ores: ore mineral in a host rock. Grades are enriched for gameplay.,,,
+minecraft:coal_ore,1000,block:minecraft:stone:88.9;item:minecraft:coal:11.1,Holds 1 coal (its drop)
+minecraft:deepslate_coal_ore,1000,block:minecraft:deepslate:88.9;item:minecraft:coal:11.1,Holds 1 coal
+minecraft:iron_ore,1000,block:minecraft:stone:88.9;item:minecraft:raw_iron:11.1,Holds 1 raw iron
+minecraft:deepslate_iron_ore,1000,block:minecraft:deepslate:88.9;item:minecraft:raw_iron:11.1,Holds 1 raw iron
+minecraft:copper_ore,1000,block:minecraft:stone:63.9;item:minecraft:raw_copper:36.1,Holds 3.25 raw copper (average drop)
+minecraft:deepslate_copper_ore,1000,block:minecraft:deepslate:63.9;item:minecraft:raw_copper:36.1,Holds 3.25 raw copper
+minecraft:gold_ore,1000,block:minecraft:stone:88.9;item:minecraft:raw_gold:11.1,Holds 1 raw gold
+minecraft:deepslate_gold_ore,1000,block:minecraft:deepslate:88.9;item:minecraft:raw_gold:11.1,Holds 1 raw gold
+minecraft:redstone_ore,1000,block:minecraft:stone:50;item:minecraft:redstone:50,Holds 4.5 redstone (average drop); redstone proposed as cinnabar
+minecraft:deepslate_redstone_ore,1000,block:minecraft:deepslate:50;item:minecraft:redstone:50,Holds 4.5 redstone
+minecraft:lapis_ore,1000,block:minecraft:stone:27.8;item:minecraft:lapis_lazuli:72.2,Holds 6.5 lapis (average drop)
+minecraft:deepslate_lapis_ore,1000,block:minecraft:deepslate:27.8;item:minecraft:lapis_lazuli:72.2,Holds 6.5 lapis
+minecraft:diamond_ore,1000,block:minecraft:stone:88.9;item:minecraft:diamond:11.1,Holds 1 diamond
+minecraft:deepslate_diamond_ore,1000,block:minecraft:deepslate:88.9;item:minecraft:diamond:11.1,Holds 1 diamond
+minecraft:emerald_ore,1000,block:minecraft:granite:88.9;item:minecraft:emerald:11.1,Holds 1 emerald
+minecraft:deepslate_emerald_ore,1000,block:minecraft:deepslate:88.9;item:minecraft:emerald:11.1,Holds 1 emerald
+minecraft:nether_quartz_ore,1000,block:minecraft:netherrack:88.9;item:minecraft:quartz:11.1,Holds 1 quartz
+minecraft:nether_gold_ore,1000,block:minecraft:netherrack:95.1;item:minecraft:gold_nugget:4.9,Holds 4 gold nuggets (average drop)
+minecraft:raw_iron_block,1000,item:minecraft:raw_iron:100,9 raw iron
+minecraft:raw_copper_block,1000,item:minecraft:raw_copper:100,9 raw copper
+minecraft:raw_gold_block,1000,item:minecraft:raw_gold:100,9 raw gold
+minecraft:coal_block,1000,item:minecraft:coal:100,9 coal
+minecraft:diamond_block,1000,item:minecraft:diamond:100,9 diamonds
+minecraft:emerald_block,1000,item:minecraft:emerald:100,9 emeralds
+minecraft:lapis_block,1000,item:minecraft:lapis_lazuli:100,9 lapis
+minecraft:redstone_block,1000,item:minecraft:redstone:100,9 redstone
+minecraft:quartz_block,444.4,silicon_dioxide:100,
+minecraft:amethyst_block,444.4,silicon_dioxide:99.9;iron_oxide:0.1,Quartz coloured by iron
+minecraft:budding_amethyst,1000,silicon_dioxide:99.9;iron_oxide:0.1,
+minecraft:iron_block,1000,item:minecraft:iron_ingot:100,9 ingots
+minecraft:gold_block,1000,item:minecraft:gold_ingot:100,9 ingots
+minecraft:copper_block,1000,item:minecraft:copper_ingot:100,9 ingots
+# Nether and End (fictional blocks get a proposed real analogue),,,
+minecraft:netherrack,1000,block:minecraft:basalt:80;iron_oxide:12;sulfur:5;iron_disulfide:3,Proposed: iron- and sulfur-rich scoria
+minecraft:magma_block,1000,block:minecraft:basalt:100,
+minecraft:glowstone,1000,zinc_sulfide:95;copper:0.1;silicon_dioxide:4.9,Proposed: copper-doped zinc sulfide phosphor
+minecraft:soul_sand,1000,silicon_dioxide:80;tricalcium_phosphate:10;lignin:5;cellulose:5,Proposed: sand with bone and organic matter
+minecraft:soul_soil,1000,block:minecraft:soul_sand:70;block:minecraft:dirt:30,Proposed
+minecraft:end_stone,1000,silicon_dioxide:44;aluminium_oxide:30;calcium_oxide:17;iron_ii_oxide:3.5;magnesium_oxide:3.5;sodium_oxide:1.5;titanium_dioxide:0.5,Proposed: anorthosite like lunar highlands
+# Plants and wood,,,
+minecraft:oak_log,1000,cellulose:62;lignin:24;water:10;tannin:2;potassium_oxide:1;calcium_oxide:1,Air-dried wood
+minecraft:spruce_log,1000,cellulose:60;lignin:27;water:10;tannin:2;potassium_oxide:0.5;calcium_oxide:0.5,
+minecraft:birch_log,1000,cellulose:66;lignin:20;water:12;potassium_oxide:1;calcium_oxide:1,
+minecraft:jungle_log,1000,cellulose:62;lignin:25;water:12;potassium_oxide:0.5;calcium_oxide:0.5,
+minecraft:acacia_log,1000,cellulose:62;lignin:25;water:12;potassium_oxide:0.5;calcium_oxide:0.5,
+minecraft:dark_oak_log,1000,cellulose:61;lignin:26;water:12;potassium_oxide:0.5;calcium_oxide:0.5,
+minecraft:mangrove_log,1000,cellulose:58;lignin:28;water:12;sodium_chloride:1;calcium_oxide:1,
+minecraft:cherry_log,1000,cellulose:63;lignin:23;water:12;potassium_oxide:1;calcium_oxide:1,
+minecraft:oak_leaves,1000,water:70;cellulose:18;lignin:7;chlorophyll:1;potassium_oxide:2;calcium_oxide:2,
+minecraft:spruce_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:birch_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:jungle_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:acacia_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:dark_oak_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:mangrove_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:cherry_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:azalea_leaves,1000,block:minecraft:oak_leaves:100,
+minecraft:cactus,1000,water:90;cellulose:6;lignin:1;calcium_carbonate:2;chlorophyll:1,
+minecraft:pumpkin,1000,water:91;glucose:5;cellulose:3.5;potassium_oxide:0.5,
+minecraft:melon,1000,water:92;glucose:6;cellulose:1.5;potassium_oxide:0.5,
+minecraft:hay_block,1000,cellulose:68;lignin:15;water:15;potassium_oxide:1;starch:1,
+minecraft:honey_block,1000,glucose:80;water:17;sucrose:2;potassium_oxide:1,Glucose + fructose (same formula)
+minecraft:sugar_cane,1000,water:72;sucrose:14;cellulose:10;lignin:4,
+# Items. 1 block = 1000 units; 9 of an item craft a block, so 1 item = 111.1 units and 1 nugget = 12.35 units. 1 bucket = 1000 units.,,,
+minecraft:coal,111.1,carbon:80;oxygen:8;hydrogen:5;nitrogen:1.5;sulfur:1.5;silicon_dioxide:2;aluminium_oxide:2,Bituminous coal
+minecraft:charcoal,111.1,carbon:90;oxygen:4;hydrogen:3;potassium_oxide:1.5;calcium_oxide:1.5,Wood charcoal
+minecraft:raw_iron,111.1,iron_oxide:70;magnetite:15;silicon_dioxide:15,Hematite and magnetite ore
+minecraft:raw_copper,111.1,chalcopyrite:70;iron_disulfide:10;silicon_dioxide:20,Copper sulfide ore
+minecraft:raw_gold,111.1,gold:50;silver:5;platinum:5;silicon_dioxide:35;iron_disulfide:5,Gold (with some silver and platinum grains) in quartz
+minecraft:iron_ingot,111.1,iron:100,
+minecraft:iron_nugget,12.35,iron:100,
+minecraft:copper_ingot,111.1,copper:100,
+minecraft:gold_ingot,111.1,gold:100,
+minecraft:gold_nugget,12.35,gold:100,
+minecraft:diamond,111.1,carbon:100,
+minecraft:emerald,111.1,beryl:100,
+minecraft:lapis_lazuli,111.1,lazurite:100,
+minecraft:redstone,111.1,mercury_sulfide:100,Proposed: redstone as cinnabar
+minecraft:quartz,111.1,silicon_dioxide:100,
+minecraft:amethyst_shard,111.1,silicon_dioxide:99.9;iron_oxide:0.1,
+minecraft:glowstone_dust,250,zinc_sulfide:95;copper:0.1;silicon_dioxide:4.9,4 dust craft a block
+minecraft:water_bucket,1000,water:100,One block of water
+minecraft:lava_bucket,1000,block:minecraft:basalt:100,One block of molten rock
+minecraft:snowball,250,water:100,4 snowballs make a block
+minecraft:clay_ball,250,block:minecraft:clay:100,4 clay balls make a block
+minecraft:sugar,111.1,sucrose:100,
+minecraft:bone_meal,111.1,tricalcium_phosphate:80;calcium_carbonate:10;water:10,
+# This mod's ores. Each holds its average drop (without Fortune) inside its host rock.,,,
+periodic_elements:cassiterite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_cassiterite:22.2,Holds 2 raw cassiterite (average drop)
+periodic_elements:deepslate_cassiterite_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_cassiterite:22.2,Holds 2 raw cassiterite
+periodic_elements:galena_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_galena:22.2,Holds 2 raw galena (average drop)
+periodic_elements:deepslate_galena_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_galena:22.2,Holds 2 raw galena
+periodic_elements:sphalerite_ore,1000,block:minecraft:stone:83.3;item:periodic_elements:raw_sphalerite:16.7,Holds 1.5 zinc sulfide (average drop)
+periodic_elements:deepslate_sphalerite_ore,1000,block:minecraft:deepslate:83.3;item:periodic_elements:raw_sphalerite:16.7,Holds 1.5 zinc sulfide
+periodic_elements:nether_sulfur_ore,1000,block:minecraft:netherrack:66.7;sulfur:33.3,Holds 3 sulfur (average drop)
+periodic_elements:deepslate_sulfur_ore,1000,block:minecraft:deepslate:66.7;sulfur:33.3,Holds 3 sulfur
+periodic_elements:saltpetre_crust,1000,block:minecraft:sandstone:77.8;potassium_nitrate:22.2,Holds 2 saltpetre (average drop)
+periodic_elements:raw_cassiterite,111.1,tin_dioxide:70;silicon_dioxide:25;iron_oxide:5,Cassiterite in a quartz vein
+periodic_elements:raw_galena,111.1,lead_sulfide:75;iron_disulfide:10;silicon_dioxide:8.5;calcium_carbonate:5;silver:1.5,Argentiferous galena with pyrite and calcite
+# 0.5.0 ores and raw ores
+periodic_elements:cobaltite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_cobaltite:22.2,Holds 2 raw cobaltite (average drop)
+periodic_elements:deepslate_cobaltite_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_cobaltite:22.2,Holds 2 raw cobaltite
+periodic_elements:stibnite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_stibnite:22.2,Holds 2 raw stibnite (average drop)
+periodic_elements:deepslate_stibnite_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_stibnite:22.2,Holds 2 raw stibnite
+periodic_elements:arsenopyrite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_arsenopyrite:22.2,Holds 2 raw arsenopyrite (average drop)
+periodic_elements:deepslate_arsenopyrite_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_arsenopyrite:22.2,Holds 2 raw arsenopyrite
+periodic_elements:raw_cobaltite,111.1,cobaltite:70;bismuth:8;silicon_dioxide:17;calcium_carbonate:5,Saxon cobalt ore with native bismuth
+periodic_elements:raw_stibnite,111.1,antimony_sulfide:75;silicon_dioxide:20;calcium_carbonate:5,Stibnite needles in quartz
+periodic_elements:raw_arsenopyrite,111.1,arsenopyrite:70;iron_disulfide:10;silicon_dioxide:20,Arsenopyrite with pyrite in quartz
+# 0.5.0 alloys and products
+periodic_elements:bronze_ingot,111.1,copper:90;tin:10,Tin bronze
+periodic_elements:brass_ingot,111.1,copper:70;zinc:30,Brass
+periodic_elements:steel_ingot,111.1,iron:99;carbon:1,Blister steel
+periodic_elements:cast_iron_ingot,111.1,iron:96;carbon:4,Pig iron from the blast furnace
+periodic_elements:type_metal,111.1,lead:80;antimony:15;tin:5,Printers' type metal
+periodic_elements:black_powder,111.1,potassium_nitrate:75;carbon:12.5;sulfur:12.5,Gunpowder: saltpetre, charcoal and sulfur
+# 0.5.1 level 1 and 2 products
+periodic_elements:seawater_bucket,1000,water:96.5;sodium_chloride:2.72;magnesium_chloride:0.54;magnesium_bromide:0.01;gypsum:0.13;potassium_chloride:0.1,Ocean water: 3.5% salts by mass
+periodic_elements:brine_bucket,1000,water:74;sodium_chloride:23.5;magnesium_chloride:1.4;potassium_chloride:0.5;gypsum:0.4;magnesium_bromide:0.2,Spring brine: about 26% salts (salt well brine),
+periodic_elements:bittern,111.1,magnesium_chloride:40;magnesium_bromide:40;gypsum:10;potassium_chloride:10,The salts left after common salt crystallizes (bromide boosted for play)
+periodic_elements:wood_ash,111.1,calcium_oxide:30;potassium_oxide:20;calcium_carbonate:30;magnesium_oxide:7;silicon_dioxide:13,Lime and potash from burnt wood
+minecraft:brick,111.1,silicon_dioxide:62;aluminium_oxide:31;iron_oxide:3;potassium_oxide:2;magnesium_oxide:2,Fired clay
+minecraft:glass,1000,silicon_dioxide:60.6;calcium_oxide:27.3;potassium_oxide:12.1,Forest glass: sand melted with wood ash
+periodic_elements:porcelain,111.1,silicon_dioxide:68.7;aluminium_oxide:31.3,Kaolin and quartz fired at 1300 °C
+periodic_elements:aqua_regia,111.1,hydrochloric_acid:66.67;nitric_acid:33.33,One part nitric to two parts hydrochloric acid
+periodic_elements:iron_gall_ink,111.1,iron_sulfate:30;water:70,Iron(II) sulfate and oak-gall tannin in water
+periodic_elements:leavened_bread,111.1,starch:70;water:30,Risen wheat bread
+# 0.6.0 level 3
+periodic_elements:raw_sphalerite,111.1,zinc_sulfide:82;cadmium_sulfide:6;iron_disulfide:3;silicon_dioxide:4;indium_sulfide:2;germanium_sulfide:3,Zinc blende with greenockite (cadmium) and traces of indium and germanium
+periodic_elements:barite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_barite:22.2,Holds 2 raw barite (average drop)
+periodic_elements:raw_barite,111.1,barium_sulfate:70;strontium_sulfate:12;silicon_dioxide:13;calcium_carbonate:5,Heavy spar with celestine
+periodic_elements:spodumene_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_spodumene:22.2,Holds 2 raw spodumene (average drop)
+periodic_elements:raw_spodumene,111.1,spodumene:75;silicon_dioxide:18;aluminium_oxide:5;rubidium_oxide:1.5;caesium_oxide:0.5,Spodumene in pegmatite with lepidolite (rubidium) and pollucite (caesium)
+periodic_elements:borax_crust,1000,block:minecraft:sandstone:77.8;item:periodic_elements:raw_borax:22.2,Holds 2 raw borax (average drop)
+periodic_elements:raw_borax,111.1,sodium_tetraborate:60;potassium_chloride:25;sodium_chloride:10;silicon_dioxide:5,Dry-lake crust of borax and sylvite
+periodic_elements:pitchblende_ore,1000,block:minecraft:stone:83.3;item:periodic_elements:raw_pitchblende:16.7,Holds 1.5 raw pitchblende (average drop)
+periodic_elements:deepslate_pitchblende_ore,1000,block:minecraft:deepslate:83.3;item:periodic_elements:raw_pitchblende:16.7,Holds 1.5 raw pitchblende
+periodic_elements:raw_pitchblende,111.1,uranium_dioxide:57;silicon_dioxide:29.7;lead_sulfide:5;iron_oxide:5;radium_sulfate:2;helium:1;polonium:0.1;actinium:0.1;protactinium:0.1,Black pitchblende in quartz; radium and helium boosted for play
+periodic_elements:coke,111.1,carbon:100,Coal baked until its tar and gas are gone
+periodic_elements:crucible_steel_ingot,111.1,iron:99;carbon:1,Huntsman crucible steel
+periodic_elements:chamber_sludge,111.1,lead_sulfate:65;selenium:20;sulfur:10;thallium_sulfate:5,Red mud from the floor of a lead chamber
+minecraft:kelp,111.1,water:80;cellulose:12;sodium_chloride:4;potassium_chloride:3;sodium_iodide:1,Fresh kelp
+minecraft:dried_kelp,111.1,cellulose:55;sodium_chloride:20;potassium_chloride:15;sodium_iodide:5;water:5,Dried kelp: salts and iodine
+minecraft:dried_kelp_block,1000,item:minecraft:dried_kelp:100,9 dried kelp
+# Level 4 ores and residues (0.7.0),,,
+periodic_elements:bauxite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_bauxite:22.2,Holds 2 raw bauxite (average drop)
+periodic_elements:raw_bauxite,111.1,gibbsite:60;iron_oxide:19;kaolinite:8;silicon_dioxide:5;titanium_dioxide:3;water:3;gallium_oxide:2,Lateritic bauxite; gallium boosted for play
+periodic_elements:pyrolusite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_pyrolusite:22.2,Holds 2 raw pyrolusite (average drop)
+periodic_elements:raw_pyrolusite,111.1,manganese_dioxide:80;silicon_dioxide:12;iron_oxide:8,Black bog manganese
+periodic_elements:deepslate_pentlandite_ore,1000,block:minecraft:deepslate:83.3;item:periodic_elements:raw_pentlandite:16.7,Holds 1.5 raw pentlandite (average drop)
+periodic_elements:raw_pentlandite,111.1,pentlandite:72;iron_disulfide:15;silicon_dioxide:13,Nickel sulfide with pyrrhotite
+periodic_elements:wolframite_ore,1000,block:minecraft:stone:83.3;item:periodic_elements:raw_wolframite:16.7,Holds 1.5 raw wolframite (average drop)
+periodic_elements:raw_wolframite,111.1,wolframite:70;tin_dioxide:5;silicon_dioxide:25,Wolframite with a little cassiterite in quartz veins
+periodic_elements:vanadinite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_vanadinite:22.2,Holds 2 raw vanadinite (average drop)
+periodic_elements:raw_vanadinite,111.1,vanadinite:75;calcium_carbonate:10;silicon_dioxide:15,Red vanadinite crystals on limestone
+periodic_elements:fluorite_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_fluorite:22.2,Holds 2 raw fluorite (average drop)
+periodic_elements:deepslate_fluorite_ore,1000,block:minecraft:deepslate:77.8;item:periodic_elements:raw_fluorite:22.2,Holds 2 raw fluorite
+periodic_elements:raw_fluorite,111.1,calcium_fluoride:80;cryolite:5;silicon_dioxide:10;calcium_carbonate:5,Fluorspar with a little cryolite
+periodic_elements:heavy_mineral_sand,1000,block:minecraft:sand:77.8;item:periodic_elements:heavy_mineral_concentrate:22.2,Holds 2 concentrate (average drop)
+periodic_elements:heavy_mineral_concentrate,111.1,ilmenite:32;silicon_dioxide:23;zircon:15;titanium_dioxide:8;monazite:8;thorium_dioxide:4;xenotime:10,Black beach sand: ilmenite rutile zircon monazite thorianite and xenotime
+periodic_elements:pitchblende_residue,111.1,radium_sulfate:55;polonium:15;actinium:15;protactinium:15,What the Curies kept from tonnes of pitchblende (boosted for play)
+periodic_elements:anode_slime,111.1,silver:17;gold:5;selenium:12;tellurium:12;palladium:8;platinum:8;rhodium:8;ruthenium:4;osmium:2;iridium:2;lead_sulfate:10;copper:12,Mud under the anodes of a copper refinery
+periodic_elements:zinc_flue_dust,111.1,indium_oxide:50;germanium_dioxide:45;zinc_oxide:5,Dust caught in the flue of a zinc retort
+periodic_elements:liquid_air,111.1,nitrogen:75.5;oxygen:23.2;argon:1.3,Liquid air the column could not separate
+periodic_elements:smokeless_powder,111.1,nitrocellulose:100,Gelatinised guncotton (Poudre B)
+periodic_elements:manganese_steel_ingot,111.1,iron:86.7;manganese:12.3;carbon:1,Hadfield manganese steel
+periodic_elements:tungsten_steel_ingot,111.1,iron:89;tungsten:9;carbon:2,Mushet self-hardening tungsten steel
+periodic_elements:radon_seed,111.1,gold:99.99999999;radon:0.00000001,A sealed gold tube holding a few millicuries of radon
+periodic_elements:deepslate_chromite_ore,1000,block:minecraft:deepslate:83.3;item:periodic_elements:raw_chromite:16.7,Holds 1.5 raw chromite (average drop)
+periodic_elements:raw_chromite,111.1,chromite:75;silicon_dioxide:15;magnesium_oxide:10,Black chromite grains in serpentine
+periodic_elements:molybdenite_ore,1000,block:minecraft:stone:83.3;item:periodic_elements:raw_molybdenite:16.7,Holds 1.5 raw molybdenite (average drop)
+periodic_elements:deepslate_molybdenite_ore,1000,block:minecraft:deepslate:83.3;item:periodic_elements:raw_molybdenite:16.7,Holds 1.5 raw molybdenite (average drop)
+periodic_elements:raw_molybdenite,111.1,molybdenite:38;rhenium_disulfide:2;chalcopyrite:10;silicon_dioxide:50,Molybdenite flakes with copper in porphyry; rhenium boosted for play
+periodic_elements:coltan_ore,1000,block:minecraft:stone:88.9;item:periodic_elements:raw_coltan:11.1,Holds 1 raw coltan
+periodic_elements:deepslate_coltan_ore,1000,block:minecraft:deepslate:88.9;item:periodic_elements:raw_coltan:11.1,Holds 1 raw coltan
+periodic_elements:raw_coltan,111.1,columbite:30;tantalite:20;tin_dioxide:5;silicon_dioxide:45,Columbite-tantalite in pegmatite
+periodic_elements:ferrochrome,111.1,chromium:65;iron:35,Arc-furnace ferrochrome
+periodic_elements:molybdenite_concentrate,111.1,molybdenite:95;rhenium_disulfide:5,Froth from the Flotation Cell
+periodic_elements:molybdenite_flue_dust,111.1,rhenium_heptoxide:80;molybdenum_trioxide:20,Caught in the flue of the molybdenite roaster
+periodic_elements:crude_zirconia,111.1,zirconium_dioxide:97;hafnium_dioxide:3,Zirconia from zircon; hafnium hides in it
+periodic_elements:crude_zirconium,111.1,zirconium:95;zirconium_dioxide:5,Brittle zirconium powder full of oxygen
+periodic_elements:crude_hafnium,111.1,hafnium:95;hafnium_dioxide:5,Brittle hafnium powder full of oxygen
+periodic_elements:rare_earth_sulfates,111.1,lanthanum_sulfate:25;cerium_sulfate:48;praseodymium_sulfate:6;neodymium_sulfate:21,Mixed rare earth sulfates from monazite
+periodic_elements:francium_precipitate,111.1,caesium_chloride:99.99999999;francium:0.00000001,Caesium salt carrying a few atoms of francium
+periodic_elements:stainless_steel_ingot,111.1,iron:87.2;chromium:12.8,Brearley's rustless steel
+periodic_elements:high_speed_steel_ingot,111.1,iron:84.4;tungsten:8.5;molybdenum:7.1,Tool steel that stays hard when red hot
+periodic_elements:cemented_carbide,111.1,tungsten:84.5;carbon:5.5;cobalt:10,Tungsten carbide grains in cobalt
+periodic_elements:beryllium_copper_ingot,111.1,copper:98;beryllium:2,Hard copper that never sparks
+periodic_elements:heavy_rare_earth_chlorides,111.1,scandium_chloride:4;yttrium_chloride:20;samarium_chloride:7.6;europium_chloride:7.6;gadolinium_chloride:7.6;terbium_chloride:7.6;dysprosium_chloride:7.6;holmium_chloride:7.6;erbium_chloride:7.6;thulium_chloride:7.6;ytterbium_chloride:7.6;lutetium_chloride:7.6,Yttrium and the heavy rare earths from xenotime (rare ones boosted for play)
+periodic_elements:aluminium_vanadium_master_alloy,111.1,aluminium:60;vanadium:40,Master alloy for Ti-6Al-4V
+periodic_elements:titanium_alloy_ingot,111.1,titanium:90;aluminium:6;vanadium:4,Ti-6Al-4V: light and stronger than steel
+periodic_elements:silicon_wafer,111.1,silicon:100,A slice of a single silicon crystal
+periodic_elements:germanium_crystal,111.1,germanium:100,Zone-refined germanium: one impurity in ten billion
+periodic_elements:synthetic_diamond,111.1,carbon:100,Diamond grit from the press
+periodic_elements:zircaloy_ingot,111.1,zirconium:98.5;tin:1.5,Zircaloy-2: zirconium with 1.5% tin
+periodic_elements:uranium_fuel_pellet,111.1,enriched_uranium_dioxide:100,Sintered pellets of 3.5% enriched uranium dioxide
+periodic_elements:uranium_fuel_rod,444.4,enriched_uranium_dioxide:75;zirconium:24.63;tin:0.37,Three pellets sealed in a zircaloy tube
+periodic_elements:spent_fuel_rod,444.4,uranium_dioxide:60.3;plutonium_dioxide:3;neptunium_dioxide:4;americium_dioxide:0.3;curium_oxide:0.1;technetium:2;promethium_oxide:1.5;fission_products:3.8;zirconium:24.63;tin:0.37,A burnt rod after cooling for years: plutonium and the actinides boosted for play
+periodic_elements:depleted_uranium_ingot,111.1,uranium:100,Uranium with 0.25% uranium-235
+periodic_elements:high_level_waste,111.1,fission_products:13.2;zirconium:85.5;tin:1.3,Fission products and cladding hulls from the Hot Cell
+periodic_elements:astatine_sample,0.001,astatine:100,A milligram of astatine-211
+periodic_elements:berkelium_sample,0.001,berkelium:100,A milligram of berkelium-249
+periodic_elements:californium_sample,0.001,californium:100,A milligram of californium-252
+periodic_elements:einsteinium_sample,0.001,einsteinium:100,A milligram of einsteinium-253
+periodic_elements:fermium_sample,0.001,fermium:100,A milligram of fermium-257
+periodic_elements:mendelevium_sample,0.001,mendelevium:100,A milligram of mendelevium-258
+periodic_elements:nobelium_record,111.1,cellulose:100,A printout of the decay chains of a few nobelium atoms
+periodic_elements:lawrencium_record,111.1,cellulose:100,A printout of the decay chains of a few lawrencium atoms
+periodic_elements:rutherfordium_record,111.1,cellulose:100,A printout of the decay chains of a few rutherfordium atoms
+periodic_elements:dubnium_record,111.1,cellulose:100,A printout of the decay chains of a few dubnium atoms
+periodic_elements:seaborgium_record,111.1,cellulose:100,A printout of the decay chains of a few seaborgium atoms
+periodic_elements:bohrium_record,111.1,cellulose:100,A printout of the decay chains of a few bohrium atoms
+periodic_elements:hassium_record,111.1,cellulose:100,A printout of the decay chains of a few hassium atoms
+periodic_elements:meitnerium_record,111.1,cellulose:100,A printout of the decay chains of a few meitnerium atoms
+periodic_elements:darmstadtium_record,111.1,cellulose:100,A printout of the decay chains of a few darmstadtium atoms
+periodic_elements:roentgenium_record,111.1,cellulose:100,A printout of the decay chains of a few roentgenium atoms
+periodic_elements:copernicium_record,111.1,cellulose:100,A printout of the decay chains of a few copernicium atoms
+periodic_elements:nihonium_record,111.1,cellulose:100,A printout of the decay chains of a few nihonium atoms
+periodic_elements:flerovium_record,111.1,cellulose:100,A printout of the decay chains of a few flerovium atoms
+periodic_elements:moscovium_record,111.1,cellulose:100,A printout of the decay chains of a few moscovium atoms
+periodic_elements:livermorium_record,111.1,cellulose:100,A printout of the decay chains of a few livermorium atoms
+periodic_elements:tennessine_record,111.1,cellulose:100,A printout of the decay chains of a few tennessine atoms
+periodic_elements:oganesson_record,111.1,cellulose:100,A printout of the decay chains of a few oganesson atoms
+periodic_elements:niobium_titanium_wire,111.1,niobium:53;titanium:47,Nb-47Ti superconducting wire
+periodic_elements:integrated_circuit,111.1,silicon:100,A silicon chip with a whole circuit on it
+periodic_elements:gallium_arsenide_wafer,111.1,gallium:48.2;arsenic:51.8,A slice of one gallium arsenide crystal
+periodic_elements:iron_boron_alloy,111.1,iron:98.64;boron:1.36,Iron with 1.4% boron for magnets
+periodic_elements:neodymium_magnet,111.1,neodymium:26.68;iron:72.32;boron:1,Sintered Nd2Fe14B
+periodic_elements:composite_plate,333.3,boron_carbide:33.33;titanium:30;aluminium:2;vanadium:1.33;aramid:33.34,Boron carbide tile on Ti-6Al-4V with aramid backing
+periodic_elements:optical_fibre,111.1,silicon_dioxide:99.9;erbium:0.1,Erbium-doped silica fibre
+periodic_elements:plutonium_238_pellet,111.1,plutonium_dioxide:100,Plutonium-238 dioxide: 0.5 watts of heat per gram
+# Petrochemicals (1.2.0),,,
+periodic_elements:oil_shale_ore,1000,block:minecraft:stone:77.8;item:periodic_elements:raw_oil_shale:22.2,Holds 2 raw oil shale (average drop)
+periodic_elements:raw_oil_shale,111.1,kerogen:40;calcium_carbonate:25;silicon_dioxide:20;aluminium_oxide:8;iron_disulfide:4;water:3,Rich oil shale like the Scottish torbanite Young retorted
+periodic_elements:asphalt,1000,bitumen:5.3;block:minecraft:gravel:47.35;block:minecraft:sand:47.35,Gravel and sand bound with bitumen
+periodic_elements:insulated_cable,46.3,copper:60;polyvinyl_chloride:40,Copper wire in a plastic sleeve
+periodic_elements:boron_control_rod,111.1,boron:100,Boron enriched to over 90% boron-10 in a steel-clad rod
+periodic_elements:tritium_vial,111.1,hydrogen:100,Tritium gas sealed in a glass vial (the game counts it by the item)
+periodic_elements:natural_uranium_fuel_rod,444.4,uranium:75;zirconium:24.63;tin:0.37,Three natural uranium metal slugs in a zircaloy tube
+periodic_elements:tritium_light,1000,block:minecraft:glass:90;zinc_sulfide:9.9;hydrogen:0.1,A glass block lined with zinc sulfide round a tritium vial
+# Farm and fat (1.7.0): animal and crop products,,,
+minecraft:porkchop,111.1,water:55;tallow:25;protein:20,Raw pork with its fat
+minecraft:beef,111.1,water:60;protein:20;tallow:20,
+minecraft:mutton,111.1,water:58;tallow:22;protein:20,
+minecraft:chicken,111.1,water:70;protein:22;tallow:8,
+minecraft:rabbit,111.1,water:72;protein:22;tallow:6,Lean meat
+minecraft:rotten_flesh,111.1,water:65;protein:25;tallow:10,
+minecraft:leather,111.1,protein:85;tannin:5;water:10,Hide protein bound with tannin
+minecraft:white_wool,55.55,protein:84;tallow:10;water:6,Sheep wool: keratin with lanolin grease (55.55 = the 4 string it is made of)
+minecraft:rabbit_hide,111.1,protein:60;water:30;tallow:10,Raw hide
+minecraft:bone,333.3,tricalcium_phosphate:60;protein:25;tallow:10;water:5,Bone mineral with marrow fat and gelatin; 333.3 = the 3 bone meal it grinds into
+minecraft:feather,111.1,protein:90;water:10,Keratin
+minecraft:egg,111.1,water:66;protein:12;tallow:10;calcium_carbonate:12,With its shell
+minecraft:milk_bucket,1000,water:87;lactose:5;casein:2.8;protein:0.7;tallow:4;tricalcium_phosphate:0.5,A bucket of cow's milk
+minecraft:wheat,111.1,starch:60;protein:12;cellulose:15;water:13,Grain with its straw
+minecraft:wheat_seeds,111.1,starch:55;protein:15;vegetable_oil:10;cellulose:12;water:8,
+minecraft:pumpkin_seeds,111.1,vegetable_oil:45;protein:30;cellulose:18;water:7,
+minecraft:melon_seeds,111.1,vegetable_oil:40;protein:28;cellulose:25;water:7,
+minecraft:sunflower,111.1,vegetable_oil:20;protein:10;cellulose:50;water:20,The whole flower head
+minecraft:cocoa_beans,111.1,vegetable_oil:50;protein:15;starch:10;cellulose:20;water:5,Cocoa butter is half the bean
+minecraft:potato,111.1,water:79;starch:17;protein:2;cellulose:2,
+minecraft:beetroot,111.1,water:87;sucrose:8;cellulose:3;protein:2,Sugar beet
+minecraft:carrot,111.1,water:88;sucrose:5;cellulose:3;starch:2;protein:2,
+minecraft:sweet_berries,111.1,water:85;glucose:10;cellulose:5,
+minecraft:glow_berries,111.1,water:85;glucose:10;cellulose:5,
+periodic_elements:latex,111.1,natural_rubber:35;water:65,Rubber in milky sap
+periodic_elements:protein_meal,111.1,protein:70;tricalcium_phosphate:20;tallow:5;water:5,Greaves and bone left from rendering: feed and fertilizer
+periodic_elements:oil_cake,111.1,protein:45;cellulose:40;vegetable_oil:8;water:7,Pressed seed: cattle feed
+periodic_elements:spent_bark,111.1,cellulose:70;lignin:30,Bark with its tannin leached out
+periodic_elements:rubber_log,1000,cellulose:62;lignin:25;water:12;potassium_oxide:0.5;calcium_oxide:0.5,"Rubberwood: the latex is in the bark, not the wood"
+periodic_elements:rubber_planks,250,block:periodic_elements:rubber_log:100,
+# Coal tar and dyes (1.8.0),,,
+minecraft:oxeye_daisy,111.1,pyrethrin:20;cellulose:60;water:20,Dalmatian insect flower
+minecraft:magenta_dye,3.47,fuchsine:100,32 dyes per flask of dye
+minecraft:red_dye,3.47,alizarin:100,32 dyes per flask of dye
+minecraft:orange_dye,3.47,bixin:100,32 dyes per flask of dye
+minecraft:brown_dye,3.47,lawsone:100,32 dyes per flask of dye
+minecraft:yellow_dye,3.47,picric_acid:100,32 dyes per flask of dye
+minecraft:blue_dye,13.89,prussian_blue:100,8 dyes per item of pigment
+periodic_elements:dynamite,111.1,nitroglycerin:75;silicon_dioxide:25,Nobel's guhr dynamite: three parts nitroglycerin to one of diatomite
+periodic_elements:cordite_cartridge,83.33,cordite:20;lead:40;copper:28;zinc:12,A brass case with a lead bullet and cordite
+periodic_elements:carbolic_soap,111.1,hard_soap:90;phenol:10,
+periodic_elements:bordeaux_mixture,111.1,copper_sulfate:40;calcium_hydroxide:30;water:30,Copper vitriol and lime in water
+periodic_elements:pk_blend,111.1,superphosphate:50;potassium_chloride:50,Superphosphate and potash mixed for the prilling tower
+periodic_elements:npk_prills,111.1,urea:40;superphosphate:30;potassium_chloride:30,Nitrogen from urea; phosphorus and potassium from the blend
+periodic_elements:mrna_vaccine,111.1,protein:90.9;vegetable_oil:9.1,Messenger RNA in lipid droplets (counted as protein and fat)
+periodic_elements:prussian_blue_capsule,55.55,prussian_blue:50;protein:50,Medical Prussian blue in a gelatin capsule
+periodic_elements:spent_mycelium,111.1,protein:40;cellulose:40;water:20,Filtered mould from the fermenter: fertilizer
+periodic_elements:biomass,111.1,cellulose:50;protein:30;water:20,Spent microbes and plant fibre: fertilizer

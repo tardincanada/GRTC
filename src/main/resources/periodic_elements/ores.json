@@ -1,0 +1,385 @@
+{
+  "ores": [
+    {
+      "id": "cassiterite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_cassiterite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "galena_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_galena_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "sphalerite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "deepslate_sphalerite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "nether_sulfur_ore",
+      "host": "netherrack",
+      "xpMin": 0,
+      "xpMax": 2
+    },
+    {
+      "id": "deepslate_sulfur_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 2
+    },
+    {
+      "id": "saltpetre_crust",
+      "host": "sandstone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "cobaltite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_cobaltite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "stibnite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_stibnite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "arsenopyrite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_arsenopyrite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "barite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "spodumene_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "borax_crust",
+      "host": "sandstone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "pitchblende_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_pitchblende_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "bauxite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "pyrolusite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_pentlandite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "wolframite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "vanadinite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "fluorite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_fluorite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "heavy_mineral_sand",
+      "host": "sand",
+      "xpMin": 0,
+      "xpMax": 0
+    },
+    {
+      "id": "deepslate_chromite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "molybdenite_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "deepslate_molybdenite_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "coltan_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "deepslate_coltan_ore",
+      "host": "deepslate",
+      "xpMin": 0,
+      "xpMax": 1
+    },
+    {
+      "id": "oil_shale_ore",
+      "host": "stone",
+      "xpMin": 0,
+      "xpMax": 1
+    }
+  ],
+  "features": [
+    {
+      "id": "ore_cassiterite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_cassiterite_mountains",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_galena",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_sphalerite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_sulfur_nether",
+      "biomes": "nether"
+    },
+    {
+      "id": "ore_sulfur_deltas",
+      "biomes": "minecraft:basalt_deltas"
+    },
+    {
+      "id": "ore_sulfur_deep",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_saltpetre_desert",
+      "biomes": "minecraft:desert|#minecraft:is_badlands"
+    },
+    {
+      "id": "ore_saltpetre_caves",
+      "biomes": "minecraft:dripstone_caves"
+    },
+    {
+      "id": "ore_cobaltite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_cobaltite_mountains",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_stibnite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_stibnite_mountains",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_arsenopyrite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_barite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_barite_dry",
+      "biomes": "minecraft:desert|#minecraft:is_badlands"
+    },
+    {
+      "id": "ore_spodumene_mountains",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_spodumene",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_borax_desert",
+      "biomes": "minecraft:desert|#minecraft:is_badlands"
+    },
+    {
+      "id": "ore_pitchblende",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_pitchblende_granite",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_bauxite",
+      "biomes": "#minecraft:is_jungle|#minecraft:is_savanna"
+    },
+    {
+      "id": "ore_bauxite_rare",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_pyrolusite",
+      "biomes": "#minecraft:is_ocean|minecraft:swamp|minecraft:mangrove_swamp"
+    },
+    {
+      "id": "ore_pyrolusite_rare",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_pentlandite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_wolframite_mountains",
+      "biomes": "#minecraft:is_mountain"
+    },
+    {
+      "id": "ore_wolframite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_vanadinite",
+      "biomes": "#minecraft:is_badlands"
+    },
+    {
+      "id": "ore_vanadinite_rare",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_fluorite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_heavy_mineral_sand",
+      "biomes": "#minecraft:is_beach|#minecraft:is_river"
+    },
+    {
+      "id": "ore_chromite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_molybdenite",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_oil_shale",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_oil_shale_basins",
+      "biomes": "minecraft:desert|#minecraft:is_badlands|#minecraft:is_ocean"
+    },
+    {
+      "id": "ore_coltan",
+      "biomes": "overworld"
+    },
+    {
+      "id": "ore_coltan_mountains",
+      "biomes": "#minecraft:is_mountain"
+    }
+  ],
+  "rawItems": [
+    "raw_sphalerite",
+    "raw_barite",
+    "raw_spodumene",
+    "raw_borax",
+    "raw_pitchblende",
+    "raw_bauxite",
+    "raw_pyrolusite",
+    "raw_pentlandite",
+    "raw_wolframite",
+    "raw_vanadinite",
+    "raw_fluorite",
+    "heavy_mineral_concentrate",
+    "raw_chromite",
+    "raw_molybdenite",
+    "raw_coltan",
+    "raw_oil_shale",
+    "raw_cassiterite",
+    "raw_galena",
+    "raw_cobaltite",
+    "raw_stibnite",
+    "raw_arsenopyrite"
+  ]
+}

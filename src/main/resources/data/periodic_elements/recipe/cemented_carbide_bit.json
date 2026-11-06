@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "periodic_elements:cemented_carbide"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:cemented_carbide_bit",
+    "count": 1
+  }
+}

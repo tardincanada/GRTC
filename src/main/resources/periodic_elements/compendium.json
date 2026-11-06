@@ -1,0 +1,8496 @@
+{
+ "trees": [
+  {
+   "id": "oak",
+   "vanilla": true,
+   "icon": "minecraft:oak_sapling",
+   "scientific": "Quercus robur",
+   "family": "Fagaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "forest",
+    "flower_forest",
+    "dark_forest",
+    "swamp",
+    "windswept_hills",
+    "windswept_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:oak_log",
+    "minecraft:oak_wood",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_oak_wood",
+    "minecraft:oak_leaves",
+    "minecraft:oak_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "birch",
+   "vanilla": true,
+   "icon": "minecraft:birch_sapling",
+   "scientific": "Betula pendula",
+   "family": "Betulaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "birch_forest",
+    "old_growth_birch_forest",
+    "forest",
+    "flower_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:birch_log",
+    "minecraft:birch_wood",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_birch_wood",
+    "minecraft:birch_leaves",
+    "minecraft:birch_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "spruce",
+   "vanilla": true,
+   "icon": "minecraft:spruce_sapling",
+   "scientific": "Picea abies",
+   "family": "Pinaceae",
+   "height": 45,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "windswept_hills",
+    "windswept_forest",
+    "grove",
+    "snowy_plains",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "minecraft:spruce_log",
+    "minecraft:spruce_wood",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_spruce_wood",
+    "minecraft:spruce_leaves",
+    "minecraft:spruce_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "jungle",
+   "vanilla": true,
+   "icon": "minecraft:jungle_sapling",
+   "scientific": null,
+   "family": null,
+   "height": 30,
+   "iucn": null,
+   "biomes": [
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "minecraft:jungle_log",
+    "minecraft:jungle_wood",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood",
+    "minecraft:jungle_leaves",
+    "minecraft:jungle_sapling"
+   ],
+   "products": [
+    "minecraft:cocoa_beans"
+   ]
+  },
+  {
+   "id": "acacia",
+   "vanilla": true,
+   "icon": "minecraft:acacia_sapling",
+   "scientific": "Vachellia tortilis",
+   "family": "Fabaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "minecraft:acacia_log",
+    "minecraft:acacia_wood",
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_acacia_wood",
+    "minecraft:acacia_leaves",
+    "minecraft:acacia_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "dark_oak",
+   "vanilla": true,
+   "icon": "minecraft:dark_oak_sapling",
+   "scientific": null,
+   "family": null,
+   "height": 25,
+   "iucn": null,
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_dark_oak_wood",
+    "minecraft:dark_oak_leaves",
+    "minecraft:dark_oak_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "mangrove",
+   "vanilla": true,
+   "icon": "minecraft:mangrove_propagule",
+   "scientific": "Rhizophora mangle",
+   "family": "Rhizophoraceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "minecraft:mangrove_log",
+    "minecraft:mangrove_wood",
+    "minecraft:stripped_mangrove_log",
+    "minecraft:stripped_mangrove_wood",
+    "minecraft:mangrove_leaves",
+    "minecraft:mangrove_propagule",
+    "minecraft:mangrove_roots",
+    "minecraft:muddy_mangrove_roots"
+   ],
+   "products": []
+  },
+  {
+   "id": "cherry",
+   "vanilla": true,
+   "icon": "minecraft:cherry_sapling",
+   "scientific": "Prunus serrulata",
+   "family": "Rosaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "minecraft:cherry_log",
+    "minecraft:cherry_wood",
+    "minecraft:stripped_cherry_log",
+    "minecraft:stripped_cherry_wood",
+    "minecraft:cherry_leaves",
+    "minecraft:cherry_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "azalea",
+   "vanilla": true,
+   "icon": "minecraft:flowering_azalea",
+   "scientific": "Rhododendron",
+   "family": "Ericaceae",
+   "height": 3,
+   "iucn": "NE",
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:azalea_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea"
+   ],
+   "products": []
+  },
+  {
+   "id": "mahogany",
+   "vanilla": false,
+   "icon": "periodic_elements:mahogany_sapling",
+   "scientific": "Swietenia macrophylla",
+   "family": "Meliaceae",
+   "height": 45,
+   "iucn": "VU",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:mahogany_log",
+    "periodic_elements:stripped_mahogany_log",
+    "periodic_elements:mahogany_leaves",
+    "periodic_elements:mahogany_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "brazil_nut",
+   "vanilla": false,
+   "icon": "periodic_elements:brazil_nut_sapling",
+   "scientific": "Bertholletia excelsa",
+   "family": "Lecythidaceae",
+   "height": 50,
+   "iucn": "VU",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:brazil_nut_log",
+    "periodic_elements:stripped_brazil_nut_log",
+    "periodic_elements:brazil_nut_leaves",
+    "periodic_elements:brazil_nut_sapling"
+   ],
+   "products": [
+    "periodic_elements:brazil_nut"
+   ]
+  },
+  {
+   "id": "brazilwood",
+   "vanilla": false,
+   "icon": "periodic_elements:brazilwood_sapling",
+   "scientific": "Paubrasilia echinata",
+   "family": "Fabaceae",
+   "height": 15,
+   "iucn": "EN",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:brazilwood_log",
+    "periodic_elements:stripped_brazilwood_log",
+    "periodic_elements:brazilwood_leaves",
+    "periodic_elements:brazilwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sapodilla",
+   "vanilla": false,
+   "icon": "periodic_elements:sapodilla_sapling",
+   "scientific": "Manilkara zapota",
+   "family": "Sapotaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:sapodilla_log",
+    "periodic_elements:stripped_sapodilla_log",
+    "periodic_elements:sapodilla_leaves",
+    "periodic_elements:sapodilla_sapling"
+   ],
+   "products": [
+    "periodic_elements:sapodilla",
+    "periodic_elements:chicle"
+   ]
+  },
+  {
+   "id": "andiroba",
+   "vanilla": false,
+   "icon": "periodic_elements:andiroba_sapling",
+   "scientific": "Carapa guianensis",
+   "family": "Meliaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:andiroba_log",
+    "periodic_elements:stripped_andiroba_log",
+    "periodic_elements:andiroba_leaves",
+    "periodic_elements:andiroba_sapling"
+   ],
+   "products": [
+    "periodic_elements:andiroba_seed"
+   ]
+  },
+  {
+   "id": "acai",
+   "vanilla": false,
+   "icon": "periodic_elements:acai_sapling",
+   "scientific": "Euterpe oleracea",
+   "family": "Arecaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:acai_log",
+    "periodic_elements:stripped_acai_log",
+    "periodic_elements:acai_leaves",
+    "periodic_elements:acai_sapling"
+   ],
+   "products": [
+    "periodic_elements:acai_berry"
+   ]
+  },
+  {
+   "id": "babassu",
+   "vanilla": false,
+   "icon": "periodic_elements:babassu_sapling",
+   "scientific": "Attalea speciosa",
+   "family": "Arecaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:babassu_log",
+    "periodic_elements:stripped_babassu_log",
+    "periodic_elements:babassu_leaves",
+    "periodic_elements:babassu_sapling"
+   ],
+   "products": [
+    "periodic_elements:babassu_nut"
+   ]
+  },
+  {
+   "id": "copaiba",
+   "vanilla": false,
+   "icon": "periodic_elements:copaiba_sapling",
+   "scientific": "Copaifera langsdorffii",
+   "family": "Fabaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:copaiba_log",
+    "periodic_elements:stripped_copaiba_log",
+    "periodic_elements:copaiba_leaves",
+    "periodic_elements:copaiba_sapling"
+   ],
+   "products": [
+    "periodic_elements:copaiba_balsam"
+   ]
+  },
+  {
+   "id": "cinchona",
+   "vanilla": false,
+   "icon": "periodic_elements:cinchona_sapling",
+   "scientific": "Cinchona officinalis",
+   "family": "Rubiaceae",
+   "height": 15,
+   "iucn": "NE",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:cinchona_log",
+    "periodic_elements:stripped_cinchona_log",
+    "periodic_elements:cinchona_leaves",
+    "periodic_elements:cinchona_sapling"
+   ],
+   "products": [
+    "periodic_elements:cinchona_bark"
+   ]
+  },
+  {
+   "id": "oil_palm",
+   "vanilla": false,
+   "icon": "periodic_elements:oil_palm_sapling",
+   "scientific": "Elaeis guineensis",
+   "family": "Arecaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:oil_palm_log",
+    "periodic_elements:stripped_oil_palm_log",
+    "periodic_elements:oil_palm_leaves",
+    "periodic_elements:oil_palm_sapling"
+   ],
+   "products": [
+    "periodic_elements:oil_palm_fruit"
+   ]
+  },
+  {
+   "id": "teak",
+   "vanilla": false,
+   "icon": "periodic_elements:teak_sapling",
+   "scientific": "Tectona grandis",
+   "family": "Lamiaceae",
+   "height": 40,
+   "iucn": "EN",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:teak_log",
+    "periodic_elements:stripped_teak_log",
+    "periodic_elements:teak_leaves",
+    "periodic_elements:teak_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "cinnamon",
+   "vanilla": false,
+   "icon": "periodic_elements:cinnamon_sapling",
+   "scientific": "Cinnamomum verum",
+   "family": "Lauraceae",
+   "height": 12,
+   "iucn": "NE",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:cinnamon_log",
+    "periodic_elements:stripped_cinnamon_log",
+    "periodic_elements:cinnamon_leaves",
+    "periodic_elements:cinnamon_sapling"
+   ],
+   "products": [
+    "periodic_elements:cinnamon"
+   ]
+  },
+  {
+   "id": "camphor_laurel",
+   "vanilla": false,
+   "icon": "periodic_elements:camphor_laurel_sapling",
+   "scientific": "Cinnamomum camphora",
+   "family": "Lauraceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:camphor_laurel_log",
+    "periodic_elements:stripped_camphor_laurel_log",
+    "periodic_elements:camphor_laurel_leaves",
+    "periodic_elements:camphor_laurel_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sal",
+   "vanilla": false,
+   "icon": "periodic_elements:sal_sapling",
+   "scientific": "Shorea robusta",
+   "family": "Dipterocarpaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:sal_log",
+    "periodic_elements:stripped_sal_log",
+    "periodic_elements:sal_leaves",
+    "periodic_elements:sal_sapling"
+   ],
+   "products": [
+    "periodic_elements:dammar"
+   ]
+  },
+  {
+   "id": "nutmeg",
+   "vanilla": false,
+   "icon": "periodic_elements:nutmeg_sapling",
+   "scientific": "Myristica fragrans",
+   "family": "Myristicaceae",
+   "height": 15,
+   "iucn": "DD",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:nutmeg_log",
+    "periodic_elements:stripped_nutmeg_log",
+    "periodic_elements:nutmeg_leaves",
+    "periodic_elements:nutmeg_sapling"
+   ],
+   "products": [
+    "periodic_elements:nutmeg"
+   ]
+  },
+  {
+   "id": "baobab",
+   "vanilla": false,
+   "icon": "periodic_elements:baobab_sapling",
+   "scientific": "Adansonia digitata",
+   "family": "Malvaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:baobab_log",
+    "periodic_elements:stripped_baobab_log",
+    "periodic_elements:baobab_leaves",
+    "periodic_elements:baobab_sapling"
+   ],
+   "products": [
+    "periodic_elements:baobab_fruit"
+   ]
+  },
+  {
+   "id": "gum_arabic_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:gum_arabic_tree_sapling",
+   "scientific": "Senegalia senegal",
+   "family": "Fabaceae",
+   "height": 7,
+   "iucn": "LC",
+   "biomes": [
+    "savanna"
+   ],
+   "blocks": [
+    "periodic_elements:gum_arabic_tree_log",
+    "periodic_elements:stripped_gum_arabic_tree_log",
+    "periodic_elements:gum_arabic_tree_leaves",
+    "periodic_elements:gum_arabic_tree_sapling"
+   ],
+   "products": [
+    "periodic_elements:gum_arabic"
+   ]
+  },
+  {
+   "id": "marula",
+   "vanilla": false,
+   "icon": "periodic_elements:marula_sapling",
+   "scientific": "Sclerocarya birrea",
+   "family": "Anacardiaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "savanna"
+   ],
+   "blocks": [
+    "periodic_elements:marula_log",
+    "periodic_elements:stripped_marula_log",
+    "periodic_elements:marula_leaves",
+    "periodic_elements:marula_sapling"
+   ],
+   "products": [
+    "periodic_elements:marula"
+   ]
+  },
+  {
+   "id": "shea",
+   "vanilla": false,
+   "icon": "periodic_elements:shea_sapling",
+   "scientific": "Vitellaria paradoxa",
+   "family": "Sapotaceae",
+   "height": 15,
+   "iucn": "VU",
+   "biomes": [
+    "savanna"
+   ],
+   "blocks": [
+    "periodic_elements:shea_log",
+    "periodic_elements:stripped_shea_log",
+    "periodic_elements:shea_leaves",
+    "periodic_elements:shea_sapling"
+   ],
+   "products": [
+    "periodic_elements:shea_nut"
+   ]
+  },
+  {
+   "id": "eucalyptus",
+   "vanilla": false,
+   "icon": "periodic_elements:eucalyptus_sapling",
+   "scientific": "Eucalyptus globulus",
+   "family": "Myrtaceae",
+   "height": 55,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:eucalyptus_log",
+    "periodic_elements:stripped_eucalyptus_log",
+    "periodic_elements:eucalyptus_leaves",
+    "periodic_elements:eucalyptus_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "pequi",
+   "vanilla": false,
+   "icon": "periodic_elements:pequi_sapling",
+   "scientific": "Caryocar brasiliense",
+   "family": "Caryocaraceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:pequi_log",
+    "periodic_elements:stripped_pequi_log",
+    "periodic_elements:pequi_leaves",
+    "periodic_elements:pequi_sapling"
+   ],
+   "products": [
+    "periodic_elements:pequi"
+   ]
+  },
+  {
+   "id": "barbatimao",
+   "vanilla": false,
+   "icon": "periodic_elements:barbatimao_sapling",
+   "scientific": "Stryphnodendron adstringens",
+   "family": "Fabaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:barbatimao_log",
+    "periodic_elements:stripped_barbatimao_log",
+    "periodic_elements:barbatimao_leaves",
+    "periodic_elements:barbatimao_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "yellow_ipe",
+   "vanilla": false,
+   "icon": "periodic_elements:yellow_ipe_sapling",
+   "scientific": "Handroanthus serratifolius",
+   "family": "Bignoniaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:yellow_ipe_log",
+    "periodic_elements:stripped_yellow_ipe_log",
+    "periodic_elements:yellow_ipe_leaves",
+    "periodic_elements:yellow_ipe_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "jatoba",
+   "vanilla": false,
+   "icon": "periodic_elements:jatoba_sapling",
+   "scientific": "Hymenaea courbaril",
+   "family": "Fabaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:jatoba_log",
+    "periodic_elements:stripped_jatoba_log",
+    "periodic_elements:jatoba_leaves",
+    "periodic_elements:jatoba_sapling"
+   ],
+   "products": [
+    "periodic_elements:copal"
+   ]
+  },
+  {
+   "id": "sandalwood",
+   "vanilla": false,
+   "icon": "periodic_elements:sandalwood_sapling",
+   "scientific": "Santalum album",
+   "family": "Santalaceae",
+   "height": 10,
+   "iucn": "VU",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:sandalwood_log",
+    "periodic_elements:stripped_sandalwood_log",
+    "periodic_elements:sandalwood_leaves",
+    "periodic_elements:sandalwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "dragon_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:dragon_tree_sapling",
+   "scientific": "Dracaena cinnabari",
+   "family": "Asparagaceae",
+   "height": 10,
+   "iucn": "VU",
+   "biomes": [
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:dragon_tree_log",
+    "periodic_elements:stripped_dragon_tree_log",
+    "periodic_elements:dragon_tree_leaves",
+    "periodic_elements:dragon_tree_sapling"
+   ],
+   "products": [
+    "periodic_elements:dragons_blood"
+   ]
+  },
+  {
+   "id": "frankincense",
+   "vanilla": false,
+   "icon": "periodic_elements:frankincense_sapling",
+   "scientific": "Boswellia sacra",
+   "family": "Burseraceae",
+   "height": 5,
+   "iucn": "NT",
+   "biomes": [
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:frankincense_log",
+    "periodic_elements:stripped_frankincense_log",
+    "periodic_elements:frankincense_leaves",
+    "periodic_elements:frankincense_sapling"
+   ],
+   "products": [
+    "periodic_elements:frankincense"
+   ]
+  },
+  {
+   "id": "myrrh",
+   "vanilla": false,
+   "icon": "periodic_elements:myrrh_sapling",
+   "scientific": "Commiphora myrrha",
+   "family": "Burseraceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:myrrh_log",
+    "periodic_elements:stripped_myrrh_log",
+    "periodic_elements:myrrh_leaves",
+    "periodic_elements:myrrh_sapling"
+   ],
+   "products": [
+    "periodic_elements:myrrh"
+   ]
+  },
+  {
+   "id": "date_palm",
+   "vanilla": false,
+   "icon": "periodic_elements:date_palm_sapling",
+   "scientific": "Phoenix dactylifera",
+   "family": "Arecaceae",
+   "height": 25,
+   "iucn": "NE",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:date_palm_log",
+    "periodic_elements:stripped_date_palm_log",
+    "periodic_elements:date_palm_leaves",
+    "periodic_elements:date_palm_sapling"
+   ],
+   "products": [
+    "periodic_elements:date"
+   ]
+  },
+  {
+   "id": "mesquite",
+   "vanilla": false,
+   "icon": "periodic_elements:mesquite_sapling",
+   "scientific": "Prosopis juliflora",
+   "family": "Fabaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "desert",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:mesquite_log",
+    "periodic_elements:stripped_mesquite_log",
+    "periodic_elements:mesquite_leaves",
+    "periodic_elements:mesquite_sapling"
+   ],
+   "products": [
+    "periodic_elements:mesquite_pod"
+   ]
+  },
+  {
+   "id": "joshua_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:joshua_tree_sapling",
+   "scientific": "Yucca brevifolia",
+   "family": "Asparagaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:joshua_tree_log",
+    "periodic_elements:stripped_joshua_tree_log",
+    "periodic_elements:joshua_tree_leaves",
+    "periodic_elements:joshua_tree_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "saxaul",
+   "vanilla": false,
+   "icon": "periodic_elements:saxaul_sapling",
+   "scientific": "Haloxylon ammodendron",
+   "family": "Amaranthaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:saxaul_log",
+    "periodic_elements:stripped_saxaul_log",
+    "periodic_elements:saxaul_leaves",
+    "periodic_elements:saxaul_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "argan",
+   "vanilla": false,
+   "icon": "periodic_elements:argan_sapling",
+   "scientific": "Argania spinosa",
+   "family": "Sapotaceae",
+   "height": 10,
+   "iucn": "VU",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:argan_log",
+    "periodic_elements:stripped_argan_log",
+    "periodic_elements:argan_leaves",
+    "periodic_elements:argan_sapling"
+   ],
+   "products": [
+    "periodic_elements:argan_nut"
+   ]
+  },
+  {
+   "id": "palo_verde",
+   "vanilla": false,
+   "icon": "periodic_elements:palo_verde_sapling",
+   "scientific": "Parkinsonia florida",
+   "family": "Fabaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:palo_verde_log",
+    "periodic_elements:stripped_palo_verde_log",
+    "periodic_elements:palo_verde_leaves",
+    "periodic_elements:palo_verde_sapling"
+   ],
+   "products": [
+    "periodic_elements:palo_verde_seeds"
+   ]
+  },
+  {
+   "id": "pinyon_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:pinyon_pine_sapling",
+   "scientific": "Pinus edulis",
+   "family": "Pinaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:pinyon_pine_log",
+    "periodic_elements:stripped_pinyon_pine_log",
+    "periodic_elements:pinyon_pine_leaves",
+    "periodic_elements:pinyon_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut",
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "utah_juniper",
+   "vanilla": false,
+   "icon": "periodic_elements:utah_juniper_sapling",
+   "scientific": "Juniperus osteosperma",
+   "family": "Cupressaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:utah_juniper_log",
+    "periodic_elements:stripped_utah_juniper_log",
+    "periodic_elements:utah_juniper_leaves",
+    "periodic_elements:utah_juniper_sapling"
+   ],
+   "products": [
+    "periodic_elements:juniper_berry"
+   ]
+  },
+  {
+   "id": "desert_ironwood",
+   "vanilla": false,
+   "icon": "periodic_elements:desert_ironwood_sapling",
+   "scientific": "Olneya tesota",
+   "family": "Fabaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:desert_ironwood_log",
+    "periodic_elements:stripped_desert_ironwood_log",
+    "periodic_elements:desert_ironwood_leaves",
+    "periodic_elements:desert_ironwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "tamarisk",
+   "vanilla": false,
+   "icon": "periodic_elements:tamarisk_sapling",
+   "scientific": "Tamarix aphylla",
+   "family": "Tamaricaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:tamarisk_log",
+    "periodic_elements:stripped_tamarisk_log",
+    "periodic_elements:tamarisk_leaves",
+    "periodic_elements:tamarisk_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "ponderosa_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:ponderosa_pine_sapling",
+   "scientific": "Pinus ponderosa",
+   "family": "Pinaceae",
+   "height": 50,
+   "iucn": "LC",
+   "biomes": [
+    "wooded_badlands",
+    "old_growth_pine_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:ponderosa_pine_log",
+    "periodic_elements:stripped_ponderosa_pine_log",
+    "periodic_elements:ponderosa_pine_leaves",
+    "periodic_elements:ponderosa_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "gambel_oak",
+   "vanilla": false,
+   "icon": "periodic_elements:gambel_oak_sapling",
+   "scientific": "Quercus gambelii",
+   "family": "Fagaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:gambel_oak_log",
+    "periodic_elements:stripped_gambel_oak_log",
+    "periodic_elements:gambel_oak_leaves",
+    "periodic_elements:gambel_oak_sapling"
+   ],
+   "products": [
+    "periodic_elements:acorn"
+   ]
+  },
+  {
+   "id": "mountain_mahogany",
+   "vanilla": false,
+   "icon": "periodic_elements:mountain_mahogany_sapling",
+   "scientific": "Cercocarpus ledifolius",
+   "family": "Rosaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:mountain_mahogany_log",
+    "periodic_elements:stripped_mountain_mahogany_log",
+    "periodic_elements:mountain_mahogany_leaves",
+    "periodic_elements:mountain_mahogany_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "elephant_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:elephant_tree_sapling",
+   "scientific": "Bursera microphylla",
+   "family": "Burseraceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:elephant_tree_log",
+    "periodic_elements:stripped_elephant_tree_log",
+    "periodic_elements:elephant_tree_leaves",
+    "periodic_elements:elephant_tree_sapling"
+   ],
+   "products": [
+    "periodic_elements:copal"
+   ]
+  },
+  {
+   "id": "coconut_palm",
+   "vanilla": false,
+   "icon": "periodic_elements:coconut_palm_sapling",
+   "scientific": "Cocos nucifera",
+   "family": "Arecaceae",
+   "height": 25,
+   "iucn": "NE",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:coconut_palm_log",
+    "periodic_elements:stripped_coconut_palm_log",
+    "periodic_elements:coconut_palm_leaves",
+    "periodic_elements:coconut_palm_sapling"
+   ],
+   "products": [
+    "periodic_elements:coconut"
+   ]
+  },
+  {
+   "id": "tropical_almond",
+   "vanilla": false,
+   "icon": "periodic_elements:tropical_almond_sapling",
+   "scientific": "Terminalia catappa",
+   "family": "Combretaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:tropical_almond_log",
+    "periodic_elements:stripped_tropical_almond_log",
+    "periodic_elements:tropical_almond_leaves",
+    "periodic_elements:tropical_almond_sapling"
+   ],
+   "products": [
+    "periodic_elements:tropical_almond"
+   ]
+  },
+  {
+   "id": "casuarina",
+   "vanilla": false,
+   "icon": "periodic_elements:casuarina_sapling",
+   "scientific": "Casuarina equisetifolia",
+   "family": "Casuarinaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:casuarina_log",
+    "periodic_elements:stripped_casuarina_log",
+    "periodic_elements:casuarina_leaves",
+    "periodic_elements:casuarina_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "screw_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:screw_pine_sapling",
+   "scientific": "Pandanus tectorius",
+   "family": "Pandanaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:screw_pine_log",
+    "periodic_elements:stripped_screw_pine_log",
+    "periodic_elements:screw_pine_leaves",
+    "periodic_elements:screw_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pandanus_fruit"
+   ]
+  },
+  {
+   "id": "sea_grape",
+   "vanilla": false,
+   "icon": "periodic_elements:sea_grape_sapling",
+   "scientific": "Coccoloba uvifera",
+   "family": "Polygonaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:sea_grape_log",
+    "periodic_elements:stripped_sea_grape_log",
+    "periodic_elements:sea_grape_leaves",
+    "periodic_elements:sea_grape_sapling"
+   ],
+   "products": [
+    "periodic_elements:sea_grape"
+   ]
+  },
+  {
+   "id": "black_mangrove",
+   "vanilla": false,
+   "icon": "periodic_elements:black_mangrove_sapling",
+   "scientific": "Avicennia germinans",
+   "family": "Acanthaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:black_mangrove_log",
+    "periodic_elements:stripped_black_mangrove_log",
+    "periodic_elements:black_mangrove_leaves",
+    "periodic_elements:black_mangrove_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "white_mangrove",
+   "vanilla": false,
+   "icon": "periodic_elements:white_mangrove_sapling",
+   "scientific": "Laguncularia racemosa",
+   "family": "Combretaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:white_mangrove_log",
+    "periodic_elements:stripped_white_mangrove_log",
+    "periodic_elements:white_mangrove_leaves",
+    "periodic_elements:white_mangrove_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "buttonwood",
+   "vanilla": false,
+   "icon": "periodic_elements:buttonwood_sapling",
+   "scientific": "Conocarpus erectus",
+   "family": "Combretaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:buttonwood_log",
+    "periodic_elements:stripped_buttonwood_log",
+    "periodic_elements:buttonwood_leaves",
+    "periodic_elements:buttonwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "nipa_palm",
+   "vanilla": false,
+   "icon": "periodic_elements:nipa_palm_sapling",
+   "scientific": "Nypa fruticans",
+   "family": "Arecaceae",
+   "height": 9,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:nipa_palm_log",
+    "periodic_elements:stripped_nipa_palm_log",
+    "periodic_elements:nipa_palm_leaves",
+    "periodic_elements:nipa_palm_sapling"
+   ],
+   "products": [
+    "periodic_elements:nipa_fruit",
+    "periodic_elements:palm_sap"
+   ]
+  },
+  {
+   "id": "buriti",
+   "vanilla": false,
+   "icon": "periodic_elements:buriti_sapling",
+   "scientific": "Mauritia flexuosa",
+   "family": "Arecaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:buriti_log",
+    "periodic_elements:stripped_buriti_log",
+    "periodic_elements:buriti_leaves",
+    "periodic_elements:buriti_sapling"
+   ],
+   "products": [
+    "periodic_elements:buriti"
+   ]
+  },
+  {
+   "id": "eastern_cottonwood",
+   "vanilla": false,
+   "icon": "periodic_elements:eastern_cottonwood_sapling",
+   "scientific": "Populus deltoides",
+   "family": "Salicaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:eastern_cottonwood_log",
+    "periodic_elements:stripped_eastern_cottonwood_log",
+    "periodic_elements:eastern_cottonwood_leaves",
+    "periodic_elements:eastern_cottonwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "american_elm",
+   "vanilla": false,
+   "icon": "periodic_elements:american_elm_sapling",
+   "scientific": "Ulmus americana",
+   "family": "Ulmaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:american_elm_log",
+    "periodic_elements:stripped_american_elm_log",
+    "periodic_elements:american_elm_leaves",
+    "periodic_elements:american_elm_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "ash",
+   "vanilla": false,
+   "icon": "periodic_elements:ash_sapling",
+   "scientific": "Fraxinus excelsior",
+   "family": "Oleaceae",
+   "height": 35,
+   "iucn": "NT",
+   "biomes": [
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:ash_log",
+    "periodic_elements:stripped_ash_log",
+    "periodic_elements:ash_leaves",
+    "periodic_elements:ash_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "walnut",
+   "vanilla": false,
+   "icon": "periodic_elements:walnut_sapling",
+   "scientific": "Juglans regia",
+   "family": "Juglandaceae",
+   "height": 25,
+   "iucn": "NT",
+   "biomes": [
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:walnut_log",
+    "periodic_elements:stripped_walnut_log",
+    "periodic_elements:walnut_leaves",
+    "periodic_elements:walnut_sapling"
+   ],
+   "products": [
+    "periodic_elements:walnut"
+   ]
+  },
+  {
+   "id": "white_mulberry",
+   "vanilla": false,
+   "icon": "periodic_elements:white_mulberry_sapling",
+   "scientific": "Morus alba",
+   "family": "Moraceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:white_mulberry_log",
+    "periodic_elements:stripped_white_mulberry_log",
+    "periodic_elements:white_mulberry_leaves",
+    "periodic_elements:white_mulberry_sapling"
+   ],
+   "products": [
+    "periodic_elements:mulberry"
+   ]
+  },
+  {
+   "id": "linden",
+   "vanilla": false,
+   "icon": "periodic_elements:linden_sapling",
+   "scientific": "Tilia cordata",
+   "family": "Malvaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "sunflower_plains",
+    "forest",
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:linden_log",
+    "periodic_elements:stripped_linden_log",
+    "periodic_elements:linden_leaves",
+    "periodic_elements:linden_sapling"
+   ],
+   "products": [
+    "periodic_elements:linden_flower"
+   ]
+  },
+  {
+   "id": "sweet_chestnut",
+   "vanilla": false,
+   "icon": "periodic_elements:sweet_chestnut_sapling",
+   "scientific": "Castanea sativa",
+   "family": "Fagaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "sunflower_plains",
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:sweet_chestnut_log",
+    "periodic_elements:stripped_sweet_chestnut_log",
+    "periodic_elements:sweet_chestnut_leaves",
+    "periodic_elements:sweet_chestnut_sapling"
+   ],
+   "products": [
+    "periodic_elements:chestnut"
+   ]
+  },
+  {
+   "id": "pear",
+   "vanilla": false,
+   "icon": "periodic_elements:pear_sapling",
+   "scientific": "Pyrus communis",
+   "family": "Rosaceae",
+   "height": 15,
+   "iucn": "NE",
+   "biomes": [
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:pear_log",
+    "periodic_elements:stripped_pear_log",
+    "periodic_elements:pear_leaves",
+    "periodic_elements:pear_sapling"
+   ],
+   "products": [
+    "periodic_elements:pear"
+   ]
+  },
+  {
+   "id": "elder",
+   "vanilla": false,
+   "icon": "periodic_elements:elder_sapling",
+   "scientific": "Sambucus nigra",
+   "family": "Adoxaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:elder_log",
+    "periodic_elements:stripped_elder_log",
+    "periodic_elements:elder_leaves",
+    "periodic_elements:elder_sapling"
+   ],
+   "products": [
+    "periodic_elements:elderberry"
+   ]
+  },
+  {
+   "id": "beech",
+   "vanilla": false,
+   "icon": "periodic_elements:beech_sapling",
+   "scientific": "Fagus sylvatica",
+   "family": "Fagaceae",
+   "height": 40,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:beech_log",
+    "periodic_elements:stripped_beech_log",
+    "periodic_elements:beech_leaves",
+    "periodic_elements:beech_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sugar_maple",
+   "vanilla": false,
+   "icon": "periodic_elements:sugar_maple_sapling",
+   "scientific": "Acer saccharum",
+   "family": "Sapindaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "birch_forest",
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:sugar_maple_log",
+    "periodic_elements:stripped_sugar_maple_log",
+    "periodic_elements:sugar_maple_leaves",
+    "periodic_elements:sugar_maple_sapling"
+   ],
+   "products": [
+    "periodic_elements:maple_sap"
+   ]
+  },
+  {
+   "id": "hornbeam",
+   "vanilla": false,
+   "icon": "periodic_elements:hornbeam_sapling",
+   "scientific": "Carpinus betulus",
+   "family": "Betulaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:hornbeam_log",
+    "periodic_elements:stripped_hornbeam_log",
+    "periodic_elements:hornbeam_leaves",
+    "periodic_elements:hornbeam_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "southern_magnolia",
+   "vanilla": false,
+   "icon": "periodic_elements:southern_magnolia_sapling",
+   "scientific": "Magnolia grandiflora",
+   "family": "Magnoliaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:southern_magnolia_log",
+    "periodic_elements:stripped_southern_magnolia_log",
+    "periodic_elements:southern_magnolia_leaves",
+    "periodic_elements:southern_magnolia_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "tulip_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:tulip_tree_sapling",
+   "scientific": "Liriodendron tulipifera",
+   "family": "Magnoliaceae",
+   "height": 45,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest",
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:tulip_tree_log",
+    "periodic_elements:stripped_tulip_tree_log",
+    "periodic_elements:tulip_tree_leaves",
+    "periodic_elements:tulip_tree_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "paulownia",
+   "vanilla": false,
+   "icon": "periodic_elements:paulownia_sapling",
+   "scientific": "Paulownia tomentosa",
+   "family": "Paulowniaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest",
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:paulownia_log",
+    "periodic_elements:stripped_paulownia_log",
+    "periodic_elements:paulownia_leaves",
+    "periodic_elements:paulownia_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "judas_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:judas_tree_sapling",
+   "scientific": "Cercis siliquastrum",
+   "family": "Fabaceae",
+   "height": 10,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:judas_tree_log",
+    "periodic_elements:stripped_judas_tree_log",
+    "periodic_elements:judas_tree_leaves",
+    "periodic_elements:judas_tree_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "quaking_aspen",
+   "vanilla": false,
+   "icon": "periodic_elements:quaking_aspen_sapling",
+   "scientific": "Populus tremuloides",
+   "family": "Salicaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "birch_forest",
+    "old_growth_birch_forest",
+    "taiga"
+   ],
+   "blocks": [
+    "periodic_elements:quaking_aspen_log",
+    "periodic_elements:stripped_quaking_aspen_log",
+    "periodic_elements:quaking_aspen_leaves",
+    "periodic_elements:quaking_aspen_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "alder",
+   "vanilla": false,
+   "icon": "periodic_elements:alder_sapling",
+   "scientific": "Alnus glutinosa",
+   "family": "Betulaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "birch_forest",
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:alder_log",
+    "periodic_elements:stripped_alder_log",
+    "periodic_elements:alder_leaves",
+    "periodic_elements:alder_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "rowan",
+   "vanilla": false,
+   "icon": "periodic_elements:rowan_sapling",
+   "scientific": "Sorbus aucuparia",
+   "family": "Rosaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "birch_forest",
+    "windswept_forest",
+    "snowy_taiga",
+    "snowy_plains",
+    "snowy_beach",
+    "meadow"
+   ],
+   "blocks": [
+    "periodic_elements:rowan_log",
+    "periodic_elements:stripped_rowan_log",
+    "periodic_elements:rowan_leaves",
+    "periodic_elements:rowan_sapling"
+   ],
+   "products": [
+    "periodic_elements:rowan_berry"
+   ]
+  },
+  {
+   "id": "black_cherry",
+   "vanilla": false,
+   "icon": "periodic_elements:black_cherry_sapling",
+   "scientific": "Prunus serotina",
+   "family": "Rosaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:black_cherry_log",
+    "periodic_elements:stripped_black_cherry_log",
+    "periodic_elements:black_cherry_leaves",
+    "periodic_elements:black_cherry_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "yew",
+   "vanilla": false,
+   "icon": "periodic_elements:yew_sapling",
+   "scientific": "Taxus baccata",
+   "family": "Taxaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest",
+    "windswept_forest",
+    "grove"
+   ],
+   "blocks": [
+    "periodic_elements:yew_log",
+    "periodic_elements:stripped_yew_log",
+    "periodic_elements:yew_leaves",
+    "periodic_elements:yew_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "black_walnut",
+   "vanilla": false,
+   "icon": "periodic_elements:black_walnut_sapling",
+   "scientific": "Juglans nigra",
+   "family": "Juglandaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:black_walnut_log",
+    "periodic_elements:stripped_black_walnut_log",
+    "periodic_elements:black_walnut_leaves",
+    "periodic_elements:black_walnut_sapling"
+   ],
+   "products": [
+    "periodic_elements:black_walnut"
+   ]
+  },
+  {
+   "id": "holly",
+   "vanilla": false,
+   "icon": "periodic_elements:holly_sapling",
+   "scientific": "Ilex aquifolium",
+   "family": "Aquifoliaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:holly_log",
+    "periodic_elements:stripped_holly_log",
+    "periodic_elements:holly_leaves",
+    "periodic_elements:holly_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "bald_cypress",
+   "vanilla": false,
+   "icon": "periodic_elements:bald_cypress_sapling",
+   "scientific": "Taxodium distichum",
+   "family": "Cupressaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:bald_cypress_log",
+    "periodic_elements:stripped_bald_cypress_log",
+    "periodic_elements:bald_cypress_leaves",
+    "periodic_elements:bald_cypress_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "water_tupelo",
+   "vanilla": false,
+   "icon": "periodic_elements:water_tupelo_sapling",
+   "scientific": "Nyssa aquatica",
+   "family": "Nyssaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:water_tupelo_log",
+    "periodic_elements:stripped_water_tupelo_log",
+    "periodic_elements:water_tupelo_leaves",
+    "periodic_elements:water_tupelo_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "white_willow",
+   "vanilla": false,
+   "icon": "periodic_elements:white_willow_sapling",
+   "scientific": "Salix alba",
+   "family": "Salicaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:white_willow_log",
+    "periodic_elements:stripped_white_willow_log",
+    "periodic_elements:white_willow_leaves",
+    "periodic_elements:white_willow_sapling"
+   ],
+   "products": [
+    "periodic_elements:willow_bark"
+   ]
+  },
+  {
+   "id": "red_maple",
+   "vanilla": false,
+   "icon": "periodic_elements:red_maple_sapling",
+   "scientific": "Acer rubrum",
+   "family": "Sapindaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:red_maple_log",
+    "periodic_elements:stripped_red_maple_log",
+    "periodic_elements:red_maple_leaves",
+    "periodic_elements:red_maple_sapling"
+   ],
+   "products": [
+    "periodic_elements:maple_sap"
+   ]
+  },
+  {
+   "id": "ginkgo",
+   "vanilla": false,
+   "icon": "periodic_elements:ginkgo_sapling",
+   "scientific": "Ginkgo biloba",
+   "family": "Ginkgoaceae",
+   "height": 25,
+   "iucn": "EN",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:ginkgo_log",
+    "periodic_elements:stripped_ginkgo_log",
+    "periodic_elements:ginkgo_leaves",
+    "periodic_elements:ginkgo_sapling"
+   ],
+   "products": [
+    "periodic_elements:ginkgo_nut"
+   ]
+  },
+  {
+   "id": "japanese_maple",
+   "vanilla": false,
+   "icon": "periodic_elements:japanese_maple_sapling",
+   "scientific": "Acer palmatum",
+   "family": "Sapindaceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:japanese_maple_log",
+    "periodic_elements:stripped_japanese_maple_log",
+    "periodic_elements:japanese_maple_leaves",
+    "periodic_elements:japanese_maple_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sugi",
+   "vanilla": false,
+   "icon": "periodic_elements:sugi_sapling",
+   "scientific": "Cryptomeria japonica",
+   "family": "Cupressaceae",
+   "height": 50,
+   "iucn": "NT",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:sugi_log",
+    "periodic_elements:stripped_sugi_log",
+    "periodic_elements:sugi_leaves",
+    "periodic_elements:sugi_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "lacquer_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:lacquer_tree_sapling",
+   "scientific": "Toxicodendron vernicifluum",
+   "family": "Anacardiaceae",
+   "height": 15,
+   "iucn": "NE",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:lacquer_tree_log",
+    "periodic_elements:stripped_lacquer_tree_log",
+    "periodic_elements:lacquer_tree_leaves",
+    "periodic_elements:lacquer_tree_sapling"
+   ],
+   "products": [
+    "periodic_elements:urushi"
+   ]
+  },
+  {
+   "id": "cork_oak",
+   "vanilla": false,
+   "icon": "periodic_elements:cork_oak_sapling",
+   "scientific": "Quercus suber",
+   "family": "Fagaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:cork_oak_log",
+    "periodic_elements:stripped_cork_oak_log",
+    "periodic_elements:cork_oak_leaves",
+    "periodic_elements:cork_oak_sapling"
+   ],
+   "products": [
+    "periodic_elements:acorn",
+    "periodic_elements:cork"
+   ]
+  },
+  {
+   "id": "olive",
+   "vanilla": false,
+   "icon": "periodic_elements:olive_sapling",
+   "scientific": "Olea europaea",
+   "family": "Oleaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "windswept_hills",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:olive_log",
+    "periodic_elements:stripped_olive_log",
+    "periodic_elements:olive_leaves",
+    "periodic_elements:olive_sapling"
+   ],
+   "products": [
+    "periodic_elements:olive"
+   ]
+  },
+  {
+   "id": "cedar_of_lebanon",
+   "vanilla": false,
+   "icon": "periodic_elements:cedar_of_lebanon_sapling",
+   "scientific": "Cedrus libani",
+   "family": "Pinaceae",
+   "height": 35,
+   "iucn": "VU",
+   "biomes": [
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:cedar_of_lebanon_log",
+    "periodic_elements:stripped_cedar_of_lebanon_log",
+    "periodic_elements:cedar_of_lebanon_leaves",
+    "periodic_elements:cedar_of_lebanon_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "black_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:black_pine_sapling",
+   "scientific": "Pinus nigra",
+   "family": "Pinaceae",
+   "height": 40,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "stony_peaks",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:black_pine_log",
+    "periodic_elements:stripped_black_pine_log",
+    "periodic_elements:black_pine_leaves",
+    "periodic_elements:black_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "carob",
+   "vanilla": false,
+   "icon": "periodic_elements:carob_sapling",
+   "scientific": "Ceratonia siliqua",
+   "family": "Fabaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:carob_log",
+    "periodic_elements:stripped_carob_log",
+    "periodic_elements:carob_leaves",
+    "periodic_elements:carob_sapling"
+   ],
+   "products": [
+    "periodic_elements:carob_pod"
+   ]
+  },
+  {
+   "id": "stone_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:stone_pine_sapling",
+   "scientific": "Pinus pinea",
+   "family": "Pinaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:stone_pine_log",
+    "periodic_elements:stripped_stone_pine_log",
+    "periodic_elements:stone_pine_leaves",
+    "periodic_elements:stone_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut"
+   ]
+  },
+  {
+   "id": "aleppo_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:aleppo_pine_sapling",
+   "scientific": "Pinus halepensis",
+   "family": "Pinaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:aleppo_pine_log",
+    "periodic_elements:stripped_aleppo_pine_log",
+    "periodic_elements:aleppo_pine_leaves",
+    "periodic_elements:aleppo_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "monterey_cypress",
+   "vanilla": false,
+   "icon": "periodic_elements:monterey_cypress_sapling",
+   "scientific": "Cupressus macrocarpa",
+   "family": "Cupressaceae",
+   "height": 25,
+   "iucn": "VU",
+   "biomes": [
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:monterey_cypress_log",
+    "periodic_elements:stripped_monterey_cypress_log",
+    "periodic_elements:monterey_cypress_leaves",
+    "periodic_elements:monterey_cypress_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "apple",
+   "vanilla": false,
+   "icon": "periodic_elements:apple_sapling",
+   "scientific": "Malus domestica",
+   "family": "Rosaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:apple_log",
+    "periodic_elements:stripped_apple_log",
+    "periodic_elements:apple_leaves",
+    "periodic_elements:apple_sapling"
+   ],
+   "products": [
+    "minecraft:apple"
+   ]
+  },
+  {
+   "id": "balsam_fir",
+   "vanilla": false,
+   "icon": "periodic_elements:balsam_fir_sapling",
+   "scientific": "Abies balsamea",
+   "family": "Pinaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "grove"
+   ],
+   "blocks": [
+    "periodic_elements:balsam_fir_log",
+    "periodic_elements:stripped_balsam_fir_log",
+    "periodic_elements:balsam_fir_leaves",
+    "periodic_elements:balsam_fir_sapling"
+   ],
+   "products": [
+    "periodic_elements:canada_balsam"
+   ]
+  },
+  {
+   "id": "silver_fir",
+   "vanilla": false,
+   "icon": "periodic_elements:silver_fir_sapling",
+   "scientific": "Abies alba",
+   "family": "Pinaceae",
+   "height": 50,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_forest",
+    "meadow",
+    "grove"
+   ],
+   "blocks": [
+    "periodic_elements:silver_fir_log",
+    "periodic_elements:stripped_silver_fir_log",
+    "periodic_elements:silver_fir_leaves",
+    "periodic_elements:silver_fir_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "douglas_fir",
+   "vanilla": false,
+   "icon": "periodic_elements:douglas_fir_sapling",
+   "scientific": "Pseudotsuga menziesii",
+   "family": "Pinaceae",
+   "height": 75,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:douglas_fir_log",
+    "periodic_elements:stripped_douglas_fir_log",
+    "periodic_elements:douglas_fir_leaves",
+    "periodic_elements:douglas_fir_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "siberian_fir",
+   "vanilla": false,
+   "icon": "periodic_elements:siberian_fir_sapling",
+   "scientific": "Abies sibirica",
+   "family": "Pinaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:siberian_fir_log",
+    "periodic_elements:stripped_siberian_fir_log",
+    "periodic_elements:siberian_fir_leaves",
+    "periodic_elements:siberian_fir_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "green_alder",
+   "vanilla": false,
+   "icon": "periodic_elements:green_alder_sapling",
+   "scientific": "Alnus alnobetula",
+   "family": "Betulaceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_beach"
+   ],
+   "blocks": [
+    "periodic_elements:green_alder_log",
+    "periodic_elements:stripped_green_alder_log",
+    "periodic_elements:green_alder_leaves",
+    "periodic_elements:green_alder_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sycamore_maple",
+   "vanilla": false,
+   "icon": "periodic_elements:sycamore_maple_sapling",
+   "scientific": "Acer pseudoplatanus",
+   "family": "Sapindaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "meadow"
+   ],
+   "blocks": [
+    "periodic_elements:sycamore_maple_log",
+    "periodic_elements:stripped_sycamore_maple_log",
+    "periodic_elements:sycamore_maple_leaves",
+    "periodic_elements:sycamore_maple_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "atlas_cedar",
+   "vanilla": false,
+   "icon": "periodic_elements:atlas_cedar_sapling",
+   "scientific": "Cedrus atlantica",
+   "family": "Pinaceae",
+   "height": 35,
+   "iucn": "EN",
+   "biomes": [
+    "stony_peaks",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:atlas_cedar_log",
+    "periodic_elements:stripped_atlas_cedar_log",
+    "periodic_elements:atlas_cedar_leaves",
+    "periodic_elements:atlas_cedar_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "siberian_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:siberian_pine_sapling",
+   "scientific": "Pinus sibirica",
+   "family": "Pinaceae",
+   "height": 40,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:siberian_pine_log",
+    "periodic_elements:stripped_siberian_pine_log",
+    "periodic_elements:siberian_pine_leaves",
+    "periodic_elements:siberian_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut"
+   ]
+  },
+  {
+   "id": "western_red_cedar",
+   "vanilla": false,
+   "icon": "periodic_elements:western_red_cedar_sapling",
+   "scientific": "Thuja plicata",
+   "family": "Cupressaceae",
+   "height": 60,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:western_red_cedar_log",
+    "periodic_elements:stripped_western_red_cedar_log",
+    "periodic_elements:western_red_cedar_leaves",
+    "periodic_elements:western_red_cedar_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "sea_buckthorn",
+   "vanilla": false,
+   "icon": "periodic_elements:sea_buckthorn_sapling",
+   "scientific": "Hippophae rhamnoides",
+   "family": "Elaeagnaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_beach",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:sea_buckthorn_log",
+    "periodic_elements:stripped_sea_buckthorn_log",
+    "periodic_elements:sea_buckthorn_leaves",
+    "periodic_elements:sea_buckthorn_sapling"
+   ],
+   "products": [
+    "periodic_elements:sea_buckthorn_berry"
+   ]
+  },
+  {
+   "id": "european_larch",
+   "vanilla": false,
+   "icon": "periodic_elements:european_larch_sapling",
+   "scientific": "Larix decidua",
+   "family": "Pinaceae",
+   "height": 45,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_forest",
+    "taiga",
+    "old_growth_pine_taiga",
+    "meadow",
+    "grove",
+    "snowy_slopes"
+   ],
+   "blocks": [
+    "periodic_elements:european_larch_log",
+    "periodic_elements:stripped_european_larch_log",
+    "periodic_elements:european_larch_leaves",
+    "periodic_elements:european_larch_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "dahurian_larch",
+   "vanilla": false,
+   "icon": "periodic_elements:dahurian_larch_sapling",
+   "scientific": "Larix gmelinii",
+   "family": "Pinaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_taiga",
+    "snowy_plains",
+    "ice_spikes"
+   ],
+   "blocks": [
+    "periodic_elements:dahurian_larch_log",
+    "periodic_elements:stripped_dahurian_larch_log",
+    "periodic_elements:dahurian_larch_leaves",
+    "periodic_elements:dahurian_larch_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "siberian_dwarf_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:siberian_dwarf_pine_sapling",
+   "scientific": "Pinus pumila",
+   "family": "Pinaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "ice_spikes",
+    "snowy_slopes",
+    "frozen_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:siberian_dwarf_pine_log",
+    "periodic_elements:stripped_siberian_dwarf_pine_log",
+    "periodic_elements:siberian_dwarf_pine_leaves",
+    "periodic_elements:siberian_dwarf_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut"
+   ]
+  },
+  {
+   "id": "eastern_white_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:eastern_white_pine_sapling",
+   "scientific": "Pinus strobus",
+   "family": "Pinaceae",
+   "height": 50,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_pine_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:eastern_white_pine_log",
+    "periodic_elements:stripped_eastern_white_pine_log",
+    "periodic_elements:eastern_white_pine_leaves",
+    "periodic_elements:eastern_white_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "bristlecone_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:bristlecone_pine_sapling",
+   "scientific": "Pinus longaeva",
+   "family": "Pinaceae",
+   "height": 15,
+   "iucn": "LC",
+   "biomes": [
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:bristlecone_pine_log",
+    "periodic_elements:stripped_bristlecone_pine_log",
+    "periodic_elements:bristlecone_pine_leaves",
+    "periodic_elements:bristlecone_pine_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "swiss_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:swiss_pine_sapling",
+   "scientific": "Pinus cembra",
+   "family": "Pinaceae",
+   "height": 25,
+   "iucn": "LC",
+   "biomes": [
+    "meadow",
+    "grove",
+    "snowy_slopes",
+    "jagged_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:swiss_pine_log",
+    "periodic_elements:stripped_swiss_pine_log",
+    "periodic_elements:swiss_pine_leaves",
+    "periodic_elements:swiss_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut"
+   ]
+  },
+  {
+   "id": "whitebark_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:whitebark_pine_sapling",
+   "scientific": "Pinus albicaulis",
+   "family": "Pinaceae",
+   "height": 20,
+   "iucn": "EN",
+   "biomes": [
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:whitebark_pine_log",
+    "periodic_elements:stripped_whitebark_pine_log",
+    "periodic_elements:whitebark_pine_leaves",
+    "periodic_elements:whitebark_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_nut"
+   ]
+  },
+  {
+   "id": "lodgepole_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:lodgepole_pine_sapling",
+   "scientific": "Pinus contorta",
+   "family": "Pinaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_pine_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:lodgepole_pine_log",
+    "periodic_elements:stripped_lodgepole_pine_log",
+    "periodic_elements:lodgepole_pine_leaves",
+    "periodic_elements:lodgepole_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "mountain_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:mountain_pine_sapling",
+   "scientific": "Pinus mugo",
+   "family": "Pinaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_slopes",
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:mountain_pine_log",
+    "periodic_elements:stripped_mountain_pine_log",
+    "periodic_elements:mountain_pine_leaves",
+    "periodic_elements:mountain_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "scots_pine",
+   "vanilla": false,
+   "icon": "periodic_elements:scots_pine_sapling",
+   "scientific": "Pinus sylvestris",
+   "family": "Pinaceae",
+   "height": 35,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_forest",
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:scots_pine_log",
+    "periodic_elements:stripped_scots_pine_log",
+    "periodic_elements:scots_pine_leaves",
+    "periodic_elements:scots_pine_sapling"
+   ],
+   "products": [
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "arctic_willow",
+   "vanilla": false,
+   "icon": "periodic_elements:arctic_willow_sapling",
+   "scientific": "Salix arctica",
+   "family": "Salicaceae",
+   "height": 0.2,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_beach",
+    "frozen_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:arctic_willow_log",
+    "periodic_elements:stripped_arctic_willow_log",
+    "periodic_elements:arctic_willow_leaves",
+    "periodic_elements:arctic_willow_sapling"
+   ],
+   "products": [
+    "periodic_elements:willow_bark"
+   ]
+  },
+  {
+   "id": "coast_redwood",
+   "vanilla": false,
+   "icon": "periodic_elements:coast_redwood_sapling",
+   "scientific": "Sequoia sempervirens",
+   "family": "Cupressaceae",
+   "height": 115,
+   "iucn": "EN",
+   "biomes": [
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:coast_redwood_log",
+    "periodic_elements:stripped_coast_redwood_log",
+    "periodic_elements:coast_redwood_leaves",
+    "periodic_elements:coast_redwood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "giant_sequoia",
+   "vanilla": false,
+   "icon": "periodic_elements:giant_sequoia_sapling",
+   "scientific": "Sequoiadendron giganteum",
+   "family": "Cupressaceae",
+   "height": 85,
+   "iucn": "EN",
+   "biomes": [
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:giant_sequoia_log",
+    "periodic_elements:stripped_giant_sequoia_log",
+    "periodic_elements:giant_sequoia_leaves",
+    "periodic_elements:giant_sequoia_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "western_hemlock",
+   "vanilla": false,
+   "icon": "periodic_elements:western_hemlock_sapling",
+   "scientific": "Tsuga heterophylla",
+   "family": "Pinaceae",
+   "height": 60,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:western_hemlock_log",
+    "periodic_elements:stripped_western_hemlock_log",
+    "periodic_elements:western_hemlock_leaves",
+    "periodic_elements:western_hemlock_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "common_juniper",
+   "vanilla": false,
+   "icon": "periodic_elements:common_juniper_sapling",
+   "scientific": "Juniperus communis",
+   "family": "Cupressaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_beach",
+    "snowy_slopes",
+    "frozen_peaks",
+    "jagged_peaks",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:common_juniper_log",
+    "periodic_elements:stripped_common_juniper_log",
+    "periodic_elements:common_juniper_leaves",
+    "periodic_elements:common_juniper_sapling"
+   ],
+   "products": [
+    "periodic_elements:juniper_berry"
+   ]
+  },
+  {
+   "id": "araucaria",
+   "vanilla": false,
+   "icon": "periodic_elements:araucaria_sapling",
+   "scientific": "Araucaria angustifolia",
+   "family": "Araucariaceae",
+   "height": 40,
+   "iucn": "CR",
+   "biomes": [
+    "forest",
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:araucaria_log",
+    "periodic_elements:stripped_araucaria_log",
+    "periodic_elements:araucaria_leaves",
+    "periodic_elements:araucaria_sapling"
+   ],
+   "products": [
+    "periodic_elements:araucaria_seed",
+    "periodic_elements:pine_resin"
+   ]
+  },
+  {
+   "id": "brazilian_rosewood",
+   "vanilla": false,
+   "icon": "periodic_elements:brazilian_rosewood_sapling",
+   "scientific": "Dalbergia nigra",
+   "family": "Fabaceae",
+   "height": 25,
+   "iucn": "VU",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:brazilian_rosewood_log",
+    "periodic_elements:stripped_brazilian_rosewood_log",
+    "periodic_elements:brazilian_rosewood_leaves",
+    "periodic_elements:brazilian_rosewood_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "mango",
+   "vanilla": false,
+   "icon": "periodic_elements:mango_sapling",
+   "scientific": "Mangifera indica",
+   "family": "Anacardiaceae",
+   "height": 30,
+   "iucn": "DD",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:mango_log",
+    "periodic_elements:stripped_mango_log",
+    "periodic_elements:mango_leaves",
+    "periodic_elements:mango_sapling"
+   ],
+   "products": [
+    "periodic_elements:mango"
+   ]
+  },
+  {
+   "id": "avocado",
+   "vanilla": false,
+   "icon": "periodic_elements:avocado_sapling",
+   "scientific": "Persea americana",
+   "family": "Lauraceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:avocado_log",
+    "periodic_elements:stripped_avocado_log",
+    "periodic_elements:avocado_leaves",
+    "periodic_elements:avocado_sapling"
+   ],
+   "products": [
+    "periodic_elements:avocado"
+   ]
+  },
+  {
+   "id": "cashew",
+   "vanilla": false,
+   "icon": "periodic_elements:cashew_sapling",
+   "scientific": "Anacardium occidentale",
+   "family": "Anacardiaceae",
+   "height": 12,
+   "iucn": "NE",
+   "biomes": [
+    "beach",
+    "savanna"
+   ],
+   "blocks": [
+    "periodic_elements:cashew_log",
+    "periodic_elements:stripped_cashew_log",
+    "periodic_elements:cashew_leaves",
+    "periodic_elements:cashew_sapling"
+   ],
+   "products": [
+    "periodic_elements:cashew"
+   ]
+  },
+  {
+   "id": "orange",
+   "vanilla": false,
+   "icon": "periodic_elements:orange_sapling",
+   "scientific": "Citrus sinensis",
+   "family": "Rutaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:orange_log",
+    "periodic_elements:stripped_orange_log",
+    "periodic_elements:orange_leaves",
+    "periodic_elements:orange_sapling"
+   ],
+   "products": [
+    "periodic_elements:orange"
+   ]
+  },
+  {
+   "id": "lemon",
+   "vanilla": false,
+   "icon": "periodic_elements:lemon_sapling",
+   "scientific": "Citrus limon",
+   "family": "Rutaceae",
+   "height": 6,
+   "iucn": "NE",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:lemon_log",
+    "periodic_elements:stripped_lemon_log",
+    "periodic_elements:lemon_leaves",
+    "periodic_elements:lemon_sapling"
+   ],
+   "products": [
+    "periodic_elements:lemon"
+   ]
+  },
+  {
+   "id": "papaya",
+   "vanilla": false,
+   "icon": "periodic_elements:papaya_sapling",
+   "scientific": "Carica papaya",
+   "family": "Caricaceae",
+   "height": 8,
+   "iucn": "DD",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:papaya_log",
+    "periodic_elements:stripped_papaya_log",
+    "periodic_elements:papaya_leaves",
+    "periodic_elements:papaya_sapling"
+   ],
+   "products": [
+    "periodic_elements:papaya"
+   ]
+  },
+  {
+   "id": "kapok",
+   "vanilla": false,
+   "icon": "periodic_elements:kapok_sapling",
+   "scientific": "Ceiba pentandra",
+   "family": "Malvaceae",
+   "height": 60,
+   "iucn": "LC",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:kapok_log",
+    "periodic_elements:stripped_kapok_log",
+    "periodic_elements:kapok_leaves",
+    "periodic_elements:kapok_sapling"
+   ],
+   "products": [
+    "periodic_elements:kapok_fiber"
+   ]
+  },
+  {
+   "id": "sweet_cherry",
+   "vanilla": false,
+   "icon": "periodic_elements:sweet_cherry_sapling",
+   "scientific": "Prunus avium",
+   "family": "Rosaceae",
+   "height": 20,
+   "iucn": "LC",
+   "biomes": [
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:sweet_cherry_log",
+    "periodic_elements:stripped_sweet_cherry_log",
+    "periodic_elements:sweet_cherry_leaves",
+    "periodic_elements:sweet_cherry_sapling"
+   ],
+   "products": [
+    "periodic_elements:cherry"
+   ]
+  },
+  {
+   "id": "plum",
+   "vanilla": false,
+   "icon": "periodic_elements:plum_sapling",
+   "scientific": "Prunus domestica",
+   "family": "Rosaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:plum_log",
+    "periodic_elements:stripped_plum_log",
+    "periodic_elements:plum_leaves",
+    "periodic_elements:plum_sapling"
+   ],
+   "products": [
+    "periodic_elements:plum"
+   ]
+  },
+  {
+   "id": "peach",
+   "vanilla": false,
+   "icon": "periodic_elements:peach_sapling",
+   "scientific": "Prunus persica",
+   "family": "Rosaceae",
+   "height": 8,
+   "iucn": "NE",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:peach_log",
+    "periodic_elements:stripped_peach_log",
+    "periodic_elements:peach_leaves",
+    "periodic_elements:peach_sapling"
+   ],
+   "products": [
+    "periodic_elements:peach"
+   ]
+  },
+  {
+   "id": "apricot",
+   "vanilla": false,
+   "icon": "periodic_elements:apricot_sapling",
+   "scientific": "Prunus armeniaca",
+   "family": "Rosaceae",
+   "height": 10,
+   "iucn": "NE",
+   "biomes": [
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:apricot_log",
+    "periodic_elements:stripped_apricot_log",
+    "periodic_elements:apricot_leaves",
+    "periodic_elements:apricot_sapling"
+   ],
+   "products": [
+    "periodic_elements:apricot"
+   ]
+  },
+  {
+   "id": "fig",
+   "vanilla": false,
+   "icon": "periodic_elements:fig_sapling",
+   "scientific": "Ficus carica",
+   "family": "Moraceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore",
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:fig_log",
+    "periodic_elements:stripped_fig_log",
+    "periodic_elements:fig_leaves",
+    "periodic_elements:fig_sapling"
+   ],
+   "products": [
+    "periodic_elements:fig"
+   ]
+  },
+  {
+   "id": "pomegranate",
+   "vanilla": false,
+   "icon": "periodic_elements:pomegranate_sapling",
+   "scientific": "Punica granatum",
+   "family": "Lythraceae",
+   "height": 8,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:pomegranate_log",
+    "periodic_elements:stripped_pomegranate_log",
+    "periodic_elements:pomegranate_leaves",
+    "periodic_elements:pomegranate_sapling"
+   ],
+   "products": [
+    "periodic_elements:pomegranate"
+   ]
+  },
+  {
+   "id": "almond",
+   "vanilla": false,
+   "icon": "periodic_elements:almond_sapling",
+   "scientific": "Prunus dulcis",
+   "family": "Rosaceae",
+   "height": 8,
+   "iucn": "DD",
+   "biomes": [
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:almond_log",
+    "periodic_elements:stripped_almond_log",
+    "periodic_elements:almond_leaves",
+    "periodic_elements:almond_sapling"
+   ],
+   "products": [
+    "periodic_elements:almond"
+   ]
+  },
+  {
+   "id": "pistachio",
+   "vanilla": false,
+   "icon": "periodic_elements:pistachio_sapling",
+   "scientific": "Pistacia vera",
+   "family": "Anacardiaceae",
+   "height": 8,
+   "iucn": "NT",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:pistachio_log",
+    "periodic_elements:stripped_pistachio_log",
+    "periodic_elements:pistachio_leaves",
+    "periodic_elements:pistachio_sapling"
+   ],
+   "products": [
+    "periodic_elements:pistachio"
+   ]
+  },
+  {
+   "id": "hazel",
+   "vanilla": false,
+   "icon": "periodic_elements:hazel_sapling",
+   "scientific": "Corylus avellana",
+   "family": "Betulaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:hazel_log",
+    "periodic_elements:stripped_hazel_log",
+    "periodic_elements:hazel_leaves",
+    "periodic_elements:hazel_sapling"
+   ],
+   "products": [
+    "periodic_elements:hazelnut"
+   ]
+  },
+  {
+   "id": "pecan",
+   "vanilla": false,
+   "icon": "periodic_elements:pecan_sapling",
+   "scientific": "Carya illinoinensis",
+   "family": "Juglandaceae",
+   "height": 40,
+   "iucn": "LC",
+   "biomes": [
+    "swamp",
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:pecan_log",
+    "periodic_elements:stripped_pecan_log",
+    "periodic_elements:pecan_leaves",
+    "periodic_elements:pecan_sapling"
+   ],
+   "products": [
+    "periodic_elements:pecan"
+   ]
+  },
+  {
+   "id": "plane_tree",
+   "vanilla": false,
+   "icon": "periodic_elements:plane_tree_sapling",
+   "scientific": "Platanus orientalis",
+   "family": "Platanaceae",
+   "height": 30,
+   "iucn": "LC",
+   "biomes": [
+    "plains"
+   ],
+   "blocks": [
+    "periodic_elements:plane_tree_log",
+    "periodic_elements:stripped_plane_tree_log",
+    "periodic_elements:plane_tree_leaves",
+    "periodic_elements:plane_tree_sapling"
+   ],
+   "products": []
+  },
+  {
+   "id": "horse_chestnut",
+   "vanilla": false,
+   "icon": "periodic_elements:horse_chestnut_sapling",
+   "scientific": "Aesculus hippocastanum",
+   "family": "Sapindaceae",
+   "height": 25,
+   "iucn": "VU",
+   "biomes": [
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:horse_chestnut_log",
+    "periodic_elements:stripped_horse_chestnut_log",
+    "periodic_elements:horse_chestnut_leaves",
+    "periodic_elements:horse_chestnut_sapling"
+   ],
+   "products": [
+    "periodic_elements:horse_chestnut"
+   ]
+  }
+ ],
+ "plants": [
+  {
+   "id": "dandelion",
+   "vanilla": true,
+   "icon": "minecraft:dandelion",
+   "scientific": "Taraxacum officinale",
+   "family": "Asteraceae",
+   "height": 0.3,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:dandelion"
+   ],
+   "products": [
+    "minecraft:yellow_dye"
+   ]
+  },
+  {
+   "id": "poppy",
+   "vanilla": true,
+   "icon": "minecraft:poppy",
+   "scientific": "Papaver rhoeas",
+   "family": "Papaveraceae",
+   "height": 0.7,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:poppy"
+   ],
+   "products": [
+    "minecraft:red_dye"
+   ]
+  },
+  {
+   "id": "blue_orchid",
+   "vanilla": true,
+   "icon": "minecraft:blue_orchid",
+   "scientific": "Vanda coerulea",
+   "family": "Orchidaceae",
+   "height": 0.8,
+   "iucn": "NE",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "minecraft:blue_orchid"
+   ],
+   "products": [
+    "minecraft:light_blue_dye"
+   ]
+  },
+  {
+   "id": "allium",
+   "vanilla": true,
+   "icon": "minecraft:allium",
+   "scientific": "Allium giganteum",
+   "family": "Amaryllidaceae",
+   "height": 1.5,
+   "iucn": "NE",
+   "biomes": [
+    "flower_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:allium"
+   ],
+   "products": [
+    "minecraft:magenta_dye"
+   ]
+  },
+  {
+   "id": "azure_bluet",
+   "vanilla": true,
+   "icon": "minecraft:azure_bluet",
+   "scientific": "Houstonia caerulea",
+   "family": "Rubiaceae",
+   "height": 0.15,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:azure_bluet"
+   ],
+   "products": [
+    "minecraft:light_gray_dye"
+   ]
+  },
+  {
+   "id": "tulip",
+   "vanilla": true,
+   "icon": "minecraft:red_tulip",
+   "scientific": "Tulipa gesneriana",
+   "family": "Liliaceae",
+   "height": 0.6,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "flower_forest"
+   ],
+   "blocks": [
+    "minecraft:red_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:white_tulip",
+    "minecraft:pink_tulip"
+   ],
+   "products": [
+    "minecraft:red_dye",
+    "minecraft:orange_dye",
+    "minecraft:light_gray_dye",
+    "minecraft:pink_dye"
+   ]
+  },
+  {
+   "id": "oxeye_daisy",
+   "vanilla": true,
+   "icon": "minecraft:oxeye_daisy",
+   "scientific": "Leucanthemum vulgare",
+   "family": "Asteraceae",
+   "height": 0.6,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:oxeye_daisy"
+   ],
+   "products": [
+    "minecraft:light_gray_dye"
+   ]
+  },
+  {
+   "id": "cornflower",
+   "vanilla": true,
+   "icon": "minecraft:cornflower",
+   "scientific": "Centaurea cyanus",
+   "family": "Asteraceae",
+   "height": 0.8,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:cornflower"
+   ],
+   "products": [
+    "minecraft:blue_dye"
+   ]
+  },
+  {
+   "id": "lily_of_the_valley",
+   "vanilla": true,
+   "icon": "minecraft:lily_of_the_valley",
+   "scientific": "Convallaria majalis",
+   "family": "Asparagaceae",
+   "height": 0.25,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest"
+   ],
+   "blocks": [
+    "minecraft:lily_of_the_valley"
+   ],
+   "products": [
+    "minecraft:white_dye"
+   ]
+  },
+  {
+   "id": "sunflower",
+   "vanilla": true,
+   "icon": "minecraft:sunflower",
+   "scientific": "Helianthus annuus",
+   "family": "Asteraceae",
+   "height": 3,
+   "iucn": "NE",
+   "biomes": [
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "minecraft:sunflower"
+   ],
+   "products": [
+    "minecraft:yellow_dye"
+   ]
+  },
+  {
+   "id": "lilac",
+   "vanilla": true,
+   "icon": "minecraft:lilac",
+   "scientific": "Syringa vulgaris",
+   "family": "Oleaceae",
+   "height": 6,
+   "iucn": "NE",
+   "biomes": [
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "minecraft:lilac"
+   ],
+   "products": [
+    "minecraft:magenta_dye"
+   ]
+  },
+  {
+   "id": "rose_bush",
+   "vanilla": true,
+   "icon": "minecraft:rose_bush",
+   "scientific": "Rosa canina",
+   "family": "Rosaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "minecraft:rose_bush"
+   ],
+   "products": [
+    "minecraft:red_dye"
+   ]
+  },
+  {
+   "id": "peony",
+   "vanilla": true,
+   "icon": "minecraft:peony",
+   "scientific": "Paeonia lactiflora",
+   "family": "Paeoniaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "minecraft:peony"
+   ],
+   "products": [
+    "minecraft:pink_dye"
+   ]
+  },
+  {
+   "id": "pitcher_plant",
+   "vanilla": true,
+   "icon": "minecraft:pitcher_plant",
+   "scientific": "Sarracenia purpurea",
+   "family": "Sarraceniaceae",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "minecraft:pitcher_plant",
+    "minecraft:pitcher_crop"
+   ],
+   "products": [
+    "minecraft:cyan_dye"
+   ]
+  },
+  {
+   "id": "grass",
+   "vanilla": true,
+   "icon": "minecraft:short_grass",
+   "scientific": "Poa pratensis",
+   "family": "Poaceae",
+   "height": 0.9,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna",
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "dark_forest",
+    "jungle",
+    "sparse_jungle",
+    "taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "windswept_hills",
+    "windswept_forest",
+    "meadow",
+    "swamp"
+   ],
+   "blocks": [
+    "minecraft:short_grass",
+    "minecraft:tall_grass"
+   ],
+   "products": [
+    "minecraft:wheat_seeds"
+   ]
+  },
+  {
+   "id": "fern",
+   "vanilla": true,
+   "icon": "minecraft:fern",
+   "scientific": "Pteridium aquilinum",
+   "family": "Dennstaedtiaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "minecraft:fern",
+    "minecraft:large_fern"
+   ],
+   "products": []
+  },
+  {
+   "id": "dead_bush",
+   "vanilla": true,
+   "icon": "minecraft:dead_bush",
+   "scientific": "Larrea tridentata",
+   "family": "Zygophyllaceae",
+   "height": 3,
+   "iucn": "NE",
+   "biomes": [
+    "desert",
+    "badlands",
+    "wooded_badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "minecraft:dead_bush"
+   ],
+   "products": [
+    "minecraft:stick"
+   ]
+  },
+  {
+   "id": "sweet_berry_bush",
+   "vanilla": true,
+   "icon": "minecraft:sweet_berries",
+   "scientific": "Vaccinium vitis-idaea",
+   "family": "Ericaceae",
+   "height": 0.4,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "minecraft:sweet_berry_bush"
+   ],
+   "products": [
+    "minecraft:sweet_berries"
+   ]
+  },
+  {
+   "id": "bamboo",
+   "vanilla": true,
+   "icon": "minecraft:bamboo",
+   "scientific": "Phyllostachys edulis",
+   "family": "Poaceae",
+   "height": 28,
+   "iucn": "NE",
+   "biomes": [
+    "bamboo_jungle",
+    "jungle"
+   ],
+   "blocks": [
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling"
+   ],
+   "products": [
+    "minecraft:bamboo"
+   ]
+  },
+  {
+   "id": "cactus",
+   "vanilla": true,
+   "icon": "minecraft:cactus",
+   "scientific": "Carnegiea gigantea",
+   "family": "Cactaceae",
+   "height": 12,
+   "iucn": "LC",
+   "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "minecraft:cactus"
+   ],
+   "products": [
+    "minecraft:green_dye"
+   ]
+  },
+  {
+   "id": "sugar_cane",
+   "vanilla": true,
+   "icon": "minecraft:sugar_cane",
+   "scientific": "Saccharum officinarum",
+   "family": "Poaceae",
+   "height": 5,
+   "iucn": "NE",
+   "biomes": [
+    "beach",
+    "swamp",
+    "desert",
+    "jungle",
+    "river"
+   ],
+   "blocks": [
+    "minecraft:sugar_cane"
+   ],
+   "products": [
+    "minecraft:sugar",
+    "minecraft:paper"
+   ]
+  },
+  {
+   "id": "moss",
+   "vanilla": true,
+   "icon": "minecraft:moss_block",
+   "scientific": "Polytrichum commune",
+   "family": "Polytrichaceae",
+   "height": 0.4,
+   "iucn": "NE",
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:moss_block",
+    "minecraft:moss_carpet"
+   ],
+   "products": []
+  },
+  {
+   "id": "wheat",
+   "vanilla": true,
+   "icon": "minecraft:wheat",
+   "scientific": "Triticum aestivum",
+   "family": "Poaceae",
+   "height": 1.2,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "savanna",
+    "desert",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:wheat"
+   ],
+   "products": [
+    "minecraft:wheat",
+    "minecraft:wheat_seeds"
+   ]
+  },
+  {
+   "id": "carrot",
+   "vanilla": true,
+   "icon": "minecraft:carrot",
+   "scientific": "Daucus carota",
+   "family": "Apiaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "savanna",
+    "desert",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:carrots"
+   ],
+   "products": [
+    "minecraft:carrot"
+   ]
+  },
+  {
+   "id": "potato",
+   "vanilla": true,
+   "icon": "minecraft:potato",
+   "scientific": "Solanum tuberosum",
+   "family": "Solanaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "savanna",
+    "desert",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:potatoes"
+   ],
+   "products": [
+    "minecraft:potato",
+    "minecraft:poisonous_potato"
+   ]
+  },
+  {
+   "id": "beetroot",
+   "vanilla": true,
+   "icon": "minecraft:beetroot",
+   "scientific": "Beta vulgaris",
+   "family": "Amaranthaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "savanna",
+    "desert",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:beetroots"
+   ],
+   "products": [
+    "minecraft:beetroot",
+    "minecraft:beetroot_seeds"
+   ]
+  },
+  {
+   "id": "melon",
+   "vanilla": true,
+   "icon": "minecraft:melon",
+   "scientific": "Citrullus lanatus",
+   "family": "Cucurbitaceae",
+   "height": 0.5,
+   "iucn": "NE",
+   "biomes": [
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "minecraft:melon",
+    "minecraft:melon_stem",
+    "minecraft:attached_melon_stem"
+   ],
+   "products": [
+    "minecraft:melon_slice",
+    "minecraft:melon_seeds"
+   ]
+  },
+  {
+   "id": "pumpkin",
+   "vanilla": true,
+   "icon": "minecraft:pumpkin",
+   "scientific": "Cucurbita maxima",
+   "family": "Cucurbitaceae",
+   "height": 0.5,
+   "iucn": "NE",
+   "biomes": [
+    "plains",
+    "forest",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:pumpkin",
+    "minecraft:pumpkin_stem",
+    "minecraft:attached_pumpkin_stem"
+   ],
+   "products": [
+    "minecraft:pumpkin_seeds"
+   ]
+  },
+  {
+   "id": "cocoa",
+   "vanilla": true,
+   "icon": "minecraft:cocoa_beans",
+   "scientific": "Theobroma cacao",
+   "family": "Malvaceae",
+   "height": 8,
+   "iucn": "NE",
+   "biomes": [
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "minecraft:cocoa"
+   ],
+   "products": [
+    "minecraft:cocoa_beans"
+   ]
+  },
+  {
+   "id": "kelp",
+   "vanilla": true,
+   "icon": "minecraft:kelp",
+   "scientific": "Macrocystis pyrifera",
+   "family": "Laminariaceae",
+   "height": 45,
+   "iucn": "NE",
+   "biomes": [
+    "ocean",
+    "cold_ocean",
+    "lukewarm_ocean"
+   ],
+   "blocks": [
+    "minecraft:kelp",
+    "minecraft:kelp_plant"
+   ],
+   "products": [
+    "minecraft:kelp"
+   ]
+  },
+  {
+   "id": "seagrass",
+   "vanilla": true,
+   "icon": "minecraft:seagrass",
+   "scientific": "Zostera marina",
+   "family": "Zosteraceae",
+   "height": 1,
+   "iucn": "LC",
+   "biomes": [
+    "ocean",
+    "lukewarm_ocean",
+    "warm_ocean",
+    "cold_ocean",
+    "river"
+   ],
+   "blocks": [
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass"
+   ],
+   "products": []
+  },
+  {
+   "id": "lily_pad",
+   "vanilla": true,
+   "icon": "minecraft:lily_pad",
+   "scientific": "Nymphaea alba",
+   "family": "Nymphaeaceae",
+   "height": 0.1,
+   "iucn": "LC",
+   "biomes": [
+    "swamp",
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "minecraft:lily_pad"
+   ],
+   "products": []
+  },
+  {
+   "id": "torchflower",
+   "vanilla": true,
+   "icon": "minecraft:torchflower",
+   "scientific": null,
+   "family": null,
+   "height": 0.6,
+   "iucn": null,
+   "biomes": [
+    "warm_ocean"
+   ],
+   "blocks": [
+    "minecraft:torchflower",
+    "minecraft:torchflower_crop"
+   ],
+   "products": [
+    "minecraft:orange_dye"
+   ]
+  },
+  {
+   "id": "pink_petals",
+   "vanilla": true,
+   "icon": "minecraft:pink_petals",
+   "scientific": null,
+   "family": null,
+   "height": 0.1,
+   "iucn": null,
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "minecraft:pink_petals"
+   ],
+   "products": [
+    "minecraft:pink_dye"
+   ]
+  },
+  {
+   "id": "spore_blossom",
+   "vanilla": true,
+   "icon": "minecraft:spore_blossom",
+   "scientific": null,
+   "family": null,
+   "height": 0.3,
+   "iucn": null,
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:spore_blossom"
+   ],
+   "products": []
+  },
+  {
+   "id": "dripleaf",
+   "vanilla": true,
+   "icon": "minecraft:big_dripleaf",
+   "scientific": null,
+   "family": null,
+   "height": 2,
+   "iucn": null,
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:big_dripleaf",
+    "minecraft:big_dripleaf_stem",
+    "minecraft:small_dripleaf"
+   ],
+   "products": []
+  },
+  {
+   "id": "glow_berries",
+   "vanilla": true,
+   "icon": "minecraft:glow_berries",
+   "scientific": null,
+   "family": null,
+   "height": 10,
+   "iucn": null,
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant"
+   ],
+   "products": [
+    "minecraft:glow_berries"
+   ]
+  },
+  {
+   "id": "glow_lichen",
+   "vanilla": true,
+   "icon": "minecraft:glow_lichen",
+   "scientific": null,
+   "family": null,
+   "height": 0.1,
+   "iucn": null,
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:glow_lichen"
+   ],
+   "products": [
+    "minecraft:glow_lichen"
+   ]
+  },
+  {
+   "id": "vine",
+   "vanilla": true,
+   "icon": "minecraft:vine",
+   "scientific": null,
+   "family": null,
+   "height": 20,
+   "iucn": null,
+   "biomes": [
+    "jungle",
+    "swamp",
+    "mangrove_swamp",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "minecraft:vine"
+   ],
+   "products": []
+  },
+  {
+   "id": "guarana",
+   "vanilla": false,
+   "icon": "periodic_elements:guarana_cutting",
+   "scientific": "Paullinia cupana",
+   "family": "Sapindaceae",
+   "height": 3,
+   "iucn": "NE",
+   "biomes": [
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:guarana_bush"
+   ],
+   "products": [
+    "periodic_elements:guarana_seeds"
+   ]
+  },
+  {
+   "id": "annatto",
+   "vanilla": false,
+   "icon": "periodic_elements:annatto_cutting",
+   "scientific": "Bixa orellana",
+   "family": "Bixaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:annatto_bush"
+   ],
+   "products": [
+    "periodic_elements:annatto_seeds"
+   ]
+  },
+  {
+   "id": "ipecac",
+   "vanilla": false,
+   "icon": "periodic_elements:ipecac_cutting",
+   "scientific": "Carapichea ipecacuanha",
+   "family": "Rubiaceae",
+   "height": 0.5,
+   "iucn": "NE",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:ipecac_bush"
+   ],
+   "products": [
+    "periodic_elements:ipecac_root"
+   ]
+  },
+  {
+   "id": "jaborandi",
+   "vanilla": false,
+   "icon": "periodic_elements:jaborandi_cutting",
+   "scientific": "Pilocarpus microphyllus",
+   "family": "Rutaceae",
+   "height": 4,
+   "iucn": "NE",
+   "biomes": [
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:jaborandi_bush"
+   ],
+   "products": [
+    "periodic_elements:jaborandi_leaf"
+   ]
+  },
+  {
+   "id": "malagueta",
+   "vanilla": false,
+   "icon": "periodic_elements:malagueta_cutting",
+   "scientific": "Capsicum frutescens",
+   "family": "Solanaceae",
+   "height": 1.5,
+   "iucn": "NE",
+   "biomes": [
+    "jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:malagueta_bush"
+   ],
+   "products": [
+    "periodic_elements:malagueta_pepper"
+   ]
+  },
+  {
+   "id": "tea",
+   "vanilla": false,
+   "icon": "periodic_elements:tea_cutting",
+   "scientific": "Camellia sinensis",
+   "family": "Theaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "bamboo_jungle",
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:tea_bush"
+   ],
+   "products": [
+    "periodic_elements:tea_leaf"
+   ]
+  },
+  {
+   "id": "jasmine",
+   "vanilla": false,
+   "icon": "periodic_elements:jasmine_cutting",
+   "scientific": "Jasminum sambac",
+   "family": "Oleaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:jasmine_bush"
+   ],
+   "products": [
+    "periodic_elements:jasmine_flower"
+   ]
+  },
+  {
+   "id": "holly_mangrove",
+   "vanilla": false,
+   "icon": "periodic_elements:holly_mangrove_cutting",
+   "scientific": "Acanthus ilicifolius",
+   "family": "Acanthaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:holly_mangrove_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "pemphis",
+   "vanilla": false,
+   "icon": "periodic_elements:pemphis_cutting",
+   "scientific": "Pemphis acidula",
+   "family": "Lythraceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp",
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:pemphis_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "naupaka",
+   "vanilla": false,
+   "icon": "periodic_elements:naupaka_cutting",
+   "scientific": "Scaevola taccada",
+   "family": "Goodeniaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp",
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:naupaka_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "jatropha",
+   "vanilla": false,
+   "icon": "periodic_elements:jatropha_cutting",
+   "scientific": "Jatropha curcas",
+   "family": "Euphorbiaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:jatropha_bush"
+   ],
+   "products": [
+    "periodic_elements:jatropha_seed"
+   ]
+  },
+  {
+   "id": "roselle",
+   "vanilla": false,
+   "icon": "periodic_elements:roselle_cutting",
+   "scientific": "Hibiscus sabdariffa",
+   "family": "Malvaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:roselle_bush"
+   ],
+   "products": [
+    "periodic_elements:roselle_calyx"
+   ]
+  },
+  {
+   "id": "rooibos",
+   "vanilla": false,
+   "icon": "periodic_elements:rooibos_cutting",
+   "scientific": "Aspalathus linearis",
+   "family": "Fabaceae",
+   "height": 1.5,
+   "iucn": "NE",
+   "biomes": [
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:rooibos_bush"
+   ],
+   "products": [
+    "periodic_elements:rooibos_leaf"
+   ]
+  },
+  {
+   "id": "calotropis",
+   "vanilla": false,
+   "icon": "periodic_elements:calotropis_cutting",
+   "scientific": "Calotropis procera",
+   "family": "Apocynaceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "windswept_savanna",
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:calotropis_bush"
+   ],
+   "products": [
+    "periodic_elements:calotropis_floss"
+   ]
+  },
+  {
+   "id": "creosote",
+   "vanilla": false,
+   "icon": "periodic_elements:creosote_cutting",
+   "scientific": "Larrea tridentata",
+   "family": "Zygophyllaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "desert",
+    "badlands"
+   ],
+   "blocks": [
+    "periodic_elements:creosote_bush"
+   ],
+   "products": [
+    "periodic_elements:creosote_leaf"
+   ]
+  },
+  {
+   "id": "jojoba",
+   "vanilla": false,
+   "icon": "periodic_elements:jojoba_cutting",
+   "scientific": "Simmondsia chinensis",
+   "family": "Simmondsiaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:jojoba_bush"
+   ],
+   "products": [
+    "periodic_elements:jojoba_seed"
+   ]
+  },
+  {
+   "id": "henna",
+   "vanilla": false,
+   "icon": "periodic_elements:henna_cutting",
+   "scientific": "Lawsonia inermis",
+   "family": "Lythraceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:henna_bush"
+   ],
+   "products": [
+    "periodic_elements:henna_leaf"
+   ]
+  },
+  {
+   "id": "saltbush",
+   "vanilla": false,
+   "icon": "periodic_elements:saltbush_cutting",
+   "scientific": "Atriplex halimus",
+   "family": "Amaranthaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "desert",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:saltbush_bush"
+   ],
+   "products": [
+    "periodic_elements:saltbush_leaf"
+   ]
+  },
+  {
+   "id": "guayule",
+   "vanilla": false,
+   "icon": "periodic_elements:guayule_cutting",
+   "scientific": "Parthenium argentatum",
+   "family": "Asteraceae",
+   "height": 0.8,
+   "iucn": "NE",
+   "biomes": [
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:guayule_bush"
+   ],
+   "products": [
+    "periodic_elements:guayule_stems"
+   ]
+  },
+  {
+   "id": "candelilla",
+   "vanilla": false,
+   "icon": "periodic_elements:candelilla_cutting",
+   "scientific": "Euphorbia antisyphilitica",
+   "family": "Euphorbiaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:candelilla_bush"
+   ],
+   "products": [
+    "periodic_elements:candelilla_stems"
+   ]
+  },
+  {
+   "id": "sagebrush",
+   "vanilla": false,
+   "icon": "periodic_elements:sagebrush_cutting",
+   "scientific": "Artemisia tridentata",
+   "family": "Asteraceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:sagebrush_bush"
+   ],
+   "products": [
+    "periodic_elements:sagebrush_leaf"
+   ]
+  },
+  {
+   "id": "sweet_briar",
+   "vanilla": false,
+   "icon": "periodic_elements:sweet_briar_cutting",
+   "scientific": "Rosa rubiginosa",
+   "family": "Rosaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:sweet_briar_bush"
+   ],
+   "products": [
+    "periodic_elements:rose_hips"
+   ]
+  },
+  {
+   "id": "blackthorn",
+   "vanilla": false,
+   "icon": "periodic_elements:blackthorn_cutting",
+   "scientific": "Prunus spinosa",
+   "family": "Rosaceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:blackthorn_bush"
+   ],
+   "products": [
+    "periodic_elements:sloes"
+   ]
+  },
+  {
+   "id": "cornelian_cherry",
+   "vanilla": false,
+   "icon": "periodic_elements:cornelian_cherry_cutting",
+   "scientific": "Cornus mas",
+   "family": "Cornaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:cornelian_cherry_bush"
+   ],
+   "products": [
+    "periodic_elements:cornelian_cherries"
+   ]
+  },
+  {
+   "id": "raspberry",
+   "vanilla": false,
+   "icon": "periodic_elements:raspberry_cutting",
+   "scientific": "Rubus idaeus",
+   "family": "Rosaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "birch_forest",
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:raspberry_bush"
+   ],
+   "products": [
+    "periodic_elements:raspberries"
+   ]
+  },
+  {
+   "id": "blackberry",
+   "vanilla": false,
+   "icon": "periodic_elements:blackberry_cutting",
+   "scientific": "Rubus fruticosus",
+   "family": "Rosaceae",
+   "height": 3,
+   "iucn": "NE",
+   "biomes": [
+    "forest",
+    "flower_forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:blackberry_bush"
+   ],
+   "products": [
+    "periodic_elements:blackberries"
+   ]
+  },
+  {
+   "id": "blackcurrant",
+   "vanilla": false,
+   "icon": "periodic_elements:blackcurrant_cutting",
+   "scientific": "Ribes nigrum",
+   "family": "Grossulariaceae",
+   "height": 1.5,
+   "iucn": "NE",
+   "biomes": [
+    "forest",
+    "birch_forest",
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:blackcurrant_bush"
+   ],
+   "products": [
+    "periodic_elements:blackcurrants"
+   ]
+  },
+  {
+   "id": "bilberry",
+   "vanilla": false,
+   "icon": "periodic_elements:bilberry_cutting",
+   "scientific": "Vaccinium myrtillus",
+   "family": "Ericaceae",
+   "height": 0.5,
+   "iucn": "LC",
+   "biomes": [
+    "birch_forest",
+    "old_growth_birch_forest",
+    "taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "meadow",
+    "grove"
+   ],
+   "blocks": [
+    "periodic_elements:bilberry_bush"
+   ],
+   "products": [
+    "periodic_elements:bilberries"
+   ]
+  },
+  {
+   "id": "damask_rose",
+   "vanilla": false,
+   "icon": "periodic_elements:damask_rose_cutting",
+   "scientific": "Rosa × damascena",
+   "family": "Rosaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:damask_rose_bush"
+   ],
+   "products": [
+    "periodic_elements:rose_petals"
+   ]
+  },
+  {
+   "id": "mock_orange",
+   "vanilla": false,
+   "icon": "periodic_elements:mock_orange_cutting",
+   "scientific": "Philadelphus coronarius",
+   "family": "Hydrangeaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest",
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:mock_orange_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "rhododendron",
+   "vanilla": false,
+   "icon": "periodic_elements:rhododendron_cutting",
+   "scientific": "Rhododendron ponticum",
+   "family": "Ericaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:rhododendron_bush"
+   ],
+   "products": [
+    "periodic_elements:rhododendron_flowers"
+   ]
+  },
+  {
+   "id": "box",
+   "vanilla": false,
+   "icon": "periodic_elements:box_cutting",
+   "scientific": "Buxus sempervirens",
+   "family": "Buxaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:box_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "butchers_broom",
+   "vanilla": false,
+   "icon": "periodic_elements:butchers_broom_cutting",
+   "scientific": "Ruscus aculeatus",
+   "family": "Asparagaceae",
+   "height": 0.8,
+   "iucn": "LC",
+   "biomes": [
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:butchers_broom_bush"
+   ],
+   "products": [
+    "periodic_elements:butchers_broom_berries"
+   ]
+  },
+  {
+   "id": "wax_myrtle",
+   "vanilla": false,
+   "icon": "periodic_elements:wax_myrtle_cutting",
+   "scientific": "Morella cerifera",
+   "family": "Myricaceae",
+   "height": 5,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:wax_myrtle_bush"
+   ],
+   "products": [
+    "periodic_elements:bayberries"
+   ]
+  },
+  {
+   "id": "cranberry",
+   "vanilla": false,
+   "icon": "periodic_elements:cranberry_cutting",
+   "scientific": "Vaccinium macrocarpon",
+   "family": "Ericaceae",
+   "height": 0.2,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:cranberry_bush"
+   ],
+   "products": [
+    "periodic_elements:cranberries"
+   ]
+  },
+  {
+   "id": "buttonbush",
+   "vanilla": false,
+   "icon": "periodic_elements:buttonbush_cutting",
+   "scientific": "Cephalanthus occidentalis",
+   "family": "Rubiaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:buttonbush_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "japanese_camellia",
+   "vanilla": false,
+   "icon": "periodic_elements:japanese_camellia_cutting",
+   "scientific": "Camellia japonica",
+   "family": "Theaceae",
+   "height": 6,
+   "iucn": "LC",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:japanese_camellia_bush"
+   ],
+   "products": [
+    "periodic_elements:camellia_seeds"
+   ]
+  },
+  {
+   "id": "japanese_quince",
+   "vanilla": false,
+   "icon": "periodic_elements:japanese_quince_cutting",
+   "scientific": "Chaenomeles japonica",
+   "family": "Rosaceae",
+   "height": 1,
+   "iucn": "NE",
+   "biomes": [
+    "cherry_grove"
+   ],
+   "blocks": [
+    "periodic_elements:japanese_quince_bush"
+   ],
+   "products": [
+    "periodic_elements:japanese_quinces"
+   ]
+  },
+  {
+   "id": "hydrangea",
+   "vanilla": false,
+   "icon": "periodic_elements:hydrangea_cutting",
+   "scientific": "Hydrangea macrophylla",
+   "family": "Hydrangeaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "cherry_grove",
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:hydrangea_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "rosemary",
+   "vanilla": false,
+   "icon": "periodic_elements:rosemary_cutting",
+   "scientific": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "height": 1.5,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:rosemary_bush"
+   ],
+   "products": [
+    "periodic_elements:rosemary_leaf"
+   ]
+  },
+  {
+   "id": "lavender",
+   "vanilla": false,
+   "icon": "periodic_elements:lavender_cutting",
+   "scientific": "Lavandula angustifolia",
+   "family": "Lamiaceae",
+   "height": 0.8,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:lavender_bush"
+   ],
+   "products": [
+    "periodic_elements:lavender_flowers"
+   ]
+  },
+  {
+   "id": "myrtle",
+   "vanilla": false,
+   "icon": "periodic_elements:myrtle_cutting",
+   "scientific": "Myrtus communis",
+   "family": "Myrtaceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:myrtle_bush"
+   ],
+   "products": [
+    "periodic_elements:myrtle_berries"
+   ]
+  },
+  {
+   "id": "caper",
+   "vanilla": false,
+   "icon": "periodic_elements:caper_cutting",
+   "scientific": "Capparis spinosa",
+   "family": "Capparaceae",
+   "height": 1,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:caper_bush"
+   ],
+   "products": [
+    "periodic_elements:capers"
+   ]
+  },
+  {
+   "id": "rockrose",
+   "vanilla": false,
+   "icon": "periodic_elements:rockrose_cutting",
+   "scientific": "Cistus ladanifer",
+   "family": "Cistaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills",
+    "windswept_gravelly_hills"
+   ],
+   "blocks": [
+    "periodic_elements:rockrose_bush"
+   ],
+   "products": [
+    "periodic_elements:labdanum"
+   ]
+  },
+  {
+   "id": "sumac",
+   "vanilla": false,
+   "icon": "periodic_elements:sumac_cutting",
+   "scientific": "Rhus coriaria",
+   "family": "Anacardiaceae",
+   "height": 3,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:sumac_bush"
+   ],
+   "products": [
+    "periodic_elements:sumac_leaf"
+   ]
+  },
+  {
+   "id": "heather",
+   "vanilla": false,
+   "icon": "periodic_elements:heather_cutting",
+   "scientific": "Calluna vulgaris",
+   "family": "Ericaceae",
+   "height": 0.6,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_gravelly_hills",
+    "windswept_forest",
+    "taiga"
+   ],
+   "blocks": [
+    "periodic_elements:heather_bush"
+   ],
+   "products": [
+    "periodic_elements:heather_flowers"
+   ]
+  },
+  {
+   "id": "gorse",
+   "vanilla": false,
+   "icon": "periodic_elements:gorse_cutting",
+   "scientific": "Ulex europaeus",
+   "family": "Fabaceae",
+   "height": 2.5,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_gravelly_hills",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:gorse_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "broom",
+   "vanilla": false,
+   "icon": "periodic_elements:broom_cutting",
+   "scientific": "Cytisus scoparius",
+   "family": "Fabaceae",
+   "height": 2,
+   "iucn": "LC",
+   "biomes": [
+    "windswept_gravelly_hills",
+    "windswept_forest"
+   ],
+   "blocks": [
+    "periodic_elements:broom_bush"
+   ],
+   "products": [
+    "periodic_elements:broom_twigs"
+   ]
+  },
+  {
+   "id": "rugosa_rose",
+   "vanilla": false,
+   "icon": "periodic_elements:rugosa_rose_cutting",
+   "scientific": "Rosa rugosa",
+   "family": "Rosaceae",
+   "height": 1.5,
+   "iucn": "LC",
+   "biomes": [
+    "beach",
+    "snowy_beach"
+   ],
+   "blocks": [
+    "periodic_elements:rugosa_rose_bush"
+   ],
+   "products": [
+    "periodic_elements:rose_hips"
+   ]
+  },
+  {
+   "id": "beach_plum",
+   "vanilla": false,
+   "icon": "periodic_elements:beach_plum_cutting",
+   "scientific": "Prunus maritima",
+   "family": "Rosaceae",
+   "height": 2,
+   "iucn": "NE",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:beach_plum_bush"
+   ],
+   "products": [
+    "periodic_elements:beach_plums"
+   ]
+  },
+  {
+   "id": "bog_bilberry",
+   "vanilla": false,
+   "icon": "periodic_elements:bog_bilberry_cutting",
+   "scientific": "Vaccinium uliginosum",
+   "family": "Ericaceae",
+   "height": 0.6,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:bog_bilberry_bush"
+   ],
+   "products": [
+    "periodic_elements:bog_bilberries"
+   ]
+  },
+  {
+   "id": "labrador_tea",
+   "vanilla": false,
+   "icon": "periodic_elements:labrador_tea_cutting",
+   "scientific": "Rhododendron tomentosum",
+   "family": "Ericaceae",
+   "height": 1,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:labrador_tea_bush"
+   ],
+   "products": [
+    "periodic_elements:labrador_tea_leaf"
+   ]
+  },
+  {
+   "id": "crowberry",
+   "vanilla": false,
+   "icon": "periodic_elements:crowberry_cutting",
+   "scientific": "Empetrum nigrum",
+   "family": "Ericaceae",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_taiga",
+    "snowy_plains",
+    "snowy_beach"
+   ],
+   "blocks": [
+    "periodic_elements:crowberry_bush"
+   ],
+   "products": [
+    "periodic_elements:crowberries"
+   ]
+  },
+  {
+   "id": "cloudberry",
+   "vanilla": false,
+   "icon": "periodic_elements:cloudberry_cutting",
+   "scientific": "Rubus chamaemorus",
+   "family": "Rosaceae",
+   "height": 0.25,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_beach"
+   ],
+   "blocks": [
+    "periodic_elements:cloudberry_bush"
+   ],
+   "products": [
+    "periodic_elements:cloudberries"
+   ]
+  },
+  {
+   "id": "dwarf_birch",
+   "vanilla": false,
+   "icon": "periodic_elements:dwarf_birch_cutting",
+   "scientific": "Betula nana",
+   "family": "Betulaceae",
+   "height": 1,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "snowy_slopes"
+   ],
+   "blocks": [
+    "periodic_elements:dwarf_birch_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "bearberry",
+   "vanilla": false,
+   "icon": "periodic_elements:bearberry_cutting",
+   "scientific": "Arctostaphylos uva-ursi",
+   "family": "Ericaceae",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "old_growth_pine_taiga",
+    "grove",
+    "snowy_slopes",
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:bearberry_bush"
+   ],
+   "products": [
+    "periodic_elements:bearberry_leaf"
+   ]
+  },
+  {
+   "id": "alpenrose",
+   "vanilla": false,
+   "icon": "periodic_elements:alpenrose_cutting",
+   "scientific": "Rhododendron ferrugineum",
+   "family": "Ericaceae",
+   "height": 1,
+   "iucn": "LC",
+   "biomes": [
+    "meadow",
+    "grove",
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:alpenrose_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "mountain_avens",
+   "vanilla": false,
+   "icon": "periodic_elements:mountain_avens_cutting",
+   "scientific": "Dryas octopetala",
+   "family": "Rosaceae",
+   "height": 0.1,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_slopes",
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:mountain_avens_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "dwarf_willow",
+   "vanilla": false,
+   "icon": "periodic_elements:dwarf_willow_cutting",
+   "scientific": "Salix herbacea",
+   "family": "Salicaceae",
+   "height": 0.05,
+   "iucn": "LC",
+   "biomes": [
+    "ice_spikes",
+    "snowy_slopes",
+    "frozen_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:dwarf_willow_bush"
+   ],
+   "products": [
+    "periodic_elements:dwarf_willow_bark"
+   ]
+  },
+  {
+   "id": "arctic_bell_heather",
+   "vanilla": false,
+   "icon": "periodic_elements:arctic_bell_heather_cutting",
+   "scientific": "Cassiope tetragona",
+   "family": "Ericaceae",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "ice_spikes",
+    "frozen_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:arctic_bell_heather_bush"
+   ],
+   "products": []
+  },
+  {
+   "id": "gooseberry",
+   "vanilla": false,
+   "icon": "periodic_elements:gooseberry_cutting",
+   "scientific": "Ribes uva-crispa",
+   "family": "Grossulariaceae",
+   "height": 1.5,
+   "iucn": "LC",
+   "biomes": [
+    "meadow",
+    "windswept_forest"
+   ],
+   "blocks": [
+    "periodic_elements:gooseberry_bush"
+   ],
+   "products": [
+    "periodic_elements:gooseberries"
+   ]
+  },
+  {
+   "id": "red_elderberry",
+   "vanilla": false,
+   "icon": "periodic_elements:red_elderberry_cutting",
+   "scientific": "Sambucus racemosa",
+   "family": "Adoxaceae",
+   "height": 4,
+   "iucn": "LC",
+   "biomes": [
+    "meadow",
+    "grove",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:red_elderberry_bush"
+   ],
+   "products": [
+    "periodic_elements:red_elderberries"
+   ]
+  }
+ ],
+ "minerals": [
+  {
+   "id": "stone",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:stone",
+   "blocks": [
+    "minecraft:stone",
+    "minecraft:cobblestone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "deepslate",
+   "group": "rocks",
+   "cls": "metamorphic",
+   "icon": "minecraft:deepslate",
+   "blocks": [
+    "minecraft:deepslate",
+    "minecraft:cobbled_deepslate"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "granite",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:granite",
+   "blocks": [
+    "minecraft:granite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "diorite",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:diorite",
+   "blocks": [
+    "minecraft:diorite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "andesite",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:andesite",
+   "blocks": [
+    "minecraft:andesite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "tuff",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:tuff",
+   "blocks": [
+    "minecraft:tuff"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "basalt",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:basalt",
+   "blocks": [
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:polished_basalt"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "shale",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "periodic_elements:shale",
+   "blocks": [
+    "periodic_elements:shale",
+    "periodic_elements:cobbled_shale",
+    "periodic_elements:polished_shale"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "gneiss",
+   "group": "rocks",
+   "cls": "metamorphic",
+   "icon": "periodic_elements:gneiss",
+   "blocks": [
+    "periodic_elements:gneiss",
+    "periodic_elements:cobbled_gneiss",
+    "periodic_elements:polished_gneiss"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "peridotite",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "periodic_elements:peridotite",
+   "blocks": [
+    "periodic_elements:peridotite",
+    "periodic_elements:cobbled_peridotite",
+    "periodic_elements:polished_peridotite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "kimberlite",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "periodic_elements:kimberlite",
+   "blocks": [
+    "periodic_elements:kimberlite",
+    "periodic_elements:cobbled_kimberlite",
+    "periodic_elements:polished_kimberlite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "laterite",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "periodic_elements:laterite",
+   "blocks": [
+    "periodic_elements:laterite",
+    "periodic_elements:cobbled_laterite",
+    "periodic_elements:polished_laterite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "obsidian",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:obsidian",
+   "blocks": [
+    "minecraft:obsidian"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "SiO2",
+   "system": "amorphous",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "calcite",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "minecraft:calcite",
+   "blocks": [
+    "minecraft:calcite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "CaCO3",
+   "system": "trigonal",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "dripstone",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "minecraft:dripstone_block",
+   "blocks": [
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "CaCO3",
+   "system": "trigonal",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "sandstone",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "minecraft:sandstone",
+   "blocks": [
+    "minecraft:sandstone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "red_sandstone",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "minecraft:red_sandstone",
+   "blocks": [
+    "minecraft:red_sandstone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "terracotta",
+   "group": "rocks",
+   "cls": "sedimentary",
+   "icon": "minecraft:terracotta",
+   "blocks": [
+    "minecraft:terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:magenta_terracotta",
+    "minecraft:light_blue_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:lime_terracotta",
+    "minecraft:pink_terracotta",
+    "minecraft:gray_terracotta",
+    "minecraft:light_gray_terracotta",
+    "minecraft:cyan_terracotta",
+    "minecraft:purple_terracotta",
+    "minecraft:blue_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:green_terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:black_terracotta"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "amethyst",
+   "group": "rocks",
+   "cls": "igneous",
+   "icon": "minecraft:amethyst_cluster",
+   "blocks": [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst",
+    "minecraft:amethyst_cluster",
+    "minecraft:large_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:small_amethyst_bud"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "SiO2",
+   "system": "trigonal",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "ice",
+   "group": "rocks",
+   "cls": "metamorphic",
+   "icon": "minecraft:ice",
+   "blocks": [
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "H2O",
+   "system": "hexagonal",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "sand",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:sand",
+   "blocks": [
+    "minecraft:sand",
+    "minecraft:suspicious_sand"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "red_sand",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:red_sand",
+   "blocks": [
+    "minecraft:red_sand"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "gravel",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:gravel",
+   "blocks": [
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "clay",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:clay",
+   "blocks": [
+    "minecraft:clay"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "dirt",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:dirt",
+   "blocks": [
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:mycelium"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "terra_roxa",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "periodic_elements:terra_roxa",
+   "blocks": [
+    "periodic_elements:terra_roxa"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "chalky_soil",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "periodic_elements:chalky_soil",
+   "blocks": [
+    "periodic_elements:chalky_soil"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "mud",
+   "group": "sediments",
+   "cls": "sedimentary",
+   "icon": "minecraft:mud",
+   "blocks": [
+    "minecraft:mud"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "coal",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:coal_ore",
+   "blocks": [
+    "minecraft:coal_ore",
+    "minecraft:deepslate_coal_ore",
+    "periodic_elements:tuff_coal_ore",
+    "periodic_elements:basalt_coal_ore",
+    "periodic_elements:sandstone_coal_ore",
+    "periodic_elements:terracotta_coal_ore",
+    "periodic_elements:brown_terracotta_coal_ore",
+    "periodic_elements:shale_coal_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:coal"
+   ],
+   "formula": "C",
+   "system": "amorphous",
+   "depth": [
+    0,
+    320
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "iron",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:iron_ore",
+   "blocks": [
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "periodic_elements:granite_iron_ore",
+    "periodic_elements:diorite_iron_ore",
+    "periodic_elements:andesite_iron_ore",
+    "periodic_elements:tuff_iron_ore",
+    "periodic_elements:basalt_iron_ore",
+    "periodic_elements:sandstone_iron_ore",
+    "periodic_elements:terracotta_iron_ore",
+    "periodic_elements:brown_terracotta_iron_ore",
+    "periodic_elements:calcite_iron_ore",
+    "periodic_elements:shale_iron_ore",
+    "periodic_elements:gneiss_iron_ore",
+    "periodic_elements:peridotite_iron_ore"
+   ],
+   "items": [
+    "minecraft:raw_iron"
+   ],
+   "gives": [
+    "minecraft:raw_iron"
+   ],
+   "formula": "Fe2O3",
+   "system": "trigonal",
+   "depth": [
+    -64,
+    320
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "copper",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:copper_ore",
+   "blocks": [
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore",
+    "periodic_elements:granite_copper_ore",
+    "periodic_elements:diorite_copper_ore",
+    "periodic_elements:andesite_copper_ore",
+    "periodic_elements:tuff_copper_ore",
+    "periodic_elements:basalt_copper_ore",
+    "periodic_elements:sandstone_copper_ore",
+    "periodic_elements:terracotta_copper_ore",
+    "periodic_elements:shale_copper_ore",
+    "periodic_elements:gneiss_copper_ore",
+    "periodic_elements:peridotite_copper_ore"
+   ],
+   "items": [
+    "minecraft:raw_copper"
+   ],
+   "gives": [
+    "minecraft:raw_copper"
+   ],
+   "formula": "CuFeS2",
+   "system": "tetragonal",
+   "depth": [
+    -16,
+    112
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "gold",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:gold_ore",
+   "blocks": [
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "periodic_elements:granite_gold_ore",
+    "periodic_elements:diorite_gold_ore",
+    "periodic_elements:andesite_gold_ore",
+    "periodic_elements:tuff_gold_ore",
+    "periodic_elements:gravel_gold_ore",
+    "periodic_elements:gneiss_gold_ore",
+    "periodic_elements:peridotite_gold_ore"
+   ],
+   "items": [
+    "minecraft:raw_gold"
+   ],
+   "gives": [
+    "minecraft:raw_gold"
+   ],
+   "formula": "Au",
+   "system": "cubic",
+   "depth": [
+    -64,
+    256
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "redstone",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:redstone_ore",
+   "blocks": [
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:redstone"
+   ],
+   "formula": "HgS",
+   "system": "trigonal",
+   "depth": [
+    -64,
+    15
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "lapis",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:lapis_ore",
+   "blocks": [
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:lapis_lazuli"
+   ],
+   "formula": "(Na,Ca)8Al6Si6O24(S,SO4)",
+   "system": "cubic",
+   "depth": [
+    -64,
+    64
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "diamond",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:diamond_ore",
+   "blocks": [
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "periodic_elements:tuff_diamond_ore",
+    "periodic_elements:gravel_diamond_ore",
+    "periodic_elements:kimberlite_diamond_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:diamond"
+   ],
+   "formula": "C",
+   "system": "cubic",
+   "depth": [
+    -64,
+    16
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "emerald",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:emerald_ore",
+   "blocks": [
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:emerald"
+   ],
+   "formula": "Be3Al2Si6O18",
+   "system": "hexagonal",
+   "depth": [
+    -16,
+    320
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "nether_quartz",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:nether_quartz_ore",
+   "blocks": [
+    "minecraft:nether_quartz_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:quartz"
+   ],
+   "formula": "SiO2",
+   "system": "trigonal",
+   "depth": [
+    10,
+    117
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "nether_gold",
+   "group": "ores",
+   "cls": null,
+   "icon": "minecraft:nether_gold_ore",
+   "blocks": [
+    "minecraft:nether_gold_ore"
+   ],
+   "items": [],
+   "gives": [
+    "minecraft:gold_nugget"
+   ],
+   "formula": "Au",
+   "system": "cubic",
+   "depth": [
+    10,
+    117
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "cassiterite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:cassiterite_ore",
+   "blocks": [
+    "periodic_elements:cassiterite_ore",
+    "periodic_elements:deepslate_cassiterite_ore",
+    "periodic_elements:granite_cassiterite_ore",
+    "periodic_elements:andesite_cassiterite_ore",
+    "periodic_elements:gravel_cassiterite_ore",
+    "periodic_elements:gneiss_cassiterite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_cassiterite"
+   ],
+   "gives": [
+    "periodic_elements:raw_cassiterite"
+   ],
+   "formula": "SnO2",
+   "system": "tetragonal",
+   "depth": [
+    -16,
+    160
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "galena",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:galena_ore",
+   "blocks": [
+    "periodic_elements:galena_ore",
+    "periodic_elements:deepslate_galena_ore",
+    "periodic_elements:sandstone_galena_ore",
+    "periodic_elements:calcite_galena_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_galena"
+   ],
+   "gives": [
+    "periodic_elements:raw_galena"
+   ],
+   "formula": "PbS",
+   "system": "cubic",
+   "depth": [
+    -32,
+    48
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "sphalerite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:sphalerite_ore",
+   "blocks": [
+    "periodic_elements:sphalerite_ore",
+    "periodic_elements:deepslate_sphalerite_ore",
+    "periodic_elements:sandstone_sphalerite_ore",
+    "periodic_elements:calcite_sphalerite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_sphalerite"
+   ],
+   "gives": [
+    "periodic_elements:raw_sphalerite"
+   ],
+   "formula": "ZnS",
+   "system": "cubic",
+   "depth": [
+    -16,
+    64
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "sulfur",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:nether_sulfur_ore",
+   "blocks": [
+    "periodic_elements:nether_sulfur_ore",
+    "periodic_elements:deepslate_sulfur_ore",
+    "periodic_elements:andesite_sulfur_ore",
+    "periodic_elements:tuff_sulfur_ore",
+    "periodic_elements:basalt_sulfur_ore",
+    "periodic_elements:sandstone_sulfur_ore",
+    "periodic_elements:calcite_sulfur_ore"
+   ],
+   "items": [],
+   "gives": [
+    "periodic_elements:sulfur"
+   ],
+   "formula": "S",
+   "system": "orthorhombic",
+   "depth": [
+    -64,
+    117
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "saltpetre",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:saltpetre_crust",
+   "blocks": [
+    "periodic_elements:saltpetre_crust",
+    "periodic_elements:terracotta_saltpetre_crust",
+    "periodic_elements:brown_terracotta_saltpetre_crust",
+    "periodic_elements:shale_saltpetre_crust"
+   ],
+   "items": [],
+   "gives": [
+    "periodic_elements:potassium_nitrate"
+   ],
+   "formula": "KNO3",
+   "system": "orthorhombic",
+   "depth": [
+    0,
+    100
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "cobaltite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:cobaltite_ore",
+   "blocks": [
+    "periodic_elements:cobaltite_ore",
+    "periodic_elements:deepslate_cobaltite_ore",
+    "periodic_elements:diorite_cobaltite_ore",
+    "periodic_elements:andesite_cobaltite_ore",
+    "periodic_elements:gneiss_cobaltite_ore",
+    "periodic_elements:peridotite_cobaltite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_cobaltite"
+   ],
+   "gives": [
+    "periodic_elements:raw_cobaltite"
+   ],
+   "formula": "CoAsS",
+   "system": "orthorhombic",
+   "depth": [
+    -48,
+    96
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "chromite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:deepslate_chromite_ore",
+   "blocks": [
+    "periodic_elements:deepslate_chromite_ore",
+    "periodic_elements:basalt_chromite_ore",
+    "periodic_elements:peridotite_chromite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_chromite"
+   ],
+   "gives": [
+    "periodic_elements:raw_chromite"
+   ],
+   "formula": "FeCr2O4",
+   "system": "cubic",
+   "depth": [
+    -64,
+    -16
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "pentlandite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:deepslate_pentlandite_ore",
+   "blocks": [
+    "periodic_elements:deepslate_pentlandite_ore",
+    "periodic_elements:basalt_pentlandite_ore",
+    "periodic_elements:peridotite_pentlandite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_pentlandite"
+   ],
+   "gives": [
+    "periodic_elements:raw_pentlandite"
+   ],
+   "formula": "(Fe,Ni)9S8",
+   "system": "cubic",
+   "depth": [
+    -64,
+    -8
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "stibnite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:stibnite_ore",
+   "blocks": [
+    "periodic_elements:stibnite_ore",
+    "periodic_elements:deepslate_stibnite_ore",
+    "periodic_elements:granite_stibnite_ore",
+    "periodic_elements:andesite_stibnite_ore",
+    "periodic_elements:gneiss_stibnite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_stibnite"
+   ],
+   "gives": [
+    "periodic_elements:raw_stibnite"
+   ],
+   "formula": "Sb2S3",
+   "system": "orthorhombic",
+   "depth": [
+    -16,
+    128
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "arsenopyrite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:arsenopyrite_ore",
+   "blocks": [
+    "periodic_elements:arsenopyrite_ore",
+    "periodic_elements:deepslate_arsenopyrite_ore",
+    "periodic_elements:granite_arsenopyrite_ore",
+    "periodic_elements:diorite_arsenopyrite_ore",
+    "periodic_elements:andesite_arsenopyrite_ore",
+    "periodic_elements:gneiss_arsenopyrite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_arsenopyrite"
+   ],
+   "gives": [
+    "periodic_elements:raw_arsenopyrite"
+   ],
+   "formula": "FeAsS",
+   "system": "monoclinic",
+   "depth": [
+    -48,
+    32
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "barite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:barite_ore",
+   "blocks": [
+    "periodic_elements:barite_ore",
+    "periodic_elements:sandstone_barite_ore",
+    "periodic_elements:calcite_barite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_barite"
+   ],
+   "gives": [
+    "periodic_elements:raw_barite"
+   ],
+   "formula": "BaSO4",
+   "system": "orthorhombic",
+   "depth": [
+    0,
+    100
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "spodumene",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:spodumene_ore",
+   "blocks": [
+    "periodic_elements:spodumene_ore",
+    "periodic_elements:granite_spodumene_ore",
+    "periodic_elements:gneiss_spodumene_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_spodumene"
+   ],
+   "gives": [
+    "periodic_elements:raw_spodumene"
+   ],
+   "formula": "LiAlSi2O6",
+   "system": "monoclinic",
+   "depth": [
+    0,
+    160
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "borax",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:borax_crust",
+   "blocks": [
+    "periodic_elements:borax_crust",
+    "periodic_elements:terracotta_borax_crust",
+    "periodic_elements:brown_terracotta_borax_crust",
+    "periodic_elements:shale_borax_crust"
+   ],
+   "items": [
+    "periodic_elements:raw_borax"
+   ],
+   "gives": [
+    "periodic_elements:raw_borax"
+   ],
+   "formula": "Na2B4O7·10H2O",
+   "system": "monoclinic",
+   "depth": [
+    40,
+    100
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "pitchblende",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:pitchblende_ore",
+   "blocks": [
+    "periodic_elements:pitchblende_ore",
+    "periodic_elements:deepslate_pitchblende_ore",
+    "periodic_elements:granite_pitchblende_ore",
+    "periodic_elements:gneiss_pitchblende_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_pitchblende"
+   ],
+   "gives": [
+    "periodic_elements:raw_pitchblende"
+   ],
+   "formula": "UO2",
+   "system": "cubic",
+   "depth": [
+    -64,
+    96
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "bauxite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:bauxite_ore",
+   "blocks": [
+    "periodic_elements:bauxite_ore",
+    "periodic_elements:orange_terracotta_bauxite_ore",
+    "periodic_elements:laterite_bauxite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_bauxite"
+   ],
+   "gives": [
+    "periodic_elements:raw_bauxite"
+   ],
+   "formula": "Al(OH)3",
+   "system": "monoclinic",
+   "depth": [
+    30,
+    100
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "pyrolusite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:pyrolusite_ore",
+   "blocks": [
+    "periodic_elements:pyrolusite_ore",
+    "periodic_elements:orange_terracotta_pyrolusite_ore",
+    "periodic_elements:laterite_pyrolusite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_pyrolusite"
+   ],
+   "gives": [
+    "periodic_elements:raw_pyrolusite"
+   ],
+   "formula": "MnO2",
+   "system": "tetragonal",
+   "depth": [
+    0,
+    64
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "wolframite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:wolframite_ore",
+   "blocks": [
+    "periodic_elements:wolframite_ore",
+    "periodic_elements:granite_wolframite_ore",
+    "periodic_elements:andesite_wolframite_ore",
+    "periodic_elements:gneiss_wolframite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_wolframite"
+   ],
+   "gives": [
+    "periodic_elements:raw_wolframite"
+   ],
+   "formula": "(Fe,Mn)WO4",
+   "system": "monoclinic",
+   "depth": [
+    -16,
+    160
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "vanadinite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:vanadinite_ore",
+   "blocks": [
+    "periodic_elements:vanadinite_ore",
+    "periodic_elements:sandstone_vanadinite_ore",
+    "periodic_elements:calcite_vanadinite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_vanadinite"
+   ],
+   "gives": [
+    "periodic_elements:raw_vanadinite"
+   ],
+   "formula": "Pb5(VO4)3Cl",
+   "system": "hexagonal",
+   "depth": [
+    0,
+    120
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "fluorite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:fluorite_ore",
+   "blocks": [
+    "periodic_elements:fluorite_ore",
+    "periodic_elements:deepslate_fluorite_ore",
+    "periodic_elements:granite_fluorite_ore",
+    "periodic_elements:sandstone_fluorite_ore",
+    "periodic_elements:calcite_fluorite_ore",
+    "periodic_elements:gneiss_fluorite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_fluorite"
+   ],
+   "gives": [
+    "periodic_elements:raw_fluorite"
+   ],
+   "formula": "CaF2",
+   "system": "cubic",
+   "depth": [
+    -32,
+    48
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "heavy_mineral_sand",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:heavy_mineral_sand",
+   "blocks": [
+    "periodic_elements:heavy_mineral_sand"
+   ],
+   "items": [],
+   "gives": [
+    "periodic_elements:heavy_mineral_concentrate"
+   ],
+   "formula": "FeTiO3",
+   "system": "trigonal",
+   "depth": [
+    54,
+    68
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "molybdenite",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:molybdenite_ore",
+   "blocks": [
+    "periodic_elements:molybdenite_ore",
+    "periodic_elements:deepslate_molybdenite_ore",
+    "periodic_elements:granite_molybdenite_ore",
+    "periodic_elements:diorite_molybdenite_ore",
+    "periodic_elements:andesite_molybdenite_ore",
+    "periodic_elements:gneiss_molybdenite_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_molybdenite"
+   ],
+   "gives": [
+    "periodic_elements:raw_molybdenite"
+   ],
+   "formula": "MoS2",
+   "system": "hexagonal",
+   "depth": [
+    -48,
+    16
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "coltan",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:coltan_ore",
+   "blocks": [
+    "periodic_elements:coltan_ore",
+    "periodic_elements:deepslate_coltan_ore",
+    "periodic_elements:granite_coltan_ore",
+    "periodic_elements:gravel_coltan_ore",
+    "periodic_elements:gneiss_coltan_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_coltan"
+   ],
+   "gives": [
+    "periodic_elements:raw_coltan"
+   ],
+   "formula": "(Fe,Mn)(Nb,Ta)2O6",
+   "system": "orthorhombic",
+   "depth": [
+    -64,
+    128
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "oil_shale",
+   "group": "ores",
+   "cls": null,
+   "icon": "periodic_elements:oil_shale_ore",
+   "blocks": [
+    "periodic_elements:oil_shale_ore",
+    "periodic_elements:terracotta_oil_shale_ore",
+    "periodic_elements:brown_terracotta_oil_shale_ore",
+    "periodic_elements:shale_oil_shale_ore"
+   ],
+   "items": [
+    "periodic_elements:raw_oil_shale"
+   ],
+   "gives": [
+    "periodic_elements:raw_oil_shale"
+   ],
+   "formula": null,
+   "system": "amorphous",
+   "depth": [
+    0,
+    72
+   ],
+   "real": true,
+   "origin": false,
+   "made": false,
+   "mineral": true
+  },
+  {
+   "id": "netherrack",
+   "group": "other_worlds",
+   "cls": null,
+   "icon": "minecraft:netherrack",
+   "blocks": [
+    "minecraft:netherrack"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": false,
+   "origin": false,
+   "made": false,
+   "mineral": false
+  },
+  {
+   "id": "blackstone",
+   "group": "other_worlds",
+   "cls": null,
+   "icon": "minecraft:blackstone",
+   "blocks": [
+    "minecraft:blackstone",
+    "minecraft:gilded_blackstone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": false,
+   "origin": false,
+   "made": false,
+   "mineral": false
+  },
+  {
+   "id": "soul_sand",
+   "group": "other_worlds",
+   "cls": null,
+   "icon": "minecraft:soul_sand",
+   "blocks": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": false,
+   "origin": false,
+   "made": false,
+   "mineral": false
+  },
+  {
+   "id": "glowstone",
+   "group": "other_worlds",
+   "cls": null,
+   "icon": "minecraft:glowstone",
+   "blocks": [
+    "minecraft:glowstone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": false,
+   "origin": false,
+   "made": false,
+   "mineral": false
+  },
+  {
+   "id": "end_stone",
+   "group": "other_worlds",
+   "cls": null,
+   "icon": "minecraft:end_stone",
+   "blocks": [
+    "minecraft:end_stone"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": false,
+   "origin": false,
+   "made": false,
+   "mineral": false
+  }
+ ],
+ "animals": [
+  {
+   "id": "capybara",
+   "vanilla": false,
+   "icon": "periodic_elements:capybara_spawn_egg",
+   "scientific": "Hydrochoerus hydrochaeris",
+   "family": "Caviidae · Rodentia · Mammalia",
+   "height": 1.2,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp",
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:capybara"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "tapir",
+   "vanilla": false,
+   "icon": "periodic_elements:tapir_spawn_egg",
+   "scientific": "Tapirus terrestris",
+   "family": "Tapiridae · Perissodactyla · Mammalia",
+   "height": 2.0,
+   "iucn": "VU",
+   "biomes": [
+    "jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:tapir"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "toco_toucan",
+   "vanilla": false,
+   "icon": "periodic_elements:toco_toucan_spawn_egg",
+   "scientific": "Ramphastos toco",
+   "family": "Ramphastidae · Piciformes · Aves",
+   "height": 0.6,
+   "iucn": "LC",
+   "biomes": [
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:toco_toucan"
+   ],
+   "products": [
+    "minecraft:feather"
+   ],
+   "entity": true
+  },
+  {
+   "id": "sloth",
+   "vanilla": false,
+   "icon": "periodic_elements:sloth_spawn_egg",
+   "scientific": "Bradypus variegatus",
+   "family": "Bradypodidae · Pilosa · Mammalia",
+   "height": 0.6,
+   "iucn": "LC",
+   "biomes": [
+    "jungle"
+   ],
+   "blocks": [
+    "periodic_elements:sloth"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "golden_poison_frog",
+   "vanilla": false,
+   "icon": "periodic_elements:golden_poison_frog_spawn_egg",
+   "scientific": "Phyllobates terribilis",
+   "family": "Dendrobatidae · Anura · Amphibia",
+   "height": 0.05,
+   "iucn": "EN",
+   "biomes": [
+    "jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:golden_poison_frog"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "caiman",
+   "vanilla": false,
+   "icon": "periodic_elements:caiman_spawn_egg",
+   "scientific": "Caiman latirostris",
+   "family": "Alligatoridae · Crocodylia · Reptilia",
+   "height": 2.5,
+   "iucn": "LC",
+   "biomes": [
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "periodic_elements:caiman"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat"
+   ],
+   "entity": true
+  },
+  {
+   "id": "ostrich",
+   "vanilla": false,
+   "icon": "periodic_elements:ostrich_spawn_egg",
+   "scientific": "Struthio camelus",
+   "family": "Struthionidae · Struthioniformes · Aves",
+   "height": 2.4,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "savanna_plateau"
+   ],
+   "blocks": [
+    "periodic_elements:ostrich"
+   ],
+   "products": [
+    "minecraft:feather",
+    "periodic_elements:game_meat",
+    "periodic_elements:ostrich_egg",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "zebra",
+   "vanilla": false,
+   "icon": "periodic_elements:zebra_spawn_egg",
+   "scientific": "Equus quagga",
+   "family": "Equidae · Perissodactyla · Mammalia",
+   "height": 2.3,
+   "iucn": "NT",
+   "biomes": [
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+   ],
+   "blocks": [
+    "periodic_elements:zebra"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "deathstalker",
+   "vanilla": false,
+   "icon": "periodic_elements:deathstalker_spawn_egg",
+   "scientific": "Leiurus quinquestriatus",
+   "family": "Buthidae · Scorpiones · Arachnida",
+   "height": 0.08,
+   "iucn": "NE",
+   "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:deathstalker"
+   ],
+   "products": [
+    "periodic_elements:scorpion_venom"
+   ],
+   "entity": true
+  },
+  {
+   "id": "desert_locust",
+   "vanilla": false,
+   "icon": "periodic_elements:desert_locust_spawn_egg",
+   "scientific": "Schistocerca gregaria",
+   "family": "Acrididae · Orthoptera · Insecta",
+   "height": 0.07,
+   "iucn": "LC",
+   "biomes": [
+    "desert",
+    "savanna"
+   ],
+   "blocks": [
+    "periodic_elements:desert_locust"
+   ],
+   "products": [
+    "periodic_elements:locust"
+   ],
+   "entity": true
+  },
+  {
+   "id": "gila_monster",
+   "vanilla": false,
+   "icon": "periodic_elements:gila_monster_spawn_egg",
+   "scientific": "Heloderma suspectum",
+   "family": "Helodermatidae · Squamata · Reptilia",
+   "height": 0.5,
+   "iucn": "NT",
+   "biomes": [
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "desert"
+   ],
+   "blocks": [
+    "periodic_elements:gila_monster"
+   ],
+   "products": [
+    "periodic_elements:gila_venom"
+   ],
+   "entity": true
+  },
+  {
+   "id": "red_deer",
+   "vanilla": false,
+   "icon": "periodic_elements:red_deer_spawn_egg",
+   "scientific": "Cervus elaphus",
+   "family": "Cervidae · Artiodactyla · Mammalia",
+   "height": 2.0,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "dark_forest",
+    "birch_forest",
+    "old_growth_birch_forest"
+   ],
+   "blocks": [
+    "periodic_elements:red_deer"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:antler",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "wild_boar",
+   "vanilla": false,
+   "icon": "periodic_elements:wild_boar_spawn_egg",
+   "scientific": "Sus scrofa",
+   "family": "Suidae · Artiodactyla · Mammalia",
+   "height": 1.5,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "dark_forest"
+   ],
+   "blocks": [
+    "periodic_elements:wild_boar"
+   ],
+   "products": [
+    "minecraft:porkchop",
+    "periodic_elements:boar_bristle",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "eurasian_beaver",
+   "vanilla": false,
+   "icon": "periodic_elements:eurasian_beaver_spawn_egg",
+   "scientific": "Castor fiber",
+   "family": "Castoridae · Rodentia · Mammalia",
+   "height": 1.0,
+   "iucn": "LC",
+   "biomes": [
+    "river",
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:eurasian_beaver"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:castoreum"
+   ],
+   "entity": true
+  },
+  {
+   "id": "pheasant",
+   "vanilla": false,
+   "icon": "periodic_elements:pheasant_spawn_egg",
+   "scientific": "Phasianus colchicus",
+   "family": "Phasianidae · Galliformes · Aves",
+   "height": 0.8,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "meadow",
+    "flower_forest"
+   ],
+   "blocks": [
+    "periodic_elements:pheasant"
+   ],
+   "products": [
+    "minecraft:chicken",
+    "minecraft:feather",
+    "periodic_elements:pheasant_egg"
+   ],
+   "entity": true
+  },
+  {
+   "id": "mallard",
+   "vanilla": false,
+   "icon": "periodic_elements:mallard_spawn_egg",
+   "scientific": "Anas platyrhynchos",
+   "family": "Anatidae · Anseriformes · Aves",
+   "height": 0.6,
+   "iucn": "LC",
+   "biomes": [
+    "river",
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:mallard"
+   ],
+   "products": [
+    "minecraft:chicken",
+    "minecraft:feather",
+    "periodic_elements:duck_egg",
+    "periodic_elements:duck_down"
+   ],
+   "entity": true
+  },
+  {
+   "id": "american_alligator",
+   "vanilla": false,
+   "icon": "periodic_elements:american_alligator_spawn_egg",
+   "scientific": "Alligator mississippiensis",
+   "family": "Alligatoridae · Crocodylia · Reptilia",
+   "height": 4.0,
+   "iucn": "LC",
+   "biomes": [
+    "swamp"
+   ],
+   "blocks": [
+    "periodic_elements:american_alligator"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat"
+   ],
+   "entity": true
+  },
+  {
+   "id": "hedgehog",
+   "vanilla": false,
+   "icon": "periodic_elements:hedgehog_spawn_egg",
+   "scientific": "Erinaceus europaeus",
+   "family": "Erinaceidae · Eulipotyphla · Mammalia",
+   "height": 0.25,
+   "iucn": "LC",
+   "biomes": [
+    "flower_forest",
+    "plains",
+    "cherry_grove",
+    "forest"
+   ],
+   "blocks": [
+    "periodic_elements:hedgehog"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "sturgeon",
+   "vanilla": false,
+   "icon": "periodic_elements:sturgeon_spawn_egg",
+   "scientific": "Acipenser sturio",
+   "family": "Acipenseridae · Acipenseriformes · Actinopterygii",
+   "height": 2.0,
+   "iucn": "CR",
+   "biomes": [
+    "river",
+    "frozen_river"
+   ],
+   "blocks": [
+    "periodic_elements:sturgeon"
+   ],
+   "products": [
+    "minecraft:cod",
+    "periodic_elements:caviar",
+    "periodic_elements:isinglass"
+   ],
+   "entity": true
+  },
+  {
+   "id": "peruvian_booby",
+   "vanilla": false,
+   "icon": "periodic_elements:peruvian_booby_spawn_egg",
+   "scientific": "Sula variegata",
+   "family": "Sulidae · Suliformes · Aves",
+   "height": 0.75,
+   "iucn": "LC",
+   "biomes": [
+    "stony_shore",
+    "beach"
+   ],
+   "blocks": [
+    "periodic_elements:peruvian_booby"
+   ],
+   "products": [
+    "minecraft:feather",
+    "periodic_elements:guano"
+   ],
+   "entity": true
+  },
+  {
+   "id": "reindeer",
+   "vanilla": false,
+   "icon": "periodic_elements:reindeer_spawn_egg",
+   "scientific": "Rangifer tarandus",
+   "family": "Cervidae · Artiodactyla · Mammalia",
+   "height": 2.0,
+   "iucn": "VU",
+   "biomes": [
+    "snowy_plains",
+    "snowy_taiga",
+    "ice_spikes"
+   ],
+   "blocks": [
+    "periodic_elements:reindeer"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:antler",
+    "minecraft:milk_bucket",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "moose",
+   "vanilla": false,
+   "icon": "periodic_elements:moose_spawn_egg",
+   "scientific": "Alces alces",
+   "family": "Cervidae · Artiodactyla · Mammalia",
+   "height": 3.0,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:moose"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:game_meat",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "brown_bear",
+   "vanilla": false,
+   "icon": "periodic_elements:brown_bear_spawn_egg",
+   "scientific": "Ursus arctos",
+   "family": "Ursidae · Carnivora · Mammalia",
+   "height": 2.5,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "grove"
+   ],
+   "blocks": [
+    "periodic_elements:brown_bear"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:tallow"
+   ],
+   "entity": true
+  },
+  {
+   "id": "yak",
+   "vanilla": false,
+   "icon": "periodic_elements:yak_spawn_egg",
+   "scientific": "Bos grunniens",
+   "family": "Bovidae · Artiodactyla · Mammalia",
+   "height": 3.0,
+   "iucn": "VU",
+   "biomes": [
+    "grove",
+    "snowy_slopes",
+    "frozen_peaks",
+    "jagged_peaks",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:yak"
+   ],
+   "products": [
+    "minecraft:beef",
+    "minecraft:leather",
+    "periodic_elements:yak_wool",
+    "minecraft:milk_bucket",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "alpaca",
+   "vanilla": false,
+   "icon": "periodic_elements:alpaca_spawn_egg",
+   "scientific": "Vicugna pacos",
+   "family": "Camelidae · Artiodactyla · Mammalia",
+   "height": 1.5,
+   "iucn": null,
+   "biomes": [
+    "windswept_hills",
+    "windswept_gravelly_hills",
+    "stony_peaks"
+   ],
+   "blocks": [
+    "periodic_elements:alpaca"
+   ],
+   "products": [
+    "periodic_elements:alpaca_wool",
+    "periodic_elements:manure"
+   ],
+   "entity": true
+  },
+  {
+   "id": "alpine_marmot",
+   "vanilla": false,
+   "icon": "periodic_elements:alpine_marmot_spawn_egg",
+   "scientific": "Marmota marmota",
+   "family": "Sciuridae · Rodentia · Mammalia",
+   "height": 0.5,
+   "iucn": "LC",
+   "biomes": [
+    "meadow",
+    "windswept_hills"
+   ],
+   "blocks": [
+    "periodic_elements:alpine_marmot"
+   ],
+   "products": [
+    "periodic_elements:tallow"
+   ],
+   "entity": true
+  },
+  {
+   "id": "stoat",
+   "vanilla": false,
+   "icon": "periodic_elements:stoat_spawn_egg",
+   "scientific": "Mustela erminea",
+   "family": "Mustelidae · Carnivora · Mammalia",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_plains",
+    "snowy_taiga",
+    "taiga"
+   ],
+   "blocks": [
+    "periodic_elements:stoat"
+   ],
+   "products": [
+    "minecraft:rabbit_hide"
+   ],
+   "entity": true
+  },
+  {
+   "id": "eurasian_lynx",
+   "vanilla": false,
+   "icon": "periodic_elements:eurasian_lynx_spawn_egg",
+   "scientific": "Lynx lynx",
+   "family": "Felidae · Carnivora · Mammalia",
+   "height": 1.1,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "grove",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "periodic_elements:eurasian_lynx"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "ringed_seal",
+   "vanilla": false,
+   "icon": "periodic_elements:ringed_seal_spawn_egg",
+   "scientific": "Pusa hispida",
+   "family": "Phocidae · Carnivora · Mammalia",
+   "height": 1.4,
+   "iucn": "LC",
+   "biomes": [
+    "frozen_ocean",
+    "deep_frozen_ocean",
+    "snowy_beach",
+    "frozen_river"
+   ],
+   "blocks": [
+    "periodic_elements:ringed_seal"
+   ],
+   "products": [
+    "minecraft:leather",
+    "periodic_elements:blubber"
+   ],
+   "entity": true
+  },
+  {
+   "id": "walrus",
+   "vanilla": false,
+   "icon": "periodic_elements:walrus_spawn_egg",
+   "scientific": "Odobenus rosmarus",
+   "family": "Odobenidae · Carnivora · Mammalia",
+   "height": 3.2,
+   "iucn": "VU",
+   "biomes": [
+    "frozen_ocean",
+    "cold_ocean",
+    "stony_shore",
+    "snowy_beach"
+   ],
+   "blocks": [
+    "periodic_elements:walrus"
+   ],
+   "products": [
+    "periodic_elements:blubber",
+    "periodic_elements:ivory"
+   ],
+   "entity": true
+  },
+  {
+   "id": "sperm_whale",
+   "vanilla": false,
+   "icon": "periodic_elements:sperm_whale_spawn_egg",
+   "scientific": "Physeter macrocephalus",
+   "family": "Physeteridae · Cetacea · Mammalia",
+   "height": 16.0,
+   "iucn": "VU",
+   "biomes": [
+    "deep_ocean",
+    "deep_cold_ocean",
+    "deep_lukewarm_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:sperm_whale"
+   ],
+   "products": [
+    "periodic_elements:blubber",
+    "periodic_elements:spermaceti",
+    "periodic_elements:ambergris"
+   ],
+   "entity": true
+  },
+  {
+   "id": "greenland_shark",
+   "vanilla": false,
+   "icon": "periodic_elements:greenland_shark_spawn_egg",
+   "scientific": "Somniosus microcephalus",
+   "family": "Somniosidae · Squaliformes · Chondrichthyes",
+   "height": 5.0,
+   "iucn": "VU",
+   "biomes": [
+    "cold_ocean",
+    "deep_cold_ocean",
+    "frozen_ocean",
+    "deep_frozen_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:greenland_shark"
+   ],
+   "products": [
+    "periodic_elements:greenland_shark_meat",
+    "periodic_elements:shark_liver"
+   ],
+   "entity": true
+  },
+  {
+   "id": "atlantic_herring",
+   "vanilla": false,
+   "icon": "periodic_elements:atlantic_herring_spawn_egg",
+   "scientific": "Clupea harengus",
+   "family": "Clupeidae · Clupeiformes · Actinopterygii",
+   "height": 0.3,
+   "iucn": "LC",
+   "biomes": [
+    "ocean",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:atlantic_herring"
+   ],
+   "products": [
+    "periodic_elements:herring"
+   ],
+   "entity": true
+  },
+  {
+   "id": "murex",
+   "vanilla": false,
+   "icon": "periodic_elements:murex_spawn_egg",
+   "scientific": "Bolinus brandaris",
+   "family": "Muricidae · Neogastropoda · Gastropoda",
+   "height": 0.08,
+   "iucn": "NE",
+   "biomes": [
+    "warm_ocean",
+    "lukewarm_ocean",
+    "deep_lukewarm_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:murex"
+   ],
+   "products": [
+    "periodic_elements:murex_snail"
+   ],
+   "entity": true
+  },
+  {
+   "id": "cuttlefish",
+   "vanilla": false,
+   "icon": "periodic_elements:cuttlefish_spawn_egg",
+   "scientific": "Sepia officinalis",
+   "family": "Sepiidae · Sepiida · Cephalopoda",
+   "height": 0.45,
+   "iucn": "LC",
+   "biomes": [
+    "lukewarm_ocean",
+    "deep_lukewarm_ocean",
+    "warm_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:cuttlefish"
+   ],
+   "products": [
+    "periodic_elements:cuttlebone",
+    "periodic_elements:sepia_ink"
+   ],
+   "entity": true
+  },
+  {
+   "id": "horseshoe_crab",
+   "vanilla": false,
+   "icon": "periodic_elements:horseshoe_crab_spawn_egg",
+   "scientific": "Limulus polyphemus",
+   "family": "Limulidae · Xiphosura · Merostomata",
+   "height": 0.6,
+   "iucn": "VU",
+   "biomes": [
+    "beach",
+    "warm_ocean",
+    "lukewarm_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:horseshoe_crab"
+   ],
+   "products": [
+    "periodic_elements:horseshoe_crab_blood"
+   ],
+   "entity": true
+  },
+  {
+   "id": "green_crab",
+   "vanilla": false,
+   "icon": "periodic_elements:green_crab_spawn_egg",
+   "scientific": "Carcinus maenas",
+   "family": "Carcinidae · Decapoda · Malacostraca",
+   "height": 0.08,
+   "iucn": "LC",
+   "biomes": [
+    "beach",
+    "stony_shore"
+   ],
+   "blocks": [
+    "periodic_elements:green_crab"
+   ],
+   "products": [
+    "periodic_elements:crab_shell"
+   ],
+   "entity": true
+  },
+  {
+   "id": "crystal_jelly",
+   "vanilla": false,
+   "icon": "periodic_elements:crystal_jelly_spawn_egg",
+   "scientific": "Aequorea victoria",
+   "family": "Aequoreidae · Leptothecata · Hydrozoa",
+   "height": 0.15,
+   "iucn": "NE",
+   "biomes": [
+    "cold_ocean",
+    "lukewarm_ocean",
+    "ocean"
+   ],
+   "blocks": [
+    "periodic_elements:crystal_jelly"
+   ],
+   "products": [
+    "periodic_elements:aequorea_tissue"
+   ],
+   "entity": true
+  },
+  {
+   "id": "cochineal",
+   "vanilla": false,
+   "icon": "periodic_elements:cochineal",
+   "scientific": "Dactylopius coccus",
+   "family": "Dactylopiidae · Hemiptera · Insecta",
+   "height": 0.005,
+   "iucn": null,
+   "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands"
+   ],
+   "blocks": [
+    "periodic_elements:cochineal_colony"
+   ],
+   "products": [
+    "periodic_elements:cochineal"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:cochineal"
+   ]
+  },
+  {
+   "id": "lac_insect",
+   "vanilla": false,
+   "icon": "periodic_elements:sticklac",
+   "scientific": "Kerria lacca",
+   "family": "Kerriidae · Hemiptera · Insecta",
+   "height": 0.005,
+   "iucn": null,
+   "biomes": [
+    "jungle",
+    "bamboo_jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "periodic_elements:lac_colony"
+   ],
+   "products": [
+    "periodic_elements:sticklac"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:sticklac"
+   ]
+  },
+  {
+   "id": "silkworm",
+   "vanilla": false,
+   "icon": "periodic_elements:silkworm",
+   "scientific": "Bombyx mori",
+   "family": "Bombycidae · Lepidoptera · Insecta",
+   "height": 0.07,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "sunflower_plains"
+   ],
+   "blocks": [
+    "periodic_elements:sericulture_tray"
+   ],
+   "products": [
+    "periodic_elements:silkworm"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:silkworm"
+   ]
+  },
+  {
+   "id": "earthworm",
+   "vanilla": false,
+   "icon": "periodic_elements:earthworm",
+   "scientific": "Lumbricus terrestris",
+   "family": "Lumbricidae · Opisthopora · Clitellata",
+   "height": 0.2,
+   "iucn": "LC",
+   "biomes": [
+    "plains",
+    "forest",
+    "flower_forest",
+    "birch_forest",
+    "meadow"
+   ],
+   "blocks": [
+    "periodic_elements:worm_bin"
+   ],
+   "products": [
+    "periodic_elements:earthworm"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:earthworm"
+   ]
+  },
+  {
+   "id": "medicinal_leech",
+   "vanilla": false,
+   "icon": "periodic_elements:leech",
+   "scientific": "Hirudo medicinalis",
+   "family": "Hirudinidae · Arhynchobdellida · Clitellata",
+   "height": 0.12,
+   "iucn": "NT",
+   "biomes": [
+    "swamp",
+    "mangrove_swamp"
+   ],
+   "blocks": [],
+   "products": [
+    "periodic_elements:leech"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:leech"
+   ]
+  },
+  {
+   "id": "pearl_oyster",
+   "vanilla": false,
+   "icon": "periodic_elements:pearl",
+   "scientific": "Pinctada margaritifera",
+   "family": "Pteriidae · Ostreida · Bivalvia",
+   "height": 0.2,
+   "iucn": "DD",
+   "biomes": [
+    "warm_ocean",
+    "lukewarm_ocean",
+    "deep_lukewarm_ocean"
+   ],
+   "blocks": [
+    "periodic_elements:pearl_oyster"
+   ],
+   "products": [
+    "periodic_elements:pearl"
+   ],
+   "entity": false,
+   "items": [
+    "periodic_elements:pearl"
+   ]
+  },
+  {
+   "id": "cow",
+   "vanilla": true,
+   "icon": "minecraft:cow_spawn_egg",
+   "scientific": "Bos taurus",
+   "family": "Bovidae · Artiodactyla · Mammalia",
+   "height": 2.5,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "meadow",
+    "forest"
+   ],
+   "blocks": [
+    "minecraft:cow"
+   ],
+   "products": [
+    "minecraft:beef",
+    "minecraft:leather",
+    "minecraft:milk_bucket"
+   ],
+   "entity": true
+  },
+  {
+   "id": "sheep",
+   "vanilla": true,
+   "icon": "minecraft:sheep_spawn_egg",
+   "scientific": "Ovis aries",
+   "family": "Bovidae · Artiodactyla · Mammalia",
+   "height": 1.5,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "meadow",
+    "windswept_hills"
+   ],
+   "blocks": [
+    "minecraft:sheep"
+   ],
+   "products": [
+    "minecraft:white_wool",
+    "minecraft:mutton"
+   ],
+   "entity": true
+  },
+  {
+   "id": "pig",
+   "vanilla": true,
+   "icon": "minecraft:pig_spawn_egg",
+   "scientific": "Sus domesticus",
+   "family": "Suidae · Artiodactyla · Mammalia",
+   "height": 1.6,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "forest",
+    "birch_forest"
+   ],
+   "blocks": [
+    "minecraft:pig"
+   ],
+   "products": [
+    "minecraft:porkchop"
+   ],
+   "entity": true
+  },
+  {
+   "id": "chicken",
+   "vanilla": true,
+   "icon": "minecraft:chicken_spawn_egg",
+   "scientific": "Gallus gallus domesticus",
+   "family": "Phasianidae · Galliformes · Aves",
+   "height": 0.6,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "forest",
+    "jungle"
+   ],
+   "blocks": [
+    "minecraft:chicken"
+   ],
+   "products": [
+    "minecraft:egg",
+    "minecraft:feather",
+    "minecraft:chicken"
+   ],
+   "entity": true
+  },
+  {
+   "id": "rabbit",
+   "vanilla": true,
+   "icon": "minecraft:rabbit_spawn_egg",
+   "scientific": "Oryctolagus cuniculus",
+   "family": "Leporidae · Lagomorpha · Mammalia",
+   "height": 0.45,
+   "iucn": "EN",
+   "biomes": [
+    "desert",
+    "flower_forest",
+    "snowy_plains",
+    "taiga",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:rabbit"
+   ],
+   "products": [
+    "minecraft:rabbit",
+    "minecraft:rabbit_hide",
+    "minecraft:rabbit_foot"
+   ],
+   "entity": true
+  },
+  {
+   "id": "horse",
+   "vanilla": true,
+   "icon": "minecraft:horse_spawn_egg",
+   "scientific": "Equus ferus caballus",
+   "family": "Equidae · Perissodactyla · Mammalia",
+   "height": 2.4,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "savanna"
+   ],
+   "blocks": [
+    "minecraft:horse"
+   ],
+   "products": [
+    "minecraft:leather"
+   ],
+   "entity": true
+  },
+  {
+   "id": "donkey",
+   "vanilla": true,
+   "icon": "minecraft:donkey_spawn_egg",
+   "scientific": "Equus asinus",
+   "family": "Equidae · Perissodactyla · Mammalia",
+   "height": 2.0,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "savanna",
+    "meadow"
+   ],
+   "blocks": [
+    "minecraft:donkey"
+   ],
+   "products": [
+    "minecraft:leather"
+   ],
+   "entity": true
+  },
+  {
+   "id": "llama",
+   "vanilla": true,
+   "icon": "minecraft:llama_spawn_egg",
+   "scientific": "Lama glama",
+   "family": "Camelidae · Artiodactyla · Mammalia",
+   "height": 2.0,
+   "iucn": null,
+   "biomes": [
+    "savanna",
+    "windswept_hills"
+   ],
+   "blocks": [
+    "minecraft:llama"
+   ],
+   "products": [
+    "minecraft:leather"
+   ],
+   "entity": true
+  },
+  {
+   "id": "camel",
+   "vanilla": true,
+   "icon": "minecraft:camel_spawn_egg",
+   "scientific": "Camelus dromedarius",
+   "family": "Camelidae · Artiodactyla · Mammalia",
+   "height": 3.0,
+   "iucn": null,
+   "biomes": [
+    "desert"
+   ],
+   "blocks": [
+    "minecraft:camel"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "goat",
+   "vanilla": true,
+   "icon": "minecraft:goat_spawn_egg",
+   "scientific": "Oreamnos americanus",
+   "family": "Bovidae · Artiodactyla · Mammalia",
+   "height": 1.6,
+   "iucn": "LC",
+   "biomes": [
+    "snowy_slopes",
+    "jagged_peaks",
+    "frozen_peaks"
+   ],
+   "blocks": [
+    "minecraft:goat"
+   ],
+   "products": [
+    "minecraft:goat_horn",
+    "minecraft:milk_bucket"
+   ],
+   "entity": true
+  },
+  {
+   "id": "wolf",
+   "vanilla": true,
+   "icon": "minecraft:wolf_spawn_egg",
+   "scientific": "Canis lupus",
+   "family": "Canidae · Carnivora · Mammalia",
+   "height": 1.4,
+   "iucn": "LC",
+   "biomes": [
+    "forest",
+    "taiga",
+    "grove",
+    "snowy_taiga"
+   ],
+   "blocks": [
+    "minecraft:wolf"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "fox",
+   "vanilla": true,
+   "icon": "minecraft:fox_spawn_egg",
+   "scientific": "Vulpes vulpes",
+   "family": "Canidae · Carnivora · Mammalia",
+   "height": 0.8,
+   "iucn": "LC",
+   "biomes": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_spruce_taiga"
+   ],
+   "blocks": [
+    "minecraft:fox"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "cat",
+   "vanilla": true,
+   "icon": "minecraft:cat_spawn_egg",
+   "scientific": "Felis catus",
+   "family": "Felidae · Carnivora · Mammalia",
+   "height": 0.5,
+   "iucn": null,
+   "biomes": [
+    "plains",
+    "desert",
+    "savanna",
+    "taiga",
+    "snowy_plains"
+   ],
+   "blocks": [
+    "minecraft:cat"
+   ],
+   "products": [
+    "minecraft:string"
+   ],
+   "entity": true
+  },
+  {
+   "id": "ocelot",
+   "vanilla": true,
+   "icon": "minecraft:ocelot_spawn_egg",
+   "scientific": "Leopardus pardalis",
+   "family": "Felidae · Carnivora · Mammalia",
+   "height": 1.0,
+   "iucn": "LC",
+   "biomes": [
+    "jungle",
+    "bamboo_jungle"
+   ],
+   "blocks": [
+    "minecraft:ocelot"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "panda",
+   "vanilla": true,
+   "icon": "minecraft:panda_spawn_egg",
+   "scientific": "Ailuropoda melanoleuca",
+   "family": "Ursidae · Carnivora · Mammalia",
+   "height": 1.6,
+   "iucn": "VU",
+   "biomes": [
+    "bamboo_jungle",
+    "jungle"
+   ],
+   "blocks": [
+    "minecraft:panda"
+   ],
+   "products": [
+    "minecraft:bamboo"
+   ],
+   "entity": true
+  },
+  {
+   "id": "polar_bear",
+   "vanilla": true,
+   "icon": "minecraft:polar_bear_spawn_egg",
+   "scientific": "Ursus maritimus",
+   "family": "Ursidae · Carnivora · Mammalia",
+   "height": 2.5,
+   "iucn": "VU",
+   "biomes": [
+    "snowy_plains",
+    "ice_spikes",
+    "frozen_ocean"
+   ],
+   "blocks": [
+    "minecraft:polar_bear"
+   ],
+   "products": [
+    "minecraft:cod",
+    "minecraft:salmon"
+   ],
+   "entity": true
+  },
+  {
+   "id": "parrot",
+   "vanilla": true,
+   "icon": "minecraft:parrot_spawn_egg",
+   "scientific": "Ara macao",
+   "family": "Psittacidae · Psittaciformes · Aves",
+   "height": 0.85,
+   "iucn": "LC",
+   "biomes": [
+    "jungle",
+    "sparse_jungle"
+   ],
+   "blocks": [
+    "minecraft:parrot"
+   ],
+   "products": [
+    "minecraft:feather"
+   ],
+   "entity": true
+  },
+  {
+   "id": "bee",
+   "vanilla": true,
+   "icon": "minecraft:bee_spawn_egg",
+   "scientific": "Apis mellifera",
+   "family": "Apidae · Hymenoptera · Insecta",
+   "height": 0.015,
+   "iucn": "DD",
+   "biomes": [
+    "plains",
+    "sunflower_plains",
+    "flower_forest",
+    "meadow",
+    "cherry_grove"
+   ],
+   "blocks": [
+    "minecraft:bee"
+   ],
+   "products": [
+    "minecraft:honeycomb",
+    "minecraft:honey_bottle"
+   ],
+   "entity": true
+  },
+  {
+   "id": "frog",
+   "vanilla": true,
+   "icon": "minecraft:frog_spawn_egg",
+   "scientific": "Rana temporaria",
+   "family": "Ranidae · Anura · Amphibia",
+   "height": 0.09,
+   "iucn": "LC",
+   "biomes": [
+    "swamp",
+    "mangrove_swamp"
+   ],
+   "blocks": [
+    "minecraft:frog"
+   ],
+   "products": [
+    "minecraft:slime_ball"
+   ],
+   "entity": true
+  },
+  {
+   "id": "axolotl",
+   "vanilla": true,
+   "icon": "minecraft:axolotl_spawn_egg",
+   "scientific": "Ambystoma mexicanum",
+   "family": "Ambystomatidae · Caudata · Amphibia",
+   "height": 0.25,
+   "iucn": "CR",
+   "biomes": [
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:axolotl"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "turtle",
+   "vanilla": true,
+   "icon": "minecraft:turtle_spawn_egg",
+   "scientific": "Chelonia mydas",
+   "family": "Cheloniidae · Testudines · Reptilia",
+   "height": 1.1,
+   "iucn": "EN",
+   "biomes": [
+    "beach"
+   ],
+   "blocks": [
+    "minecraft:turtle"
+   ],
+   "products": [
+    "minecraft:turtle_scute",
+    "minecraft:seagrass"
+   ],
+   "entity": true
+  },
+  {
+   "id": "armadillo",
+   "vanilla": true,
+   "icon": "minecraft:armadillo_spawn_egg",
+   "scientific": "Dasypus novemcinctus",
+   "family": "Dasypodidae · Cingulata · Mammalia",
+   "height": 0.75,
+   "iucn": "LC",
+   "biomes": [
+    "savanna",
+    "badlands",
+    "wooded_badlands"
+   ],
+   "blocks": [
+    "minecraft:armadillo"
+   ],
+   "products": [
+    "minecraft:armadillo_scute"
+   ],
+   "entity": true
+  },
+  {
+   "id": "bat",
+   "vanilla": true,
+   "icon": "minecraft:bat_spawn_egg",
+   "scientific": "Myotis myotis",
+   "family": "Vespertilionidae · Chiroptera · Mammalia",
+   "height": 0.08,
+   "iucn": "LC",
+   "biomes": [
+    "dripstone_caves",
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:bat"
+   ],
+   "products": [
+    "periodic_elements:guano"
+   ],
+   "entity": true
+  },
+  {
+   "id": "dolphin",
+   "vanilla": true,
+   "icon": "minecraft:dolphin_spawn_egg",
+   "scientific": "Tursiops truncatus",
+   "family": "Delphinidae · Cetacea · Mammalia",
+   "height": 3.0,
+   "iucn": "LC",
+   "biomes": [
+    "ocean",
+    "warm_ocean",
+    "lukewarm_ocean"
+   ],
+   "blocks": [
+    "minecraft:dolphin"
+   ],
+   "products": [],
+   "entity": true
+  },
+  {
+   "id": "squid",
+   "vanilla": true,
+   "icon": "minecraft:squid_spawn_egg",
+   "scientific": "Loligo vulgaris",
+   "family": "Loliginidae · Myopsida · Cephalopoda",
+   "height": 0.4,
+   "iucn": "DD",
+   "biomes": [
+    "ocean",
+    "cold_ocean",
+    "deep_ocean"
+   ],
+   "blocks": [
+    "minecraft:squid"
+   ],
+   "products": [
+    "minecraft:ink_sac"
+   ],
+   "entity": true
+  },
+  {
+   "id": "cod",
+   "vanilla": true,
+   "icon": "minecraft:cod_spawn_egg",
+   "scientific": "Gadus morhua",
+   "family": "Gadidae · Gadiformes · Actinopterygii",
+   "height": 1.0,
+   "iucn": "VU",
+   "biomes": [
+    "ocean",
+    "cold_ocean",
+    "lukewarm_ocean"
+   ],
+   "blocks": [
+    "minecraft:cod"
+   ],
+   "products": [
+    "minecraft:cod"
+   ],
+   "entity": true
+  },
+  {
+   "id": "salmon",
+   "vanilla": true,
+   "icon": "minecraft:salmon_spawn_egg",
+   "scientific": "Salmo salar",
+   "family": "Salmonidae · Salmoniformes · Actinopterygii",
+   "height": 0.9,
+   "iucn": "LC",
+   "biomes": [
+    "river",
+    "cold_ocean",
+    "frozen_ocean"
+   ],
+   "blocks": [
+    "minecraft:salmon"
+   ],
+   "products": [
+    "minecraft:salmon"
+   ],
+   "entity": true
+  },
+  {
+   "id": "pufferfish",
+   "vanilla": true,
+   "icon": "minecraft:pufferfish_spawn_egg",
+   "scientific": "Takifugu rubripes",
+   "family": "Tetraodontidae · Tetraodontiformes · Actinopterygii",
+   "height": 0.7,
+   "iucn": "NT",
+   "biomes": [
+    "warm_ocean",
+    "lukewarm_ocean"
+   ],
+   "blocks": [
+    "minecraft:pufferfish"
+   ],
+   "products": [
+    "minecraft:pufferfish"
+   ],
+   "entity": true
+  },
+  {
+   "id": "tropical_fish",
+   "vanilla": true,
+   "icon": "minecraft:tropical_fish_spawn_egg",
+   "scientific": "Amphiprion ocellaris",
+   "family": "Pomacentridae · Perciformes · Actinopterygii",
+   "height": 0.11,
+   "iucn": "LC",
+   "biomes": [
+    "warm_ocean",
+    "lush_caves"
+   ],
+   "blocks": [
+    "minecraft:tropical_fish"
+   ],
+   "products": [
+    "minecraft:tropical_fish"
+   ],
+   "entity": true
+  },
+  {
+   "id": "sea_pickle",
+   "vanilla": true,
+   "icon": "minecraft:sea_pickle",
+   "scientific": "Pyrosoma atlanticum",
+   "family": "Pyrosomatidae · Pyrosomida · Thaliacea",
+   "height": 0.6,
+   "iucn": null,
+   "biomes": [
+    "warm_ocean"
+   ],
+   "blocks": [
+    "minecraft:sea_pickle"
+   ],
+   "products": [
+    "minecraft:lime_dye"
+   ],
+   "entity": false
+  }
+ ],
+ "biomes": [
+  {
+   "id": "jungle",
+   "temperature": 26,
+   "rain": 2500
+  },
+  {
+   "id": "sparse_jungle",
+   "temperature": 25,
+   "rain": 1800
+  },
+  {
+   "id": "bamboo_jungle",
+   "temperature": 24,
+   "rain": 2000
+  },
+  {
+   "id": "savanna",
+   "temperature": 25,
+   "rain": 900
+  },
+  {
+   "id": "savanna_plateau",
+   "temperature": 21,
+   "rain": 1400
+  },
+  {
+   "id": "windswept_savanna",
+   "temperature": 24,
+   "rain": 500
+  },
+  {
+   "id": "desert",
+   "temperature": 25,
+   "rain": 100
+  },
+  {
+   "id": "badlands",
+   "temperature": 17,
+   "rain": 250
+  },
+  {
+   "id": "wooded_badlands",
+   "temperature": 12,
+   "rain": 400
+  },
+  {
+   "id": "eroded_badlands",
+   "temperature": 18,
+   "rain": 200
+  },
+  {
+   "id": "beach",
+   "temperature": 26,
+   "rain": 1500
+  },
+  {
+   "id": "mangrove_swamp",
+   "temperature": 27,
+   "rain": 2000
+  },
+  {
+   "id": "plains",
+   "temperature": 11,
+   "rain": 700
+  },
+  {
+   "id": "sunflower_plains",
+   "temperature": 12,
+   "rain": 650
+  },
+  {
+   "id": "forest",
+   "temperature": 9,
+   "rain": 800
+  },
+  {
+   "id": "flower_forest",
+   "temperature": 10,
+   "rain": 850
+  },
+  {
+   "id": "birch_forest",
+   "temperature": 6,
+   "rain": 650
+  },
+  {
+   "id": "old_growth_birch_forest",
+   "temperature": 6,
+   "rain": 700
+  },
+  {
+   "id": "dark_forest",
+   "temperature": 9,
+   "rain": 1000
+  },
+  {
+   "id": "swamp",
+   "temperature": 18,
+   "rain": 1300
+  },
+  {
+   "id": "cherry_grove",
+   "temperature": 14,
+   "rain": 1500
+  },
+  {
+   "id": "windswept_hills",
+   "temperature": 15,
+   "rain": 600
+  },
+  {
+   "id": "stony_shore",
+   "temperature": 16,
+   "rain": 500
+  },
+  {
+   "id": "taiga",
+   "temperature": 0,
+   "rain": 500
+  },
+  {
+   "id": "old_growth_pine_taiga",
+   "temperature": 4,
+   "rain": 700
+  },
+  {
+   "id": "windswept_forest",
+   "temperature": 3,
+   "rain": 900
+  },
+  {
+   "id": "snowy_taiga",
+   "temperature": -5,
+   "rain": 400
+  },
+  {
+   "id": "snowy_plains",
+   "temperature": -10,
+   "rain": 250
+  },
+  {
+   "id": "snowy_beach",
+   "temperature": -2,
+   "rain": 400
+  },
+  {
+   "id": "meadow",
+   "temperature": 4,
+   "rain": 1200
+  },
+  {
+   "id": "grove",
+   "temperature": 0,
+   "rain": 1000
+  },
+  {
+   "id": "stony_peaks",
+   "temperature": -2,
+   "rain": 1300
+  },
+  {
+   "id": "windswept_gravelly_hills",
+   "temperature": 2,
+   "rain": 900
+  },
+  {
+   "id": "old_growth_spruce_taiga",
+   "temperature": 9,
+   "rain": 2500
+  },
+  {
+   "id": "ice_spikes",
+   "temperature": -15,
+   "rain": 200
+  },
+  {
+   "id": "snowy_slopes",
+   "temperature": -5,
+   "rain": 1100
+  },
+  {
+   "id": "frozen_peaks",
+   "temperature": -12,
+   "rain": 900
+  },
+  {
+   "id": "jagged_peaks",
+   "temperature": -10,
+   "rain": 1000
+  },
+  {
+   "id": "lush_caves",
+   "temperature": null,
+   "rain": null
+  },
+  {
+   "id": "river",
+   "temperature": 14,
+   "rain": 900
+  },
+  {
+   "id": "ocean",
+   "temperature": 15,
+   "rain": 1000
+  },
+  {
+   "id": "cold_ocean",
+   "temperature": 6,
+   "rain": 900
+  },
+  {
+   "id": "lukewarm_ocean",
+   "temperature": 21,
+   "rain": 700
+  },
+  {
+   "id": "warm_ocean",
+   "temperature": 27,
+   "rain": 1800
+  },
+  {
+   "id": "deep_ocean",
+   "temperature": 10,
+   "rain": 100
+  },
+  {
+   "id": "deep_cold_ocean",
+   "temperature": 4,
+   "rain": 100
+  },
+  {
+   "id": "deep_lukewarm_ocean",
+   "temperature": 18,
+   "rain": 100
+  },
+  {
+   "id": "frozen_ocean",
+   "temperature": -2,
+   "rain": 100
+  },
+  {
+   "id": "deep_frozen_ocean",
+   "temperature": -2,
+   "rain": 100
+  },
+  {
+   "id": "frozen_river",
+   "temperature": -5,
+   "rain": 50
+  },
+  {
+   "id": "dripstone_caves",
+   "temperature": null,
+   "rain": null
+  }
+ ]
+}

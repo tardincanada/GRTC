@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_hoe",
+    "periodic_elements:wrought_iron_hoe",
+    "periodic_elements:crucible_steel_hoe",
+    "periodic_elements:steel_hoe",
+    "periodic_elements:manganese_steel_hoe",
+    "periodic_elements:tungsten_steel_hoe",
+    "periodic_elements:aluminium_hoe",
+    "periodic_elements:stainless_steel_hoe",
+    "periodic_elements:high_speed_steel_hoe",
+    "periodic_elements:cemented_carbide_hoe",
+    "periodic_elements:beryllium_copper_hoe",
+    "periodic_elements:titanium_alloy_hoe",
+    "periodic_elements:synthetic_diamond_hoe"
+  ]
+}

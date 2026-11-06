@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "periodic_elements:block/damask_rose_bush_stage0"
+  }
+}

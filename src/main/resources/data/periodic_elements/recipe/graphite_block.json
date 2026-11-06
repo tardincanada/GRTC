@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "periodic_elements:coke"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:graphite_block",
+    "count": 2
+  }
+}

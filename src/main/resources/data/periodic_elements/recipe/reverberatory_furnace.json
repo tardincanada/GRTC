@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KIK",
+    "KFK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "periodic_elements:smelting_furnace"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:reverberatory_furnace",
+    "count": 1
+  }
+}

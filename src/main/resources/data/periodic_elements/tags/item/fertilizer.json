@@ -1,0 +1,12 @@
+{
+  "values": [
+    "periodic_elements:superphosphate",
+    "periodic_elements:ammonium_sulfate",
+    "periodic_elements:calcium_cyanamide",
+    "periodic_elements:urea",
+    "periodic_elements:ammonium_nitrate",
+    "periodic_elements:npk_prills",
+    "periodic_elements:spent_mycelium",
+    "periodic_elements:biomass"
+  ]
+}

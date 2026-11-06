@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:protein_meal",
+    "periodic_elements:acorn",
+    "periodic_elements:chestnut",
+    "periodic_elements:araucaria_seed",
+    "periodic_elements:maize",
+    "periodic_elements:soybeans",
+    "periodic_elements:cassava_root",
+    "periodic_elements:turnip",
+    "periodic_elements:balanced_feed"
+  ]
+}

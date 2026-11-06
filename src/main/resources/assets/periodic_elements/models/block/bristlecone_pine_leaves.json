@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "periodic_elements:block/bristlecone_pine_leaves"
+  }
+}

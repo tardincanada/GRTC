@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "periodic_elements:block/gneiss",
+    "top": "periodic_elements:block/gneiss_top",
+    "bottom": "periodic_elements:block/gneiss_top",
+    "overlay": "periodic_elements:block/ore_overlay_cobaltite"
+  }
+}

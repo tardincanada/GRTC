@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "item": "periodic_elements:copper_wire"
+    },
+    {
+      "tag": "periodic_elements:cable_insulation"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:insulated_cable",
+    "count": 6
+  }
+}

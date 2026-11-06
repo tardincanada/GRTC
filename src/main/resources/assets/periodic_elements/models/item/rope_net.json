@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "periodic_elements:item/rope_net"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "periodic_elements:full": 1
+      },
+      "model": "periodic_elements:item/rope_net_full"
+    }
+  ]
+}

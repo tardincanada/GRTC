@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WPW",
+    "PCP",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "P": {
+      "item": "periodic_elements:platinum"
+    },
+    "C": {
+      "item": "periodic_elements:calcium_fluoride"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:moissan_cell",
+    "count": 1
+  }
+}

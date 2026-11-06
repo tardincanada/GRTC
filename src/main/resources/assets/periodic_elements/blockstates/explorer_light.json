@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "kind=cap": {
+      "model": "periodic_elements:block/explorer_light"
+    },
+    "kind=led": {
+      "model": "periodic_elements:block/explorer_light"
+    }
+  }
+}

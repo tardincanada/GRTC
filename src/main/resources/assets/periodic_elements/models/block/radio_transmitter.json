@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "periodic_elements:block/radio_transmitter_side",
+    "top": "periodic_elements:block/radio_transmitter_top",
+    "bottom": "periodic_elements:block/radio_transmitter_top"
+  }
+}

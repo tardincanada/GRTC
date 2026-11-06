@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/crucible_top_active_1",
+    "front": "periodic_elements:block/crucible_front_active_1",
+    "side": "periodic_elements:block/crucible_side"
+  }
+}

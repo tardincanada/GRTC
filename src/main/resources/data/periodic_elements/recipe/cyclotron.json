@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IWI",
+    "CSC",
+    "IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:cyclotron",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SLS",
+    "LSL",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "L": {
+      "item": "periodic_elements:lead"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:reactor_shielding",
+    "count": 4
+  }
+}

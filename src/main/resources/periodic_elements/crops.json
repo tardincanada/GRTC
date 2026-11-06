@@ -1,0 +1,585 @@
+{
+  "crops": [
+    {
+      "id": "rice",
+      "seed": "rice",
+      "product": "rice",
+      "climates": [
+        "warm",
+        "temperate"
+      ],
+      "biomes": [
+        "swamp",
+        "mangrove_swamp"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": true,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "maize",
+      "seed": "maize_kernels",
+      "product": "maize",
+      "climates": [
+        "warm",
+        "temperate"
+      ],
+      "biomes": [
+        "savanna",
+        "plains"
+      ],
+      "outcross": 0.8,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": [
+        3,
+        0.4
+      ],
+      "poison": false
+    },
+    {
+      "id": "soy",
+      "seed": "soybeans",
+      "product": "soybeans",
+      "climates": [
+        "temperate",
+        "warm"
+      ],
+      "biomes": [
+        "cherry_grove",
+        "forest"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": true,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "bean",
+      "seed": "beans",
+      "product": "beans",
+      "climates": [
+        "warm",
+        "temperate"
+      ],
+      "biomes": [
+        "jungle",
+        "savanna"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": true,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "cassava",
+      "seed": "cassava_stem",
+      "product": "cassava_root",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "jungle",
+        "savanna"
+      ],
+      "outcross": 0,
+      "clone": true,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        3
+      ],
+      "seedFood": null,
+      "productFood": [
+        2,
+        0.2
+      ],
+      "poison": true
+    },
+    {
+      "id": "barley",
+      "seed": "barley",
+      "product": "barley",
+      "climates": [
+        "cold",
+        "temperate"
+      ],
+      "biomes": [
+        "taiga",
+        "old_growth_pine_taiga"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "tomato",
+      "seed": "tomato_seeds",
+      "product": "tomato",
+      "climates": [
+        "warm",
+        "temperate"
+      ],
+      "biomes": [
+        "jungle"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        3
+      ],
+      "seedFood": null,
+      "productFood": [
+        3,
+        0.3
+      ],
+      "poison": false
+    },
+    {
+      "id": "coffee",
+      "seed": "coffee_beans",
+      "product": "coffee_beans",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "jungle",
+        "bamboo_jungle"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": 4,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        3
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "cotton",
+      "seed": "cotton_seeds",
+      "product": "cotton",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "savanna",
+        "desert"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": true,
+      "soil": "sand",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "flax",
+      "seed": "linseed",
+      "product": "flax",
+      "climates": [
+        "temperate",
+        "cold"
+      ],
+      "biomes": [
+        "plains",
+        "meadow"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "hemp",
+      "seed": "hemp_seeds",
+      "product": "hemp",
+      "climates": [
+        "temperate"
+      ],
+      "biomes": [
+        "plains",
+        "windswept_hills"
+      ],
+      "outcross": 0.8,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "rapeseed",
+      "seed": "rapeseed",
+      "product": "rapeseed",
+      "climates": [
+        "temperate",
+        "cold"
+      ],
+      "biomes": [
+        "sunflower_plains",
+        "flower_forest"
+      ],
+      "outcross": 0.8,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "castor",
+      "seed": "castor_beans",
+      "product": "castor_beans",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "savanna",
+        "desert"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": true,
+      "soil": "sand",
+      "legume": false,
+      "count": [
+        2,
+        3
+      ],
+      "seedFood": [
+        1,
+        0.0
+      ],
+      "productFood": null,
+      "poison": true
+    },
+    {
+      "id": "indigo",
+      "seed": "indigo_seeds",
+      "product": "indigo_leaves",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "jungle",
+        "sparse_jungle"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": true,
+      "count": [
+        1,
+        3
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "madder",
+      "seed": "madder_seeds",
+      "product": "madder_root",
+      "climates": [
+        "temperate"
+      ],
+      "biomes": [
+        "plains"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "tobacco",
+      "seed": "tobacco_seeds",
+      "product": "tobacco_leaves",
+      "climates": [
+        "warm",
+        "temperate"
+      ],
+      "biomes": [
+        "jungle",
+        "savanna"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        3
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "alfalfa",
+      "seed": "alfalfa_seeds",
+      "product": "alfalfa",
+      "climates": [
+        "temperate",
+        "warm"
+      ],
+      "biomes": [
+        "plains",
+        "meadow"
+      ],
+      "outcross": 0.8,
+      "clone": false,
+      "perennial": 3,
+      "water": false,
+      "arid": true,
+      "soil": "dirt",
+      "legume": true,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "sorghum",
+      "seed": "sorghum",
+      "product": "sorghum",
+      "climates": [
+        "warm"
+      ],
+      "biomes": [
+        "savanna",
+        "desert"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": true,
+      "soil": "sand",
+      "legume": false,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "oats",
+      "seed": "oats",
+      "product": "oats",
+      "climates": [
+        "temperate",
+        "cold"
+      ],
+      "biomes": [
+        "plains",
+        "taiga"
+      ],
+      "outcross": 0.05,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        2,
+        4
+      ],
+      "seedFood": null,
+      "productFood": null,
+      "poison": false
+    },
+    {
+      "id": "turnip",
+      "seed": "turnip_seeds",
+      "product": "turnip",
+      "climates": [
+        "cold",
+        "temperate"
+      ],
+      "biomes": [
+        "snowy_plains",
+        "windswept_hills"
+      ],
+      "outcross": 0.8,
+      "clone": false,
+      "perennial": null,
+      "water": false,
+      "arid": false,
+      "soil": "dirt",
+      "legume": false,
+      "count": [
+        1,
+        2
+      ],
+      "seedFood": null,
+      "productFood": [
+        2,
+        0.4
+      ],
+      "poison": false
+    }
+  ],
+  "vanilla": {
+    "wheat": 0.05,
+    "carrots": 0.8,
+    "potatoes": 0,
+    "beetroots": 0.8
+  },
+  "patchChance": 8,
+  "made": {
+    "cooked_rice": {
+      "food": [
+        5,
+        0.6
+      ]
+    },
+    "cooked_beans": {
+      "food": [
+        6,
+        0.6
+      ]
+    },
+    "cassava_flour": {
+      "food": [
+        5,
+        0.6
+      ]
+    },
+    "coffee": {
+      "food": [
+        1,
+        0.1
+      ]
+    },
+    "tobacco_wash": {
+      "food": null
+    }
+  }
+}

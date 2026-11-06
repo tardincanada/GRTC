@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "periodic_elements:block/polished_peridotite",
+    "top": "periodic_elements:block/polished_peridotite",
+    "side": "periodic_elements:block/polished_peridotite"
+  }
+}

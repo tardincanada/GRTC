@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:rdx"
+    },
+    {
+      "item": "periodic_elements:rdx"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "periodic_elements:steel_ingot"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:shaped_charge",
+    "count": 1
+  }
+}

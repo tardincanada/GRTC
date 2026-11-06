@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/bloomery_top",
+    "front": "periodic_elements:block/bloomery_front",
+    "side": "periodic_elements:block/bloomery_side"
+  }
+}

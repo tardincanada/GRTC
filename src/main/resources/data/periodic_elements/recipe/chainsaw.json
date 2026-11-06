@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "WBS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "B": {
+      "item": "periodic_elements:brown_bakelite"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:chainsaw",
+    "count": 1
+  }
+}

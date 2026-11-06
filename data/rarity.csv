@@ -1,0 +1,5 @@
+element,crust_ppm,game_vs_iron,source_in_game,note
+iron,56300,1,iron ore,Reference element: no correction
+gold,0.004,0.12,gold ore and nether gold ore,Real gold is 14 million times rarer than iron
+mercury,0.085,1.16,redstone ore (redstone proposed as cinnabar),
+beryllium,2.8,0.002,emerald ore (beryl),

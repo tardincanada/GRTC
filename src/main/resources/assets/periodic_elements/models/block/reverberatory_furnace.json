@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/reverberatory_furnace_top",
+    "front": "periodic_elements:block/reverberatory_furnace_front",
+    "side": "periodic_elements:block/reverberatory_furnace_side"
+  }
+}

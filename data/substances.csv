@@ -1,0 +1,328 @@
+tier,level,id,name,formula,state,sector,color,use
+1,0,water,Water,H2O,liquid,both,3F76E4,"Irrigation, cooling, and the universal solvent"
+1,1,carbon_monoxide,Carbon Monoxide,CO,gas,industry,BFBFBF,Reduces iron ore; feedstock for syngas
+1,3,carbon_dioxide,Carbon Dioxide,CO2,gas,both,E8E8E8,"Greenhouse enrichment, drinks, fire extinguishers"
+1,3,ammonia,Ammonia,NH3,gas,agriculture,C8E6FF,Base of nearly all nitrogen fertilizers
+1,3,methane,Methane,CH4,gas,industry,A0D8EF,Natural gas fuel; source of hydrogen
+1,2,hydrochloric_acid,Hydrochloric Acid,HCl,liquid,industry,E3F2B0,Steel pickling and pH control
+1,1,sulfur_dioxide,Sulfur Dioxide,SO2,gas,industry,F5F0A0,Sulfuric acid production; food preservative
+1,3,hydrogen_peroxide,Hydrogen Peroxide,H2O2,liquid,industry,DDF3FF,Bleaching paper pulp and textiles
+2,1,sodium_chloride,Sodium Chloride,NaCl,solid,both,F4F4F4,Chlor-alkali feedstock; livestock salt licks
+2,3,potassium_chloride,Potassium Chloride,KCl,solid,agriculture,E8B4A8,Potash: the main potassium fertilizer
+2,1,calcium_oxide,Calcium Oxide,CaO,solid,both,F0EEE6,Quicklime for steelmaking and soil liming
+2,0,silicon_dioxide,Silicon Dioxide,SiO2,solid,industry,E6D7B8,Sand for glass and concrete
+2,5,titanium_dioxide,Titanium Dioxide,TiO2,solid,industry,FFFFFF,White pigment in paints and plastics
+2,4,aluminium_oxide,Aluminium Oxide,Al2O3,solid,industry,EDE3E3,Alumina: refined into aluminium metal
+2,0,iron_oxide,Iron(III) Oxide,Fe2O3,solid,industry,A5432A,Iron ore (hematite) and red pigment
+2,2,sodium_hydroxide,Sodium Hydroxide,NaOH,solid,industry,F2F2F8,"Soap, paper pulping, and alumina refining"
+2,1,calcium_hydroxide,Calcium Hydroxide,Ca(OH)2,solid,both,F5F5EE,Slaked lime: water treatment and liming
+2,2,nitric_acid,Nitric Acid,HNO3,liquid,agriculture,F7E7A0,Makes ammonium nitrate fertilizer
+2,2,sulfuric_acid,Sulfuric Acid,H2SO4,liquid,both,FFF6C8,Phosphate fertilizers; most-made chemical
+2,3,phosphoric_acid,Phosphoric Acid,H3PO4,liquid,agriculture,F0F5D5,Phosphate fertilizers and food additive
+2,3,sodium_hypochlorite,Sodium Hypochlorite,NaClO,liquid,industry,E6F7C8,Bleach and drinking-water disinfection
+3,0,calcium_carbonate,Calcium Carbonate,CaCO3,solid,both,EFEBDF,Limestone: cement and agricultural lime
+3,1,sodium_carbonate,Sodium Carbonate,Na2CO3,solid,industry,F8F8F8,Soda ash for glass and detergents
+3,3,sodium_bicarbonate,Sodium Bicarbonate,NaHCO3,solid,both,FAFAFF,Baking soda; livestock feed buffer
+3,2,potassium_nitrate,Potassium Nitrate,KNO3,solid,agriculture,F3E9D2,"Fertilizer, food curing, and gunpowder"
+3,2,ammonium_nitrate,Ammonium Nitrate,NH4NO3,solid,agriculture,FFF8E8,Nitrogen fertilizer and mining explosive
+3,3,ammonium_sulfate,Ammonium Sulfate,(NH4)2SO4,solid,agriculture,EEE8DA,Nitrogen and sulfur fertilizer
+3,2,copper_sulfate,Copper(II) Sulfate,CuSO4,solid,both,1F7FD6,Fungicide (Bordeaux mixture); electroplating
+3,2,iron_sulfate,Iron(II) Sulfate,FeSO4,solid,both,9ED2A8,Treats iron-deficient soil; water treatment
+3,1,gypsum,Gypsum,CaSO4·2H2O,solid,both,F6F2EA,Plaster and drywall; soil conditioner
+3,3,tricalcium_phosphate,Calcium Phosphate,Ca3(PO4)2,solid,agriculture,D9CDB4,Phosphate rock: raw material for fertilizer
+3,5,monoammonium_phosphate,Monoammonium Phosphate,NH4H2PO4,solid,agriculture,E8EEF5,MAP fertilizer; dry fire extinguishers
+3,5,diammonium_phosphate,Diammonium Phosphate,(NH4)2HPO4,solid,agriculture,D6DDE8,DAP: most-used phosphorus fertilizer
+4,2,methanol,Methanol,CH3OH,liquid,industry,EAF2F8,Feedstock for formaldehyde and plastics
+4,4,formaldehyde,Formaldehyde,CH2O,gas,industry,F0F0D8,Resins for plywood and particleboard
+4,4,acetylene,Acetylene,C2H2,gas,industry,F8F8E0,Welding and metal-cutting fuel
+4,3,ethylene,Ethylene,C2H4,gas,both,D8F0E0,Plastics feedstock; ripens fruit
+4,1,ethanol,Ethanol,C2H5OH,liquid,both,F5F0E0,Biofuel from crops; solvent
+4,1,acetic_acid,Acetic Acid,CH3COOH,liquid,industry,F2EDE0,Vinyl acetate and vinegar
+4,3,urea,Urea,CO(NH2)2,solid,agriculture,FFFFFF,World's most-used nitrogen fertilizer
+4,5,propane,Propane,C3H8,gas,both,C6E2F5,Fuel for heating and grain drying
+4,2,acetone,Acetone,C3H6O,liquid,industry,EEF6FA,Solvent; feedstock for acrylic plastic
+4,4,ethylene_glycol,Ethylene Glycol,C2H6O2,liquid,industry,7FD1E8,Antifreeze and PET bottles
+4,3,glycerol,Glycerol,C3H8O3,liquid,industry,F8F4DC,"Soap byproduct; food, cosmetics, and resins"
+4,3,benzene,Benzene,C6H6,liquid,industry,EDE6C8,Feedstock for styrene and nylon
+4,4,styrene,Styrene,C8H8,liquid,industry,E3E8EF,Monomer for polystyrene and rubber
+5,7,glyphosate,Glyphosate,C3H8NO5P,solid,agriculture,D0E8B0,Broad-spectrum herbicide
+5,6,dichlorophenoxyacetic_acid,"2,4-D",C8H6Cl2O3,solid,agriculture,C8DCA0,Selective herbicide for broadleaf weeds
+5,6,atrazine,Atrazine,C8H14ClN5,solid,agriculture,B8D49A,Pre-emergence weed control in corn
+5,2,glucose,Glucose,C6H12O6,solid,both,FFF9F0,Fermentation feedstock for ethanol
+5,1,sucrose,Sucrose,C12H22O11,solid,both,FFFFFF,Sugar from cane and beet; fermentation
+6,5,polyethylene,Polyethylene,(C2H4)n,solid,both,DCEBF5,Most common plastic; films and greenhouse covers
+6,5,polystyrene,Polystyrene,(C8H8)n,solid,industry,F5F5F5,Packaging and insulation foam
+6,1,natural_rubber,Natural Rubber,(C5H8)n,solid,industry,4A3A2E,Tires and seals; harvested from rubber trees
+6,0,starch,Starch,(C6H10O5)n,solid,both,FAF5E8,"Food, paper sizing, and adhesives"
+6,0,cellulose,Cellulose,(C6H10O5)n,solid,both,E8DDC0,"Paper, cotton textiles, and wood"
+2,3,magnesium_oxide,Magnesium Oxide,MgO,solid,both,F2F2F0,Refractory bricks; magnesium in animal feed
+2,3,sodium_oxide,Sodium Oxide,Na2O,solid,industry,F0F0F5,Flux in glassmaking; part of most rocks
+2,3,potassium_oxide,Potassium Oxide,K2O,solid,agriculture,EDE0E8,How potash content of fertilizer is graded
+2,3,iron_ii_oxide,Iron(II) Oxide,FeO,solid,industry,2E2B28,Part of rocks and steelmaking slag
+2,3,phosphorus_pentoxide,Phosphorus Pentoxide,P4O10,solid,both,F8F8F8,Drying agent; how phosphate in fertilizer is graded
+2,1,manganese_dioxide,Manganese Dioxide,MnO2,solid,industry,3A3430,Pyrolusite ore: steel alloys and batteries
+2,0,magnetite,Magnetite,Fe3O4,solid,industry,3B3B40,Magnetic iron ore; heavy-media separation
+2,1,iron_disulfide,Pyrite,FeS2,solid,industry,C8B45A,Fool's gold: source of sulfur for sulfuric acid
+2,0,mercury_sulfide,Cinnabar,HgS,solid,industry,C2272D,Mercury ore and vermilion pigment
+2,2,zinc_sulfide,Zinc Sulfide,ZnS,solid,industry,E8F0B0,Sphalerite zinc ore; glow-in-the-dark phosphor
+3,1,chalcopyrite,Chalcopyrite,CuFeS2,solid,industry,C9A23A,Main copper ore mined today
+3,0,kaolinite,Kaolinite,Al2Si2O5(OH)4,solid,industry,EFE8DC,"China clay: ceramics, paper coating, paint"
+3,0,beryl,Beryl,Be3Al2Si6O18,solid,industry,4FC08A,Beryllium ore; emerald and aquamarine gems
+3,0,lazurite,Lazurite,Na7CaAl6Si6O24(SO4)S3,solid,industry,2647A8,Lapis lazuli: ultramarine blue pigment
+5,4,chlorophyll,Chlorophyll,C55H72MgN4O5,solid,agriculture,2F8A2F,Green plant pigment; food colouring
+6,4,lignin,Lignin,(C10H12O3)n,solid,industry,8A6A3E,Binds wood fibres; pulping fuel and biochemicals
+2,1,copper_ii_oxide,Copper(II) Oxide,CuO,solid,industry,2B2B2B,Roasted copper ore; reduced by charcoal to copper
+2,0,tin_dioxide,Cassiterite,SnO2,solid,industry,4A3B32,Tin ore; smelted with charcoal into tin
+2,0,lead_sulfide,Galena,PbS,solid,industry,5E6470,Lead ore; often carries some silver
+2,1,lead_oxide,Litharge,PbO,solid,industry,E8B04A,Roasted lead ore; glazes and lead glass
+2,2,zinc_oxide,Zinc Oxide,ZnO,solid,both,F4F4EE,Roasted zinc ore; white pigment and zinc ointment
+2,2,cobalt_oxide,Cobalt(II) Oxide,CoO,solid,industry,5B6B4E,Zaffre: colours glass and glazes blue
+2,2,arsenic_trioxide,White Arsenic,As2O3,solid,both,F0F0F0,Poison and pesticide; clears bubbles from glass
+2,2,antimony_trioxide,Antimony Trioxide,Sb2O3,solid,industry,F2F0E6,Flame retardant; roasted antimony ore
+2,2,antimony_sulfide,Stibnite,Sb2S3,solid,industry,6E7078,Antimony ore; kohl eye paint since antiquity
+3,2,cobaltite,Cobaltite,CoAsS,solid,industry,B8B0C8,Cobalt ore that also holds arsenic
+3,2,arsenopyrite,Arsenopyrite,FeAsS,solid,industry,B4B0A0,Main arsenic ore; often carries gold
+3,2,potassium_bisulfate,Potassium Bisulfate,KHSO4,solid,industry,F4F2EC,Left over from making nitric acid
+2,1,magnesium_chloride,Magnesium Chloride,MgCl2,solid,both,F0F4F2,Nigari: bitter salt left in seawater brine; sets tofu
+3,2,sodium_bisulfate,Sodium Bisulfate,NaHSO4,solid,industry,F6F4EE,Left over from making hydrochloric acid
+3,3,sodium_tetraborate,Borax,Na2B4O7·10H2O,solid,both,F4F2EA,Flux for welding and glass; boron ore
+3,3,boric_acid,Boric Acid,H3BO3,solid,both,F8F8F2,Antiseptic and glass; made from borax
+3,3,beryllium_chloride,Beryllium Chloride,BeCl2,solid,industry,EEF0E8,Wohler's route to beryllium metal
+3,3,spodumene,Spodumene,LiAlSi2O6,solid,industry,D8C8D0,Main lithium ore; pegmatite crystals
+3,3,lithium_chloride,Lithium Chloride,LiCl,solid,industry,F2F2F4,Molten and electrolysed for lithium
+3,3,barium_sulfate,Barite,BaSO4,solid,industry,EAE6E0,Heavy spar: drilling mud and X-ray contrast
+3,3,barium_oxide,Barium Oxide,BaO,solid,industry,F0F0EC,Baryta: electrolysed by Davy for barium
+3,3,strontium_sulfate,Celestine,SrSO4,solid,industry,C8DCEC,Strontium ore; sky-blue crystals
+3,3,strontium_oxide,Strontium Oxide,SrO,solid,industry,F2F0EE,Strontia: electrolysed by Davy for strontium
+3,3,cadmium_sulfide,Greenockite,CdS,solid,industry,E8C030,Cadmium yellow pigment; travels with zinc ore
+3,3,cadmium_oxide,Cadmium Oxide,CdO,solid,industry,8A5A30,Brown fume from roasting zinc ore
+3,3,uranium_dioxide,Uraninite,UO2,solid,industry,3A3A34,Pitchblende: the black uranium ore
+3,3,triuranium_octoxide,Uranium Oxide,U3O8,solid,industry,4A4A30,Klaproth's 'uranium'; colours glass yellow
+3,3,sodium_iodide,Sodium Iodide,NaI,solid,both,F4F4F8,The iodine in kelp ash and brine
+3,3,magnesium_bromide,Magnesium Bromide,MgBr2,solid,industry,F2EEE8,The bromine in seawater bittern
+3,3,lead_sulfate,Lead Sulfate,PbSO4,solid,industry,F0F0F0,Sludge on the floor of a lead chamber
+3,3,sodium_sulfate,Sodium Sulfate,Na2SO4,solid,industry,F6F6F2,Glauber's salt: glass and paper making
+3,4,gibbsite,Gibbsite,Al(OH)3,solid,industry,D8B8A0,The aluminium hydroxide in bauxite
+2,4,gallium_oxide,Gallium Oxide,Ga2O3,solid,industry,F0F0F4,Gallium from the Bayer liquor
+3,4,calcium_fluoride,Fluorite,CaF2,solid,industry,B890E0,Fluorspar: flux for steel and the source of fluorine
+3,4,cryolite,Cryolite,Na3AlF6,solid,industry,F2F4F6,Molten bath that dissolves alumina for aluminium
+1,4,hydrogen_fluoride,Hydrogen Fluoride,HF,gas,industry,E8F4E0,Etches glass; electrolysed by Moissan for fluorine
+3,4,calcium_sulfate,Anhydrite,CaSO4,solid,industry,F0EEE8,Calcium sulfate left from making acids
+3,4,calcium_chloride,Calcium Chloride,CaCl2,solid,both,F6F6F6,Waste of the Solvay process; road de-icer
+3,4,pentlandite,Pentlandite,Fe4Ni5S8,solid,industry,C8B060,Main nickel ore: bronze-yellow sulfide
+2,4,nickel_oxide,Nickel Oxide,NiO,solid,industry,4A7A40,Roasted nickel matte; reduced via nickel carbonyl
+3,4,wolframite,Wolframite,FeWO4,solid,industry,3A3430,Iron tungstate: the main tungsten ore
+3,4,sodium_tungstate,Sodium Tungstate,Na2WO4,solid,industry,F4F4F0,Tungsten taken up by fused soda
+2,4,tungsten_trioxide,Tungsten Trioxide,WO3,solid,industry,D8D040,Yellow tungstic oxide; reduced to tungsten powder
+3,4,vanadinite,Vanadinite,Pb5(VO4)3Cl,solid,industry,D05A28,Red hexagonal crystals of lead vanadate
+3,4,sodium_metavanadate,Sodium Metavanadate,NaVO3,solid,industry,F0E8C8,Vanadium leached from roasted ore
+2,4,vanadium_pentoxide,Vanadium Pentoxide,V2O5,solid,industry,E09030,Catalyst of the contact process
+3,4,indium_sulfide,Indium Sulfide,In2S3,solid,industry,D0A040,Traces of indium in zinc blende
+2,4,indium_oxide,Indium Oxide,In2O3,solid,industry,E8E070,Indium from zinc flue dust
+3,4,germanium_sulfide,Germanium Sulfide,GeS2,solid,industry,F4F0E8,Traces of germanium in zinc blende
+2,4,germanium_dioxide,Germanium Dioxide,GeO2,solid,industry,F4F4F4,Germanium from zinc flue dust
+3,4,thallium_sulfate,Thallium Sulfate,Tl2SO4,solid,industry,F4F4F4,Thallium in lead-chamber sludge; very poisonous
+2,4,rubidium_oxide,Rubidium Oxide,Rb2O,solid,industry,E8E0A0,The rubidium in lepidolite
+3,4,rubidium_chloride,Rubidium Chloride,RbCl,solid,industry,F4F4F4,Electrolysed for rubidium
+2,4,caesium_oxide,Caesium Oxide,Cs2O,solid,industry,F0C060,The caesium in pollucite
+3,4,caesium_chloride,Caesium Chloride,CsCl,solid,industry,F4F4F4,Electrolysed for caesium
+3,4,radium_sulfate,Radium Sulfate,RaSO4,solid,industry,F4F4EC,"Radium in pitchblende, carried with barium"
+3,4,radium_chloride,Radium Chloride,RaCl2,solid,industry,F0F4F0,Glows blue in the dark; Curie electrolysed it
+2,4,thorium_dioxide,Thorianite,ThO2,solid,industry,4A4A40,Thorium mineral in heavy mineral sand
+3,4,thorium_chloride,Thorium Chloride,ThCl4,solid,industry,F4F4F0,Reduced with potassium for thorium (Berzelius)
+3,5,monazite,Monazite,CePO4,solid,industry,C89060,Rare-earth phosphate in heavy mineral sand
+3,5,zircon,Zircon,ZrSiO4,solid,industry,C0A090,Zirconium silicate in heavy mineral sand
+3,6,ilmenite,Ilmenite,FeTiO3,solid,industry,2A2A2E,Iron titanate: the black grains of heavy mineral sand
+3,6,xenotime,Xenotime,YPO4,solid,industry,B07850,Yttrium phosphate in heavy mineral sand
+5,4,nitrocellulose,Nitrocellulose,C6H7N3O11,solid,industry,F4F2E8,Guncotton: smokeless powder and lacquer
+3,5,chromite,Chromite,FeCr2O4,solid,industry,2E2A30,The only chromium ore: black grains in serpentine
+3,5,sodium_chromate,Sodium Chromate,Na2CrO4,solid,industry,F2D21C,Yellow salt from chromite roasted with soda
+2,5,chromium_oxide,Chromium(III) Oxide,Cr2O3,solid,industry,4E8A3A,Chrome green pigment; burns with aluminium to chromium
+3,5,molybdenite,Molybdenite,MoS2,solid,industry,6E7480,Soft grey molybdenum sulfide; a dry lubricant
+3,5,rhenium_disulfide,Rhenium Disulfide,ReS2,solid,industry,3C3C44,Rhenium hidden in molybdenite
+2,5,molybdenum_trioxide,Molybdenum Trioxide,MoO3,solid,industry,E6EEDC,Roasted molybdenite; reduced by hydrogen
+2,5,rhenium_heptoxide,Rhenium Heptoxide,Re2O7,solid,industry,F2E68C,Volatile oxide caught in the roaster flue
+3,5,columbite,Columbite,FeNb2O6,solid,industry,32302E,Black niobium mineral of coltan
+3,5,tantalite,Tantalite,FeTa2O6,solid,industry,3A3230,Heavy black tantalum mineral of coltan
+2,5,niobium_pentoxide,Niobium Pentoxide,Nb2O5,solid,industry,F4F4EE,Niobium oxide parted from tantalum in HF
+2,5,tantalum_pentoxide,Tantalum Pentoxide,Ta2O5,solid,industry,F8F8F4,Tantalum oxide; lens glass and capacitors
+3,5,iron_fluoride,Iron(II) Fluoride,FeF2,solid,industry,D8E6D0,Waste of coltan digestion in hydrofluoric acid
+2,5,zirconium_dioxide,Zirconia,ZrO2,solid,industry,F0EEE8,Refractory oxide that stands 2700 °C
+2,5,hafnium_dioxide,Hafnia,HfO2,solid,industry,EEEEEA,Hafnium oxide that hid in zirconium for a century
+3,5,hafnium_tetrafluoride,Hafnium Tetrafluoride,HfF4,solid,industry,F4F6F8,Hafnium crystallized apart from zirconium
+3,5,sodium_silicate,Sodium Silicate,Na2SiO3,solid,industry,DCE0E4,Water glass: glue and fireproofing
+3,5,lanthanum_sulfate,Lanthanum Sulfate,La2(SO4)3,solid,industry,F2F0EC,Lanthanum salt from cracked monazite
+3,5,cerium_sulfate,Cerium(III) Sulfate,Ce2(SO4)3,solid,industry,F4F0E0,The largest part of cracked monazite
+3,5,praseodymium_sulfate,Praseodymium Sulfate,Pr2(SO4)3,solid,industry,C8E6B4,Green salt of didymium
+3,5,neodymium_sulfate,Neodymium Sulfate,Nd2(SO4)3,solid,industry,E6C8DC,Pink salt of didymium
+2,5,lanthanum_oxide,Lanthanum Oxide,La2O3,solid,industry,F6F6F2,Lanthana: camera lens glass
+2,5,cerium_dioxide,Ceria,CeO2,solid,industry,F2E6B8,Glass polish and gas-mantle glow
+2,5,praseodymium_oxide,Praseodymium Oxide,Pr6O11,solid,industry,3A2E28,Yellow glaze and didymium goggles
+2,5,neodymium_oxide,Neodymium Oxide,Nd2O3,solid,industry,C8B4D8,Violet glass; magnets later
+3,6,scandium_chloride,Scandium Chloride,ScCl3,solid,industry,F0F0EC,Scandium as it leaves the ion-exchange column
+2,6,scandium_oxide,Scandium Oxide,Sc2O3,solid,industry,F4F4F0,Scandium ignited from its oxalate
+3,6,yttrium_chloride,Yttrium Chloride,YCl3,solid,industry,F2F2EE,Yttrium as it leaves the ion-exchange column
+2,6,yttrium_oxide,Yttrium Oxide,Y2O3,solid,industry,F6F6F2,Yttrium ignited from its oxalate
+3,6,samarium_chloride,Samarium Chloride,SmCl3,solid,industry,F0E0C0,Samarium as it leaves the ion-exchange column
+2,6,samarium_oxide,Samarium Oxide,Sm2O3,solid,industry,F0E8C8,Samarium ignited from its oxalate
+3,6,europium_chloride,Europium Chloride,EuCl3,solid,industry,F0E8E8,Europium as it leaves the ion-exchange column
+2,6,europium_oxide,Europium Oxide,Eu2O3,solid,industry,F6F0F0,Europium ignited from its oxalate
+3,6,gadolinium_chloride,Gadolinium Chloride,GdCl3,solid,industry,EEEEEE,Gadolinium as it leaves the ion-exchange column
+2,6,gadolinium_oxide,Gadolinium Oxide,Gd2O3,solid,industry,F4F4F4,Gadolinium ignited from its oxalate
+3,6,terbium_chloride,Terbium Chloride,TbCl3,solid,industry,F0F0E8,Terbium as it leaves the ion-exchange column
+2,6,terbium_oxide,Terbium Oxide,Tb4O7,solid,industry,6A4A3A,Terbium ignited from its oxalate
+3,6,dysprosium_chloride,Dysprosium Chloride,DyCl3,solid,industry,ECECDC,Dysprosium as it leaves the ion-exchange column
+2,6,dysprosium_oxide,Dysprosium Oxide,Dy2O3,solid,industry,F0F0E0,Dysprosium ignited from its oxalate
+3,6,holmium_chloride,Holmium Chloride,HoCl3,solid,industry,F0D8C8,Holmium as it leaves the ion-exchange column
+2,6,holmium_oxide,Holmium Oxide,Ho2O3,solid,industry,F0E8D0,Holmium ignited from its oxalate
+3,6,erbium_chloride,Erbium Chloride,ErCl3,solid,industry,F0C8D0,Erbium as it leaves the ion-exchange column
+2,6,erbium_oxide,Erbium Oxide,Er2O3,solid,industry,F4D0D8,Erbium ignited from its oxalate
+3,6,thulium_chloride,Thulium Chloride,TmCl3,solid,industry,DCECD8,Thulium as it leaves the ion-exchange column
+2,6,thulium_oxide,Thulium Oxide,Tm2O3,solid,industry,E8F0E0,Thulium ignited from its oxalate
+3,6,ytterbium_chloride,Ytterbium Chloride,YbCl3,solid,industry,F0F0F0,Ytterbium as it leaves the ion-exchange column
+2,6,ytterbium_oxide,Ytterbium Oxide,Yb2O3,solid,industry,F6F6F6,Ytterbium ignited from its oxalate
+3,6,lutetium_chloride,Lutetium Chloride,LuCl3,solid,industry,EEEEEE,Lutetium as it leaves the ion-exchange column
+2,6,lutetium_oxide,Lutetium Oxide,Lu2O3,solid,industry,F6F6F6,Lutetium ignited from its oxalate
+1,6,titanium_tetrachloride,Titanium Tetrachloride,TiCl4,liquid,industry,F0F0E8,Fuming liquid: Kroll process feed, smoke screens
+3,6,iron_iii_chloride,Iron(III) Chloride,FeCl3,solid,industry,6A4A20,Etches copper; waste of ilmenite chlorination
+3,6,magnesium_fluoride,Magnesium Fluoride,MgF2,solid,industry,F6F6F8,Slag of the uranium bomb reduction; lens coating
+3,6,uranium_tetrafluoride,Uranium Tetrafluoride,UF4,solid,industry,6EA048,Green salt: the step from oxide to uranium metal
+3,6,uranium_hexafluoride,Uranium Hexafluoride,UF6,solid,industry,F0F0E4,Sublimes at 56 °C: the gas of uranium enrichment
+3,6,enriched_uranium_hexafluoride,Enriched Uranium Hexafluoride,UF6,solid,industry,F4F0D8,UF6 with 3.5% uranium-235: makes reactor fuel
+3,6,depleted_uranium_hexafluoride,Depleted Uranium Hexafluoride,UF6,solid,industry,E8E8E0,Tails with 0.25% uranium-235: dense metal for arrows
+3,6,enriched_uranium_dioxide,Enriched Uranium Dioxide,UO2,solid,industry,2E2E2A,Reactor fuel ceramic, pressed into pellets
+3,6,plutonium_dioxide,Plutonium Dioxide,PuO2,solid,industry,8A6A2A,Plutonium from spent fuel; reduce it with calcium
+3,6,neptunium_dioxide,Neptunium Dioxide,NpO2,solid,industry,6A7A4A,First transuranium element, from spent fuel
+3,6,americium_dioxide,Americium Dioxide,AmO2,solid,industry,5A4A3A,Ionises the air in smoke detectors
+3,6,curium_oxide,Curium Oxide,Cm2O3,solid,industry,F0F0E8,Glows from its own heat: radioisotope power
+3,6,promethium_oxide,Promethium Oxide,Pm2O3,solid,industry,F0D8E0,Glows in the dark: luminous paint, atomic batteries
+3,6,fission_products,Fission Products,Cs2O,solid,industry,4A4A3A,Caesium-137, strontium-90 and kin: years of heat
+3,7,calcium_48,Calcium-48,Ca,solid,industry,F0F0F0,Doubly magic isotope: the beam for elements 114 to 118
+3,7,boron_carbide,Boron Carbide,B4C,solid,industry,30343A,Third-hardest material: armour plates, control rods
+3,7,aramid,Aramid,C14H10N2O2,solid,industry,E8C840,Kevlar fibre, five times stronger than steel by weight
+3,7,lithium_cobalt_oxide,Lithium Cobalt Oxide,LiCoO2,solid,industry,2A3A5A,Cathode of the lithium-ion cell (Goodenough 1980)
+5,4,kerogen,Kerogen,C100H150NO5S,solid,industry,3A2A1A,Fossil organic matter in oil shale; retort it for oil
+5,4,crude_oil,Crude Oil,C15H30,liquid,industry,1E1A14,A mix of hydrocarbons: distil it into fractions
+4,4,naphtha,Naphtha,C7H16,liquid,industry,F4E8B0,Light fraction: solvent and reformer feed
+4,4,kerosene,Kerosene,C12H26,liquid,industry,E8DCA0,Lamp oil and jet fuel; burns in rockets with oxygen
+4,4,diesel,Diesel,C16H34,liquid,industry,D8B860,Gas oil: fuel for diesel engines; cracks to gasoline
+5,4,bitumen,Bitumen,C40H50,solid,industry,141210,Heaviest fraction: binds gravel into asphalt
+4,5,gasoline,Gasoline,C8H18,liquid,industry,F0D070,Cracked and reformed motor spirit; engine fuel
+4,6,xylene,p-Xylene,C8H10,liquid,industry,ECE8D8,From the reformer: oxidised to terephthalic acid
+6,5,polyvinyl_chloride,Polyvinyl Chloride,(C2H3Cl)n,solid,industry,E4E8EC,PVC: cable insulation and pipes
+6,6,nylon,Nylon,(C12H22N2O2)n,solid,industry,F4F0E8,Nylon 6-6 fibre: strong thread for parachutes
+5,6,terephthalic_acid,Terephthalic Acid,C8H6O4,solid,industry,F8F8F4,One half of aramid (and of PET bottles)
+4,7,nitrobenzene,Nitrobenzene,C6H5NO2,liquid,industry,F0E070,Benzene nitrated: the way to aromatic amines
+4,7,p_phenylenediamine,p-Phenylenediamine,C6H8N2,solid,industry,D8D0E0,The other half of aramid
+1,6,heavy_water,Heavy Water,D2O,liquid,industry,C8DCF0,Deuterium oxide: moderates a natural-uranium reactor
+5,1,tallow,Tallow,C57H110O6,solid,both,F2EBD3,Rendered animal fat: candles and soap
+5,1,vegetable_oil,Vegetable Oil,C57H104O6,liquid,both,E8D070,"Pressed from seeds: food, lamps and soap"
+6,1,protein,Protein,(C5H8NO2)n,solid,agriculture,D8B898,Flesh and hide: what the tanner and the farmer use
+5,1,tannin,Tannin,C76H52O46,solid,industry,A06A3A,The bark extract that turns hide into leather
+5,1,lactose,Lactose,C12H22O11,solid,agriculture,FAF6EC,Milk sugar
+4,1,soft_soap,Soft Soap,C18H35KO2,solid,both,D8C890,Potash soap: fat boiled with lye from wood ash
+4,2,hard_soap,Hard Soap,C18H35NaO2,solid,both,F4F0E0,Soda soap: firm bars that keep
+4,2,diethyl_ether,Diethyl Ether,C4H10O,liquid,industry,F0F4F8,Sweet oil of vitriol: solvent and anaesthetic
+3,2,aluminium_sulfate,Aluminium Sulfate,Al2(SO4)3,solid,industry,F4F4F0,Clay dissolved in oil of vitriol: makes alum
+3,2,potassium_alum,Potash Alum,KAl(SO4)2·12H2O,solid,industry,EEF0F4,Mordant for dyes and tawing for white leather
+2,3,ammonia_water,Ammonia Water,NH4OH,liquid,both,E0ECF0,Gas liquor from coke ovens: ammonia in water
+3,3,superphosphate,Superphosphate,Ca(H2PO4)2,solid,agriculture,E4DCC8,Bones and rock in acid: phosphate plants can take
+5,3,latex,Latex,(C5H8)n,liquid,industry,F8F6EE,Milky sap tapped from rubber trees in the jungle
+6,3,vulcanized_rubber,Vulcanized Rubber,C200H320S3,solid,industry,2E2A28,Rubber cured with sulfur: tough and springy
+5,3,coal_tar,Coal Tar,C10H8,liquid,industry,1A1612,"Black, from the coke oven: benzene, phenol and pitch"
+4,3,phenol,Phenol,C6H6O,solid,both,F4ECE0,Carbolic acid: Lister's antiseptic; dyes and drugs
+4,3,anthracene,Anthracene,C14H10,solid,industry,F0F0D0,From the heavy tar oil: the root of alizarin red
+5,3,pitch,Coal Tar Pitch,C40H30,solid,industry,100E0C,What the tar still leaves: binds gravel into tarmac
+4,4,aniline,Aniline,C6H7N,liquid,industry,F0E8C8,Reduced nitrobenzene: the first dyes and drugs
+5,4,fuchsine,Fuchsine,C20H20ClN3,solid,industry,C0207A,Magenta: the aniline dye of 1858
+5,4,alizarin,Alizarin,C14H8O4,solid,industry,D03020,Madder red made from coal tar (1869)
+4,4,picric_acid,Picric Acid,C6H3N3O7,solid,industry,F8E838,Yellow silk dye; Lyddite shell filling
+3,2,prussian_blue,Prussian Blue,Fe4(Fe(CN)6)3,solid,industry,1C3A80,The first synthetic pigment (Berlin 1706)
+4,4,nitroglycerin,Nitroglycerin,C3H5N3O9,liquid,industry,F4F0D8,Shock-sensitive oil: tamed as dynamite
+5,4,cordite,Cordite,C6H7N3O11,solid,industry,B08850,Nitroglycerin and guncotton cords: rifle powder
+4,4,salicylic_acid,Salicylic Acid,C7H6O3,solid,both,F8F8F4,From phenol and CO2 (Kolbe): the base of aspirin
+4,4,aspirin,Aspirin,C9H8O4,solid,both,FFFFFF,For pain and fever: eases nausea and fatigue
+5,4,pyrethrin,Pyrethrum,C21H28O3,solid,agriculture,E8D890,Ground daisy heads: an insect powder
+4,5,calcium_carbide,Calcium Carbide,CaC2,solid,industry,8A8F96,Grey lumps: water on them gives acetylene
+4,5,calcium_cyanamide,Nitrolime,CaCN2,solid,agriculture,3A3A40,Calcium cyanamide: fertilizer made from air
+4,3,toluene,Toluene,C7H8,liquid,industry,EEE8D0,From the light tar oil: nitrated to TNT
+5,5,trinitrotoluene,TNT,C7H5N3O6,solid,industry,F0D060,"Trinitrotoluene: a safe, meltable high explosive"
+6,5,bakelite,Bakelite,(C7H6O2)n,solid,industry,5A3018,The first fully synthetic plastic (1907)
+4,5,butanol,Butanol,C4H10O,liquid,industry,F0F4F0,From Weizmann's fermentation: a motor fuel
+4,5,butadiene,Butadiene,C4H6,gas,industry,F0F0E8,Monomer for synthetic rubber
+6,5,buna_rubber,Buna Rubber,(C4H6)3(C8H8),solid,industry,302C2A,Synthetic rubber from butadiene and styrene
+6,5,neoprene,Neoprene,(C4H5Cl)n,solid,industry,1E1E22,Oil-proof synthetic rubber: wetsuits
+4,5,sulfanilamide,Sulfanilamide,C6H8N2O2S,solid,both,FAFAF4,The first sulfa drug: cures Infection and sepsis
+4,5,biodiesel,Biodiesel,C19H36O2,liquid,industry,E0C060,Methyl esters of plant oil: diesel from farms
+5,6,penicillin,Penicillin,C16H18N2O4S,solid,both,F8F4E0,The first antibiotic: cures and prevents Infection
+5,6,streptomycin,Streptomycin,C21H39N7O12,solid,both,F4F4F8,An antibiotic from soil bacteria: cures and guards
+5,6,ddt,DDT,C14H9Cl5,solid,agriculture,F0F0EC,A lasting insecticide; thins eggshells
+5,6,two_four_d,"2,4-D",C8H6Cl2O3,solid,agriculture,ECE8DC,A weed killer that spares grass and grain
+4,6,hexamine,Hexamine,C6H12N4,solid,industry,FAFAFA,Formaldehyde and ammonia: camping fuel and RDX feed
+5,6,rdx,RDX,C3H6N6O6,solid,industry,F2F0EA,The high explosive of plastic charges
+3,6,potassium_iodide,Potassium Iodide,KI,solid,both,FCFCFC,Iodide tablets keep radioiodine out of the thyroid
+6,7,polylactic_acid,PLA,(C3H4O2)n,solid,industry,F4F0E0,Plastic from sugar that composts away
+5,7,amifostine,Amifostine,C5H15N2O3PS,solid,both,F8F8FF,A radioprotector: halves the harm of radiation
+1,4,compressed_air,Compressed Air,(N2)4O2,gas,industry,DCE6F0,Drives the Pneumatic Rock Drill
+5,1,pine_resin,Pine Resin,C20H30O2·C10H16,liquid,industry,C89A3A,Tapped from pines: distils to turpentine and rosin
+4,2,turpentine,Turpentine,C10H16,liquid,industry,F0E8C0,Spirit of turpentine: thins paint and varnish
+5,2,rosin,Rosin,C20H30O2,solid,industry,B8761E,"Bow rosin, soldering flux and paper size"
+5,1,copaiba_balsam,Copaiba Balsam,C15H24,liquid,both,D8A840,Oil-resin of copaiba: varnish and folk medicine
+6,1,palm_sap,Palm Sap,C12H22O11·40H2O,liquid,agriculture,EEE6C8,Nipa palm sap: boil for sugar or ferment into wine
+6,1,chicle,Chicle,(C5H8)n,solid,industry,D8C8A8,Sapodilla gum: the first chewing gum
+5,1,dammar,Dammar,C30H52O2,solid,industry,F0E0A0,Clear resin of the sal tree: varnish and torches
+5,1,copal,Copal,C20H32O2,solid,industry,E8B850,Hard tree resin: incense and varnish
+6,1,gum_arabic,Gum Arabic,(C12H20O10)n,solid,both,E8D8A0,"Acacia gum: binds ink and paint, thickens food"
+5,1,frankincense,Frankincense,C30H48O3,solid,both,E8D088,Fragrant resin burned as incense since antiquity
+5,1,myrrh,Myrrh,C15H20O,solid,both,A85A28,"Bitter scented gum resin: incense, perfume, embalming"
+5,1,dragons_blood,Dragon's Blood,C17H14O3,solid,industry,8A1A1A,Red resin of the dragon tree: pigment and varnish
+5,3,quinine,Quinine,C20H24N2O2,solid,both,F4F2EA,Bitter cinchona alkaloid: the first malaria cure
+4,2,cinnamaldehyde,Cinnamaldehyde,C9H8O,liquid,both,E8B060,Oil of cinnamon: the taste of the spice
+4,2,camphor,Camphor,C10H16O,solid,industry,F4F4F0,"From camphor wood: mothballs, and celluloid"
+4,2,eucalyptol,Eucalyptol,C10H18O,liquid,both,E0F0E0,Oil of eucalyptus: cough drops and antiseptics
+5,2,santalol,Santalol,C15H24O,liquid,both,F0E0B0,Oil of sandalwood: one of the oldest perfumes
+5,2,brazilin,Brazilin,C16H14O5,solid,industry,B02A20,"Red dye of brazilwood, the tree that named Brazil"
+6,1,maple_sap,Maple Sap,C12H22O11·650H2O,liquid,agriculture,F0ECE0,Sugar maple sap: boil it down for maple sugar
+5,3,salicin,Salicin,C13H18O7,solid,both,F4F0E8,Willow bark glucoside: the herbal forerunner of aspirin
+5,2,suberin,Suberin,(C22H42O4)n,solid,industry,B08050,Waxy polyester of cork: keeps out water and heat
+6,2,urushi,Urushi Lacquer,C21H32O2·H2O,liquid,industry,4A2A1A,Lacquer tree sap: a hard glossy varnish once dry
+5,2,urushiol,Urushiol,C21H32O2,liquid,industry,6A4A2A,The oil in lacquer that hardens; it blisters skin
+5,7,taxol,Taxol,C47H51NO14,solid,both,F8F8F0,Yew alkaloid that stops cancer cells dividing
+5,2,cedrol,Cedrol,C15H26O,solid,both,E8E0C8,Cedarwood oil: perfume and moth repellent
+6,2,canada_balsam,Canada Balsam,C20H30O2·C10H16,liquid,industry,F0E0A0,Balsam fir resin: the clear cement of lens makers
+5,3,citric_acid,Citric Acid,C6H8O7,solid,both,F8F8F4,"Sour acid of lemons: food, cleaning and dyeing"
+5,1,jojoba_wax,Jojoba Wax,C42H82O2,liquid,both,E8D88A,"Liquid wax of jojoba seeds: cosmetics and lubricants"
+5,1,vegetable_wax,Vegetable Wax,C31H64,solid,both,E8E0B0,"Hard plant wax for candles, polish and glazes"
+5,2,bixin,Bixin,C25H30O4,solid,both,D8501A,"Orange-red annatto pigment that colours cheese"
+5,2,lawsone,Lawsone,C10H6O3,solid,both,B05A20,"Henna's red-brown dye, which binds to skin and hair"
+5,2,linalool,Linalool,C10H18O,liquid,both,F4F4E8,"Flowery scent of jasmine and lavender, in perfumes"
+5,4,caffeine,Caffeine,C8H10N4O2,solid,both,F8F8F8,"Bitter alkaloid of tea and guarana: keeps you awake"
+5,4,capsaicin,Capsaicin,C18H27NO3,solid,both,F4F0E0,"The burn of chili peppers: pepper spray"
+5,4,emetine,Emetine,C29H40N2O4,solid,both,F0EEE0,"Ipecac alkaloid: makes you vomit, and kills amoebae"
+5,4,pilocarpine,Pilocarpine,C11H16N2O2,solid,both,F4F4EC,"Jaborandi alkaloid: eye drops for glaucoma"
+5,6,ndga,Nordihydroguaiaretic Acid,C18H22O4,solid,both,E8E0C8,"Creosote bush antioxidant once added to lard"
+5,2,geraniol,Geraniol,C10H18O,liquid,both,F4F0E0,"Scent of rose oil: perfumes and insect repellents"
+5,5,arbutin,Arbutin,C12H16O7,solid,both,F4F4F0,"Bearberry glucoside: bladder antiseptic, skin lightener"
+5,5,vitamin_c,Vitamin C,C6H8O6,solid,both,F8F4E0,"Ascorbic acid: cures scurvy, keeps food from browning"
+4,1,indigo,Indigo,C16H10N2O2,solid,both,2A2A90,"The blue of jeans, from fermented indigo leaves"
+4,1,nicotine,Nicotine,C10H14N2,liquid,both,C0A060,"The poison of tobacco: an old insecticide"
+4,2,carminic_acid,Carminic Acid,C22H20O13,solid,both,B0102A,The crimson of the cochineal insect
+6,3,shellac,Shellac,C16H32O5,solid,industry,C88A2A,Lac insect resin: varnish and insulation
+6,1,fibroin,Silk Fibroin,(C15H23N5O6)n,solid,both,F4F0E4,The protein of silk thread
+5,5,hirudin,Hirudin,C287H440N80O110S6,solid,both,C8A090,Leech saliva that keeps blood from clotting
+5,7,exenatide,Exenatide,C184H282N50O60S,solid,both,E0E8E8,Gila monster peptide that treats diabetes
+5,2,casein,Casein,(C81H125N22O39P)n,solid,both,F4F0E0,"Milk protein: glue, paint and galalith"
+5,1,gelatin,Gelatin,(C102H151N31O39)n,solid,both,E8D8A8,"Boiled collagen: glue, jelly and isinglass"
+4,3,uric_acid,Uric Acid,C5H4N4O3,solid,agriculture,F4F0E0,"The nitrogen of bird droppings; guano's fertilizer"
+5,1,marine_oil,Marine Oil,C57H98O6,liquid,both,E8C860,"Whale, seal and fish oil: lamps and soap"
+5,4,squalene,Squalene,C30H50,liquid,both,F0F0D0,Shark liver oil: cosmetics and vaccines
+5,5,cholecalciferol,Vitamin D3,C27H44O,solid,both,F8F0C0,Vitamin D3: strong bones; cures rickets
+4,1,dibromoindigo,Tyrian Purple,C16H8Br2N2O2,solid,both,66023C,The purple of emperors from murex snails
+5,6,chitin,Chitin,(C8H13NO5)n,solid,both,E8DCC0,Shell of crabs and insects
+5,6,chitosan,Chitosan,(C6H11NO4)n,solid,both,F0E8D0,"Deacetylated chitin: wound dressings, water filters"
+5,7,hemocyanin,Hemocyanin,C2200H3400N600O700Cu2,solid,both,4060C0,Copper protein that makes crab blood blue
+5,7,limulus_lysate,Limulus Lysate,C1000H1500N280O320S10,solid,both,D8E0F0,Clots at a trace of endotoxin: the LAL test
+5,7,gfp,Green Fluorescent Protein,C1190H1863N323O365S8,solid,both,60F080,Glows green under blue light: a living marker
+5,4,melanin,Melanin,(C18H10N2O4)n,solid,both,3A2818,"Dark pigment of skin, hair and sepia ink"
+5,3,cetyl_palmitate,Spermaceti Wax,C32H64O2,solid,both,F8F4E8,Whale wax: the finest candles
+5,3,ambrein,Ambrein,C30H52O,solid,both,C8B890,Fixes the scent in fine perfume

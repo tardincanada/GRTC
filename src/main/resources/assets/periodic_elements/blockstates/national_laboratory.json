@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "periodic_elements:block/national_laboratory"
+    },
+    "facing=east": {
+      "model": "periodic_elements:block/national_laboratory",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "periodic_elements:block/national_laboratory",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "periodic_elements:block/national_laboratory",
+      "y": 270
+    }
+  }
+}

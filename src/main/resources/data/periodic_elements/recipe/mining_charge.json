@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:dynamite"
+    },
+    {
+      "item": "periodic_elements:dynamite"
+    },
+    {
+      "item": "periodic_elements:dynamite"
+    },
+    {
+      "item": "periodic_elements:dynamite"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:mining_charge",
+    "count": 1
+  }
+}

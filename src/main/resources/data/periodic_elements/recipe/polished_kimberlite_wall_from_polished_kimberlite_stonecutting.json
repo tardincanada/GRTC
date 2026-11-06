@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "periodic_elements:polished_kimberlite"
+  },
+  "result": {
+    "id": "periodic_elements:polished_kimberlite_wall",
+    "count": 1
+  }
+}

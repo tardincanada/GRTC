@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TCT",
+    "WIW",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:curium_oxide"
+    },
+    "W": {
+      "item": "periodic_elements:silicon_wafer"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:element_analyzer",
+    "count": 1
+  }
+}

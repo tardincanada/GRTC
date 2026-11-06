@@ -1,0 +1,31 @@
+# Vilda djur
+Varje biom har två till fyra egna djur, som bara dyker upp där. De flesta flyr från dig; stora slår tillbaka om de träffas. Bara den Gula ökenskorpionen jagar dig, på natten, och den Gyllene pilgiftsgrodan förgiftar den bara hand som rör vid den.
+# Avel
+Ge två djur av samma art den mat de gillar för att de ska föröka sig. Långt från sitt klimat förökar de sig tre gånger långsammare; ett växthus som värms eller kyls till deras klimat låter dem föröka sig som vanligt.
+# Vad djuren ger
+Djur i en hage (ett staket inom 4 block) lämnar Gödsel då och då: använd det på en växt som benmjöl, eller bränn det. Gnid pilar mot en Gyllene pilgiftsgroda för att förgifta upp till 8. En glasflaska på en Gul ökenskorpion eller en Gilaödla tappar giftet, en gång var femte minut. Strutsar lägger ägg stora som fyra hönsägg.
+# Små djur
+Insekter och maskar är föremål och block. När du gräver jord eller gräs dyker ibland en Daggmask upp, och när du klipper löv av vitt mullbärsträd en Silkesmask. I träskvatten kan en Medicinsk blodigel suga sig fast och sakta tappa dig på blod: salt tar bort den och ger dig blodigeln.
+En Masklåda (plankor runt jord) tar en daggmask; mata den med löv, växter, frön eller gödsel så ger den Humus, ett gödningsmedel.
+Silkesodling (nivå 1): Silkesodlingsbrickan tar silkesmaskar; mata den med löv av vitt mullbärsträd så ger den Silkeskokonger, som smälts till Silkestråd i ugnen.
+Koschenill växer på kaktusar i öknar och badlands, och Lacksköldlusen på djungelstockar; kolonier dyker upp nära dig och sprider sig. Använd en mogen koloni för att skrapa av den; använd det du skrapat på en annan kaktus eller djungelstock för att starta en koloni.
+Karmin (nivå 2): koschenill i Färgkaret ger karminsyra, ett rött färgämne.
+Schellack (nivå 3): stocklack i Tvålkitteln ger schellack.
+Motgift (nivå 4): skorpiongift, salt och en glasflaska ger Antiserum; drick det för att bota förgiftning.
+Hirudin (nivå 5): blodiglar i Uppslutningskaret ger hirudin. Exenatid (nivå 7): gift från Gilaödlan i Bioreaktorn ger exenatid.
+# Skogar, fält och floder
+Fasaner och gräsänder lägger ägg då och då, och gräsanden lämnar ibland Anddun. En kronhjort fäller ett Horn varannan dag eller så; malt ger det benmjöl. Vildsvin tappar borst, som med en pinne och ett kopparstycke blir en pensel. Störar ger kaviar och husbloss.
+Igelkotten håller skadedjur borta från grödor inom 4 block. Den europeiska bävern äter pilbark och bygger dammar av pinnar och lera i grunt vatten nära sig. Perusulor lämnar guano på stranden, upp till ett halvt block djupt.
+Guano (nivå 3): guano i Uppslutningskaret ger salpeter.
+Galalit (nivå 5): mjölkens kasein i Uppslutningskaret, med formaldehyd i reagensplatsen, ger galalit.
+# Kalla skogar och berg
+Renar och jakar ger mjölk i en hink, och saxen tar ull från jaken eller alpackan; fyra blir ett ullblock. Renar fäller sina horn som kronhjorten. Renlav växer nära dig i snöiga trakter; renarna äter den.
+Brunbjörnar plundrar fulla bikupor och bibon bredvid sig. Lodjuret jagar kaniner. Hermelinen blir vit där det är kallt.
+# Hav och kuster
+Vikare och valrossar ger späck, valrossar även elfenben; smält späcket till lampolja. Sill, sepiabläckfisk och kristallmanet går i en hink; maneten lyser och bränns. Sepiabläckfisken ger sepiabläck (brunt färgämne) och skulpben. Håkäringens kött är giftigt rått: koka eller röka det till hákarl. En glasflaska på en dolksvans tappar dess blå blod, och den lever vidare. Strandkrabbor tappar krabbskal.
+Pärlostron växer på sand under varma hav nära dig; bryt ett för ostronskal och ibland en pärla. Kaskeloten kan inte jagas. Ambra ur dess tarm flyter i land på stränder ibland, och mycket sällan strandar en kaskelot och dör där; den lämnar spermaceti och späck. Spermaceti och snöre blir ett ljus.
+Tyrisk purpur (nivå 2): purpursnäckor i Färgkaret ger lila färgämne.
+Vitamin D (nivå 5): hajlever i Uppslutningskaret ger vitamin D3. Kitosan (nivå 6): krabbskal i Uppslutningskaret ger kitosan.
+LAL-test (nivå 7): dolksvansblod i Uppslutningskaret ger Limuluslysat. GFP (nivå 7): kristallmanetvävnad i Bioreaktorn ger grönt fluorescerande protein.
+# Djurkompendium
+En bok och en fjäder ger Djurkompendiet. I snabbfältet namnger det djuren du känner. Titta på ett djur en sekund inom 16 block, fånga det i en fälla eller plocka upp ett litet för att anteckna det; använd boken för att läsa om dem, biom för biom. Systema Naturae (nivå 3) lägger till de vetenskapliga namnen, Om arternas uppkomst (nivå 4) varje djurs evolution och Rödlistan (nivå 6) dess status.

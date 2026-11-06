@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IPI",
+    "F F",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "F": {
+      "item": "periodic_elements:fluid_pipe"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fluid_pump",
+    "count": 1
+  }
+}

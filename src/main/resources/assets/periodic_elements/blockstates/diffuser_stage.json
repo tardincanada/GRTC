@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/diffuser_stage"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/diffuser_stage_active"
+    }
+  }
+}

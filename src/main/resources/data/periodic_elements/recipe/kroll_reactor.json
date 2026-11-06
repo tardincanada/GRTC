@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SAS",
+    "S S",
+    "SFS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "A": {
+      "item": "periodic_elements:argon"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:kroll_reactor",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/fermentation_barrel_top",
+    "front": "periodic_elements:block/fermentation_barrel_front",
+    "side": "periodic_elements:block/fermentation_barrel_side"
+  }
+}

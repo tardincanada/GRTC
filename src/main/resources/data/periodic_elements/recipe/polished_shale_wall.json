@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "periodic_elements:polished_shale"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:polished_shale_wall",
+    "count": 6
+  }
+}

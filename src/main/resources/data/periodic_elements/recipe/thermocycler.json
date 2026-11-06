@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "KCK",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:thermocycler",
+    "count": 1
+  }
+}

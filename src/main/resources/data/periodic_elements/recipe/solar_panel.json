@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "GCG",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:silicon_wafer"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "S": {
+      "item": "periodic_elements:aluminium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:solar_panel",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NWN",
+    "NSN",
+    "NWN"
+  ],
+  "key": {
+    "N": {
+      "item": "periodic_elements:nickel"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:enrichment_cascade",
+    "count": 1
+  }
+}

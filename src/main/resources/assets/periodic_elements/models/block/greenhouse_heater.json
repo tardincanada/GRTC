@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/greenhouse_heater_top",
+    "front": "periodic_elements:block/greenhouse_heater_front",
+    "side": "periodic_elements:block/greenhouse_heater_side"
+  }
+}

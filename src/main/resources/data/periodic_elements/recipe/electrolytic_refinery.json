@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WLW",
+    "L L",
+    "LLL"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "L": {
+      "item": "periodic_elements:lead"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:electrolytic_refinery",
+    "count": 1
+  }
+}

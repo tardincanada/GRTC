@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:broom_twigs"
+    },
+    {
+      "item": "periodic_elements:broom_twigs"
+    },
+    {
+      "item": "periodic_elements:broom_twigs"
+    }
+  ],
+  "result": {
+    "id": "minecraft:string",
+    "count": 1
+  }
+}

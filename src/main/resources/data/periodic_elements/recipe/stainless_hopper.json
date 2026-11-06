@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "S S",
+    "SHS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "H": {
+      "item": "periodic_elements:steel_hopper"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:stainless_hopper",
+    "count": 1
+  }
+}

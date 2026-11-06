@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/oil_press_top",
+    "front": "periodic_elements:block/oil_press_front",
+    "side": "periodic_elements:block/oil_press_side"
+  }
+}

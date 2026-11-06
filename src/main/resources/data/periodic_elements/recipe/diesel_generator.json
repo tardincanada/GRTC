@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "WDW",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "D": {
+      "item": "periodic_elements:dynamo"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:diesel_generator",
+    "count": 1
+  }
+}

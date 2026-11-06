@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:polished_shale_stairs",
+    "periodic_elements:polished_gneiss_stairs",
+    "periodic_elements:polished_peridotite_stairs",
+    "periodic_elements:polished_kimberlite_stairs",
+    "periodic_elements:polished_laterite_stairs"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "periodic_elements:block/siberian_dwarf_pine_leaves"
+  }
+}

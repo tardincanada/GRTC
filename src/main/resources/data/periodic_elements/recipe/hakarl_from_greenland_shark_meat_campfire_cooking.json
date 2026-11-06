@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:greenland_shark_meat"
+  },
+  "result": {
+    "id": "periodic_elements:hakarl",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

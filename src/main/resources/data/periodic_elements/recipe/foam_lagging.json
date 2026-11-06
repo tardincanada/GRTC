@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:polystyrene"
+    },
+    "C": {
+      "item": "periodic_elements:methane"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:foam_lagging",
+    "count": 1
+  }
+}

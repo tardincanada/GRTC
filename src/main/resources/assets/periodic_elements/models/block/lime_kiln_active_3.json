@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/lime_kiln_top_active_3",
+    "front": "periodic_elements:block/lime_kiln_front_active_3",
+    "side": "periodic_elements:block/lime_kiln_side"
+  }
+}

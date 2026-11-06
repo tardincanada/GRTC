@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "periodic_elements:block/coffee_crop_stage2"
+  }
+}

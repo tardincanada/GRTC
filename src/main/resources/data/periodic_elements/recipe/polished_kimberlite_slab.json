@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "periodic_elements:polished_kimberlite"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:polished_kimberlite_slab",
+    "count": 6
+  }
+}

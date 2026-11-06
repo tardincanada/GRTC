@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:copper"
+    }
+  ],
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 1
+  }
+}

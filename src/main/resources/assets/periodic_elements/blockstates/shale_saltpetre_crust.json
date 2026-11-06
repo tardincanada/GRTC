@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/shale_saltpetre_crust"
+      },
+      {
+        "model": "periodic_elements:block/shale_saltpetre_crust",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/shale_saltpetre_crust",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/shale_saltpetre_crust",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "periodic_elements:item/plutonium_238_pellet"
+  }
+}

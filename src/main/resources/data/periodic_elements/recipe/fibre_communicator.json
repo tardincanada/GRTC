@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FGF",
+    "FIF",
+    "FLF"
+  ],
+  "key": {
+    "F": {
+      "item": "periodic_elements:optical_fibre"
+    },
+    "G": {
+      "item": "periodic_elements:gallium_arsenide_wafer"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "L": {
+      "item": "periodic_elements:lithium_cobalt_oxide"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fibre_communicator",
+    "count": 1
+  }
+}

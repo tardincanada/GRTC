@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:rhododendron_flowers"
+    }
+  ],
+  "result": {
+    "id": "minecraft:magenta_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:mock_orange_bush",
+    "periodic_elements:buttonbush_bush",
+    "periodic_elements:rosemary_bush",
+    "periodic_elements:lavender_bush",
+    "periodic_elements:heather_bush"
+  ]
+}

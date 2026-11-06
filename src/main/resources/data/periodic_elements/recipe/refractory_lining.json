@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BLB",
+    "LBL",
+    "BLB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "L": {
+      "item": "periodic_elements:calcium_oxide"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:refractory_lining",
+    "count": 1
+  }
+}

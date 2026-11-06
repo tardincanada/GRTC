@@ -1,0 +1,550 @@
+{
+ "air_compressor": {
+  "air_compression": 0
+ },
+ "air_liquefier": {
+  "argon_fraction": 2,
+  "helium_fraction": 6,
+  "krypton_fraction": 4,
+  "neon_fraction": 3,
+  "nitrogen_fraction": 0,
+  "oxygen_fraction": 1,
+  "xenon_fraction": 5
+ },
+ "alembic": {
+  "aqua_fortis": 2,
+  "bromine_liberation": 5,
+  "camphor_distillation": 9,
+  "cedrol_distillation": 11,
+  "cinnamon_oil": 8,
+  "ether_distillation": 5,
+  "eucalyptol_distillation": 10,
+  "geraniol_distillation": 11,
+  "gold_dissolution": 4,
+  "iodine_from_kelp": 6,
+  "lignin_distillation": 0,
+  "linalool_distillation": 9,
+  "oil_of_vitriol": 1,
+  "platinum_dissolution": 7,
+  "resin_distillation": 2,
+  "santalol_distillation": 11,
+  "shale_retorting": 0,
+  "spirit_of_salt": 3,
+  "wood_distillation": 0
+ },
+ "amalgamation_pan": {
+  "gold_amalgamation": 0,
+  "silver_amalgamation": 1
+ },
+ "autoclave": {
+  "alizarin_fusion": 0,
+  "bakelite_making": 2,
+  "kolbe_schmitt": 1
+ },
+ "bayer_digester": {
+  "gallium_liquor": 1,
+  "gibbsite_digestion": 0
+ },
+ "bessemer_converter": {
+  "bessemer_decarburization": 0,
+  "bessemer_steel": 2,
+  "manganese_steel": 1
+ },
+ "bioreactor": {
+  "amifostine_making": 2,
+  "cellulose_fermentation": 0,
+  "exenatide_making": 3,
+  "gfp_making": 4,
+  "pla_making": 0,
+  "vaccine_making": 1
+ },
+ "bloomery": {
+  "iron_oxide_reduction": 1,
+  "magnetite_reduction": 1,
+  "pyrite_roasting": 0
+ },
+ "calutron": {
+  "boron_10_separation": 3,
+  "calcium_48_separation": 0,
+  "lithium_6_separation": 2,
+  "uranium_235_separation": 1
+ },
+ "cementation_furnace": {
+  "iron_cementation": 0
+ },
+ "charcoal_blast_furnace": {
+  "cast_iron": 1,
+  "cast_iron_magnetite": 1,
+  "pyrite_roasting": 0,
+  "pyrolusite_reduction": 2
+ },
+ "charcoal_pit": {
+  "cellulose_carbonization": 0,
+  "lignin_carbonization": 0
+ },
+ "chip_fab": {
+  "integrated_circuit": 0
+ },
+ "chlor_alkali_cell": {
+  "brine_electrolysis": 0
+ },
+ "chlorinator": {
+  "fuel_conversion": 2,
+  "ilmenite_chlorination": 0,
+  "rutile_chlorination": 0,
+  "uranium_hexafluoride_synthesis": 0,
+  "uranium_hydrofluorination": 1
+ },
+ "coke_oven": {
+  "ammonia_liquor": 3,
+  "coal_coking": 0,
+  "coal_degassing_hydrogen": 2,
+  "coal_degassing_nitrogen": 3,
+  "coal_degassing_oxygen": 2,
+  "coal_degassing_sulfur": 4,
+  "coal_tar_condensing": 1
+ },
+ "contact_converter": {
+  "contact_acid": 0
+ },
+ "cracking_unit": {
+  "diesel_cracking": 0,
+  "lebedev_butadiene": 1,
+  "naphtha_reforming": 0,
+  "styrene_making": 2
+ },
+ "crucible": {
+  "aluminium_vanadium_alloy": 4,
+  "beryllium_copper": 3,
+  "brass_alloying": 1,
+  "bronze_alloying": 0,
+  "type_metal_alloying": 2
+ },
+ "crystal_puller": {
+  "gallium_arsenide": 1,
+  "silicon_crystal": 0
+ },
+ "crystallizer": {
+  "actinium_separation": 12,
+  "alum_crystallization": 15,
+  "clay_sulfation": 13,
+  "columbite_digestion": 13,
+  "francium_precipitation": 12,
+  "iodide_making": 1,
+  "polonium_separation": 11,
+  "protactinium_separation": 14,
+  "radium_conversion": 10,
+  "saltpeter_leaching": 0,
+  "slime_gold": 2,
+  "slime_iridium": 9,
+  "slime_osmium": 8,
+  "slime_palladium": 6,
+  "slime_platinum": 5,
+  "slime_rhodium": 6,
+  "slime_ruthenium": 7,
+  "slime_selenium": 3,
+  "slime_silver": 1,
+  "slime_tellurium": 4,
+  "tantalite_digestion": 13
+ },
+ "cupel": {
+  "cupellation": 2,
+  "galena_roasting": 1,
+  "gold_melting": 0
+ },
+ "cyclotron": {
+  "astatine_synthesis": 0,
+  "berkelium_synthesis": 1,
+  "californium_synthesis": 2,
+  "cobalt_60_activation": 4,
+  "mendelevium_synthesis": 3
+ },
+ "deep_tank_fermenter": {
+  "penicillin_fermentation": 0,
+  "streptomycin_fermentation": 1
+ },
+ "desalination_still": {
+  "desalination": 0,
+  "still_salt": 1
+ },
+ "diamond_press": {
+  "diamond_synthesis": 0
+ },
+ "digestion_vat": {
+  "acetylene_generation": 0,
+  "aniline_reduction": 0,
+  "arbutin_extraction": 0,
+  "aspirin_making": 5,
+  "benzene_nitration": 3,
+  "borax_leaching": 0,
+  "buna_polymerization": 10,
+  "caesium_leaching": 5,
+  "caffeine_extraction": 5,
+  "capsaicin_extraction": 0,
+  "cellulose_nitration": 6,
+  "chitosan_making": 0,
+  "citric_acid_crystallizing": 0,
+  "copper_vitriol": 9,
+  "cordite_making": 8,
+  "cryolite_washing": 2,
+  "ddt_making": 0,
+  "emetine_extraction": 0,
+  "fluorite_digestion": 0,
+  "galalith_making": 0,
+  "guano_saltpetre": 0,
+  "hexamine_making": 5,
+  "hirudin_extraction": 11,
+  "lal_extraction": 2,
+  "monazite_cracking": 0,
+  "ndga_extraction": 0,
+  "nitroglycerin_making": 0,
+  "picric_acid_making": 7,
+  "pilocarpine_extraction": 0,
+  "quinine_extraction": 0,
+  "rdx_making": 0,
+  "rubidium_leaching": 5,
+  "salicin_extraction": 0,
+  "salicin_oxidation": 0,
+  "spodumene_leaching": 1,
+  "starch_hydrolysis": 0,
+  "sulfanilamide_making": 0,
+  "superphosphate_making": 0,
+  "taxol_extraction": 0,
+  "thorianite_chlorination": 0,
+  "tnt_making": 3,
+  "tungstate_precipitation": 3,
+  "two_four_d_making": 0,
+  "vanadate_precipitation": 4,
+  "vitamin_c_extraction": 0,
+  "vitamin_d_extraction": 0,
+  "xenotime_leaching": 0
+ },
+ "dye_vat": {
+  "bixin_dyeing": 5,
+  "blue_dyeing": 0,
+  "brazilin_dyeing": 4,
+  "carmine_dyeing": 8,
+  "fuchsine_making": 1,
+  "indigo_dyeing": 7,
+  "lawsone_dyeing": 6,
+  "madder_dyeing": 2,
+  "magenta_dyeing": 1,
+  "prussiate_making": 0,
+  "red_dyeing": 2,
+  "tyrian_purple_dyeing": 9,
+  "yellow_dyeing": 3
+ },
+ "electric_arc_furnace": {
+  "boron_carbide": 9,
+  "carbide_smelting": 1,
+  "chromite_smelting": 1,
+  "high_speed_steel": 3,
+  "iron_boron_alloy": 8,
+  "niobium_reduction": 5,
+  "niobium_titanium": 6,
+  "optical_fibre": 0,
+  "silica_reduction": 0,
+  "stainless_steel": 2,
+  "tantalum_reduction": 4,
+  "titanium_alloy": 6,
+  "zircaloy": 7
+ },
+ "electrolysis_cell": {
+  "baryta_electrolysis": 5,
+  "caesium_electrolysis": 9,
+  "gallium_electrolysis": 10,
+  "indium_electrolysis": 11,
+  "lime_electrolysis": 4,
+  "lithium_electrolysis": 7,
+  "magnesium_electrolysis": 3,
+  "radium_electrolysis": 13,
+  "rubidium_electrolysis": 8,
+  "salt_electrolysis": 0,
+  "strontia_electrolysis": 6,
+  "sylvite_electrolysis": 1,
+  "thallium_electrolysis": 12,
+  "water_electrolysis": 2
+ },
+ "electrolytic_refinery": {
+  "copper_refining": 0
+ },
+ "enrichment_cascade": {
+  "heavy_water_enrichment": 1,
+  "uranium_enrichment": 0
+ },
+ "fermentation_barrel": {
+  "abe_fermentation": 1,
+  "glucose_fermentation": 0,
+  "starch_mashing": 2,
+  "sugar_fermentation": 0
+ },
+ "flotation_cell": {
+  "molybdenite_flotation": 0,
+  "rhenium_flotation": 0
+ },
+ "fractional_crystallizer": {
+  "cerium_separation": 1,
+  "hafnium_separation": 0,
+  "lanthanum_separation": 2,
+  "neodymium_separation": 4,
+  "praseodymium_separation": 3
+ },
+ "glass_furnace": {
+  "forest_glass": 1,
+  "limestone_calcination": 0
+ },
+ "hall_heroult_cell": {
+  "alumina_electrolysis": 0
+ },
+ "heavy_ion_accelerator": {
+  "bohrium_synthesis": 2,
+  "copernicium_synthesis": 3,
+  "darmstadtium_synthesis": 3,
+  "dubnium_synthesis": 1,
+  "flerovium_synthesis": 4,
+  "hassium_synthesis": 3,
+  "lawrencium_synthesis": 1,
+  "livermorium_synthesis": 0,
+  "meitnerium_synthesis": 2,
+  "moscovium_synthesis": 5,
+  "nihonium_synthesis": 2,
+  "nobelium_synthesis": 0,
+  "oganesson_synthesis": 1,
+  "roentgenium_synthesis": 2,
+  "rutherfordium_synthesis": 1,
+  "seaborgium_synthesis": 1,
+  "tennessine_synthesis": 6
+ },
+ "high_pressure_reactor": {
+  "ammonia_synthesis": 0,
+  "aramid_polymerization": 8,
+  "atrazine_making": 11,
+  "coal_deoxygenation": 2,
+  "coal_desulfurization": 3,
+  "coal_hydrogenation": 1,
+  "glyphosate_making": 12,
+  "neoprene_making": 10,
+  "nylon_synthesis": 6,
+  "polyethylene_polymerization": 5,
+  "polystyrene_making": 9,
+  "ppd_synthesis": 7,
+  "pvc_synthesis": 4,
+  "urea_synthesis": 9,
+  "xylene_oxidation": 6
+ },
+ "hot_cell": {
+  "americium_extraction": 2,
+  "curium_extraction": 3,
+  "neptunium_extraction": 0,
+  "plutonium_extraction": 1,
+  "promethium_extraction": 4,
+  "recovered_uranium": 0,
+  "technetium_extraction": 5
+ },
+ "huntsman_furnace": {
+  "crucible_steel": 1,
+  "tungsten_steel": 0
+ },
+ "ion_exchange_column": {
+  "dysprosium_exchange": 0,
+  "erbium_exchange": 5,
+  "europium_exchange": 2,
+  "gadolinium_exchange": 3,
+  "holmium_exchange": 1,
+  "lutetium_exchange": 3,
+  "samarium_exchange": 1,
+  "scandium_exchange": 0,
+  "terbium_exchange": 4,
+  "thulium_exchange": 0,
+  "ytterbium_exchange": 3,
+  "yttrium_exchange": 0
+ },
+ "kroll_reactor": {
+  "kroll_reduction": 0
+ },
+ "lead_chamber": {
+  "ammonium_sulfate_making": 1,
+  "pyrite_chamber_acid": 0,
+  "sulfur_chamber_acid": 0
+ },
+ "lime_kiln": {
+  "cyanamide_making": 3,
+  "limestone_calcination": 0,
+  "pyrite_roasting": 2,
+  "pyrite_sulfation": 1
+ },
+ "moissan_cell": {
+  "hf_electrolysis": 0
+ },
+ "mond_reactor": {
+  "nickel_carbonyl": 0
+ },
+ "oil_press": {
+  "jojoba_pressing": 1,
+  "oil_pressing": 0,
+  "pyrethrum_grinding": 1
+ },
+ "ostwald_converter": {
+  "ammonia_oxidation": 0,
+  "formaldehyde_making": 0
+ },
+ "phosphorus_retort": {
+  "phosphorus_from_bones": 0
+ },
+ "pneumatic_trough": {
+  "hydrogen_from_iron": 0,
+  "nitre_decomposition": 1,
+  "radon_collection": 2
+ },
+ "porcelain_kiln": {
+  "kaolin_firing": 0
+ },
+ "pottery_kiln": {
+  "clay_firing": 0
+ },
+ "prilling_tower": {
+  "an_neutralizing": 0,
+  "npk_prilling": 1
+ },
+ "reduction_crucible": {
+  "americium_reduction": 3,
+  "beryllium_reduction": 1,
+  "boron_reduction": 0,
+  "cerium_reduction": 0,
+  "chromium_thermite": 0,
+  "curium_reduction": 3,
+  "depleted_uranium_reduction": 4,
+  "dysprosium_reduction": 2,
+  "erbium_reduction": 5,
+  "europium_reduction": 2,
+  "gadolinium_reduction": 2,
+  "germanium_reduction": 2,
+  "hafnium_reduction": 4,
+  "holmium_reduction": 2,
+  "lanthanum_reduction": 2,
+  "lutetium_reduction": 5,
+  "molybdenum_reduction": 2,
+  "neodymium_reduction": 0,
+  "neptunium_reduction": 3,
+  "plutonium_reduction": 3,
+  "praseodymium_reduction": 0,
+  "promethium_reduction": 0,
+  "rhenium_reduction": 3,
+  "samarium_reduction": 0,
+  "scandium_reduction": 0,
+  "terbium_reduction": 2,
+  "thorium_reduction": 2,
+  "thulium_reduction": 5,
+  "uranium_reduction": 2,
+  "vanadium_thermite": 0,
+  "ytterbium_reduction": 5,
+  "yttrium_reduction": 0,
+  "zirconia_reduction": 4
+ },
+ "refinery_still": {
+  "crude_distillation": 0
+ },
+ "reverberatory_furnace": {
+  "antimony_reduction": 3,
+  "arsenic_reduction": 2,
+  "arsenopyrite_roasting": 1,
+  "barite_reduction": 6,
+  "beryl_chlorination": 1,
+  "bismuth_liquation": 4,
+  "celestine_reduction": 6,
+  "chromate_reduction": 11,
+  "chromite_roasting": 10,
+  "cobalt_reduction": 6,
+  "cobaltite_roasting": 5,
+  "helium_release": 6,
+  "molybdenite_roasting": 12,
+  "pentlandite_roasting": 5,
+  "pitchblende_roasting": 8,
+  "pyrite_roasting": 0,
+  "residue_actinium": 7,
+  "residue_polonium": 7,
+  "residue_protactinium": 7,
+  "residue_radium": 7,
+  "rhenium_roasting": 12,
+  "selenium_sublimation": 7,
+  "stibnite_roasting": 1,
+  "tungsten_reduction": 9,
+  "vanadinite_roasting": 1,
+  "wolframite_roasting": 1,
+  "zircon_fusion": 1
+ },
+ "salt_pan": {
+  "brine_evaporation": 0,
+  "salt_crystallizing": 1,
+  "sugar_crystallizing": 1
+ },
+ "sintering_furnace": {
+  "carbide_sintering": 0,
+  "control_rod_pressing": 4,
+  "enriched_metal_fuel": 1,
+  "fuel_pellet_sintering": 1,
+  "lithium_cobalt_oxide": 3,
+  "neodymium_magnet": 2
+ },
+ "smelting_furnace": {
+  "cassiterite_reduction": 4,
+  "chalcopyrite_roasting": 0,
+  "cinnabar_roasting": 7,
+  "copper_oxide_reduction": 2,
+  "galena_roasting": 5,
+  "gold_melting": 3,
+  "litharge_reduction": 6,
+  "pyrite_roasting": 1
+ },
+ "soap_kettle": {
+  "biodiesel_oil": 0,
+  "biodiesel_tallow": 0,
+  "bone_meal_rendering": 4,
+  "greaves": 3,
+  "hard_soap_boiling": 2,
+  "oil_soap_boiling": 1,
+  "rendering": 2,
+  "shellac_refining": 6,
+  "soap_boiling": 1,
+  "soap_salting": 2,
+  "wax_boiling": 5
+ },
+ "solvay_tower": {
+  "solvay_soda": 0
+ },
+ "spectroscope_bench": {
+  "bench_germanium": 3,
+  "bench_indium": 2,
+  "bench_selenium": 1,
+  "bench_thallium": 3,
+  "bench_zinc_oxide": 0
+ },
+ "tanning_pit": {
+  "pit_tanning": 0
+ },
+ "tar_still": {
+  "tar_distillation": 0
+ },
+ "van_arkel_reactor": {
+  "hafnium_crystal_bar": 1,
+  "zirconium_crystal_bar": 0
+ },
+ "vinegar_vat": {
+  "vinegar_souring": 0
+ },
+ "vulcanizer": {
+  "latex_drying": 0,
+  "vulcanization": 0
+ },
+ "zinc_retort": {
+  "cadmium_reduction": 3,
+  "germanium_fuming": 0,
+  "greenockite_roasting": 2,
+  "indium_fuming": 0,
+  "sphalerite_roasting": 0,
+  "zinc_oxide_reduction": 1
+ },
+ "zone_refiner": {
+  "germanium_crystal": 0
+ }
+}

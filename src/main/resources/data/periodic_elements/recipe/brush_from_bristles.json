@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:boar_bristle"
+    },
+    {
+      "item": "periodic_elements:boar_bristle"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1
+  }
+}

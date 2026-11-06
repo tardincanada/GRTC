@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "periodic_elements:block/sodium_lamp"
+    },
+    "lit=true": {
+      "model": "periodic_elements:block/sodium_lamp_lit"
+    }
+  }
+}

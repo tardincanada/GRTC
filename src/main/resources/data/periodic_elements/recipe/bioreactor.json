@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "SMS",
+    "SWS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "M": {
+      "item": "periodic_elements:mechanical_stirrer"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:bioreactor",
+    "count": 1
+  }
+}

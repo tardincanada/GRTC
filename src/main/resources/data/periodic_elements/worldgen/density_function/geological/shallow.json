@@ -1,0 +1,5 @@
+{
+  "type": "periodic_elements:geology",
+  "output": "shallow",
+  "seed": "periodic_elements:geology_seed"
+}

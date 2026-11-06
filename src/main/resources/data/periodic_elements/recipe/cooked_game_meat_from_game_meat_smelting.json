@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:game_meat"
+  },
+  "result": {
+    "id": "periodic_elements:cooked_game_meat",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

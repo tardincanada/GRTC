@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "periodic_elements:block/cedar_of_lebanon_sapling"
+  }
+}

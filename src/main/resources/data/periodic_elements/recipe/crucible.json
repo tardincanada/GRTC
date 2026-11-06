@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "K K",
+    "K K",
+    "BKB"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:clay_ball"
+    },
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:crucible",
+    "count": 1
+  }
+}

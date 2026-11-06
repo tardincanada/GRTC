@@ -1,0 +1,7507 @@
+[
+ {
+  "id": "fired_pottery",
+  "level": 1,
+  "key": false,
+  "category": "machines",
+  "date": "c. 6000 BCE",
+  "requires": [],
+  "samples": [
+   {
+    "item": "minecraft:clay_ball",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:pottery_kiln",
+   "reaction:clay_firing"
+  ]
+ },
+ {
+  "id": "copper_smelting",
+  "level": 1,
+  "key": true,
+  "category": "metallurgy",
+  "date": "c. 5000 BCE",
+  "requires": [
+   "fired_pottery"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:raw_copper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:smelting_furnace",
+   "reaction:chalcopyrite_roasting",
+   "reaction:copper_oxide_reduction",
+   "reaction:pyrite_roasting",
+   "reaction:gold_melting",
+   "reaction:cassiterite_reduction"
+  ]
+ },
+ {
+  "id": "lime_burning",
+  "level": 1,
+  "key": true,
+  "category": "chemistry",
+  "date": "c. 7000 BCE",
+  "requires": [
+   "fired_pottery"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:calcite|minecraft:dripstone_block",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:lime_kiln",
+   "reaction:limestone_calcination",
+   "recipe:lime_slaking"
+  ]
+ },
+ {
+  "id": "bronze_alloying",
+  "level": 1,
+  "key": true,
+  "category": "metallurgy",
+  "date": "c. 3300 BCE",
+  "requires": [
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:tin",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:bronze_ingot",
+   "machine:crucible",
+   "reaction:bronze_alloying"
+  ]
+ },
+ {
+  "id": "iron_smelting",
+  "level": 1,
+  "key": true,
+  "category": "metallurgy",
+  "date": "c. 1200 BCE",
+  "requires": [
+   "bronze_alloying",
+   "bellows"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:raw_iron",
+    "count": 16
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:bloomery",
+   "reaction:iron_oxide_reduction",
+   "reaction:magnetite_reduction"
+  ]
+ },
+ {
+  "id": "bellows",
+  "level": 1,
+  "key": false,
+  "category": "machines",
+  "date": "c. 1500 BCE",
+  "requires": [
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:leather",
+    "count": 4
+   },
+   {
+    "item": "minecraft:oak_planks",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "upgrade:forced_air"
+  ]
+ },
+ {
+  "id": "salt_evaporation",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 6000 BCE",
+  "requires": [
+   "fired_pottery"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:water_bucket",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:salt_pan",
+   "reaction:brine_evaporation",
+   "reaction:salt_crystallizing",
+   "item:seawater_bucket",
+   "reaction:sugar_crystallizing"
+  ]
+ },
+ {
+  "id": "fermentation",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 6000 BCE",
+  "requires": [
+   "fired_pottery"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:wheat",
+    "count": 8
+   },
+   {
+    "item": "minecraft:sugar",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:fermentation_barrel",
+   "machine:vinegar_vat",
+   "reaction:sugar_fermentation",
+   "reaction:vinegar_souring"
+  ]
+ },
+ {
+  "id": "bread_baking",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 4000 BCE",
+  "requires": [
+   "fermentation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:wheat",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:leavened_bread"
+  ]
+ },
+ {
+  "id": "glassmaking",
+  "level": 1,
+  "key": false,
+  "category": "materials",
+  "date": "c. 1500 BCE",
+  "requires": [
+   "lime_burning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:sand",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:glass_furnace",
+   "reaction:forest_glass"
+  ]
+ },
+ {
+  "id": "writing",
+  "level": 1,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 3200 BCE",
+  "requires": [],
+  "samples": [
+   {
+    "item": "minecraft:sugar_cane",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:carbon_ink",
+   "item:treatise_manuscript"
+  ]
+ },
+ {
+  "id": "leather_tanning",
+  "level": 1,
+  "key": false,
+  "category": "materials",
+  "date": "c. 5000 BCE",
+  "requires": [],
+  "samples": [
+   {
+    "item": "minecraft:rabbit_hide",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "recipe:bark_tanning"
+  ]
+ },
+ {
+  "id": "silver_cupellation",
+  "level": 1,
+  "key": false,
+  "category": "metallurgy",
+  "date": "c. 2500 BCE",
+  "requires": [
+   "copper_smelting",
+   "lead_smelting"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_galena",
+    "count": 8
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:cupel",
+   "reaction:cupellation"
+  ]
+ },
+ {
+  "id": "mercury_roasting",
+  "level": 1,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 500 BCE",
+  "requires": [
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:redstone",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:cinnabar_roasting"
+  ]
+ },
+ {
+  "id": "bronze_tools",
+  "level": 1,
+  "key": false,
+  "category": "tools",
+  "date": "c. 3000 BCE",
+  "requires": [
+   "bronze_alloying"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tin",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:bronze_tools",
+   "item:bronze_armor"
+  ]
+ },
+ {
+  "id": "iron_tools",
+  "level": 1,
+  "key": false,
+  "category": "tools",
+  "date": "c. 1000 BCE",
+  "requires": [
+   "iron_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:wrought_iron_tools",
+   "item:wrought_iron_armor"
+  ]
+ },
+ {
+  "id": "lead_smelting",
+  "level": 1,
+  "key": false,
+  "category": "metallurgy",
+  "date": "c. 6500 BCE",
+  "requires": [
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_galena",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:galena_roasting",
+   "reaction:litharge_reduction"
+  ]
+ },
+ {
+  "id": "green_vitriol",
+  "level": 1,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 100",
+  "requires": [
+   "lime_burning",
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:cobbled_deepslate",
+    "count": 16
+   },
+   {
+    "item": "minecraft:raw_copper",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:pyrite_sulfation"
+  ]
+ },
+ {
+  "id": "alembic_distillation",
+  "level": 2,
+  "key": true,
+  "category": "chemistry",
+  "date": "c. 800",
+  "requires": [
+   "glassmaking",
+   "fermentation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:alembic",
+   "reaction:wood_distillation",
+   "reaction:lignin_distillation",
+   "reaction:resin_distillation",
+   "reaction:cinnamon_oil",
+   "reaction:camphor_distillation",
+   "reaction:eucalyptol_distillation",
+   "reaction:santalol_distillation",
+   "reaction:cedrol_distillation",
+   "reaction:linalool_distillation",
+   "reaction:geraniol_distillation"
+  ]
+ },
+ {
+  "id": "desalination",
+  "level": 2,
+  "key": false,
+  "category": "food",
+  "date": "1594",
+  "requires": [
+   "alembic_distillation",
+   "salt_evaporation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:seawater_bucket",
+    "count": 4
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:desalination_still",
+   "reaction:desalination",
+   "reaction:still_salt"
+  ]
+ },
+ {
+  "id": "mineral_acids",
+  "level": 2,
+  "key": true,
+  "category": "chemistry",
+  "date": "c. 1300",
+  "requires": [
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:iron_sulfate",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:potassium_nitrate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:oil_of_vitriol",
+   "reaction:aqua_fortis",
+   "reaction:spirit_of_salt"
+  ]
+ },
+ {
+  "id": "saltpeter_refining",
+  "level": 2,
+  "key": true,
+  "category": "chemistry",
+  "date": "c. 1250",
+  "requires": [
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:dirt",
+    "count": 16
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:crystallizer",
+   "reaction:saltpeter_leaching"
+  ]
+ },
+ {
+  "id": "blast_furnace",
+  "level": 2,
+  "key": true,
+  "category": "metallurgy",
+  "date": "c. 1150",
+  "requires": [
+   "iron_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 16
+   },
+   {
+    "item": "minecraft:bricks",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:charcoal_blast_furnace",
+   "reaction:cast_iron",
+   "reaction:cast_iron_magnetite",
+   "item:cast_iron_ingot",
+   "item:refractory_brick",
+   "item:tuyere",
+   "item:structure_port"
+  ]
+ },
+ {
+  "id": "gunpowder",
+  "level": 2,
+  "key": false,
+  "category": "weapons",
+  "date": "c. 850 (China)",
+  "requires": [
+   "saltpeter_refining"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:potassium_nitrate",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:sulfur",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:black_powder",
+   "item:hand_cannon"
+  ]
+ },
+ {
+  "id": "aqua_regia",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 1300",
+  "requires": [
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:aqua_regia",
+   "reaction:gold_dissolution"
+  ]
+ },
+ {
+  "id": "zinc_distillation",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "c. 1300",
+  "requires": [
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_sphalerite",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:zinc_retort",
+   "reaction:sphalerite_roasting",
+   "reaction:zinc_oxide_reduction",
+   "reaction:brass_alloying",
+   "item:brass_ingot"
+  ]
+ },
+ {
+  "id": "printing_press",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "1440",
+  "requires": [
+   "writing",
+   "antimony_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:treatise_printed",
+   "item:type_metal",
+   "reaction:type_metal_alloying"
+  ]
+ },
+ {
+  "id": "iron_gall_ink",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1100",
+  "requires": [
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:iron_sulfate",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:iron_gall_ink"
+  ]
+ },
+ {
+  "id": "porcelain",
+  "level": 2,
+  "key": false,
+  "category": "materials",
+  "date": "1708",
+  "requires": [
+   "blast_furnace"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:clay_ball",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:porcelain_kiln",
+   "item:porcelain",
+   "reaction:kaolin_firing"
+  ]
+ },
+ {
+  "id": "lenses",
+  "level": 2,
+  "key": false,
+  "category": "tools",
+  "date": "1286",
+  "requires": [
+   "glassmaking"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:magnifying_lens"
+  ]
+ },
+ {
+  "id": "phosphorus_isolation",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "1669",
+  "requires": [
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:bone_meal",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:phosphorus_retort",
+   "reaction:phosphorus_from_bones"
+  ]
+ },
+ {
+  "id": "patio_process",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1554",
+  "requires": [
+   "mercury_roasting"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:mercury",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:amalgamation_pan",
+   "reaction:silver_amalgamation",
+   "reaction:gold_amalgamation"
+  ]
+ },
+ {
+  "id": "steel_cementation",
+  "level": 2,
+  "key": false,
+  "category": "tools",
+  "date": "c. 1600",
+  "requires": [
+   "blast_furnace"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 16
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "machine:cementation_furnace",
+   "reaction:iron_cementation",
+   "item:steel_ingot",
+   "item:steel_tools",
+   "item:steel_armor"
+  ]
+ },
+ {
+  "id": "arsenic_sublimation",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "c. 1250",
+  "requires": [
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_arsenopyrite",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:reverberatory_furnace",
+   "reaction:arsenopyrite_roasting",
+   "reaction:arsenic_reduction"
+  ]
+ },
+ {
+  "id": "antimony_smelting",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1540",
+  "requires": [
+   "arsenic_sublimation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_stibnite",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:stibnite_roasting",
+   "reaction:antimony_reduction"
+  ]
+ },
+ {
+  "id": "bismuth",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "c. 1500",
+  "requires": [
+   "arsenic_sublimation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_cobaltite",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:bismuth_liquation"
+  ]
+ },
+ {
+  "id": "cobalt_smelting",
+  "level": 2,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1735",
+  "requires": [
+   "bismuth"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_cobaltite",
+    "count": 16
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:cobaltite_roasting",
+   "reaction:cobalt_reduction"
+  ]
+ },
+ {
+  "id": "coking",
+  "level": 3,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1709",
+  "requires": [
+   "blast_furnace"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:coal",
+    "count": 16
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:coke_oven",
+   "reaction:coal_coking",
+   "reaction:coal_degassing_hydrogen",
+   "reaction:coal_degassing_oxygen",
+   "reaction:coal_degassing_nitrogen",
+   "reaction:coal_degassing_sulfur",
+   "item:silica_brick"
+  ]
+ },
+ {
+  "id": "crucible_steel",
+  "level": 3,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1740",
+  "requires": [
+   "coking",
+   "steel_cementation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:huntsman_furnace",
+   "reaction:crucible_steel",
+   "item:crucible_steel_tools",
+   "item:crucible_steel_armor"
+  ]
+ },
+ {
+  "id": "steam_power",
+  "level": 3,
+  "key": true,
+  "category": "machines",
+  "date": "1712",
+  "requires": [
+   "coking"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:cast_iron_ingot",
+    "count": 8
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:steam_engine",
+   "upgrade:steam_blast"
+  ]
+ },
+ {
+  "id": "pneumatic_chemistry",
+  "level": 3,
+  "key": true,
+  "category": "chemistry",
+  "date": "1766",
+  "requires": [
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:mercury",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:pneumatic_trough",
+   "reaction:hydrogen_from_iron",
+   "reaction:nitre_decomposition",
+   "item:storage_tank"
+  ]
+ },
+ {
+  "id": "voltaic_pile",
+  "level": 3,
+  "key": true,
+  "category": "electricity",
+  "date": "1800",
+  "requires": [
+   "zinc_distillation",
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:zinc",
+    "count": 8
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:voltaic_pile"
+  ]
+ },
+ {
+  "id": "electrolysis",
+  "level": 3,
+  "key": true,
+  "category": "electricity",
+  "date": "1807",
+  "requires": [
+   "voltaic_pile"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sodium_chloride",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:zinc",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:electrolysis_cell",
+   "reaction:salt_electrolysis",
+   "reaction:sylvite_electrolysis",
+   "reaction:water_electrolysis"
+  ]
+ },
+ {
+  "id": "lead_chamber",
+  "level": 3,
+  "key": true,
+  "category": "chemistry",
+  "date": "1746",
+  "requires": [
+   "mineral_acids",
+   "lead_smelting"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lead",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sulfur",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:lead_chamber",
+   "item:lead_sheet",
+   "item:gay_lussac_tower",
+   "reaction:sulfur_chamber_acid",
+   "reaction:pyrite_chamber_acid"
+  ]
+ },
+ {
+  "id": "alkaline_earths",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1808",
+  "requires": [
+   "electrolysis"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:calcium_oxide",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:raw_barite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:lime_electrolysis",
+   "reaction:magnesium_electrolysis",
+   "reaction:baryta_electrolysis",
+   "reaction:strontia_electrolysis",
+   "reaction:barite_reduction",
+   "reaction:celestine_reduction"
+  ]
+ },
+ {
+  "id": "acid_digestion",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 1790",
+  "requires": [
+   "mineral_acids",
+   "porcelain"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:porcelain",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:digestion_vat",
+   "reaction:borax_leaching",
+   "reaction:quinine_extraction",
+   "reaction:salicin_extraction",
+   "reaction:citric_acid_crystallizing"
+  ]
+ },
+ {
+  "id": "lithium",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1817",
+  "requires": [
+   "acid_digestion",
+   "electrolysis"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_spodumene",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:spodumene_leaching",
+   "reaction:lithium_electrolysis"
+  ]
+ },
+ {
+  "id": "boron",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1808",
+  "requires": [
+   "acid_digestion",
+   "electrolysis"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_borax",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:reduction_crucible",
+   "reaction:boron_reduction"
+  ]
+ },
+ {
+  "id": "beryllium",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1828",
+  "requires": [
+   "boron"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:emerald",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:beryl_chlorination",
+   "reaction:beryllium_reduction"
+  ]
+ },
+ {
+  "id": "selenium",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1817",
+  "requires": [
+   "lead_chamber"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:chamber_sludge",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:selenium_sublimation"
+  ]
+ },
+ {
+  "id": "bromine",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1826",
+  "requires": [
+   "electrolysis",
+   "salt_evaporation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 2
+   },
+   {
+    "item": "minecraft:water_bucket",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:bromine_liberation"
+  ]
+ },
+ {
+  "id": "iodine",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1811",
+  "requires": [
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:dried_kelp",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:iodine_from_kelp"
+  ]
+ },
+ {
+  "id": "cadmium",
+  "level": 3,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1817",
+  "requires": [
+   "zinc_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_sphalerite",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:greenockite_roasting",
+   "reaction:cadmium_reduction"
+  ]
+ },
+ {
+  "id": "platinum",
+  "level": 3,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1803",
+  "requires": [
+   "aqua_regia"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:raw_gold",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:platinum_dissolution"
+  ]
+ },
+ {
+  "id": "uranium_oxide",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1789",
+  "requires": [
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:pitchblende_roasting"
+  ]
+ },
+ {
+  "id": "flintlock",
+  "level": 3,
+  "key": false,
+  "category": "weapons",
+  "date": "c. 1610",
+  "requires": [
+   "crucible_steel",
+   "gunpowder"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:crucible_steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:flint",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:flintlock_musket"
+  ]
+ },
+ {
+  "id": "dynamo",
+  "level": 4,
+  "key": true,
+  "category": "electricity",
+  "date": "1866",
+  "requires": [
+   "electrolysis",
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 16
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:dynamo",
+   "item:copper_wire"
+  ]
+ },
+ {
+  "id": "bessemer",
+  "level": 4,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1856",
+  "requires": [
+   "crucible_steel",
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:cast_iron_ingot",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:bessemer_converter",
+   "reaction:bessemer_decarburization",
+   "reaction:bessemer_steel"
+  ]
+ },
+ {
+  "id": "chlor_alkali",
+  "level": 4,
+  "key": true,
+  "category": "chemistry",
+  "date": "1892",
+  "requires": [
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sodium_chloride",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:mercury",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:chlor_alkali_cell",
+   "reaction:brine_electrolysis"
+  ]
+ },
+ {
+  "id": "air_liquefaction",
+  "level": 4,
+  "key": true,
+  "category": "chemistry",
+  "date": "1895",
+  "requires": [
+   "dynamo",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:crucible_steel_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:air_liquefier",
+   "reaction:nitrogen_fraction",
+   "reaction:oxygen_fraction",
+   "reaction:argon_fraction"
+  ]
+ },
+ {
+  "id": "spectroscopy",
+  "level": 4,
+  "key": true,
+  "category": "knowledge",
+  "date": "1859",
+  "requires": [
+   "lenses",
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:brass_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:spectroscope_bench",
+   "reaction:bench_zinc_oxide",
+   "reaction:bench_selenium"
+  ]
+ },
+ {
+  "id": "electrolytic_refining",
+  "level": 4,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1869",
+  "requires": [
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:electrolytic_refinery",
+   "reaction:copper_refining",
+   "reaction:slime_silver",
+   "reaction:slime_gold",
+   "reaction:slime_selenium",
+   "reaction:slime_tellurium"
+  ]
+ },
+ {
+  "id": "hall_heroult",
+  "level": 4,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1886",
+  "requires": [
+   "bayer_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:aluminium_oxide",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:raw_fluorite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:hall_heroult_cell",
+   "reaction:alumina_electrolysis",
+   "reaction:cryolite_washing",
+   "item:aluminium_tools",
+   "item:aluminium_armor"
+  ]
+ },
+ {
+  "id": "noble_gases",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1898",
+  "requires": [
+   "air_liquefaction",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:argon",
+    "count": 2
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:neon_fraction",
+   "reaction:krypton_fraction",
+   "reaction:xenon_fraction",
+   "reaction:helium_fraction"
+  ]
+ },
+ {
+  "id": "rubidium_caesium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1861",
+  "requires": [
+   "spectroscopy",
+   "lithium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_spodumene",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:rubidium_leaching",
+   "reaction:caesium_leaching",
+   "reaction:rubidium_electrolysis",
+   "reaction:caesium_electrolysis"
+  ]
+ },
+ {
+  "id": "indium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1863",
+  "requires": [
+   "spectroscopy",
+   "cadmium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_sphalerite",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:indium_fuming",
+   "reaction:bench_indium",
+   "reaction:indium_electrolysis"
+  ]
+ },
+ {
+  "id": "germanium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1886",
+  "requires": [
+   "indium",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_sphalerite",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:germanium_fuming",
+   "reaction:bench_germanium",
+   "reaction:germanium_reduction"
+  ]
+ },
+ {
+  "id": "thallium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1861",
+  "requires": [
+   "spectroscopy",
+   "selenium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:chamber_sludge",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:bench_thallium",
+   "reaction:thallium_electrolysis"
+  ]
+ },
+ {
+  "id": "platinum_metals",
+  "level": 4,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1844",
+  "requires": [
+   "electrolytic_refining",
+   "platinum"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:anode_slime",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:aqua_regia",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:slime_platinum",
+   "reaction:slime_palladium",
+   "reaction:slime_rhodium",
+   "reaction:slime_ruthenium",
+   "reaction:slime_osmium",
+   "reaction:slime_iridium"
+  ]
+ },
+ {
+  "id": "bayer_process",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1888",
+  "requires": [
+   "chlor_alkali",
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_bauxite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sodium_hydroxide",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:bayer_digester",
+   "reaction:gibbsite_digestion"
+  ]
+ },
+ {
+  "id": "gallium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1875",
+  "requires": [
+   "bayer_process",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_bauxite",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:gallium_liquor",
+   "reaction:gallium_electrolysis"
+  ]
+ },
+ {
+  "id": "fluorine",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1886",
+  "requires": [
+   "chlor_alkali",
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_fluorite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:platinum",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:moissan_cell",
+   "reaction:fluorite_digestion",
+   "reaction:hf_electrolysis"
+  ]
+ },
+ {
+  "id": "manganese",
+  "level": 4,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1882",
+  "requires": [
+   "bessemer"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pyrolusite",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:pyrolusite_reduction",
+   "reaction:manganese_steel",
+   "item:manganese_steel_tools",
+   "item:manganese_steel_armor"
+  ]
+ },
+ {
+  "id": "solvay",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1861",
+  "requires": [
+   "alkaline_earths"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sodium_chloride",
+    "count": 8
+   },
+   {
+    "item": "minecraft:calcite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:solvay_tower",
+   "reaction:solvay_soda"
+  ]
+ },
+ {
+  "id": "tungsten",
+  "level": 4,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1868",
+  "requires": [
+   "manganese",
+   "solvay"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_wolframite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sodium_carbonate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:wolframite_roasting",
+   "reaction:tungstate_precipitation",
+   "reaction:tungsten_reduction",
+   "reaction:tungsten_steel",
+   "item:tungsten_steel_tools"
+  ]
+ },
+ {
+  "id": "vanadium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1867",
+  "requires": [
+   "solvay",
+   "hall_heroult"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_vanadinite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:aluminium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:vanadinite_roasting",
+   "reaction:vanadate_precipitation",
+   "reaction:vanadium_thermite"
+  ]
+ },
+ {
+  "id": "contact_process",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1875",
+  "requires": [
+   "lead_chamber",
+   "vanadium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:vanadium_pentoxide",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:contact_converter",
+   "reaction:contact_acid"
+  ]
+ },
+ {
+  "id": "mond_process",
+  "level": 4,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1890",
+  "requires": [
+   "coking",
+   "mineral_acids"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pentlandite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:mond_reactor",
+   "reaction:pentlandite_roasting",
+   "reaction:nickel_carbonyl"
+  ]
+ },
+ {
+  "id": "radioactivity",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1896",
+  "requires": [
+   "uranium_oxide",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 4
+   },
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:electroscope"
+  ]
+ },
+ {
+  "id": "helium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1895",
+  "requires": [
+   "spectroscopy",
+   "uranium_oxide"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:helium_release"
+  ]
+ },
+ {
+  "id": "radium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1898",
+  "requires": [
+   "radioactivity",
+   "alkaline_earths"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:raw_barite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:residue_radium",
+   "reaction:residue_polonium",
+   "reaction:residue_actinium",
+   "reaction:radium_conversion",
+   "reaction:radium_electrolysis"
+  ]
+ },
+ {
+  "id": "polonium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1898",
+  "requires": [
+   "radium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:pitchblende_residue",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:polonium_separation"
+  ]
+ },
+ {
+  "id": "actinium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1899",
+  "requires": [
+   "radium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:pitchblende_residue",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:actinium_separation"
+  ]
+ },
+ {
+  "id": "radon",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1900",
+  "requires": [
+   "radium",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:radium_chloride",
+    "count": 1
+   },
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:radon_collection"
+  ]
+ },
+ {
+  "id": "radiogenic_helium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1903",
+  "requires": [
+   "helium",
+   "radium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:glass_flask",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:helium_collector"
+  ]
+ },
+ {
+  "id": "thorium",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1829",
+  "requires": [
+   "boron",
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_mineral_concentrate",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:potassium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:thorianite_chlorination",
+   "reaction:thorium_reduction"
+  ]
+ },
+ {
+  "id": "smokeless_powder",
+  "level": 4,
+  "key": false,
+  "category": "weapons",
+  "date": "1884",
+  "requires": [
+   "mineral_acids",
+   "lead_chamber"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 4
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:cellulose_nitration"
+  ]
+ },
+ {
+  "id": "breech_loading",
+  "level": 4,
+  "key": false,
+  "category": "weapons",
+  "date": "1886",
+  "requires": [
+   "smokeless_powder",
+   "manganese"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:manganese_steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:brass_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:breech_loading_rifle"
+  ]
+ },
+ {
+  "id": "arc_furnace",
+  "level": 5,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1900",
+  "requires": [
+   "dynamo",
+   "hall_heroult"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:electric_arc_furnace",
+   "reaction:silica_reduction",
+   "reaction:chromite_smelting"
+  ]
+ },
+ {
+  "id": "haber_process",
+  "level": 5,
+  "key": true,
+  "category": "chemistry",
+  "date": "1909",
+  "requires": [
+   "air_liquefaction",
+   "chlor_alkali"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nitrogen",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:high_pressure_reactor",
+   "reaction:ammonia_synthesis"
+  ]
+ },
+ {
+  "id": "flotation",
+  "level": 5,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1905",
+  "requires": [
+   "electrolytic_refining",
+   "mond_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_molybdenite",
+    "count": 8
+   },
+   {
+    "item": "minecraft:spruce_log",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:flotation_cell",
+   "reaction:molybdenite_flotation",
+   "reaction:rhenium_flotation"
+  ]
+ },
+ {
+  "id": "stainless_steel",
+  "level": 5,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1913",
+  "requires": [
+   "arc_furnace"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ferrochrome",
+    "count": 4
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:stainless_steel",
+   "item:stainless_steel_tools",
+   "item:stainless_steel_armor"
+  ]
+ },
+ {
+  "id": "rare_earths",
+  "level": 5,
+  "key": true,
+  "category": "chemistry",
+  "date": "1885",
+  "requires": [
+   "spectroscopy",
+   "thorium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_mineral_concentrate",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:fractional_crystallizer",
+   "reaction:monazite_cracking",
+   "reaction:cerium_separation",
+   "reaction:cerium_reduction"
+  ]
+ },
+ {
+  "id": "van_arkel",
+  "level": 5,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1925",
+  "requires": [
+   "arc_furnace",
+   "iodine"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_mineral_concentrate",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:iodine",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:van_arkel_reactor",
+   "reaction:zircon_fusion",
+   "reaction:zirconia_reduction",
+   "reaction:zirconium_crystal_bar"
+  ]
+ },
+ {
+  "id": "ostwald_process",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1902",
+  "requires": [
+   "haber_process",
+   "platinum_metals"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ammonia",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:rhodium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:ostwald_converter",
+   "reaction:ammonia_oxidation"
+  ]
+ },
+ {
+  "id": "chromium",
+  "level": 5,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1898",
+  "requires": [
+   "arc_furnace",
+   "vanadium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_chromite",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:aluminium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:chromite_roasting",
+   "reaction:chromate_reduction",
+   "reaction:chromium_thermite"
+  ]
+ },
+ {
+  "id": "molybdenum",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1781",
+  "requires": [
+   "flotation",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:molybdenite_concentrate",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:molybdenite_roasting",
+   "reaction:molybdenum_reduction"
+  ]
+ },
+ {
+  "id": "rhenium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1925",
+  "requires": [
+   "molybdenum",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:molybdenite_concentrate",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:rhenium_roasting",
+   "reaction:rhenium_reduction"
+  ]
+ },
+ {
+  "id": "high_speed_steel",
+  "level": 5,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1900",
+  "requires": [
+   "molybdenum",
+   "tungsten",
+   "arc_furnace"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tungsten_steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:molybdenum",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:high_speed_steel",
+   "item:high_speed_steel_tools"
+  ]
+ },
+ {
+  "id": "cemented_carbide",
+  "level": 5,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1926",
+  "requires": [
+   "high_speed_steel",
+   "cobalt_smelting"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tungsten",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:cobalt",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:sintering_furnace",
+   "reaction:carbide_sintering",
+   "item:cemented_carbide_tools"
+  ]
+ },
+ {
+  "id": "beryllium_copper",
+  "level": 5,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1926",
+  "requires": [
+   "beryllium",
+   "electrolytic_refining"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:beryllium",
+    "count": 2
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:beryllium_copper",
+   "item:beryllium_copper_tools"
+  ]
+ },
+ {
+  "id": "niobium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1866",
+  "requires": [
+   "fluorine",
+   "arc_furnace"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_coltan",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:hydrogen_fluoride",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:columbite_digestion",
+   "reaction:niobium_reduction"
+  ]
+ },
+ {
+  "id": "tantalum",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1903",
+  "requires": [
+   "niobium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_coltan",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:niobium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "reaction:tantalite_digestion",
+   "reaction:tantalum_reduction"
+  ]
+ },
+ {
+  "id": "lanthanum",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1839",
+  "requires": [
+   "rare_earths"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:rare_earth_sulfates",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:lanthanum_separation",
+   "reaction:lanthanum_reduction"
+  ]
+ },
+ {
+  "id": "didymium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1885",
+  "requires": [
+   "lanthanum"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:rare_earth_sulfates",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "reaction:praseodymium_separation",
+   "reaction:neodymium_separation",
+   "reaction:praseodymium_reduction",
+   "reaction:neodymium_reduction"
+  ]
+ },
+ {
+  "id": "hafnium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1923",
+  "requires": [
+   "van_arkel",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:crude_zirconia",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:hydrogen_fluoride",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:hafnium_separation",
+   "reaction:hafnium_reduction",
+   "reaction:hafnium_crystal_bar"
+  ]
+ },
+ {
+  "id": "protactinium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1918",
+  "requires": [
+   "radium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:pitchblende_residue",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:residue_protactinium",
+   "reaction:protactinium_separation"
+  ]
+ },
+ {
+  "id": "francium",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1939",
+  "requires": [
+   "actinium",
+   "rubidium_caesium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:actinium",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:caesium_chloride",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:francium_precipitation"
+  ]
+ },
+ {
+  "id": "geiger_counter",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1928",
+  "requires": [
+   "radioactivity",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:geiger_counter"
+  ]
+ },
+ {
+  "id": "kroll_process",
+  "level": 6,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1940",
+  "requires": [
+   "arc_furnace",
+   "alkaline_earths"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_mineral_concentrate",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:magnesium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:chlorinator",
+   "machine:kroll_reactor",
+   "reaction:ilmenite_chlorination",
+   "reaction:rutile_chlorination",
+   "reaction:kroll_reduction"
+  ]
+ },
+ {
+  "id": "ion_exchange",
+  "level": 6,
+  "key": true,
+  "category": "chemistry",
+  "date": "1947",
+  "requires": [
+   "rare_earths",
+   "didymium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_mineral_concentrate",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:hydrochloric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:ion_exchange_column",
+   "reaction:xenotime_leaching",
+   "reaction:yttrium_exchange",
+   "reaction:yttrium_reduction"
+  ]
+ },
+ {
+  "id": "crystal_growth",
+  "level": 6,
+  "key": true,
+  "category": "knowledge",
+  "date": "1950",
+  "requires": [
+   "arc_furnace",
+   "germanium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:silicon",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:germanium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:crystal_puller",
+   "machine:zone_refiner",
+   "reaction:silicon_crystal",
+   "reaction:germanium_crystal"
+  ]
+ },
+ {
+  "id": "diamond_synthesis",
+  "level": 6,
+  "key": true,
+  "category": "metallurgy",
+  "date": "1954",
+  "requires": [
+   "cemented_carbide",
+   "mond_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:cemented_carbide",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:nickel",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:diamond_press",
+   "reaction:diamond_synthesis",
+   "item:synthetic_diamond_tools"
+  ]
+ },
+ {
+  "id": "uranium_metal",
+  "level": 6,
+  "key": true,
+  "category": "chemistry",
+  "date": "1942",
+  "requires": [
+   "fluorine",
+   "kroll_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:triuranium_octoxide",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:magnesium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:uranium_hydrofluorination",
+   "reaction:uranium_reduction"
+  ]
+ },
+ {
+  "id": "titanium_alloy",
+  "level": 6,
+  "key": false,
+  "category": "metallurgy",
+  "date": "1954",
+  "requires": [
+   "kroll_process",
+   "vanadium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:titanium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:vanadium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:aluminium_vanadium_alloy",
+   "reaction:titanium_alloy",
+   "item:titanium_alloy_tools",
+   "item:titanium_alloy_armor"
+  ]
+ },
+ {
+  "id": "scandium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1937",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:scandium_exchange",
+   "reaction:scandium_reduction"
+  ]
+ },
+ {
+  "id": "samarium_europium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1901",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:samarium_exchange",
+   "reaction:europium_exchange",
+   "reaction:samarium_reduction",
+   "reaction:europium_reduction"
+  ]
+ },
+ {
+  "id": "gadolinium_terbium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1886",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:gadolinium_exchange",
+   "reaction:terbium_exchange",
+   "reaction:gadolinium_reduction",
+   "reaction:terbium_reduction"
+  ]
+ },
+ {
+  "id": "dysprosium_holmium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1886",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:dysprosium_exchange",
+   "reaction:holmium_exchange",
+   "reaction:dysprosium_reduction",
+   "reaction:holmium_reduction"
+  ]
+ },
+ {
+  "id": "erbium_thulium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1879",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:erbium_exchange",
+   "reaction:thulium_exchange",
+   "reaction:erbium_reduction",
+   "reaction:thulium_reduction"
+  ]
+ },
+ {
+  "id": "ytterbium_lutetium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1907",
+  "requires": [
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:heavy_rare_earth_chlorides",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:ytterbium_exchange",
+   "reaction:lutetium_exchange",
+   "reaction:ytterbium_reduction",
+   "reaction:lutetium_reduction"
+  ]
+ },
+ {
+  "id": "solar_cell",
+  "level": 6,
+  "key": false,
+  "category": "electricity",
+  "date": "1954",
+  "requires": [
+   "crystal_growth",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:silicon_wafer",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:solar_panel"
+  ]
+ },
+ {
+  "id": "isotope_separation",
+  "level": 6,
+  "key": true,
+  "category": "knowledge",
+  "date": "1945",
+  "requires": [
+   "uranium_metal"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:uranium_tetrafluoride",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:nickel",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:enrichment_cascade",
+   "item:diffuser_stage",
+   "reaction:uranium_hexafluoride_synthesis",
+   "reaction:uranium_enrichment",
+   "reaction:depleted_uranium_reduction"
+  ]
+ },
+ {
+  "id": "nuclear_reactor",
+  "level": 6,
+  "key": true,
+  "category": "electricity",
+  "date": "1942",
+  "requires": [
+   "isotope_separation",
+   "van_arkel"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:uranium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:cadmium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:nuclear_reactor",
+   "item:graphite_block",
+   "item:fuel_channel",
+   "item:reactor_shielding",
+   "reaction:fuel_conversion",
+   "reaction:fuel_pellet_sintering",
+   "reaction:zircaloy"
+  ]
+ },
+ {
+  "id": "reprocessing",
+  "level": 6,
+  "key": true,
+  "category": "chemistry",
+  "date": "1954",
+  "requires": [
+   "nuclear_reactor"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:spent_fuel_rod",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:hot_cell",
+   "reaction:recovered_uranium",
+   "reaction:plutonium_extraction",
+   "reaction:plutonium_reduction"
+  ]
+ },
+ {
+  "id": "neptunium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1940",
+  "requires": [
+   "reprocessing"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:spent_fuel_rod",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:neptunium_extraction",
+   "reaction:neptunium_reduction"
+  ]
+ },
+ {
+  "id": "technetium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1937",
+  "requires": [
+   "reprocessing"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:spent_fuel_rod",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:technetium_extraction"
+  ]
+ },
+ {
+  "id": "promethium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1945",
+  "requires": [
+   "reprocessing",
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:spent_fuel_rod",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:promethium_extraction",
+   "reaction:promethium_reduction"
+  ]
+ },
+ {
+  "id": "americium_curium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1944",
+  "requires": [
+   "reprocessing"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:plutonium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:americium_extraction",
+   "reaction:americium_reduction",
+   "reaction:curium_extraction",
+   "reaction:curium_reduction"
+  ]
+ },
+ {
+  "id": "cyclotron",
+  "level": 6,
+  "key": false,
+  "category": "machines",
+  "date": "1932",
+  "requires": [
+   "isotope_separation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:helium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:cyclotron",
+   "reaction:astatine_synthesis"
+  ]
+ },
+ {
+  "id": "berkelium_californium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1950",
+  "requires": [
+   "cyclotron",
+   "americium_curium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:americium",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:curium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:berkelium_synthesis",
+   "reaction:californium_synthesis"
+  ]
+ },
+ {
+  "id": "mendelevium",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1955",
+  "requires": [
+   "berkelium_californium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:einsteinium_sample",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:mendelevium_synthesis"
+  ]
+ },
+ {
+  "id": "superconductors",
+  "level": 7,
+  "key": true,
+  "category": "electricity",
+  "date": "1962",
+  "requires": [
+   "kroll_process",
+   "van_arkel"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:niobium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:titanium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:helium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:niobium_titanium"
+  ]
+ },
+ {
+  "id": "integrated_circuits",
+  "level": 7,
+  "key": true,
+  "category": "knowledge",
+  "date": "1959",
+  "requires": [
+   "crystal_growth",
+   "solar_cell"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:silicon_wafer",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:boron",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:chip_fab",
+   "reaction:integrated_circuit"
+  ]
+ },
+ {
+  "id": "compound_semiconductors",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1962",
+  "requires": [
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:gallium",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:arsenic",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:gallium_arsenide"
+  ]
+ },
+ {
+  "id": "electromagnetic_separation",
+  "level": 7,
+  "key": false,
+  "category": "machines",
+  "date": "1943",
+  "requires": [
+   "isotope_separation",
+   "superconductors"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:calcium",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:calutron",
+   "reaction:calcium_48_separation"
+  ]
+ },
+ {
+  "id": "heavy_ion_accelerator",
+  "level": 7,
+  "key": true,
+  "category": "machines",
+  "date": "1958",
+  "requires": [
+   "superconductors",
+   "integrated_circuits",
+   "mendelevium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:niobium_titanium_wire",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:curium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:heavy_ion_accelerator",
+   "reaction:nobelium_synthesis",
+   "reaction:lawrencium_synthesis"
+  ]
+ },
+ {
+  "id": "transactinides",
+  "level": 7,
+  "key": false,
+  "category": "chemistry",
+  "date": "1974",
+  "requires": [
+   "heavy_ion_accelerator"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:californium_sample",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:rutherfordium_synthesis",
+   "reaction:dubnium_synthesis",
+   "reaction:seaborgium_synthesis"
+  ]
+ },
+ {
+  "id": "cold_fusion",
+  "level": 7,
+  "key": false,
+  "category": "chemistry",
+  "date": "1981",
+  "requires": [
+   "heavy_ion_accelerator"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:bismuth",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:bohrium_synthesis",
+   "reaction:hassium_synthesis",
+   "reaction:meitnerium_synthesis",
+   "reaction:darmstadtium_synthesis",
+   "reaction:roentgenium_synthesis",
+   "reaction:copernicium_synthesis",
+   "reaction:nihonium_synthesis"
+  ]
+ },
+ {
+  "id": "hot_fusion",
+  "level": 7,
+  "key": false,
+  "category": "chemistry",
+  "date": "1999",
+  "requires": [
+   "heavy_ion_accelerator",
+   "electromagnetic_separation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:calcium_48",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:plutonium",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:flerovium_synthesis",
+   "reaction:moscovium_synthesis",
+   "reaction:livermorium_synthesis",
+   "reaction:tennessine_synthesis",
+   "reaction:oganesson_synthesis"
+  ]
+ },
+ {
+  "id": "permanent_magnets",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1984",
+  "requires": [
+   "didymium",
+   "arc_furnace"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:neodymium",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:boron",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "reaction:iron_boron_alloy",
+   "reaction:neodymium_magnet",
+   "machine:wind_turbine"
+  ]
+ },
+ {
+  "id": "composite_armor",
+  "level": 7,
+  "key": false,
+  "category": "materials",
+  "date": "1965",
+  "requires": [
+   "titanium_alloy",
+   "catalytic_reforming"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:boron",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:boron_carbide",
+   "reaction:xylene_oxidation",
+   "reaction:ppd_synthesis",
+   "reaction:aramid_polymerization"
+  ]
+ },
+ {
+  "id": "complete_periodic_table",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "2016",
+  "requires": [
+   "transactinides",
+   "cold_fusion",
+   "hot_fusion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nihonium_record",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:moscovium_record",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:tennessine_record",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:oganesson_record",
+    "count": 1
+   }
+  ],
+  "unlocks": []
+ },
+ {
+  "id": "radioisotope_generator",
+  "level": 6,
+  "key": false,
+  "category": "electricity",
+  "date": "1961",
+  "requires": [
+   "neptunium",
+   "nuclear_reactor"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:neptunium",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:radioisotope_generator"
+  ]
+ },
+ {
+  "id": "smoke_detector",
+  "level": 6,
+  "key": false,
+  "category": "tools",
+  "date": "1965",
+  "requires": [
+   "americium_curium"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:americium_dioxide",
+    "count": 1
+   },
+   {
+    "item": "minecraft:redstone",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:smoke_detector"
+  ]
+ },
+ {
+  "id": "lithium_ion_battery",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1991",
+  "requires": [
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lithium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:cobalt",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:lithium_ion_battery",
+   "reaction:lithium_cobalt_oxide"
+  ]
+ },
+ {
+  "id": "optical_fibre",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1987",
+  "requires": [
+   "compound_semiconductors"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:erbium",
+    "count": 1
+   },
+   {
+    "item": "minecraft:quartz",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:optical_fibre",
+   "item:fibre_communicator"
+  ]
+ },
+ {
+  "id": "element_analyzer",
+  "level": 7,
+  "key": false,
+  "category": "tools",
+  "date": "1997",
+  "requires": [
+   "americium_curium",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:curium_oxide",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:silicon_wafer",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:element_analyzer"
+  ]
+ },
+ {
+  "id": "oil_refining",
+  "level": 4,
+  "key": true,
+  "category": "chemistry",
+  "date": "1859",
+  "requires": [
+   "alembic_distillation",
+   "bessemer"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_oil_shale",
+    "count": 16
+   },
+   {
+    "item": "minecraft:coal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:refinery_still",
+   "item:distillation_tray",
+   "reaction:shale_retorting",
+   "reaction:crude_distillation",
+   "item:asphalt"
+  ]
+ },
+ {
+  "id": "diesel_engine",
+  "level": 4,
+  "key": false,
+  "category": "electricity",
+  "date": "1897",
+  "requires": [
+   "oil_refining",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:diesel",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:diesel_generator"
+  ]
+ },
+ {
+  "id": "thermal_cracking",
+  "level": 5,
+  "key": true,
+  "category": "chemistry",
+  "date": "1913",
+  "requires": [
+   "oil_refining",
+   "arc_furnace"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:diesel",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:cracking_unit",
+   "reaction:diesel_cracking"
+  ]
+ },
+ {
+  "id": "coal_liquefaction",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1913",
+  "requires": [
+   "haber_process",
+   "oil_refining"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:coal",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:coal_hydrogenation",
+   "reaction:coal_deoxygenation",
+   "reaction:coal_desulfurization"
+  ]
+ },
+ {
+  "id": "rocketry",
+  "level": 5,
+  "key": false,
+  "category": "tools",
+  "date": "1926",
+  "requires": [
+   "oil_refining",
+   "air_liquefaction"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:kerosene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:oxygen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "recipe:kerosene_rocket"
+  ]
+ },
+ {
+  "id": "pvc",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1926",
+  "requires": [
+   "thermal_cracking",
+   "chlor_alkali"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ethylene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:pvc_synthesis",
+   "item:insulated_cable"
+  ]
+ },
+ {
+  "id": "polyethylene",
+  "level": 5,
+  "key": true,
+  "category": "chemistry",
+  "date": "1933",
+  "requires": [
+   "thermal_cracking",
+   "haber_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ethylene",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:polyethylene_polymerization"
+  ]
+ },
+ {
+  "id": "catalytic_reforming",
+  "level": 6,
+  "key": true,
+  "category": "chemistry",
+  "date": "1949",
+  "requires": [
+   "thermal_cracking",
+   "platinum_metals"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:naphtha",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:platinum",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "reaction:naphtha_reforming"
+  ]
+ },
+ {
+  "id": "nylon",
+  "level": 6,
+  "key": false,
+  "category": "materials",
+  "date": "1935",
+  "requires": [
+   "catalytic_reforming",
+   "haber_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:benzene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:ammonia",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:nylon_synthesis",
+   "item:parachute",
+   "recipe:nylon_string"
+  ]
+ },
+ {
+  "id": "isotope_enrichment",
+  "level": 7,
+  "key": false,
+  "category": "chemistry",
+  "date": "1944",
+  "requires": [
+   "electromagnetic_separation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:uranium",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:lithium",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:boron",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:uranium_235_separation",
+   "reaction:lithium_6_separation",
+   "reaction:boron_10_separation",
+   "reaction:enriched_metal_fuel"
+  ]
+ },
+ {
+  "id": "heavy_water",
+  "level": 6,
+  "key": false,
+  "category": "chemistry",
+  "date": "1934",
+  "requires": [
+   "isotope_separation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:uranium",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:heavy_water_enrichment",
+   "item:natural_uranium_fuel_rod"
+  ]
+ },
+ {
+  "id": "control_rods",
+  "level": 7,
+  "key": false,
+  "category": "machines",
+  "date": "1942",
+  "requires": [
+   "isotope_enrichment"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:boron",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:control_rod_pressing"
+  ]
+ },
+ {
+  "id": "tritium",
+  "level": 7,
+  "key": false,
+  "category": "chemistry",
+  "date": "1934",
+  "requires": [
+   "isotope_enrichment",
+   "nuclear_reactor"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lithium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:tritium_light"
+  ]
+ },
+ {
+  "id": "gas_compression",
+  "level": 4,
+  "key": false,
+  "category": "machines",
+  "date": "1885",
+  "requires": [
+   "bessemer",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   },
+   {
+    "item": "minecraft:piston",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:steel_cylinder",
+   "item:compressor",
+   "upgrade:compressor",
+   "item:tank_compressor"
+  ]
+ },
+ {
+  "id": "regenerative_furnace",
+  "level": 4,
+  "key": false,
+  "category": "machines",
+  "date": "1856",
+  "requires": [
+   "bessemer"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:bricks",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:cast_iron_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:regenerator",
+   "upgrade:regenerator"
+  ]
+ },
+ {
+  "id": "basic_refractories",
+  "level": 4,
+  "key": false,
+  "category": "machines",
+  "date": "1878",
+  "requires": [
+   "bessemer",
+   "lime_burning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:bricks",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:calcium_oxide",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:refractory_lining",
+   "upgrade:refractory_lining"
+  ]
+ },
+ {
+  "id": "by_product_recovery",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1881",
+  "requires": [
+   "coking",
+   "gas_compression"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:coke",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:gas_recovery_hood",
+   "upgrade:gas_recovery_hood"
+  ]
+ },
+ {
+  "id": "electric_motor",
+  "level": 4,
+  "key": false,
+  "category": "electricity",
+  "date": "1888",
+  "requires": [
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 8
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:mechanical_stirrer",
+   "upgrade:mechanical_stirrer"
+  ]
+ },
+ {
+  "id": "catalysis",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1909",
+  "requires": [
+   "haber_process",
+   "contact_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:platinum",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:nickel",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:catalyst_bed",
+   "upgrade:catalyst_bed"
+  ]
+ },
+ {
+  "id": "automatic_mill",
+  "level": 3,
+  "key": false,
+  "category": "machines",
+  "date": "1785",
+  "requires": [
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:hopper",
+    "count": 2
+   },
+   {
+    "item": "minecraft:piston",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:output_pusher",
+   "upgrade:output_pusher",
+   "item:canvas_belt"
+  ]
+ },
+ {
+  "id": "gas_mains",
+  "level": 3,
+  "key": false,
+  "category": "machines",
+  "date": "1812",
+  "requires": [
+   "pneumatic_chemistry",
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:tank_wall",
+   "item:tank_controller",
+   "item:tank_valve",
+   "item:tank_gauge",
+   "item:fluid_pipe",
+   "item:fluid_pump"
+  ]
+ },
+ {
+  "id": "rendering",
+  "level": 1,
+  "key": false,
+  "category": "materials",
+  "date": "c. 3000 BCE",
+  "requires": [
+   "copper_smelting"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:porkchop",
+    "count": 4
+   },
+   {
+    "item": "minecraft:bone",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:soap_kettle",
+   "reaction:rendering",
+   "reaction:greaves",
+   "reaction:bone_meal_rendering",
+   "reaction:wax_boiling",
+   "item:tallow_candle"
+  ]
+ },
+ {
+  "id": "oil_pressing",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 4000 BCE",
+  "requires": [
+   "fired_pottery"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:pumpkin_seeds",
+    "count": 8
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:oil_press",
+   "reaction:oil_pressing",
+   "reaction:jojoba_pressing"
+  ]
+ },
+ {
+  "id": "soap_boiling",
+  "level": 1,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 2800 BCE",
+  "requires": [
+   "rendering"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tallow",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:wood_ash",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:soap_boiling",
+   "reaction:oil_soap_boiling"
+  ]
+ },
+ {
+  "id": "pit_tanning",
+  "level": 1,
+  "key": false,
+  "category": "materials",
+  "date": "c. 400 BCE",
+  "requires": [
+   "leather_tanning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:rotten_flesh",
+    "count": 8
+   },
+   {
+    "item": "minecraft:oak_log",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:tanning_pit",
+   "reaction:pit_tanning"
+  ]
+ },
+ {
+  "id": "mashing",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 3500 BCE",
+  "requires": [
+   "fermentation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:wheat",
+    "count": 8
+   },
+   {
+    "item": "minecraft:potato",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:starch_mashing",
+   "reaction:glucose_fermentation"
+  ]
+ },
+ {
+  "id": "sweet_oil_of_vitriol",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "1540",
+  "requires": [
+   "mineral_acids",
+   "fermentation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ethanol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:ether_distillation"
+  ]
+ },
+ {
+  "id": "alum_making",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "1754",
+  "requires": [
+   "mineral_acids",
+   "saltpeter_refining"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:clay_ball",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:clay_sulfation",
+   "reaction:alum_crystallization",
+   "recipe:alum_tawing"
+  ]
+ },
+ {
+  "id": "hard_soap",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 800",
+  "requires": [
+   "soap_boiling",
+   "salt_evaporation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:soft_soap",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:sodium_chloride",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:hard_soap_boiling",
+   "reaction:soap_salting"
+  ]
+ },
+ {
+  "id": "gas_liquor",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1840",
+  "requires": [
+   "coking",
+   "lead_chamber"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:coal",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:ammonia_liquor",
+   "reaction:ammonium_sulfate_making"
+  ]
+ },
+ {
+  "id": "superphosphate",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1842",
+  "requires": [
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:bone_meal",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:superphosphate_making"
+  ]
+ },
+ {
+  "id": "starch_sugar",
+  "level": 3,
+  "key": false,
+  "category": "food",
+  "date": "1811",
+  "requires": [
+   "acid_digestion",
+   "mashing"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:potato",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:starch_hydrolysis"
+  ]
+ },
+ {
+  "id": "vulcanization",
+  "level": 3,
+  "key": false,
+  "category": "materials",
+  "date": "1839",
+  "requires": [
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sulfur",
+    "count": 8
+   },
+   {
+    "item": "minecraft:jungle_log",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:vulcanizer",
+   "reaction:vulcanization",
+   "reaction:latex_drying",
+   "item:tree_tap",
+   "item:sneakers",
+   "item:rubber_wheels"
+  ]
+ },
+ {
+  "id": "prussian_blue",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "1706",
+  "requires": [
+   "alum_making",
+   "green_vitriol"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:rotten_flesh",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:iron_sulfate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:dye_vat",
+   "reaction:prussiate_making",
+   "reaction:blue_dyeing",
+   "reaction:brazilin_dyeing",
+   "reaction:bixin_dyeing",
+   "reaction:lawsone_dyeing"
+  ]
+ },
+ {
+  "id": "tar_distillation",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1848",
+  "requires": [
+   "coking",
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:coal",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:tar_still",
+   "reaction:coal_tar_condensing",
+   "reaction:tar_distillation",
+   "item:tarmac"
+  ]
+ },
+ {
+  "id": "nitrobenzene",
+  "level": 3,
+  "key": false,
+  "category": "chemistry",
+  "date": "1834",
+  "requires": [
+   "tar_distillation",
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:benzene",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:benzene_nitration"
+  ]
+ },
+ {
+  "id": "aniline",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1854",
+  "requires": [
+   "nitrobenzene"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nitrobenzene",
+    "count": 4
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:aniline_reduction"
+  ]
+ },
+ {
+  "id": "fuchsine",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1858",
+  "requires": [
+   "aniline",
+   "prussian_blue"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:aniline",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:arsenic_trioxide",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:fuchsine_making",
+   "reaction:magenta_dyeing"
+  ]
+ },
+ {
+  "id": "picric_acid",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1849",
+  "requires": [
+   "tar_distillation",
+   "mineral_acids",
+   "prussian_blue"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phenol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:picric_acid_making",
+   "reaction:yellow_dyeing"
+  ]
+ },
+ {
+  "id": "alizarin",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1869",
+  "requires": [
+   "tar_distillation",
+   "prussian_blue",
+   "steam_power"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:anthracene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:sodium_hydroxide",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:autoclave",
+   "reaction:alizarin_fusion",
+   "reaction:red_dyeing"
+  ]
+ },
+ {
+  "id": "antiseptic_surgery",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1867",
+  "requires": [
+   "tar_distillation",
+   "hard_soap"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phenol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:hard_soap",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:carbolic_soap"
+  ]
+ },
+ {
+  "id": "anaesthesia",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1846",
+  "requires": [
+   "sweet_oil_of_vitriol"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:diethyl_ether",
+    "count": 4
+   },
+   {
+    "item": "minecraft:white_wool",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:anaesthetic"
+  ]
+ },
+ {
+  "id": "dynamite",
+  "level": 4,
+  "key": false,
+  "category": "weapons",
+  "date": "1867",
+  "requires": [
+   "soap_boiling",
+   "mineral_acids",
+   "lead_chamber"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:glycerol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:nitroglycerin_making",
+   "item:dynamite",
+   "item:mining_charge"
+  ]
+ },
+ {
+  "id": "cordite",
+  "level": 4,
+  "key": false,
+  "category": "weapons",
+  "date": "1889",
+  "requires": [
+   "dynamite",
+   "smokeless_powder"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nitroglycerin",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:smokeless_powder",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:cordite_making",
+   "item:cordite_cartridge"
+  ]
+ },
+ {
+  "id": "aspirin",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1897",
+  "requires": [
+   "tar_distillation",
+   "alizarin"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phenol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:acetic_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:kolbe_schmitt",
+   "reaction:aspirin_making",
+   "reaction:salicin_oxidation"
+  ]
+ },
+ {
+  "id": "bordeaux_mixture",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1885",
+  "requires": [
+   "acid_digestion",
+   "lime_burning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:calcium_oxide",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:copper_vitriol",
+   "item:bordeaux_mixture"
+  ]
+ },
+ {
+  "id": "insect_powder",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1840",
+  "requires": [
+   "oil_pressing"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:oxeye_daisy",
+    "count": 8
+   },
+   {
+    "item": "minecraft:spider_eye",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:pyrethrum_grinding",
+   "item:insect_spray"
+  ]
+ },
+ {
+  "id": "vacuum_distillation",
+  "level": 4,
+  "key": false,
+  "category": "machines",
+  "date": "1880",
+  "requires": [
+   "steam_power",
+   "tar_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:mercury",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "upgrade:vacuum_pump",
+   "item:vacuum_pump"
+  ]
+ },
+ {
+  "id": "calcium_carbide",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1892",
+  "requires": [
+   "arc_furnace",
+   "lime_burning"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:calcium_oxide",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:coke",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:carbide_smelting",
+   "reaction:acetylene_generation",
+   "item:carbide_lamp"
+  ]
+ },
+ {
+  "id": "calcium_cyanamide",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1898",
+  "requires": [
+   "calcium_carbide",
+   "air_liquefaction"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:calcium_carbide",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitrogen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:cyanamide_making"
+  ]
+ },
+ {
+  "id": "oxy_acetylene",
+  "level": 5,
+  "key": false,
+  "category": "tools",
+  "date": "1903",
+  "requires": [
+   "calcium_carbide",
+   "gas_compression"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:acetylene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:oxygen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:welding_torch"
+  ]
+ },
+ {
+  "id": "formaldehyde",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1889",
+  "requires": [
+   "alembic_distillation",
+   "ostwald_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:methanol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:silver",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "reaction:formaldehyde_making"
+  ]
+ },
+ {
+  "id": "bakelite",
+  "level": 5,
+  "key": false,
+  "category": "materials",
+  "date": "1907",
+  "requires": [
+   "formaldehyde",
+   "alizarin"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phenol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:formaldehyde",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:bakelite_making",
+   "item:bakelite_blocks",
+   "recipe:geiger_counter_bakelite"
+  ]
+ },
+ {
+  "id": "urea",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1922",
+  "requires": [
+   "haber_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ammonia",
+    "count": 4
+   },
+   {
+    "item": "minecraft:calcite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:urea_synthesis"
+  ]
+ },
+ {
+  "id": "prilled_fertilizer",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1935",
+  "requires": [
+   "urea",
+   "ostwald_process",
+   "superphosphate"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:urea",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:superphosphate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:prilling_tower",
+   "reaction:an_neutralizing",
+   "reaction:npk_prilling",
+   "item:pk_blend",
+   "item:npk_prills"
+  ]
+ },
+ {
+  "id": "tnt",
+  "level": 5,
+  "key": false,
+  "category": "weapons",
+  "date": "1902",
+  "requires": [
+   "dynamite",
+   "tar_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:toluene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:tnt_making",
+   "item:demolition_charge",
+   "recipe:tnt_from_trinitrotoluene"
+  ]
+ },
+ {
+  "id": "acetone_fermentation",
+  "level": 5,
+  "key": false,
+  "category": "chemistry",
+  "date": "1916",
+  "requires": [
+   "mashing",
+   "cordite"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:potato",
+    "count": 8
+   },
+   {
+    "item": "minecraft:calcite",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:abe_fermentation"
+  ]
+ },
+ {
+  "id": "neoprene",
+  "level": 5,
+  "key": false,
+  "category": "materials",
+  "date": "1931",
+  "requires": [
+   "calcium_carbide",
+   "chlor_alkali"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:acetylene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:hydrochloric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:neoprene_making",
+   "item:wetsuit"
+  ]
+ },
+ {
+  "id": "buna_rubber",
+  "level": 5,
+  "key": false,
+  "category": "materials",
+  "date": "1929",
+  "requires": [
+   "vulcanization",
+   "thermal_cracking"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ethanol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:benzene",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:lebedev_butadiene",
+   "reaction:styrene_making",
+   "reaction:buna_polymerization",
+   "item:conveyor_belt",
+   "upgrade:conveyor_belt",
+   "recipe:rubber_wheels_buna"
+  ]
+ },
+ {
+  "id": "sulfa_drugs",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1935",
+  "requires": [
+   "aniline",
+   "gas_liquor"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:aniline",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:ammonium_sulfate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:sulfanilamide_making"
+  ]
+ },
+ {
+  "id": "biodiesel",
+  "level": 5,
+  "key": false,
+  "category": "electricity",
+  "date": "1937",
+  "requires": [
+   "soap_boiling",
+   "diesel_engine",
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:vegetable_oil",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:methanol",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:biodiesel_tallow",
+   "reaction:biodiesel_oil"
+  ]
+ },
+ {
+  "id": "polystyrene",
+  "level": 6,
+  "key": false,
+  "category": "materials",
+  "date": "1941",
+  "requires": [
+   "buna_rubber",
+   "polyethylene"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:styrene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:methane",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:polystyrene_making",
+   "item:foam_lagging",
+   "upgrade:foam_lagging",
+   "item:insulation"
+  ]
+ },
+ {
+  "id": "penicillin",
+  "level": 6,
+  "key": true,
+  "category": "knowledge",
+  "date": "1943",
+  "requires": [
+   "sulfa_drugs",
+   "mashing",
+   "electric_motor"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:melon_slice",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:glucose",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "machine:deep_tank_fermenter",
+   "reaction:penicillin_fermentation",
+   "item:sterile_air_filter",
+   "upgrade:sterile_air_filter"
+  ]
+ },
+ {
+  "id": "streptomycin",
+  "level": 6,
+  "key": false,
+  "category": "knowledge",
+  "date": "1943",
+  "requires": [
+   "penicillin"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:dirt",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:protein_meal",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:streptomycin_fermentation"
+  ]
+ },
+ {
+  "id": "ddt",
+  "level": 6,
+  "key": false,
+  "category": "food",
+  "date": "1939",
+  "requires": [
+   "insect_powder",
+   "chlor_alkali",
+   "tar_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:benzene",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:ddt_making",
+   "item:ddt_duster"
+  ]
+ },
+ {
+  "id": "two_four_d",
+  "level": 6,
+  "key": false,
+  "category": "food",
+  "date": "1945",
+  "requires": [
+   "ddt",
+   "tar_distillation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phenol",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:two_four_d_making",
+   "item:weed_killer"
+  ]
+ },
+ {
+  "id": "atrazine",
+  "level": 6,
+  "key": false,
+  "category": "food",
+  "date": "1958",
+  "requires": [
+   "two_four_d",
+   "urea"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ammonia",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:atrazine_making",
+   "item:pre_emergent"
+  ]
+ },
+ {
+  "id": "plastic_explosive",
+  "level": 6,
+  "key": false,
+  "category": "weapons",
+  "date": "1943",
+  "requires": [
+   "tnt",
+   "formaldehyde"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:formaldehyde",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:hexamine_making",
+   "reaction:rdx_making",
+   "item:shaped_charge"
+  ]
+ },
+ {
+  "id": "anfo",
+  "level": 6,
+  "key": false,
+  "category": "weapons",
+  "date": "1955",
+  "requires": [
+   "prilled_fertilizer",
+   "oil_refining"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ammonium_nitrate",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:diesel",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:anfo_charge"
+  ]
+ },
+ {
+  "id": "radiation_countermeasures",
+  "level": 6,
+  "key": false,
+  "category": "knowledge",
+  "date": "1960",
+  "requires": [
+   "reprocessing",
+   "prussian_blue",
+   "iodine"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:dried_kelp",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:prussian_blue",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:iodide_making",
+   "item:prussian_blue_capsule"
+  ]
+ },
+ {
+  "id": "glyphosate",
+  "level": 7,
+  "key": false,
+  "category": "food",
+  "date": "1970",
+  "requires": [
+   "atrazine",
+   "formaldehyde"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:formaldehyde",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:phosphoric_acid",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:glyphosate_making",
+   "item:field_clear"
+  ]
+ },
+ {
+  "id": "recombinant_dna",
+  "level": 7,
+  "key": true,
+  "category": "knowledge",
+  "date": "1973",
+  "requires": [
+   "penicillin",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:glucose",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "machine:bioreactor"
+  ]
+ },
+ {
+  "id": "cellulosic_ethanol",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "2005",
+  "requires": [
+   "recombinant_dna"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:oak_log",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:ethanol",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:cellulose_fermentation"
+  ]
+ },
+ {
+  "id": "tolerant_seeds",
+  "level": 7,
+  "key": false,
+  "category": "food",
+  "date": "1996",
+  "requires": [
+   "recombinant_dna",
+   "glyphosate"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:glyphosate",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "recipe:tolerant_seeds"
+  ]
+ },
+ {
+  "id": "pla",
+  "level": 7,
+  "key": false,
+  "category": "materials",
+  "date": "2001",
+  "requires": [
+   "recombinant_dna",
+   "polystyrene"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:glucose",
+    "count": 8
+   },
+   {
+    "item": "minecraft:sugar_cane",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:pla_making",
+   "recipe:pla_flower_pot",
+   "recipe:pla_item_frame"
+  ]
+ },
+ {
+  "id": "mrna_vaccine",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "2020",
+  "requires": [
+   "recombinant_dna",
+   "streptomycin"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:protein_meal",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:vegetable_oil",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:vaccine_making",
+   "item:mrna_vaccine"
+  ]
+ },
+ {
+  "id": "amifostine",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1995",
+  "requires": [
+   "recombinant_dna",
+   "radiation_countermeasures"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:phosphoric_acid",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:ammonium_sulfate",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:amifostine_making",
+   "reaction:taxol_extraction"
+  ]
+ },
+ {
+  "id": "quarry_tools",
+  "level": 2,
+  "key": false,
+  "category": "tools",
+  "date": "c. 1800",
+  "requires": [
+   "steel_cementation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:cobblestone",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:sledgehammers",
+   "item:excavators"
+  ]
+ },
+ {
+  "id": "rock_blasting",
+  "level": 2,
+  "key": false,
+  "category": "tools",
+  "date": "1627",
+  "requires": [
+   "gunpowder"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:black_powder",
+    "count": 4
+   },
+   {
+    "item": "minecraft:cobblestone",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:blasting_charge"
+  ]
+ },
+ {
+  "id": "rock_drill",
+  "level": 4,
+  "key": false,
+  "category": "tools",
+  "date": "1871",
+  "requires": [
+   "gas_compression",
+   "tungsten"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tungsten_steel_ingot",
+    "count": 2
+   },
+   {
+    "item": "minecraft:piston",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "machine:air_compressor",
+   "reaction:air_compression",
+   "item:pneumatic_rock_drill",
+   "item:tungsten_steel_bit"
+  ]
+ },
+ {
+  "id": "battery_pack",
+  "level": 4,
+  "key": false,
+  "category": "electricity",
+  "date": "1859",
+  "requires": [
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lead",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:lead_acid_pack",
+   "item:charging_bench"
+  ]
+ },
+ {
+  "id": "rotary_hammer",
+  "level": 5,
+  "key": false,
+  "category": "tools",
+  "date": "1932",
+  "requires": [
+   "rock_drill",
+   "battery_pack",
+   "high_speed_steel"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:high_speed_steel_ingot",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:rotary_hammer",
+   "item:high_speed_steel_bit",
+   "item:cemented_carbide_bit"
+  ]
+ },
+ {
+  "id": "chainsaw",
+  "level": 5,
+  "key": false,
+  "category": "tools",
+  "date": "1926",
+  "requires": [
+   "battery_pack",
+   "electric_motor"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:oak_log",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:chainsaw"
+  ]
+ },
+ {
+  "id": "heavy_drill",
+  "level": 6,
+  "key": false,
+  "category": "tools",
+  "date": "1960",
+  "requires": [
+   "rotary_hammer",
+   "diamond_synthesis",
+   "titanium_alloy"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:synthetic_diamond",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:heavy_mining_drill",
+   "item:synthetic_diamond_bit"
+  ]
+ },
+ {
+  "id": "li_ion_pack",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1991",
+  "requires": [
+   "heavy_drill",
+   "lithium_ion_battery"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lithium_cobalt_oxide",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "item:li_ion_pack"
+  ]
+ },
+ {
+  "id": "ore_seeking",
+  "level": 7,
+  "key": false,
+  "category": "tools",
+  "date": "1997",
+  "requires": [
+   "heavy_drill",
+   "element_analyzer"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "minecraft:raw_iron",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:ore_seeking"
+  ]
+ },
+ {
+  "id": "surveying",
+  "level": 1,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 2300 BCE",
+  "requires": [
+   "writing"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:charcoal",
+    "count": 4
+   },
+   {
+    "item": "minecraft:leather",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:field_atlas",
+   "item:vanilla_map"
+  ]
+ },
+ {
+  "id": "magnetic_compass",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1190",
+  "requires": [
+   "surveying",
+   "iron_tools"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:redstone",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "map:compass",
+   "item:vanilla_compass"
+  ]
+ },
+ {
+  "id": "astrolabe",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1300",
+  "requires": [
+   "magnetic_compass"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:bronze_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "map:latitude"
+  ]
+ },
+ {
+  "id": "portolan",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1300",
+  "requires": [
+   "astrolabe",
+   "iron_gall_ink"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:iron_gall_ink",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "map:copy"
+  ]
+ },
+ {
+  "id": "chronometer",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1761",
+  "requires": [
+   "astrolabe",
+   "crucible_steel"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:crucible_steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "map:longitude"
+  ]
+ },
+ {
+  "id": "hot_air_balloon",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1783",
+  "requires": [
+   "surveying",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:white_wool",
+    "count": 16
+   },
+   {
+    "item": "minecraft:string",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:survey_balloon"
+  ]
+ },
+ {
+  "id": "triangulation",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1787",
+  "requires": [
+   "chronometer",
+   "lenses"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:brass_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "map:contours"
+  ]
+ },
+ {
+  "id": "geological_map",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1815",
+  "requires": [
+   "triangulation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:granite",
+    "count": 8
+   },
+   {
+    "item": "minecraft:diorite",
+    "count": 8
+   },
+   {
+    "item": "minecraft:andesite",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "map:geology"
+  ]
+ },
+ {
+  "id": "species_plantarum",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1753",
+  "requires": [
+   "lenses",
+   "writing"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:oak_sapling|minecraft:birch_sapling|minecraft:spruce_sapling|minecraft:jungle_sapling|minecraft:acacia_sapling|minecraft:dark_oak_sapling|minecraft:cherry_sapling",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "compendium:classification"
+  ]
+ },
+ {
+  "id": "plant_geography",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1807",
+  "requires": [
+   "species_plantarum",
+   "pneumatic_chemistry"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "compendium:climate"
+  ]
+ },
+ {
+  "id": "red_list",
+  "level": 6,
+  "key": false,
+  "category": "knowledge",
+  "date": "1964",
+  "requires": [
+   "plant_geography",
+   "penicillin"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 16
+   },
+   {
+    "item": "minecraft:book",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "compendium:conservation"
+  ]
+ },
+ {
+  "id": "core_drilling",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1863",
+  "requires": [
+   "geological_map",
+   "bessemer"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:diamond",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:core_drill",
+   "map:ores"
+  ]
+ },
+ {
+  "id": "radiation_mapping",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1898",
+  "requires": [
+   "radioactivity",
+   "geological_map"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 4
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "map:radiation"
+  ]
+ },
+ {
+  "id": "magnetic_prospecting",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1921",
+  "requires": [
+   "core_drilling",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 8
+   },
+   {
+    "item": "minecraft:compass",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "item:prospecting_magnetometer",
+   "map:anomalies"
+  ]
+ },
+ {
+  "id": "geiger_survey",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1928",
+  "requires": [
+   "geiger_counter",
+   "radiation_mapping"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:raw_pitchblende",
+    "count": 8
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "map:geiger_log"
+  ]
+ },
+ {
+  "id": "radio_direction_finding",
+  "level": 5,
+  "key": false,
+  "category": "electricity",
+  "date": "c. 1910",
+  "requires": [
+   "dynamo",
+   "portolan"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 16
+   },
+   {
+    "item": "minecraft:redstone",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:radio_transmitter",
+   "map:radio"
+  ]
+ },
+ {
+  "id": "radar",
+  "level": 6,
+  "key": false,
+  "category": "electricity",
+  "date": "1940",
+  "requires": [
+   "radio_direction_finding",
+   "crystal_growth"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:copper_wire",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:germanium_crystal",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "item:radar_station",
+   "item:handheld_radar",
+   "map:radar",
+   "map:minimap"
+  ]
+ },
+ {
+  "id": "gamma_spectrometry",
+  "level": 6,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1950",
+  "requires": [
+   "geiger_survey",
+   "crystal_growth"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:iodine",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:thallium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "map:isotopes"
+  ]
+ },
+ {
+  "id": "satellite",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1957",
+  "requires": [
+   "radar",
+   "solar_cell"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:kerosene",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:satellite",
+   "item:launch_pad",
+   "item:tracking_station",
+   "map:satellite"
+  ]
+ },
+ {
+  "id": "landsat",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1972",
+  "requires": [
+   "satellite",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:silicon_wafer",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "map:landsat"
+  ]
+ },
+ {
+  "id": "gps",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1978",
+  "requires": [
+   "satellite",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:caesium",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "item:gps_receiver",
+   "map:gps"
+  ]
+ },
+ {
+  "id": "de_re_metallica",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "1556",
+  "requires": [
+   "lenses",
+   "writing"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:raw_iron",
+    "count": 4
+   },
+   {
+    "item": "minecraft:raw_copper",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "compendium:ores"
+  ]
+ },
+ {
+  "id": "theory_of_the_earth",
+  "level": 3,
+  "key": false,
+  "category": "knowledge",
+  "date": "1788",
+  "requires": [
+   "de_re_metallica",
+   "geological_map"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:granite",
+    "count": 4
+   },
+   {
+    "item": "minecraft:sandstone",
+    "count": 4
+   },
+   {
+    "item": "minecraft:basalt",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "compendium:origin"
+  ]
+ },
+ {
+  "id": "thin_sections",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1858",
+  "requires": [
+   "theory_of_the_earth",
+   "spectroscopy"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:diorite",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "compendium:petrography"
+  ]
+ },
+ {
+  "id": "xray_diffraction",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1913",
+  "requires": [
+   "thin_sections",
+   "geiger_counter"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:quartz",
+    "count": 8
+   },
+   {
+    "item": "minecraft:amethyst_shard",
+    "count": 4
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "compendium:crystals"
+  ]
+ },
+ {
+  "id": "heated_greenhouse",
+  "level": 2,
+  "key": false,
+  "category": "food",
+  "date": "1681",
+  "requires": [
+   "glassmaking",
+   "alembic_distillation"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass",
+    "count": 8
+   },
+   {
+    "item": "minecraft:brick",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:greenhouse_heater"
+  ]
+ },
+ {
+  "id": "cold_greenhouse",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1876",
+  "requires": [
+   "heated_greenhouse",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:packed_ice",
+    "count": 8
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:greenhouse_cooler"
+  ]
+ },
+ {
+  "id": "alkaloids",
+  "level": 4,
+  "key": false,
+  "category": "chemistry",
+  "date": "1819",
+  "requires": [
+   "acid_digestion"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sulfuric_acid",
+    "count": 4
+   },
+   {
+    "item": "minecraft:poppy",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:caffeine_extraction",
+   "reaction:capsaicin_extraction",
+   "reaction:emetine_extraction",
+   "reaction:pilocarpine_extraction"
+  ]
+ },
+ {
+  "id": "food_antioxidants",
+  "level": 6,
+  "key": false,
+  "category": "food",
+  "date": "1943",
+  "requires": [
+   "alkaloids",
+   "ion_exchange"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:vegetable_oil",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:tallow",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:ndga_extraction"
+  ]
+ },
+ {
+  "id": "vitamins",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1928",
+  "requires": [
+   "alkaloids"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:citric_acid",
+    "count": 4
+   },
+   {
+    "item": "minecraft:apple",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:vitamin_c_extraction",
+   "reaction:arbutin_extraction"
+  ]
+ },
+ {
+  "id": "domestication",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 8000 BCE",
+  "requires": [],
+  "samples": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "count": 16
+   },
+   {
+    "item": "minecraft:carrot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:seed_lens"
+  ]
+ },
+ {
+  "id": "animal_husbandry",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 7000 BCE",
+  "requires": [],
+  "samples": [
+   {
+    "item": "minecraft:hay_block",
+    "count": 4
+   },
+   {
+    "item": "minecraft:wheat",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:feeding_trough"
+  ]
+ },
+ {
+  "id": "crop_rotation",
+  "level": 2,
+  "key": false,
+  "category": "food",
+  "date": "c. 800",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:beans|periodic_elements:soybeans",
+    "count": 8
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "crop:rotation"
+  ]
+ },
+ {
+  "id": "natural_dyes",
+  "level": 2,
+  "key": false,
+  "category": "food",
+  "date": "c. 1200",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:indigo_leaves",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:madder_root",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:indigo_dyeing",
+   "reaction:madder_dyeing"
+  ]
+ },
+ {
+  "id": "plant_hybridization",
+  "level": 3,
+  "key": false,
+  "category": "food",
+  "date": "1761",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:feather",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:maize_kernels",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:pollination_brush"
+  ]
+ },
+ {
+  "id": "tobacco_wash",
+  "level": 3,
+  "key": false,
+  "category": "food",
+  "date": "1763",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tobacco_leaves",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:tobacco_wash"
+  ]
+ },
+ {
+  "id": "mendels_laws",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1866",
+  "requires": [
+   "plant_hybridization"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:beans",
+    "count": 16
+   },
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "crop:genotype",
+   "item:crossing_notebook"
+  ]
+ },
+ {
+  "id": "silage",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1877",
+  "requires": [
+   "animal_husbandry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:maize",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:alfalfa",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:silo"
+  ]
+ },
+ {
+  "id": "nitrogen_fixation",
+  "level": 4,
+  "key": false,
+  "category": "food",
+  "date": "1888",
+  "requires": [
+   "crop_rotation"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:soybeans",
+    "count": 16
+   },
+   {
+    "item": "minecraft:dirt",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:inoculant"
+  ]
+ },
+ {
+  "id": "hybrid_maize",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1922",
+  "requires": [
+   "mendels_laws"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:maize_kernels",
+    "count": 32
+   }
+  ],
+  "unlocks": [
+   "crop:hybrid"
+  ]
+ },
+ {
+  "id": "balanced_feed",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1925",
+  "requires": [
+   "animal_husbandry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:oats",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:protein_meal",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:balanced_feed"
+  ]
+ },
+ {
+  "id": "x_ray_mutagenesis",
+  "level": 5,
+  "key": false,
+  "category": "food",
+  "date": "1928",
+  "requires": [
+   "mendels_laws",
+   "xray_diffraction"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "count": 32
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:seed_irradiator"
+  ]
+ },
+ {
+  "id": "dna_double_helix",
+  "level": 6,
+  "key": false,
+  "category": "knowledge",
+  "date": "1953",
+  "requires": [
+   "mendels_laws",
+   "xray_diffraction"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:soybeans",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "crop:dna"
+  ]
+ },
+ {
+  "id": "gamma_garden",
+  "level": 6,
+  "key": false,
+  "category": "food",
+  "date": "1960",
+  "requires": [
+   "x_ray_mutagenesis",
+   "cyclotron",
+   "heavy_water"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:cobalt",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:lead",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:gamma_garden",
+   "reaction:cobalt_60_activation"
+  ]
+ },
+ {
+  "id": "dna_sequencing",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1977",
+  "requires": [
+   "dna_double_helix",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:glucose",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:dna_sequencer"
+  ]
+ },
+ {
+  "id": "pcr",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1985",
+  "requires": [
+   "dna_sequencing"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:glucose",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:thermocycler"
+  ]
+ },
+ {
+  "id": "transgenesis",
+  "level": 7,
+  "key": false,
+  "category": "food",
+  "date": "1987",
+  "requires": [
+   "recombinant_dna",
+   "dna_double_helix"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:helium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:gene_gun",
+   "item:bt_gene",
+   "item:epsps_gene",
+   "item:golden_gene",
+   "item:dreb_gene"
+  ]
+ },
+ {
+  "id": "crispr",
+  "level": 7,
+  "key": false,
+  "category": "food",
+  "date": "2012",
+  "requires": [
+   "transgenesis",
+   "pcr"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:glucose",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:crispr_kit"
+  ]
+ },
+ {
+  "id": "belt_conveyor",
+  "level": 4,
+  "key": false,
+  "category": "machines",
+  "date": "1891",
+  "requires": [
+   "automatic_mill",
+   "vulcanization"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:vulcanized_rubber",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:rubber_belt",
+   "item:steel_hopper",
+   "item:belt_sorter"
+  ]
+ },
+ {
+  "id": "assembly_line",
+  "level": 5,
+  "key": false,
+  "category": "machines",
+  "date": "1913",
+  "requires": [
+   "belt_conveyor",
+   "stainless_steel"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:stainless_steel_ingot",
+    "count": 4
+   },
+   {
+    "item": "minecraft:redstone",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:roller_conveyor",
+   "item:stainless_hopper"
+  ]
+ },
+ {
+  "id": "hide_tent",
+  "level": 1,
+  "key": false,
+  "category": "tools",
+  "date": "Prehistory",
+  "requires": [
+   "leather_tanning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:leather",
+    "count": 6
+   },
+   {
+    "item": "minecraft:stick",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:tent"
+  ]
+ },
+ {
+  "id": "leather_pack",
+  "level": 1,
+  "key": false,
+  "category": "tools",
+  "date": "Prehistory",
+  "requires": [
+   "leather_tanning"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:leather",
+    "count": 8
+   },
+   {
+    "item": "minecraft:string",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:leather_backpack"
+  ]
+ },
+ {
+  "id": "hunting_nets",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 25000 BCE",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:string",
+    "count": 12
+   }
+  ],
+  "unlocks": [
+   "item:rope_net"
+  ]
+ },
+ {
+  "id": "explorer_compass",
+  "level": 2,
+  "key": false,
+  "category": "knowledge",
+  "date": "c. 1500",
+  "requires": [
+   "magnetic_compass",
+   "portolan"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:compass",
+    "count": 1
+   },
+   {
+    "item": "minecraft:map",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:explorer_compass"
+  ]
+ },
+ {
+  "id": "animal_cage",
+  "level": 3,
+  "key": false,
+  "category": "food",
+  "date": "1752",
+  "requires": [
+   "crucible_steel"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:iron_bars",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:crucible_steel_ingot",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:steel_cage"
+  ]
+ },
+ {
+  "id": "electric_cap_lamp",
+  "level": 5,
+  "key": false,
+  "category": "electricity",
+  "date": "1911",
+  "requires": [
+   "battery_pack",
+   "tungsten"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tungsten",
+    "count": 2
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:electric_cap_lamp"
+  ]
+ },
+ {
+  "id": "sodium_lighting",
+  "level": 5,
+  "key": false,
+  "category": "electricity",
+  "date": "1932",
+  "requires": [
+   "noble_gases",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:sodium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:neon",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:sodium_lamp"
+  ]
+ },
+ {
+  "id": "night_vision",
+  "level": 6,
+  "key": false,
+  "category": "electricity",
+  "date": "1944",
+  "requires": [
+   "rubidium_caesium",
+   "dynamo"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:caesium",
+    "count": 2
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:night_vision_goggles"
+  ]
+ },
+ {
+  "id": "nylon_pack",
+  "level": 6,
+  "key": false,
+  "category": "tools",
+  "date": "1950",
+  "requires": [
+   "nylon"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nylon",
+    "count": 8
+   },
+   {
+    "item": "minecraft:chest",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:nylon_backpack"
+  ]
+ },
+ {
+  "id": "led_lighting",
+  "level": 7,
+  "key": false,
+  "category": "electricity",
+  "date": "1996",
+  "requires": [
+   "compound_semiconductors"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:gallium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:nitrogen",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:led_lamp",
+   "item:led_spotlight_helmet"
+  ]
+ },
+ {
+  "id": "sericulture",
+  "level": 1,
+  "key": false,
+  "category": "food",
+  "date": "c. 2700 BCE",
+  "requires": [
+   "domestication"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:string",
+    "count": 8
+   },
+   {
+    "item": "minecraft:white_carpet",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:sericulture_tray"
+  ]
+ },
+ {
+  "id": "carmine",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 1520",
+  "requires": [
+   "prussian_blue"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:cactus",
+    "count": 8
+   },
+   {
+    "item": "minecraft:red_dye",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:carmine_dyeing"
+  ]
+ },
+ {
+  "id": "shellac",
+  "level": 3,
+  "key": false,
+  "category": "materials",
+  "date": "c. 1750",
+  "requires": [
+   "rendering"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:stick",
+    "count": 16
+   },
+   {
+    "item": "minecraft:honeycomb",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:shellac_refining"
+  ]
+ },
+ {
+  "id": "origin_of_species",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1859",
+  "requires": [
+   "species_plantarum"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:paper",
+    "count": 8
+   },
+   {
+    "item": "minecraft:feather",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "compendium:evolution"
+  ]
+ },
+ {
+  "id": "antivenom",
+  "level": 4,
+  "key": false,
+  "category": "knowledge",
+  "date": "1895",
+  "requires": [
+   "alkaloids"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   },
+   {
+    "item": "minecraft:spider_eye",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:antivenom"
+  ]
+ },
+ {
+  "id": "hirudin",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1904",
+  "requires": [
+   "vitamins"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   },
+   {
+    "item": "minecraft:slime_ball",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:hirudin_extraction"
+  ]
+ },
+ {
+  "id": "exenatide",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "2005",
+  "requires": [
+   "recombinant_dna"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   },
+   {
+    "item": "minecraft:egg",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:exenatide_making"
+  ]
+ },
+ {
+  "id": "guano",
+  "level": 3,
+  "key": false,
+  "category": "food",
+  "date": "1840",
+  "requires": [
+   "saltpeter_refining"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:bone_meal",
+    "count": 8
+   },
+   {
+    "item": "minecraft:feather",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:guano_saltpetre"
+  ]
+ },
+ {
+  "id": "galalith",
+  "level": 5,
+  "key": false,
+  "category": "materials",
+  "date": "1897",
+  "requires": [
+   "formaldehyde"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:milk_bucket",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:formaldehyde",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:galalith_making"
+  ]
+ },
+ {
+  "id": "tyrian_purple",
+  "level": 2,
+  "key": false,
+  "category": "chemistry",
+  "date": "c. 1500 BCE",
+  "requires": [
+   "prussian_blue"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:purple_dye",
+    "count": 4
+   },
+   {
+    "item": "minecraft:prismarine_shard",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:tyrian_purple_dyeing"
+  ]
+ },
+ {
+  "id": "vitamin_d",
+  "level": 5,
+  "key": false,
+  "category": "knowledge",
+  "date": "1922",
+  "requires": [
+   "vitamins"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:cod",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:vitamin_d_extraction"
+  ]
+ },
+ {
+  "id": "chitosan",
+  "level": 6,
+  "key": false,
+  "category": "materials",
+  "date": "1859",
+  "requires": [
+   "vitamins"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:nautilus_shell",
+    "count": 2
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:chitosan_making"
+  ]
+ },
+ {
+  "id": "lal_test",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1977",
+  "requires": [
+   "recombinant_dna"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:lal_extraction"
+  ]
+ },
+ {
+  "id": "gfp",
+  "level": 7,
+  "key": false,
+  "category": "knowledge",
+  "date": "1994",
+  "requires": [
+   "recombinant_dna"
+  ],
+  "samples": [
+   {
+    "item": "minecraft:glow_ink_sac",
+    "count": 4
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:gfp_making"
+  ]
+ }
+]

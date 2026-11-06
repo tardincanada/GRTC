@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:silk_cocoon"
+  },
+  "result": {
+    "id": "periodic_elements:silk",
+    "count": 3
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

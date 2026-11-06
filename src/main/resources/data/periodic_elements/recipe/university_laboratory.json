@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GAG",
+    "WLW",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "L": {
+      "item": "periodic_elements:industrial_laboratory"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:university_laboratory",
+    "count": 1
+  }
+}

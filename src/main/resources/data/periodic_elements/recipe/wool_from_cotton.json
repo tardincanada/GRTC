@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "periodic_elements:cotton"
+    }
+  },
+  "result": {
+    "id": "minecraft:white_wool",
+    "count": 1
+  }
+}

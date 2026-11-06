@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "APA",
+    "ACA",
+    "ALA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "L": {
+      "item": "periodic_elements:lithium_ion_battery"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:gps_receiver",
+    "count": 1
+  }
+}

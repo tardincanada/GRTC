@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GLG",
+    "BPB"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "L": {
+      "item": "periodic_elements:magnifying_lens"
+    },
+    "B": {
+      "item": "periodic_elements:brass_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:spectroscope_bench",
+    "count": 1
+  }
+}

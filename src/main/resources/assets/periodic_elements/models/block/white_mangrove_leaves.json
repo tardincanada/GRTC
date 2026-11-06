@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "periodic_elements:block/white_mangrove_leaves"
+  }
+}

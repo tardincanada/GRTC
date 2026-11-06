@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SGS",
+    "S S",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:iron_bars"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:prilling_tower",
+    "count": 1
+  }
+}

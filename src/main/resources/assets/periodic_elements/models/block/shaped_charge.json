@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "front": "periodic_elements:block/shaped_charge_front",
+    "side": "periodic_elements:block/shaped_charge_side",
+    "top": "periodic_elements:block/shaped_charge_side",
+    "bottom": "periodic_elements:block/shaped_charge_back"
+  }
+}

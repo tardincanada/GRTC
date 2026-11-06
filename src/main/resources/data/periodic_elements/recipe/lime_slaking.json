@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:calcium_oxide"
+    },
+    {
+      "item": "periodic_elements:calcium_oxide"
+    },
+    {
+      "item": "periodic_elements:calcium_oxide"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:calcium_hydroxide",
+    "count": 4
+  }
+}

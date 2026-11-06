@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "minecraft:block/granite",
+    "top": "minecraft:block/granite",
+    "bottom": "minecraft:block/granite",
+    "overlay": "periodic_elements:block/ore_overlay_molybdenite"
+  }
+}

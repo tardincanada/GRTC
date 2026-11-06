@@ -1,0 +1,2629 @@
+{
+  "species": [
+    {
+      "id": "mahogany",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "brazil_nut",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "brazil_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "brazilwood",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sapodilla",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "sapodilla",
+      "bark": null,
+      "tap": "chicle",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "andiroba",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "andiroba_seed",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "acai",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": "acai_berry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "babassu",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": "babassu_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "copaiba",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "copaiba_balsam",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "cinchona",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": "cinchona_bark",
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "oil_palm",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": "oil_palm_fruit",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "teak",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "cinnamon",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": "cinnamon",
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "camphor_laurel",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sal",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "dammar",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "nutmeg",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "nutmeg",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "baobab",
+      "biomes": [
+        "savanna",
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 200,
+      "classes": [
+        "open"
+      ],
+      "fruit": "baobab_fruit",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "gum_arabic_tree",
+      "biomes": [
+        "savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "gum_arabic",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "marula",
+      "biomes": [
+        "savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "marula",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "shea",
+      "biomes": [
+        "savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": "shea_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "eucalyptus",
+      "biomes": [
+        "savanna",
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pequi",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "pequi",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "barbatimao",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "yellow_ipe",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 450,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "jatoba",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "copal",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sandalwood",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "dragon_tree",
+      "biomes": [
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "dragons_blood",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "frankincense",
+      "biomes": [
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "frankincense",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "myrrh",
+      "biomes": [
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "myrrh",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "date_palm",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "fuel": 250,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "date",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "mesquite",
+      "biomes": [
+        "desert",
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 450,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "mesquite_pod",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "joshua_tree",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "fuel": 150,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "saxaul",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "fuel": 600,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "argan",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "fuel": 450,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "argan_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "palo_verde",
+      "biomes": [
+        "badlands",
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "palo_verde_seeds",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pinyon_pine",
+      "biomes": [
+        "badlands",
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 350,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "utah_juniper",
+      "biomes": [
+        "badlands",
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 400,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": "juniper_berry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "desert_ironwood",
+      "biomes": [
+        "badlands",
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 600,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "tamarisk",
+      "biomes": [
+        "badlands",
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "ponderosa_pine",
+      "biomes": [
+        "wooded_badlands",
+        "old_growth_pine_taiga"
+      ],
+      "soil": "sand",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "gambel_oak",
+      "biomes": [
+        "wooded_badlands"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "acorn",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "mountain_mahogany",
+      "biomes": [
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 600,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "elephant_tree",
+      "biomes": [
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "fuel": 250,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "copal",
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "coconut_palm",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": "coconut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "tropical_almond",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": "tropical_almond",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "casuarina",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "fuel": 600,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "screw_pine",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "fuel": 200,
+      "classes": [
+        "open"
+      ],
+      "fruit": "pandanus_fruit",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sea_grape",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "sea_grape",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "black_mangrove",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "white_mangrove",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "buttonwood",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "fuel": 450,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "nipa_palm",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "fuel": 200,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "nipa_fruit",
+      "bark": null,
+      "tap": "palm_sap",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "buriti",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "buriti",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "eastern_cottonwood",
+      "biomes": [
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 200,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "american_elm",
+      "biomes": [
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "ash",
+      "biomes": [
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "walnut",
+      "biomes": [
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "walnut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "white_mulberry",
+      "biomes": [
+        "plains",
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "mulberry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "linden",
+      "biomes": [
+        "sunflower_plains",
+        "forest",
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": "linden_flower",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sweet_chestnut",
+      "biomes": [
+        "sunflower_plains",
+        "forest"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": "chestnut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pear",
+      "biomes": [
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "pear",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "elder",
+      "biomes": [
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "fuel": 200,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "elderberry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "beech",
+      "biomes": [
+        "forest",
+        "birch_forest",
+        "old_growth_birch_forest",
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sugar_maple",
+      "biomes": [
+        "forest",
+        "birch_forest",
+        "old_growth_birch_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "maple_sap",
+      "tapFlask": true,
+      "tapTicks": 1200
+    },
+    {
+      "id": "hornbeam",
+      "biomes": [
+        "forest",
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 450,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "southern_magnolia",
+      "biomes": [
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "tulip_tree",
+      "biomes": [
+        "flower_forest",
+        "old_growth_birch_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "paulownia",
+      "biomes": [
+        "flower_forest",
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 150,
+      "classes": [
+        "dense",
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "judas_tree",
+      "biomes": [
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "quaking_aspen",
+      "biomes": [
+        "birch_forest",
+        "old_growth_birch_forest",
+        "taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 200,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "alder",
+      "biomes": [
+        "birch_forest",
+        "swamp"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense",
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "rowan",
+      "biomes": [
+        "birch_forest",
+        "windswept_forest",
+        "snowy_taiga",
+        "snowy_plains",
+        "snowy_beach",
+        "meadow"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense",
+        "open",
+        "sparse"
+      ],
+      "fruit": "rowan_berry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "black_cherry",
+      "biomes": [
+        "old_growth_birch_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "yew",
+      "biomes": [
+        "dark_forest",
+        "windswept_forest",
+        "grove"
+      ],
+      "soil": "dirt",
+      "fuel": 450,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "black_walnut",
+      "biomes": [
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "black_walnut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "holly",
+      "biomes": [
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "bald_cypress",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "mud",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "water_tupelo",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "mud",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "white_willow",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "dirt",
+      "fuel": 200,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": "willow_bark",
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "red_maple",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "maple_sap",
+      "tapFlask": true,
+      "tapTicks": 1200
+    },
+    {
+      "id": "ginkgo",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "ginkgo_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "japanese_maple",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sugi",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "lacquer_tree",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "urushi",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "cork_oak",
+      "biomes": [
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "fuel": 400,
+      "classes": [
+        "open"
+      ],
+      "fruit": "acorn",
+      "bark": "cork",
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "olive",
+      "biomes": [
+        "windswept_hills",
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 450,
+      "classes": [
+        "open"
+      ],
+      "fruit": "olive",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "cedar_of_lebanon",
+      "biomes": [
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "black_pine",
+      "biomes": [
+        "windswept_hills",
+        "stony_peaks",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "carob",
+      "biomes": [
+        "windswept_hills",
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 400,
+      "classes": [
+        "open"
+      ],
+      "fruit": "carob_pod",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "stone_pine",
+      "biomes": [
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "aleppo_pine",
+      "biomes": [
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "monterey_cypress",
+      "biomes": [
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "apple",
+      "biomes": [
+        "plains",
+        "sunflower_plains",
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": "minecraft:apple",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "balsam_fir",
+      "biomes": [
+        "taiga",
+        "grove"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "canada_balsam",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "silver_fir",
+      "biomes": [
+        "windswept_forest",
+        "meadow",
+        "grove"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense",
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "douglas_fir",
+      "biomes": [
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 400,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "siberian_fir",
+      "biomes": [
+        "snowy_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "green_alder",
+      "biomes": [
+        "snowy_plains",
+        "ice_spikes",
+        "snowy_beach"
+      ],
+      "soil": "alpine",
+      "fuel": 250,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sycamore_maple",
+      "biomes": [
+        "meadow"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "atlas_cedar",
+      "biomes": [
+        "stony_peaks",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "alpine",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "siberian_pine",
+      "biomes": [
+        "taiga",
+        "snowy_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "western_red_cedar",
+      "biomes": [
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sea_buckthorn",
+      "biomes": [
+        "snowy_beach",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "alpine",
+      "fuel": 300,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": "sea_buckthorn_berry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "european_larch",
+      "biomes": [
+        "windswept_forest",
+        "taiga",
+        "old_growth_pine_taiga",
+        "meadow",
+        "grove",
+        "snowy_slopes"
+      ],
+      "soil": "alpine",
+      "fuel": 400,
+      "classes": [
+        "dense",
+        "open",
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "dahurian_larch",
+      "biomes": [
+        "snowy_taiga",
+        "snowy_plains",
+        "ice_spikes"
+      ],
+      "soil": "alpine",
+      "fuel": 400,
+      "classes": [
+        "dense",
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "siberian_dwarf_pine",
+      "biomes": [
+        "ice_spikes",
+        "snowy_slopes",
+        "frozen_peaks"
+      ],
+      "soil": "alpine",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "eastern_white_pine",
+      "biomes": [
+        "old_growth_pine_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "bristlecone_pine",
+      "biomes": [
+        "frozen_peaks",
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "soil": "alpine",
+      "fuel": 500,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "swiss_pine",
+      "biomes": [
+        "meadow",
+        "grove",
+        "snowy_slopes",
+        "jagged_peaks"
+      ],
+      "soil": "alpine",
+      "fuel": 350,
+      "classes": [
+        "dense",
+        "open",
+        "sparse"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "whitebark_pine",
+      "biomes": [
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "soil": "alpine",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "pine_nut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "lodgepole_pine",
+      "biomes": [
+        "old_growth_pine_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "mountain_pine",
+      "biomes": [
+        "snowy_slopes",
+        "frozen_peaks",
+        "jagged_peaks",
+        "stony_peaks",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "alpine",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "scots_pine",
+      "biomes": [
+        "windswept_forest",
+        "taiga",
+        "snowy_taiga",
+        "old_growth_pine_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "arctic_willow",
+      "biomes": [
+        "snowy_plains",
+        "ice_spikes",
+        "snowy_beach",
+        "frozen_peaks"
+      ],
+      "soil": "alpine",
+      "fuel": 150,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": "willow_bark",
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "coast_redwood",
+      "biomes": [
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "giant_sequoia",
+      "biomes": [
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "western_hemlock",
+      "biomes": [
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "common_juniper",
+      "biomes": [
+        "snowy_plains",
+        "ice_spikes",
+        "snowy_beach",
+        "snowy_slopes",
+        "frozen_peaks",
+        "jagged_peaks",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "alpine",
+      "fuel": 350,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": "juniper_berry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "araucaria",
+      "biomes": [
+        "forest",
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense",
+        "open"
+      ],
+      "fruit": "araucaria_seed",
+      "bark": null,
+      "tap": "pine_resin",
+      "tapFlask": true,
+      "tapTicks": 0
+    },
+    {
+      "id": "brazilian_rosewood",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 450,
+      "classes": [
+        "dense"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "mango",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "mango",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "avocado",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "avocado",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "cashew",
+      "biomes": [
+        "beach",
+        "savanna"
+      ],
+      "soil": "sand",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": "cashew",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "orange",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "orange",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "lemon",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "lemon",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "papaya",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 100,
+      "classes": [
+        "open"
+      ],
+      "fruit": "papaya",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "kapok",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "fuel": 150,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "kapok_fiber",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "sweet_cherry",
+      "biomes": [
+        "forest"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "cherry",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "plum",
+      "biomes": [
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "fuel": 350,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "plum",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "peach",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "peach",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "apricot",
+      "biomes": [
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "fuel": 350,
+      "classes": [
+        "open"
+      ],
+      "fruit": "apricot",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "fig",
+      "biomes": [
+        "stony_shore",
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "fuel": 250,
+      "classes": [
+        "open"
+      ],
+      "fruit": "fig",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pomegranate",
+      "biomes": [
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "fuel": 300,
+      "classes": [
+        "open"
+      ],
+      "fruit": "pomegranate",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "almond",
+      "biomes": [
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "fuel": 400,
+      "classes": [
+        "open"
+      ],
+      "fruit": "almond",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pistachio",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "fuel": 450,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": "pistachio",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "hazel",
+      "biomes": [
+        "forest",
+        "birch_forest"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "hazelnut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "pecan",
+      "biomes": [
+        "swamp",
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 450,
+      "classes": [
+        "open",
+        "sparse"
+      ],
+      "fruit": "pecan",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "plane_tree",
+      "biomes": [
+        "plains"
+      ],
+      "soil": "dirt",
+      "fuel": 300,
+      "classes": [
+        "sparse"
+      ],
+      "fruit": null,
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    },
+    {
+      "id": "horse_chestnut",
+      "biomes": [
+        "forest"
+      ],
+      "soil": "dirt",
+      "fuel": 250,
+      "classes": [
+        "dense"
+      ],
+      "fruit": "horse_chestnut",
+      "bark": null,
+      "tap": null,
+      "tapFlask": false,
+      "tapTicks": 0
+    }
+  ],
+  "products": {
+    "brazil_nut": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "sapodilla": {
+      "food": [
+        4,
+        0.4
+      ]
+    },
+    "andiroba_seed": {
+      "food": null
+    },
+    "acai_berry": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "babassu_nut": {
+      "food": [
+        2,
+        0.4
+      ]
+    },
+    "oil_palm_fruit": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "nutmeg": {
+      "food": null
+    },
+    "baobab_fruit": {
+      "food": [
+        4,
+        0.5
+      ]
+    },
+    "marula": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "shea_nut": {
+      "food": null
+    },
+    "pequi": {
+      "food": [
+        3,
+        0.5
+      ]
+    },
+    "date": {
+      "food": [
+        4,
+        0.6
+      ]
+    },
+    "mesquite_pod": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "argan_nut": {
+      "food": null
+    },
+    "palo_verde_seeds": {
+      "food": [
+        1,
+        0.2
+      ]
+    },
+    "pine_nut": {
+      "food": [
+        2,
+        0.5
+      ]
+    },
+    "juniper_berry": {
+      "food": null
+    },
+    "acorn": {
+      "food": null
+    },
+    "coconut": {
+      "food": [
+        4,
+        0.6
+      ]
+    },
+    "tropical_almond": {
+      "food": [
+        3,
+        0.5
+      ]
+    },
+    "pandanus_fruit": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "sea_grape": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "nipa_fruit": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "buriti": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "cinchona_bark": {
+      "food": null
+    },
+    "cinnamon": {
+      "food": null
+    },
+    "walnut": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "mulberry": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "linden_flower": {
+      "food": null
+    },
+    "chestnut": {
+      "food": [
+        3,
+        0.5
+      ]
+    },
+    "pear": {
+      "food": [
+        4,
+        0.4
+      ]
+    },
+    "elderberry": {
+      "food": [
+        2,
+        0.2
+      ]
+    },
+    "rowan_berry": {
+      "food": null
+    },
+    "black_walnut": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "ginkgo_nut": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "olive": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "carob_pod": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "cork": {
+      "food": null
+    },
+    "sea_buckthorn_berry": {
+      "food": [
+        2,
+        0.4
+      ]
+    },
+    "araucaria_seed": {
+      "food": [
+        3,
+        0.5
+      ]
+    },
+    "mango": {
+      "food": [
+        4,
+        0.5
+      ]
+    },
+    "avocado": {
+      "food": [
+        4,
+        0.7
+      ]
+    },
+    "cashew": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "orange": {
+      "food": [
+        3,
+        0.5
+      ]
+    },
+    "lemon": {
+      "food": [
+        1,
+        0.2
+      ]
+    },
+    "papaya": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "kapok_fiber": {
+      "food": null
+    },
+    "cherry": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "plum": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "peach": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "apricot": {
+      "food": [
+        2,
+        0.3
+      ]
+    },
+    "fig": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "pomegranate": {
+      "food": [
+        3,
+        0.4
+      ]
+    },
+    "almond": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "pistachio": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "hazelnut": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "pecan": {
+      "food": [
+        3,
+        0.6
+      ]
+    },
+    "horse_chestnut": {
+      "food": null
+    },
+    "willow_bark": {
+      "food": null
+    }
+  }
+}

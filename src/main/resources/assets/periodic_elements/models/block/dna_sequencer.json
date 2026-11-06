@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "periodic_elements:block/dna_sequencer_side",
+    "top": "periodic_elements:block/dna_sequencer_top",
+    "bottom": "periodic_elements:block/dna_sequencer_top"
+  }
+}

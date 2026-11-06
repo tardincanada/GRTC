@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "minecraft:block/calcite",
+    "top": "minecraft:block/calcite",
+    "bottom": "minecraft:block/calcite",
+    "overlay": "periodic_elements:block/ore_overlay_fluorite"
+  }
+}

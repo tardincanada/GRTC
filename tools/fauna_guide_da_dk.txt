@@ -1,0 +1,31 @@
+# Vilde dyr
+Hvert biom har to til fire dyr for sig selv, som kun dukker op der. De fleste flygter fra dig; store slår igen, hvis de bliver ramt. Kun den Gule ørkenskorpion jager dig, om natten, og den Gyldne pilegiftfrø forgifter den bare hånd, der rører ved den.
+# Avl
+Giv to dyr af samme art det foder, de kan lide, så de formerer sig. Langt fra deres klima formerer de sig tre gange langsommere; et drivhus, der er varmet eller kølet til deres klima, lader dem formere sig som normalt.
+# Hvad dyrene giver
+Dyr i en fold (et hegn inden for 4 blokke) taber Gødning nu og da: brug den på en plante som benmel, eller brænd den. Gnid pile mod en Gylden pilegiftfrø for at forgifte op til 8. En glasflaske på en Gul ørkenskorpion eller en Gilaøgle tapper giften, én gang hvert femte minut. Strudse lægger æg så store som fire hønseæg.
+# Små dyr
+Insekter og orme er genstande og blokke. Når du graver jord eller græs, dukker der nu og da en Regnorm op, og når du klipper blade af hvid morbær en Silkeorm. I sumpvand kan en Lægeigle suge sig fast og langsomt tappe dig for blod: salt fjerner den og giver dig iglen.
+En Ormekasse (planker om jord) tager en regnorm; fodr den med blade, planter, frø eller gødning, så giver den Humus, et gødningsmiddel.
+Silkeavl (niveau 1): Silkeavlsbakken tager silkeorme; fodr den med blade af hvid morbær, så giver den Silkekokoner, som smeltes til Silketråd i ovnen.
+Cochenille gror på kaktusser i ørkener og badlands, og Lakskjoldlusen på junglestammer; kolonier dukker op nær dig og breder sig. Brug en moden koloni for at skrabe den af; brug det, du skrabede, på en anden kaktus eller junglestamme for at starte en koloni.
+Karmin (niveau 2): cochenille i Farvekarret giver karminsyre, et rødt farvestof.
+Shellak (niveau 3): stoklak i Sæbekedlen giver shellak.
+Modgift (niveau 4): skorpiongift, salt og en glasflaske giver Antiserum; drik det for at kurere forgiftning.
+Hirudin (niveau 5): igler i Oplukningskarret giver hirudin. Exenatid (niveau 7): gift fra Gilaøglen i Bioreaktoren giver exenatid.
+# Skove, marker og floder
+Fasaner og gråænder lægger æg nu og da, og gråanden efterlader af og til Andedun. Et krondyr kaster en Gevirstang hver dag eller to; malet giver den benmel. Vildsvin taber børster, der med en pind og en kobberbarre giver en pensel. Stører giver kaviar og husblas.
+Pindsvinet holder skadedyr væk fra afgrøder inden for 4 blokke. Den europæiske bæver æder pilebark og bygger dæmninger af pinde og mudder i lavt vand nær sig. Perusuler efterlader guano på stranden, op til en halv blok dybt.
+Guano (niveau 3): guano i Oplukningskarret giver salpeter.
+Galalit (niveau 5): mælkens kasein i Oplukningskarret, med formaldehyd i reagenspladsen, giver galalit.
+# Kolde skove og bjerge
+Rensdyr og yakker giver mælk i en spand, og saksen tager uld fra yakken eller alpakaen; fire giver en blok uld. Rensdyr kaster gevir som krondyret. Rensdyrlav gror nær dig i snedækkede egne; rensdyrene æder den.
+Brune bjørne plyndrer fulde bistader og bireder ved siden af sig. Losen jager kaniner. Lækatten bliver hvid, hvor det er koldt.
+# Have og kyster
+Ringsæler og hvalrosser giver spæk, hvalrosser også elfenben; smelt spækket til lampeolie. Sild, sepiablæksprutte og krystalvandmand kan komme i en spand; vandmanden lyser og brænder. Sepiablæksprutten giver sepiablæk (brunt farvestof) og sepiaskal. Grønlandshajens kød er giftigt råt: kog eller røg det til hákarl. En glasflaske på en dolkhale tapper dens blå blod, og den lever videre. Strandkrabber taber krabbeskal.
+Perleøsters vokser på sand under varme have nær dig; bræk én for østersskaller og en gang imellem en perle. Kaskelotten kan ikke jages. Ambra fra dens tarm skyller af og til i land på strande, og meget sjældent strander en kaskelot og dør der; den efterlader spermaceti og spæk. Spermaceti og snor giver et lys.
+Tyrisk purpur (niveau 2): purpursnegle i Farvekarret giver lilla farvestof.
+Vitamin D (niveau 5): hajlever i Oplukningskarret giver vitamin D3. Kitosan (niveau 6): krabbeskaller i Oplukningskarret giver kitosan.
+LAL-test (niveau 7): dolkhaleblod i Oplukningskarret giver Limulus-lysat. GFP (niveau 7): krystalvandmandsvæv i Bioreaktoren giver grønt fluorescerende protein.
+# Dyrekompendium
+En bog og en fjer giver Dyrekompendiet. I hurtigbjælken nævner det de dyr, du kender. Kig på et dyr i et sekund inden for 16 blokke, fang det i en fælde eller saml et lille op for at notere det; brug bogen for at læse om dem, biom for biom. Systema Naturae (niveau 3) tilføjer de videnskabelige navne, Arternes oprindelse (niveau 4) hvert dyrs udvikling og Den Røde Liste (niveau 6) dets status.

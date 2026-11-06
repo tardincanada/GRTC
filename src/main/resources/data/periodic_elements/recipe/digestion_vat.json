@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PLP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:porcelain"
+    },
+    "L": {
+      "item": "periodic_elements:lead"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:digestion_vat",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "G G",
+    " F "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "F": {
+      "item": "periodic_elements:glass_flask"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:gas_recovery_hood",
+    "count": 1
+  }
+}

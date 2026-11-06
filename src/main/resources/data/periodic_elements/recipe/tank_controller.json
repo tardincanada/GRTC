@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WCW",
+    "GTG",
+    "WCW"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:tank_wall"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "periodic_elements:storage_tank"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tank_controller",
+    "count": 1
+  }
+}

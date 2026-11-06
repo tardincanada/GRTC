@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LGL",
+    "WIW",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "W": {
+      "item": "periodic_elements:tungsten"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:seed_irradiator",
+    "count": 1
+  }
+}

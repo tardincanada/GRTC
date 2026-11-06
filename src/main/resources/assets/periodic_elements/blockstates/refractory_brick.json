@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/refractory_brick"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/refractory_brick_active"
+    }
+  }
+}

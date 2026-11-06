@@ -1,0 +1,1695 @@
+{
+  "species": [
+    {
+      "id": "capybara",
+      "stage": 1,
+      "kind": "amphibious",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "mangrove_swamp",
+        "jungle",
+        "sparse_jungle"
+      ],
+      "group": [
+        2,
+        5
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        0.8
+      ],
+      "hp": 12,
+      "speed": 0.22,
+      "attack": 0,
+      "food": [
+        "minecraft:sugar_cane"
+      ],
+      "traits": [
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        9133628,
+        11041621
+      ],
+      "bucket": null
+    },
+    {
+      "id": "tapir",
+      "stage": 1,
+      "kind": "amphibious",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "jungle",
+        "bamboo_jungle"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 5,
+      "size": [
+        1.0,
+        1.1
+      ],
+      "hp": 20,
+      "speed": 0.2,
+      "attack": 0,
+      "food": [
+        "minecraft:melon_slice",
+        "minecraft:apple"
+      ],
+      "traits": [
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        4011312,
+        4866106
+      ],
+      "bucket": null
+    },
+    {
+      "id": "toco_toucan",
+      "stage": 1,
+      "kind": "land",
+      "body": "bird",
+      "behaviour": "passive",
+      "biomes": [
+        "jungle",
+        "sparse_jungle"
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "weight": 6,
+      "size": [
+        0.4,
+        0.6
+      ],
+      "hp": 6,
+      "speed": 0.25,
+      "attack": 0,
+      "food": [
+        "minecraft:melon_slice",
+        "minecraft:sweet_berries"
+      ],
+      "traits": [
+        "flutter"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        1710618,
+        15895066
+      ],
+      "bucket": null
+    },
+    {
+      "id": "sloth",
+      "stage": 1,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "jungle"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 4,
+      "size": [
+        0.6,
+        0.6
+      ],
+      "hp": 10,
+      "speed": 0.04,
+      "attack": 0,
+      "food": [
+        "minecraft:jungle_leaves"
+      ],
+      "traits": [
+        "leaves",
+        "slow"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        9075294,
+        10127982
+      ],
+      "bucket": null
+    },
+    {
+      "id": "golden_poison_frog",
+      "stage": 1,
+      "kind": "amphibious",
+      "body": "frog",
+      "behaviour": "touch",
+      "biomes": [
+        "jungle",
+        "bamboo_jungle"
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "weight": 6,
+      "size": [
+        0.3,
+        0.25
+      ],
+      "hp": 4,
+      "speed": 0.2,
+      "attack": 0,
+      "food": [
+        "minecraft:spider_eye"
+      ],
+      "traits": [
+        "arrows"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        15909406,
+        16308304
+      ],
+      "bucket": null
+    },
+    {
+      "id": "caiman",
+      "stage": 1,
+      "kind": "amphibious",
+      "body": "reptile",
+      "behaviour": "neutral",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 4,
+      "size": [
+        1.0,
+        0.5
+      ],
+      "hp": 24,
+      "speed": 0.18,
+      "attack": 5,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        4868658,
+        12103824
+      ],
+      "bucket": null
+    },
+    {
+      "id": "ostrich",
+      "stage": 1,
+      "kind": "land",
+      "body": "bird",
+      "behaviour": "passive",
+      "biomes": [
+        "savanna",
+        "savanna_plateau"
+      ],
+      "group": [
+        3,
+        6
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        2.2
+      ],
+      "hp": 20,
+      "speed": 0.32,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat",
+        "minecraft:wheat_seeds"
+      ],
+      "traits": [
+        "eggs:periodic_elements:ostrich_egg",
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        1972760,
+        14203040
+      ],
+      "bucket": null
+    },
+    {
+      "id": "zebra",
+      "stage": 1,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "savanna",
+        "savanna_plateau",
+        "windswept_savanna"
+      ],
+      "group": [
+        4,
+        8
+      ],
+      "weight": 8,
+      "size": [
+        1.2,
+        1.4
+      ],
+      "hp": 22,
+      "speed": 0.3,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat"
+      ],
+      "traits": [
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        15658728,
+        16053488
+      ],
+      "bucket": null
+    },
+    {
+      "id": "deathstalker",
+      "stage": 1,
+      "kind": "land",
+      "body": "scorpion",
+      "behaviour": "night",
+      "biomes": [
+        "desert",
+        "badlands",
+        "eroded_badlands"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 5,
+      "size": [
+        0.5,
+        0.3
+      ],
+      "hp": 6,
+      "speed": 0.28,
+      "attack": 2,
+      "food": [],
+      "traits": [
+        "venom:periodic_elements:scorpion_venom"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        14205024,
+        16776348
+      ],
+      "bucket": null
+    },
+    {
+      "id": "desert_locust",
+      "stage": 1,
+      "kind": "land",
+      "body": "locust",
+      "behaviour": "passive",
+      "biomes": [
+        "desert",
+        "savanna"
+      ],
+      "group": [
+        6,
+        12
+      ],
+      "weight": 6,
+      "size": [
+        0.3,
+        0.2
+      ],
+      "hp": 2,
+      "speed": 0.3,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat"
+      ],
+      "traits": [
+        "eats_crops",
+        "flutter"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        13150256,
+        2760720
+      ],
+      "bucket": null
+    },
+    {
+      "id": "gila_monster",
+      "stage": 1,
+      "kind": "land",
+      "body": "reptile",
+      "behaviour": "neutral",
+      "biomes": [
+        "badlands",
+        "eroded_badlands",
+        "wooded_badlands",
+        "desert"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 4,
+      "size": [
+        0.6,
+        0.35
+      ],
+      "hp": 10,
+      "speed": 0.16,
+      "attack": 3,
+      "food": [
+        "minecraft:egg"
+      ],
+      "traits": [
+        "venom:periodic_elements:gila_venom",
+        "bite"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        1972760,
+        2761760
+      ],
+      "bucket": null
+    },
+    {
+      "id": "red_deer",
+      "stage": 2,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "forest",
+        "dark_forest",
+        "birch_forest",
+        "old_growth_birch_forest"
+      ],
+      "group": [
+        2,
+        5
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        1.4
+      ],
+      "hp": 18,
+      "speed": 0.32,
+      "attack": 0,
+      "food": [
+        "minecraft:apple",
+        "minecraft:wheat"
+      ],
+      "traits": [
+        "antlers",
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        9067059,
+        13214330
+      ],
+      "bucket": null
+    },
+    {
+      "id": "wild_boar",
+      "stage": 2,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "neutral",
+      "biomes": [
+        "forest",
+        "dark_forest"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        0.9
+      ],
+      "hp": 16,
+      "speed": 0.25,
+      "attack": 4,
+      "food": [
+        "minecraft:carrot",
+        "minecraft:potato",
+        "minecraft:beetroot"
+      ],
+      "traits": [
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        4864816,
+        5917246
+      ],
+      "bucket": null
+    },
+    {
+      "id": "eurasian_beaver",
+      "stage": 2,
+      "kind": "amphibious",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "river",
+        "swamp"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 5,
+      "size": [
+        0.6,
+        0.5
+      ],
+      "hp": 12,
+      "speed": 0.2,
+      "attack": 0,
+      "food": [
+        "periodic_elements:willow_bark",
+        "minecraft:stick"
+      ],
+      "traits": [
+        "dam"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        6044194,
+        6964784
+      ],
+      "bucket": null
+    },
+    {
+      "id": "pheasant",
+      "stage": 2,
+      "kind": "land",
+      "body": "bird",
+      "behaviour": "passive",
+      "biomes": [
+        "plains",
+        "sunflower_plains",
+        "meadow",
+        "flower_forest"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 8,
+      "size": [
+        0.5,
+        0.6
+      ],
+      "hp": 8,
+      "speed": 0.28,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat_seeds",
+        "minecraft:melon_seeds",
+        "minecraft:pumpkin_seeds"
+      ],
+      "traits": [
+        "eggs:periodic_elements:pheasant_egg",
+        "flutter"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        11557412,
+        14207136
+      ],
+      "bucket": null
+    },
+    {
+      "id": "mallard",
+      "stage": 2,
+      "kind": "amphibious",
+      "body": "bird",
+      "behaviour": "passive",
+      "biomes": [
+        "river",
+        "swamp"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 8,
+      "size": [
+        0.5,
+        0.6
+      ],
+      "hp": 8,
+      "speed": 0.25,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat_seeds",
+        "minecraft:bread"
+      ],
+      "traits": [
+        "eggs:periodic_elements:duck_egg",
+        "down",
+        "flutter"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        9077880,
+        14729264
+      ],
+      "bucket": null
+    },
+    {
+      "id": "american_alligator",
+      "stage": 2,
+      "kind": "amphibious",
+      "body": "reptile",
+      "behaviour": "neutral",
+      "biomes": [
+        "swamp"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 4,
+      "size": [
+        1.4,
+        0.6
+      ],
+      "hp": 30,
+      "speed": 0.18,
+      "attack": 6,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        2764324,
+        13156512
+      ],
+      "bucket": null
+    },
+    {
+      "id": "hedgehog",
+      "stage": 2,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "flower_forest",
+        "plains",
+        "cherry_grove",
+        "forest"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 5,
+      "size": [
+        0.4,
+        0.35
+      ],
+      "hp": 6,
+      "speed": 0.18,
+      "attack": 0,
+      "food": [
+        "periodic_elements:earthworm",
+        "minecraft:spider_eye"
+      ],
+      "traits": [
+        "cure_pests"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        7232070,
+        11179650
+      ],
+      "bucket": null
+    },
+    {
+      "id": "sturgeon",
+      "stage": 2,
+      "kind": "water",
+      "body": "fish",
+      "behaviour": "passive",
+      "biomes": [
+        "river",
+        "frozen_river"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 3,
+      "size": [
+        0.7,
+        0.4
+      ],
+      "hp": 14,
+      "speed": 0.6,
+      "attack": 0,
+      "food": [],
+      "traits": [],
+      "spawn_group": "water_creature",
+      "egg": [
+        6974042,
+        14209216
+      ],
+      "bucket": null
+    },
+    {
+      "id": "peruvian_booby",
+      "stage": 2,
+      "kind": "land",
+      "body": "bird",
+      "behaviour": "passive",
+      "biomes": [
+        "stony_shore",
+        "beach"
+      ],
+      "group": [
+        4,
+        8
+      ],
+      "weight": 6,
+      "size": [
+        0.5,
+        0.6
+      ],
+      "hp": 8,
+      "speed": 0.25,
+      "attack": 0,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [
+        "guano",
+        "flutter"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        6969930,
+        15790316
+      ],
+      "bucket": null
+    },
+    {
+      "id": "reindeer",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "snowy_plains",
+        "snowy_taiga",
+        "ice_spikes"
+      ],
+      "group": [
+        3,
+        6
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        1.4
+      ],
+      "hp": 18,
+      "speed": 0.3,
+      "attack": 0,
+      "food": [
+        "periodic_elements:reindeer_lichen",
+        "minecraft:wheat"
+      ],
+      "traits": [
+        "milk",
+        "antlers",
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        8022616,
+        15130320
+      ],
+      "bucket": null
+    },
+    {
+      "id": "moose",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "neutral",
+      "biomes": [
+        "taiga",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 4,
+      "size": [
+        1.3,
+        2.0
+      ],
+      "hp": 30,
+      "speed": 0.28,
+      "attack": 6,
+      "food": [
+        "periodic_elements:willow_bark",
+        "minecraft:sweet_berries"
+      ],
+      "traits": [
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        3877922,
+        7825502
+      ],
+      "bucket": null
+    },
+    {
+      "id": "brown_bear",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "neutral",
+      "biomes": [
+        "taiga",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga",
+        "grove"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 3,
+      "size": [
+        1.4,
+        1.4
+      ],
+      "hp": 34,
+      "speed": 0.25,
+      "attack": 7,
+      "food": [
+        "minecraft:sweet_berries",
+        "minecraft:salmon",
+        "minecraft:honey_bottle"
+      ],
+      "traits": [
+        "honey"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        5913892,
+        4862496
+      ],
+      "bucket": null
+    },
+    {
+      "id": "yak",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "grove",
+        "snowy_slopes",
+        "frozen_peaks",
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "group": [
+        2,
+        5
+      ],
+      "weight": 8,
+      "size": [
+        1.3,
+        1.5
+      ],
+      "hp": 24,
+      "speed": 0.22,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat"
+      ],
+      "traits": [
+        "milk",
+        "shear:periodic_elements:yak_wool",
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        3024416,
+        2761244
+      ],
+      "bucket": null
+    },
+    {
+      "id": "alpaca",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "windswept_hills",
+        "windswept_gravelly_hills",
+        "stony_peaks"
+      ],
+      "group": [
+        3,
+        6
+      ],
+      "weight": 8,
+      "size": [
+        0.9,
+        1.6
+      ],
+      "hp": 16,
+      "speed": 0.25,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat",
+        "periodic_elements:alfalfa"
+      ],
+      "traits": [
+        "shear:periodic_elements:alpaca_wool",
+        "manure"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        15260870,
+        15787732
+      ],
+      "bucket": null
+    },
+    {
+      "id": "alpine_marmot",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "meadow",
+        "windswept_hills"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 6,
+      "size": [
+        0.5,
+        0.5
+      ],
+      "hp": 8,
+      "speed": 0.25,
+      "attack": 0,
+      "food": [
+        "minecraft:wheat_seeds",
+        "minecraft:dandelion"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        8021064,
+        11048046
+      ],
+      "bucket": null
+    },
+    {
+      "id": "stoat",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "passive",
+      "biomes": [
+        "snowy_plains",
+        "snowy_taiga",
+        "taiga"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 4,
+      "size": [
+        0.4,
+        0.3
+      ],
+      "hp": 6,
+      "speed": 0.33,
+      "attack": 0,
+      "food": [
+        "minecraft:chicken",
+        "minecraft:rabbit"
+      ],
+      "traits": [
+        "winter_coat"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        9067056,
+        15919832
+      ],
+      "bucket": null
+    },
+    {
+      "id": "eurasian_lynx",
+      "stage": 3,
+      "kind": "land",
+      "body": "quad",
+      "behaviour": "neutral",
+      "biomes": [
+        "taiga",
+        "grove",
+        "old_growth_spruce_taiga"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 3,
+      "size": [
+        0.7,
+        0.8
+      ],
+      "hp": 18,
+      "speed": 0.3,
+      "attack": 4,
+      "food": [
+        "minecraft:rabbit"
+      ],
+      "traits": [
+        "hunts_rabbits"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        11569754,
+        15128252
+      ],
+      "bucket": null
+    },
+    {
+      "id": "ringed_seal",
+      "stage": 4,
+      "kind": "amphibious",
+      "body": "pinniped",
+      "behaviour": "passive",
+      "biomes": [
+        "frozen_ocean",
+        "deep_frozen_ocean",
+        "snowy_beach",
+        "frozen_river"
+      ],
+      "group": [
+        1,
+        3
+      ],
+      "weight": 6,
+      "size": [
+        0.9,
+        0.6
+      ],
+      "hp": 14,
+      "speed": 0.2,
+      "attack": 0,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        8026738,
+        11053216
+      ],
+      "bucket": null
+    },
+    {
+      "id": "walrus",
+      "stage": 4,
+      "kind": "amphibious",
+      "body": "pinniped",
+      "behaviour": "neutral",
+      "biomes": [
+        "frozen_ocean",
+        "cold_ocean",
+        "stony_shore",
+        "snowy_beach"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 4,
+      "size": [
+        1.6,
+        1.0
+      ],
+      "hp": 30,
+      "speed": 0.15,
+      "attack": 5,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        10512970,
+        11565658
+      ],
+      "bucket": null
+    },
+    {
+      "id": "sperm_whale",
+      "stage": 4,
+      "kind": "water",
+      "body": "whale",
+      "behaviour": "passive",
+      "biomes": [
+        "deep_ocean",
+        "deep_cold_ocean",
+        "deep_lukewarm_ocean"
+      ],
+      "group": [
+        1,
+        2
+      ],
+      "weight": 1,
+      "size": [
+        3.0,
+        2.4
+      ],
+      "hp": 200,
+      "speed": 0.9,
+      "attack": 0,
+      "food": [],
+      "traits": [
+        "invulnerable",
+        "strand"
+      ],
+      "spawn_group": "water_creature",
+      "egg": [
+        4868688,
+        5921378
+      ],
+      "bucket": null
+    },
+    {
+      "id": "greenland_shark",
+      "stage": 4,
+      "kind": "water",
+      "body": "fish",
+      "behaviour": "neutral",
+      "biomes": [
+        "cold_ocean",
+        "deep_cold_ocean",
+        "frozen_ocean",
+        "deep_frozen_ocean"
+      ],
+      "group": [
+        1,
+        1
+      ],
+      "weight": 2,
+      "size": [
+        1.4,
+        0.9
+      ],
+      "hp": 40,
+      "speed": 0.5,
+      "attack": 5,
+      "food": [],
+      "traits": [],
+      "spawn_group": "water_creature",
+      "egg": [
+        5921376,
+        6974064
+      ],
+      "bucket": null
+    },
+    {
+      "id": "atlantic_herring",
+      "stage": 4,
+      "kind": "school",
+      "body": "fish",
+      "behaviour": "passive",
+      "biomes": [
+        "ocean",
+        "cold_ocean",
+        "deep_cold_ocean",
+        "deep_ocean"
+      ],
+      "group": [
+        8,
+        12
+      ],
+      "weight": 10,
+      "size": [
+        0.4,
+        0.3
+      ],
+      "hp": 3,
+      "speed": 0.9,
+      "attack": 0,
+      "food": [],
+      "traits": [
+        "bucket"
+      ],
+      "spawn_group": "water_ambient",
+      "egg": [
+        3824234,
+        14212836
+      ],
+      "bucket": "herring_bucket"
+    },
+    {
+      "id": "murex",
+      "stage": 4,
+      "kind": "water",
+      "body": "snail",
+      "behaviour": "passive",
+      "biomes": [
+        "warm_ocean",
+        "lukewarm_ocean",
+        "deep_lukewarm_ocean"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 6,
+      "size": [
+        0.3,
+        0.3
+      ],
+      "hp": 4,
+      "speed": 0.05,
+      "attack": 0,
+      "food": [],
+      "traits": [],
+      "spawn_group": "water_creature",
+      "egg": [
+        14207144,
+        16777188
+      ],
+      "bucket": null
+    },
+    {
+      "id": "cuttlefish",
+      "stage": 4,
+      "kind": "water",
+      "body": "cephalopod",
+      "behaviour": "passive",
+      "biomes": [
+        "lukewarm_ocean",
+        "deep_lukewarm_ocean",
+        "warm_ocean"
+      ],
+      "group": [
+        2,
+        3
+      ],
+      "weight": 6,
+      "size": [
+        0.6,
+        0.4
+      ],
+      "hp": 8,
+      "speed": 0.6,
+      "attack": 0,
+      "food": [],
+      "traits": [
+        "bucket"
+      ],
+      "spawn_group": "water_creature",
+      "egg": [
+        9071194,
+        14207160
+      ],
+      "bucket": "cuttlefish_bucket"
+    },
+    {
+      "id": "horseshoe_crab",
+      "stage": 4,
+      "kind": "amphibious",
+      "body": "horseshoe",
+      "behaviour": "passive",
+      "biomes": [
+        "beach",
+        "warm_ocean",
+        "lukewarm_ocean"
+      ],
+      "group": [
+        2,
+        5
+      ],
+      "weight": 6,
+      "size": [
+        0.6,
+        0.3
+      ],
+      "hp": 10,
+      "speed": 0.12,
+      "attack": 0,
+      "food": [],
+      "traits": [
+        "blood"
+      ],
+      "spawn_group": "creature",
+      "egg": [
+        6969914,
+        9075290
+      ],
+      "bucket": null
+    },
+    {
+      "id": "green_crab",
+      "stage": 4,
+      "kind": "amphibious",
+      "body": "crab",
+      "behaviour": "passive",
+      "biomes": [
+        "beach",
+        "stony_shore"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 6,
+      "size": [
+        0.4,
+        0.3
+      ],
+      "hp": 6,
+      "speed": 0.2,
+      "attack": 0,
+      "food": [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      "traits": [],
+      "spawn_group": "creature",
+      "egg": [
+        4876842,
+        6978106
+      ],
+      "bucket": null
+    },
+    {
+      "id": "crystal_jelly",
+      "stage": 4,
+      "kind": "water",
+      "body": "jelly",
+      "behaviour": "passive",
+      "biomes": [
+        "cold_ocean",
+        "lukewarm_ocean",
+        "ocean"
+      ],
+      "group": [
+        2,
+        4
+      ],
+      "weight": 4,
+      "size": [
+        0.5,
+        0.6
+      ],
+      "hp": 4,
+      "speed": 0.1,
+      "attack": 0,
+      "food": [],
+      "traits": [
+        "bucket",
+        "sting",
+        "glow"
+      ],
+      "spawn_group": "water_ambient",
+      "egg": [
+        13164784,
+        16777215
+      ],
+      "bucket": "crystal_jelly_bucket"
+    }
+  ],
+  "items": [
+    {
+      "id": "game_meat",
+      "food": [
+        3,
+        0.3
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "cooked_game_meat",
+      "food": [
+        8,
+        0.8
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "ostrich_egg",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "cooked_egg",
+      "food": [
+        5,
+        0.6
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "scorpion_venom",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "gila_venom",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "antivenom",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "locust",
+      "food": [
+        2,
+        0.3
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "cochineal",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "sticklac",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "silkworm",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "silk_cocoon",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "silk",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "earthworm",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "humus",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "leech",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "manure",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "pheasant_egg",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "duck_egg",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "duck_down",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "antler",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "boar_bristle",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "caviar",
+      "food": [
+        4,
+        0.8
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "isinglass",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "castoreum",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "galalith",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "yak_wool",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "alpaca_wool",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "blubber",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "ivory",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "shark_liver",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "greenland_shark_meat",
+      "food": [
+        2,
+        0.1
+      ],
+      "effects": [
+        [
+          "minecraft:poison",
+          200,
+          1
+        ],
+        [
+          "minecraft:nausea",
+          300,
+          0
+        ]
+      ],
+      "tip": true
+    },
+    {
+      "id": "hakarl",
+      "food": [
+        6,
+        0.6
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "herring",
+      "food": [
+        2,
+        0.1
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "cooked_herring",
+      "food": [
+        6,
+        0.8
+      ],
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "murex_snail",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "oyster_shell",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "pearl",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "sepia_ink",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "cuttlebone",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "horseshoe_crab_blood",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "crab_shell",
+      "food": null,
+      "effects": [],
+      "tip": false
+    },
+    {
+      "id": "spermaceti",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "ambergris",
+      "food": null,
+      "effects": [],
+      "tip": true
+    },
+    {
+      "id": "aequorea_tissue",
+      "food": null,
+      "effects": [],
+      "tip": true
+    }
+  ],
+  "blocks": [
+    "cochineal_colony",
+    "lac_colony",
+    "sericulture_tray",
+    "worm_bin",
+    "guano",
+    "beaver_dam",
+    "reindeer_lichen",
+    "pearl_oyster"
+  ],
+  "stage": 4,
+  "gated": {
+    "sericulture_tray": "sericulture",
+    "antivenom": "antivenom"
+  }
+}

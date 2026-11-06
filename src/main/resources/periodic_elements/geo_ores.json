@@ -1,0 +1,1173 @@
+{
+  "variants": [
+    {
+      "id": "granite_iron_ore",
+      "rock": "minecraft:granite",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "granite_copper_ore",
+      "rock": "minecraft:granite",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "granite_gold_ore",
+      "rock": "minecraft:granite",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "granite_molybdenite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "molybdenite",
+      "base": "periodic_elements:molybdenite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_cassiterite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "cassiterite",
+      "base": "periodic_elements:cassiterite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_wolframite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "wolframite",
+      "base": "periodic_elements:wolframite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_spodumene_ore",
+      "rock": "minecraft:granite",
+      "mineral": "spodumene",
+      "base": "periodic_elements:spodumene_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_coltan_ore",
+      "rock": "minecraft:granite",
+      "mineral": "coltan",
+      "base": "periodic_elements:coltan_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_pitchblende_ore",
+      "rock": "minecraft:granite",
+      "mineral": "pitchblende",
+      "base": "periodic_elements:pitchblende_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_fluorite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "fluorite",
+      "base": "periodic_elements:fluorite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_arsenopyrite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "arsenopyrite",
+      "base": "periodic_elements:arsenopyrite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "granite_stibnite_ore",
+      "rock": "minecraft:granite",
+      "mineral": "stibnite",
+      "base": "periodic_elements:stibnite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "diorite_iron_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "diorite_copper_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "diorite_gold_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "diorite_molybdenite_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "molybdenite",
+      "base": "periodic_elements:molybdenite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "diorite_arsenopyrite_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "arsenopyrite",
+      "base": "periodic_elements:arsenopyrite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "diorite_cobaltite_ore",
+      "rock": "minecraft:diorite",
+      "mineral": "cobaltite",
+      "base": "periodic_elements:cobaltite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_iron_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "andesite_copper_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "andesite_gold_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "andesite_molybdenite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "molybdenite",
+      "base": "periodic_elements:molybdenite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_stibnite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "stibnite",
+      "base": "periodic_elements:stibnite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_arsenopyrite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "arsenopyrite",
+      "base": "periodic_elements:arsenopyrite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_cobaltite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "cobaltite",
+      "base": "periodic_elements:cobaltite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_cassiterite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "cassiterite",
+      "base": "periodic_elements:cassiterite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_wolframite_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "wolframite",
+      "base": "periodic_elements:wolframite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "andesite_sulfur_ore",
+      "rock": "minecraft:andesite",
+      "mineral": "sulfur",
+      "base": "periodic_elements:deepslate_sulfur_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "tuff_coal_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "tuff_iron_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "tuff_copper_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "tuff_gold_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "tuff_sulfur_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "sulfur",
+      "base": "periodic_elements:deepslate_sulfur_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "tuff_diamond_ore",
+      "rock": "minecraft:tuff",
+      "mineral": "diamond",
+      "base": "minecraft:diamond_ore",
+      "xpMin": 3,
+      "xpMax": 7,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "basalt_coal_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "basalt_iron_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "basalt_copper_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "basalt_sulfur_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "sulfur",
+      "base": "periodic_elements:deepslate_sulfur_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "basalt_chromite_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "chromite",
+      "base": "periodic_elements:deepslate_chromite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "basalt_pentlandite_ore",
+      "rock": "minecraft:basalt",
+      "mineral": "pentlandite",
+      "base": "periodic_elements:deepslate_pentlandite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_coal_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "sandstone_iron_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "sandstone_copper_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "sandstone_galena_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "galena",
+      "base": "periodic_elements:galena_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_sphalerite_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "sphalerite",
+      "base": "periodic_elements:sphalerite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_barite_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "barite",
+      "base": "periodic_elements:barite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_fluorite_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "fluorite",
+      "base": "periodic_elements:fluorite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_vanadinite_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "vanadinite",
+      "base": "periodic_elements:vanadinite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "sandstone_sulfur_ore",
+      "rock": "minecraft:sandstone",
+      "mineral": "sulfur",
+      "base": "periodic_elements:deepslate_sulfur_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "terracotta_coal_ore",
+      "rock": "minecraft:terracotta",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "terracotta_iron_ore",
+      "rock": "minecraft:terracotta",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "terracotta_copper_ore",
+      "rock": "minecraft:terracotta",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "terracotta_oil_shale_ore",
+      "rock": "minecraft:terracotta",
+      "mineral": "oil_shale",
+      "base": "periodic_elements:oil_shale_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "terracotta_saltpetre_crust",
+      "rock": "minecraft:terracotta",
+      "mineral": "saltpetre",
+      "base": "periodic_elements:saltpetre_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "terracotta_borax_crust",
+      "rock": "minecraft:terracotta",
+      "mineral": "borax",
+      "base": "periodic_elements:borax_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "brown_terracotta_coal_ore",
+      "rock": "minecraft:brown_terracotta",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "brown_terracotta_iron_ore",
+      "rock": "minecraft:brown_terracotta",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "brown_terracotta_oil_shale_ore",
+      "rock": "minecraft:brown_terracotta",
+      "mineral": "oil_shale",
+      "base": "periodic_elements:oil_shale_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "brown_terracotta_saltpetre_crust",
+      "rock": "minecraft:brown_terracotta",
+      "mineral": "saltpetre",
+      "base": "periodic_elements:saltpetre_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "brown_terracotta_borax_crust",
+      "rock": "minecraft:brown_terracotta",
+      "mineral": "borax",
+      "base": "periodic_elements:borax_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_iron_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "calcite_galena_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "galena",
+      "base": "periodic_elements:galena_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_sphalerite_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "sphalerite",
+      "base": "periodic_elements:sphalerite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_fluorite_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "fluorite",
+      "base": "periodic_elements:fluorite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_barite_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "barite",
+      "base": "periodic_elements:barite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_vanadinite_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "vanadinite",
+      "base": "periodic_elements:vanadinite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "calcite_sulfur_ore",
+      "rock": "minecraft:calcite",
+      "mineral": "sulfur",
+      "base": "periodic_elements:deepslate_sulfur_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "orange_terracotta_bauxite_ore",
+      "rock": "minecraft:orange_terracotta",
+      "mineral": "bauxite",
+      "base": "periodic_elements:bauxite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "orange_terracotta_pyrolusite_ore",
+      "rock": "minecraft:orange_terracotta",
+      "mineral": "pyrolusite",
+      "base": "periodic_elements:pyrolusite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gravel_gold_ore",
+      "rock": "minecraft:gravel",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": true
+    },
+    {
+      "id": "gravel_cassiterite_ore",
+      "rock": "minecraft:gravel",
+      "mineral": "cassiterite",
+      "base": "periodic_elements:cassiterite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": true
+    },
+    {
+      "id": "gravel_coltan_ore",
+      "rock": "minecraft:gravel",
+      "mineral": "coltan",
+      "base": "periodic_elements:coltan_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": true
+    },
+    {
+      "id": "gravel_diamond_ore",
+      "rock": "minecraft:gravel",
+      "mineral": "diamond",
+      "base": "minecraft:diamond_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": true
+    },
+    {
+      "id": "shale_coal_ore",
+      "rock": "periodic_elements:shale",
+      "mineral": "coal",
+      "base": "minecraft:coal_ore",
+      "xpMin": 0,
+      "xpMax": 2,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "shale_iron_ore",
+      "rock": "periodic_elements:shale",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "shale_copper_ore",
+      "rock": "periodic_elements:shale",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "shale_oil_shale_ore",
+      "rock": "periodic_elements:shale",
+      "mineral": "oil_shale",
+      "base": "periodic_elements:oil_shale_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "shale_saltpetre_crust",
+      "rock": "periodic_elements:shale",
+      "mineral": "saltpetre",
+      "base": "periodic_elements:saltpetre_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "shale_borax_crust",
+      "rock": "periodic_elements:shale",
+      "mineral": "borax",
+      "base": "periodic_elements:borax_crust",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_iron_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "gneiss_copper_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "gneiss_gold_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "gneiss_molybdenite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "molybdenite",
+      "base": "periodic_elements:molybdenite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_cassiterite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "cassiterite",
+      "base": "periodic_elements:cassiterite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_wolframite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "wolframite",
+      "base": "periodic_elements:wolframite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_spodumene_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "spodumene",
+      "base": "periodic_elements:spodumene_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_coltan_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "coltan",
+      "base": "periodic_elements:coltan_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_pitchblende_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "pitchblende",
+      "base": "periodic_elements:pitchblende_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_fluorite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "fluorite",
+      "base": "periodic_elements:fluorite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_arsenopyrite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "arsenopyrite",
+      "base": "periodic_elements:arsenopyrite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_stibnite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "stibnite",
+      "base": "periodic_elements:stibnite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "gneiss_cobaltite_ore",
+      "rock": "periodic_elements:gneiss",
+      "mineral": "cobaltite",
+      "base": "periodic_elements:cobaltite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "peridotite_chromite_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "chromite",
+      "base": "periodic_elements:deepslate_chromite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "peridotite_pentlandite_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "pentlandite",
+      "base": "periodic_elements:deepslate_pentlandite_ore",
+      "xpMin": 0,
+      "xpMax": 1,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "peridotite_iron_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "iron",
+      "base": "minecraft:iron_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "peridotite_copper_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "copper",
+      "base": "minecraft:copper_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "peridotite_gold_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "gold",
+      "base": "minecraft:gold_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "peridotite_cobaltite_ore",
+      "rock": "periodic_elements:peridotite",
+      "mineral": "cobaltite",
+      "base": "periodic_elements:cobaltite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "kimberlite_diamond_ore",
+      "rock": "periodic_elements:kimberlite",
+      "mineral": "diamond",
+      "base": "minecraft:diamond_ore",
+      "xpMin": 3,
+      "xpMax": 7,
+      "desc": false,
+      "soft": false
+    },
+    {
+      "id": "laterite_bauxite_ore",
+      "rock": "periodic_elements:laterite",
+      "mineral": "bauxite",
+      "base": "periodic_elements:bauxite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    },
+    {
+      "id": "laterite_pyrolusite_ore",
+      "rock": "periodic_elements:laterite",
+      "mineral": "pyrolusite",
+      "base": "periodic_elements:pyrolusite_ore",
+      "xpMin": 0,
+      "xpMax": 0,
+      "desc": true,
+      "soft": false
+    }
+  ],
+  "minerals": {
+    "arsenopyrite": {
+      "minecraft:stone": "periodic_elements:arsenopyrite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_arsenopyrite_ore"
+    },
+    "barite": {
+      "minecraft:stone": "periodic_elements:barite_ore"
+    },
+    "bauxite": {
+      "minecraft:stone": "periodic_elements:bauxite_ore"
+    },
+    "borax": {
+      "minecraft:sandstone": "periodic_elements:borax_crust"
+    },
+    "cassiterite": {
+      "minecraft:stone": "periodic_elements:cassiterite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_cassiterite_ore"
+    },
+    "chromite": {
+      "minecraft:deepslate": "periodic_elements:deepslate_chromite_ore"
+    },
+    "coal": {
+      "minecraft:stone": "minecraft:coal_ore",
+      "minecraft:deepslate": "minecraft:deepslate_coal_ore"
+    },
+    "cobaltite": {
+      "minecraft:stone": "periodic_elements:cobaltite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_cobaltite_ore"
+    },
+    "coltan": {
+      "minecraft:stone": "periodic_elements:coltan_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_coltan_ore"
+    },
+    "copper": {
+      "minecraft:stone": "minecraft:copper_ore",
+      "minecraft:deepslate": "minecraft:deepslate_copper_ore"
+    },
+    "diamond": {
+      "minecraft:stone": "minecraft:diamond_ore",
+      "minecraft:deepslate": "minecraft:deepslate_diamond_ore"
+    },
+    "fluorite": {
+      "minecraft:stone": "periodic_elements:fluorite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_fluorite_ore"
+    },
+    "galena": {
+      "minecraft:stone": "periodic_elements:galena_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_galena_ore"
+    },
+    "gold": {
+      "minecraft:stone": "minecraft:gold_ore",
+      "minecraft:deepslate": "minecraft:deepslate_gold_ore"
+    },
+    "iron": {
+      "minecraft:stone": "minecraft:iron_ore",
+      "minecraft:deepslate": "minecraft:deepslate_iron_ore"
+    },
+    "molybdenite": {
+      "minecraft:stone": "periodic_elements:molybdenite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_molybdenite_ore"
+    },
+    "oil_shale": {
+      "minecraft:stone": "periodic_elements:oil_shale_ore"
+    },
+    "pentlandite": {
+      "minecraft:deepslate": "periodic_elements:deepslate_pentlandite_ore"
+    },
+    "pitchblende": {
+      "minecraft:stone": "periodic_elements:pitchblende_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_pitchblende_ore"
+    },
+    "pyrolusite": {
+      "minecraft:stone": "periodic_elements:pyrolusite_ore"
+    },
+    "saltpetre": {
+      "minecraft:sandstone": "periodic_elements:saltpetre_crust"
+    },
+    "sphalerite": {
+      "minecraft:stone": "periodic_elements:sphalerite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_sphalerite_ore"
+    },
+    "spodumene": {
+      "minecraft:stone": "periodic_elements:spodumene_ore"
+    },
+    "stibnite": {
+      "minecraft:stone": "periodic_elements:stibnite_ore",
+      "minecraft:deepslate": "periodic_elements:deepslate_stibnite_ore"
+    },
+    "sulfur": {
+      "minecraft:deepslate": "periodic_elements:deepslate_sulfur_ore"
+    },
+    "vanadinite": {
+      "minecraft:stone": "periodic_elements:vanadinite_ore"
+    },
+    "wolframite": {
+      "minecraft:stone": "periodic_elements:wolframite_ore"
+    }
+  },
+  "disabledFeatures": [
+    "minecraft:ore_coal_upper",
+    "minecraft:ore_coal_lower",
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_iron_middle",
+    "minecraft:ore_iron_small",
+    "minecraft:ore_copper",
+    "minecraft:ore_copper_large",
+    "minecraft:ore_gold",
+    "minecraft:ore_gold_lower",
+    "minecraft:ore_gold_extra",
+    "minecraft:ore_diamond",
+    "minecraft:ore_diamond_medium",
+    "minecraft:ore_diamond_large",
+    "minecraft:ore_diamond_buried",
+    "minecraft:ore_granite_upper",
+    "minecraft:ore_granite_lower",
+    "minecraft:ore_diorite_upper",
+    "minecraft:ore_diorite_lower",
+    "minecraft:ore_andesite_upper",
+    "minecraft:ore_andesite_lower",
+    "minecraft:ore_tuff",
+    "minecraft:ore_dirt",
+    "minecraft:ore_gravel",
+    "periodic_elements:ore_cassiterite",
+    "periodic_elements:ore_cassiterite_mountains",
+    "periodic_elements:ore_galena",
+    "periodic_elements:ore_sphalerite",
+    "periodic_elements:ore_sulfur_deltas",
+    "periodic_elements:ore_sulfur_deep",
+    "periodic_elements:ore_saltpetre_desert",
+    "periodic_elements:ore_saltpetre_caves",
+    "periodic_elements:ore_cobaltite",
+    "periodic_elements:ore_cobaltite_mountains",
+    "periodic_elements:ore_stibnite",
+    "periodic_elements:ore_stibnite_mountains",
+    "periodic_elements:ore_arsenopyrite",
+    "periodic_elements:ore_barite",
+    "periodic_elements:ore_barite_dry",
+    "periodic_elements:ore_spodumene_mountains",
+    "periodic_elements:ore_spodumene",
+    "periodic_elements:ore_borax_desert",
+    "periodic_elements:ore_pitchblende",
+    "periodic_elements:ore_pitchblende_granite",
+    "periodic_elements:ore_bauxite",
+    "periodic_elements:ore_bauxite_rare",
+    "periodic_elements:ore_pyrolusite",
+    "periodic_elements:ore_pyrolusite_rare",
+    "periodic_elements:ore_pentlandite",
+    "periodic_elements:ore_wolframite_mountains",
+    "periodic_elements:ore_wolframite",
+    "periodic_elements:ore_vanadinite",
+    "periodic_elements:ore_vanadinite_rare",
+    "periodic_elements:ore_fluorite",
+    "periodic_elements:ore_chromite",
+    "periodic_elements:ore_molybdenite",
+    "periodic_elements:ore_oil_shale",
+    "periodic_elements:ore_oil_shale_basins",
+    "periodic_elements:ore_coltan",
+    "periodic_elements:ore_coltan_mountains"
+  ]
+}

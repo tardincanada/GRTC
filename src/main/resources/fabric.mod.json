@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "periodic_elements",
+	"version": "${version}",
+	"name": "Elementar",
+	"description": "Adds all 118 chemical elements of the periodic table as items, with their symbol, atomic number, and state at room temperature.",
+	"authors": [
+		"Guilherme"
+	],
+	"license": "MIT",
+	"icon": "assets/periodic_elements/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.periodicelements.PeriodicElements"
+		],
+		"client": [
+			"com.periodicelements.PeriodicElementsClient"
+		],
+		"emi": [
+			"com.periodicelements.compat.emi.PeEmiPlugin"
+		],
+		"jade": [
+			"com.periodicelements.compat.jade.PeJadePlugin"
+		],
+		"modmenu": [
+			"com.periodicelements.compat.modmenu.PeModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"emi": "*",
+		"jade": "*",
+		"modmenu": "*"
+	},
+	"mixins": [
+		"periodic_elements.mixins.json"
+	]
+}

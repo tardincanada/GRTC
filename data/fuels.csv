@@ -1,0 +1,32 @@
+fuel,energy_kj,flame_c,note
+#minecraft:logs_that_burn,16000,650,1 log = 1000 units = 1 kg of air-dried wood at 16 MJ/kg
+#minecraft:planks,4000,650,A quarter of a log
+minecraft:stick,800,650,
+minecraft:charcoal,3330,1100,111 g at 30 MJ/kg; burns hotter than wood
+minecraft:coal,3000,1100,111 g of bituminous coal at 27 MJ/kg
+minecraft:coal_block,27000,1100,
+periodic_elements:ethanol,3300,900,111 g of ethanol at 29.7 MJ/kg: a clean spirit-lamp flame
+periodic_elements:coke,3330,1600,111 g of coke at 30 MJ/kg; with a strong draft it melts steel
+periodic_elements:crude_oil,4800,1000,111 g of crude oil at 43 MJ/kg: a smoky flame
+periodic_elements:naphtha,4950,1200,111 g at 44.5 MJ/kg; sprayed oil burns hotter than coal
+periodic_elements:kerosene,4800,1200,111 g at 43 MJ/kg
+periodic_elements:diesel,4750,1200,111 g at 42.8 MJ/kg
+periodic_elements:gasoline,4900,1200,111 g at 44 MJ/kg
+periodic_elements:methane,6150,1300,111 g of natural gas at 55.5 MJ/kg: a hot gas flame
+periodic_elements:propane,5550,1300,111 g at 50 MJ/kg
+periodic_elements:tallow,4110,1000,111 g of tallow at 37 MJ/kg: a smoky candle flame
+periodic_elements:vegetable_oil,4100,1000,111 g of oil at 37 MJ/kg: a lamp flame
+periodic_elements:diethyl_ether,3760,900,111 g at 33.9 MJ/kg
+periodic_elements:spent_bark,1500,650,Dried tan bark: the tanners' fuel
+periodic_elements:benzene,4440,1100,111 g at 40 MJ/kg: benzol motor spirit
+periodic_elements:phenol,3600,1000,111 g at 32.5 MJ/kg
+periodic_elements:coal_tar,4000,1000,111 g at 36 MJ/kg: a smoky tar fire
+periodic_elements:pitch,4000,1000,111 g at 36 MJ/kg
+periodic_elements:toluene,4500,1200,111 g at 40.6 MJ/kg
+periodic_elements:butanol,3700,1000,111 g of butanol at 33 MJ/kg
+periodic_elements:biodiesel,4150,1100,111 g of biodiesel at 37.3 MJ/kg
+periodic_elements:hexamine,3330,900,111 g of hexamine at 30 MJ/kg: smokeless camping fuel
+minecraft:blaze_rod,30000,1600,Game value: ten times coal for a hard-won item (Guilherme 3.46.0) and as hot as coke
+minecraft:blaze_powder,15000,1600,Half a blaze rod: one rod makes two powders (3.46.0)
+minecraft:magma_cream,15000,1200,The blaze powder in it burns; the slime does not (3.46.0)
+minecraft:magma_block,1500,1100,1 kg of basalt melt giving up its heat as it cools and sets (about 1.5 MJ/kg) (3.46.0)

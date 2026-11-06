@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:eastern_white_pine_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:eastern_white_pine_planks",
+    "count": 4
+  }
+}

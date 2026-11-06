@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "K K",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "K": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:pottery_kiln",
+    "count": 1
+  }
+}

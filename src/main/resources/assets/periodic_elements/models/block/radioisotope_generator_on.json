@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/radioisotope_generator_top_on",
+    "front": "periodic_elements:block/radioisotope_generator_front_on",
+    "side": "periodic_elements:block/radioisotope_generator_side"
+  }
+}

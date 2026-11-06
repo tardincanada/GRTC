@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/solvay_tower_top_active",
+    "front": "periodic_elements:block/solvay_tower_front_active",
+    "side": "periodic_elements:block/solvay_tower_side"
+  }
+}

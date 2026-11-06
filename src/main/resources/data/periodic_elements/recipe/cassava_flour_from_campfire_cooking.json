@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:cassava_root"
+  },
+  "result": {
+    "id": "periodic_elements:cassava_flour"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:salt_water",
+    "periodic_elements:flowing_salt_water",
+    "periodic_elements:brine",
+    "periodic_elements:flowing_brine"
+  ]
+}

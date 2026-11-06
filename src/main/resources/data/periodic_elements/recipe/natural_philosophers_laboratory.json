@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GBG",
+    "SLS",
+    "KKK"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "periodic_elements:brass_ingot"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "L": {
+      "item": "periodic_elements:alchemists_laboratory"
+    },
+    "K": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:natural_philosophers_laboratory",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AWA",
+    "LCL",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "L": {
+      "item": "periodic_elements:lithium_cobalt_oxide"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:li_ion_pack",
+    "count": 1
+  }
+}

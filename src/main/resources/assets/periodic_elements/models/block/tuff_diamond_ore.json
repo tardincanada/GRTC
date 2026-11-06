@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "minecraft:block/tuff",
+    "top": "minecraft:block/tuff",
+    "bottom": "minecraft:block/tuff",
+    "overlay": "periodic_elements:block/ore_overlay_diamond"
+  }
+}

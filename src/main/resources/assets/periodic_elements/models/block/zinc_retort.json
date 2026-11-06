@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/zinc_retort_top",
+    "front": "periodic_elements:block/zinc_retort_front",
+    "side": "periodic_elements:block/zinc_retort_side"
+  }
+}

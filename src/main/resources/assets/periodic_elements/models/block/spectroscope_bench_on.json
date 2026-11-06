@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/spectroscope_bench_top",
+    "front": "periodic_elements:block/spectroscope_bench_front_on",
+    "side": "periodic_elements:block/spectroscope_bench_side"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RCR",
+    "R R",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "periodic_elements:refractory_brick"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tuyere",
+    "count": 1
+  }
+}

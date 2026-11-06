@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "periodic_elements:block/polished_gneiss",
+    "top": "periodic_elements:block/polished_gneiss",
+    "side": "periodic_elements:block/polished_gneiss"
+  }
+}

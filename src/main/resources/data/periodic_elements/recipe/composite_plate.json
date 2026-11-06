@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:boron_carbide"
+    },
+    {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    {
+      "item": "periodic_elements:aramid"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:composite_plate",
+    "count": 1
+  }
+}

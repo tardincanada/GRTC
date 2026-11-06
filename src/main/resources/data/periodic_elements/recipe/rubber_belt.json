@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "RRR",
+    "SBS"
+  ],
+  "key": {
+    "R": {
+      "tag": "periodic_elements:rubbers"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "B": {
+      "item": "periodic_elements:canvas_belt"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:rubber_belt",
+    "count": 6
+  }
+}

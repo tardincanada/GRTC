@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "periodic_elements:polished_shale"
+  },
+  "result": {
+    "id": "periodic_elements:polished_shale_wall",
+    "count": 1
+  }
+}

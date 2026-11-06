@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WIW",
+    " I ",
+    "III"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:mechanical_stirrer",
+    "count": 1
+  }
+}

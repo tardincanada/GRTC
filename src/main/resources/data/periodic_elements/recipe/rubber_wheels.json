@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "R R",
+    " I ",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "periodic_elements:vulcanized_rubber"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:rubber_wheels",
+    "count": 1
+  }
+}

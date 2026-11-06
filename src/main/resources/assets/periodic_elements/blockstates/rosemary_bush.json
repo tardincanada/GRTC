@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "periodic_elements:block/rosemary_bush_stage0"
+    },
+    "age=1": {
+      "model": "periodic_elements:block/rosemary_bush_stage1"
+    },
+    "age=2": {
+      "model": "periodic_elements:block/rosemary_bush_stage2"
+    },
+    "age=3": {
+      "model": "periodic_elements:block/rosemary_bush_stage3"
+    }
+  }
+}

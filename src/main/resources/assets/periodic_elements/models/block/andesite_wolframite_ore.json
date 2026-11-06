@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "minecraft:block/andesite",
+    "top": "minecraft:block/andesite",
+    "bottom": "minecraft:block/andesite",
+    "overlay": "periodic_elements:block/ore_overlay_wolframite"
+  }
+}

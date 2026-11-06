@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "B": {
+      "item": "periodic_elements:brass_ingot"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:steel_cylinder",
+    "count": 2
+  }
+}

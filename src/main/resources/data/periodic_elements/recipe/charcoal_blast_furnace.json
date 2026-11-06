@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KIK",
+    "K K",
+    "KFK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "periodic_elements:bloomery"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:charcoal_blast_furnace",
+    "count": 1
+  }
+}

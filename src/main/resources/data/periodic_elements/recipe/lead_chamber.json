@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "L L",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:lead_chamber",
+    "count": 1
+  }
+}

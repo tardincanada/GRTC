@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "SBS",
+    "KKK"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "B": {
+      "item": "periodic_elements:charcoal_blast_furnace"
+    },
+    "K": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:bessemer_converter",
+    "count": 1
+  }
+}

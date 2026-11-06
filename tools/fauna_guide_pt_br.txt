@@ -1,0 +1,31 @@
+# Animais selvagens
+Cada bioma tem de dois a quatro animais próprios, que só nascem ali. A maioria foge de você; os grandes revidam quando atingidos. Só o Escorpião-amarelo-da-palestina caça você, à noite, e a Rã-dourada-venenosa envenena a mão nua que a toca.
+# Reprodução
+Dê a dois animais da mesma espécie a comida de que gostam para que se reproduzam. Longe do seu clima eles se reproduzem três vezes mais devagar; uma estufa aquecida ou resfriada ao clima deles faz com que se reproduzam normalmente.
+# O que os animais dão
+Animais num cercado (uma cerca a até 4 blocos) soltam Esterco de vez em quando: use-o numa planta como farinha de osso, ou queime-o. Esfregue flechas numa Rã-dourada-venenosa para envenenar até 8. Um frasco de vidro num Escorpião-amarelo-da-palestina ou num Monstro-de-gila extrai o veneno, uma vez a cada cinco minutos. Avestruzes põem ovos do tamanho de quatro ovos de galinha.
+# Pequenos animais
+Insetos e minhocas são itens e blocos. Cavar terra ou grama às vezes revela uma Minhoca, e tosquiar folhas de amoreira-branca um Bicho-da-seda. Na água do pântano uma Sanguessuga-medicinal pode grudar e sangrar você aos poucos: sal a tira e lhe dá a sanguessuga.
+Um Minhocário (tábuas em volta de terra) recebe uma minhoca; alimente-o com folhas, plantas, sementes ou esterco e ele dá Húmus, um fertilizante.
+Sericultura (nível 1): a Bandeja de Sericicultura recebe bichos-da-seda; alimente-a com folhas de amoreira-branca e ela dá Casulos de Seda, que derretidos na fornalha viram Fio de Seda.
+A cochonilha cresce em cactos de desertos e terras áridas, e o Inseto-da-laca em troncos da selva; as colônias aparecem perto de você e se espalham. Use uma colônia madura para raspá-la; use o que raspou em outro cacto ou tronco da selva para começar uma colônia.
+Carmim (nível 2): cochonilha na Tina de Tingimento dá ácido carmínico, um corante vermelho.
+Goma-laca (nível 3): laca em bastão no Caldeirão de Sabão dá goma-laca.
+Soro antiofídico (nível 4): veneno de escorpião, sal e um frasco de vidro fazem Soro Antiveneno; beba-o para curar envenenamento.
+Hirudina (nível 5): sanguessugas na Tina de Digestão dão hirudina. Exenatida (nível 7): veneno de Monstro-de-gila no Biorreator dá exenatida.
+# Florestas, campos e rios
+Faisões e patos-reais põem ovos de vez em quando, e o pato-real às vezes deixa Penugem de Pato. O veado-vermelho troca uma Galhada a cada um ou dois dias; moída, dá farinha de osso. Javalis soltam cerdas, que com um graveto e um lingote de cobre fazem um pincel. Esturjões dão caviar e ictiocola.
+O ouriço-cacheiro afasta as pragas das plantações a até 4 blocos. O castor-europeu come casca de salgueiro e constrói represas de galhos e lama na água rasa perto dele. Os atobás-peruanos deixam guano na praia, até meio bloco de altura.
+Guano (nível 3): guano na Tina de Digestão dá salitre.
+Galalite (nível 5): a caseína do leite na Tina de Digestão, com formaldeído no espaço do reagente, dá galalite.
+# Florestas frias e montanhas
+Renas e iaques dão leite no balde, e a tesoura tira lã do iaque ou da alpaca; quatro fazem um bloco de lã. As renas trocam a galhada como o veado. O líquen-das-renas cresce perto de você nas terras de neve; as renas o comem.
+Ursos-pardos assaltam colmeias e ninhos de abelha cheios ao lado deles. O lince-euroasiático caça coelhos. O arminho fica branco onde faz frio.
+# Mares e costas
+Focas-aneladas e morsas dão gordura de baleia, e as morsas marfim; derreta a gordura para óleo de lamparina. Arenque, choco e a água-viva-cristal vão no balde; a água-viva brilha e queima. O choco dá tinta sépia (corante marrom) e osso de choco. A carne do tubarão-da-groenlândia é venenosa crua: cozinhe ou defume para fazer hákarl. Um frasco de vidro no límulo tira seu sangue azul, e o límulo continua vivo. Caranguejos-verdes soltam carapaça de caranguejo.
+Ostras-perlíferas crescem na areia sob mares quentes perto de você; quebre uma para ter conchas de ostra e, de vez em quando, uma pérola. O cachalote não pode ser caçado. Âmbar-gris do seu intestino aparece nas praias de vez em quando, e muito raramente um cachalote encalha numa praia e morre ali, deixando espermacete e gordura. Espermacete e linha fazem uma vela.
+Púrpura de Tiro (nível 2): búzios-de-tinta na Tanque de Tingimento dão corante roxo.
+Vitamina D (nível 5): fígado de tubarão no Tanque de Digestão dá vitamina D3. Quitosana (nível 6): carapaças de caranguejo na Tanque de Digestão dão quitosana.
+Teste LAL (nível 7): sangue de límulo no Tanque de Digestão dá lisado de Limulus. GFP (nível 7): tecido de água-viva-cristal no Biorreator dá proteína verde fluorescente.
+# Compêndio de Animais
+Um livro e uma pena fazem o Compêndio de Animais. Na barra de atalhos, ele dá o nome dos animais que você conhece. Olhe um animal por um segundo a até 16 blocos, capture-o numa armadilha ou pegue um pequeno para anotá-lo; use o livro para ler sobre eles, bioma por bioma. Systema Naturae (nível 3) acrescenta os nomes científicos, A Origem das Espécies (nível 4) a evolução de cada animal e A Lista Vermelha (nível 6) o seu estado de conservação.

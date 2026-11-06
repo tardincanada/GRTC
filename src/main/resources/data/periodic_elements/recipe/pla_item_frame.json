@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:polylactic_acid"
+    },
+    {
+      "item": "periodic_elements:polylactic_acid"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 2
+  }
+}

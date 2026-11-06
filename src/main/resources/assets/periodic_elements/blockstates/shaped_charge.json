@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "periodic_elements:block/shaped_charge"
+    },
+    "facing=north,lit=true": {
+      "model": "periodic_elements:block/shaped_charge"
+    },
+    "facing=east,lit=false": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 90
+    },
+    "facing=south,lit=false": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "periodic_elements:block/shaped_charge",
+      "y": 270
+    },
+    "facing=up,lit=false": {
+      "model": "periodic_elements:block/shaped_charge",
+      "x": 270
+    },
+    "facing=up,lit=true": {
+      "model": "periodic_elements:block/shaped_charge",
+      "x": 270
+    },
+    "facing=down,lit=false": {
+      "model": "periodic_elements:block/shaped_charge",
+      "x": 90
+    },
+    "facing=down,lit=true": {
+      "model": "periodic_elements:block/shaped_charge",
+      "x": 90
+    }
+  }
+}

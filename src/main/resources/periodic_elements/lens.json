@@ -1,0 +1,1989 @@
+{
+ "alwaysKnown": [
+  "carbon",
+  "copper",
+  "gold",
+  "silver",
+  "sulfur"
+ ],
+ "sources": {
+  "actinium": [
+   "actinium",
+   "francium"
+  ],
+  "aluminium": [
+   "hall_heroult"
+  ],
+  "americium": [
+   "americium_curium",
+   "berkelium_californium",
+   "hot_fusion"
+  ],
+  "antimony": [
+   "antimony_smelting"
+  ],
+  "argon": [
+   "air_liquefaction"
+  ],
+  "arsenic": [
+   "arsenic_sublimation"
+  ],
+  "astatine": [
+   "cyclotron"
+  ],
+  "barium": [
+   "alkaline_earths"
+  ],
+  "berkelium": [
+   "berkelium_californium",
+   "hot_fusion"
+  ],
+  "beryllium": [
+   "beryllium"
+  ],
+  "bismuth": [
+   "bismuth",
+   "cold_fusion",
+   "cyclotron"
+  ],
+  "bohrium": [
+   "cold_fusion"
+  ],
+  "boron": [
+   "boron",
+   "control_rods",
+   "isotope_enrichment"
+  ],
+  "bromine": [
+   "bromine"
+  ],
+  "cadmium": [
+   "cadmium"
+  ],
+  "caesium": [
+   "rubidium_caesium"
+  ],
+  "calcium": [
+   "alkaline_earths",
+   "electromagnetic_separation"
+  ],
+  "californium": [
+   "berkelium_californium",
+   "heavy_ion_accelerator",
+   "hot_fusion",
+   "transactinides"
+  ],
+  "carbon": [
+   "calcium_cyanamide",
+   "coking",
+   "diamond_synthesis",
+   "oil_refining",
+   "thermal_cracking"
+  ],
+  "cerium": [
+   "rare_earths"
+  ],
+  "chlorine": [
+   "alkaline_earths",
+   "chlor_alkali",
+   "electrolysis",
+   "lithium",
+   "radium",
+   "rubidium_caesium"
+  ],
+  "chromium": [
+   "chromium"
+  ],
+  "cobalt": [
+   "cobalt_smelting",
+   "gamma_garden"
+  ],
+  "copernicium": [
+   "cold_fusion"
+  ],
+  "copper": [
+   "beryllium_copper",
+   "copper_smelting",
+   "electrolytic_refining"
+  ],
+  "curium": [
+   "americium_curium",
+   "berkelium_californium",
+   "heavy_ion_accelerator",
+   "hot_fusion"
+  ],
+  "darmstadtium": [
+   "cold_fusion"
+  ],
+  "dubnium": [
+   "transactinides"
+  ],
+  "dysprosium": [
+   "dysprosium_holmium"
+  ],
+  "einsteinium": [
+   "mendelevium",
+   "nuclear_reactor"
+  ],
+  "erbium": [
+   "erbium_thulium"
+  ],
+  "europium": [
+   "samarium_europium"
+  ],
+  "fermium": [
+   "nuclear_reactor"
+  ],
+  "flerovium": [
+   "hot_fusion"
+  ],
+  "fluorine": [
+   "fluorine"
+  ],
+  "francium": [
+   "francium"
+  ],
+  "gadolinium": [
+   "gadolinium_terbium"
+  ],
+  "gallium": [
+   "gallium"
+  ],
+  "germanium": [
+   "crystal_growth",
+   "germanium"
+  ],
+  "gold": [
+   "aqua_regia",
+   "copper_smelting",
+   "electrolytic_refining",
+   "patio_process"
+  ],
+  "hafnium": [
+   "hafnium"
+  ],
+  "hassium": [
+   "cold_fusion"
+  ],
+  "helium": [
+   "helium",
+   "noble_gases"
+  ],
+  "holmium": [
+   "dysprosium_holmium"
+  ],
+  "hydrogen": [
+   "chlor_alkali",
+   "electrolysis",
+   "fluorine",
+   "pneumatic_chemistry"
+  ],
+  "indium": [
+   "indium"
+  ],
+  "iodine": [
+   "hafnium",
+   "iodine",
+   "van_arkel"
+  ],
+  "iridium": [
+   "platinum_metals"
+  ],
+  "iron": [
+   "bessemer",
+   "blast_furnace",
+   "crucible_steel",
+   "iron_smelting",
+   "permanent_magnets",
+   "steel_cementation"
+  ],
+  "krypton": [
+   "noble_gases"
+  ],
+  "lanthanum": [
+   "lanthanum"
+  ],
+  "lawrencium": [
+   "heavy_ion_accelerator"
+  ],
+  "lead": [
+   "cold_fusion",
+   "lead_smelting"
+  ],
+  "lithium": [
+   "isotope_enrichment",
+   "lithium"
+  ],
+  "livermorium": [
+   "hot_fusion"
+  ],
+  "lutetium": [
+   "ytterbium_lutetium"
+  ],
+  "magnesium": [
+   "alkaline_earths"
+  ],
+  "manganese": [
+   "manganese"
+  ],
+  "meitnerium": [
+   "cold_fusion"
+  ],
+  "mendelevium": [
+   "mendelevium"
+  ],
+  "mercury": [
+   "mercury_roasting"
+  ],
+  "molybdenum": [
+   "molybdenum"
+  ],
+  "moscovium": [
+   "hot_fusion"
+  ],
+  "neodymium": [
+   "didymium"
+  ],
+  "neon": [
+   "noble_gases"
+  ],
+  "neptunium": [
+   "neptunium"
+  ],
+  "nickel": [
+   "diamond_synthesis",
+   "mond_process"
+  ],
+  "nihonium": [
+   "cold_fusion"
+  ],
+  "niobium": [
+   "niobium"
+  ],
+  "nitrogen": [
+   "air_liquefaction",
+   "pneumatic_chemistry"
+  ],
+  "nobelium": [
+   "heavy_ion_accelerator"
+  ],
+  "oganesson": [
+   "hot_fusion"
+  ],
+  "osmium": [
+   "platinum_metals"
+  ],
+  "oxygen": [
+   "air_liquefaction",
+   "alkaline_earths",
+   "electrolysis",
+   "gallium",
+   "indium",
+   "pneumatic_chemistry",
+   "thallium"
+  ],
+  "palladium": [
+   "platinum_metals"
+  ],
+  "phosphorus": [
+   "phosphorus_isolation"
+  ],
+  "platinum": [
+   "platinum",
+   "platinum_metals"
+  ],
+  "plutonium": [
+   "hot_fusion",
+   "reprocessing"
+  ],
+  "polonium": [
+   "polonium"
+  ],
+  "potassium": [
+   "electrolysis"
+  ],
+  "praseodymium": [
+   "didymium"
+  ],
+  "promethium": [
+   "promethium"
+  ],
+  "protactinium": [
+   "protactinium"
+  ],
+  "radium": [
+   "radium"
+  ],
+  "radon": [
+   "radon"
+  ],
+  "rhenium": [
+   "rhenium"
+  ],
+  "rhodium": [
+   "platinum_metals"
+  ],
+  "roentgenium": [
+   "cold_fusion"
+  ],
+  "rubidium": [
+   "rubidium_caesium"
+  ],
+  "ruthenium": [
+   "platinum_metals"
+  ],
+  "rutherfordium": [
+   "transactinides"
+  ],
+  "samarium": [
+   "samarium_europium"
+  ],
+  "scandium": [
+   "scandium"
+  ],
+  "seaborgium": [
+   "transactinides"
+  ],
+  "selenium": [
+   "electrolytic_refining",
+   "selenium",
+   "spectroscopy"
+  ],
+  "silicon": [
+   "arc_furnace",
+   "crystal_growth",
+   "integrated_circuits"
+  ],
+  "silver": [
+   "electrolytic_refining",
+   "patio_process",
+   "silver_cupellation"
+  ],
+  "sodium": [
+   "electrolysis"
+  ],
+  "strontium": [
+   "alkaline_earths"
+  ],
+  "tantalum": [
+   "tantalum"
+  ],
+  "technetium": [
+   "technetium"
+  ],
+  "tellurium": [
+   "electrolytic_refining"
+  ],
+  "tennessine": [
+   "hot_fusion"
+  ],
+  "terbium": [
+   "gadolinium_terbium"
+  ],
+  "thallium": [
+   "thallium"
+  ],
+  "thorium": [
+   "thorium"
+  ],
+  "thulium": [
+   "erbium_thulium"
+  ],
+  "tin": [
+   "copper_smelting"
+  ],
+  "titanium": [
+   "kroll_process"
+  ],
+  "tungsten": [
+   "tungsten"
+  ],
+  "uranium": [
+   "isotope_enrichment",
+   "isotope_separation",
+   "uranium_metal"
+  ],
+  "vanadium": [
+   "vanadium"
+  ],
+  "xenon": [
+   "noble_gases"
+  ],
+  "ytterbium": [
+   "ytterbium_lutetium"
+  ],
+  "yttrium": [
+   "ion_exchange"
+  ],
+  "zinc": [
+   "zinc_distillation"
+  ],
+  "zirconium": [
+   "nuclear_reactor",
+   "van_arkel"
+  ]
+ },
+ "substances": {
+  "carbon_monoxide": {
+   "carbon": 0.428811,
+   "oxygen": 0.571189
+  },
+  "hydrochloric_acid": {
+   "hydrogen": 0.027648,
+   "chlorine": 0.972352
+  },
+  "hydrogen_fluoride": {
+   "hydrogen": 0.050385,
+   "fluorine": 0.949615
+  },
+  "water": {
+   "hydrogen": 0.111907,
+   "oxygen": 0.888093
+  },
+  "carbon_dioxide": {
+   "carbon": 0.272921,
+   "oxygen": 0.727079
+  },
+  "sulfur_dioxide": {
+   "sulfur": 0.500484,
+   "oxygen": 0.499516
+  },
+  "heavy_water": {
+   "hydrogen": 0.111907,
+   "oxygen": 0.888093
+  },
+  "ammonia": {
+   "nitrogen": 0.822441,
+   "hydrogen": 0.177559
+  },
+  "hydrogen_peroxide": {
+   "hydrogen": 0.05927,
+   "oxygen": 0.94073
+  },
+  "methane": {
+   "carbon": 0.748675,
+   "hydrogen": 0.251325
+  },
+  "titanium_tetrachloride": {
+   "titanium": 0.252374,
+   "chlorine": 0.747626
+  },
+  "compressed_air": {
+   "nitrogen": 0.777875,
+   "oxygen": 0.222125
+  },
+  "sodium_chloride": {
+   "sodium": 0.393395,
+   "chlorine": 0.606605
+  },
+  "potassium_chloride": {
+   "potassium": 0.524467,
+   "chlorine": 0.475533
+  },
+  "calcium_oxide": {
+   "calcium": 0.714696,
+   "oxygen": 0.285304
+  },
+  "magnesium_oxide": {
+   "magnesium": 0.603042,
+   "oxygen": 0.396958
+  },
+  "iron_ii_oxide": {
+   "iron": 0.777309,
+   "oxygen": 0.222691
+  },
+  "mercury_sulfide": {
+   "mercury": 0.862196,
+   "sulfur": 0.137804
+  },
+  "zinc_sulfide": {
+   "zinc": 0.670977,
+   "sulfur": 0.329023
+  },
+  "copper_ii_oxide": {
+   "copper": 0.798869,
+   "oxygen": 0.201131
+  },
+  "lead_sulfide": {
+   "lead": 0.866004,
+   "sulfur": 0.133996
+  },
+  "lead_oxide": {
+   "lead": 0.92832,
+   "oxygen": 0.07168
+  },
+  "zinc_oxide": {
+   "zinc": 0.803401,
+   "oxygen": 0.196599
+  },
+  "cobalt_oxide": {
+   "cobalt": 0.786486,
+   "oxygen": 0.213514
+  },
+  "nickel_oxide": {
+   "nickel": 0.7858,
+   "oxygen": 0.2142
+  },
+  "silicon_dioxide": {
+   "silicon": 0.467437,
+   "oxygen": 0.532563
+  },
+  "titanium_dioxide": {
+   "titanium": 0.599349,
+   "oxygen": 0.400651
+  },
+  "sodium_hydroxide": {
+   "sodium": 0.574793,
+   "oxygen": 0.400005,
+   "hydrogen": 0.025202
+  },
+  "sodium_hypochlorite": {
+   "sodium": 0.308843,
+   "chlorine": 0.476229,
+   "oxygen": 0.214928
+  },
+  "sodium_oxide": {
+   "sodium": 0.741864,
+   "oxygen": 0.258136
+  },
+  "potassium_oxide": {
+   "potassium": 0.83015,
+   "oxygen": 0.16985
+  },
+  "manganese_dioxide": {
+   "manganese": 0.631936,
+   "oxygen": 0.368064
+  },
+  "iron_disulfide": {
+   "iron": 0.465511,
+   "sulfur": 0.534489
+  },
+  "tin_dioxide": {
+   "tin": 0.787682,
+   "oxygen": 0.212318
+  },
+  "magnesium_chloride": {
+   "magnesium": 0.255291,
+   "chlorine": 0.744709
+  },
+  "germanium_dioxide": {
+   "germanium": 0.694174,
+   "oxygen": 0.305826
+  },
+  "rubidium_oxide": {
+   "rubidium": 0.914414,
+   "oxygen": 0.085586
+  },
+  "caesium_oxide": {
+   "caesium": 0.94323,
+   "oxygen": 0.05677
+  },
+  "thorium_dioxide": {
+   "thorium": 0.878813,
+   "oxygen": 0.121187
+  },
+  "zirconium_dioxide": {
+   "zirconium": 0.740322,
+   "oxygen": 0.259678
+  },
+  "hafnium_dioxide": {
+   "hafnium": 0.847982,
+   "oxygen": 0.152018
+  },
+  "cerium_dioxide": {
+   "cerium": 0.814093,
+   "oxygen": 0.185907
+  },
+  "tungsten_trioxide": {
+   "tungsten": 0.792971,
+   "oxygen": 0.207029
+  },
+  "molybdenum_trioxide": {
+   "molybdenum": 0.666565,
+   "oxygen": 0.333435
+  },
+  "aluminium_oxide": {
+   "aluminium": 0.529261,
+   "oxygen": 0.470739
+  },
+  "iron_oxide": {
+   "iron": 0.699431,
+   "oxygen": 0.300569
+  },
+  "calcium_hydroxide": {
+   "calcium": 0.540922,
+   "oxygen": 0.431868,
+   "hydrogen": 0.027209
+  },
+  "nitric_acid": {
+   "hydrogen": 0.015997,
+   "nitrogen": 0.222291,
+   "oxygen": 0.761712
+  },
+  "arsenic_trioxide": {
+   "arsenic": 0.757396,
+   "oxygen": 0.242604
+  },
+  "antimony_trioxide": {
+   "antimony": 0.835354,
+   "oxygen": 0.164646
+  },
+  "antimony_sulfide": {
+   "antimony": 0.716868,
+   "sulfur": 0.283132
+  },
+  "gallium_oxide": {
+   "gallium": 0.743938,
+   "oxygen": 0.256062
+  },
+  "indium_oxide": {
+   "indium": 0.827123,
+   "oxygen": 0.172877
+  },
+  "chromium_oxide": {
+   "chromium": 0.684207,
+   "oxygen": 0.315793
+  },
+  "lanthanum_oxide": {
+   "lanthanum": 0.852687,
+   "oxygen": 0.147313
+  },
+  "neodymium_oxide": {
+   "neodymium": 0.857354,
+   "oxygen": 0.142646
+  },
+  "scandium_oxide": {
+   "scandium": 0.651966,
+   "oxygen": 0.348034
+  },
+  "yttrium_oxide": {
+   "yttrium": 0.787444,
+   "oxygen": 0.212556
+  },
+  "samarium_oxide": {
+   "samarium": 0.862361,
+   "oxygen": 0.137639
+  },
+  "europium_oxide": {
+   "europium": 0.863613,
+   "oxygen": 0.136387
+  },
+  "gadolinium_oxide": {
+   "gadolinium": 0.867593,
+   "oxygen": 0.132407
+  },
+  "dysprosium_oxide": {
+   "dysprosium": 0.871321,
+   "oxygen": 0.128679
+  },
+  "holmium_oxide": {
+   "holmium": 0.872976,
+   "oxygen": 0.127024
+  },
+  "erbium_oxide": {
+   "erbium": 0.874523,
+   "oxygen": 0.125477
+  },
+  "thulium_oxide": {
+   "thulium": 0.875609,
+   "oxygen": 0.124391
+  },
+  "ytterbium_oxide": {
+   "ytterbium": 0.87821,
+   "oxygen": 0.12179
+  },
+  "lutetium_oxide": {
+   "lutetium": 0.879385,
+   "oxygen": 0.120615
+  },
+  "sulfuric_acid": {
+   "hydrogen": 0.020556,
+   "sulfur": 0.326903,
+   "oxygen": 0.652541
+  },
+  "magnetite": {
+   "iron": 0.723596,
+   "oxygen": 0.276404
+  },
+  "vanadium_pentoxide": {
+   "vanadium": 0.560175,
+   "oxygen": 0.439825
+  },
+  "niobium_pentoxide": {
+   "niobium": 0.699049,
+   "oxygen": 0.300951
+  },
+  "tantalum_pentoxide": {
+   "tantalum": 0.818973,
+   "oxygen": 0.181027
+  },
+  "ammonia_water": {
+   "nitrogen": 0.399675,
+   "hydrogen": 0.143811,
+   "oxygen": 0.456514
+  },
+  "phosphoric_acid": {
+   "hydrogen": 0.030859,
+   "phosphorus": 0.316081,
+   "oxygen": 0.65306
+  },
+  "rhenium_heptoxide": {
+   "rhenium": 0.768807,
+   "oxygen": 0.231193
+  },
+  "terbium_oxide": {
+   "terbium": 0.850219,
+   "oxygen": 0.149781
+  },
+  "phosphorus_pentoxide": {
+   "phosphorus": 0.436429,
+   "oxygen": 0.563571
+  },
+  "praseodymium_oxide": {
+   "praseodymium": 0.827707,
+   "oxygen": 0.172293
+  },
+  "calcium_48": {
+   "calcium": 1.0
+  },
+  "lithium_chloride": {
+   "lithium": 0.163718,
+   "chlorine": 0.836282
+  },
+  "barium_oxide": {
+   "barium": 0.895656,
+   "oxygen": 0.104344
+  },
+  "strontium_oxide": {
+   "strontium": 0.845598,
+   "oxygen": 0.154402
+  },
+  "cadmium_sulfide": {
+   "cadmium": 0.778085,
+   "sulfur": 0.221915
+  },
+  "cadmium_oxide": {
+   "cadmium": 0.875406,
+   "oxygen": 0.124594
+  },
+  "sodium_iodide": {
+   "sodium": 0.153379,
+   "iodine": 0.846621
+  },
+  "rubidium_chloride": {
+   "rubidium": 0.706826,
+   "chlorine": 0.293174
+  },
+  "caesium_chloride": {
+   "caesium": 0.789439,
+   "chlorine": 0.210561
+  },
+  "potassium_iodide": {
+   "potassium": 0.235533,
+   "iodine": 0.764467
+  },
+  "cobaltite": {
+   "cobalt": 0.3552,
+   "arsenic": 0.451569,
+   "sulfur": 0.193231
+  },
+  "arsenopyrite": {
+   "iron": 0.342971,
+   "arsenic": 0.460133,
+   "sulfur": 0.196896
+  },
+  "beryllium_chloride": {
+   "beryllium": 0.112774,
+   "chlorine": 0.887226
+  },
+  "uranium_dioxide": {
+   "uranium": 0.881501,
+   "oxygen": 0.118499
+  },
+  "magnesium_bromide": {
+   "magnesium": 0.132011,
+   "bromine": 0.867989
+  },
+  "calcium_fluoride": {
+   "calcium": 0.513334,
+   "fluorine": 0.486666
+  },
+  "calcium_chloride": {
+   "calcium": 0.361135,
+   "chlorine": 0.638865
+  },
+  "germanium_sulfide": {
+   "germanium": 0.531115,
+   "sulfur": 0.468885
+  },
+  "radium_chloride": {
+   "radium": 0.761199,
+   "chlorine": 0.238801
+  },
+  "molybdenite": {
+   "molybdenum": 0.599425,
+   "sulfur": 0.400575
+  },
+  "rhenium_disulfide": {
+   "rhenium": 0.743858,
+   "sulfur": 0.256142
+  },
+  "iron_fluoride": {
+   "iron": 0.595102,
+   "fluorine": 0.404898
+  },
+  "magnesium_fluoride": {
+   "magnesium": 0.390122,
+   "fluorine": 0.609878
+  },
+  "enriched_uranium_dioxide": {
+   "uranium": 0.881501,
+   "oxygen": 0.118499
+  },
+  "plutonium_dioxide": {
+   "plutonium": 0.881947,
+   "oxygen": 0.118053
+  },
+  "neptunium_dioxide": {
+   "neptunium": 0.88107,
+   "oxygen": 0.11893
+  },
+  "americium_dioxide": {
+   "americium": 0.882816,
+   "oxygen": 0.117184
+  },
+  "fission_products": {
+   "caesium": 0.94323,
+   "oxygen": 0.05677
+  },
+  "chalcopyrite": {
+   "copper": 0.346279,
+   "iron": 0.304314,
+   "sulfur": 0.349407
+  },
+  "scandium_chloride": {
+   "scandium": 0.29712,
+   "chlorine": 0.70288
+  },
+  "yttrium_chloride": {
+   "yttrium": 0.45533,
+   "chlorine": 0.54467
+  },
+  "samarium_chloride": {
+   "samarium": 0.585719,
+   "chlorine": 0.414281
+  },
+  "europium_chloride": {
+   "europium": 0.588285,
+   "chlorine": 0.411715
+  },
+  "gadolinium_chloride": {
+   "gadolinium": 0.596548,
+   "chlorine": 0.403452
+  },
+  "terbium_chloride": {
+   "terbium": 0.599103,
+   "chlorine": 0.400897
+  },
+  "dysprosium_chloride": {
+   "dysprosium": 0.604426,
+   "chlorine": 0.395574
+  },
+  "holmium_chloride": {
+   "holmium": 0.60797,
+   "chlorine": 0.39203
+  },
+  "erbium_chloride": {
+   "erbium": 0.611308,
+   "chlorine": 0.388692
+  },
+  "thulium_chloride": {
+   "thulium": 0.613666,
+   "chlorine": 0.386334
+  },
+  "ytterbium_chloride": {
+   "ytterbium": 0.619363,
+   "chlorine": 0.380637
+  },
+  "lutetium_chloride": {
+   "lutetium": 0.621961,
+   "chlorine": 0.378039
+  },
+  "iron_iii_chloride": {
+   "iron": 0.344308,
+   "chlorine": 0.655692
+  },
+  "lithium_cobalt_oxide": {
+   "lithium": 0.07091,
+   "cobalt": 0.60215,
+   "oxygen": 0.326941
+  },
+  "calcium_carbonate": {
+   "calcium": 0.400436,
+   "carbon": 0.120007,
+   "oxygen": 0.479558
+  },
+  "potassium_nitrate": {
+   "potassium": 0.386718,
+   "nitrogen": 0.138543,
+   "oxygen": 0.474738
+  },
+  "sodium_metavanadate": {
+   "sodium": 0.188552,
+   "vanadium": 0.417801,
+   "oxygen": 0.393647
+  },
+  "indium_sulfide": {
+   "indium": 0.704806,
+   "sulfur": 0.295194
+  },
+  "thorium_chloride": {
+   "thorium": 0.620693,
+   "chlorine": 0.379307
+  },
+  "ilmenite": {
+   "iron": 0.368106,
+   "titanium": 0.315519,
+   "oxygen": 0.316375
+  },
+  "hafnium_tetrafluoride": {
+   "hafnium": 0.701386,
+   "fluorine": 0.298614
+  },
+  "uranium_tetrafluoride": {
+   "uranium": 0.758004,
+   "fluorine": 0.241996
+  },
+  "curium_oxide": {
+   "curium": 0.910473,
+   "oxygen": 0.089527
+  },
+  "promethium_oxide": {
+   "promethium": 0.859591,
+   "oxygen": 0.140409
+  },
+  "boron_carbide": {
+   "boron": 0.78261,
+   "carbon": 0.21739
+  },
+  "sodium_carbonate": {
+   "sodium": 0.433823,
+   "carbon": 0.113324,
+   "oxygen": 0.452853
+  },
+  "sodium_bicarbonate": {
+   "sodium": 0.273671,
+   "hydrogen": 0.011999,
+   "carbon": 0.142978,
+   "oxygen": 0.571352
+  },
+  "copper_sulfate": {
+   "copper": 0.398153,
+   "sulfur": 0.200875,
+   "oxygen": 0.400972
+  },
+  "iron_sulfate": {
+   "iron": 0.367641,
+   "sulfur": 0.211059,
+   "oxygen": 0.421301
+  },
+  "barium_sulfate": {
+   "barium": 0.588424,
+   "sulfur": 0.137369,
+   "oxygen": 0.274207
+  },
+  "strontium_sulfate": {
+   "strontium": 0.477036,
+   "sulfur": 0.174546,
+   "oxygen": 0.348418
+  },
+  "lead_sulfate": {
+   "lead": 0.683251,
+   "sulfur": 0.105719,
+   "oxygen": 0.21103
+  },
+  "calcium_sulfate": {
+   "calcium": 0.294401,
+   "sulfur": 0.235503,
+   "oxygen": 0.470096
+  },
+  "wolframite": {
+   "iron": 0.183894,
+   "tungsten": 0.605372,
+   "oxygen": 0.210734
+  },
+  "radium_sulfate": {
+   "radium": 0.701741,
+   "sulfur": 0.099548,
+   "oxygen": 0.198711
+  },
+  "monazite": {
+   "cerium": 0.596027,
+   "phosphorus": 0.131754,
+   "oxygen": 0.272219
+  },
+  "zircon": {
+   "zirconium": 0.497662,
+   "silicon": 0.153215,
+   "oxygen": 0.349123
+  },
+  "xenotime": {
+   "yttrium": 0.483511,
+   "phosphorus": 0.16845,
+   "oxygen": 0.348039
+  },
+  "sodium_silicate": {
+   "sodium": 0.376694,
+   "silicon": 0.230088,
+   "oxygen": 0.393218
+  },
+  "potassium_bisulfate": {
+   "potassium": 0.287143,
+   "hydrogen": 0.007403,
+   "sulfur": 0.235455,
+   "oxygen": 0.469999
+  },
+  "sodium_bisulfate": {
+   "sodium": 0.191497,
+   "hydrogen": 0.008396,
+   "sulfur": 0.267046,
+   "oxygen": 0.53306
+  },
+  "boric_acid": {
+   "hydrogen": 0.048908,
+   "boron": 0.174831,
+   "oxygen": 0.776261
+  },
+  "sodium_sulfate": {
+   "sodium": 0.323721,
+   "sulfur": 0.225717,
+   "oxygen": 0.450562
+  },
+  "gibbsite": {
+   "aluminium": 0.34591,
+   "oxygen": 0.615322,
+   "hydrogen": 0.038768
+  },
+  "sodium_tungstate": {
+   "sodium": 0.156492,
+   "tungsten": 0.625698,
+   "oxygen": 0.21781
+  },
+  "thallium_sulfate": {
+   "thallium": 0.809721,
+   "sulfur": 0.063508,
+   "oxygen": 0.126771
+  },
+  "chromite": {
+   "iron": 0.249494,
+   "chromium": 0.464596,
+   "oxygen": 0.28591
+  },
+  "sodium_chromate": {
+   "sodium": 0.283876,
+   "chromium": 0.321018,
+   "oxygen": 0.395105
+  },
+  "uranium_hexafluoride": {
+   "uranium": 0.676187,
+   "fluorine": 0.323813
+  },
+  "enriched_uranium_hexafluoride": {
+   "uranium": 0.676187,
+   "fluorine": 0.323813
+  },
+  "depleted_uranium_hexafluoride": {
+   "uranium": 0.676187,
+   "fluorine": 0.323813
+  },
+  "ammonium_nitrate": {
+   "nitrogen": 0.349987,
+   "hydrogen": 0.050373,
+   "oxygen": 0.59964
+  },
+  "columbite": {
+   "iron": 0.165393,
+   "niobium": 0.550308,
+   "oxygen": 0.284299
+  },
+  "tantalite": {
+   "iron": 0.108703,
+   "tantalum": 0.704443,
+   "oxygen": 0.186854
+  },
+  "spodumene": {
+   "lithium": 0.037295,
+   "aluminium": 0.144997,
+   "silicon": 0.30185,
+   "oxygen": 0.515858
+  },
+  "cryolite": {
+   "sodium": 0.328522,
+   "aluminium": 0.128522,
+   "fluorine": 0.542955
+  },
+  "triuranium_octoxide": {
+   "uranium": 0.848005,
+   "oxygen": 0.151995
+  },
+  "gypsum": {
+   "calcium": 0.23279,
+   "sulfur": 0.186218,
+   "oxygen": 0.557573,
+   "hydrogen": 0.02342
+  },
+  "monoammonium_phosphate": {
+   "nitrogen": 0.121774,
+   "hydrogen": 0.05258,
+   "phosphorus": 0.269281,
+   "oxygen": 0.556366
+  },
+  "tricalcium_phosphate": {
+   "calcium": 0.387634,
+   "phosphorus": 0.19972,
+   "oxygen": 0.412646
+  },
+  "ammonium_sulfate": {
+   "nitrogen": 0.212012,
+   "hydrogen": 0.061029,
+   "sulfur": 0.242632,
+   "oxygen": 0.484327
+  },
+  "superphosphate": {
+   "calcium": 0.171237,
+   "hydrogen": 0.017227,
+   "phosphorus": 0.264678,
+   "oxygen": 0.546858
+  },
+  "diammonium_phosphate": {
+   "nitrogen": 0.212137,
+   "hydrogen": 0.068698,
+   "phosphorus": 0.234552,
+   "oxygen": 0.484613
+  },
+  "kaolinite": {
+   "aluminium": 0.209036,
+   "silicon": 0.217581,
+   "oxygen": 0.557765,
+   "hydrogen": 0.015618
+  },
+  "pentlandite": {
+   "iron": 0.288857,
+   "nickel": 0.379485,
+   "sulfur": 0.331659
+  },
+  "lanthanum_sulfate": {
+   "lanthanum": 0.490858,
+   "sulfur": 0.169933,
+   "oxygen": 0.339209
+  },
+  "cerium_sulfate": {
+   "cerium": 0.493026,
+   "sulfur": 0.169209,
+   "oxygen": 0.337764
+  },
+  "praseodymium_sulfate": {
+   "praseodymium": 0.494431,
+   "sulfur": 0.16874,
+   "oxygen": 0.336828
+  },
+  "neodymium_sulfate": {
+   "neodymium": 0.500271,
+   "sulfur": 0.166792,
+   "oxygen": 0.332938
+  },
+  "aluminium_sulfate": {
+   "aluminium": 0.157729,
+   "sulfur": 0.28112,
+   "oxygen": 0.561152
+  },
+  "vanadinite": {
+   "lead": 0.731502,
+   "vanadium": 0.107908,
+   "oxygen": 0.135559,
+   "chlorine": 0.025031
+  },
+  "aramid": {
+   "carbon": 0.7058,
+   "hydrogen": 0.042309,
+   "nitrogen": 0.117584,
+   "oxygen": 0.134307
+  },
+  "beryl": {
+   "beryllium": 0.0503,
+   "aluminium": 0.1004,
+   "silicon": 0.313512,
+   "oxygen": 0.535788
+  },
+  "sodium_tetraborate": {
+   "sodium": 0.120568,
+   "boron": 0.113383,
+   "oxygen": 0.713187,
+   "hydrogen": 0.052863
+  },
+  "prussian_blue": {
+   "iron": 0.454955,
+   "carbon": 0.251616,
+   "nitrogen": 0.293429
+  },
+  "potassium_alum": {
+   "potassium": 0.082421,
+   "aluminium": 0.056879,
+   "sulfur": 0.135168,
+   "oxygen": 0.674534,
+   "hydrogen": 0.050998
+  },
+  "lazurite": {
+   "sodium": 0.145293,
+   "calcium": 0.036184,
+   "aluminium": 0.146162,
+   "silicon": 0.152137,
+   "oxygen": 0.404445,
+   "sulfur": 0.11578
+  },
+  "calcium_carbide": {
+   "calcium": 0.625242,
+   "carbon": 0.374758
+  },
+  "formaldehyde": {
+   "carbon": 0.40002,
+   "hydrogen": 0.067142,
+   "oxygen": 0.532838
+  },
+  "acetylene": {
+   "carbon": 0.922575,
+   "hydrogen": 0.077425
+  },
+  "calcium_cyanamide": {
+   "calcium": 0.500331,
+   "carbon": 0.149944,
+   "nitrogen": 0.349725
+  },
+  "methanol": {
+   "carbon": 0.374852,
+   "hydrogen": 0.125835,
+   "oxygen": 0.499313
+  },
+  "ethylene": {
+   "carbon": 0.856277,
+   "hydrogen": 0.143723
+  },
+  "acetic_acid": {
+   "carbon": 0.40002,
+   "hydrogen": 0.067142,
+   "oxygen": 0.532838
+  },
+  "urea": {
+   "carbon": 0.199997,
+   "oxygen": 0.266401,
+   "nitrogen": 0.466465,
+   "hydrogen": 0.067137
+  },
+  "ethanol": {
+   "carbon": 0.521435,
+   "hydrogen": 0.131281,
+   "oxygen": 0.347283
+  },
+  "acetone": {
+   "carbon": 0.620403,
+   "hydrogen": 0.104132,
+   "oxygen": 0.275465
+  },
+  "ethylene_glycol": {
+   "carbon": 0.387027,
+   "hydrogen": 0.097442,
+   "oxygen": 0.515531
+  },
+  "butadiene": {
+   "carbon": 0.88819,
+   "hydrogen": 0.11181
+  },
+  "propane": {
+   "carbon": 0.81713,
+   "hydrogen": 0.18287
+  },
+  "benzene": {
+   "carbon": 0.922575,
+   "hydrogen": 0.077425
+  },
+  "phenol": {
+   "carbon": 0.765739,
+   "hydrogen": 0.064263,
+   "oxygen": 0.169998
+  },
+  "glycerol": {
+   "carbon": 0.391263,
+   "hydrogen": 0.087563,
+   "oxygen": 0.521174
+  },
+  "nitrobenzene": {
+   "carbon": 0.585374,
+   "hydrogen": 0.040939,
+   "nitrogen": 0.113775,
+   "oxygen": 0.259912
+  },
+  "aniline": {
+   "carbon": 0.77383,
+   "hydrogen": 0.075766,
+   "nitrogen": 0.150404
+  },
+  "diethyl_ether": {
+   "carbon": 0.648166,
+   "hydrogen": 0.13599,
+   "oxygen": 0.215844
+  },
+  "toluene": {
+   "carbon": 0.912482,
+   "hydrogen": 0.087518
+  },
+  "butanol": {
+   "carbon": 0.648166,
+   "hydrogen": 0.13599,
+   "oxygen": 0.215844
+  },
+  "styrene": {
+   "carbon": 0.922575,
+   "hydrogen": 0.077425
+  },
+  "p_phenylenediamine": {
+   "carbon": 0.666389,
+   "hydrogen": 0.074567,
+   "nitrogen": 0.259043
+  },
+  "salicylic_acid": {
+   "carbon": 0.608715,
+   "hydrogen": 0.043787,
+   "oxygen": 0.347497
+  },
+  "uric_acid": {
+   "carbon": 0.357232,
+   "hydrogen": 0.023984,
+   "nitrogen": 0.333278,
+   "oxygen": 0.285506
+  },
+  "xylene": {
+   "carbon": 0.905056,
+   "hydrogen": 0.094944
+  },
+  "cinnamaldehyde": {
+   "carbon": 0.817928,
+   "hydrogen": 0.061016,
+   "oxygen": 0.121056
+  },
+  "picric_acid": {
+   "carbon": 0.314556,
+   "hydrogen": 0.013199,
+   "nitrogen": 0.183415,
+   "oxygen": 0.48883
+  },
+  "sulfanilamide": {
+   "carbon": 0.418497,
+   "hydrogen": 0.046829,
+   "nitrogen": 0.162681,
+   "oxygen": 0.185817,
+   "sulfur": 0.186177
+  },
+  "nitroglycerin": {
+   "carbon": 0.158676,
+   "hydrogen": 0.022194,
+   "nitrogen": 0.185045,
+   "oxygen": 0.634084
+  },
+  "aspirin": {
+   "carbon": 0.60002,
+   "hydrogen": 0.04476,
+   "oxygen": 0.35522
+  },
+  "hexamine": {
+   "carbon": 0.514059,
+   "hydrogen": 0.086283,
+   "nitrogen": 0.399658
+  },
+  "naphtha": {
+   "carbon": 0.83905,
+   "hydrogen": 0.16095
+  },
+  "anthracene": {
+   "carbon": 0.943445,
+   "hydrogen": 0.056555
+  },
+  "gasoline": {
+   "carbon": 0.841165,
+   "hydrogen": 0.158835
+  },
+  "turpentine": {
+   "carbon": 0.881619,
+   "hydrogen": 0.118381
+  },
+  "nicotine": {
+   "carbon": 0.740341,
+   "hydrogen": 0.086984,
+   "nitrogen": 0.172674
+  },
+  "camphor": {
+   "carbon": 0.788967,
+   "hydrogen": 0.10594,
+   "oxygen": 0.105093
+  },
+  "eucalyptol": {
+   "carbon": 0.778656,
+   "hydrogen": 0.117625,
+   "oxygen": 0.103719
+  },
+  "indigo": {
+   "carbon": 0.732747,
+   "hydrogen": 0.038434,
+   "nitrogen": 0.106814,
+   "oxygen": 0.122005
+  },
+  "dibromoindigo": {
+   "carbon": 0.457497,
+   "hydrogen": 0.019197,
+   "bromine": 0.380441,
+   "nitrogen": 0.06669,
+   "oxygen": 0.076175
+  },
+  "kerosene": {
+   "carbon": 0.846143,
+   "hydrogen": 0.153857
+  },
+  "diesel": {
+   "carbon": 0.848654,
+   "hydrogen": 0.151346
+  },
+  "carminic_acid": {
+   "carbon": 0.536653,
+   "hydrogen": 0.040943,
+   "oxygen": 0.422404
+  },
+  "soft_soap": {
+   "carbon": 0.670228,
+   "hydrogen": 0.10937,
+   "potassium": 0.121206,
+   "oxygen": 0.099196
+  },
+  "hard_soap": {
+   "carbon": 0.705455,
+   "hydrogen": 0.115119,
+   "sodium": 0.075016,
+   "oxygen": 0.10441
+  },
+  "biodiesel": {
+   "carbon": 0.769689,
+   "hydrogen": 0.12239,
+   "oxygen": 0.107921
+  },
+  "latex": {
+   "carbon": 0.881619,
+   "hydrogen": 0.118381
+  },
+  "glyphosate": {
+   "carbon": 0.213121,
+   "hydrogen": 0.047695,
+   "nitrogen": 0.082846,
+   "oxygen": 0.473139,
+   "phosphorus": 0.183199
+  },
+  "terephthalic_acid": {
+   "carbon": 0.578383,
+   "hydrogen": 0.036405,
+   "oxygen": 0.385212
+  },
+  "coal_tar": {
+   "carbon": 0.937086,
+   "hydrogen": 0.062914
+  },
+  "dichlorophenoxyacetic_acid": {
+   "carbon": 0.434722,
+   "hydrogen": 0.027362,
+   "chlorine": 0.320767,
+   "oxygen": 0.217149
+  },
+  "two_four_d": {
+   "carbon": 0.434722,
+   "hydrogen": 0.027362,
+   "chlorine": 0.320767,
+   "oxygen": 0.217149
+  },
+  "lawsone": {
+   "carbon": 0.689673,
+   "hydrogen": 0.034728,
+   "oxygen": 0.275599
+  },
+  "vitamin_c": {
+   "carbon": 0.409178,
+   "hydrogen": 0.045786,
+   "oxygen": 0.545036
+  },
+  "trinitrotoluene": {
+   "carbon": 0.370168,
+   "hydrogen": 0.02219,
+   "nitrogen": 0.185007,
+   "oxygen": 0.422635
+  },
+  "rdx": {
+   "carbon": 0.162225,
+   "hydrogen": 0.027229,
+   "nitrogen": 0.378368,
+   "oxygen": 0.432178
+  },
+  "citric_acid": {
+   "carbon": 0.375103,
+   "hydrogen": 0.041973,
+   "oxygen": 0.582923
+  },
+  "chitosan": {
+   "carbon": 0.447179,
+   "hydrogen": 0.068802,
+   "nitrogen": 0.086915,
+   "oxygen": 0.397103
+  },
+  "glucose": {
+   "carbon": 0.40002,
+   "hydrogen": 0.067142,
+   "oxygen": 0.532838
+  },
+  "caffeine": {
+   "carbon": 0.494804,
+   "hydrogen": 0.051907,
+   "nitrogen": 0.288516,
+   "oxygen": 0.164773
+  },
+  "alizarin": {
+   "carbon": 0.700017,
+   "hydrogen": 0.03357,
+   "oxygen": 0.266412
+  },
+  "nitrocellulose": {
+   "carbon": 0.242539,
+   "hydrogen": 0.023747,
+   "nitrogen": 0.141422,
+   "oxygen": 0.592292
+  },
+  "cordite": {
+   "carbon": 0.242539,
+   "hydrogen": 0.023747,
+   "nitrogen": 0.141422,
+   "oxygen": 0.592292
+  },
+  "amifostine": {
+   "carbon": 0.280343,
+   "hydrogen": 0.070582,
+   "nitrogen": 0.130772,
+   "oxygen": 0.224055,
+   "phosphorus": 0.14459,
+   "sulfur": 0.149659
+  },
+  "chitin": {
+   "carbon": 0.472888,
+   "hydrogen": 0.06449,
+   "nitrogen": 0.068934,
+   "oxygen": 0.393688
+  },
+  "atrazine": {
+   "carbon": 0.445502,
+   "hydrogen": 0.065429,
+   "chlorine": 0.16436,
+   "nitrogen": 0.32471
+  },
+  "ddt": {
+   "carbon": 0.474373,
+   "hydrogen": 0.025593,
+   "chlorine": 0.500034
+  },
+  "linalool": {
+   "carbon": 0.778656,
+   "hydrogen": 0.117625,
+   "oxygen": 0.103719
+  },
+  "geraniol": {
+   "carbon": 0.778656,
+   "hydrogen": 0.117625,
+   "oxygen": 0.103719
+  },
+  "pilocarpine": {
+   "carbon": 0.634401,
+   "hydrogen": 0.077441,
+   "nitrogen": 0.134514,
+   "oxygen": 0.153644
+  },
+  "dragons_blood": {
+   "carbon": 0.766767,
+   "hydrogen": 0.052994,
+   "oxygen": 0.180239
+  },
+  "melanin": {
+   "carbon": 0.679253,
+   "hydrogen": 0.031669,
+   "nitrogen": 0.088015,
+   "oxygen": 0.201063
+  },
+  "brazilin": {
+   "carbon": 0.67128,
+   "hydrogen": 0.049294,
+   "oxygen": 0.279426
+  },
+  "arbutin": {
+   "carbon": 0.529405,
+   "hydrogen": 0.059239,
+   "oxygen": 0.411356
+  },
+  "myrrh": {
+   "carbon": 0.832848,
+   "hydrogen": 0.093194,
+   "oxygen": 0.073959
+  },
+  "salicin": {
+   "carbon": 0.545421,
+   "hydrogen": 0.063379,
+   "oxygen": 0.391201
+  },
+  "copaiba_balsam": {
+   "carbon": 0.881619,
+   "hydrogen": 0.118381
+  },
+  "santalol": {
+   "carbon": 0.817609,
+   "hydrogen": 0.109786,
+   "oxygen": 0.072605
+  },
+  "penicillin": {
+   "carbon": 0.574706,
+   "hydrogen": 0.05426,
+   "nitrogen": 0.083776,
+   "oxygen": 0.191381,
+   "sulfur": 0.095876
+  },
+  "cedrol": {
+   "carbon": 0.810196,
+   "hydrogen": 0.117857,
+   "oxygen": 0.071947
+  },
+  "fuchsine": {
+   "carbon": 0.711023,
+   "hydrogen": 0.059671,
+   "chlorine": 0.104928,
+   "nitrogen": 0.124377
+  },
+  "ndga": {
+   "carbon": 0.715011,
+   "hydrogen": 0.073341,
+   "oxygen": 0.211648
+  },
+  "sucrose": {
+   "carbon": 0.421073,
+   "hydrogen": 0.064786,
+   "oxygen": 0.514141
+  },
+  "crude_oil": {
+   "carbon": 0.856277,
+   "hydrogen": 0.143723
+  },
+  "lactose": {
+   "carbon": 0.421073,
+   "hydrogen": 0.064786,
+   "oxygen": 0.514141
+  },
+  "quinine": {
+   "carbon": 0.740451,
+   "hydrogen": 0.074569,
+   "nitrogen": 0.08635,
+   "oxygen": 0.09863
+  },
+  "capsaicin": {
+   "carbon": 0.707876,
+   "hydrogen": 0.089111,
+   "nitrogen": 0.045862,
+   "oxygen": 0.157152
+  },
+  "pyrethrin": {
+   "carbon": 0.767939,
+   "hydrogen": 0.08593,
+   "oxygen": 0.146131
+  },
+  "rosin": {
+   "carbon": 0.794226,
+   "hydrogen": 0.099981,
+   "oxygen": 0.105793
+  },
+  "copal": {
+   "carbon": 0.788967,
+   "hydrogen": 0.10594,
+   "oxygen": 0.105093
+  },
+  "urushiol": {
+   "carbon": 0.796976,
+   "hydrogen": 0.10192,
+   "oxygen": 0.101104
+  },
+  "bixin": {
+   "carbon": 0.761132,
+   "hydrogen": 0.076652,
+   "oxygen": 0.162216
+  },
+  "suberin": {
+   "carbon": 0.713061,
+   "hydrogen": 0.114244,
+   "oxygen": 0.172694
+  },
+  "pitch": {
+   "carbon": 0.940785,
+   "hydrogen": 0.059215
+  },
+  "cholecalciferol": {
+   "carbon": 0.843101,
+   "hydrogen": 0.115305,
+   "oxygen": 0.041594
+  },
+  "emetine": {
+   "carbon": 0.724685,
+   "hydrogen": 0.083887,
+   "nitrogen": 0.058284,
+   "oxygen": 0.133145
+  },
+  "pine_resin": {
+   "carbon": 0.821366,
+   "hydrogen": 0.105695,
+   "oxygen": 0.072939
+  },
+  "streptomycin": {
+   "carbon": 0.4337,
+   "hydrogen": 0.067595,
+   "nitrogen": 0.168591,
+   "oxygen": 0.330115
+  },
+  "squalene": {
+   "carbon": 0.877292,
+   "hydrogen": 0.122708
+  },
+  "frankincense": {
+   "carbon": 0.788967,
+   "hydrogen": 0.10594,
+   "oxygen": 0.105093
+  },
+  "ambrein": {
+   "carbon": 0.84043,
+   "hydrogen": 0.122254,
+   "oxygen": 0.037316
+  },
+  "dammar": {
+   "carbon": 0.810196,
+   "hydrogen": 0.117857,
+   "oxygen": 0.071947
+  },
+  "bitumen": {
+   "carbon": 0.905056,
+   "hydrogen": 0.094944
+  },
+  "vegetable_wax": {
+   "carbon": 0.852326,
+   "hydrogen": 0.147674
+  },
+  "cetyl_palmitate": {
+   "carbon": 0.799298,
+   "hydrogen": 0.134159,
+   "oxygen": 0.066543
+  },
+  "taxol": {
+   "carbon": 0.66109,
+   "hydrogen": 0.060203,
+   "nitrogen": 0.016403,
+   "oxygen": 0.262304
+  },
+  "jojoba_wax": {
+   "carbon": 0.81481,
+   "hydrogen": 0.133506,
+   "oxygen": 0.051683
+  },
+  "chlorophyll": {
+   "carbon": 0.739338,
+   "hydrogen": 0.081226,
+   "magnesium": 0.027202,
+   "nitrogen": 0.062706,
+   "oxygen": 0.089529
+  },
+  "marine_oil": {
+   "carbon": 0.778512,
+   "hydrogen": 0.11233,
+   "oxygen": 0.109158
+  },
+  "vegetable_oil": {
+   "carbon": 0.773194,
+   "hydrogen": 0.118394,
+   "oxygen": 0.108412
+  },
+  "tallow": {
+   "carbon": 0.767949,
+   "hydrogen": 0.124375,
+   "oxygen": 0.107677
+  },
+  "tannin": {
+   "carbon": 0.536582,
+   "hydrogen": 0.030811,
+   "oxygen": 0.432607
+  },
+  "kerogen": {
+   "carbon": 0.812453,
+   "hydrogen": 0.102275,
+   "nitrogen": 0.009475,
+   "oxygen": 0.054111,
+   "sulfur": 0.021686
+  },
+  "casein": {
+   "carbon": 0.471824,
+   "hydrogen": 0.061106,
+   "nitrogen": 0.149446,
+   "oxygen": 0.302603,
+   "phosphorus": 0.015021
+  },
+  "gelatin": {
+   "carbon": 0.503025,
+   "hydrogen": 0.062495,
+   "nitrogen": 0.178286,
+   "oxygen": 0.256193
+  },
+  "exenatide": {
+   "carbon": 0.527877,
+   "hydrogen": 0.067896,
+   "nitrogen": 0.167283,
+   "oxygen": 0.229287,
+   "sulfur": 0.007658
+  },
+  "hirudin": {
+   "carbon": 0.495033,
+   "hydrogen": 0.063692,
+   "nitrogen": 0.160919,
+   "oxygen": 0.252731,
+   "sulfur": 0.027624
+  },
+  "limulus_lysate": {
+   "carbon": 0.524836,
+   "hydrogen": 0.066069,
+   "nitrogen": 0.171375,
+   "oxygen": 0.223711,
+   "sulfur": 0.014009
+  },
+  "gfp": {
+   "carbon": 0.533496,
+   "hydrogen": 0.070094,
+   "nitrogen": 0.16887,
+   "oxygen": 0.217967,
+   "sulfur": 0.009573
+  },
+  "hemocyanin": {
+   "carbon": 0.532939,
+   "hydrogen": 0.069122,
+   "nitrogen": 0.169501,
+   "oxygen": 0.225874,
+   "copper": 0.002563
+  },
+  "polyethylene": {
+   "carbon": 0.856277,
+   "hydrogen": 0.143723
+  },
+  "polyvinyl_chloride": {
+   "carbon": 0.384377,
+   "hydrogen": 0.048387,
+   "chlorine": 0.567236
+  },
+  "polylactic_acid": {
+   "carbon": 0.500021,
+   "hydrogen": 0.055951,
+   "oxygen": 0.444028
+  },
+  "neoprene": {
+   "carbon": 0.542662,
+   "hydrogen": 0.056927,
+   "chlorine": 0.400411
+  },
+  "natural_rubber": {
+   "carbon": 0.881619,
+   "hydrogen": 0.118381
+  },
+  "chicle": {
+   "carbon": 0.881619,
+   "hydrogen": 0.118381
+  },
+  "bakelite": {
+   "carbon": 0.688462,
+   "hydrogen": 0.049524,
+   "oxygen": 0.262015
+  },
+  "polystyrene": {
+   "carbon": 0.922575,
+   "hydrogen": 0.077425
+  },
+  "protein": {
+   "carbon": 0.526226,
+   "hydrogen": 0.07066,
+   "nitrogen": 0.122735,
+   "oxygen": 0.280379
+  },
+  "starch": {
+   "carbon": 0.444465,
+   "hydrogen": 0.062168,
+   "oxygen": 0.493367
+  },
+  "cellulose": {
+   "carbon": 0.444465,
+   "hydrogen": 0.062168,
+   "oxygen": 0.493367
+  },
+  "lignin": {
+   "carbon": 0.666526,
+   "hydrogen": 0.067124,
+   "oxygen": 0.26635
+  },
+  "nylon": {
+   "carbon": 0.63685,
+   "hydrogen": 0.097985,
+   "nitrogen": 0.12378,
+   "oxygen": 0.141384
+  },
+  "gum_arabic": {
+   "carbon": 0.444465,
+   "hydrogen": 0.062168,
+   "oxygen": 0.493367
+  },
+  "buna_rubber": {
+   "carbon": 0.901632,
+   "hydrogen": 0.098368
+  },
+  "fibroin": {
+   "carbon": 0.487752,
+   "hydrogen": 0.062765,
+   "nitrogen": 0.189603,
+   "oxygen": 0.25988
+  },
+  "shellac": {
+   "carbon": 0.631271,
+   "hydrogen": 0.105956,
+   "oxygen": 0.262772
+  },
+  "urushi": {
+   "carbon": 0.754054,
+   "hydrogen": 0.102457,
+   "oxygen": 0.143489
+  },
+  "canada_balsam": {
+   "carbon": 0.821366,
+   "hydrogen": 0.105695,
+   "oxygen": 0.072939
+  },
+  "palm_sap": {
+   "carbon": 0.135603,
+   "hydrogen": 0.096732,
+   "oxygen": 0.767665
+  },
+  "vulcanized_rubber": {
+   "carbon": 0.85156,
+   "hydrogen": 0.114345,
+   "sulfur": 0.034095
+  },
+  "maple_sap": {
+   "carbon": 0.011959,
+   "hydrogen": 0.110568,
+   "oxygen": 0.877472
+  }
+ }
+}

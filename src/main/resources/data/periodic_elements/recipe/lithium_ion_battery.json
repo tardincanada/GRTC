@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ACA",
+    "LWL",
+    "APA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "C": {
+      "item": "periodic_elements:coke"
+    },
+    "P": {
+      "item": "periodic_elements:polyethylene"
+    },
+    "L": {
+      "item": "periodic_elements:lithium_cobalt_oxide"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:lithium_ion_battery",
+    "count": 1
+  }
+}

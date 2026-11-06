@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite"
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/cobbled_kimberlite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

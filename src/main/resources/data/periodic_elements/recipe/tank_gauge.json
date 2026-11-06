@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "K",
+    "W"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "K": {
+      "item": "minecraft:clock"
+    },
+    "W": {
+      "item": "periodic_elements:tank_wall"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tank_gauge",
+    "count": 1
+  }
+}

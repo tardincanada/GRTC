@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/gneiss"
+      },
+      {
+        "model": "periodic_elements:block/gneiss",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/gneiss",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/gneiss",
+        "y": 270
+      }
+    ]
+  }
+}

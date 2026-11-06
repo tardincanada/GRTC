@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/distillation_tray"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/distillation_tray_active"
+    }
+  }
+}

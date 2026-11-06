@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LWL",
+    "LAL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "A": {
+      "item": "periodic_elements:sulfuric_acid"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:lead_acid_pack",
+    "count": 1
+  }
+}

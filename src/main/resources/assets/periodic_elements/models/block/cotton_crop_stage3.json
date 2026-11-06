@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "periodic_elements:block/cotton_crop_stage3"
+  }
+}

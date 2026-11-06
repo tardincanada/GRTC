@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GIG",
+    "CBC",
+    "KKK"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "B": {
+      "item": "periodic_elements:potters_workshop"
+    },
+    "K": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:alchemists_laboratory",
+    "count": 1
+  }
+}

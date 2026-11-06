@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SGS",
+    "SMS",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "periodic_elements:mechanical_stirrer"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:deep_tank_fermenter",
+    "count": 1
+  }
+}

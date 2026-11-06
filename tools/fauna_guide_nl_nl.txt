@@ -1,0 +1,31 @@
+# Wilde dieren
+Elk bioom heeft twee tot vier eigen dieren, die alleen daar verschijnen. De meeste vluchten voor je; grote vechten terug als je ze slaat. Alleen de Gele schorpioen jaagt op je, 's nachts, en de Verschrikkelijke pijlgifkikker vergiftigt de blote hand die hem aanraakt.
+# Fokken
+Geef twee dieren van een soort het voer dat ze lusten om ze te laten fokken. Ver van hun klimaat fokken ze drie keer zo langzaam; een kas die tot hun klimaat verwarmd of gekoeld is, laat ze gewoon fokken.
+# Wat dieren geven
+Dieren in een omheining (een hek binnen 4 blokken) laten af en toe Mest vallen: gebruik die op een plant zoals bottenmeel, of verbrand hem. Wrijf pijlen over een Verschrikkelijke pijlgifkikker om er tot 8 te vergiftigen. Een glazen fles op een Gele schorpioen of een Gilamonster tapt het gif af, eens per vijf minuten. Struisvogels leggen eieren zo groot als vier kippeneieren.
+# Kleine dieren
+Insecten en wormen zijn voorwerpen en blokken. Bij het graven van aarde of gras komt soms een Regenworm tevoorschijn, bij het scheren van bladeren van de witte moerbei een Zijderups. In moeraswater kan een Medicinale bloedzuiger zich vastzuigen en je langzaam laten bloeden: zout haalt hem eraf en geeft je de bloedzuiger.
+Een Wormenbak (planken rond aarde) neemt een regenworm; voer hem bladeren, planten, zaden of mest en hij geeft Humus, een meststof.
+Zijdeteelt (niveau 1): de Zijderupsbak neemt zijderupsen; voer hem bladeren van de witte moerbei en hij geeft Zijdecocons, die in de oven Zijdedraad worden.
+Cochenille groeit op cactussen in woestijnen en badlands, de Lakschildluis op junglestammen; kolonies verschijnen bij je in de buurt en verspreiden zich. Gebruik een rijpe kolonie om hem af te schrapen; gebruik wat je schraapte op een andere cactus of junglestam om een kolonie te beginnen.
+Karmijn (niveau 2): cochenille in het Verfvat geeft karminezuur, een rode kleurstof.
+Schellak (niveau 3): stoklak in de Zeepketel geeft schellak.
+Tegengif (niveau 4): schorpioengif, zout en een glazen fles maken Antiserum; drink het om vergiftiging te genezen.
+Hirudine (niveau 5): bloedzuigers in het Ontsluitingsvat geven hirudine. Exenatide (niveau 7): gif van het Gilamonster in de Bioreactor geeft exenatide.
+# Bossen, velden en rivieren
+Fazanten en wilde eenden leggen af en toe eieren, en de wilde eend laat soms Eendendons achter. Een edelhert werpt elke dag of twee een Gewei af; gemalen geeft het bottenmeel. Wilde zwijnen verliezen haren, die met een stok en een koperstaaf een kwast maken. Steuren geven kaviaar en vislijm.
+De egel houdt plagen weg van gewassen binnen 4 blokken. De Europese bever eet wilgenbast en bouwt dammen van takken en modder in ondiep water bij hem in de buurt. Peruaanse genten laten guano achter op de kust, tot een half blok dik.
+Guano (niveau 3): guano in het Ontsluitingsvat geeft salpeter.
+Galaliet (niveau 5): de caseïne van melk in het Ontsluitingsvat, met formaldehyde in het reagensvak, geeft galaliet.
+# Koude bossen en bergen
+Rendieren en jaks geven melk in een emmer, en de schaar neemt wol van de jak of de alpaca; vier maken een blok wol. Rendieren werpen hun gewei af zoals het edelhert. Rendiermos groeit bij je in de buurt in sneeuwlanden; rendieren eten het.
+Bruine beren plunderen volle bijenkorven en bijennesten naast hen. De Euraziatische lynx jaagt op konijnen. De hermelijn wordt wit waar het koud is.
+# Zeeën en kusten
+Ringelrobben en walrussen geven walvisspek, walrussen ook ivoor; smelt het spek uit voor lampolie. Haring, zeekat en kristalkwal gaan in een emmer; de kwal gloeit en netelt. De zeekat geeft sepia-inkt (bruine kleurstof) en zeeschuim. Het vlees van de Groenlandse haai is rauw giftig: kook of rook het tot hákarl. Een glazen fles op een degenkrab tapt zijn blauwe bloed af, en de krab leeft door. Strandkrabben laten krabbenschaal vallen.
+Pareloesters groeien op zand onder warme zeeën bij je in de buurt; breek er een voor oesterschelpen en soms een parel. De potvis kan niet bejaagd worden. Amber uit zijn darm spoelt af en toe aan op stranden, en heel soms strandt een potvis en sterft daar; hij laat spermaceti en spek achter. Spermaceti en touw maken een kaars.
+Tyrisch purper (niveau 2): purperslakken in de Verfkuip geven paarse kleurstof.
+Vitamine D (niveau 5): haaienlever in het Ontsluitingsvat geeft vitamine D3. Chitosan (niveau 6): krabbenschalen in het Ontsluitingsvat geven chitosan.
+LAL-test (niveau 7): degenkrabbenbloed in het Ontsluitingsvat geeft Limulus-lysaat. GFP (niveau 7): kristalkwalweefsel in de Bioreactor geeft groen fluorescerend eiwit.
+# Dierencompendium
+Een boek en een veer maken het Dierencompendium. In je snelbalk noemt het de dieren die je kent. Kijk een seconde naar een dier binnen 16 blokken, vang het in een val of raap een klein dier op om het te noteren; gebruik het boek om over ze te lezen, bioom per bioom. Systema Naturae (niveau 3) voegt de wetenschappelijke namen toe, Over het ontstaan van soorten (niveau 4) de evolutie van elk dier en De Rode Lijst (niveau 6) zijn status.

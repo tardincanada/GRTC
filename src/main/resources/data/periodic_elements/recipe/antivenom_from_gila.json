@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:gila_venom"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "periodic_elements:sodium_chloride"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:antivenom",
+    "count": 1
+  }
+}

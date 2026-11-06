@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:black_powder"
+    },
+    {
+      "item": "periodic_elements:black_powder"
+    },
+    {
+      "item": "periodic_elements:black_powder"
+    },
+    {
+      "item": "periodic_elements:black_powder"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:blasting_charge",
+    "count": 2
+  }
+}

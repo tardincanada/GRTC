@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:wetsuit_hood",
+    "periodic_elements:wetsuit_jacket",
+    "periodic_elements:wetsuit_leggings",
+    "periodic_elements:wetsuit_boots"
+  ]
+}

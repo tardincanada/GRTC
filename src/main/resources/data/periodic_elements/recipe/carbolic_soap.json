@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:phenol"
+    },
+    {
+      "item": "periodic_elements:hard_soap"
+    },
+    {
+      "item": "periodic_elements:hard_soap"
+    },
+    {
+      "item": "periodic_elements:hard_soap"
+    },
+    {
+      "item": "periodic_elements:hard_soap"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:carbolic_soap",
+    "count": 4
+  }
+}

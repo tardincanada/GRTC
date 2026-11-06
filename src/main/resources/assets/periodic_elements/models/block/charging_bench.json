@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "periodic_elements:block/charging_bench_side",
+    "top": "periodic_elements:block/charging_bench_top",
+    "bottom": "periodic_elements:block/charging_bench_side"
+  }
+}

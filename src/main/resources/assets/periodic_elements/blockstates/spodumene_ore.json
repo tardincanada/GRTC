@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/spodumene_ore"
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/spodumene_ore",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

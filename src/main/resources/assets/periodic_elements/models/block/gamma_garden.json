@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "periodic_elements:block/gamma_garden_side",
+    "top": "periodic_elements:block/gamma_garden_top",
+    "bottom": "periodic_elements:block/gamma_garden_top"
+  }
+}

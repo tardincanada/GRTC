@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:ivory_bakelite",
+    "count": 4
+  }
+}

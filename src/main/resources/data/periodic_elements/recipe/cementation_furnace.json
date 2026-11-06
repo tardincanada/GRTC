@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "KIK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:cementation_furnace",
+    "count": 1
+  }
+}

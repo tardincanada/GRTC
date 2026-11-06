@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "periodic_elements:block/storage_tank_side",
+    "end": "periodic_elements:block/storage_tank_top"
+  }
+}

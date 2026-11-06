@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "PCP",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "periodic_elements:steel_cylinder"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:air_compressor",
+    "count": 1
+  }
+}

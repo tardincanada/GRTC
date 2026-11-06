@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:compressor"
+    },
+    "W": {
+      "item": "periodic_elements:tank_wall"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tank_compressor",
+    "count": 1
+  }
+}

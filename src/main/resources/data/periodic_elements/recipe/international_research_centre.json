@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    "WNW",
+    "TTT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "W": {
+      "item": "periodic_elements:silicon_wafer"
+    },
+    "N": {
+      "item": "periodic_elements:national_laboratory"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:international_research_centre",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SNS",
+    "NCN",
+    "NAN"
+  ],
+  "key": {
+    "N": {
+      "item": "periodic_elements:nylon"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "A": {
+      "item": "periodic_elements:aluminium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:nylon_backpack",
+    "count": 1
+  }
+}

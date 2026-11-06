@@ -1,0 +1,4833 @@
+[
+  {
+    "id": "carbon_monoxide",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 1,
+    "level": 1,
+    "color": "BFBFBF",
+    "composition": {
+      "C": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "hydrochloric_acid",
+    "name": "Hydrochloric Acid",
+    "formula": "HCl",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 1,
+    "level": 2,
+    "color": "E3F2B0",
+    "composition": {
+      "H": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "hydrogen_fluoride",
+    "name": "Hydrogen Fluoride",
+    "formula": "HF",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 1,
+    "level": 4,
+    "color": "E8F4E0",
+    "composition": {
+      "H": 1,
+      "F": 1
+    }
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "formula": "H₂O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 1,
+    "level": 0,
+    "color": "3F76E4",
+    "composition": {
+      "H": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "carbon_dioxide",
+    "name": "Carbon Dioxide",
+    "formula": "CO₂",
+    "state": "gas",
+    "sector": "both",
+    "tier": 1,
+    "level": 3,
+    "color": "E8E8E8",
+    "composition": {
+      "C": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name": "Sulfur Dioxide",
+    "formula": "SO₂",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 1,
+    "level": 1,
+    "color": "F5F0A0",
+    "composition": {
+      "S": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "heavy_water",
+    "name": "Heavy Water",
+    "formula": "D₂O",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 1,
+    "level": 6,
+    "color": "C8DCF0",
+    "composition": {
+      "H": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "formula": "NH₃",
+    "state": "gas",
+    "sector": "agriculture",
+    "tier": 1,
+    "level": 3,
+    "color": "C8E6FF",
+    "composition": {
+      "N": 1,
+      "H": 3
+    }
+  },
+  {
+    "id": "hydrogen_peroxide",
+    "name": "Hydrogen Peroxide",
+    "formula": "H₂O₂",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 1,
+    "level": 3,
+    "color": "DDF3FF",
+    "composition": {
+      "H": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "methane",
+    "name": "Methane",
+    "formula": "CH₄",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 1,
+    "level": 3,
+    "color": "A0D8EF",
+    "composition": {
+      "C": 1,
+      "H": 4
+    }
+  },
+  {
+    "id": "titanium_tetrachloride",
+    "name": "Titanium Tetrachloride",
+    "formula": "TiCl₄",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 1,
+    "level": 6,
+    "color": "F0F0E8",
+    "composition": {
+      "Ti": 1,
+      "Cl": 4
+    }
+  },
+  {
+    "id": "compressed_air",
+    "name": "Compressed Air",
+    "formula": "(N₂)₄O₂",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 1,
+    "level": 4,
+    "color": "DCE6F0",
+    "composition": {
+      "N": 8,
+      "O": 2
+    }
+  },
+  {
+    "id": "sodium_chloride",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 1,
+    "color": "F4F4F4",
+    "composition": {
+      "Na": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "potassium_chloride",
+    "name": "Potassium Chloride",
+    "formula": "KCl",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 2,
+    "level": 3,
+    "color": "E8B4A8",
+    "composition": {
+      "K": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "calcium_oxide",
+    "name": "Calcium Oxide",
+    "formula": "CaO",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 1,
+    "color": "F0EEE6",
+    "composition": {
+      "Ca": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "magnesium_oxide",
+    "name": "Magnesium Oxide",
+    "formula": "MgO",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 3,
+    "color": "F2F2F0",
+    "composition": {
+      "Mg": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "iron_ii_oxide",
+    "name": "Iron(II) Oxide",
+    "formula": "FeO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 3,
+    "color": "2E2B28",
+    "composition": {
+      "Fe": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "mercury_sulfide",
+    "name": "Cinnabar",
+    "formula": "HgS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "C2272D",
+    "composition": {
+      "Hg": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "zinc_sulfide",
+    "name": "Zinc Sulfide",
+    "formula": "ZnS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 2,
+    "color": "E8F0B0",
+    "composition": {
+      "Zn": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "copper_ii_oxide",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 1,
+    "color": "2B2B2B",
+    "composition": {
+      "Cu": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "lead_sulfide",
+    "name": "Galena",
+    "formula": "PbS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "5E6470",
+    "composition": {
+      "Pb": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "lead_oxide",
+    "name": "Litharge",
+    "formula": "PbO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 1,
+    "color": "E8B04A",
+    "composition": {
+      "Pb": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "zinc_oxide",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 2,
+    "color": "F4F4EE",
+    "composition": {
+      "Zn": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "cobalt_oxide",
+    "name": "Cobalt(II) Oxide",
+    "formula": "CoO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 2,
+    "color": "5B6B4E",
+    "composition": {
+      "Co": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "nickel_oxide",
+    "name": "Nickel Oxide",
+    "formula": "NiO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "4A7A40",
+    "composition": {
+      "Ni": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "silicon_dioxide",
+    "name": "Silicon Dioxide",
+    "formula": "SiO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "E6D7B8",
+    "composition": {
+      "Si": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "titanium_dioxide",
+    "name": "Titanium Dioxide",
+    "formula": "TiO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "FFFFFF",
+    "composition": {
+      "Ti": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "sodium_hydroxide",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 2,
+    "color": "F2F2F8",
+    "composition": {
+      "Na": 1,
+      "O": 1,
+      "H": 1
+    }
+  },
+  {
+    "id": "sodium_hypochlorite",
+    "name": "Sodium Hypochlorite",
+    "formula": "NaClO",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 3,
+    "color": "E6F7C8",
+    "composition": {
+      "Na": 1,
+      "Cl": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "sodium_oxide",
+    "name": "Sodium Oxide",
+    "formula": "Na₂O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 3,
+    "color": "F0F0F5",
+    "composition": {
+      "Na": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "potassium_oxide",
+    "name": "Potassium Oxide",
+    "formula": "K₂O",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 2,
+    "level": 3,
+    "color": "EDE0E8",
+    "composition": {
+      "K": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "manganese_dioxide",
+    "name": "Manganese Dioxide",
+    "formula": "MnO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 1,
+    "color": "3A3430",
+    "composition": {
+      "Mn": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "iron_disulfide",
+    "name": "Pyrite",
+    "formula": "FeS₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 1,
+    "color": "C8B45A",
+    "composition": {
+      "Fe": 1,
+      "S": 2
+    }
+  },
+  {
+    "id": "tin_dioxide",
+    "name": "Cassiterite",
+    "formula": "SnO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "4A3B32",
+    "composition": {
+      "Sn": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "magnesium_chloride",
+    "name": "Magnesium Chloride",
+    "formula": "MgCl₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 1,
+    "color": "F0F4F2",
+    "composition": {
+      "Mg": 1,
+      "Cl": 2
+    }
+  },
+  {
+    "id": "germanium_dioxide",
+    "name": "Germanium Dioxide",
+    "formula": "GeO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "F4F4F4",
+    "composition": {
+      "Ge": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "rubidium_oxide",
+    "name": "Rubidium Oxide",
+    "formula": "Rb₂O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "E8E0A0",
+    "composition": {
+      "Rb": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "caesium_oxide",
+    "name": "Caesium Oxide",
+    "formula": "Cs₂O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "F0C060",
+    "composition": {
+      "Cs": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "thorium_dioxide",
+    "name": "Thorianite",
+    "formula": "ThO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "4A4A40",
+    "composition": {
+      "Th": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "zirconium_dioxide",
+    "name": "Zirconia",
+    "formula": "ZrO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F0EEE8",
+    "composition": {
+      "Zr": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "hafnium_dioxide",
+    "name": "Hafnia",
+    "formula": "HfO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "EEEEEA",
+    "composition": {
+      "Hf": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "cerium_dioxide",
+    "name": "Ceria",
+    "formula": "CeO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F2E6B8",
+    "composition": {
+      "Ce": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "tungsten_trioxide",
+    "name": "Tungsten Trioxide",
+    "formula": "WO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "D8D040",
+    "composition": {
+      "W": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "molybdenum_trioxide",
+    "name": "Molybdenum Trioxide",
+    "formula": "MoO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "E6EEDC",
+    "composition": {
+      "Mo": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "aluminium_oxide",
+    "name": "Aluminium Oxide",
+    "formula": "Al₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "EDE3E3",
+    "composition": {
+      "Al": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "iron_oxide",
+    "name": "Iron(III) Oxide",
+    "formula": "Fe₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "A5432A",
+    "composition": {
+      "Fe": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "calcium_hydroxide",
+    "name": "Calcium Hydroxide",
+    "formula": "Ca(OH)₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 1,
+    "color": "F5F5EE",
+    "composition": {
+      "Ca": 1,
+      "O": 2,
+      "H": 2
+    }
+  },
+  {
+    "id": "nitric_acid",
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "state": "liquid",
+    "sector": "agriculture",
+    "tier": 2,
+    "level": 2,
+    "color": "F7E7A0",
+    "composition": {
+      "H": 1,
+      "N": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "arsenic_trioxide",
+    "name": "White Arsenic",
+    "formula": "As₂O₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 2,
+    "color": "F0F0F0",
+    "composition": {
+      "As": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "antimony_trioxide",
+    "name": "Antimony Trioxide",
+    "formula": "Sb₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 2,
+    "color": "F2F0E6",
+    "composition": {
+      "Sb": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "antimony_sulfide",
+    "name": "Stibnite",
+    "formula": "Sb₂S₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 2,
+    "color": "6E7078",
+    "composition": {
+      "Sb": 2,
+      "S": 3
+    }
+  },
+  {
+    "id": "gallium_oxide",
+    "name": "Gallium Oxide",
+    "formula": "Ga₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "F0F0F4",
+    "composition": {
+      "Ga": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "indium_oxide",
+    "name": "Indium Oxide",
+    "formula": "In₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "E8E070",
+    "composition": {
+      "In": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "chromium_oxide",
+    "name": "Chromium(III) Oxide",
+    "formula": "Cr₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "4E8A3A",
+    "composition": {
+      "Cr": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "lanthanum_oxide",
+    "name": "Lanthanum Oxide",
+    "formula": "La₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F6F6F2",
+    "composition": {
+      "La": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "neodymium_oxide",
+    "name": "Neodymium Oxide",
+    "formula": "Nd₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "C8B4D8",
+    "composition": {
+      "Nd": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "scandium_oxide",
+    "name": "Scandium Oxide",
+    "formula": "Sc₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F4F4F0",
+    "composition": {
+      "Sc": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "yttrium_oxide",
+    "name": "Yttrium Oxide",
+    "formula": "Y₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F6F6F2",
+    "composition": {
+      "Y": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "samarium_oxide",
+    "name": "Samarium Oxide",
+    "formula": "Sm₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F0E8C8",
+    "composition": {
+      "Sm": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "europium_oxide",
+    "name": "Europium Oxide",
+    "formula": "Eu₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F6F0F0",
+    "composition": {
+      "Eu": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "gadolinium_oxide",
+    "name": "Gadolinium Oxide",
+    "formula": "Gd₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F4F4F4",
+    "composition": {
+      "Gd": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "dysprosium_oxide",
+    "name": "Dysprosium Oxide",
+    "formula": "Dy₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F0F0E0",
+    "composition": {
+      "Dy": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "holmium_oxide",
+    "name": "Holmium Oxide",
+    "formula": "Ho₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F0E8D0",
+    "composition": {
+      "Ho": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "erbium_oxide",
+    "name": "Erbium Oxide",
+    "formula": "Er₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F4D0D8",
+    "composition": {
+      "Er": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "thulium_oxide",
+    "name": "Thulium Oxide",
+    "formula": "Tm₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "E8F0E0",
+    "composition": {
+      "Tm": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "ytterbium_oxide",
+    "name": "Ytterbium Oxide",
+    "formula": "Yb₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F6F6F6",
+    "composition": {
+      "Yb": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "lutetium_oxide",
+    "name": "Lutetium Oxide",
+    "formula": "Lu₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "F6F6F6",
+    "composition": {
+      "Lu": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "sulfuric_acid",
+    "name": "Sulfuric Acid",
+    "formula": "H₂SO₄",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 2,
+    "level": 2,
+    "color": "FFF6C8",
+    "composition": {
+      "H": 2,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "magnetite",
+    "name": "Magnetite",
+    "formula": "Fe₃O₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 0,
+    "color": "3B3B40",
+    "composition": {
+      "Fe": 3,
+      "O": 4
+    }
+  },
+  {
+    "id": "vanadium_pentoxide",
+    "name": "Vanadium Pentoxide",
+    "formula": "V₂O₅",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 4,
+    "color": "E09030",
+    "composition": {
+      "V": 2,
+      "O": 5
+    }
+  },
+  {
+    "id": "niobium_pentoxide",
+    "name": "Niobium Pentoxide",
+    "formula": "Nb₂O₅",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F4F4EE",
+    "composition": {
+      "Nb": 2,
+      "O": 5
+    }
+  },
+  {
+    "id": "tantalum_pentoxide",
+    "name": "Tantalum Pentoxide",
+    "formula": "Ta₂O₅",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F8F8F4",
+    "composition": {
+      "Ta": 2,
+      "O": 5
+    }
+  },
+  {
+    "id": "ammonia_water",
+    "name": "Ammonia Water",
+    "formula": "NH₄OH",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 2,
+    "level": 3,
+    "color": "E0ECF0",
+    "composition": {
+      "N": 1,
+      "H": 5,
+      "O": 1
+    }
+  },
+  {
+    "id": "phosphoric_acid",
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "state": "liquid",
+    "sector": "agriculture",
+    "tier": 2,
+    "level": 3,
+    "color": "F0F5D5",
+    "composition": {
+      "H": 3,
+      "P": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "rhenium_heptoxide",
+    "name": "Rhenium Heptoxide",
+    "formula": "Re₂O₇",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "F2E68C",
+    "composition": {
+      "Re": 2,
+      "O": 7
+    }
+  },
+  {
+    "id": "terbium_oxide",
+    "name": "Terbium Oxide",
+    "formula": "Tb₄O₇",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 6,
+    "color": "6A4A3A",
+    "composition": {
+      "Tb": 4,
+      "O": 7
+    }
+  },
+  {
+    "id": "phosphorus_pentoxide",
+    "name": "Phosphorus Pentoxide",
+    "formula": "P₄O₁₀",
+    "state": "solid",
+    "sector": "both",
+    "tier": 2,
+    "level": 3,
+    "color": "F8F8F8",
+    "composition": {
+      "P": 4,
+      "O": 10
+    }
+  },
+  {
+    "id": "praseodymium_oxide",
+    "name": "Praseodymium Oxide",
+    "formula": "Pr₆O₁₁",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 2,
+    "level": 5,
+    "color": "3A2E28",
+    "composition": {
+      "Pr": 6,
+      "O": 11
+    }
+  },
+  {
+    "id": "calcium_48",
+    "name": "Calcium-48",
+    "formula": "Ca",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 7,
+    "color": "F0F0F0",
+    "composition": {
+      "Ca": 1
+    }
+  },
+  {
+    "id": "lithium_chloride",
+    "name": "Lithium Chloride",
+    "formula": "LiCl",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F2F2F4",
+    "composition": {
+      "Li": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "barium_oxide",
+    "name": "Barium Oxide",
+    "formula": "BaO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F0F0EC",
+    "composition": {
+      "Ba": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "strontium_oxide",
+    "name": "Strontium Oxide",
+    "formula": "SrO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F2F0EE",
+    "composition": {
+      "Sr": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "cadmium_sulfide",
+    "name": "Greenockite",
+    "formula": "CdS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "E8C030",
+    "composition": {
+      "Cd": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "cadmium_oxide",
+    "name": "Cadmium Oxide",
+    "formula": "CdO",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "8A5A30",
+    "composition": {
+      "Cd": 1,
+      "O": 1
+    }
+  },
+  {
+    "id": "sodium_iodide",
+    "name": "Sodium Iodide",
+    "formula": "NaI",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 3,
+    "color": "F4F4F8",
+    "composition": {
+      "Na": 1,
+      "I": 1
+    }
+  },
+  {
+    "id": "rubidium_chloride",
+    "name": "Rubidium Chloride",
+    "formula": "RbCl",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4F4",
+    "composition": {
+      "Rb": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "caesium_chloride",
+    "name": "Caesium Chloride",
+    "formula": "CsCl",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4F4",
+    "composition": {
+      "Cs": 1,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "potassium_iodide",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 6,
+    "color": "FCFCFC",
+    "composition": {
+      "K": 1,
+      "I": 1
+    }
+  },
+  {
+    "id": "cobaltite",
+    "name": "Cobaltite",
+    "formula": "CoAsS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "B8B0C8",
+    "composition": {
+      "Co": 1,
+      "As": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "arsenopyrite",
+    "name": "Arsenopyrite",
+    "formula": "FeAsS",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "B4B0A0",
+    "composition": {
+      "Fe": 1,
+      "As": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "beryllium_chloride",
+    "name": "Beryllium Chloride",
+    "formula": "BeCl₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "EEF0E8",
+    "composition": {
+      "Be": 1,
+      "Cl": 2
+    }
+  },
+  {
+    "id": "uranium_dioxide",
+    "name": "Uraninite",
+    "formula": "UO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "3A3A34",
+    "composition": {
+      "U": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "magnesium_bromide",
+    "name": "Magnesium Bromide",
+    "formula": "MgBr₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F2EEE8",
+    "composition": {
+      "Mg": 1,
+      "Br": 2
+    }
+  },
+  {
+    "id": "calcium_fluoride",
+    "name": "Fluorite",
+    "formula": "CaF₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "B890E0",
+    "composition": {
+      "Ca": 1,
+      "F": 2
+    }
+  },
+  {
+    "id": "calcium_chloride",
+    "name": "Calcium Chloride",
+    "formula": "CaCl₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 4,
+    "color": "F6F6F6",
+    "composition": {
+      "Ca": 1,
+      "Cl": 2
+    }
+  },
+  {
+    "id": "germanium_sulfide",
+    "name": "Germanium Sulfide",
+    "formula": "GeS₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F0E8",
+    "composition": {
+      "Ge": 1,
+      "S": 2
+    }
+  },
+  {
+    "id": "radium_chloride",
+    "name": "Radium Chloride",
+    "formula": "RaCl₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F0F4F0",
+    "composition": {
+      "Ra": 1,
+      "Cl": 2
+    }
+  },
+  {
+    "id": "molybdenite",
+    "name": "Molybdenite",
+    "formula": "MoS₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "6E7480",
+    "composition": {
+      "Mo": 1,
+      "S": 2
+    }
+  },
+  {
+    "id": "rhenium_disulfide",
+    "name": "Rhenium Disulfide",
+    "formula": "ReS₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "3C3C44",
+    "composition": {
+      "Re": 1,
+      "S": 2
+    }
+  },
+  {
+    "id": "iron_fluoride",
+    "name": "Iron(II) Fluoride",
+    "formula": "FeF₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "D8E6D0",
+    "composition": {
+      "Fe": 1,
+      "F": 2
+    }
+  },
+  {
+    "id": "magnesium_fluoride",
+    "name": "Magnesium Fluoride",
+    "formula": "MgF₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F6F6F8",
+    "composition": {
+      "Mg": 1,
+      "F": 2
+    }
+  },
+  {
+    "id": "enriched_uranium_dioxide",
+    "name": "Enriched Uranium Dioxide",
+    "formula": "UO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "2E2E2A",
+    "composition": {
+      "U": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "plutonium_dioxide",
+    "name": "Plutonium Dioxide",
+    "formula": "PuO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "8A6A2A",
+    "composition": {
+      "Pu": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "neptunium_dioxide",
+    "name": "Neptunium Dioxide",
+    "formula": "NpO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "6A7A4A",
+    "composition": {
+      "Np": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "americium_dioxide",
+    "name": "Americium Dioxide",
+    "formula": "AmO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "5A4A3A",
+    "composition": {
+      "Am": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "fission_products",
+    "name": "Fission Products",
+    "formula": "Cs₂O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "4A4A3A",
+    "composition": {
+      "Cs": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "chalcopyrite",
+    "name": "Chalcopyrite",
+    "formula": "CuFeS₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 1,
+    "color": "C9A23A",
+    "composition": {
+      "Cu": 1,
+      "Fe": 1,
+      "S": 2
+    }
+  },
+  {
+    "id": "scandium_chloride",
+    "name": "Scandium Chloride",
+    "formula": "ScCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0F0EC",
+    "composition": {
+      "Sc": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "yttrium_chloride",
+    "name": "Yttrium Chloride",
+    "formula": "YCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F2F2EE",
+    "composition": {
+      "Y": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "samarium_chloride",
+    "name": "Samarium Chloride",
+    "formula": "SmCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0E0C0",
+    "composition": {
+      "Sm": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "europium_chloride",
+    "name": "Europium Chloride",
+    "formula": "EuCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0E8E8",
+    "composition": {
+      "Eu": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "gadolinium_chloride",
+    "name": "Gadolinium Chloride",
+    "formula": "GdCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "EEEEEE",
+    "composition": {
+      "Gd": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "terbium_chloride",
+    "name": "Terbium Chloride",
+    "formula": "TbCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0F0E8",
+    "composition": {
+      "Tb": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "dysprosium_chloride",
+    "name": "Dysprosium Chloride",
+    "formula": "DyCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "ECECDC",
+    "composition": {
+      "Dy": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "holmium_chloride",
+    "name": "Holmium Chloride",
+    "formula": "HoCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0D8C8",
+    "composition": {
+      "Ho": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "erbium_chloride",
+    "name": "Erbium Chloride",
+    "formula": "ErCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0C8D0",
+    "composition": {
+      "Er": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "thulium_chloride",
+    "name": "Thulium Chloride",
+    "formula": "TmCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "DCECD8",
+    "composition": {
+      "Tm": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "ytterbium_chloride",
+    "name": "Ytterbium Chloride",
+    "formula": "YbCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0F0F0",
+    "composition": {
+      "Yb": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "lutetium_chloride",
+    "name": "Lutetium Chloride",
+    "formula": "LuCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "EEEEEE",
+    "composition": {
+      "Lu": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "iron_iii_chloride",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "6A4A20",
+    "composition": {
+      "Fe": 1,
+      "Cl": 3
+    }
+  },
+  {
+    "id": "lithium_cobalt_oxide",
+    "name": "Lithium Cobalt Oxide",
+    "formula": "LiCoO₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 7,
+    "color": "2A3A5A",
+    "composition": {
+      "Li": 1,
+      "Co": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "calcium_carbonate",
+    "name": "Calcium Carbonate",
+    "formula": "CaCO₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 0,
+    "color": "EFEBDF",
+    "composition": {
+      "Ca": 1,
+      "C": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "potassium_nitrate",
+    "name": "Potassium Nitrate",
+    "formula": "KNO₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 2,
+    "color": "F3E9D2",
+    "composition": {
+      "K": 1,
+      "N": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "sodium_metavanadate",
+    "name": "Sodium Metavanadate",
+    "formula": "NaVO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F0E8C8",
+    "composition": {
+      "Na": 1,
+      "V": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "indium_sulfide",
+    "name": "Indium Sulfide",
+    "formula": "In₂S₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "D0A040",
+    "composition": {
+      "In": 2,
+      "S": 3
+    }
+  },
+  {
+    "id": "thorium_chloride",
+    "name": "Thorium Chloride",
+    "formula": "ThCl₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4F0",
+    "composition": {
+      "Th": 1,
+      "Cl": 4
+    }
+  },
+  {
+    "id": "ilmenite",
+    "name": "Ilmenite",
+    "formula": "FeTiO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "2A2A2E",
+    "composition": {
+      "Fe": 1,
+      "Ti": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "hafnium_tetrafluoride",
+    "name": "Hafnium Tetrafluoride",
+    "formula": "HfF₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "F4F6F8",
+    "composition": {
+      "Hf": 1,
+      "F": 4
+    }
+  },
+  {
+    "id": "uranium_tetrafluoride",
+    "name": "Uranium Tetrafluoride",
+    "formula": "UF₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "6EA048",
+    "composition": {
+      "U": 1,
+      "F": 4
+    }
+  },
+  {
+    "id": "curium_oxide",
+    "name": "Curium Oxide",
+    "formula": "Cm₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0F0E8",
+    "composition": {
+      "Cm": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "promethium_oxide",
+    "name": "Promethium Oxide",
+    "formula": "Pm₂O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0D8E0",
+    "composition": {
+      "Pm": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "boron_carbide",
+    "name": "Boron Carbide",
+    "formula": "B₄C",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 7,
+    "color": "30343A",
+    "composition": {
+      "B": 4,
+      "C": 1
+    }
+  },
+  {
+    "id": "sodium_carbonate",
+    "name": "Sodium Carbonate",
+    "formula": "Na₂CO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 1,
+    "color": "F8F8F8",
+    "composition": {
+      "Na": 2,
+      "C": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "sodium_bicarbonate",
+    "name": "Sodium Bicarbonate",
+    "formula": "NaHCO₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 3,
+    "color": "FAFAFF",
+    "composition": {
+      "Na": 1,
+      "H": 1,
+      "C": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "copper_sulfate",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 2,
+    "color": "1F7FD6",
+    "composition": {
+      "Cu": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "iron_sulfate",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 2,
+    "color": "9ED2A8",
+    "composition": {
+      "Fe": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "barium_sulfate",
+    "name": "Barite",
+    "formula": "BaSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "EAE6E0",
+    "composition": {
+      "Ba": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "strontium_sulfate",
+    "name": "Celestine",
+    "formula": "SrSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "C8DCEC",
+    "composition": {
+      "Sr": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "lead_sulfate",
+    "name": "Lead Sulfate",
+    "formula": "PbSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F0F0F0",
+    "composition": {
+      "Pb": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "calcium_sulfate",
+    "name": "Anhydrite",
+    "formula": "CaSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F0EEE8",
+    "composition": {
+      "Ca": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "wolframite",
+    "name": "Wolframite",
+    "formula": "FeWO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "3A3430",
+    "composition": {
+      "Fe": 1,
+      "W": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "radium_sulfate",
+    "name": "Radium Sulfate",
+    "formula": "RaSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4EC",
+    "composition": {
+      "Ra": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "monazite",
+    "name": "Monazite",
+    "formula": "CePO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "C89060",
+    "composition": {
+      "Ce": 1,
+      "P": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "zircon",
+    "name": "Zircon",
+    "formula": "ZrSiO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "C0A090",
+    "composition": {
+      "Zr": 1,
+      "Si": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "xenotime",
+    "name": "Xenotime",
+    "formula": "YPO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "B07850",
+    "composition": {
+      "Y": 1,
+      "P": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "sodium_silicate",
+    "name": "Sodium Silicate",
+    "formula": "Na₂SiO₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "DCE0E4",
+    "composition": {
+      "Na": 2,
+      "Si": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "potassium_bisulfate",
+    "name": "Potassium Bisulfate",
+    "formula": "KHSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "F4F2EC",
+    "composition": {
+      "K": 1,
+      "H": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "sodium_bisulfate",
+    "name": "Sodium Bisulfate",
+    "formula": "NaHSO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "F6F4EE",
+    "composition": {
+      "Na": 1,
+      "H": 1,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "boric_acid",
+    "name": "Boric Acid",
+    "formula": "H₃BO₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 3,
+    "color": "F8F8F2",
+    "composition": {
+      "H": 3,
+      "B": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "sodium_sulfate",
+    "name": "Sodium Sulfate",
+    "formula": "Na₂SO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "F6F6F2",
+    "composition": {
+      "Na": 2,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "gibbsite",
+    "name": "Gibbsite",
+    "formula": "Al(OH)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "D8B8A0",
+    "composition": {
+      "Al": 1,
+      "O": 3,
+      "H": 3
+    }
+  },
+  {
+    "id": "sodium_tungstate",
+    "name": "Sodium Tungstate",
+    "formula": "Na₂WO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4F0",
+    "composition": {
+      "Na": 2,
+      "W": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "thallium_sulfate",
+    "name": "Thallium Sulfate",
+    "formula": "Tl₂SO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F4F4F4",
+    "composition": {
+      "Tl": 2,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "chromite",
+    "name": "Chromite",
+    "formula": "FeCr₂O₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "2E2A30",
+    "composition": {
+      "Fe": 1,
+      "Cr": 2,
+      "O": 4
+    }
+  },
+  {
+    "id": "sodium_chromate",
+    "name": "Sodium Chromate",
+    "formula": "Na₂CrO₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "F2D21C",
+    "composition": {
+      "Na": 2,
+      "Cr": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "uranium_hexafluoride",
+    "name": "Uranium Hexafluoride",
+    "formula": "UF₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F0F0E4",
+    "composition": {
+      "U": 1,
+      "F": 6
+    }
+  },
+  {
+    "id": "enriched_uranium_hexafluoride",
+    "name": "Enriched Uranium Hexafluoride",
+    "formula": "UF₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "F4F0D8",
+    "composition": {
+      "U": 1,
+      "F": 6
+    }
+  },
+  {
+    "id": "depleted_uranium_hexafluoride",
+    "name": "Depleted Uranium Hexafluoride",
+    "formula": "UF₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 6,
+    "color": "E8E8E0",
+    "composition": {
+      "U": 1,
+      "F": 6
+    }
+  },
+  {
+    "id": "ammonium_nitrate",
+    "name": "Ammonium Nitrate",
+    "formula": "NH₄NO₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 2,
+    "color": "FFF8E8",
+    "composition": {
+      "N": 2,
+      "H": 4,
+      "O": 3
+    }
+  },
+  {
+    "id": "columbite",
+    "name": "Columbite",
+    "formula": "FeNb₂O₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "32302E",
+    "composition": {
+      "Fe": 1,
+      "Nb": 2,
+      "O": 6
+    }
+  },
+  {
+    "id": "tantalite",
+    "name": "Tantalite",
+    "formula": "FeTa₂O₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "3A3230",
+    "composition": {
+      "Fe": 1,
+      "Ta": 2,
+      "O": 6
+    }
+  },
+  {
+    "id": "spodumene",
+    "name": "Spodumene",
+    "formula": "LiAlSi₂O₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "D8C8D0",
+    "composition": {
+      "Li": 1,
+      "Al": 1,
+      "Si": 2,
+      "O": 6
+    }
+  },
+  {
+    "id": "cryolite",
+    "name": "Cryolite",
+    "formula": "Na₃AlF₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "F2F4F6",
+    "composition": {
+      "Na": 3,
+      "Al": 1,
+      "F": 6
+    }
+  },
+  {
+    "id": "triuranium_octoxide",
+    "name": "Uranium Oxide",
+    "formula": "U₃O₈",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 3,
+    "color": "4A4A30",
+    "composition": {
+      "U": 3,
+      "O": 8
+    }
+  },
+  {
+    "id": "gypsum",
+    "name": "Gypsum",
+    "formula": "CaSO₄·2H₂O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 1,
+    "color": "F6F2EA",
+    "composition": {
+      "Ca": 1,
+      "S": 1,
+      "O": 6,
+      "H": 4
+    }
+  },
+  {
+    "id": "monoammonium_phosphate",
+    "name": "Monoammonium Phosphate",
+    "formula": "NH₄H₂PO₄",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 5,
+    "color": "E8EEF5",
+    "composition": {
+      "N": 1,
+      "H": 6,
+      "P": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "tricalcium_phosphate",
+    "name": "Calcium Phosphate",
+    "formula": "Ca₃(PO₄)₂",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 3,
+    "color": "D9CDB4",
+    "composition": {
+      "Ca": 3,
+      "P": 2,
+      "O": 8
+    }
+  },
+  {
+    "id": "ammonium_sulfate",
+    "name": "Ammonium Sulfate",
+    "formula": "(NH₄)₂SO₄",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 3,
+    "color": "EEE8DA",
+    "composition": {
+      "N": 2,
+      "H": 8,
+      "S": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "superphosphate",
+    "name": "Superphosphate",
+    "formula": "Ca(H₂PO₄)₂",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 3,
+    "color": "E4DCC8",
+    "composition": {
+      "Ca": 1,
+      "H": 4,
+      "P": 2,
+      "O": 8
+    }
+  },
+  {
+    "id": "diammonium_phosphate",
+    "name": "Diammonium Phosphate",
+    "formula": "(NH₄)₂HPO₄",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 3,
+    "level": 5,
+    "color": "D6DDE8",
+    "composition": {
+      "N": 2,
+      "H": 9,
+      "P": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "kaolinite",
+    "name": "Kaolinite",
+    "formula": "Al₂Si₂O₅(OH)₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 0,
+    "color": "EFE8DC",
+    "composition": {
+      "Al": 2,
+      "Si": 2,
+      "O": 9,
+      "H": 4
+    }
+  },
+  {
+    "id": "pentlandite",
+    "name": "Pentlandite",
+    "formula": "Fe₄Ni₅S₈",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "C8B060",
+    "composition": {
+      "Fe": 4,
+      "Ni": 5,
+      "S": 8
+    }
+  },
+  {
+    "id": "lanthanum_sulfate",
+    "name": "Lanthanum Sulfate",
+    "formula": "La₂(SO₄)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "F2F0EC",
+    "composition": {
+      "La": 2,
+      "S": 3,
+      "O": 12
+    }
+  },
+  {
+    "id": "cerium_sulfate",
+    "name": "Cerium(III) Sulfate",
+    "formula": "Ce₂(SO₄)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "F4F0E0",
+    "composition": {
+      "Ce": 2,
+      "S": 3,
+      "O": 12
+    }
+  },
+  {
+    "id": "praseodymium_sulfate",
+    "name": "Praseodymium Sulfate",
+    "formula": "Pr₂(SO₄)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "C8E6B4",
+    "composition": {
+      "Pr": 2,
+      "S": 3,
+      "O": 12
+    }
+  },
+  {
+    "id": "neodymium_sulfate",
+    "name": "Neodymium Sulfate",
+    "formula": "Nd₂(SO₄)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 5,
+    "color": "E6C8DC",
+    "composition": {
+      "Nd": 2,
+      "S": 3,
+      "O": 12
+    }
+  },
+  {
+    "id": "aluminium_sulfate",
+    "name": "Aluminium Sulfate",
+    "formula": "Al₂(SO₄)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "F4F4F0",
+    "composition": {
+      "Al": 2,
+      "S": 3,
+      "O": 12
+    }
+  },
+  {
+    "id": "vanadinite",
+    "name": "Vanadinite",
+    "formula": "Pb₅(VO₄)₃Cl",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 4,
+    "color": "D05A28",
+    "composition": {
+      "Pb": 5,
+      "V": 3,
+      "O": 12,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "aramid",
+    "name": "Aramid",
+    "formula": "C₁₄H₁₀N₂O₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 7,
+    "color": "E8C840",
+    "composition": {
+      "C": 14,
+      "H": 10,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "beryl",
+    "name": "Beryl",
+    "formula": "Be₃Al₂Si₆O₁₈",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 0,
+    "color": "4FC08A",
+    "composition": {
+      "Be": 3,
+      "Al": 2,
+      "Si": 6,
+      "O": 18
+    }
+  },
+  {
+    "id": "sodium_tetraborate",
+    "name": "Borax",
+    "formula": "Na₂B₄O₇·10H₂O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 3,
+    "level": 3,
+    "color": "F4F2EA",
+    "composition": {
+      "Na": 2,
+      "B": 4,
+      "O": 17,
+      "H": 20
+    }
+  },
+  {
+    "id": "prussian_blue",
+    "name": "Prussian Blue",
+    "formula": "Fe₄(Fe(CN)₆)₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "1C3A80",
+    "composition": {
+      "Fe": 7,
+      "C": 18,
+      "N": 18
+    }
+  },
+  {
+    "id": "potassium_alum",
+    "name": "Potash Alum",
+    "formula": "KAl(SO₄)₂·12H₂O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 2,
+    "color": "EEF0F4",
+    "composition": {
+      "K": 1,
+      "Al": 1,
+      "S": 2,
+      "O": 20,
+      "H": 24
+    }
+  },
+  {
+    "id": "lazurite",
+    "name": "Lazurite",
+    "formula": "Na₇CaAl₆Si₆O₂₄(SO₄)S₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 3,
+    "level": 0,
+    "color": "2647A8",
+    "composition": {
+      "Na": 7,
+      "Ca": 1,
+      "Al": 6,
+      "Si": 6,
+      "O": 28,
+      "S": 4
+    }
+  },
+  {
+    "id": "calcium_carbide",
+    "name": "Calcium Carbide",
+    "formula": "CaC₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 5,
+    "color": "8A8F96",
+    "composition": {
+      "Ca": 1,
+      "C": 2
+    }
+  },
+  {
+    "id": "formaldehyde",
+    "name": "Formaldehyde",
+    "formula": "CH₂O",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F0F0D8",
+    "composition": {
+      "C": 1,
+      "H": 2,
+      "O": 1
+    }
+  },
+  {
+    "id": "acetylene",
+    "name": "Acetylene",
+    "formula": "C₂H₂",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F8F8E0",
+    "composition": {
+      "C": 2,
+      "H": 2
+    }
+  },
+  {
+    "id": "calcium_cyanamide",
+    "name": "Nitrolime",
+    "formula": "CaCN₂",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 4,
+    "level": 5,
+    "color": "3A3A40",
+    "composition": {
+      "Ca": 1,
+      "C": 1,
+      "N": 2
+    }
+  },
+  {
+    "id": "methanol",
+    "name": "Methanol",
+    "formula": "CH₃OH",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 2,
+    "color": "EAF2F8",
+    "composition": {
+      "C": 1,
+      "H": 4,
+      "O": 1
+    }
+  },
+  {
+    "id": "ethylene",
+    "name": "Ethylene",
+    "formula": "C₂H₄",
+    "state": "gas",
+    "sector": "both",
+    "tier": 4,
+    "level": 3,
+    "color": "D8F0E0",
+    "composition": {
+      "C": 2,
+      "H": 4
+    }
+  },
+  {
+    "id": "acetic_acid",
+    "name": "Acetic Acid",
+    "formula": "CH₃COOH",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 1,
+    "color": "F2EDE0",
+    "composition": {
+      "C": 2,
+      "H": 4,
+      "O": 2
+    }
+  },
+  {
+    "id": "urea",
+    "name": "Urea",
+    "formula": "CO(NH₂)₂",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 4,
+    "level": 3,
+    "color": "FFFFFF",
+    "composition": {
+      "C": 1,
+      "O": 1,
+      "N": 2,
+      "H": 4
+    }
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "formula": "C₂H₅OH",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 4,
+    "level": 1,
+    "color": "F5F0E0",
+    "composition": {
+      "C": 2,
+      "H": 6,
+      "O": 1
+    }
+  },
+  {
+    "id": "acetone",
+    "name": "Acetone",
+    "formula": "C₃H₆O",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 2,
+    "color": "EEF6FA",
+    "composition": {
+      "C": 3,
+      "H": 6,
+      "O": 1
+    }
+  },
+  {
+    "id": "ethylene_glycol",
+    "name": "Ethylene Glycol",
+    "formula": "C₂H₆O₂",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "7FD1E8",
+    "composition": {
+      "C": 2,
+      "H": 6,
+      "O": 2
+    }
+  },
+  {
+    "id": "butadiene",
+    "name": "Butadiene",
+    "formula": "C₄H₆",
+    "state": "gas",
+    "sector": "industry",
+    "tier": 4,
+    "level": 5,
+    "color": "F0F0E8",
+    "composition": {
+      "C": 4,
+      "H": 6
+    }
+  },
+  {
+    "id": "propane",
+    "name": "Propane",
+    "formula": "C₃H₈",
+    "state": "gas",
+    "sector": "both",
+    "tier": 4,
+    "level": 5,
+    "color": "C6E2F5",
+    "composition": {
+      "C": 3,
+      "H": 8
+    }
+  },
+  {
+    "id": "benzene",
+    "name": "Benzene",
+    "formula": "C₆H₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 3,
+    "color": "EDE6C8",
+    "composition": {
+      "C": 6,
+      "H": 6
+    }
+  },
+  {
+    "id": "phenol",
+    "name": "Phenol",
+    "formula": "C₆H₆O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 3,
+    "color": "F4ECE0",
+    "composition": {
+      "C": 6,
+      "H": 6,
+      "O": 1
+    }
+  },
+  {
+    "id": "glycerol",
+    "name": "Glycerol",
+    "formula": "C₃H₈O₃",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 3,
+    "color": "F8F4DC",
+    "composition": {
+      "C": 3,
+      "H": 8,
+      "O": 3
+    }
+  },
+  {
+    "id": "nitrobenzene",
+    "name": "Nitrobenzene",
+    "formula": "C₆H₅NO₂",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 7,
+    "color": "F0E070",
+    "composition": {
+      "C": 6,
+      "H": 5,
+      "N": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "aniline",
+    "name": "Aniline",
+    "formula": "C₆H₇N",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F0E8C8",
+    "composition": {
+      "C": 6,
+      "H": 7,
+      "N": 1
+    }
+  },
+  {
+    "id": "diethyl_ether",
+    "name": "Diethyl Ether",
+    "formula": "C₄H₁₀O",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 2,
+    "color": "F0F4F8",
+    "composition": {
+      "C": 4,
+      "H": 10,
+      "O": 1
+    }
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "formula": "C₇H₈",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 3,
+    "color": "EEE8D0",
+    "composition": {
+      "C": 7,
+      "H": 8
+    }
+  },
+  {
+    "id": "butanol",
+    "name": "Butanol",
+    "formula": "C₄H₁₀O",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 5,
+    "color": "F0F4F0",
+    "composition": {
+      "C": 4,
+      "H": 10,
+      "O": 1
+    }
+  },
+  {
+    "id": "styrene",
+    "name": "Styrene",
+    "formula": "C₈H₈",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "E3E8EF",
+    "composition": {
+      "C": 8,
+      "H": 8
+    }
+  },
+  {
+    "id": "p_phenylenediamine",
+    "name": "p-Phenylenediamine",
+    "formula": "C₆H₈N₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 7,
+    "color": "D8D0E0",
+    "composition": {
+      "C": 6,
+      "H": 8,
+      "N": 2
+    }
+  },
+  {
+    "id": "salicylic_acid",
+    "name": "Salicylic Acid",
+    "formula": "C₇H₆O₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 4,
+    "color": "F8F8F4",
+    "composition": {
+      "C": 7,
+      "H": 6,
+      "O": 3
+    }
+  },
+  {
+    "id": "uric_acid",
+    "name": "Uric Acid",
+    "formula": "C₅H₄N₄O₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 4,
+    "level": 3,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 5,
+      "H": 4,
+      "N": 4,
+      "O": 3
+    }
+  },
+  {
+    "id": "xylene",
+    "name": "p-Xylene",
+    "formula": "C₈H₁₀",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 6,
+    "color": "ECE8D8",
+    "composition": {
+      "C": 8,
+      "H": 10
+    }
+  },
+  {
+    "id": "cinnamaldehyde",
+    "name": "Cinnamaldehyde",
+    "formula": "C₉H₈O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 4,
+    "level": 2,
+    "color": "E8B060",
+    "composition": {
+      "C": 9,
+      "H": 8,
+      "O": 1
+    }
+  },
+  {
+    "id": "picric_acid",
+    "name": "Picric Acid",
+    "formula": "C₆H₃N₃O₇",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F8E838",
+    "composition": {
+      "C": 6,
+      "H": 3,
+      "N": 3,
+      "O": 7
+    }
+  },
+  {
+    "id": "sulfanilamide",
+    "name": "Sulfanilamide",
+    "formula": "C₆H₈N₂O₂S",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 5,
+    "color": "FAFAF4",
+    "composition": {
+      "C": 6,
+      "H": 8,
+      "N": 2,
+      "O": 2,
+      "S": 1
+    }
+  },
+  {
+    "id": "nitroglycerin",
+    "name": "Nitroglycerin",
+    "formula": "C₃H₅N₃O₉",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F4F0D8",
+    "composition": {
+      "C": 3,
+      "H": 5,
+      "N": 3,
+      "O": 9
+    }
+  },
+  {
+    "id": "aspirin",
+    "name": "Aspirin",
+    "formula": "C₉H₈O₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 4,
+    "color": "FFFFFF",
+    "composition": {
+      "C": 9,
+      "H": 8,
+      "O": 4
+    }
+  },
+  {
+    "id": "hexamine",
+    "name": "Hexamine",
+    "formula": "C₆H₁₂N₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 6,
+    "color": "FAFAFA",
+    "composition": {
+      "C": 6,
+      "H": 12,
+      "N": 4
+    }
+  },
+  {
+    "id": "naphtha",
+    "name": "Naphtha",
+    "formula": "C₇H₁₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "F4E8B0",
+    "composition": {
+      "C": 7,
+      "H": 16
+    }
+  },
+  {
+    "id": "anthracene",
+    "name": "Anthracene",
+    "formula": "C₁₄H₁₀",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 3,
+    "color": "F0F0D0",
+    "composition": {
+      "C": 14,
+      "H": 10
+    }
+  },
+  {
+    "id": "gasoline",
+    "name": "Gasoline",
+    "formula": "C₈H₁₈",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 5,
+    "color": "F0D070",
+    "composition": {
+      "C": 8,
+      "H": 18
+    }
+  },
+  {
+    "id": "turpentine",
+    "name": "Turpentine",
+    "formula": "C₁₀H₁₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 2,
+    "color": "F0E8C0",
+    "composition": {
+      "C": 10,
+      "H": 16
+    }
+  },
+  {
+    "id": "nicotine",
+    "name": "Nicotine",
+    "formula": "C₁₀H₁₄N₂",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 4,
+    "level": 1,
+    "color": "C0A060",
+    "composition": {
+      "C": 10,
+      "H": 14,
+      "N": 2
+    }
+  },
+  {
+    "id": "camphor",
+    "name": "Camphor",
+    "formula": "C₁₀H₁₆O",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 2,
+    "color": "F4F4F0",
+    "composition": {
+      "C": 10,
+      "H": 16,
+      "O": 1
+    }
+  },
+  {
+    "id": "eucalyptol",
+    "name": "Eucalyptol",
+    "formula": "C₁₀H₁₈O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 4,
+    "level": 2,
+    "color": "E0F0E0",
+    "composition": {
+      "C": 10,
+      "H": 18,
+      "O": 1
+    }
+  },
+  {
+    "id": "indigo",
+    "name": "Indigo",
+    "formula": "C₁₆H₁₀N₂O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 1,
+    "color": "2A2A90",
+    "composition": {
+      "C": 16,
+      "H": 10,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "dibromoindigo",
+    "name": "Tyrian Purple",
+    "formula": "C₁₆H₈Br₂N₂O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 1,
+    "color": "66023C",
+    "composition": {
+      "C": 16,
+      "H": 8,
+      "Br": 2,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "kerosene",
+    "name": "Kerosene",
+    "formula": "C₁₂H₂₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "E8DCA0",
+    "composition": {
+      "C": 12,
+      "H": 26
+    }
+  },
+  {
+    "id": "diesel",
+    "name": "Diesel",
+    "formula": "C₁₆H₃₄",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 4,
+    "color": "D8B860",
+    "composition": {
+      "C": 16,
+      "H": 34
+    }
+  },
+  {
+    "id": "carminic_acid",
+    "name": "Carminic Acid",
+    "formula": "C₂₂H₂₀O₁₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 2,
+    "color": "B0102A",
+    "composition": {
+      "C": 22,
+      "H": 20,
+      "O": 13
+    }
+  },
+  {
+    "id": "soft_soap",
+    "name": "Soft Soap",
+    "formula": "C₁₈H₃₅KO₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 1,
+    "color": "D8C890",
+    "composition": {
+      "C": 18,
+      "H": 35,
+      "K": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "hard_soap",
+    "name": "Hard Soap",
+    "formula": "C₁₈H₃₅NaO₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 4,
+    "level": 2,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 18,
+      "H": 35,
+      "Na": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "biodiesel",
+    "name": "Biodiesel",
+    "formula": "C₁₉H₃₆O₂",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 4,
+    "level": 5,
+    "color": "E0C060",
+    "composition": {
+      "C": 19,
+      "H": 36,
+      "O": 2
+    }
+  },
+  {
+    "id": "latex",
+    "name": "Latex",
+    "formula": "(C₅H₈)ₙ",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 3,
+    "color": "F8F6EE",
+    "composition": {
+      "C": 5,
+      "H": 8
+    }
+  },
+  {
+    "id": "glyphosate",
+    "name": "Glyphosate",
+    "formula": "C₃H₈NO₅P",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 7,
+    "color": "D0E8B0",
+    "composition": {
+      "C": 3,
+      "H": 8,
+      "N": 1,
+      "O": 5,
+      "P": 1
+    }
+  },
+  {
+    "id": "terephthalic_acid",
+    "name": "Terephthalic Acid",
+    "formula": "C₈H₆O₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 6,
+    "color": "F8F8F4",
+    "composition": {
+      "C": 8,
+      "H": 6,
+      "O": 4
+    }
+  },
+  {
+    "id": "coal_tar",
+    "name": "Coal Tar",
+    "formula": "C₁₀H₈",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 3,
+    "color": "1A1612",
+    "composition": {
+      "C": 10,
+      "H": 8
+    }
+  },
+  {
+    "id": "dichlorophenoxyacetic_acid",
+    "name": "2,4-D",
+    "formula": "C₈H₆Cl₂O₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 6,
+    "color": "C8DCA0",
+    "composition": {
+      "C": 8,
+      "H": 6,
+      "Cl": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "two_four_d",
+    "name": "2,4-D",
+    "formula": "C₈H₆Cl₂O₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 6,
+    "color": "ECE8DC",
+    "composition": {
+      "C": 8,
+      "H": 6,
+      "Cl": 2,
+      "O": 3
+    }
+  },
+  {
+    "id": "lawsone",
+    "name": "Lawsone",
+    "formula": "C₁₀H₆O₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "B05A20",
+    "composition": {
+      "C": 10,
+      "H": 6,
+      "O": 3
+    }
+  },
+  {
+    "id": "vitamin_c",
+    "name": "Vitamin C",
+    "formula": "C₆H₈O₆",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 5,
+    "color": "F8F4E0",
+    "composition": {
+      "C": 6,
+      "H": 8,
+      "O": 6
+    }
+  },
+  {
+    "id": "trinitrotoluene",
+    "name": "TNT",
+    "formula": "C₇H₅N₃O₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 5,
+    "color": "F0D060",
+    "composition": {
+      "C": 7,
+      "H": 5,
+      "N": 3,
+      "O": 6
+    }
+  },
+  {
+    "id": "rdx",
+    "name": "RDX",
+    "formula": "C₃H₆N₆O₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 6,
+    "color": "F2F0EA",
+    "composition": {
+      "C": 3,
+      "H": 6,
+      "N": 6,
+      "O": 6
+    }
+  },
+  {
+    "id": "citric_acid",
+    "name": "Citric Acid",
+    "formula": "C₆H₈O₇",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 3,
+    "color": "F8F8F4",
+    "composition": {
+      "C": 6,
+      "H": 8,
+      "O": 7
+    }
+  },
+  {
+    "id": "chitosan",
+    "name": "Chitosan",
+    "formula": "(C₆H₁₁NO₄)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 6,
+    "color": "F0E8D0",
+    "composition": {
+      "C": 6,
+      "H": 11,
+      "N": 1,
+      "O": 4
+    }
+  },
+  {
+    "id": "glucose",
+    "name": "Glucose",
+    "formula": "C₆H₁₂O₆",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "FFF9F0",
+    "composition": {
+      "C": 6,
+      "H": 12,
+      "O": 6
+    }
+  },
+  {
+    "id": "caffeine",
+    "name": "Caffeine",
+    "formula": "C₈H₁₀N₄O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "F8F8F8",
+    "composition": {
+      "C": 8,
+      "H": 10,
+      "N": 4,
+      "O": 2
+    }
+  },
+  {
+    "id": "alizarin",
+    "name": "Alizarin",
+    "formula": "C₁₄H₈O₄",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "D03020",
+    "composition": {
+      "C": 14,
+      "H": 8,
+      "O": 4
+    }
+  },
+  {
+    "id": "nitrocellulose",
+    "name": "Nitrocellulose",
+    "formula": "C₆H₇N₃O₁₁",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "F4F2E8",
+    "composition": {
+      "C": 6,
+      "H": 7,
+      "N": 3,
+      "O": 11
+    }
+  },
+  {
+    "id": "cordite",
+    "name": "Cordite",
+    "formula": "C₆H₇N₃O₁₁",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "B08850",
+    "composition": {
+      "C": 6,
+      "H": 7,
+      "N": 3,
+      "O": 11
+    }
+  },
+  {
+    "id": "amifostine",
+    "name": "Amifostine",
+    "formula": "C₅H₁₅N₂O₃PS",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "F8F8FF",
+    "composition": {
+      "C": 5,
+      "H": 15,
+      "N": 2,
+      "O": 3,
+      "P": 1,
+      "S": 1
+    }
+  },
+  {
+    "id": "chitin",
+    "name": "Chitin",
+    "formula": "(C₈H₁₃NO₅)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 6,
+    "color": "E8DCC0",
+    "composition": {
+      "C": 8,
+      "H": 13,
+      "N": 1,
+      "O": 5
+    }
+  },
+  {
+    "id": "atrazine",
+    "name": "Atrazine",
+    "formula": "C₈H₁₄ClN₅",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 6,
+    "color": "B8D49A",
+    "composition": {
+      "C": 8,
+      "H": 14,
+      "Cl": 1,
+      "N": 5
+    }
+  },
+  {
+    "id": "ddt",
+    "name": "DDT",
+    "formula": "C₁₄H₉Cl₅",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 6,
+    "color": "F0F0EC",
+    "composition": {
+      "C": 14,
+      "H": 9,
+      "Cl": 5
+    }
+  },
+  {
+    "id": "linalool",
+    "name": "Linalool",
+    "formula": "C₁₀H₁₈O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "F4F4E8",
+    "composition": {
+      "C": 10,
+      "H": 18,
+      "O": 1
+    }
+  },
+  {
+    "id": "geraniol",
+    "name": "Geraniol",
+    "formula": "C₁₀H₁₈O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 10,
+      "H": 18,
+      "O": 1
+    }
+  },
+  {
+    "id": "pilocarpine",
+    "name": "Pilocarpine",
+    "formula": "C₁₁H₁₆N₂O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "F4F4EC",
+    "composition": {
+      "C": 11,
+      "H": 16,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "dragons_blood",
+    "name": "Dragon's Blood",
+    "formula": "C₁₇H₁₄O₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 1,
+    "color": "8A1A1A",
+    "composition": {
+      "C": 17,
+      "H": 14,
+      "O": 3
+    }
+  },
+  {
+    "id": "melanin",
+    "name": "Melanin",
+    "formula": "(C₁₈H₁₀N₂O₄)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "3A2818",
+    "composition": {
+      "C": 18,
+      "H": 10,
+      "N": 2,
+      "O": 4
+    }
+  },
+  {
+    "id": "brazilin",
+    "name": "Brazilin",
+    "formula": "C₁₆H₁₄O₅",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 2,
+    "color": "B02A20",
+    "composition": {
+      "C": 16,
+      "H": 14,
+      "O": 5
+    }
+  },
+  {
+    "id": "arbutin",
+    "name": "Arbutin",
+    "formula": "C₁₂H₁₆O₇",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 5,
+    "color": "F4F4F0",
+    "composition": {
+      "C": 12,
+      "H": 16,
+      "O": 7
+    }
+  },
+  {
+    "id": "myrrh",
+    "name": "Myrrh",
+    "formula": "C₁₅H₂₀O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "A85A28",
+    "composition": {
+      "C": 15,
+      "H": 20,
+      "O": 1
+    }
+  },
+  {
+    "id": "salicin",
+    "name": "Salicin",
+    "formula": "C₁₃H₁₈O₇",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 3,
+    "color": "F4F0E8",
+    "composition": {
+      "C": 13,
+      "H": 18,
+      "O": 7
+    }
+  },
+  {
+    "id": "copaiba_balsam",
+    "name": "Copaiba Balsam",
+    "formula": "C₁₅H₂₄",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "D8A840",
+    "composition": {
+      "C": 15,
+      "H": 24
+    }
+  },
+  {
+    "id": "santalol",
+    "name": "Santalol",
+    "formula": "C₁₅H₂₄O",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "F0E0B0",
+    "composition": {
+      "C": 15,
+      "H": 24,
+      "O": 1
+    }
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "formula": "C₁₆H₁₈N₂O₄S",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 6,
+    "color": "F8F4E0",
+    "composition": {
+      "C": 16,
+      "H": 18,
+      "N": 2,
+      "O": 4,
+      "S": 1
+    }
+  },
+  {
+    "id": "cedrol",
+    "name": "Cedrol",
+    "formula": "C₁₅H₂₆O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "E8E0C8",
+    "composition": {
+      "C": 15,
+      "H": 26,
+      "O": 1
+    }
+  },
+  {
+    "id": "fuchsine",
+    "name": "Fuchsine",
+    "formula": "C₂₀H₂₀ClN₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "C0207A",
+    "composition": {
+      "C": 20,
+      "H": 20,
+      "Cl": 1,
+      "N": 3
+    }
+  },
+  {
+    "id": "ndga",
+    "name": "Nordihydroguaiaretic Acid",
+    "formula": "C₁₈H₂₂O₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 6,
+    "color": "E8E0C8",
+    "composition": {
+      "C": 18,
+      "H": 22,
+      "O": 4
+    }
+  },
+  {
+    "id": "sucrose",
+    "name": "Sucrose",
+    "formula": "C₁₂H₂₂O₁₁",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "FFFFFF",
+    "composition": {
+      "C": 12,
+      "H": 22,
+      "O": 11
+    }
+  },
+  {
+    "id": "crude_oil",
+    "name": "Crude Oil",
+    "formula": "C₁₅H₃₀",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "1E1A14",
+    "composition": {
+      "C": 15,
+      "H": 30
+    }
+  },
+  {
+    "id": "lactose",
+    "name": "Lactose",
+    "formula": "C₁₂H₂₂O₁₁",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 1,
+    "color": "FAF6EC",
+    "composition": {
+      "C": 12,
+      "H": 22,
+      "O": 11
+    }
+  },
+  {
+    "id": "quinine",
+    "name": "Quinine",
+    "formula": "C₂₀H₂₄N₂O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 3,
+    "color": "F4F2EA",
+    "composition": {
+      "C": 20,
+      "H": 24,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "capsaicin",
+    "name": "Capsaicin",
+    "formula": "C₁₈H₂₇NO₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 18,
+      "H": 27,
+      "N": 1,
+      "O": 3
+    }
+  },
+  {
+    "id": "pyrethrin",
+    "name": "Pyrethrum",
+    "formula": "C₂₁H₂₈O₃",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 4,
+    "color": "E8D890",
+    "composition": {
+      "C": 21,
+      "H": 28,
+      "O": 3
+    }
+  },
+  {
+    "id": "rosin",
+    "name": "Rosin",
+    "formula": "C₂₀H₃₀O₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 2,
+    "color": "B8761E",
+    "composition": {
+      "C": 20,
+      "H": 30,
+      "O": 2
+    }
+  },
+  {
+    "id": "copal",
+    "name": "Copal",
+    "formula": "C₂₀H₃₂O₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 1,
+    "color": "E8B850",
+    "composition": {
+      "C": 20,
+      "H": 32,
+      "O": 2
+    }
+  },
+  {
+    "id": "urushiol",
+    "name": "Urushiol",
+    "formula": "C₂₁H₃₂O₂",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 2,
+    "color": "6A4A2A",
+    "composition": {
+      "C": 21,
+      "H": 32,
+      "O": 2
+    }
+  },
+  {
+    "id": "bixin",
+    "name": "Bixin",
+    "formula": "C₂₅H₃₀O₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "D8501A",
+    "composition": {
+      "C": 25,
+      "H": 30,
+      "O": 4
+    }
+  },
+  {
+    "id": "suberin",
+    "name": "Suberin",
+    "formula": "(C₂₂H₄₂O₄)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 2,
+    "color": "B08050",
+    "composition": {
+      "C": 22,
+      "H": 42,
+      "O": 4
+    }
+  },
+  {
+    "id": "pitch",
+    "name": "Coal Tar Pitch",
+    "formula": "C₄₀H₃₀",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 3,
+    "color": "100E0C",
+    "composition": {
+      "C": 40,
+      "H": 30
+    }
+  },
+  {
+    "id": "cholecalciferol",
+    "name": "Vitamin D3",
+    "formula": "C₂₇H₄₄O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 5,
+    "color": "F8F0C0",
+    "composition": {
+      "C": 27,
+      "H": 44,
+      "O": 1
+    }
+  },
+  {
+    "id": "emetine",
+    "name": "Emetine",
+    "formula": "C₂₉H₄₀N₂O₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "F0EEE0",
+    "composition": {
+      "C": 29,
+      "H": 40,
+      "N": 2,
+      "O": 4
+    }
+  },
+  {
+    "id": "pine_resin",
+    "name": "Pine Resin",
+    "formula": "C₂₀H₃₀O₂·C₁₀H₁₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 1,
+    "color": "C89A3A",
+    "composition": {
+      "C": 30,
+      "H": 46,
+      "O": 2
+    }
+  },
+  {
+    "id": "streptomycin",
+    "name": "Streptomycin",
+    "formula": "C₂₁H₃₉N₇O₁₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 6,
+    "color": "F4F4F8",
+    "composition": {
+      "C": 21,
+      "H": 39,
+      "N": 7,
+      "O": 12
+    }
+  },
+  {
+    "id": "squalene",
+    "name": "Squalene",
+    "formula": "C₃₀H₅₀",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 4,
+    "color": "F0F0D0",
+    "composition": {
+      "C": 30,
+      "H": 50
+    }
+  },
+  {
+    "id": "frankincense",
+    "name": "Frankincense",
+    "formula": "C₃₀H₄₈O₃",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8D088",
+    "composition": {
+      "C": 30,
+      "H": 48,
+      "O": 3
+    }
+  },
+  {
+    "id": "ambrein",
+    "name": "Ambrein",
+    "formula": "C₃₀H₅₂O",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 3,
+    "color": "C8B890",
+    "composition": {
+      "C": 30,
+      "H": 52,
+      "O": 1
+    }
+  },
+  {
+    "id": "dammar",
+    "name": "Dammar",
+    "formula": "C₃₀H₅₂O₂",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 1,
+    "color": "F0E0A0",
+    "composition": {
+      "C": 30,
+      "H": 52,
+      "O": 2
+    }
+  },
+  {
+    "id": "bitumen",
+    "name": "Bitumen",
+    "formula": "C₄₀H₅₀",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "141210",
+    "composition": {
+      "C": 40,
+      "H": 50
+    }
+  },
+  {
+    "id": "vegetable_wax",
+    "name": "Vegetable Wax",
+    "formula": "C₃₁H₆₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8E0B0",
+    "composition": {
+      "C": 31,
+      "H": 64
+    }
+  },
+  {
+    "id": "cetyl_palmitate",
+    "name": "Spermaceti Wax",
+    "formula": "C₃₂H₆₄O₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 3,
+    "color": "F8F4E8",
+    "composition": {
+      "C": 32,
+      "H": 64,
+      "O": 2
+    }
+  },
+  {
+    "id": "taxol",
+    "name": "Taxol",
+    "formula": "C₄₇H₅₁NO₁₄",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "F8F8F0",
+    "composition": {
+      "C": 47,
+      "H": 51,
+      "N": 1,
+      "O": 14
+    }
+  },
+  {
+    "id": "jojoba_wax",
+    "name": "Jojoba Wax",
+    "formula": "C₄₂H₈₂O₂",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8D88A",
+    "composition": {
+      "C": 42,
+      "H": 82,
+      "O": 2
+    }
+  },
+  {
+    "id": "chlorophyll",
+    "name": "Chlorophyll",
+    "formula": "C₅₅H₇₂MgN₄O₅",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 5,
+    "level": 4,
+    "color": "2F8A2F",
+    "composition": {
+      "C": 55,
+      "H": 72,
+      "Mg": 1,
+      "N": 4,
+      "O": 5
+    }
+  },
+  {
+    "id": "marine_oil",
+    "name": "Marine Oil",
+    "formula": "C₅₇H₉₈O₆",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8C860",
+    "composition": {
+      "C": 57,
+      "H": 98,
+      "O": 6
+    }
+  },
+  {
+    "id": "vegetable_oil",
+    "name": "Vegetable Oil",
+    "formula": "C₅₇H₁₀₄O₆",
+    "state": "liquid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8D070",
+    "composition": {
+      "C": 57,
+      "H": 104,
+      "O": 6
+    }
+  },
+  {
+    "id": "tallow",
+    "name": "Tallow",
+    "formula": "C₅₇H₁₁₀O₆",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "F2EBD3",
+    "composition": {
+      "C": 57,
+      "H": 110,
+      "O": 6
+    }
+  },
+  {
+    "id": "tannin",
+    "name": "Tannin",
+    "formula": "C₇₆H₅₂O₄₆",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 1,
+    "color": "A06A3A",
+    "composition": {
+      "C": 76,
+      "H": 52,
+      "O": 46
+    }
+  },
+  {
+    "id": "kerogen",
+    "name": "Kerogen",
+    "formula": "C₁₀₀H₁₅₀NO₅S",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 5,
+    "level": 4,
+    "color": "3A2A1A",
+    "composition": {
+      "C": 100,
+      "H": 150,
+      "N": 1,
+      "O": 5,
+      "S": 1
+    }
+  },
+  {
+    "id": "casein",
+    "name": "Casein",
+    "formula": "(C₈₁H₁₂₅N₂₂O₃₉P)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 2,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 81,
+      "H": 125,
+      "N": 22,
+      "O": 39,
+      "P": 1
+    }
+  },
+  {
+    "id": "gelatin",
+    "name": "Gelatin",
+    "formula": "(C₁₀₂H₁₅₁N₃₁O₃₉)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 1,
+    "color": "E8D8A8",
+    "composition": {
+      "C": 102,
+      "H": 151,
+      "N": 31,
+      "O": 39
+    }
+  },
+  {
+    "id": "exenatide",
+    "name": "Exenatide",
+    "formula": "C₁₈₄H₂₈₂N₅₀O₆₀S",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "E0E8E8",
+    "composition": {
+      "C": 184,
+      "H": 282,
+      "N": 50,
+      "O": 60,
+      "S": 1
+    }
+  },
+  {
+    "id": "hirudin",
+    "name": "Hirudin",
+    "formula": "C₂₈₇H₄₄₀N₈₀O₁₁₀S₆",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 5,
+    "color": "C8A090",
+    "composition": {
+      "C": 287,
+      "H": 440,
+      "N": 80,
+      "O": 110,
+      "S": 6
+    }
+  },
+  {
+    "id": "limulus_lysate",
+    "name": "Limulus Lysate",
+    "formula": "C₁₀₀₀H₁₅₀₀N₂₈₀O₃₂₀S₁₀",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "D8E0F0",
+    "composition": {
+      "C": 1000,
+      "H": 1500,
+      "N": 280,
+      "O": 320,
+      "S": 10
+    }
+  },
+  {
+    "id": "gfp",
+    "name": "Green Fluorescent Protein",
+    "formula": "C₁₁₉₀H₁₈₆₃N₃₂₃O₃₆₅S₈",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "60F080",
+    "composition": {
+      "C": 1190,
+      "H": 1863,
+      "N": 323,
+      "O": 365,
+      "S": 8
+    }
+  },
+  {
+    "id": "hemocyanin",
+    "name": "Hemocyanin",
+    "formula": "C₂₂₀₀H₃₄₀₀N₆₀₀O₇₀₀Cu₂",
+    "state": "solid",
+    "sector": "both",
+    "tier": 5,
+    "level": 7,
+    "color": "4060C0",
+    "composition": {
+      "C": 2200,
+      "H": 3400,
+      "N": 600,
+      "O": 700,
+      "Cu": 2
+    }
+  },
+  {
+    "id": "polyethylene",
+    "name": "Polyethylene",
+    "formula": "(C₂H₄)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 6,
+    "level": 5,
+    "color": "DCEBF5",
+    "composition": {
+      "C": 2,
+      "H": 4
+    }
+  },
+  {
+    "id": "polyvinyl_chloride",
+    "name": "Polyvinyl Chloride",
+    "formula": "(C₂H₃Cl)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 5,
+    "color": "E4E8EC",
+    "composition": {
+      "C": 2,
+      "H": 3,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "polylactic_acid",
+    "name": "PLA",
+    "formula": "(C₃H₄O₂)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 7,
+    "color": "F4F0E0",
+    "composition": {
+      "C": 3,
+      "H": 4,
+      "O": 2
+    }
+  },
+  {
+    "id": "neoprene",
+    "name": "Neoprene",
+    "formula": "(C₄H₅Cl)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 5,
+    "color": "1E1E22",
+    "composition": {
+      "C": 4,
+      "H": 5,
+      "Cl": 1
+    }
+  },
+  {
+    "id": "natural_rubber",
+    "name": "Natural Rubber",
+    "formula": "(C₅H₈)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 1,
+    "color": "4A3A2E",
+    "composition": {
+      "C": 5,
+      "H": 8
+    }
+  },
+  {
+    "id": "chicle",
+    "name": "Chicle",
+    "formula": "(C₅H₈)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 1,
+    "color": "D8C8A8",
+    "composition": {
+      "C": 5,
+      "H": 8
+    }
+  },
+  {
+    "id": "bakelite",
+    "name": "Bakelite",
+    "formula": "(C₇H₆O₂)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 5,
+    "color": "5A3018",
+    "composition": {
+      "C": 7,
+      "H": 6,
+      "O": 2
+    }
+  },
+  {
+    "id": "polystyrene",
+    "name": "Polystyrene",
+    "formula": "(C₈H₈)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 5,
+    "color": "F5F5F5",
+    "composition": {
+      "C": 8,
+      "H": 8
+    }
+  },
+  {
+    "id": "protein",
+    "name": "Protein",
+    "formula": "(C₅H₈NO₂)ₙ",
+    "state": "solid",
+    "sector": "agriculture",
+    "tier": 6,
+    "level": 1,
+    "color": "D8B898",
+    "composition": {
+      "C": 5,
+      "H": 8,
+      "N": 1,
+      "O": 2
+    }
+  },
+  {
+    "id": "starch",
+    "name": "Starch",
+    "formula": "(C₆H₁₀O₅)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 6,
+    "level": 0,
+    "color": "FAF5E8",
+    "composition": {
+      "C": 6,
+      "H": 10,
+      "O": 5
+    }
+  },
+  {
+    "id": "cellulose",
+    "name": "Cellulose",
+    "formula": "(C₆H₁₀O₅)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 6,
+    "level": 0,
+    "color": "E8DDC0",
+    "composition": {
+      "C": 6,
+      "H": 10,
+      "O": 5
+    }
+  },
+  {
+    "id": "lignin",
+    "name": "Lignin",
+    "formula": "(C₁₀H₁₂O₃)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 4,
+    "color": "8A6A3E",
+    "composition": {
+      "C": 10,
+      "H": 12,
+      "O": 3
+    }
+  },
+  {
+    "id": "nylon",
+    "name": "Nylon",
+    "formula": "(C₁₂H₂₂N₂O₂)ₙ",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 6,
+    "color": "F4F0E8",
+    "composition": {
+      "C": 12,
+      "H": 22,
+      "N": 2,
+      "O": 2
+    }
+  },
+  {
+    "id": "gum_arabic",
+    "name": "Gum Arabic",
+    "formula": "(C₁₂H₂₀O₁₀)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 6,
+    "level": 1,
+    "color": "E8D8A0",
+    "composition": {
+      "C": 12,
+      "H": 20,
+      "O": 10
+    }
+  },
+  {
+    "id": "buna_rubber",
+    "name": "Buna Rubber",
+    "formula": "(C₄H₆)₃(C₈H₈)",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 5,
+    "color": "302C2A",
+    "composition": {
+      "C": 20,
+      "H": 26
+    }
+  },
+  {
+    "id": "fibroin",
+    "name": "Silk Fibroin",
+    "formula": "(C₁₅H₂₃N₅O₆)ₙ",
+    "state": "solid",
+    "sector": "both",
+    "tier": 6,
+    "level": 1,
+    "color": "F4F0E4",
+    "composition": {
+      "C": 15,
+      "H": 23,
+      "N": 5,
+      "O": 6
+    }
+  },
+  {
+    "id": "shellac",
+    "name": "Shellac",
+    "formula": "C₁₆H₃₂O₅",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 3,
+    "color": "C88A2A",
+    "composition": {
+      "C": 16,
+      "H": 32,
+      "O": 5
+    }
+  },
+  {
+    "id": "urushi",
+    "name": "Urushi Lacquer",
+    "formula": "C₂₁H₃₂O₂·H₂O",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 2,
+    "color": "4A2A1A",
+    "composition": {
+      "C": 21,
+      "H": 34,
+      "O": 3
+    }
+  },
+  {
+    "id": "canada_balsam",
+    "name": "Canada Balsam",
+    "formula": "C₂₀H₃₀O₂·C₁₀H₁₆",
+    "state": "liquid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 2,
+    "color": "F0E0A0",
+    "composition": {
+      "C": 30,
+      "H": 46,
+      "O": 2
+    }
+  },
+  {
+    "id": "palm_sap",
+    "name": "Palm Sap",
+    "formula": "C₁₂H₂₂O₁₁·40H₂O",
+    "state": "liquid",
+    "sector": "agriculture",
+    "tier": 6,
+    "level": 1,
+    "color": "EEE6C8",
+    "composition": {
+      "C": 12,
+      "H": 102,
+      "O": 51
+    }
+  },
+  {
+    "id": "vulcanized_rubber",
+    "name": "Vulcanized Rubber",
+    "formula": "C₂₀₀H₃₂₀S₃",
+    "state": "solid",
+    "sector": "industry",
+    "tier": 6,
+    "level": 3,
+    "color": "2E2A28",
+    "composition": {
+      "C": 200,
+      "H": 320,
+      "S": 3
+    }
+  },
+  {
+    "id": "maple_sap",
+    "name": "Maple Sap",
+    "formula": "C₁₂H₂₂O₁₁·650H₂O",
+    "state": "liquid",
+    "sector": "agriculture",
+    "tier": 6,
+    "level": 1,
+    "color": "F0ECE0",
+    "composition": {
+      "C": 12,
+      "H": 1322,
+      "O": 661
+    }
+  }
+]

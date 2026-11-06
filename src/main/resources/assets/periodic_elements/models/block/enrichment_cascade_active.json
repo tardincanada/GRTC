@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/enrichment_cascade_top_active",
+    "front": "periodic_elements:block/enrichment_cascade_front_active",
+    "side": "periodic_elements:block/enrichment_cascade_side"
+  }
+}

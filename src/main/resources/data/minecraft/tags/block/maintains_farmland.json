@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:rice_crop",
+    "periodic_elements:maize_crop",
+    "periodic_elements:soy_crop",
+    "periodic_elements:bean_crop",
+    "periodic_elements:cassava_crop",
+    "periodic_elements:barley_crop",
+    "periodic_elements:tomato_crop",
+    "periodic_elements:coffee_crop",
+    "periodic_elements:cotton_crop",
+    "periodic_elements:flax_crop",
+    "periodic_elements:hemp_crop",
+    "periodic_elements:rapeseed_crop",
+    "periodic_elements:castor_crop",
+    "periodic_elements:indigo_crop",
+    "periodic_elements:madder_crop",
+    "periodic_elements:tobacco_crop",
+    "periodic_elements:alfalfa_crop",
+    "periodic_elements:sorghum_crop",
+    "periodic_elements:oats_crop",
+    "periodic_elements:turnip_crop"
+  ]
+}

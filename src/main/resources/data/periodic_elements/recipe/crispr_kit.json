@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "periodic_elements:glucose"
+    },
+    {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:crispr_kit",
+    "count": 1
+  }
+}

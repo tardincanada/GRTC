@@ -1,0 +1,87 @@
+# Publica o Elementar no GitHub Releases, Modrinth e CurseForge.
+# Como usar: aba "Actions" do repositorio > "Publish" > "Run workflow".
+# A versao vem de mod_version em gradle.properties; as notas vem de CHANGELOG.md.
+#
+# Configuracao (Settings > Secrets and variables > Actions):
+#   Secrets:   MODRINTH_TOKEN, CURSEFORGE_TOKEN
+#   Variables: MODRINTH_ID, CURSEFORGE_ID
+# Uma plataforma sem token e pulada, entao da para comecar so com o GitHub.
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only build and show what would be published (no upload)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # create the GitHub release and tag
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MINECRAFT_VERSION: 1.21.1
+      JAVA_VERSION: 21
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Read version
+        id: meta
+        run: |
+          VERSION=$(grep '^mod_version=' gradle.properties | cut -d= -f2 | tr -d '[:space:]')
+          case "$VERSION" in
+            *alpha*) TYPE=alpha ;;
+            *beta*|*rc*) TYPE=beta ;;
+            *) TYPE=release ;;
+          esac
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "type=$TYPE" >> "$GITHUB_OUTPUT"
+          echo "Publishing Elementar $VERSION as $TYPE"
+
+      - name: Build and test
+        run: |
+          chmod +x gradlew
+          ./gradlew build runGametest --stacktrace
+
+      - name: Show files
+        run: ls -l build/libs
+
+      - name: Publish
+        if: ${{ !inputs.dry_run }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: Elementar ${{ steps.meta.outputs.version }}
+          version: ${{ steps.meta.outputs.version }}
+          version-type: ${{ steps.meta.outputs.type }}
+          changelog-file: CHANGELOG.md
+          files: build/libs/!(*-@(dev|sources|javadoc)).jar
+          loaders: fabric
+          game-versions: ${{ env.MINECRAFT_VERSION }}
+          java: ${{ env.JAVA_VERSION }}
+
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
+          github-tag: v${{ steps.meta.outputs.version }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-prerelease: ${{ steps.meta.outputs.type != 'release' }}
+
+          dependencies: |
+            fabric-api(required){modrinth:P7dR8mSH}{curseforge:306612}
+            emi(optional){modrinth:fRiHVvU7}{curseforge:580555}
+            jade(optional){modrinth:nvQzSEkH}{curseforge:324717}
+            modmenu(optional){modrinth:mOgUt4GM}{curseforge:308702}

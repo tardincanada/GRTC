@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "periodic_elements:block/frankincense_log"
+    },
+    "axis=z": {
+      "model": "periodic_elements:block/frankincense_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "periodic_elements:block/frankincense_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

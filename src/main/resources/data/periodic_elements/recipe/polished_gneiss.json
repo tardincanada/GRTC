@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "periodic_elements:gneiss"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:polished_gneiss",
+    "count": 4
+  }
+}

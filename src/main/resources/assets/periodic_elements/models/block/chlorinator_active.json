@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/chlorinator_top_active",
+    "front": "periodic_elements:block/chlorinator_front_active",
+    "side": "periodic_elements:block/chlorinator_side"
+  }
+}

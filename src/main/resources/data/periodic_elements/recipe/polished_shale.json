@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "periodic_elements:shale"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:polished_shale",
+    "count": 4
+  }
+}

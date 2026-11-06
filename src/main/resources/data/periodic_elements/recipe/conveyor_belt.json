@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "IPI"
+  ],
+  "key": {
+    "R": {
+      "item": "periodic_elements:buna_rubber"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "periodic_elements:output_pusher"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:conveyor_belt",
+    "count": 1
+  }
+}

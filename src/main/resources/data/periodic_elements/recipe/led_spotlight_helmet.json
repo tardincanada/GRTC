@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AEA",
+    "AGA",
+    " W "
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "E": {
+      "item": "periodic_elements:gallium_arsenide_wafer"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:led_spotlight_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "periodic_elements:block/polished_peridotite_slab"
+    },
+    "type=top": {
+      "model": "periodic_elements:block/polished_peridotite_slab_top"
+    },
+    "type=double": {
+      "model": "periodic_elements:block/polished_peridotite"
+    }
+  }
+}

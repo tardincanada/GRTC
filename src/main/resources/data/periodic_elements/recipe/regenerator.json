@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "KCK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "periodic_elements:cast_iron_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:regenerator",
+    "count": 1
+  }
+}

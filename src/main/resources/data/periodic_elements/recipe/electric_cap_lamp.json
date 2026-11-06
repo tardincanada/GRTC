@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "STS",
+    "SGS",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "T": {
+      "item": "periodic_elements:tungsten"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:electric_cap_lamp",
+    "count": 1
+  }
+}

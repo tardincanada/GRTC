@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "periodic_elements:block/fluid_pipe",
+    "pipe": "periodic_elements:block/fluid_pipe",
+    "end": "periodic_elements:block/fluid_pipe_end"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pipe"
+        },
+        "south": {
+          "texture": "#pipe"
+        },
+        "east": {
+          "texture": "#pipe"
+        },
+        "west": {
+          "texture": "#pipe"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    }
+  ]
+}

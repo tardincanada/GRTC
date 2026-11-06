@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RIR",
+    "IHI",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "periodic_elements:refractory_brick"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:structure_port",
+    "count": 1
+  }
+}

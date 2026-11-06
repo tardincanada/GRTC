@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "NNN",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "P": {
+      "item": "periodic_elements:platinum"
+    },
+    "N": {
+      "item": "periodic_elements:nickel"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:catalyst_bed",
+    "count": 1
+  }
+}

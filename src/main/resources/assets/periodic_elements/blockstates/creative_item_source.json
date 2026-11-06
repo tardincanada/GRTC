@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/creative_item_source"
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/creative_item_source",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

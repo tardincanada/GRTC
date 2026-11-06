@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:southern_magnolia_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:southern_magnolia_planks",
+    "count": 4
+  }
+}

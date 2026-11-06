@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:tobacco_leaves"
+    },
+    {
+      "item": "periodic_elements:tobacco_leaves"
+    },
+    {
+      "item": "periodic_elements:tobacco_leaves"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:tobacco_wash",
+    "count": 1
+  }
+}

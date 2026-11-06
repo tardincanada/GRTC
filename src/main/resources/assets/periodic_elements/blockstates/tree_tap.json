@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "periodic_elements:block/tree_tap",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "periodic_elements:block/tree_tap",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "periodic_elements:block/tree_tap",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "periodic_elements:block/tree_tap",
+      "y": 270
+    }
+  }
+}

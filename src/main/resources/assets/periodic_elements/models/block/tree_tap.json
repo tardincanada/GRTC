@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "periodic_elements:block/tree_tap",
+    "all": "periodic_elements:block/tree_tap",
+    "flask": "periodic_elements:block/tree_tap_flask"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        9,
+        0
+      ],
+      "to": [
+        9,
+        10,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "down": {
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        2,
+        3
+      ],
+      "to": [
+        11,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#flask"
+        },
+        "south": {
+          "texture": "#flask"
+        },
+        "east": {
+          "texture": "#flask"
+        },
+        "west": {
+          "texture": "#flask"
+        },
+        "up": {
+          "texture": "#flask"
+        },
+        "down": {
+          "texture": "#flask"
+        }
+      }
+    }
+  ]
+}

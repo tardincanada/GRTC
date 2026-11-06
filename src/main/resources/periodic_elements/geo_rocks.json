@@ -1,0 +1,248 @@
+{
+  "blocks": [
+    {
+      "id": "shale",
+      "form": "rock",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "cobbled_shale",
+      "form": "cobbled",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "polished_shale",
+      "form": "polished",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "polished_shale_stairs",
+      "form": "stairs",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "polished_shale_slab",
+      "form": "slab",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "polished_shale_wall",
+      "form": "wall",
+      "base": "periodic_elements:polished_shale",
+      "hardness": 1.2,
+      "resistance": 5.0,
+      "color": "COLOR_GRAY"
+    },
+    {
+      "id": "gneiss",
+      "form": "rock",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "cobbled_gneiss",
+      "form": "cobbled",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "polished_gneiss",
+      "form": "polished",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "polished_gneiss_stairs",
+      "form": "stairs",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "polished_gneiss_slab",
+      "form": "slab",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "polished_gneiss_wall",
+      "form": "wall",
+      "base": "periodic_elements:polished_gneiss",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "STONE_GRAY"
+    },
+    {
+      "id": "peridotite",
+      "form": "rock",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "cobbled_peridotite",
+      "form": "cobbled",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "polished_peridotite",
+      "form": "polished",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "polished_peridotite_stairs",
+      "form": "stairs",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "polished_peridotite_slab",
+      "form": "slab",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "polished_peridotite_wall",
+      "form": "wall",
+      "base": "periodic_elements:polished_peridotite",
+      "hardness": 1.8,
+      "resistance": 6.0,
+      "color": "DARK_GREEN"
+    },
+    {
+      "id": "kimberlite",
+      "form": "rock",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "cobbled_kimberlite",
+      "form": "cobbled",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "polished_kimberlite",
+      "form": "polished",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "polished_kimberlite_stairs",
+      "form": "stairs",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "polished_kimberlite_slab",
+      "form": "slab",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "polished_kimberlite_wall",
+      "form": "wall",
+      "base": "periodic_elements:polished_kimberlite",
+      "hardness": 1.5,
+      "resistance": 6.0,
+      "color": "TERRACOTTA_CYAN"
+    },
+    {
+      "id": "laterite",
+      "form": "rock",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    },
+    {
+      "id": "cobbled_laterite",
+      "form": "cobbled",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    },
+    {
+      "id": "polished_laterite",
+      "form": "polished",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    },
+    {
+      "id": "polished_laterite_stairs",
+      "form": "stairs",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    },
+    {
+      "id": "polished_laterite_slab",
+      "form": "slab",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    },
+    {
+      "id": "polished_laterite_wall",
+      "form": "wall",
+      "base": "periodic_elements:polished_laterite",
+      "hardness": 0.9,
+      "resistance": 3.0,
+      "color": "TERRACOTTA_RED"
+    }
+  ],
+  "soils": [
+    "terra_roxa",
+    "chalky_soil"
+  ]
+}

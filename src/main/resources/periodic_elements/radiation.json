@@ -1,0 +1,48 @@
+{
+ "gamma": {
+  "radium": 0.00825,
+  "radon": 1460.0,
+  "polonium": 0.00019,
+  "actinium": 7e-05,
+  "uranium": 2.5e-09,
+  "thorium": 3e-09,
+  "protactinium": 5e-05,
+  "neptunium": 1e-07,
+  "plutonium": 2e-07,
+  "americium": 0.0004,
+  "curium": 2e-05,
+  "promethium": 1e-06,
+  "astatine": 10.0,
+  "berkelium": 0.001,
+  "californium": 2300.0,
+  "einsteinium": 0.1,
+  "fermium": 0.1,
+  "mendelevium": 0.1,
+  "fission_products": 0.01
+ },
+ "shielded": [
+  "periodic_elements:hot_cell",
+  "periodic_elements:nuclear_reactor"
+ ],
+ "carriedDistance": 0.5,
+ "blockRadius": 6,
+ "intervalTicks": 40,
+ "milderFactor": 0.1,
+ "repairHalfLifeHours": 72.0,
+ "cherenkov": {
+  "airThreshold": 0.1,
+  "waterThreshold": 0.0001,
+  "decades": 6.0,
+  "machines": {
+   "nuclear_reactor": 10000.0,
+   "heavy_ion_accelerator": 10.0,
+   "cyclotron": 1.0,
+   "radioisotope_generator": 0.001
+  },
+  "color": [
+   70,
+   140,
+   255
+  ]
+ }
+}

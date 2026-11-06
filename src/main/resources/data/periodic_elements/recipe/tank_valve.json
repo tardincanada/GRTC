@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WPW"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:tank_wall"
+    },
+    "P": {
+      "item": "periodic_elements:fluid_pipe"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tank_valve",
+    "count": 1
+  }
+}

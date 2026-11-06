@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:camphor_laurel_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:camphor_laurel_planks",
+    "count": 4
+  }
+}

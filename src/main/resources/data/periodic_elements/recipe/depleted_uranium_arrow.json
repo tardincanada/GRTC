@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "D",
+    "S",
+    "F"
+  ],
+  "key": {
+    "D": {
+      "item": "periodic_elements:depleted_uranium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:depleted_uranium_arrow",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:glyphosate"
+    },
+    {
+      "item": "periodic_elements:glyphosate"
+    },
+    {
+      "item": "periodic_elements:glyphosate"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "periodic_elements:glass_flask"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:field_clear",
+    "count": 1
+  }
+}

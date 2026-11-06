@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "periodic_elements:item/titanium_alloy_pickaxe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:oil_cake",
+    "periodic_elements:protein_meal",
+    "periodic_elements:mesquite_pod",
+    "periodic_elements:argan_nut",
+    "periodic_elements:carob_pod",
+    "periodic_elements:saltbush_leaf",
+    "periodic_elements:barley",
+    "periodic_elements:alfalfa",
+    "periodic_elements:sorghum",
+    "periodic_elements:oats",
+    "periodic_elements:turnip",
+    "periodic_elements:silage",
+    "periodic_elements:balanced_feed"
+  ]
+}

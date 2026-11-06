@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:welding_torch"
+    },
+    {
+      "item": "periodic_elements:acetylene_cylinder"
+    },
+    {
+      "item": "periodic_elements:oxygen_cylinder"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:welding_torch",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:uranium_fuel_pellet"
+    },
+    {
+      "item": "periodic_elements:uranium_fuel_pellet"
+    },
+    {
+      "item": "periodic_elements:uranium_fuel_pellet"
+    },
+    {
+      "item": "periodic_elements:zircaloy_ingot"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:uranium_fuel_rod",
+    "count": 1
+  }
+}

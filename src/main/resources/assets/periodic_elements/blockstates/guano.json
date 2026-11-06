@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "periodic_elements:block/guano_1"
+    },
+    "layers=2": {
+      "model": "periodic_elements:block/guano_2"
+    },
+    "layers=3": {
+      "model": "periodic_elements:block/guano_3"
+    },
+    "layers=4": {
+      "model": "periodic_elements:block/guano_4"
+    },
+    "layers=5": {
+      "model": "periodic_elements:block/guano_5"
+    },
+    "layers=6": {
+      "model": "periodic_elements:block/guano_6"
+    },
+    "layers=7": {
+      "model": "periodic_elements:block/guano_7"
+    },
+    "layers=8": {
+      "model": "periodic_elements:block/guano_8"
+    }
+  }
+}

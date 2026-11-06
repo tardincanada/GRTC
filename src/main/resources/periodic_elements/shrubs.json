@@ -1,0 +1,1133 @@
+{
+  "shrubs": [
+    {
+      "id": "guarana",
+      "biomes": [
+        "jungle",
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "product": "guarana_seeds",
+      "climate": "warm",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "annatto",
+      "biomes": [
+        "jungle",
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "product": "annatto_seeds",
+      "climate": "warm",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "ipecac",
+      "biomes": [
+        "jungle"
+      ],
+      "soil": "dirt",
+      "product": "ipecac_root",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "jaborandi",
+      "biomes": [
+        "sparse_jungle"
+      ],
+      "soil": "dirt",
+      "product": "jaborandi_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "malagueta",
+      "biomes": [
+        "jungle",
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "product": "malagueta_pepper",
+      "climate": "warm",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "tea",
+      "biomes": [
+        "bamboo_jungle",
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "product": "tea_leaf",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "jasmine",
+      "biomes": [
+        "bamboo_jungle"
+      ],
+      "soil": "dirt",
+      "product": "jasmine_flower",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "holly_mangrove",
+      "biomes": [
+        "mangrove_swamp"
+      ],
+      "soil": "mud",
+      "product": null,
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "pemphis",
+      "biomes": [
+        "mangrove_swamp",
+        "beach"
+      ],
+      "soil": "sand",
+      "product": null,
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "naupaka",
+      "biomes": [
+        "mangrove_swamp",
+        "beach"
+      ],
+      "soil": "sand",
+      "product": null,
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "jatropha",
+      "biomes": [
+        "savanna",
+        "savanna_plateau",
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "product": "jatropha_seed",
+      "climate": "warm",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "roselle",
+      "biomes": [
+        "savanna",
+        "savanna_plateau",
+        "windswept_savanna"
+      ],
+      "soil": "dirt",
+      "product": "roselle_calyx",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "rooibos",
+      "biomes": [
+        "savanna_plateau"
+      ],
+      "soil": "dirt",
+      "product": "rooibos_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "calotropis",
+      "biomes": [
+        "savanna",
+        "windswept_savanna",
+        "desert"
+      ],
+      "soil": "sand",
+      "product": "calotropis_floss",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "creosote",
+      "biomes": [
+        "desert",
+        "badlands"
+      ],
+      "soil": "sand",
+      "product": "creosote_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "jojoba",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "product": "jojoba_seed",
+      "climate": "warm",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "henna",
+      "biomes": [
+        "desert"
+      ],
+      "soil": "sand",
+      "product": "henna_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "saltbush",
+      "biomes": [
+        "desert",
+        "eroded_badlands"
+      ],
+      "soil": "sand",
+      "product": "saltbush_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "guayule",
+      "biomes": [
+        "badlands",
+        "eroded_badlands",
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "product": "guayule_stems",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "candelilla",
+      "biomes": [
+        "badlands",
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "product": "candelilla_stems",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "sagebrush",
+      "biomes": [
+        "badlands",
+        "eroded_badlands",
+        "wooded_badlands"
+      ],
+      "soil": "sand",
+      "product": "sagebrush_leaf",
+      "climate": "warm",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "sweet_briar",
+      "biomes": [
+        "plains",
+        "sunflower_plains",
+        "forest"
+      ],
+      "soil": "dirt",
+      "product": "rose_hips",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "blackthorn",
+      "biomes": [
+        "plains",
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "product": "sloes",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "cornelian_cherry",
+      "biomes": [
+        "plains",
+        "forest"
+      ],
+      "soil": "dirt",
+      "product": "cornelian_cherries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "raspberry",
+      "biomes": [
+        "forest",
+        "birch_forest",
+        "old_growth_birch_forest"
+      ],
+      "soil": "dirt",
+      "product": "raspberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "blackberry",
+      "biomes": [
+        "forest",
+        "flower_forest",
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "product": "blackberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "blackcurrant",
+      "biomes": [
+        "forest",
+        "birch_forest",
+        "old_growth_birch_forest"
+      ],
+      "soil": "dirt",
+      "product": "blackcurrants",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "bilberry",
+      "biomes": [
+        "birch_forest",
+        "old_growth_birch_forest",
+        "taiga",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga",
+        "meadow",
+        "grove"
+      ],
+      "soil": "dirt",
+      "product": "bilberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "damask_rose",
+      "biomes": [
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "product": "rose_petals",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "mock_orange",
+      "biomes": [
+        "flower_forest",
+        "sunflower_plains"
+      ],
+      "soil": "dirt",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "rhododendron",
+      "biomes": [
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "product": "rhododendron_flowers",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "box",
+      "biomes": [
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "butchers_broom",
+      "biomes": [
+        "dark_forest"
+      ],
+      "soil": "dirt",
+      "product": "butchers_broom_berries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "wax_myrtle",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "dirt",
+      "product": "bayberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "cranberry",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "dirt",
+      "product": "cranberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "buttonbush",
+      "biomes": [
+        "swamp"
+      ],
+      "soil": "dirt",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "japanese_camellia",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "product": "camellia_seeds",
+      "climate": "temperate",
+      "sow": true,
+      "thorny": false
+    },
+    {
+      "id": "japanese_quince",
+      "biomes": [
+        "cherry_grove"
+      ],
+      "soil": "dirt",
+      "product": "japanese_quinces",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "hydrangea",
+      "biomes": [
+        "cherry_grove",
+        "flower_forest"
+      ],
+      "soil": "dirt",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "rosemary",
+      "biomes": [
+        "windswept_hills",
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "product": "rosemary_leaf",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "lavender",
+      "biomes": [
+        "windswept_hills",
+        "flower_forest"
+      ],
+      "soil": "rock",
+      "product": "lavender_flowers",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "myrtle",
+      "biomes": [
+        "windswept_hills",
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "product": "myrtle_berries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "caper",
+      "biomes": [
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "product": "capers",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "rockrose",
+      "biomes": [
+        "windswept_hills",
+        "windswept_gravelly_hills"
+      ],
+      "soil": "rock",
+      "product": "labdanum",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "sumac",
+      "biomes": [
+        "windswept_hills"
+      ],
+      "soil": "rock",
+      "product": "sumac_leaf",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "heather",
+      "biomes": [
+        "windswept_gravelly_hills",
+        "windswept_forest",
+        "taiga"
+      ],
+      "soil": "rock",
+      "product": "heather_flowers",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "gorse",
+      "biomes": [
+        "windswept_gravelly_hills",
+        "stony_shore"
+      ],
+      "soil": "rock",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "broom",
+      "biomes": [
+        "windswept_gravelly_hills",
+        "windswept_forest"
+      ],
+      "soil": "rock",
+      "product": "broom_twigs",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "rugosa_rose",
+      "biomes": [
+        "beach",
+        "snowy_beach"
+      ],
+      "soil": "sand",
+      "product": "rose_hips",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "beach_plum",
+      "biomes": [
+        "beach"
+      ],
+      "soil": "sand",
+      "product": "beach_plums",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "bog_bilberry",
+      "biomes": [
+        "taiga",
+        "snowy_taiga",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "product": "bog_bilberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "labrador_tea",
+      "biomes": [
+        "taiga",
+        "snowy_taiga"
+      ],
+      "soil": "dirt",
+      "product": "labrador_tea_leaf",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "crowberry",
+      "biomes": [
+        "snowy_taiga",
+        "snowy_plains",
+        "snowy_beach"
+      ],
+      "soil": "alpine",
+      "product": "crowberries",
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "cloudberry",
+      "biomes": [
+        "snowy_plains",
+        "ice_spikes",
+        "snowy_beach"
+      ],
+      "soil": "alpine",
+      "product": "cloudberries",
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "dwarf_birch",
+      "biomes": [
+        "snowy_plains",
+        "ice_spikes",
+        "snowy_slopes"
+      ],
+      "soil": "alpine",
+      "product": null,
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "bearberry",
+      "biomes": [
+        "old_growth_pine_taiga",
+        "grove",
+        "snowy_slopes",
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "soil": "alpine",
+      "product": "bearberry_leaf",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "alpenrose",
+      "biomes": [
+        "meadow",
+        "grove",
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "soil": "alpine",
+      "product": null,
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "mountain_avens",
+      "biomes": [
+        "snowy_slopes",
+        "frozen_peaks",
+        "jagged_peaks",
+        "stony_peaks"
+      ],
+      "soil": "alpine",
+      "product": null,
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "dwarf_willow",
+      "biomes": [
+        "ice_spikes",
+        "snowy_slopes",
+        "frozen_peaks"
+      ],
+      "soil": "alpine",
+      "product": "dwarf_willow_bark",
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "arctic_bell_heather",
+      "biomes": [
+        "ice_spikes",
+        "frozen_peaks"
+      ],
+      "soil": "alpine",
+      "product": null,
+      "climate": "cold",
+      "sow": false,
+      "thorny": false
+    },
+    {
+      "id": "gooseberry",
+      "biomes": [
+        "meadow",
+        "windswept_forest"
+      ],
+      "soil": "dirt",
+      "product": "gooseberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": true
+    },
+    {
+      "id": "red_elderberry",
+      "biomes": [
+        "meadow",
+        "grove",
+        "old_growth_spruce_taiga"
+      ],
+      "soil": "dirt",
+      "product": "red_elderberries",
+      "climate": "temperate",
+      "sow": false,
+      "thorny": false
+    }
+  ],
+  "products": {
+    "annatto_seeds": {
+      "food": null,
+      "effect": null,
+      "sow": "annatto"
+    },
+    "bayberries": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "beach_plums": {
+      "food": [
+        2,
+        0.3
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "bearberry_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "bilberries": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "blackberries": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "blackcurrants": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "bog_bilberries": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "broom_twigs": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "butchers_broom_berries": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "calotropis_floss": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "camellia_seeds": {
+      "food": null,
+      "effect": null,
+      "sow": "japanese_camellia"
+    },
+    "candelilla_stems": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "capers": {
+      "food": [
+        1,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "cloudberries": {
+      "food": [
+        3,
+        0.4
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "cornelian_cherries": {
+      "food": [
+        2,
+        0.3
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "cranberries": {
+      "food": [
+        2,
+        0.1
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "creosote_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "crowberries": {
+      "food": [
+        1,
+        0.1
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "dwarf_willow_bark": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "gooseberries": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "guarana_seeds": {
+      "food": null,
+      "effect": null,
+      "sow": "guarana"
+    },
+    "guayule_stems": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "heather_flowers": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "henna_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "ipecac_root": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "jaborandi_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "japanese_quinces": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "jasmine_flower": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "jatropha_seed": {
+      "food": null,
+      "effect": null,
+      "sow": "jatropha"
+    },
+    "jojoba_seed": {
+      "food": null,
+      "effect": null,
+      "sow": "jojoba"
+    },
+    "labdanum": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "labrador_tea_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "lavender_flowers": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "malagueta_pepper": {
+      "food": [
+        1,
+        0.1
+      ],
+      "effect": null,
+      "sow": "malagueta"
+    },
+    "myrtle_berries": {
+      "food": [
+        1,
+        0.1
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "raspberries": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "red_elderberries": {
+      "food": [
+        1,
+        0.1
+      ],
+      "effect": [
+        "minecraft:nausea",
+        200,
+        0.8
+      ],
+      "sow": null
+    },
+    "rhododendron_flowers": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "rooibos_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "rose_hips": {
+      "food": [
+        2,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "rose_petals": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "roselle_calyx": {
+      "food": [
+        1,
+        0.2
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "rosemary_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "sagebrush_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "saltbush_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "sloes": {
+      "food": [
+        1,
+        0.1
+      ],
+      "effect": null,
+      "sow": null
+    },
+    "sumac_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    },
+    "tea_leaf": {
+      "food": null,
+      "effect": null,
+      "sow": null
+    }
+  },
+  "heaterBurnDivisor": 4,
+  "teas": [
+    {
+      "id": "black_tea",
+      "effect": "minecraft:haste",
+      "ticks": 900,
+      "cures": "minecraft:mining_fatigue"
+    },
+    {
+      "id": "rooibos_tea",
+      "effect": "minecraft:resistance",
+      "ticks": 600,
+      "cures": "minecraft:hunger"
+    },
+    {
+      "id": "hibiscus_tea",
+      "effect": "minecraft:fire_resistance",
+      "ticks": 600,
+      "cures": "minecraft:weakness"
+    },
+    {
+      "id": "rosehip_tea",
+      "effect": "minecraft:absorption",
+      "ticks": 1200,
+      "cures": "minecraft:poison"
+    },
+    {
+      "id": "lavender_tea",
+      "effect": "minecraft:regeneration",
+      "ticks": 200,
+      "cures": "minecraft:nausea"
+    },
+    {
+      "id": "rosemary_tea",
+      "effect": "minecraft:night_vision",
+      "ticks": 900,
+      "cures": "minecraft:blindness"
+    },
+    {
+      "id": "heather_tea",
+      "effect": "minecraft:speed",
+      "ticks": 600,
+      "cures": "minecraft:slowness"
+    },
+    {
+      "id": "labrador_tea",
+      "effect": "minecraft:health_boost",
+      "ticks": 1200,
+      "cures": "minecraft:wither"
+    }
+  ],
+  "coolerIce": {
+    "minecraft:snow_block": 600,
+    "minecraft:ice": 2400,
+    "minecraft:packed_ice": 21600,
+    "minecraft:blue_ice": 72000
+  },
+  "coolerPower": 1.0,
+  "hydrangeaBlue": [
+    "periodic_elements:aluminium_sulfate",
+    "periodic_elements:potassium_alum"
+  ],
+  "hydrangeaPink": [
+    "periodic_elements:calcium_oxide",
+    "periodic_elements:calcium_hydroxide",
+    "periodic_elements:calcium_carbonate"
+  ]
+}

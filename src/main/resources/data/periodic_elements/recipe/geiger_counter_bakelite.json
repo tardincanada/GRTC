@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GWG",
+    "WEW",
+    "KWK"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "E": {
+      "item": "periodic_elements:electroscope"
+    },
+    "K": {
+      "item": "periodic_elements:bakelite"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:geiger_counter",
+    "count": 1
+  }
+}

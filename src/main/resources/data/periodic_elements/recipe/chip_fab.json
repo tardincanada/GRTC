@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GQG",
+    "CFC",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "C": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "F": {
+      "item": "periodic_elements:sintering_furnace"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:chip_fab",
+    "count": 1
+  }
+}

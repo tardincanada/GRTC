@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IBI",
+    "B B",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "item": "periodic_elements:crucible_steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:steel_cage",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X#X",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "periodic_elements:aluminium"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:aluminium_sledgehammer",
+    "count": 1
+  }
+}

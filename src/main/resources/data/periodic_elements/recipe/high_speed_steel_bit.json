@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "periodic_elements:high_speed_steel_ingot"
+    },
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:high_speed_steel_bit",
+    "count": 1
+  }
+}

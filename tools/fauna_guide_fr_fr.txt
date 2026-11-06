@@ -1,0 +1,31 @@
+# Animaux sauvages
+Chaque biome a deux à quatre animaux à lui, qui n'apparaissent que là. La plupart vous fuient ; les grands se défendent quand on les frappe. Seul le Rôdeur mortel vous chasse, la nuit, et la Phyllobate terrible empoisonne la main nue qui la touche.
+# Élevage
+Donnez à deux animaux d'une espèce la nourriture qu'ils aiment pour qu'ils se reproduisent. Loin de leur climat, ils se reproduisent trois fois plus lentement ; une serre chauffée ou refroidie à leur climat les laisse se reproduire normalement.
+# Ce que donnent les animaux
+Les animaux dans un enclos (une clôture à 4 blocs ou moins) lâchent du Fumier de temps en temps : utilisez-le sur une plante comme de la poudre d'os, ou brûlez-le. Frottez des flèches sur un Phyllobate terrible pour en empoisonner jusqu'à 8. Une fiole en verre sur un Rôdeur mortel ou un Monstre de Gila en tire le venin, une fois toutes les cinq minutes. Les autruches pondent des œufs gros comme quatre œufs de poule.
+# Petits animaux
+Les insectes et les vers sont des objets et des blocs. Creuser la terre ou l'herbe fait parfois sortir un Ver de terre, et tondre des feuilles de mûrier blanc un Ver à soie. Dans l'eau des marais, une Sangsue médicinale peut s'accrocher et vous saigner lentement : le sel l'enlève et vous donne la sangsue.
+Un Lombricomposteur (planches autour de terre) reçoit un ver de terre ; nourrissez-le de feuilles, plantes, graines ou fumier et il donne de l'Humus, un engrais.
+Sériciculture (niveau 1) : le Plateau de sériciculture reçoit des vers à soie ; nourrissez-le de feuilles de mûrier blanc et il donne des Cocons de soie, qui donnent du Fil de soie au four.
+La cochenille pousse sur les cactus des déserts et des badlands, et la Cochenille de la laque sur les bûches de jungle ; les colonies apparaissent près de vous et s'étendent. Utilisez une colonie mûre pour la gratter ; utilisez ce que vous avez gratté sur un autre cactus ou une autre bûche de jungle pour lancer une colonie.
+Carmin (niveau 2) : la cochenille dans la Cuve de teinture donne de l'acide carminique, une teinture rouge.
+Gomme-laque (niveau 3) : la laque en bâtons dans la Marmite à savon donne de la gomme-laque.
+Sérum antivenimeux (niveau 4) : venin de scorpion, sel et fiole en verre font un Sérum antivenimeux ; buvez-le pour guérir le poison.
+Hirudine (niveau 5) : des sangsues dans la Cuve de digestion donnent de l'hirudine. Exénatide (niveau 7) : le venin de Monstre de Gila dans le Bioréacteur donne de l'exénatide.
+# Forêts, champs et rivières
+Les faisans et les colverts pondent de temps en temps, et le colvert laisse parfois du Duvet de canard. Le cerf élaphe perd un Bois de cerf tous les un ou deux jours ; moulu, il donne de la poudre d'os. Les sangliers lâchent des soies qui, avec un bâton et un lingot de cuivre, font un pinceau. Les esturgeons donnent caviar et ichtyocolle.
+Le hérisson d'Europe tient les ravageurs loin des cultures à 4 blocs ou moins. Le castor d'Europe mange l'écorce de saule et bâtit des barrages de bâtons et de boue dans l'eau peu profonde près de lui. Les fous variés laissent du guano sur le rivage, jusqu'à un demi-bloc d'épaisseur.
+Guano (niveau 3) : le guano dans la Cuve de digestion donne du salpêtre.
+Galalithe (niveau 5) : la caséine du lait dans la Cuve de digestion, avec du formaldéhyde dans la case du réactif, donne de la galalithe.
+# Forêts froides et montagnes
+Les rennes et les yacks donnent du lait dans un seau, et la cisaille prend la laine du yack ou de l'alpaga ; quatre font un bloc de laine. Les rennes perdent leurs bois comme le cerf. Le lichen des rennes pousse près de vous dans les terres enneigées ; les rennes le mangent.
+Les ours bruns pillent les ruches et nids d'abeilles pleins à côté d'eux. Le lynx boréal chasse les lapins. L'hermine devient blanche là où il fait froid.
+# Mers et côtes
+Les phoques annelés et les morses donnent du lard, et les morses de l'ivoire ; fondez le lard pour de l'huile de lampe. Le hareng, la seiche et la méduse cristal se mettent en seau ; la méduse brille et pique. La seiche donne de l'encre sépia (teinture marron) et de l'os de seiche. La chair du requin du Groenland est toxique crue : cuisez-la ou fumez-la en hákarl. Une fiole en verre sur une limule tire son sang bleu, et la limule survit. Les crabes verts lâchent de la carapace de crabe.
+Les huîtres perlières poussent sur le sable sous les mers chaudes près de vous ; cassez-en une pour des coquilles d'huître et, parfois, une perle. Le cachalot ne peut pas être chassé. L'ambre gris de son intestin s'échoue de temps en temps sur les plages, et très rarement un cachalot s'échoue sur une plage et y meurt, laissant du spermaceti et du lard. Spermaceti et ficelle font une bougie.
+Pourpre de Tyr (niveau 2) : les murex dans la Cuve de teinture donnent de la teinture violette.
+Vitamine D (niveau 5) : le foie de requin dans la Cuve de digestion donne de la vitamine D3. Chitosane (niveau 6) : les carapaces de crabe dans la Cuve de digestion donnent du chitosane.
+Test LAL (niveau 7) : le sang de limule dans la Cuve de digestion donne du lysat de Limulus. GFP (niveau 7) : le tissu de méduse cristal dans le Bioréacteur donne la protéine fluorescente verte.
+# Compendium des animaux
+Un livre et une plume font le Compendium des animaux. Dans la barre d'accès rapide, il nomme les animaux que vous connaissez. Regardez un animal une seconde à 16 blocs ou moins, attrapez-le dans un piège ou ramassez-en un petit pour le noter ; utilisez le livre pour lire sur eux, biome par biome. Systema Naturae (niveau 3) ajoute les noms scientifiques, L'Origine des espèces (niveau 4) l'évolution de chaque animal et La Liste rouge (niveau 6) son statut.

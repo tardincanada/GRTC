@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    },
+    {
+      "item": "periodic_elements:bakelite"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:brown_bakelite",
+    "count": 4
+  }
+}

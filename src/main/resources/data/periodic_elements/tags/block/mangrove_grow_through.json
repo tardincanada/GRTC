@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:mangrove_logs_can_grow_through",
+    "periodic_elements:black_mangrove_log",
+    "periodic_elements:black_mangrove_leaves",
+    "periodic_elements:white_mangrove_log",
+    "periodic_elements:white_mangrove_leaves"
+  ]
+}

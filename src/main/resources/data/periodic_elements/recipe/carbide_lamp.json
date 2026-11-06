@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "BCB",
+    " W "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "B": {
+      "item": "periodic_elements:brass_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:calcium_carbide"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:carbide_lamp",
+    "count": 1
+  }
+}

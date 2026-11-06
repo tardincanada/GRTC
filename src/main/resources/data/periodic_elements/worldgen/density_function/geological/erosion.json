@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "periodic_elements:geology",
+      "output": "erosion",
+      "seed": "periodic_elements:geology_seed"
+    }
+  }
+}

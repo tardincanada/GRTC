@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:barley",
+    "periodic_elements:alfalfa",
+    "periodic_elements:oats",
+    "periodic_elements:balanced_feed"
+  ]
+}

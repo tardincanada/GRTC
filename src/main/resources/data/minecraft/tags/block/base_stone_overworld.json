@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:shale",
+    "periodic_elements:gneiss",
+    "periodic_elements:peridotite",
+    "periodic_elements:kimberlite",
+    "periodic_elements:laterite"
+  ]
+}

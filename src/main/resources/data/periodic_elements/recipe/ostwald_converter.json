@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "SRS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "P": {
+      "item": "periodic_elements:platinum"
+    },
+    "R": {
+      "item": "periodic_elements:rhodium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:ostwald_converter",
+    "count": 1
+  }
+}

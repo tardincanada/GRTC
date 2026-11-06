@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:cotton"
+    },
+    {
+      "item": "periodic_elements:cotton"
+    }
+  ],
+  "result": {
+    "id": "minecraft:string",
+    "count": 2
+  }
+}

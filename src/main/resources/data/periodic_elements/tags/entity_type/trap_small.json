@@ -1,0 +1,32 @@
+{
+  "values": [
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "minecraft:pig",
+    "minecraft:sheep",
+    "minecraft:cat",
+    "minecraft:ocelot",
+    "minecraft:fox",
+    "minecraft:parrot",
+    "minecraft:bee",
+    "minecraft:frog",
+    "minecraft:axolotl",
+    "minecraft:armadillo",
+    "minecraft:turtle",
+    "periodic_elements:toco_toucan",
+    "periodic_elements:sloth",
+    "periodic_elements:golden_poison_frog",
+    "periodic_elements:deathstalker",
+    "periodic_elements:desert_locust",
+    "periodic_elements:gila_monster",
+    "periodic_elements:eurasian_beaver",
+    "periodic_elements:pheasant",
+    "periodic_elements:mallard",
+    "periodic_elements:hedgehog",
+    "periodic_elements:peruvian_booby",
+    "periodic_elements:alpine_marmot",
+    "periodic_elements:stoat",
+    "periodic_elements:horseshoe_crab",
+    "periodic_elements:green_crab"
+  ]
+}

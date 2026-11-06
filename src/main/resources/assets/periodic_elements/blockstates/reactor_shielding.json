@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/reactor_shielding"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/reactor_shielding_active"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LGL",
+    "GFG",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "F": {
+      "item": "periodic_elements:glass_flask"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:helium_collector",
+    "count": 1
+  }
+}

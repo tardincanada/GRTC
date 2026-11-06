@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "L": {
+      "item": "periodic_elements:calcium_oxide"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:silica_brick",
+    "count": 4
+  }
+}

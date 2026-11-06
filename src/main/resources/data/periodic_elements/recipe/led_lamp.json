@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AAA",
+    "GEG",
+    " W "
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "E": {
+      "item": "periodic_elements:gallium_arsenide_wafer"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:led_lamp",
+    "count": 4
+  }
+}

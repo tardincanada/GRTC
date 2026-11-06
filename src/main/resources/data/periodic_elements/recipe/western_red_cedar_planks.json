@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "periodic_elements:western_red_cedar_logs"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:western_red_cedar_planks",
+    "count": 4
+  }
+}

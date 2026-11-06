@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "N N",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "periodic_elements:neoprene"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:wetsuit_boots",
+    "count": 1
+  }
+}

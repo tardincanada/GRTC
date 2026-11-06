@@ -1,0 +1,31 @@
+# Animali selvatici
+Ogni bioma ha da due a quattro animali suoi, che compaiono solo lì. Quasi tutti fuggono; quelli grandi reagiscono se colpiti. Solo lo Scorpione giallo palestinese ti caccia, di notte, e la Rana dorata velenosa avvelena la mano nuda che la tocca.
+# Allevamento
+Dai a due animali della stessa specie il cibo che amano per farli riprodurre. Lontano dal loro clima si riproducono tre volte più lentamente; una serra riscaldata o raffreddata al loro clima li fa riprodurre come sempre.
+# Cosa danno gli animali
+Gli animali in un recinto (una staccionata entro 4 blocchi) lasciano Letame di tanto in tanto: usalo su una pianta come la farina d'ossa, o bruciarlo. Strofina frecce su una Rana dorata velenosa per avvelenarne fino a 8. Una bottiglia di vetro su uno Scorpione giallo palestinese o un Mostro di Gila ne estrae il veleno, una volta ogni cinque minuti. Gli struzzi depongono uova grandi come quattro uova di gallina.
+# Piccoli animali
+Insetti e vermi sono oggetti e blocchi. Scavando terra o erba a volte salta fuori un Lombrico, e tosando foglie di gelso bianco un Baco da seta. Nell'acqua di palude può attaccarsi una Sanguisuga medicinale che ti dissangua piano: il sale la stacca e ti dà la sanguisuga.
+Una Lombricompostiera (assi attorno a terra) accoglie un lombrico; nutrila con foglie, piante, semi o letame e dà Humus, un fertilizzante.
+Bachicoltura (livello 1): il Graticcio da bachicoltura accoglie bachi da seta; nutrilo con foglie di gelso bianco e dà Bozzoli di seta, che nella fornace diventano Filo di seta.
+La cocciniglia cresce sui cactus di deserti e badlands, e la Cocciniglia della lacca sui tronchi della giungla; le colonie compaiono vicino a te e si diffondono. Usa una colonia matura per raschiarla; usa ciò che hai raschiato su un altro cactus o tronco della giungla per avviare una colonia.
+Carminio (livello 2): la cocciniglia nella Vasca da tintura dà acido carminico, una tinta rossa.
+Gommalacca (livello 3): la lacca in bastoncini nel Calderone del sapone dà gommalacca.
+Siero antiveleno (livello 4): veleno di scorpione, sale e una bottiglia di vetro fanno il Siero antiveleno; bevilo per curare l'avvelenamento.
+Irudina (livello 5): sanguisughe nella Vasca di digestione danno irudina. Exenatide (livello 7): veleno di Mostro di Gila nel Bioreattore dà exenatide.
+# Boschi, campi e fiumi
+Fagiani e germani reali depongono uova di tanto in tanto, e il germano a volte lascia Piumino d'anatra. Il cervo nobile perde un Palco ogni uno o due giorni; macinato, dà farina d'ossa. I cinghiali lasciano setole che, con un bastone e un lingotto di rame, fanno un pennello. Gli storioni danno caviale e colla di pesce.
+Il riccio europeo tiene lontani i parassiti dalle colture entro 4 blocchi. Il castoro europeo mangia corteccia di salice e costruisce dighe di rami e fango nell'acqua bassa vicino a sé. Le sule del Perù lasciano guano sulla riva, fino a mezzo blocco di spessore.
+Guano (livello 3): il guano nella Vasca di digestione dà salnitro.
+Galalite (livello 5): la caseina del latte nella Vasca di digestione, con formaldeide nello slot del reagente, dà galalite.
+# Boschi freddi e montagne
+Renne e yak danno latte nel secchio, e le cesoie prendono la lana dello yak o dell'alpaca; quattro fanno un blocco di lana. Le renne perdono i palchi come il cervo. Il lichene delle renne cresce vicino a te nelle terre innevate; le renne lo mangiano.
+Gli orsi bruni saccheggiano alveari e nidi d'api pieni accanto a loro. La lince europea caccia i conigli. L'ermellino diventa bianco dove fa freddo.
+# Mari e coste
+Le foche dagli anelli e i trichechi danno grasso, e i trichechi avorio; sciogli il grasso per olio da lampada. Aringa, seppia e medusa cristallo vanno nel secchio; la medusa brilla e punge. La seppia dà nero di seppia (colorante marrone) e osso di seppia. La carne dello squalo della Groenlandia è velenosa cruda: cuocila o affumicala in hákarl. Una boccetta di vetro su un limulo preleva il suo sangue blu, e il limulo sopravvive. I granchi verdi lasciano carapace di granchio.
+Le ostriche perlifere crescono sulla sabbia sotto i mari caldi vicino a te; rompine una per gusci d'ostrica e, a volte, una perla. Il capodoglio non si può cacciare. L'ambra grigia del suo intestino arriva sulle spiagge ogni tanto, e molto di rado un capodoglio si spiaggia e muore lì, lasciando spermaceti e grasso. Spermaceti e spago fanno una candela.
+Porpora di Tiro (livello 2): i murici nella Tino di tintura danno colorante viola.
+Vitamina D (livello 5): fegato di squalo nella Vasca di digestione dà vitamina D3. Chitosano (livello 6): carapaci di granchio nella Vasca di digestione danno chitosano.
+Test LAL (livello 7): sangue di limulo nella Vasca di digestione dà lisato di Limulus. GFP (livello 7): tessuto di medusa cristallo nel Bioreattore dà la proteina fluorescente verde.
+# Compendio degli animali
+Un libro e una piuma fanno il Compendio degli animali. Nella barra rapida nomina gli animali che conosci. Guarda un animale per un secondo entro 16 blocchi, catturalo in una trappola o raccogline uno piccolo per annotarlo; usa il libro per leggerne, bioma per bioma. Systema Naturae (livello 3) aggiunge i nomi scientifici, L'origine delle specie (livello 4) l'evoluzione di ogni animale e La Lista Rossa (livello 6) il suo stato.

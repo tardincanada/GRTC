@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "periodic_elements:duck_egg"
+  },
+  "result": {
+    "id": "periodic_elements:cooked_egg",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

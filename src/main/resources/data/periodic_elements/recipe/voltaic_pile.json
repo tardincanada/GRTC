@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ZCZ",
+    "CPC",
+    "ZCZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "periodic_elements:zinc"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:voltaic_pile",
+    "count": 1
+  }
+}

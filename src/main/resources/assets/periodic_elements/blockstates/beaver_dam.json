@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/beaver_dam"
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/beaver_dam",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

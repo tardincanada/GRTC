@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_chestplate",
+    "periodic_elements:wrought_iron_chestplate",
+    "periodic_elements:crucible_steel_chestplate",
+    "periodic_elements:steel_chestplate",
+    "periodic_elements:manganese_steel_chestplate",
+    "periodic_elements:aluminium_chestplate",
+    "periodic_elements:stainless_steel_chestplate",
+    "periodic_elements:titanium_alloy_chestplate",
+    "periodic_elements:composite_chestplate"
+  ]
+}

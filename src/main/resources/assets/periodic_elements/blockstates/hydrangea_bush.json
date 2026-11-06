@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0,blue=false": {
+      "model": "periodic_elements:block/hydrangea_bush_stage0"
+    },
+    "age=0,blue=true": {
+      "model": "periodic_elements:block/hydrangea_bush_stage0"
+    },
+    "age=1,blue=false": {
+      "model": "periodic_elements:block/hydrangea_bush_stage1"
+    },
+    "age=1,blue=true": {
+      "model": "periodic_elements:block/hydrangea_bush_stage1"
+    },
+    "age=2,blue=false": {
+      "model": "periodic_elements:block/hydrangea_bush_stage2"
+    },
+    "age=2,blue=true": {
+      "model": "periodic_elements:block/hydrangea_bush_stage2"
+    },
+    "age=3,blue=false": {
+      "model": "periodic_elements:block/hydrangea_bush_stage3"
+    },
+    "age=3,blue=true": {
+      "model": "periodic_elements:block/hydrangea_bush_stage3_blue"
+    }
+  }
+}

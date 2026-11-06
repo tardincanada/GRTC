@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KBK",
+    "B B",
+    "KLK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:clay"
+    },
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:bloomery",
+    "count": 1
+  }
+}

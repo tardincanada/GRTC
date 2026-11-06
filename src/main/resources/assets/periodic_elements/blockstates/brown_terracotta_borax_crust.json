@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust"
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/brown_terracotta_borax_crust",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

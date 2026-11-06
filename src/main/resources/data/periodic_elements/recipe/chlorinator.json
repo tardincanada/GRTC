@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KGK",
+    "K K",
+    "KFK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "F": {
+      "item": "periodic_elements:reverberatory_furnace"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:chlorinator",
+    "count": 1
+  }
+}

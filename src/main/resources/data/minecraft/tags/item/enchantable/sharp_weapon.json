@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_sword",
+    "periodic_elements:bronze_axe",
+    "periodic_elements:wrought_iron_sword",
+    "periodic_elements:wrought_iron_axe",
+    "periodic_elements:crucible_steel_sword",
+    "periodic_elements:crucible_steel_axe",
+    "periodic_elements:steel_sword",
+    "periodic_elements:steel_axe",
+    "periodic_elements:manganese_steel_sword",
+    "periodic_elements:manganese_steel_axe",
+    "periodic_elements:tungsten_steel_sword",
+    "periodic_elements:tungsten_steel_axe",
+    "periodic_elements:aluminium_sword",
+    "periodic_elements:aluminium_axe",
+    "periodic_elements:stainless_steel_sword",
+    "periodic_elements:stainless_steel_axe",
+    "periodic_elements:high_speed_steel_sword",
+    "periodic_elements:high_speed_steel_axe",
+    "periodic_elements:cemented_carbide_sword",
+    "periodic_elements:cemented_carbide_axe",
+    "periodic_elements:beryllium_copper_sword",
+    "periodic_elements:beryllium_copper_axe",
+    "periodic_elements:titanium_alloy_sword",
+    "periodic_elements:titanium_alloy_axe",
+    "periodic_elements:synthetic_diamond_sword",
+    "periodic_elements:synthetic_diamond_axe"
+  ]
+}

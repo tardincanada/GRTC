@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LTL",
+    "TPT",
+    "LTL"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lead"
+    },
+    "T": {
+      "item": "periodic_elements:tellurium"
+    },
+    "P": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:radioisotope_generator",
+    "count": 1
+  }
+}

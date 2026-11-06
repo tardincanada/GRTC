@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:polylactic_acid"
+    },
+    {
+      "item": "periodic_elements:polylactic_acid"
+    }
+  ],
+  "result": {
+    "id": "minecraft:flower_pot",
+    "count": 2
+  }
+}

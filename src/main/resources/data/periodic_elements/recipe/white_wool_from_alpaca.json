@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:alpaca_wool"
+    }
+  },
+  "result": {
+    "id": "minecraft:white_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SRS",
+    "BFB"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:manganese_steel_ingot"
+    },
+    "R": {
+      "item": "periodic_elements:refinery_still"
+    },
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:cracking_unit",
+    "count": 1
+  }
+}

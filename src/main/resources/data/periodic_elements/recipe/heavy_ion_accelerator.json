@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NIN",
+    "GCG",
+    "NSN"
+  ],
+  "key": {
+    "N": {
+      "item": "periodic_elements:niobium_titanium_wire"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "G": {
+      "item": "periodic_elements:gallium_arsenide_wafer"
+    },
+    "C": {
+      "item": "periodic_elements:cyclotron"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:heavy_ion_accelerator",
+    "count": 1
+  }
+}

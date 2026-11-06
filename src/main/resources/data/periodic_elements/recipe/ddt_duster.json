@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:ddt"
+    },
+    {
+      "item": "periodic_elements:ddt"
+    },
+    {
+      "item": "periodic_elements:ddt"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "periodic_elements:glass_flask"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:ddt_duster",
+    "count": 1
+  }
+}

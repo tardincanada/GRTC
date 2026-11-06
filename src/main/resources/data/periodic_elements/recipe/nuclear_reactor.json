@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "KZK",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:cadmium"
+    },
+    "K": {
+      "item": "periodic_elements:coke"
+    },
+    "Z": {
+      "item": "periodic_elements:zircaloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:nuclear_reactor",
+    "count": 1
+  }
+}

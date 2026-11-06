@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "periodic_elements:block/international_research_centre"
+    },
+    "facing=east": {
+      "model": "periodic_elements:block/international_research_centre",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "periodic_elements:block/international_research_centre",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "periodic_elements:block/international_research_centre",
+      "y": 270
+    }
+  }
+}

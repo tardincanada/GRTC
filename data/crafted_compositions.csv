@@ -1,0 +1,779 @@
+id,amount,composition,note
+minecraft:acacia_button,250.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_button
+minecraft:acacia_door,500.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_door
+minecraft:acacia_fence,416.6667,block:minecraft:acacia_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:acacia_fence
+minecraft:acacia_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:acacia_log:50.0000,recipe minecraft:acacia_fence_gate
+minecraft:acacia_hanging_sign,1045.2667,block:minecraft:acacia_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:acacia_hanging_sign
+minecraft:acacia_planks,250.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_planks
+minecraft:acacia_pressure_plate,500.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_pressure_plate
+minecraft:acacia_sign,541.6667,block:minecraft:acacia_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:acacia_sign
+minecraft:acacia_slab,125.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_slab
+minecraft:acacia_stairs,375.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_stairs
+minecraft:acacia_trapdoor,750.0000,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_trapdoor
+minecraft:acacia_wall_hanging_sign,1045.2667,block:minecraft:acacia_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:acacia_hanging_sign
+minecraft:acacia_wall_sign,541.6667,block:minecraft:acacia_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:acacia_sign
+minecraft:acacia_wood,1333.3333,block:minecraft:acacia_log:100.0000,recipe minecraft:acacia_wood
+minecraft:activator_rail,192.1167,block:minecraft:iron_ingot:57.8294;block:minecraft:oak_log:32.5323;block:minecraft:redstone:9.6382,recipe minecraft:activator_rail
+minecraft:andesite_slab,500.0000,block:minecraft:andesite:100.0000,recipe minecraft:andesite_slab_from_andesite_stonecutting
+minecraft:andesite_stairs,1000.0000,block:minecraft:andesite:100.0000,recipe minecraft:andesite_stairs_from_andesite_stonecutting
+minecraft:andesite_wall,1000.0000,block:minecraft:andesite:100.0000,recipe minecraft:andesite_wall_from_andesite_stonecutting
+minecraft:anvil,3444.4000,block:minecraft:iron_block:87.0979;block:minecraft:iron_ingot:12.9021,recipe minecraft:anvil
+minecraft:attached_melon_stem,111.1000,block:minecraft:melon_stem:100.0000,recipe same as minecraft:melon_stem
+minecraft:attached_pumpkin_stem,111.1000,block:minecraft:pumpkin_stem:100.0000,recipe same as minecraft:pumpkin_stem
+minecraft:bamboo_block,999.9000,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_block
+minecraft:bamboo_button,499.9500,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_button
+minecraft:bamboo_door,999.9000,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_door
+minecraft:bamboo_fence,749.9333,block:minecraft:bamboo:88.8879;block:minecraft:oak_log:11.1121,recipe minecraft:bamboo_fence
+minecraft:bamboo_fence_gate,1499.9000,block:minecraft:bamboo:66.6644;block:minecraft:oak_log:33.3356,recipe minecraft:bamboo_fence_gate
+minecraft:bamboo_hanging_sign,1045.1667,block:minecraft:bamboo:95.6690;block:minecraft:iron_ingot:3.5433;block:minecraft:iron_nugget:0.7878,recipe minecraft:bamboo_hanging_sign
+minecraft:bamboo_mosaic,499.9500,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_mosaic
+minecraft:bamboo_mosaic_slab,249.9750,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_mosaic_slab
+minecraft:bamboo_mosaic_stairs,749.9250,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_mosaic_stairs
+minecraft:bamboo_planks,499.9500,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_planks
+minecraft:bamboo_pressure_plate,999.9000,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_pressure_plate
+minecraft:bamboo_sapling,111.1000,block:minecraft:bamboo:100.0000,recipe same as minecraft:bamboo
+minecraft:bamboo_sign,1041.5667,block:minecraft:bamboo:95.9996;block:minecraft:oak_log:4.0004,recipe minecraft:bamboo_sign
+minecraft:bamboo_slab,249.9750,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_slab
+minecraft:bamboo_stairs,749.9250,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_stairs
+minecraft:bamboo_trapdoor,1499.8500,block:minecraft:bamboo:100.0000,recipe minecraft:bamboo_trapdoor
+minecraft:bamboo_wall_hanging_sign,1045.1667,block:minecraft:bamboo:95.6690;block:minecraft:iron_ingot:3.5433;block:minecraft:iron_nugget:0.7878,recipe same as minecraft:bamboo_hanging_sign
+minecraft:bamboo_wall_sign,1041.5667,block:minecraft:bamboo:95.9996;block:minecraft:oak_log:4.0004,recipe same as minecraft:bamboo_sign
+minecraft:barrel,1750.0000,block:minecraft:oak_log:100.0000,recipe minecraft:barrel
+minecraft:beacon,8111.1000,block:minecraft:glass:61.6439;block:minecraft:obsidian:36.9864;block:minecraft:nether_star:1.3697,recipe minecraft:beacon
+minecraft:beehive,1833.3000,block:minecraft:oak_log:81.8197;block:minecraft:honeycomb:18.1803,recipe minecraft:beehive
+minecraft:big_dripleaf_stem,111.1000,block:minecraft:big_dripleaf:100.0000,recipe same as minecraft:big_dripleaf
+minecraft:birch_button,250.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_button
+minecraft:birch_door,500.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_door
+minecraft:birch_fence,416.6667,block:minecraft:birch_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:birch_fence
+minecraft:birch_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:birch_log:50.0000,recipe minecraft:birch_fence_gate
+minecraft:birch_hanging_sign,1045.2667,block:minecraft:birch_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:birch_hanging_sign
+minecraft:birch_planks,250.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_planks
+minecraft:birch_pressure_plate,500.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_pressure_plate
+minecraft:birch_sign,541.6667,block:minecraft:birch_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:birch_sign
+minecraft:birch_slab,125.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_slab
+minecraft:birch_stairs,375.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_stairs
+minecraft:birch_trapdoor,750.0000,block:minecraft:birch_log:100.0000,recipe minecraft:birch_trapdoor
+minecraft:birch_wall_hanging_sign,1045.2667,block:minecraft:birch_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:birch_hanging_sign
+minecraft:birch_wall_sign,541.6667,block:minecraft:birch_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:birch_sign
+minecraft:birch_wood,1333.3333,block:minecraft:birch_log:100.0000,recipe minecraft:birch_wood
+minecraft:black_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:black_dye:4.3455,recipe minecraft:black_banner
+minecraft:black_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:black_dye:0.3771,recipe minecraft:dye_black_bed
+minecraft:black_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:black_dye:2.7012,recipe minecraft:black_candle
+minecraft:black_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:black_dye:0.0914,recipe same as minecraft:cake + minecraft:black_candle
+minecraft:black_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:black_dye:5.8794,recipe minecraft:black_carpet
+minecraft:black_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:black_dye:0.0434,recipe same as minecraft:black_concrete_powder
+minecraft:black_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:black_dye:0.0434,recipe minecraft:black_concrete_powder
+minecraft:black_glazed_terracotta,1000.0000,block:minecraft:black_terracotta:100.0000,recipe minecraft:black_glazed_terracotta
+minecraft:black_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:black_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:black_dye
+minecraft:black_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:black_dye:0.0434,recipe minecraft:black_stained_glass
+minecraft:black_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:black_dye:0.0434,recipe minecraft:black_stained_glass_pane
+minecraft:black_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:black_dye:4.3455,recipe same as minecraft:black_banner
+minecraft:black_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:black_dye:5.8794,recipe minecraft:dye_black_wool
+minecraft:blackstone_slab,500.0000,block:minecraft:blackstone:100.0000,recipe minecraft:blackstone_slab_from_blackstone_stonecutting
+minecraft:blackstone_stairs,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:blackstone_stairs_from_blackstone_stonecutting
+minecraft:blackstone_wall,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:blackstone_wall_from_blackstone_stonecutting
+minecraft:blast_furnace,11555.5000,block:minecraft:cobblestone:69.2311;block:minecraft:stone:25.9617;block:minecraft:iron_ingot:4.8072,recipe minecraft:blast_furnace
+minecraft:blue_banner,541.6400,block:minecraft:white_wool:61.5353;block:minecraft:oak_log:23.0781;block:minecraft:blue_dye:15.3866,recipe minecraft:blue_banner
+minecraft:blue_bed,930.5400,block:minecraft:oak_log:80.5984;block:minecraft:white_wool:17.9090;block:minecraft:blue_dye:1.4927,recipe minecraft:dye_blue_bed
+minecraft:blue_candle,138.8800,block:minecraft:honeycomb:79.9971;block:minecraft:string:10.0014;block:minecraft:blue_dye:10.0014,recipe minecraft:blue_candle
+minecraft:blue_candle_cake,3805.4800,block:minecraft:milk_bucket:78.8337;block:minecraft:wheat:8.7584;block:minecraft:sugar:5.8389;block:minecraft:egg:2.9195;block:minecraft:honeycomb:2.9195;block:minecraft:string:0.3650;block:minecraft:blue_dye:0.3650,recipe same as minecraft:cake + minecraft:blue_candle
+minecraft:blue_carpet,46.2933,block:minecraft:white_wool:79.9971;block:minecraft:blue_dye:20.0029,recipe minecraft:blue_carpet
+minecraft:blue_concrete,1001.7363,block:minecraft:sand:49.9133;block:minecraft:gravel:49.9133;block:minecraft:blue_dye:0.1733,recipe same as minecraft:blue_concrete_powder
+minecraft:blue_concrete_powder,1001.7363,block:minecraft:sand:49.9133;block:minecraft:gravel:49.9133;block:minecraft:blue_dye:0.1733,recipe minecraft:blue_concrete_powder
+minecraft:blue_glazed_terracotta,1000.0000,block:minecraft:blue_terracotta:100.0000,recipe minecraft:blue_glazed_terracotta
+minecraft:blue_shulker_box,2236.0900,block:minecraft:oak_log:89.4418;block:minecraft:shulker_shell:9.9370;block:minecraft:blue_dye:0.6212,recipe same as minecraft:shulker_box + minecraft:blue_dye
+minecraft:blue_stained_glass,1001.7363,block:minecraft:glass:99.8267;block:minecraft:blue_dye:0.1733,recipe minecraft:blue_stained_glass
+minecraft:blue_stained_glass_pane,375.6511,block:minecraft:glass:99.8267;block:minecraft:blue_dye:0.1733,recipe minecraft:blue_stained_glass_pane
+minecraft:blue_wall_banner,541.6400,block:minecraft:white_wool:61.5353;block:minecraft:oak_log:23.0781;block:minecraft:blue_dye:15.3866,recipe same as minecraft:blue_banner
+minecraft:blue_wool,69.4400,block:minecraft:white_wool:79.9971;block:minecraft:blue_dye:20.0029,recipe minecraft:dye_blue_wool
+minecraft:bone_block,999.9000,block:minecraft:bone_meal:100.0000,recipe minecraft:bone_block
+minecraft:bookshelf,10833.3000,block:minecraft:sugar_cane:83.0772;block:minecraft:oak_log:13.8462;block:minecraft:leather:3.0766,recipe minecraft:bookshelf
+minecraft:brain_coral_wall_fan,111.1000,block:minecraft:brain_coral_fan:100.0000,recipe same as minecraft:brain_coral_fan
+minecraft:brewing_stand,3111.1000,block:minecraft:cobblestone:96.4289;block:minecraft:blaze_rod:3.5711,recipe minecraft:brewing_stand
+minecraft:brick_slab,222.2000,block:minecraft:brick:100.0000,recipe minecraft:brick_slab_from_bricks_stonecutting
+minecraft:brick_stairs,444.4000,block:minecraft:brick:100.0000,recipe minecraft:brick_stairs_from_bricks_stonecutting
+minecraft:brick_wall,444.4000,block:minecraft:brick:100.0000,recipe minecraft:brick_wall_from_bricks_stonecutting
+minecraft:bricks,444.4000,block:minecraft:brick:100.0000,recipe minecraft:bricks
+minecraft:brown_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:brown_dye:4.3455,recipe minecraft:brown_banner
+minecraft:brown_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:brown_dye:0.3771,recipe minecraft:dye_brown_bed
+minecraft:brown_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:brown_dye:2.7012,recipe minecraft:brown_candle
+minecraft:brown_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:brown_dye:0.0914,recipe same as minecraft:cake + minecraft:brown_candle
+minecraft:brown_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:brown_dye:5.8794,recipe minecraft:brown_carpet
+minecraft:brown_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:brown_dye:0.0434,recipe same as minecraft:brown_concrete_powder
+minecraft:brown_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:brown_dye:0.0434,recipe minecraft:brown_concrete_powder
+minecraft:brown_glazed_terracotta,1000.0000,block:minecraft:brown_terracotta:100.0000,recipe minecraft:brown_glazed_terracotta
+minecraft:brown_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:brown_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:brown_dye
+minecraft:brown_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:brown_dye:0.0434,recipe minecraft:brown_stained_glass
+minecraft:brown_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:brown_dye:0.0434,recipe minecraft:brown_stained_glass_pane
+minecraft:brown_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:brown_dye:4.3455,recipe same as minecraft:brown_banner
+minecraft:brown_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:brown_dye:5.8794,recipe minecraft:dye_brown_wool
+minecraft:bubble_coral_wall_fan,111.1000,block:minecraft:bubble_coral_fan:100.0000,recipe same as minecraft:bubble_coral_fan
+minecraft:cake,3666.6000,block:minecraft:milk_bucket:81.8197;block:minecraft:wheat:9.0902;block:minecraft:sugar:6.0601;block:minecraft:egg:3.0301,recipe minecraft:cake
+minecraft:calibrated_sculk_sensor,1333.3000,block:minecraft:sculk_sensor:75.0019;block:minecraft:amethyst_shard:24.9981,recipe minecraft:calibrated_sculk_sensor
+minecraft:campfire,3486.1000,block:minecraft:dark_oak_log:86.0561;block:minecraft:oak_log:10.7570;block:minecraft:coal:3.1869,recipe minecraft:campfire
+minecraft:candle,124.9900,block:minecraft:honeycomb:88.8871;block:minecraft:string:11.1129,recipe minecraft:candle
+minecraft:candle_cake,3791.5900,block:minecraft:milk_bucket:79.1225;block:minecraft:wheat:8.7905;block:minecraft:sugar:5.8603;block:minecraft:egg:2.9302;block:minecraft:honeycomb:2.9302;block:minecraft:string:0.3663,recipe same as minecraft:cake + minecraft:candle
+minecraft:cartography_table,3000.0000,block:minecraft:sugar_cane:66.6667;block:minecraft:oak_log:33.3333,recipe minecraft:cartography_table
+minecraft:carved_pumpkin,1000.0000,block:minecraft:pumpkin:100.0000,recipe same as minecraft:pumpkin
+minecraft:cauldron,777.7000,block:minecraft:iron_ingot:100.0000,recipe minecraft:cauldron
+minecraft:cave_vines_plant,111.1000,block:minecraft:cave_vines:100.0000,recipe same as minecraft:cave_vines
+minecraft:chain,135.8000,block:minecraft:iron_ingot:81.8115;block:minecraft:iron_nugget:18.1885,recipe minecraft:chain
+minecraft:cherry_button,250.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_button
+minecraft:cherry_door,500.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_door
+minecraft:cherry_fence,416.6667,block:minecraft:cherry_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:cherry_fence
+minecraft:cherry_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:cherry_log:50.0000,recipe minecraft:cherry_fence_gate
+minecraft:cherry_hanging_sign,1045.2667,block:minecraft:cherry_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:cherry_hanging_sign
+minecraft:cherry_planks,250.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_planks
+minecraft:cherry_pressure_plate,500.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_pressure_plate
+minecraft:cherry_sign,541.6667,block:minecraft:cherry_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:cherry_sign
+minecraft:cherry_slab,125.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_slab
+minecraft:cherry_stairs,375.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_stairs
+minecraft:cherry_trapdoor,750.0000,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_trapdoor
+minecraft:cherry_wall_hanging_sign,1045.2667,block:minecraft:cherry_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:cherry_hanging_sign
+minecraft:cherry_wall_sign,541.6667,block:minecraft:cherry_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:cherry_sign
+minecraft:cherry_wood,1333.3333,block:minecraft:cherry_log:100.0000,recipe minecraft:cherry_wood
+minecraft:chest,2000.0000,block:minecraft:oak_log:100.0000,recipe minecraft:chest
+minecraft:chipped_anvil,3444.4000,block:minecraft:iron_block:87.0979;block:minecraft:iron_ingot:12.9021,recipe same as minecraft:anvil
+minecraft:chiseled_bookshelf,1875.0000,block:minecraft:oak_log:100.0000,recipe minecraft:chiseled_bookshelf
+minecraft:chiseled_copper,250.0000,block:minecraft:copper_block:100.0000,recipe minecraft:chiseled_copper_from_cut_copper_stonecutting
+minecraft:chiseled_deepslate,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting
+minecraft:chiseled_nether_bricks,4000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting
+minecraft:chiseled_polished_blackstone,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:chiseled_polished_blackstone_from_polished_blackstone_stonecutting
+minecraft:chiseled_quartz_block,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:chiseled_quartz_block_from_quartz_block_stonecutting
+minecraft:chiseled_red_sandstone,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:chiseled_red_sandstone_from_red_sandstone_stonecutting
+minecraft:chiseled_sandstone,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:chiseled_sandstone_from_sandstone_stonecutting
+minecraft:chiseled_stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:chiseled_stone_bricks_stone_from_stonecutting
+minecraft:chiseled_tuff,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:chiseled_tuff_from_tuff_stonecutting
+minecraft:chiseled_tuff_bricks,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:chiseled_tuff_bricks_from_tuff_stonecutting
+minecraft:cobbled_deepslate_slab,500.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting
+minecraft:cobbled_deepslate_stairs,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting
+minecraft:cobbled_deepslate_wall,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting
+minecraft:cobblestone_slab,500.0000,block:minecraft:cobblestone:100.0000,recipe minecraft:cobblestone_slab_from_cobblestone_stonecutting
+minecraft:cobblestone_stairs,1000.0000,block:minecraft:cobblestone:100.0000,recipe minecraft:cobblestone_stairs_from_cobblestone_stonecutting
+minecraft:cobblestone_wall,1000.0000,block:minecraft:cobblestone:100.0000,recipe minecraft:cobblestone_wall_from_cobblestone_stonecutting
+minecraft:comparator,3819.4000,block:minecraft:stone:78.5464;block:minecraft:oak_log:9.8183;block:minecraft:redstone:8.7265;block:minecraft:quartz:2.9088,recipe minecraft:comparator
+minecraft:composter,875.0000,block:minecraft:oak_log:100.0000,recipe minecraft:composter
+minecraft:conduit,999.9000,block:minecraft:nautilus_shell:88.8889;block:minecraft:heart_of_the_sea:11.1111,recipe minecraft:conduit
+minecraft:copper_bulb,805.5500,block:minecraft:copper_block:93.1041;block:minecraft:blaze_rod:3.4480;block:minecraft:redstone:3.4480,recipe minecraft:copper_bulb
+minecraft:copper_door,222.2000,block:minecraft:copper_ingot:100.0000,recipe minecraft:copper_door
+minecraft:copper_grate,250.0000,block:minecraft:copper_block:100.0000,recipe minecraft:copper_grate_from_copper_block_stonecutting
+minecraft:copper_trapdoor,333.3000,block:minecraft:copper_ingot:100.0000,recipe minecraft:copper_trapdoor
+minecraft:cracked_deepslate_bricks,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:cracked_deepslate_bricks
+minecraft:cracked_deepslate_tiles,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:cracked_deepslate_tiles
+minecraft:cracked_nether_bricks,4000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:cracked_nether_bricks
+minecraft:cracked_polished_blackstone_bricks,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:cracked_polished_blackstone_bricks
+minecraft:cracked_stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:cracked_stone_bricks
+minecraft:crafter,8888.8000,block:minecraft:cobblestone:78.7508;block:minecraft:oak_log:11.2501;block:minecraft:iron_ingot:6.2494;block:minecraft:redstone:3.7497,recipe minecraft:crafter
+minecraft:crafting_table,1000.0000,block:minecraft:oak_log:100.0000,recipe minecraft:crafting_table
+minecraft:creeper_wall_head,333.3000,block:minecraft:creeper_head:100.0000,recipe same as minecraft:creeper_head
+minecraft:crimson_button,250.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_button
+minecraft:crimson_door,500.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_door
+minecraft:crimson_fence,416.6667,block:minecraft:crimson_stem:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:crimson_fence
+minecraft:crimson_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:crimson_stem:50.0000,recipe minecraft:crimson_fence_gate
+minecraft:crimson_hanging_sign,1045.2667,block:minecraft:crimson_stem:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:crimson_hanging_sign
+minecraft:crimson_hyphae,1000.0000,block:minecraft:crimson_stem:100.0000,recipe same as minecraft:crimson_stem
+minecraft:crimson_planks,250.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_planks
+minecraft:crimson_pressure_plate,500.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_pressure_plate
+minecraft:crimson_sign,541.6667,block:minecraft:crimson_stem:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:crimson_sign
+minecraft:crimson_slab,125.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_slab
+minecraft:crimson_stairs,375.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_stairs
+minecraft:crimson_trapdoor,750.0000,block:minecraft:crimson_stem:100.0000,recipe minecraft:crimson_trapdoor
+minecraft:crimson_wall_hanging_sign,1045.2667,block:minecraft:crimson_stem:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:crimson_hanging_sign
+minecraft:crimson_wall_sign,541.6667,block:minecraft:crimson_stem:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:crimson_sign
+minecraft:cut_copper,250.0000,block:minecraft:copper_block:100.0000,recipe minecraft:cut_copper_from_copper_block_stonecutting
+minecraft:cut_copper_slab,125.0000,block:minecraft:copper_block:100.0000,recipe minecraft:cut_copper_slab_from_copper_block_stonecutting
+minecraft:cut_copper_stairs,250.0000,block:minecraft:copper_block:100.0000,recipe minecraft:cut_copper_stairs_from_copper_block_stonecutting
+minecraft:cut_red_sandstone,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:cut_red_sandstone_from_red_sandstone_stonecutting
+minecraft:cut_red_sandstone_slab,500.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:cut_red_sandstone_slab_from_red_sandstone_stonecutting
+minecraft:cut_sandstone,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:cut_sandstone_from_sandstone_stonecutting
+minecraft:cut_sandstone_slab,500.0000,block:minecraft:sandstone:100.0000,recipe minecraft:cut_sandstone_slab_from_sandstone_stonecutting
+minecraft:cyan_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:cyan_dye:4.3455,recipe minecraft:cyan_banner
+minecraft:cyan_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:cyan_dye:0.3771,recipe minecraft:dye_cyan_bed
+minecraft:cyan_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:cyan_dye:2.7012,recipe minecraft:cyan_candle
+minecraft:cyan_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:cyan_dye:0.0914,recipe same as minecraft:cake + minecraft:cyan_candle
+minecraft:cyan_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:cyan_dye:5.8794,recipe minecraft:cyan_carpet
+minecraft:cyan_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:cyan_dye:0.0434,recipe same as minecraft:cyan_concrete_powder
+minecraft:cyan_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:cyan_dye:0.0434,recipe minecraft:cyan_concrete_powder
+minecraft:cyan_glazed_terracotta,1000.0000,block:minecraft:cyan_terracotta:100.0000,recipe minecraft:cyan_glazed_terracotta
+minecraft:cyan_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:cyan_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:cyan_dye
+minecraft:cyan_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:cyan_dye:0.0434,recipe minecraft:cyan_stained_glass
+minecraft:cyan_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:cyan_dye:0.0434,recipe minecraft:cyan_stained_glass_pane
+minecraft:cyan_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:cyan_dye:4.3455,recipe same as minecraft:cyan_banner
+minecraft:cyan_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:cyan_dye:5.8794,recipe minecraft:dye_cyan_wool
+minecraft:damaged_anvil,3444.4000,block:minecraft:iron_block:87.0979;block:minecraft:iron_ingot:12.9021,recipe same as minecraft:anvil
+minecraft:dark_oak_button,250.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_button
+minecraft:dark_oak_door,500.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_door
+minecraft:dark_oak_fence,416.6667,block:minecraft:dark_oak_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:dark_oak_fence
+minecraft:dark_oak_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:dark_oak_log:50.0000,recipe minecraft:dark_oak_fence_gate
+minecraft:dark_oak_hanging_sign,1045.2667,block:minecraft:dark_oak_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:dark_oak_hanging_sign
+minecraft:dark_oak_planks,250.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_planks
+minecraft:dark_oak_pressure_plate,500.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_pressure_plate
+minecraft:dark_oak_sign,541.6667,block:minecraft:dark_oak_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:dark_oak_sign
+minecraft:dark_oak_slab,125.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_slab
+minecraft:dark_oak_stairs,375.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_stairs
+minecraft:dark_oak_trapdoor,750.0000,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_trapdoor
+minecraft:dark_oak_wall_hanging_sign,1045.2667,block:minecraft:dark_oak_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:dark_oak_hanging_sign
+minecraft:dark_oak_wall_sign,541.6667,block:minecraft:dark_oak_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:dark_oak_sign
+minecraft:dark_oak_wood,1333.3333,block:minecraft:dark_oak_log:100.0000,recipe minecraft:dark_oak_wood
+minecraft:dark_prismarine,892.2700,block:minecraft:prismarine_shard:99.6111;block:minecraft:black_dye:0.3889,recipe minecraft:dark_prismarine
+minecraft:dark_prismarine_slab,446.1350,block:minecraft:prismarine_shard:99.6111;block:minecraft:black_dye:0.3889,recipe minecraft:dark_prismarine_slab_from_dark_prismarine_stonecutting
+minecraft:dark_prismarine_stairs,892.2700,block:minecraft:prismarine_shard:99.6111;block:minecraft:black_dye:0.3889,recipe minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting
+minecraft:daylight_detector,3708.3000,block:minecraft:glass:80.8996;block:minecraft:oak_log:10.1125;block:minecraft:quartz:8.9879,recipe minecraft:daylight_detector
+minecraft:dead_brain_coral_wall_fan,111.1000,block:minecraft:dead_brain_coral_fan:100.0000,recipe same as minecraft:dead_brain_coral_fan
+minecraft:dead_bubble_coral_wall_fan,111.1000,block:minecraft:dead_bubble_coral_fan:100.0000,recipe same as minecraft:dead_bubble_coral_fan
+minecraft:dead_fire_coral_wall_fan,111.1000,block:minecraft:dead_fire_coral_fan:100.0000,recipe same as minecraft:dead_fire_coral_fan
+minecraft:dead_horn_coral_wall_fan,111.1000,block:minecraft:dead_horn_coral_fan:100.0000,recipe same as minecraft:dead_horn_coral_fan
+minecraft:dead_tube_coral_wall_fan,111.1000,block:minecraft:dead_tube_coral_fan:100.0000,recipe same as minecraft:dead_tube_coral_fan
+minecraft:decorated_pot,444.4000,block:minecraft:brick:100.0000,recipe minecraft:decorated_pot_simple
+minecraft:deepslate_brick_slab,500.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting
+minecraft:deepslate_brick_stairs,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_brick_stairs_from_polished_deepslate_stonecutting
+minecraft:deepslate_brick_wall,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting
+minecraft:deepslate_bricks,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_bricks_from_polished_deepslate_stonecutting
+minecraft:deepslate_tile_slab,500.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_tile_slab_from_polished_deepslate_stonecutting
+minecraft:deepslate_tile_stairs,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting
+minecraft:deepslate_tile_wall,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_tile_wall_from_polished_deepslate_stonecutting
+minecraft:deepslate_tiles,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:deepslate_tiles_from_polished_deepslate_stonecutting
+minecraft:detector_rail,462.9500,block:minecraft:stone:72.0020;block:minecraft:iron_ingot:23.9983;block:minecraft:redstone:3.9997,recipe minecraft:detector_rail
+minecraft:diorite_slab,500.0000,block:minecraft:diorite:100.0000,recipe minecraft:diorite_slab_from_diorite_stonecutting
+minecraft:diorite_stairs,1000.0000,block:minecraft:diorite:100.0000,recipe minecraft:diorite_stairs_from_diorite_stonecutting
+minecraft:diorite_wall,1000.0000,block:minecraft:diorite:100.0000,recipe minecraft:diorite_wall_from_diorite_stonecutting
+minecraft:dirt_path,1000.0000,block:minecraft:dirt:100.0000,recipe same as minecraft:dirt
+minecraft:dispenser,7527.7700,block:minecraft:cobblestone:92.9890;block:minecraft:oak_log:4.9816;block:minecraft:redstone:1.4759;block:minecraft:string:0.5536,recipe minecraft:dispenser
+minecraft:dragon_wall_head,333.3000,block:minecraft:dragon_head:100.0000,recipe same as minecraft:dragon_head
+minecraft:dropper,7111.1000,block:minecraft:cobblestone:98.4377;block:minecraft:redstone:1.5623,recipe minecraft:dropper
+minecraft:enchanting_table,7333.3000,block:minecraft:obsidian:54.5457;block:minecraft:sugar_cane:40.9093;block:minecraft:diamond:3.0300;block:minecraft:leather:1.5150,recipe minecraft:enchanting_table
+minecraft:end_rod,55.5500,block:minecraft:blaze_rod:50.0000;block:minecraft:popped_chorus_fruit:50.0000,recipe minecraft:end_rod
+minecraft:end_stone_brick_slab,500.0000,block:minecraft:end_stone:100.0000,recipe minecraft:end_stone_brick_slab_from_end_stone_stonecutting
+minecraft:end_stone_brick_stairs,1000.0000,block:minecraft:end_stone:100.0000,recipe minecraft:end_stone_brick_stairs_from_end_stone_stonecutting
+minecraft:end_stone_brick_wall,1000.0000,block:minecraft:end_stone:100.0000,recipe minecraft:end_stone_brick_wall_from_end_stone_stonecutting
+minecraft:end_stone_bricks,1000.0000,block:minecraft:end_stone:100.0000,recipe minecraft:end_stone_bricks_from_end_stone_stonecutting
+minecraft:ender_chest,8166.6500,block:minecraft:obsidian:97.9594;block:minecraft:ender_pearl:1.3604;block:minecraft:blaze_rod:0.6802,recipe minecraft:ender_chest
+minecraft:exposed_chiseled_copper,250.0000,block:minecraft:exposed_copper:100.0000,recipe minecraft:exposed_chiseled_copper_from_exposed_cut_copper_stonecutting
+minecraft:exposed_copper_bulb,805.5500,block:minecraft:exposed_copper:93.1041;block:minecraft:blaze_rod:3.4480;block:minecraft:redstone:3.4480,recipe minecraft:exposed_copper_bulb
+minecraft:exposed_copper_door,222.2000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_door
+minecraft:exposed_copper_grate,250.0000,block:minecraft:exposed_copper:100.0000,recipe minecraft:exposed_copper_grate_from_exposed_copper_stonecutting
+minecraft:exposed_copper_trapdoor,333.3000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_trapdoor
+minecraft:exposed_cut_copper,250.0000,block:minecraft:exposed_copper:100.0000,recipe minecraft:exposed_cut_copper_from_exposed_copper_stonecutting
+minecraft:exposed_cut_copper_slab,125.0000,block:minecraft:exposed_copper:100.0000,recipe minecraft:exposed_cut_copper_slab_from_exposed_copper_stonecutting
+minecraft:exposed_cut_copper_stairs,250.0000,block:minecraft:exposed_copper:100.0000,recipe minecraft:exposed_cut_copper_stairs_from_exposed_copper_stonecutting
+minecraft:farmland,1000.0000,block:minecraft:dirt:100.0000,recipe same as minecraft:dirt
+minecraft:fire_coral_wall_fan,111.1000,block:minecraft:fire_coral_fan:100.0000,recipe same as minecraft:fire_coral_fan
+minecraft:fletching_table,1222.2000,block:minecraft:oak_log:81.8197;block:minecraft:flint:18.1803,recipe minecraft:fletching_table
+minecraft:flower_pot,111.1111,block:minecraft:brick:100.0000,recipe periodic_elements:pla_flower_pot (amount); makeup of the vanilla recipe
+minecraft:flowering_azalea_leaves,1000.0000,block:minecraft:azalea_leaves:100.0000,recipe same as minecraft:azalea_leaves
+minecraft:frosted_ice,1000.0000,block:minecraft:ice:100.0000,recipe same as minecraft:ice
+minecraft:furnace,8000.0000,block:minecraft:cobblestone:100.0000,recipe minecraft:furnace
+minecraft:glass_pane,375.0000,block:minecraft:glass:100.0000,recipe minecraft:glass_pane
+minecraft:glow_item_frame,284.7111,block:minecraft:oak_log:54.8807;block:minecraft:glow_ink_sac:39.0220;block:minecraft:leather:6.0973,recipe minecraft:glow_item_frame
+minecraft:granite_slab,500.0000,block:minecraft:granite:100.0000,recipe minecraft:granite_slab_from_granite_stonecutting
+minecraft:granite_stairs,1000.0000,block:minecraft:granite:100.0000,recipe minecraft:granite_stairs_from_granite_stonecutting
+minecraft:granite_wall,1000.0000,block:minecraft:granite:100.0000,recipe minecraft:granite_wall_from_granite_stonecutting
+minecraft:gray_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:gray_dye:4.3455,recipe minecraft:gray_banner
+minecraft:gray_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:gray_dye:0.3771,recipe minecraft:dye_gray_bed
+minecraft:gray_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:gray_dye:2.7012,recipe minecraft:gray_candle
+minecraft:gray_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:gray_dye:0.0914,recipe same as minecraft:cake + minecraft:gray_candle
+minecraft:gray_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:gray_dye:5.8794,recipe minecraft:gray_carpet
+minecraft:gray_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:gray_dye:0.0434,recipe same as minecraft:gray_concrete_powder
+minecraft:gray_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:gray_dye:0.0434,recipe minecraft:gray_concrete_powder
+minecraft:gray_glazed_terracotta,1000.0000,block:minecraft:gray_terracotta:100.0000,recipe minecraft:gray_glazed_terracotta
+minecraft:gray_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:gray_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:gray_dye
+minecraft:gray_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:gray_dye:0.0434,recipe minecraft:gray_stained_glass
+minecraft:gray_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:gray_dye:0.0434,recipe minecraft:gray_stained_glass_pane
+minecraft:gray_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:gray_dye:4.3455,recipe same as minecraft:gray_banner
+minecraft:gray_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:gray_dye:5.8794,recipe minecraft:dye_gray_wool
+minecraft:green_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:green_dye:4.3455,recipe minecraft:green_banner
+minecraft:green_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:green_dye:0.3771,recipe minecraft:dye_green_bed
+minecraft:green_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:green_dye:2.7012,recipe minecraft:green_candle
+minecraft:green_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:green_dye:0.0914,recipe same as minecraft:cake + minecraft:green_candle
+minecraft:green_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:green_dye:5.8794,recipe minecraft:green_carpet
+minecraft:green_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:green_dye:0.0434,recipe same as minecraft:green_concrete_powder
+minecraft:green_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:green_dye:0.0434,recipe minecraft:green_concrete_powder
+minecraft:green_glazed_terracotta,1000.0000,block:minecraft:green_terracotta:100.0000,recipe minecraft:green_glazed_terracotta
+minecraft:green_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:green_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:green_dye
+minecraft:green_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:green_dye:0.0434,recipe minecraft:green_stained_glass
+minecraft:green_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:green_dye:0.0434,recipe minecraft:green_stained_glass_pane
+minecraft:green_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:green_dye:4.3455,recipe same as minecraft:green_banner
+minecraft:green_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:green_dye:5.8794,recipe minecraft:dye_green_wool
+minecraft:grindstone,1250.0000,block:minecraft:oak_log:60.0000;block:minecraft:stone:40.0000,recipe minecraft:grindstone
+minecraft:heavy_weighted_pressure_plate,222.2000,block:minecraft:iron_ingot:100.0000,recipe minecraft:heavy_weighted_pressure_plate
+minecraft:honeycomb_block,444.4000,block:minecraft:honeycomb:100.0000,recipe minecraft:honeycomb_block
+minecraft:hopper,2555.5000,block:minecraft:oak_log:78.2626;block:minecraft:iron_ingot:21.7374,recipe minecraft:hopper
+minecraft:horn_coral_wall_fan,111.1000,block:minecraft:horn_coral_fan:100.0000,recipe same as minecraft:horn_coral_fan
+minecraft:infested_chiseled_stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe same as minecraft:chiseled_stone_bricks
+minecraft:infested_cobblestone,1000.0000,block:minecraft:cobblestone:100.0000,recipe same as minecraft:cobblestone
+minecraft:infested_cracked_stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe same as minecraft:cracked_stone_bricks
+minecraft:infested_deepslate,1000.0000,block:minecraft:deepslate:100.0000,recipe same as minecraft:deepslate
+minecraft:infested_mossy_stone_bricks,1111.1000,block:minecraft:stone:90.0009;block:minecraft:vine:9.9991,recipe same as minecraft:mossy_stone_bricks
+minecraft:infested_stone,1000.0000,block:minecraft:stone:100.0000,recipe same as minecraft:stone
+minecraft:infested_stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe same as minecraft:stone_bricks
+minecraft:iron_bars,41.6625,block:minecraft:iron_ingot:100.0000,recipe minecraft:iron_bars
+minecraft:iron_door,222.2000,block:minecraft:iron_ingot:100.0000,recipe minecraft:iron_door
+minecraft:iron_trapdoor,444.4000,block:minecraft:iron_ingot:100.0000,recipe minecraft:iron_trapdoor
+minecraft:item_frame,173.6111,block:minecraft:oak_log:90.0009;block:minecraft:leather:9.9991,recipe periodic_elements:pla_item_frame (amount); makeup of the vanilla recipe
+minecraft:jack_o_lantern,1059.0250,block:minecraft:pumpkin:94.4265;block:minecraft:oak_log:2.9508;block:minecraft:coal:2.6227,recipe minecraft:jack_o_lantern
+minecraft:jukebox,2111.1000,block:minecraft:oak_log:94.7373;block:minecraft:diamond:5.2627,recipe minecraft:jukebox
+minecraft:jungle_button,250.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_button
+minecraft:jungle_door,500.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_door
+minecraft:jungle_fence,416.6667,block:minecraft:jungle_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:jungle_fence
+minecraft:jungle_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:jungle_log:50.0000,recipe minecraft:jungle_fence_gate
+minecraft:jungle_hanging_sign,1045.2667,block:minecraft:jungle_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:jungle_hanging_sign
+minecraft:jungle_planks,250.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_planks
+minecraft:jungle_pressure_plate,500.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_pressure_plate
+minecraft:jungle_sign,541.6667,block:minecraft:jungle_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:jungle_sign
+minecraft:jungle_slab,125.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_slab
+minecraft:jungle_stairs,375.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_stairs
+minecraft:jungle_trapdoor,750.0000,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_trapdoor
+minecraft:jungle_wall_hanging_sign,1045.2667,block:minecraft:jungle_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:jungle_hanging_sign
+minecraft:jungle_wall_sign,541.6667,block:minecraft:jungle_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:jungle_sign
+minecraft:jungle_wood,1333.3333,block:minecraft:jungle_log:100.0000,recipe minecraft:jungle_wood
+minecraft:kelp_plant,111.1000,block:minecraft:kelp:100.0000,recipe same as minecraft:kelp
+minecraft:ladder,291.6667,block:minecraft:oak_log:100.0000,recipe minecraft:ladder
+minecraft:lantern,157.8250,block:minecraft:iron_nugget:62.6010;block:minecraft:oak_log:19.8004;block:minecraft:coal:17.5986,recipe minecraft:lantern
+minecraft:lava,1000.0000,block:minecraft:lava_bucket:100.0000,recipe same as minecraft:lava_bucket
+minecraft:lava_cauldron,1777.7000,block:minecraft:lava_bucket:56.2525;block:minecraft:iron_ingot:43.7475,recipe same as minecraft:cauldron + minecraft:lava_bucket
+minecraft:lectern,11333.3000,block:minecraft:sugar_cane:79.4120;block:minecraft:oak_log:17.6471;block:minecraft:leather:2.9409,recipe minecraft:lectern
+minecraft:lever,1125.0000,block:minecraft:cobblestone:88.8889;block:minecraft:oak_log:11.1111,recipe minecraft:lever
+minecraft:light_blue_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:light_blue_dye:4.3455,recipe minecraft:light_blue_banner
+minecraft:light_blue_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:light_blue_dye:0.3771,recipe minecraft:dye_light_blue_bed
+minecraft:light_blue_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:light_blue_dye:2.7012,recipe minecraft:light_blue_candle
+minecraft:light_blue_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:light_blue_dye:0.0914,recipe same as minecraft:cake + minecraft:light_blue_candle
+minecraft:light_blue_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:light_blue_dye:5.8794,recipe minecraft:light_blue_carpet
+minecraft:light_blue_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:light_blue_dye:0.0434,recipe same as minecraft:light_blue_concrete_powder
+minecraft:light_blue_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:light_blue_dye:0.0434,recipe minecraft:light_blue_concrete_powder
+minecraft:light_blue_glazed_terracotta,1000.0000,block:minecraft:light_blue_terracotta:100.0000,recipe minecraft:light_blue_glazed_terracotta
+minecraft:light_blue_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:light_blue_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:light_blue_dye
+minecraft:light_blue_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:light_blue_dye:0.0434,recipe minecraft:light_blue_stained_glass
+minecraft:light_blue_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:light_blue_dye:0.0434,recipe minecraft:light_blue_stained_glass_pane
+minecraft:light_blue_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:light_blue_dye:4.3455,recipe same as minecraft:light_blue_banner
+minecraft:light_blue_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:light_blue_dye:5.8794,recipe minecraft:dye_light_blue_wool
+minecraft:light_gray_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:light_gray_dye:4.3455,recipe minecraft:light_gray_banner
+minecraft:light_gray_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:light_gray_dye:0.3771,recipe minecraft:dye_light_gray_bed
+minecraft:light_gray_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:light_gray_dye:2.7012,recipe minecraft:light_gray_candle
+minecraft:light_gray_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:light_gray_dye:0.0914,recipe same as minecraft:cake + minecraft:light_gray_candle
+minecraft:light_gray_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:light_gray_dye:5.8794,recipe minecraft:light_gray_carpet
+minecraft:light_gray_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:light_gray_dye:0.0434,recipe same as minecraft:light_gray_concrete_powder
+minecraft:light_gray_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:light_gray_dye:0.0434,recipe minecraft:light_gray_concrete_powder
+minecraft:light_gray_glazed_terracotta,1000.0000,block:minecraft:light_gray_terracotta:100.0000,recipe minecraft:light_gray_glazed_terracotta
+minecraft:light_gray_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:light_gray_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:light_gray_dye
+minecraft:light_gray_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:light_gray_dye:0.0434,recipe minecraft:light_gray_stained_glass
+minecraft:light_gray_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:light_gray_dye:0.0434,recipe minecraft:light_gray_stained_glass_pane
+minecraft:light_gray_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:light_gray_dye:4.3455,recipe same as minecraft:light_gray_banner
+minecraft:light_gray_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:light_gray_dye:5.8794,recipe minecraft:dye_light_gray_wool
+minecraft:light_weighted_pressure_plate,222.2000,block:minecraft:gold_ingot:100.0000,recipe minecraft:light_weighted_pressure_plate
+minecraft:lightning_rod,333.3000,block:minecraft:copper_ingot:100.0000,recipe minecraft:lightning_rod
+minecraft:lime_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:lime_dye:4.3455,recipe minecraft:lime_banner
+minecraft:lime_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:lime_dye:0.3771,recipe minecraft:dye_lime_bed
+minecraft:lime_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:lime_dye:2.7012,recipe minecraft:lime_candle
+minecraft:lime_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:lime_dye:0.0914,recipe same as minecraft:cake + minecraft:lime_candle
+minecraft:lime_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:lime_dye:5.8794,recipe minecraft:lime_carpet
+minecraft:lime_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:lime_dye:0.0434,recipe same as minecraft:lime_concrete_powder
+minecraft:lime_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:lime_dye:0.0434,recipe minecraft:lime_concrete_powder
+minecraft:lime_glazed_terracotta,1000.0000,block:minecraft:lime_terracotta:100.0000,recipe minecraft:lime_glazed_terracotta
+minecraft:lime_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:lime_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:lime_dye
+minecraft:lime_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:lime_dye:0.0434,recipe minecraft:lime_stained_glass
+minecraft:lime_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:lime_dye:0.0434,recipe minecraft:lime_stained_glass_pane
+minecraft:lime_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:lime_dye:4.3455,recipe same as minecraft:lime_banner
+minecraft:lime_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:lime_dye:5.8794,recipe minecraft:dye_lime_wool
+minecraft:lodestone,8888.8000,block:minecraft:stone:90.0009;block:minecraft:netherite_scrap:4.9995;block:minecraft:gold_ingot:4.9995,recipe minecraft:lodestone
+minecraft:loom,527.7800,block:minecraft:oak_log:94.7364;block:minecraft:string:5.2636,recipe minecraft:loom
+minecraft:magenta_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:magenta_dye:4.3455,recipe minecraft:magenta_banner
+minecraft:magenta_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:magenta_dye:0.3771,recipe minecraft:dye_magenta_bed
+minecraft:magenta_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:magenta_dye:2.7012,recipe minecraft:magenta_candle
+minecraft:magenta_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:magenta_dye:0.0914,recipe same as minecraft:cake + minecraft:magenta_candle
+minecraft:magenta_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:magenta_dye:5.8794,recipe minecraft:magenta_carpet
+minecraft:magenta_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:magenta_dye:0.0434,recipe same as minecraft:magenta_concrete_powder
+minecraft:magenta_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:magenta_dye:0.0434,recipe minecraft:magenta_concrete_powder
+minecraft:magenta_glazed_terracotta,1000.0000,block:minecraft:magenta_terracotta:100.0000,recipe minecraft:magenta_glazed_terracotta
+minecraft:magenta_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:magenta_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:magenta_dye
+minecraft:magenta_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:magenta_dye:0.0434,recipe minecraft:magenta_stained_glass
+minecraft:magenta_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:magenta_dye:0.0434,recipe minecraft:magenta_stained_glass_pane
+minecraft:magenta_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:magenta_dye:4.3455,recipe same as minecraft:magenta_banner
+minecraft:magenta_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:magenta_dye:5.8794,recipe minecraft:dye_magenta_wool
+minecraft:mangrove_button,250.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_button
+minecraft:mangrove_door,500.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_door
+minecraft:mangrove_fence,416.6667,block:minecraft:mangrove_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:mangrove_fence
+minecraft:mangrove_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:mangrove_log:50.0000,recipe minecraft:mangrove_fence_gate
+minecraft:mangrove_hanging_sign,1045.2667,block:minecraft:mangrove_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:mangrove_hanging_sign
+minecraft:mangrove_planks,250.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_planks
+minecraft:mangrove_pressure_plate,500.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_pressure_plate
+minecraft:mangrove_sign,541.6667,block:minecraft:mangrove_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:mangrove_sign
+minecraft:mangrove_slab,125.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_slab
+minecraft:mangrove_stairs,375.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_stairs
+minecraft:mangrove_trapdoor,750.0000,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_trapdoor
+minecraft:mangrove_wall_hanging_sign,1045.2667,block:minecraft:mangrove_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:mangrove_hanging_sign
+minecraft:mangrove_wall_sign,541.6667,block:minecraft:mangrove_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:mangrove_sign
+minecraft:mangrove_wood,1333.3333,block:minecraft:mangrove_log:100.0000,recipe minecraft:mangrove_wood
+minecraft:moss_carpet,666.6667,block:minecraft:moss_block:100.0000,recipe minecraft:moss_carpet
+minecraft:mossy_cobblestone,1111.1000,block:minecraft:cobblestone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_cobblestone_from_vine
+minecraft:mossy_cobblestone_slab,555.5500,block:minecraft:cobblestone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting
+minecraft:mossy_cobblestone_stairs,1111.1000,block:minecraft:cobblestone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting
+minecraft:mossy_cobblestone_wall,1111.1000,block:minecraft:cobblestone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting
+minecraft:mossy_stone_brick_slab,555.5500,block:minecraft:stone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting
+minecraft:mossy_stone_brick_stairs,1111.1000,block:minecraft:stone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting
+minecraft:mossy_stone_brick_wall,1111.1000,block:minecraft:stone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting
+minecraft:mossy_stone_bricks,1111.1000,block:minecraft:stone:90.0009;block:minecraft:vine:9.9991,recipe minecraft:mossy_stone_bricks_from_vine
+minecraft:mud_brick_slab,555.5500,block:minecraft:mud:90.0009;block:minecraft:wheat:9.9991,recipe minecraft:mud_brick_slab_from_mud_bricks_stonecutting
+minecraft:mud_brick_stairs,1111.1000,block:minecraft:mud:90.0009;block:minecraft:wheat:9.9991,recipe minecraft:mud_brick_stairs_from_mud_bricks_stonecutting
+minecraft:mud_brick_wall,1111.1000,block:minecraft:mud:90.0009;block:minecraft:wheat:9.9991,recipe minecraft:mud_brick_wall_from_mud_bricks_stonecutting
+minecraft:mud_bricks,1111.1000,block:minecraft:mud:90.0009;block:minecraft:wheat:9.9991,recipe minecraft:mud_bricks
+minecraft:muddy_mangrove_roots,2000.0000,block:minecraft:mud:50.0000;block:minecraft:mangrove_roots:50.0000,recipe minecraft:muddy_mangrove_roots
+minecraft:nether_brick_fence,3000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:nether_brick_fence
+minecraft:nether_brick_slab,2000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:nether_brick_slab_from_nether_bricks_stonecutting
+minecraft:nether_brick_stairs,4000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:nether_brick_stairs_from_nether_bricks_stonecutting
+minecraft:nether_brick_wall,4000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:nether_brick_wall_from_nether_bricks_stonecutting
+minecraft:nether_bricks,4000.0000,block:minecraft:netherrack:100.0000,recipe minecraft:nether_bricks
+minecraft:netherite_block,7999.2000,block:minecraft:netherite_scrap:50.0000;block:minecraft:gold_ingot:50.0000,recipe minecraft:netherite_block
+minecraft:note_block,2111.1000,block:minecraft:oak_log:94.7373;block:minecraft:redstone:5.2627,recipe minecraft:note_block
+minecraft:oak_button,250.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_button
+minecraft:oak_door,500.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_door
+minecraft:oak_fence,416.6667,block:minecraft:oak_log:100.0000,recipe minecraft:oak_fence
+minecraft:oak_fence_gate,1000.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_fence_gate
+minecraft:oak_hanging_sign,1045.2667,block:minecraft:oak_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:oak_hanging_sign
+minecraft:oak_planks,250.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_planks
+minecraft:oak_pressure_plate,500.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_pressure_plate
+minecraft:oak_sign,541.6667,block:minecraft:oak_log:100.0000,recipe minecraft:oak_sign
+minecraft:oak_slab,125.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_slab
+minecraft:oak_stairs,375.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_stairs
+minecraft:oak_trapdoor,750.0000,block:minecraft:oak_log:100.0000,recipe minecraft:oak_trapdoor
+minecraft:oak_wall_hanging_sign,1045.2667,block:minecraft:oak_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:oak_hanging_sign
+minecraft:oak_wall_sign,541.6667,block:minecraft:oak_log:100.0000,recipe same as minecraft:oak_sign
+minecraft:oak_wood,1333.3333,block:minecraft:oak_log:100.0000,recipe minecraft:oak_wood
+minecraft:observer,6333.3000,block:minecraft:cobblestone:94.7373;block:minecraft:redstone:3.5084;block:minecraft:quartz:1.7542,recipe minecraft:observer
+minecraft:orange_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:orange_dye:4.3455,recipe minecraft:orange_banner
+minecraft:orange_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:orange_dye:0.3771,recipe minecraft:dye_orange_bed
+minecraft:orange_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:orange_dye:2.7012,recipe minecraft:orange_candle
+minecraft:orange_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:orange_dye:0.0914,recipe same as minecraft:cake + minecraft:orange_candle
+minecraft:orange_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:orange_dye:5.8794,recipe minecraft:orange_carpet
+minecraft:orange_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:orange_dye:0.0434,recipe same as minecraft:orange_concrete_powder
+minecraft:orange_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:orange_dye:0.0434,recipe minecraft:orange_concrete_powder
+minecraft:orange_glazed_terracotta,1000.0000,block:minecraft:orange_terracotta:100.0000,recipe minecraft:orange_glazed_terracotta
+minecraft:orange_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:orange_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:orange_dye
+minecraft:orange_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:orange_dye:0.0434,recipe minecraft:orange_stained_glass
+minecraft:orange_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:orange_dye:0.0434,recipe minecraft:orange_stained_glass_pane
+minecraft:orange_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:orange_dye:4.3455,recipe same as minecraft:orange_banner
+minecraft:orange_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:orange_dye:5.8794,recipe minecraft:dye_orange_wool
+minecraft:oxidized_chiseled_copper,250.0000,block:minecraft:oxidized_copper:100.0000,recipe minecraft:oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting
+minecraft:oxidized_copper_bulb,805.5500,block:minecraft:oxidized_copper:93.1041;block:minecraft:blaze_rod:3.4480;block:minecraft:redstone:3.4480,recipe minecraft:oxidized_copper_bulb
+minecraft:oxidized_copper_door,222.2000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_door
+minecraft:oxidized_copper_grate,250.0000,block:minecraft:oxidized_copper:100.0000,recipe minecraft:oxidized_copper_grate_from_oxidized_copper_stonecutting
+minecraft:oxidized_copper_trapdoor,333.3000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_trapdoor
+minecraft:oxidized_cut_copper,250.0000,block:minecraft:oxidized_copper:100.0000,recipe minecraft:oxidized_cut_copper_from_oxidized_copper_stonecutting
+minecraft:oxidized_cut_copper_slab,125.0000,block:minecraft:oxidized_copper:100.0000,recipe minecraft:oxidized_cut_copper_slab_from_oxidized_copper_stonecutting
+minecraft:oxidized_cut_copper_stairs,250.0000,block:minecraft:oxidized_copper:100.0000,recipe minecraft:oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting
+minecraft:packed_mud,1111.1000,block:minecraft:mud:90.0009;block:minecraft:wheat:9.9991,recipe minecraft:packed_mud
+minecraft:petrified_oak_slab,125.0000,block:minecraft:oak_log:100.0000,recipe same as minecraft:oak_slab
+minecraft:piglin_wall_head,333.3000,block:minecraft:piglin_head:100.0000,recipe same as minecraft:piglin_head
+minecraft:pink_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:pink_dye:4.3455,recipe minecraft:pink_banner
+minecraft:pink_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:pink_dye:0.3771,recipe minecraft:dye_pink_bed
+minecraft:pink_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:pink_dye:2.7012,recipe minecraft:pink_candle
+minecraft:pink_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:pink_dye:0.0914,recipe same as minecraft:cake + minecraft:pink_candle
+minecraft:pink_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:pink_dye:5.8794,recipe minecraft:pink_carpet
+minecraft:pink_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:pink_dye:0.0434,recipe same as minecraft:pink_concrete_powder
+minecraft:pink_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:pink_dye:0.0434,recipe minecraft:pink_concrete_powder
+minecraft:pink_glazed_terracotta,1000.0000,block:minecraft:pink_terracotta:100.0000,recipe minecraft:pink_glazed_terracotta
+minecraft:pink_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:pink_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:pink_dye
+minecraft:pink_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:pink_dye:0.0434,recipe minecraft:pink_stained_glass
+minecraft:pink_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:pink_dye:0.0434,recipe minecraft:pink_stained_glass_pane
+minecraft:pink_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:pink_dye:4.3455,recipe same as minecraft:pink_banner
+minecraft:pink_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:pink_dye:5.8794,recipe minecraft:dye_pink_wool
+minecraft:piston,4972.2000,block:minecraft:cobblestone:80.4473;block:minecraft:oak_log:15.0839;block:minecraft:iron_ingot:2.2344;block:minecraft:redstone:2.2344,recipe minecraft:piston
+minecraft:player_wall_head,333.3000,block:minecraft:player_head:100.0000,recipe same as minecraft:player_head
+minecraft:polished_andesite,1000.0000,block:minecraft:andesite:100.0000,recipe minecraft:polished_andesite_from_andesite_stonecutting
+minecraft:polished_andesite_slab,500.0000,block:minecraft:andesite:100.0000,recipe minecraft:polished_andesite_slab_from_andesite_stonecutting
+minecraft:polished_andesite_stairs,1000.0000,block:minecraft:andesite:100.0000,recipe minecraft:polished_andesite_stairs_from_andesite_stonecutting
+minecraft:polished_basalt,1000.0000,block:minecraft:basalt:100.0000,recipe minecraft:polished_basalt_from_basalt_stonecutting
+minecraft:polished_blackstone,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_from_blackstone_stonecutting
+minecraft:polished_blackstone_brick_slab,500.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_brick_slab_from_polished_blackstone_stonecutting
+minecraft:polished_blackstone_brick_stairs,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting
+minecraft:polished_blackstone_brick_wall,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting
+minecraft:polished_blackstone_bricks,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_bricks_from_polished_blackstone_stonecutting
+minecraft:polished_blackstone_button,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_button
+minecraft:polished_blackstone_pressure_plate,2000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_pressure_plate
+minecraft:polished_blackstone_slab,500.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_slab_from_blackstone_stonecutting
+minecraft:polished_blackstone_stairs,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_stairs_from_blackstone_stonecutting
+minecraft:polished_blackstone_wall,1000.0000,block:minecraft:blackstone:100.0000,recipe minecraft:polished_blackstone_wall_from_blackstone_stonecutting
+minecraft:polished_deepslate,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting
+minecraft:polished_deepslate_slab,500.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting
+minecraft:polished_deepslate_stairs,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting
+minecraft:polished_deepslate_wall,1000.0000,block:minecraft:cobbled_deepslate:100.0000,recipe minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecutting
+minecraft:polished_diorite,1000.0000,block:minecraft:diorite:100.0000,recipe minecraft:polished_diorite_from_diorite_stonecutting
+minecraft:polished_diorite_slab,500.0000,block:minecraft:diorite:100.0000,recipe minecraft:polished_diorite_slab_from_diorite_stonecutting
+minecraft:polished_diorite_stairs,1000.0000,block:minecraft:diorite:100.0000,recipe minecraft:polished_diorite_stairs_from_diorite_stonecutting
+minecraft:polished_granite,1000.0000,block:minecraft:granite:100.0000,recipe minecraft:polished_granite_from_granite_stonecutting
+minecraft:polished_granite_slab,500.0000,block:minecraft:granite:100.0000,recipe minecraft:polished_granite_slab_from_granite_stonecutting
+minecraft:polished_granite_stairs,1000.0000,block:minecraft:granite:100.0000,recipe minecraft:polished_granite_stairs_from_granite_stonecutting
+minecraft:polished_tuff,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:polished_tuff_from_tuff_stonecutting
+minecraft:polished_tuff_slab,500.0000,block:minecraft:tuff:100.0000,recipe minecraft:polished_tuff_slab_from_tuff_stonecutting
+minecraft:polished_tuff_stairs,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:polished_tuff_stairs_from_tuff_stonecutting
+minecraft:polished_tuff_wall,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:polished_tuff_wall_from_tuff_stonecutting
+minecraft:potted_acacia_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:acacia_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:acacia_sapling
+minecraft:potted_allium,222.2111,block:minecraft:brick:50.0025;block:minecraft:allium:49.9975,recipe same as minecraft:flower_pot + minecraft:allium
+minecraft:potted_azalea_bush,555.5111,block:minecraft:azalea:79.9984;block:minecraft:brick:20.0016,recipe same as minecraft:flower_pot + minecraft:azalea
+minecraft:potted_azure_bluet,222.2111,block:minecraft:brick:50.0025;block:minecraft:azure_bluet:49.9975,recipe same as minecraft:flower_pot + minecraft:azure_bluet
+minecraft:potted_bamboo,222.2111,block:minecraft:brick:50.0025;block:minecraft:bamboo:49.9975,recipe same as minecraft:flower_pot + minecraft:bamboo
+minecraft:potted_birch_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:birch_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:birch_sapling
+minecraft:potted_blue_orchid,222.2111,block:minecraft:brick:50.0025;block:minecraft:blue_orchid:49.9975,recipe same as minecraft:flower_pot + minecraft:blue_orchid
+minecraft:potted_brown_mushroom,222.2111,block:minecraft:brick:50.0025;block:minecraft:brown_mushroom:49.9975,recipe same as minecraft:flower_pot + minecraft:brown_mushroom
+minecraft:potted_cactus,1111.1111,block:minecraft:cactus:90.0000;block:minecraft:brick:10.0000,recipe same as minecraft:flower_pot + minecraft:cactus
+minecraft:potted_cherry_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:cherry_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:cherry_sapling
+minecraft:potted_cornflower,222.2111,block:minecraft:brick:50.0025;block:minecraft:cornflower:49.9975,recipe same as minecraft:flower_pot + minecraft:cornflower
+minecraft:potted_crimson_fungus,222.2111,block:minecraft:brick:50.0025;block:minecraft:crimson_fungus:49.9975,recipe same as minecraft:flower_pot + minecraft:crimson_fungus
+minecraft:potted_crimson_roots,222.2111,block:minecraft:brick:50.0025;block:minecraft:crimson_roots:49.9975,recipe same as minecraft:flower_pot + minecraft:crimson_roots
+minecraft:potted_dandelion,222.2111,block:minecraft:brick:50.0025;block:minecraft:dandelion:49.9975,recipe same as minecraft:flower_pot + minecraft:dandelion
+minecraft:potted_dark_oak_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:dark_oak_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:dark_oak_sapling
+minecraft:potted_dead_bush,222.2111,block:minecraft:brick:50.0025;block:minecraft:dead_bush:49.9975,recipe same as minecraft:flower_pot + minecraft:dead_bush
+minecraft:potted_fern,222.2111,block:minecraft:brick:50.0025;block:minecraft:fern:49.9975,recipe same as minecraft:flower_pot + minecraft:fern
+minecraft:potted_flowering_azalea_bush,555.5111,block:minecraft:flowering_azalea:79.9984;block:minecraft:brick:20.0016,recipe same as minecraft:flower_pot + minecraft:flowering_azalea
+minecraft:potted_jungle_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:jungle_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:jungle_sapling
+minecraft:potted_lily_of_the_valley,222.2111,block:minecraft:brick:50.0025;block:minecraft:lily_of_the_valley:49.9975,recipe same as minecraft:flower_pot + minecraft:lily_of_the_valley
+minecraft:potted_mangrove_propagule,222.2111,block:minecraft:brick:50.0025;block:minecraft:mangrove_propagule:49.9975,recipe same as minecraft:flower_pot + minecraft:mangrove_propagule
+minecraft:potted_oak_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:oak_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:oak_sapling
+minecraft:potted_orange_tulip,222.2111,block:minecraft:brick:50.0025;block:minecraft:orange_tulip:49.9975,recipe same as minecraft:flower_pot + minecraft:orange_tulip
+minecraft:potted_oxeye_daisy,222.2111,block:minecraft:brick:50.0025;block:minecraft:oxeye_daisy:49.9975,recipe same as minecraft:flower_pot + minecraft:oxeye_daisy
+minecraft:potted_pink_tulip,222.2111,block:minecraft:brick:50.0025;block:minecraft:pink_tulip:49.9975,recipe same as minecraft:flower_pot + minecraft:pink_tulip
+minecraft:potted_poppy,222.2111,block:minecraft:brick:50.0025;block:minecraft:poppy:49.9975,recipe same as minecraft:flower_pot + minecraft:poppy
+minecraft:potted_red_mushroom,222.2111,block:minecraft:brick:50.0025;block:minecraft:red_mushroom:49.9975,recipe same as minecraft:flower_pot + minecraft:red_mushroom
+minecraft:potted_red_tulip,222.2111,block:minecraft:brick:50.0025;block:minecraft:red_tulip:49.9975,recipe same as minecraft:flower_pot + minecraft:red_tulip
+minecraft:potted_spruce_sapling,222.2111,block:minecraft:brick:50.0025;block:minecraft:spruce_sapling:49.9975,recipe same as minecraft:flower_pot + minecraft:spruce_sapling
+minecraft:potted_torchflower,222.2111,block:minecraft:brick:50.0025;block:minecraft:torchflower:49.9975,recipe same as minecraft:flower_pot + minecraft:torchflower
+minecraft:potted_warped_fungus,222.2111,block:minecraft:brick:50.0025;block:minecraft:warped_fungus:49.9975,recipe same as minecraft:flower_pot + minecraft:warped_fungus
+minecraft:potted_warped_roots,222.2111,block:minecraft:brick:50.0025;block:minecraft:warped_roots:49.9975,recipe same as minecraft:flower_pot + minecraft:warped_roots
+minecraft:potted_white_tulip,222.2111,block:minecraft:brick:50.0025;block:minecraft:white_tulip:49.9975,recipe same as minecraft:flower_pot + minecraft:white_tulip
+minecraft:potted_wither_rose,222.2111,block:minecraft:brick:50.0025;block:minecraft:wither_rose:49.9975,recipe same as minecraft:flower_pot + minecraft:wither_rose
+minecraft:powder_snow,1000.0000,block:minecraft:snow_block:100.0000,recipe same as minecraft:snow_block
+minecraft:powder_snow_cauldron,1777.7000,block:minecraft:snow_block:56.2525;block:minecraft:iron_ingot:43.7475,recipe same as minecraft:cauldron + minecraft:snow_block
+minecraft:powered_rail,150.4500,block:minecraft:gold_ingot:73.8451;block:minecraft:oak_log:13.8473;block:minecraft:redstone:12.3075,recipe minecraft:powered_rail
+minecraft:prismarine,444.4000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine
+minecraft:prismarine_brick_slab,499.9500,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_brick_slab_from_prismarine_stonecutting
+minecraft:prismarine_brick_stairs,999.9000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_brick_stairs_from_prismarine_stonecutting
+minecraft:prismarine_bricks,999.9000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_bricks
+minecraft:prismarine_slab,222.2000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_slab_from_prismarine_stonecutting
+minecraft:prismarine_stairs,444.4000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_stairs_from_prismarine_stonecutting
+minecraft:prismarine_wall,444.4000,block:minecraft:prismarine_shard:100.0000,recipe minecraft:prismarine_wall_from_prismarine_stonecutting
+minecraft:purple_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:purple_dye:4.3455,recipe minecraft:purple_banner
+minecraft:purple_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:purple_dye:0.3771,recipe minecraft:dye_purple_bed
+minecraft:purple_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:purple_dye:2.7012,recipe minecraft:purple_candle
+minecraft:purple_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:purple_dye:0.0914,recipe same as minecraft:cake + minecraft:purple_candle
+minecraft:purple_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:purple_dye:5.8794,recipe minecraft:purple_carpet
+minecraft:purple_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:purple_dye:0.0434,recipe same as minecraft:purple_concrete_powder
+minecraft:purple_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:purple_dye:0.0434,recipe minecraft:purple_concrete_powder
+minecraft:purple_glazed_terracotta,1000.0000,block:minecraft:purple_terracotta:100.0000,recipe minecraft:purple_glazed_terracotta
+minecraft:purple_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:purple_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:purple_dye
+minecraft:purple_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:purple_dye:0.0434,recipe minecraft:purple_stained_glass
+minecraft:purple_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:purple_dye:0.0434,recipe minecraft:purple_stained_glass_pane
+minecraft:purple_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:purple_dye:4.3455,recipe same as minecraft:purple_banner
+minecraft:purple_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:purple_dye:5.8794,recipe minecraft:dye_purple_wool
+minecraft:purpur_block,111.1000,block:minecraft:popped_chorus_fruit:100.0000,recipe minecraft:purpur_block
+minecraft:purpur_pillar,111.1000,block:minecraft:popped_chorus_fruit:100.0000,recipe minecraft:purpur_pillar_from_purpur_block_stonecutting
+minecraft:purpur_slab,55.5500,block:minecraft:popped_chorus_fruit:100.0000,recipe minecraft:purpur_slab_from_purpur_block_stonecutting
+minecraft:purpur_stairs,111.1000,block:minecraft:popped_chorus_fruit:100.0000,recipe minecraft:purpur_stairs_from_purpur_block_stonecutting
+minecraft:quartz_bricks,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:quartz_bricks_from_quartz_block_stonecutting
+minecraft:quartz_pillar,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:quartz_pillar_from_quartz_block_stonecutting
+minecraft:quartz_slab,222.2000,block:minecraft:quartz_block:100.0000,recipe minecraft:quartz_slab_from_stonecutting
+minecraft:quartz_stairs,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:quartz_stairs_from_quartz_block_stonecutting
+minecraft:rail,49.4750,block:minecraft:iron_ingot:84.2092;block:minecraft:oak_log:15.7908,recipe minecraft:rail
+minecraft:red_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:red_dye:4.3455,recipe minecraft:red_banner
+minecraft:red_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:red_dye:0.3771,recipe minecraft:dye_red_bed
+minecraft:red_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:red_dye:2.7012,recipe minecraft:red_candle
+minecraft:red_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:red_dye:0.0914,recipe same as minecraft:cake + minecraft:red_candle
+minecraft:red_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:red_dye:5.8794,recipe minecraft:red_carpet
+minecraft:red_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:red_dye:0.0434,recipe same as minecraft:red_concrete_powder
+minecraft:red_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:red_dye:0.0434,recipe minecraft:red_concrete_powder
+minecraft:red_glazed_terracotta,1000.0000,block:minecraft:red_terracotta:100.0000,recipe minecraft:red_glazed_terracotta
+minecraft:red_nether_brick_slab,1111.1000,block:minecraft:netherrack:90.0009;block:minecraft:nether_wart:9.9991,recipe minecraft:red_nether_brick_slab_from_red_nether_bricks_stonecutting
+minecraft:red_nether_brick_stairs,2222.2000,block:minecraft:netherrack:90.0009;block:minecraft:nether_wart:9.9991,recipe minecraft:red_nether_brick_stairs_from_red_nether_bricks_stonecutting
+minecraft:red_nether_brick_wall,2222.2000,block:minecraft:netherrack:90.0009;block:minecraft:nether_wart:9.9991,recipe minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting
+minecraft:red_nether_bricks,2222.2000,block:minecraft:netherrack:90.0009;block:minecraft:nether_wart:9.9991,recipe minecraft:red_nether_bricks
+minecraft:red_sandstone_slab,500.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:red_sandstone_slab_from_red_sandstone_stonecutting
+minecraft:red_sandstone_stairs,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:red_sandstone_stairs_from_red_sandstone_stonecutting
+minecraft:red_sandstone_wall,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:red_sandstone_wall_from_red_sandstone_stonecutting
+minecraft:red_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:red_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:red_dye
+minecraft:red_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:red_dye:0.0434,recipe minecraft:red_stained_glass
+minecraft:red_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:red_dye:0.0434,recipe minecraft:red_stained_glass_pane
+minecraft:red_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:red_dye:4.3455,recipe same as minecraft:red_banner
+minecraft:red_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:red_dye:5.8794,recipe minecraft:dye_red_wool
+minecraft:redstone_lamp,1444.4000,block:minecraft:glowstone:69.2329;block:minecraft:redstone:30.7671,recipe minecraft:redstone_lamp
+minecraft:redstone_torch,236.1000,block:minecraft:oak_log:52.9437;block:minecraft:redstone:47.0563,recipe minecraft:redstone_torch
+minecraft:redstone_wall_torch,236.1000,block:minecraft:oak_log:52.9437;block:minecraft:redstone:47.0563,recipe same as minecraft:redstone_torch
+minecraft:redstone_wire,111.1000,block:minecraft:redstone:100.0000,recipe same as minecraft:redstone
+minecraft:repeater,3583.3000,block:minecraft:stone:83.7217;block:minecraft:redstone:9.3015;block:minecraft:oak_log:6.9768,recipe minecraft:repeater
+minecraft:respawn_anchor,9000.0000,block:minecraft:crying_obsidian:66.6667;block:minecraft:glowstone:33.3333,recipe minecraft:respawn_anchor
+minecraft:sandstone_slab,500.0000,block:minecraft:sandstone:100.0000,recipe minecraft:sandstone_slab_from_sandstone_stonecutting
+minecraft:sandstone_stairs,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:sandstone_stairs_from_sandstone_stonecutting
+minecraft:sandstone_wall,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:sandstone_wall_from_sandstone_stonecutting
+minecraft:scaffolding,113.4150,block:minecraft:bamboo:97.9588;block:minecraft:string:2.0412,recipe minecraft:scaffolding
+minecraft:sea_lantern,999.9000,block:minecraft:prismarine_crystals:55.5556;block:minecraft:prismarine_shard:44.4444,recipe minecraft:sea_lantern
+minecraft:shulker_box,2222.2000,block:minecraft:oak_log:90.0009;block:minecraft:shulker_shell:9.9991,recipe minecraft:shulker_box
+minecraft:skeleton_wall_skull,333.3000,block:minecraft:skeleton_skull:100.0000,recipe same as minecraft:skeleton_skull
+minecraft:slime_block,999.9000,block:minecraft:slime_ball:100.0000,recipe minecraft:slime_block
+minecraft:smithing_table,1222.2000,block:minecraft:oak_log:81.8197;block:minecraft:iron_ingot:18.1803,recipe minecraft:smithing_table
+minecraft:smoker,12000.0000,block:minecraft:cobblestone:66.6667;block:minecraft:dark_oak_log:33.3333,recipe minecraft:smoker
+minecraft:smooth_quartz,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:smooth_quartz
+minecraft:smooth_quartz_slab,222.2000,block:minecraft:quartz_block:100.0000,recipe minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting
+minecraft:smooth_quartz_stairs,444.4000,block:minecraft:quartz_block:100.0000,recipe minecraft:smooth_quartz_stairs_from_smooth_quartz_stonecutting
+minecraft:smooth_red_sandstone,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:smooth_red_sandstone
+minecraft:smooth_red_sandstone_slab,500.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting
+minecraft:smooth_red_sandstone_stairs,1000.0000,block:minecraft:red_sandstone:100.0000,recipe minecraft:smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting
+minecraft:smooth_sandstone,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:smooth_sandstone
+minecraft:smooth_sandstone_slab,500.0000,block:minecraft:sandstone:100.0000,recipe minecraft:smooth_sandstone_slab_from_smooth_sandstone_stonecutting
+minecraft:smooth_sandstone_stairs,1000.0000,block:minecraft:sandstone:100.0000,recipe minecraft:smooth_sandstone_stairs_from_smooth_sandstone_stonecutting
+minecraft:smooth_stone,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:smooth_stone
+minecraft:smooth_stone_slab,500.0000,block:minecraft:stone:100.0000,recipe minecraft:smooth_stone_slab_from_smooth_stone_stonecutting
+minecraft:snow,500.0000,block:minecraft:snow_block:100.0000,recipe minecraft:snow
+minecraft:soul_campfire,4375.0000,block:minecraft:dark_oak_log:68.5714;block:minecraft:soul_sand:22.8571;block:minecraft:oak_log:8.5714,recipe minecraft:soul_campfire
+minecraft:soul_lantern,407.8250,block:minecraft:soul_sand:61.3008;block:minecraft:iron_nugget:24.2261;block:minecraft:oak_log:7.6626;block:minecraft:coal:6.8105,recipe minecraft:soul_lantern
+minecraft:soul_torch,309.0250,block:minecraft:soul_sand:80.8996;block:minecraft:oak_log:10.1125;block:minecraft:coal:8.9879,recipe minecraft:soul_torch
+minecraft:soul_wall_torch,309.0250,block:minecraft:soul_sand:80.8996;block:minecraft:oak_log:10.1125;block:minecraft:coal:8.9879,recipe same as minecraft:soul_torch
+minecraft:spruce_button,250.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_button
+minecraft:spruce_door,500.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_door
+minecraft:spruce_fence,416.6667,block:minecraft:spruce_log:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:spruce_fence
+minecraft:spruce_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:spruce_log:50.0000,recipe minecraft:spruce_fence_gate
+minecraft:spruce_hanging_sign,1045.2667,block:minecraft:spruce_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:spruce_hanging_sign
+minecraft:spruce_planks,250.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_planks
+minecraft:spruce_pressure_plate,500.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_pressure_plate
+minecraft:spruce_sign,541.6667,block:minecraft:spruce_log:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:spruce_sign
+minecraft:spruce_slab,125.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_slab
+minecraft:spruce_stairs,375.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_stairs
+minecraft:spruce_trapdoor,750.0000,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_trapdoor
+minecraft:spruce_wall_hanging_sign,1045.2667,block:minecraft:spruce_log:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:spruce_hanging_sign
+minecraft:spruce_wall_sign,541.6667,block:minecraft:spruce_log:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:spruce_sign
+minecraft:spruce_wood,1333.3333,block:minecraft:spruce_log:100.0000,recipe minecraft:spruce_wood
+minecraft:sticky_piston,5083.3000,block:minecraft:cobblestone:78.6890;block:minecraft:oak_log:14.7542;block:minecraft:slime_ball:2.1856;block:minecraft:iron_ingot:2.1856;block:minecraft:redstone:2.1856,recipe minecraft:sticky_piston
+minecraft:stone_brick_slab,500.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_brick_slab_from_stone_stonecutting
+minecraft:stone_brick_stairs,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_brick_stairs_from_stone_stonecutting
+minecraft:stone_brick_wall,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_brick_walls_from_stone_stonecutting
+minecraft:stone_bricks,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_bricks_from_stone_stonecutting
+minecraft:stone_button,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_button
+minecraft:stone_pressure_plate,2000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_pressure_plate
+minecraft:stone_slab,500.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_slab_from_stone_stonecutting
+minecraft:stone_stairs,1000.0000,block:minecraft:stone:100.0000,recipe minecraft:stone_stairs_from_stone_stonecutting
+minecraft:stonecutter,3111.1000,block:minecraft:stone:96.4289;block:minecraft:iron_ingot:3.5711,recipe minecraft:stonecutter
+minecraft:stripped_acacia_log,1000.0000,block:minecraft:acacia_log:100.0000,recipe same as minecraft:acacia_log
+minecraft:stripped_acacia_wood,1333.3333,block:minecraft:acacia_log:100.0000,recipe same as minecraft:acacia_wood
+minecraft:stripped_bamboo_block,999.9000,block:minecraft:bamboo:100.0000,recipe same as minecraft:bamboo_block
+minecraft:stripped_birch_log,1000.0000,block:minecraft:birch_log:100.0000,recipe same as minecraft:birch_log
+minecraft:stripped_birch_wood,1333.3333,block:minecraft:birch_log:100.0000,recipe same as minecraft:birch_wood
+minecraft:stripped_cherry_log,1000.0000,block:minecraft:cherry_log:100.0000,recipe same as minecraft:cherry_log
+minecraft:stripped_cherry_wood,1333.3333,block:minecraft:cherry_log:100.0000,recipe same as minecraft:cherry_wood
+minecraft:stripped_crimson_hyphae,1000.0000,block:minecraft:crimson_stem:100.0000,recipe same as minecraft:crimson_hyphae
+minecraft:stripped_crimson_stem,1000.0000,block:minecraft:crimson_stem:100.0000,recipe same as minecraft:crimson_stem
+minecraft:stripped_dark_oak_log,1000.0000,block:minecraft:dark_oak_log:100.0000,recipe same as minecraft:dark_oak_log
+minecraft:stripped_dark_oak_wood,1333.3333,block:minecraft:dark_oak_log:100.0000,recipe same as minecraft:dark_oak_wood
+minecraft:stripped_jungle_log,1000.0000,block:minecraft:jungle_log:100.0000,recipe same as minecraft:jungle_log
+minecraft:stripped_jungle_wood,1333.3333,block:minecraft:jungle_log:100.0000,recipe same as minecraft:jungle_wood
+minecraft:stripped_mangrove_log,1000.0000,block:minecraft:mangrove_log:100.0000,recipe same as minecraft:mangrove_log
+minecraft:stripped_mangrove_wood,1333.3333,block:minecraft:mangrove_log:100.0000,recipe same as minecraft:mangrove_wood
+minecraft:stripped_oak_log,1000.0000,block:minecraft:oak_log:100.0000,recipe same as minecraft:oak_log
+minecraft:stripped_oak_wood,1333.3333,block:minecraft:oak_log:100.0000,recipe same as minecraft:oak_wood
+minecraft:stripped_spruce_log,1000.0000,block:minecraft:spruce_log:100.0000,recipe same as minecraft:spruce_log
+minecraft:stripped_spruce_wood,1333.3333,block:minecraft:spruce_log:100.0000,recipe same as minecraft:spruce_wood
+minecraft:stripped_warped_hyphae,1000.0000,block:minecraft:warped_stem:100.0000,recipe same as minecraft:warped_hyphae
+minecraft:stripped_warped_stem,1000.0000,block:minecraft:warped_stem:100.0000,recipe same as minecraft:warped_stem
+minecraft:suspicious_gravel,1000.0000,block:minecraft:gravel:100.0000,recipe same as minecraft:gravel
+minecraft:suspicious_sand,1000.0000,block:minecraft:sand:100.0000,recipe same as minecraft:sand
+minecraft:tall_seagrass,222.2000,block:minecraft:seagrass:100.0000,recipe same as minecraft:seagrass + minecraft:seagrass
+minecraft:target,1444.4000,block:minecraft:hay_block:69.2329;block:minecraft:redstone:30.7671,recipe minecraft:target
+minecraft:tinted_glass,722.2000,block:minecraft:glass:69.2329;block:minecraft:amethyst_shard:30.7671,recipe minecraft:tinted_glass
+minecraft:tnt,1037.0370,block:minecraft:sand:87.8059;block:minecraft:gunpowder:12.1941,recipe periodic_elements:tnt_from_trinitrotoluene (amount); makeup of the vanilla recipe
+minecraft:torch,59.0250,block:minecraft:oak_log:52.9437;block:minecraft:coal:47.0563,recipe minecraft:torch
+minecraft:trapped_chest,2243.0500,block:minecraft:oak_log:97.5235;block:minecraft:iron_ingot:2.4765,recipe minecraft:trapped_chest
+minecraft:tripwire,13.8900,block:minecraft:string:100.0000,recipe same as minecraft:string
+minecraft:tripwire_hook,243.0500,block:minecraft:oak_log:77.1446;block:minecraft:iron_ingot:22.8554,recipe minecraft:tripwire_hook
+minecraft:tube_coral_wall_fan,111.1000,block:minecraft:tube_coral_fan:100.0000,recipe same as minecraft:tube_coral_fan
+minecraft:tuff_brick_slab,500.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_brick_slab_from_tuff_stonecutting
+minecraft:tuff_brick_stairs,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_brick_stairs_from_tuff_stonecutting
+minecraft:tuff_brick_wall,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_brick_wall_from_tuff_stonecutting
+minecraft:tuff_bricks,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_bricks_from_tuff_stonecutting
+minecraft:tuff_slab,500.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_slab_from_tuff_stonecutting
+minecraft:tuff_stairs,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_stairs_from_tuff_stonecutting
+minecraft:tuff_wall,1000.0000,block:minecraft:tuff:100.0000,recipe minecraft:tuff_wall_from_tuff_stonecutting
+minecraft:twisting_vines_plant,111.1000,block:minecraft:twisting_vines:100.0000,recipe same as minecraft:twisting_vines
+minecraft:wall_torch,59.0250,block:minecraft:oak_log:52.9437;block:minecraft:coal:47.0563,recipe same as minecraft:torch
+minecraft:warped_button,250.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_button
+minecraft:warped_door,500.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_door
+minecraft:warped_fence,416.6667,block:minecraft:warped_stem:80.0000;block:minecraft:oak_log:20.0000,recipe minecraft:warped_fence
+minecraft:warped_fence_gate,1000.0000,block:minecraft:oak_log:50.0000;block:minecraft:warped_stem:50.0000,recipe minecraft:warped_fence_gate
+minecraft:warped_hanging_sign,1045.2667,block:minecraft:warped_stem:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe minecraft:warped_hanging_sign
+minecraft:warped_hyphae,1000.0000,block:minecraft:warped_stem:100.0000,recipe same as minecraft:warped_stem
+minecraft:warped_planks,250.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_planks
+minecraft:warped_pressure_plate,500.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_pressure_plate
+minecraft:warped_sign,541.6667,block:minecraft:warped_stem:92.3077;block:minecraft:oak_log:7.6923,recipe minecraft:warped_sign
+minecraft:warped_slab,125.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_slab
+minecraft:warped_stairs,375.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_stairs
+minecraft:warped_trapdoor,750.0000,block:minecraft:warped_stem:100.0000,recipe minecraft:warped_trapdoor
+minecraft:warped_wall_hanging_sign,1045.2667,block:minecraft:warped_stem:95.6694;block:minecraft:iron_ingot:3.5430;block:minecraft:iron_nugget:0.7877,recipe same as minecraft:warped_hanging_sign
+minecraft:warped_wall_sign,541.6667,block:minecraft:warped_stem:92.3077;block:minecraft:oak_log:7.6923,recipe same as minecraft:warped_sign
+minecraft:water,1000.0000,block:minecraft:water_bucket:100.0000,recipe same as minecraft:water_bucket
+minecraft:water_cauldron,1777.7000,block:minecraft:water_bucket:56.2525;block:minecraft:iron_ingot:43.7475,recipe same as minecraft:cauldron + minecraft:water_bucket
+minecraft:waxed_chiseled_copper,277.7750,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_chiseled_copper_from_waxed_copper_block_stonecutting
+minecraft:waxed_copper_block,1111.1000,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_copper_block_from_honeycomb
+minecraft:waxed_copper_bulb,888.8750,block:minecraft:copper_block:84.3763;block:minecraft:honeycomb:9.3742;block:minecraft:blaze_rod:3.1247;block:minecraft:redstone:3.1247,recipe minecraft:waxed_copper_bulb
+minecraft:waxed_copper_door,333.3000,block:minecraft:copper_ingot:66.6667;block:minecraft:honeycomb:33.3333,recipe minecraft:waxed_copper_door_from_honeycomb
+minecraft:waxed_copper_grate,277.7750,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_copper_grate_from_waxed_copper_block_stonecutting
+minecraft:waxed_copper_trapdoor,444.4000,block:minecraft:copper_ingot:75.0000;block:minecraft:honeycomb:25.0000,recipe minecraft:waxed_copper_trapdoor_from_honeycomb
+minecraft:waxed_cut_copper,277.7750,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting
+minecraft:waxed_cut_copper_slab,138.8875,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting
+minecraft:waxed_cut_copper_stairs,277.7750,block:minecraft:copper_block:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting
+minecraft:waxed_exposed_chiseled_copper,277.7750,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting
+minecraft:waxed_exposed_copper,1111.1000,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_copper_from_honeycomb
+minecraft:waxed_exposed_copper_bulb,888.8750,block:minecraft:exposed_copper:84.3763;block:minecraft:honeycomb:9.3742;block:minecraft:blaze_rod:3.1247;block:minecraft:redstone:3.1247,recipe minecraft:waxed_exposed_copper_bulb
+minecraft:waxed_exposed_copper_door,333.3000,block:minecraft:copper_ingot:66.6667;block:minecraft:honeycomb:33.3333,recipe minecraft:waxed_exposed_copper_door_from_honeycomb
+minecraft:waxed_exposed_copper_grate,277.7750,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting
+minecraft:waxed_exposed_copper_trapdoor,444.4000,block:minecraft:copper_ingot:75.0000;block:minecraft:honeycomb:25.0000,recipe minecraft:waxed_exposed_copper_trapdoor_from_honeycomb
+minecraft:waxed_exposed_cut_copper,277.7750,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting
+minecraft:waxed_exposed_cut_copper_slab,138.8875,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting
+minecraft:waxed_exposed_cut_copper_stairs,277.7750,block:minecraft:exposed_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting
+minecraft:waxed_oxidized_chiseled_copper,277.7750,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting
+minecraft:waxed_oxidized_copper,1111.1000,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_copper_from_honeycomb
+minecraft:waxed_oxidized_copper_bulb,888.8750,block:minecraft:oxidized_copper:84.3763;block:minecraft:honeycomb:9.3742;block:minecraft:blaze_rod:3.1247;block:minecraft:redstone:3.1247,recipe minecraft:waxed_oxidized_copper_bulb
+minecraft:waxed_oxidized_copper_door,333.3000,block:minecraft:copper_ingot:66.6667;block:minecraft:honeycomb:33.3333,recipe minecraft:waxed_oxidized_copper_door_from_honeycomb
+minecraft:waxed_oxidized_copper_grate,277.7750,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting
+minecraft:waxed_oxidized_copper_trapdoor,444.4000,block:minecraft:copper_ingot:75.0000;block:minecraft:honeycomb:25.0000,recipe minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb
+minecraft:waxed_oxidized_cut_copper,277.7750,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting
+minecraft:waxed_oxidized_cut_copper_slab,138.8875,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting
+minecraft:waxed_oxidized_cut_copper_stairs,277.7750,block:minecraft:oxidized_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting
+minecraft:waxed_weathered_chiseled_copper,277.7750,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_chiseled_copper_from_waxed_weathered_copper_stonecutting
+minecraft:waxed_weathered_copper,1111.1000,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_copper_from_honeycomb
+minecraft:waxed_weathered_copper_bulb,888.8750,block:minecraft:weathered_copper:84.3763;block:minecraft:honeycomb:9.3742;block:minecraft:blaze_rod:3.1247;block:minecraft:redstone:3.1247,recipe minecraft:waxed_weathered_copper_bulb
+minecraft:waxed_weathered_copper_door,333.3000,block:minecraft:copper_ingot:66.6667;block:minecraft:honeycomb:33.3333,recipe minecraft:waxed_weathered_copper_door_from_honeycomb
+minecraft:waxed_weathered_copper_grate,277.7750,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting
+minecraft:waxed_weathered_copper_trapdoor,444.4000,block:minecraft:copper_ingot:75.0000;block:minecraft:honeycomb:25.0000,recipe minecraft:waxed_weathered_copper_trapdoor_from_honeycomb
+minecraft:waxed_weathered_cut_copper,277.7750,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting
+minecraft:waxed_weathered_cut_copper_slab,138.8875,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting
+minecraft:waxed_weathered_cut_copper_stairs,277.7750,block:minecraft:weathered_copper:90.0009;block:minecraft:honeycomb:9.9991,recipe minecraft:waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting
+minecraft:weathered_chiseled_copper,250.0000,block:minecraft:weathered_copper:100.0000,recipe minecraft:weathered_chiseled_copper_from_weathered_cut_copper_stonecutting
+minecraft:weathered_copper_bulb,805.5500,block:minecraft:weathered_copper:93.1041;block:minecraft:blaze_rod:3.4480;block:minecraft:redstone:3.4480,recipe minecraft:weathered_copper_bulb
+minecraft:weathered_copper_door,222.2000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_door
+minecraft:weathered_copper_grate,250.0000,block:minecraft:weathered_copper:100.0000,recipe minecraft:weathered_copper_grate_from_weathered_copper_stonecutting
+minecraft:weathered_copper_trapdoor,333.3000,block:minecraft:copper_ingot:100.0000,recipe same as minecraft:copper_trapdoor
+minecraft:weathered_cut_copper,250.0000,block:minecraft:weathered_copper:100.0000,recipe minecraft:weathered_cut_copper_from_weathered_copper_stonecutting
+minecraft:weathered_cut_copper_slab,125.0000,block:minecraft:weathered_copper:100.0000,recipe minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting
+minecraft:weathered_cut_copper_stairs,250.0000,block:minecraft:weathered_copper:100.0000,recipe minecraft:weathered_cut_copper_stairs_from_weathered_copper_stonecutting
+minecraft:weeping_vines_plant,111.1000,block:minecraft:weeping_vines:100.0000,recipe same as minecraft:weeping_vines
+minecraft:white_banner,458.3000,block:minecraft:white_wool:72.7253;block:minecraft:oak_log:27.2747,recipe minecraft:white_banner
+minecraft:white_bed,916.6500,block:minecraft:oak_log:81.8197;block:minecraft:white_wool:18.1803,recipe minecraft:white_bed
+minecraft:white_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:white_dye:2.7012,recipe minecraft:white_candle
+minecraft:white_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:white_dye:0.0914,recipe same as minecraft:cake + minecraft:white_candle
+minecraft:white_carpet,37.0333,block:minecraft:white_wool:100.0000,recipe minecraft:white_carpet
+minecraft:white_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:white_dye:0.0434,recipe same as minecraft:white_concrete_powder
+minecraft:white_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:white_dye:0.0434,recipe minecraft:white_concrete_powder
+minecraft:white_glazed_terracotta,1000.0000,block:minecraft:white_terracotta:100.0000,recipe minecraft:white_glazed_terracotta
+minecraft:white_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:white_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:white_dye
+minecraft:white_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:white_dye:0.0434,recipe minecraft:white_stained_glass
+minecraft:white_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:white_dye:0.0434,recipe minecraft:white_stained_glass_pane
+minecraft:white_wall_banner,458.3000,block:minecraft:white_wool:72.7253;block:minecraft:oak_log:27.2747,recipe same as minecraft:white_banner
+minecraft:wither_skeleton_wall_skull,333.3000,block:minecraft:wither_skeleton_skull:100.0000,recipe same as minecraft:wither_skeleton_skull
+minecraft:yellow_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:yellow_dye:4.3455,recipe minecraft:yellow_banner
+minecraft:yellow_bed,920.1200,block:minecraft:oak_log:81.5111;block:minecraft:white_wool:18.1118;block:minecraft:yellow_dye:0.3771,recipe minecraft:dye_yellow_bed
+minecraft:yellow_candle,128.4600,block:minecraft:honeycomb:86.4861;block:minecraft:string:10.8127;block:minecraft:yellow_dye:2.7012,recipe minecraft:yellow_candle
+minecraft:yellow_candle_cake,3795.0600,block:minecraft:milk_bucket:79.0501;block:minecraft:wheat:8.7825;block:minecraft:sugar:5.8550;block:minecraft:egg:2.9275;block:minecraft:honeycomb:2.9275;block:minecraft:string:0.3660;block:minecraft:yellow_dye:0.0914,recipe same as minecraft:cake + minecraft:yellow_candle
+minecraft:yellow_carpet,39.3467,block:minecraft:white_wool:94.1206;block:minecraft:yellow_dye:5.8794,recipe minecraft:yellow_carpet
+minecraft:yellow_concrete,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:yellow_dye:0.0434,recipe same as minecraft:yellow_concrete_powder
+minecraft:yellow_concrete_powder,1000.4338,block:minecraft:sand:49.9783;block:minecraft:gravel:49.9783;block:minecraft:yellow_dye:0.0434,recipe minecraft:yellow_concrete_powder
+minecraft:yellow_glazed_terracotta,1000.0000,block:minecraft:yellow_terracotta:100.0000,recipe minecraft:yellow_glazed_terracotta
+minecraft:yellow_shulker_box,2225.6700,block:minecraft:oak_log:89.8606;block:minecraft:shulker_shell:9.9835;block:minecraft:yellow_dye:0.1559,recipe same as minecraft:shulker_box + minecraft:yellow_dye
+minecraft:yellow_stained_glass,1000.4338,block:minecraft:glass:99.9566;block:minecraft:yellow_dye:0.0434,recipe minecraft:yellow_stained_glass
+minecraft:yellow_stained_glass_pane,375.1627,block:minecraft:glass:99.9566;block:minecraft:yellow_dye:0.0434,recipe minecraft:yellow_stained_glass_pane
+minecraft:yellow_wall_banner,479.1200,block:minecraft:white_wool:69.5650;block:minecraft:oak_log:26.0895;block:minecraft:yellow_dye:4.3455,recipe same as minecraft:yellow_banner
+minecraft:yellow_wool,59.0200,block:minecraft:white_wool:94.1206;block:minecraft:yellow_dye:5.8794,recipe minecraft:dye_yellow_wool
+minecraft:zombie_wall_head,333.3000,block:minecraft:zombie_head:100.0000,recipe same as minecraft:zombie_head

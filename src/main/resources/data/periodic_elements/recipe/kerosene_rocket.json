@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:kerosene"
+    },
+    {
+      "item": "periodic_elements:oxygen"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "id": "minecraft:firework_rocket",
+    "count": 3,
+    "components": {
+      "minecraft:fireworks": {
+        "flight_duration": 3,
+        "explosions": []
+      }
+    }
+  }
+}

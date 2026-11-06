@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,forbidden=false": {
+      "model": "periodic_elements:block/belt_sorter"
+    },
+    "facing=north,forbidden=true": {
+      "model": "periodic_elements:block/belt_sorter_forbidden"
+    },
+    "facing=east,forbidden=false": {
+      "model": "periodic_elements:block/belt_sorter",
+      "y": 90
+    },
+    "facing=east,forbidden=true": {
+      "model": "periodic_elements:block/belt_sorter_forbidden",
+      "y": 90
+    },
+    "facing=south,forbidden=false": {
+      "model": "periodic_elements:block/belt_sorter",
+      "y": 180
+    },
+    "facing=south,forbidden=true": {
+      "model": "periodic_elements:block/belt_sorter_forbidden",
+      "y": 180
+    },
+    "facing=west,forbidden=false": {
+      "model": "periodic_elements:block/belt_sorter",
+      "y": 270
+    },
+    "facing=west,forbidden=true": {
+      "model": "periodic_elements:block/belt_sorter_forbidden",
+      "y": 270
+    }
+  }
+}

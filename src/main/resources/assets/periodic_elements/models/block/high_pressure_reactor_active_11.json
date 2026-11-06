@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/high_pressure_reactor_top_active_11",
+    "front": "periodic_elements:block/high_pressure_reactor_front_active_11",
+    "side": "periodic_elements:block/high_pressure_reactor_side"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KCK",
+    "KPK",
+    "KFK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:bricks"
+    },
+    "C": {
+      "item": "periodic_elements:coke"
+    },
+    "P": {
+      "item": "periodic_elements:porcelain"
+    },
+    "F": {
+      "item": "periodic_elements:coke_oven"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:huntsman_furnace",
+    "count": 1
+  }
+}

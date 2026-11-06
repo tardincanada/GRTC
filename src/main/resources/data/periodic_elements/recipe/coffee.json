@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:coffee_beans"
+    },
+    {
+      "item": "periodic_elements:coffee_beans"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:coffee",
+    "count": 1
+  }
+}

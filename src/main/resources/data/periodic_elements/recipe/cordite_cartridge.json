@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:cordite"
+    },
+    {
+      "item": "periodic_elements:lead"
+    },
+    {
+      "item": "periodic_elements:brass_ingot"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:cordite_cartridge",
+    "count": 4
+  }
+}

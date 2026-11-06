@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "periodic_elements:crucible_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:crucible_steel_leggings",
+    "count": 1
+  }
+}

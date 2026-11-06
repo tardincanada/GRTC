@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "IKI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "periodic_elements:crucible"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:reduction_crucible",
+    "count": 1
+  }
+}

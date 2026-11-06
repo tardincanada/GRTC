@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "periodic_elements:block/lamp_housing",
+    "glass": "periodic_elements:block/sodium_lamp",
+    "house": "periodic_elements:block/lamp_housing"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        10,
+        2
+      ],
+      "to": [
+        14,
+        13,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#house"
+        },
+        "south": {
+          "texture": "#house"
+        },
+        "east": {
+          "texture": "#house"
+        },
+        "west": {
+          "texture": "#house"
+        },
+        "up": {
+          "texture": "#house"
+        },
+        "down": {
+          "texture": "#house"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#glass"
+        },
+        "south": {
+          "texture": "#glass"
+        },
+        "east": {
+          "texture": "#glass"
+        },
+        "west": {
+          "texture": "#glass"
+        },
+        "down": {
+          "texture": "#glass"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#house"
+        },
+        "south": {
+          "texture": "#house"
+        },
+        "east": {
+          "texture": "#house"
+        },
+        "west": {
+          "texture": "#house"
+        },
+        "down": {
+          "texture": "#house"
+        }
+      }
+    }
+  ]
+}

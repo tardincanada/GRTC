@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IIF",
+    " PP"
+  ],
+  "key": {
+    "I": {
+      "item": "periodic_elements:crucible_steel_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:flintlock_musket",
+    "count": 1
+  }
+}

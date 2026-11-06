@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:terra_roxa",
+    "periodic_elements:chalky_soil",
+    "periodic_elements:gravel_gold_ore",
+    "periodic_elements:gravel_cassiterite_ore",
+    "periodic_elements:gravel_coltan_ore",
+    "periodic_elements:gravel_diamond_ore",
+    "periodic_elements:charcoal_pit",
+    "periodic_elements:heavy_mineral_sand"
+  ]
+}

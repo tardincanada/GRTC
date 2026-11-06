@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Z Z",
+    "Z Z",
+    "Z Z"
+  ],
+  "key": {
+    "Z": {
+      "item": "periodic_elements:zircaloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fuel_channel",
+    "count": 3
+  }
+}

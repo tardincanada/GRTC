@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:steel_ingot"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "T": {
+      "item": "periodic_elements:tungsten_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:pneumatic_rock_drill",
+    "count": 1
+  }
+}

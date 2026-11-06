@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "periodic_elements:peridotite"
+  },
+  "result": {
+    "id": "periodic_elements:polished_peridotite_stairs",
+    "count": 1
+  }
+}

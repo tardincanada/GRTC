@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BRB",
+    "CTC",
+    "SSS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "R": {
+      "item": "minecraft:raw_copper"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:potters_workshop",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "periodic_elements:block/polished_laterite",
+    "top": "periodic_elements:block/polished_laterite",
+    "side": "periodic_elements:block/polished_laterite"
+  }
+}

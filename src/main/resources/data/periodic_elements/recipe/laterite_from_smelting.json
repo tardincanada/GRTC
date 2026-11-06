@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "periodic_elements:cobbled_laterite"
+  },
+  "result": {
+    "id": "periodic_elements:laterite"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

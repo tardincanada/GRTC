@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:iron_sulfate"
+    },
+    {
+      "tag": "minecraft:oak_logs"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:iron_gall_ink",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/graphite_block"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/graphite_block_active"
+    }
+  }
+}

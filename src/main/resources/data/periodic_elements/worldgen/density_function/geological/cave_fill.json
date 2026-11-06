@@ -1,0 +1,5 @@
+{
+  "type": "periodic_elements:geology",
+  "output": "cave_fill",
+  "seed": "periodic_elements:geology_seed"
+}

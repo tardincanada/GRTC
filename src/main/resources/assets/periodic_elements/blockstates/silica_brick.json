@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/silica_brick"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/silica_brick_active"
+    }
+  }
+}

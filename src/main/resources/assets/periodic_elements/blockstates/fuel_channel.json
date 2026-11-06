@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "periodic_elements:block/fuel_channel"
+    },
+    "active=true": {
+      "model": "periodic_elements:block/fuel_channel_active"
+    }
+  }
+}

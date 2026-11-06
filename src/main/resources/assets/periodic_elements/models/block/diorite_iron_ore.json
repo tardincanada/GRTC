@@ -1,0 +1,9 @@
+{
+  "parent": "periodic_elements:block/geo_ore",
+  "textures": {
+    "side": "minecraft:block/diorite",
+    "top": "minecraft:block/diorite",
+    "bottom": "minecraft:block/diorite",
+    "overlay": "periodic_elements:block/ore_overlay_iron"
+  }
+}

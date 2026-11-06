@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:bronze_pickaxe",
+    "periodic_elements:wrought_iron_pickaxe",
+    "periodic_elements:crucible_steel_pickaxe",
+    "periodic_elements:steel_pickaxe",
+    "periodic_elements:manganese_steel_pickaxe",
+    "periodic_elements:tungsten_steel_pickaxe",
+    "periodic_elements:aluminium_pickaxe",
+    "periodic_elements:stainless_steel_pickaxe",
+    "periodic_elements:high_speed_steel_pickaxe",
+    "periodic_elements:cemented_carbide_pickaxe",
+    "periodic_elements:beryllium_copper_pickaxe",
+    "periodic_elements:titanium_alloy_pickaxe",
+    "periodic_elements:synthetic_diamond_pickaxe"
+  ]
+}

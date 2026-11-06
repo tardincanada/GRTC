@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "periodic_elements:block/lithium_ion_battery_top_1",
+    "front": "periodic_elements:block/lithium_ion_battery_front_10_1",
+    "side": "periodic_elements:block/lithium_ion_battery_side"
+  }
+}

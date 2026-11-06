@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "periodic_elements:cobbled_shale",
+    "periodic_elements:cobbled_gneiss",
+    "periodic_elements:cobbled_peridotite",
+    "periodic_elements:cobbled_kimberlite",
+    "periodic_elements:cobbled_laterite"
+  ]
+}
