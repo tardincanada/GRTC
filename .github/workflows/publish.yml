@@ -56,21 +56,35 @@ jobs:
         env:
           TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           GIVEN: ${{ vars.MODRINTH_ID }}
+          WANT: elementar
         run: |
           if [ -z "$TOKEN" ]; then echo "No MODRINTH_TOKEN: Modrinth skipped"; exit 0; fi
-          for SLUG in "$GIVEN" elementar; do
-            [ -z "$SLUG" ] && continue
-            ID=$(curl -sf -H "Authorization: $TOKEN" -H "User-Agent: tardincanada/GRTC (GitHub Actions)" \
-                 "https://api.modrinth.com/v2/project/$(printf %s "$SLUG" | jq -sRr @uri)" | jq -r '.id // empty') || true
-            [ -n "$ID" ] && break
-            echo "Modrinth project '$SLUG' not found"
-            ID=""
+          UA="tardincanada/GRTC (GitHub Actions)"
+          api() { curl -s -o /tmp/out.json -w '%{http_code}' -H "Authorization: $TOKEN" -H "User-Agent: $UA" "https://api.modrinth.com/v2/$1"; }
+          ID=""
+          for S in "$GIVEN" "$WANT"; do
+            [ -z "$S" ] && continue
+            CODE=$(api "project/$(printf %s "$S" | jq -sRr @uri)")
+            echo "Lookup '$S': HTTP $CODE"
+            [ "$CODE" = 200 ] && ID=$(jq -r '.id // empty' /tmp/out.json) && [ -n "$ID" ] && break
           done
           if [ -z "$ID" ]; then
-            echo "::error::Modrinth project not found. Check that the project slug is 'elementar' and the token has 'Read projects'."
+            CODE=$(api user)
+            if [ "$CODE" = 200 ]; then
+              USER_ID=$(jq -r .id /tmp/out.json); echo "Token belongs to Modrinth user $(jq -r .username /tmp/out.json)"
+              CODE=$(api "user/$USER_ID/projects")
+              echo "Projects of this account (HTTP $CODE):"
+              jq -r '.[] | "  \(.id)  slug=\(.slug)  title=\(.title)  type=\(.project_type)  status=\(.status)"' /tmp/out.json || cat /tmp/out.json
+              ID=$(jq -r --arg w "$WANT" '[.[] | select(.slug == $w or (.title | ascii_downcase) == $w)] | .[0].id // empty' /tmp/out.json)
+            else
+              echo "Token cannot read the user (HTTP $CODE): $(cat /tmp/out.json)"
+            fi
+          fi
+          if [ -z "$ID" ]; then
+            echo "::error::Modrinth project not found (HTTP codes above: 401 = token wrong/expired or missing 'Read projects'; 404 = no project 'elementar'). Paste the ID shown under Settings of the project into the MODRINTH_ID variable."
             exit 1
           fi
-          echo "Modrinth project ID: $ID"
+          echo "Using Modrinth project ID: $ID"
           echo "id=$ID" >> "$GITHUB_OUTPUT"
 
       - name: Build and test
