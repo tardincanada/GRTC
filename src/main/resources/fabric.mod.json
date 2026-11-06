@@ -12,7 +12,7 @@
 		"sources": "https://github.com/tardincanada/GRTC",
 		"issues": "https://github.com/tardincanada/GRTC/issues"
 	},
-	"license": "MIT",
+	"license": "ARR",
 	"icon": "assets/periodic_elements/icon.png",
 	"environment": "*",
 	"entrypoints": {
