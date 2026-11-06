@@ -415,9 +415,8 @@ def main():
     for code, t in translations.items():
         (ASSETS / "lang" / f"{code}.json").write_text(json.dumps(t, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    # Mod icon: a 4x upscale of carbon's tile.
-    icon = make_texture(next(e for e in elements if e["number"] == 6)).resize((128, 128), Image.NEAREST)
-    icon.save(ASSETS / "icon.png")
+    # Mod icon (3.51.1): the "El" tile drawn in tools/icon.png; images/icon-512.png is the Modrinth copy.
+    Image.open(Path(__file__).parent / "icon.png").save(ASSETS / "icon.png")
 
     # Preview sheet laid out like the periodic table (not shipped in the jar).
     sheet = Image.new("RGBA", (18 * 17, 10 * 17 + 4), (40, 40, 46, 255))
