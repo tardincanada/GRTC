@@ -3,10 +3,15 @@
 	"id": "periodic_elements",
 	"version": "${version}",
 	"name": "Elementar",
-	"description": "Adds all 118 chemical elements of the periodic table as items, with their symbol, atomic number, and state at room temperature.",
+	"description": "All 118 chemical elements and real substances, real compositions for every block, eight historical tech levels from the Stone Age to particle accelerators, chemistry machines, a geological world type, and living ecosystems.",
 	"authors": [
 		"Guilherme"
 	],
+	"contact": {
+		"homepage": "https://github.com/tardincanada/GRTC",
+		"sources": "https://github.com/tardincanada/GRTC",
+		"issues": "https://github.com/tardincanada/GRTC/issues"
+	},
 	"license": "MIT",
 	"icon": "assets/periodic_elements/icon.png",
 	"environment": "*",
