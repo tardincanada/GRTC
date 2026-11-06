@@ -4,7 +4,8 @@
 #
 # Configuracao (Settings > Secrets and variables > Actions):
 #   Secrets:   MODRINTH_TOKEN, CURSEFORGE_TOKEN
-#   Variables: MODRINTH_ID, CURSEFORGE_ID
+#   Variables: CURSEFORGE_ID; MODRINTH_ID is optional (the Modrinth ID is looked up from the
+#              project slug "elementar"; set MODRINTH_ID to an ID or slug to override)
 # Uma plataforma sem token e pulada, entao da para comecar so com o GitHub.
 name: Publish
 
@@ -27,14 +28,14 @@ jobs:
       MINECRAFT_VERSION: 1.21.1
       JAVA_VERSION: 21
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: ${{ env.JAVA_VERSION }}
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
 
       - name: Read version
         id: meta
@@ -48,6 +49,29 @@ jobs:
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "type=$TYPE" >> "$GITHUB_OUTPUT"
           echo "Publishing Elementar $VERSION as $TYPE"
+
+      - name: Find Modrinth project ID
+        id: mr
+        if: ${{ !inputs.dry_run }}
+        env:
+          TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          GIVEN: ${{ vars.MODRINTH_ID }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "No MODRINTH_TOKEN: Modrinth skipped"; exit 0; fi
+          for SLUG in "$GIVEN" elementar; do
+            [ -z "$SLUG" ] && continue
+            ID=$(curl -sf -H "Authorization: $TOKEN" -H "User-Agent: tardincanada/GRTC (GitHub Actions)" \
+                 "https://api.modrinth.com/v2/project/$(printf %s "$SLUG" | jq -sRr @uri)" | jq -r '.id // empty') || true
+            [ -n "$ID" ] && break
+            echo "Modrinth project '$SLUG' not found"
+            ID=""
+          done
+          if [ -z "$ID" ]; then
+            echo "::error::Modrinth project not found. Check that the project slug is 'elementar' and the token has 'Read projects'."
+            exit 1
+          fi
+          echo "Modrinth project ID: $ID"
+          echo "id=$ID" >> "$GITHUB_OUTPUT"
 
       - name: Build and test
         run: |
@@ -70,7 +94,7 @@ jobs:
           game-versions: ${{ env.MINECRAFT_VERSION }}
           java: ${{ env.JAVA_VERSION }}
 
-          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-id: ${{ steps.mr.outputs.id }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
           curseforge-id: ${{ vars.CURSEFORGE_ID }}
