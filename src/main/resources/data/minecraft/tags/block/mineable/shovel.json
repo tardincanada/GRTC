@@ -8,6 +8,12 @@
     "periodic_elements:gravel_coltan_ore",
     "periodic_elements:gravel_diamond_ore",
     "periodic_elements:charcoal_pit",
-    "periodic_elements:heavy_mineral_sand"
+    "periodic_elements:heavy_mineral_sand",
+    "periodic_elements:lunar_regolith",
+    "periodic_elements:martian_regolith",
+    "periodic_elements:dry_ice",
+    "periodic_elements:washed_martian_soil",
+    "periodic_elements:mercurian_regolith",
+    "periodic_elements:mercurian_hollows"
   ]
 }

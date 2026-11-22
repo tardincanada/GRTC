@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "periodic_elements:unbihexium"
+    },
+    {
+      "item": "periodic_elements:tungsten"
+    },
+    {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:stability_alloy_ingot",
+    "count": 2
+  }
+}

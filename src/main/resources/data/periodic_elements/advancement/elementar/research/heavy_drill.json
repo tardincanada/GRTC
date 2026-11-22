@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/research/titanium_alloy",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:heavy_mining_drill"
+  },
+  "title": {
+   "translate": "research.periodic_elements.heavy_drill"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.heavy_drill.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.rotary_hammer"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.diamond_synthesis"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.titanium_alloy"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

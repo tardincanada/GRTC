@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "T T",
+    "T T",
+    "A A"
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "A": {
+      "item": "periodic_elements:aluminium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:landing_legs",
+    "count": 1
+  }
+}

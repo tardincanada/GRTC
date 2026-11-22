@@ -399,6 +399,13 @@ MINERALS.update({
                     real=False),
 })
 
+# 3.62.0: meteorites (tools/meteorites.py; translations in meteorites_i18n.py)
+import meteorites as _met  # noqa: E402
+GROUPS["meteorites"] = _met.GROUP
+for _mid, (_block, _about, _origin, _made, _formula, _system) in _met.MINERALS.items():
+    MINERALS[_mid] = _r("meteorites", "meteorites", [f"periodic_elements:{_block}"], _about, _origin, _made,
+                        formula=_formula, system=_system)
+
 
 def _ns(x):
     return x if ":" in x else f"minecraft:{x}"

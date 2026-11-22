@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/room_temperature_superconductivity",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:unbihexium"
+  },
+  "title": {
+   "translate": "research.periodic_elements.island_of_stability"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.island_of_stability.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.room_temperature_superconductivity"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.transactinides"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

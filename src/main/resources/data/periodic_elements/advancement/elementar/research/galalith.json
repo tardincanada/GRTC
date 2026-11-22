@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/formaldehyde",
+ "display": {
+  "icon": {
+   "id": "minecraft:milk_bucket"
+  },
+  "title": {
+   "translate": "research.periodic_elements.galalith"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.galalith.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.formaldehyde"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/island_of_stability",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:mercury_capsule"
+  },
+  "title": {
+   "translate": "research.periodic_elements.mercury_landing"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.mercury_landing.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.island_of_stability"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.metallic_hydrogen"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

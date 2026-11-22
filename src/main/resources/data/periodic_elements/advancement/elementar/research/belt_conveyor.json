@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/industrial_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:rubber_belt"
+  },
+  "title": {
+   "translate": "research.periodic_elements.belt_conveyor"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.belt_conveyor.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.automatic_mill"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.vulcanization"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

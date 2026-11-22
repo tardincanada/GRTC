@@ -59,6 +59,9 @@ LEVELS = {
     5: "Early 20th century",
     6: "Nuclear age",
     7: "Accelerator age",
+    8: "Space Age",
+    9: "Other Worlds",
+    10: "Inner Planets",
 }
 
 # 3x5 pixel font. '#' = ink.
@@ -288,7 +291,9 @@ def main():
     print(f"  {len(generate_geo_ores(ASSETS, RES / 'data' / MOD_ID, RES / MOD_ID, lang))} ores in other rocks (Geological world)")
     research = generate_research(ROOT / "data" / "research.csv",
                                  {e["id"] for e in elements} | {x["id"] for x in subs} | set(raw_items)
-                                 | set(MACHINE_ITEMS) | {"copper_wire"} | set(__import__("crops").items()),
+                                 | set(MACHINE_ITEMS) | {"copper_wire"} | set(__import__("crops").items())
+                                 | set(__import__("meteorites").METEORITES) | set(__import__("moon").ROCKS) | set(__import__("moon2").ROCKS)
+                                 | set(__import__("mars").ROCKS) | set(__import__("inner").ROCKS),
                                  RES / MOD_ID, lang, MOD_ID)
     print(f"  {len(research)} research projects ({sum(p['key'] for p in research.values())} key)")
     reactions, machines = generate_machines(ROOT, ASSETS, RES / "data" / MOD_ID, RES / MOD_ID, lang, MOD_ID,
@@ -336,6 +341,8 @@ def main():
     generate_water(ASSETS, RES / "data", lang, MOD_ID)
     from exploration import generate_exploration
     generate_exploration(ASSETS, RES / "data", lang, MOD_ID)
+    from space import generate_space  # 3.61.0 level 8: rockets
+    generate_space(ASSETS, RES / "data", lang, MOD_ID)
     from fauna import generate_fauna
     print(f"  {len(generate_fauna(ASSETS, RES / 'data', RES / MOD_ID, lang, MOD_ID))} animal species")
     from lights import generate_lights
@@ -345,10 +352,22 @@ def main():
     # Last: natural blocks get random rotations (after every generator has written its blockstates).
     print(f"  {randomize_rotations(ASSETS, MOD_ID)} blocks with random rotation")
     print(f"  {randomize_vanilla_rotations(RES)} vanilla blocks with random rotation")
+    from plant_warning import LANG as PLANT_WARNING_LANG
+    lang.update(PLANT_WARNING_LANG)
+    from shrub_transplant import LANG as SHRUB_TRANSPLANT_LANG
+    lang.update(SHRUB_TRANSPLANT_LANG)
+    from advancements import LANG as ADVANCEMENT_LANG, generate_advancements
+    from machines import STATIONS
+    lang.update(ADVANCEMENT_LANG)
+    print(f"  {generate_advancements(RES / 'data', ASSETS, research, STATIONS)} advancements in the Elementar tab")
     lang.update(GUI_LANG)
     check_samples_obtainable(research, reactions, ore_drops, raw_items, machines)
     check_elements_obtainable(elements, reactions, ore_drops, comps)
     check_unlocks(research, reactions, machines, gear)
+    from texture_pack import apply_overrides
+    n_over = apply_overrides(ASSETS)
+    if n_over:
+        print(f"  {n_over} hand-edited textures applied from art/texture_overrides")
     check_textures()
     write_lens(elements, subs, reactions, comps)
     from isotopes import write_isotopes
@@ -393,10 +412,18 @@ def main():
         tr = {**tr, **water_translations(code)}
         from exploration import translations as exploration_translations
         tr = {**tr, **exploration_translations(code)}
+        from space import translations as space_translations
+        tr = {**tr, **space_translations(code)}
         from fauna import translations as fauna_translations
         tr = {**tr, **fauna_translations(code)}
         from creative_items import translations as creative_translations
         tr = {**tr, **creative_translations(code)}
+        from plant_warning import translations as plant_warning_translations
+        tr = {**tr, **plant_warning_translations(code)}
+        from shrub_transplant import translations as shrub_transplant_translations
+        tr = {**tr, **shrub_transplant_translations(code)}
+        from advancements import translations as advancement_translations
+        tr = {**tr, **advancement_translations(code)}
         translations[code] = {k: tr[v] for k, v in lang.items() if v in tr}
         missing = sorted({v for v in lang.values() if v not in tr})
         if missing:
@@ -436,6 +463,14 @@ def check_samples_obtainable(research, reactions, ore_drops, raw_items, machines
     sources |= {f"{MOD_ID}:{i}" for i in crop_items()}
     sources |= reactor_outputs()
     sources |= {f"{MOD_ID}:seawater_bucket", f"{MOD_ID}:brine_bucket"}  # 3.45.0: filled from the sea and brine springs
+    from meteorites import METEORITES
+    sources |= {f"{MOD_ID}:{m}" for m in METEORITES}  # 3.62.0: fall from the sky at night
+    from moon import ROCKS
+    sources |= {f"{MOD_ID}:{m}" for m in ROCKS + ["kreep_basalt"]}  # 3.64.0: the ground of the Moon
+    from mars import ROCKS as MARS_ROCKS
+    sources |= {f"{MOD_ID}:{m}" for m in MARS_ROCKS}  # 3.66.0: the ground of Mars
+    from inner import ROCKS as INNER_ROCKS
+    sources |= {f"{MOD_ID}:{m}" for m in INNER_ROCKS}  # 3.68.0: Mercury's ground, and Venus's from probes
     for r in reactions:
         for p in r["products"]:
             if not p["vented"] and not p["slag"]:
@@ -448,7 +483,7 @@ def check_samples_obtainable(research, reactions, ore_drops, raw_items, machines
 
 
 # Standard atomic weights for the elements that appear in substance formulas.
-ATOMIC_WEIGHT = {"H": 1.008, "Li": 6.94, "Be": 9.012, "B": 10.81, "C": 12.011, "N": 14.007, "O": 15.999,
+ATOMIC_WEIGHT = {"H": 1.008, "He": 3.016, "Li": 6.94, "Be": 9.012, "B": 10.81, "C": 12.011, "N": 14.007, "O": 15.999,
                  "Na": 22.990, "Mg": 24.305, "Al": 26.982, "Si": 28.085, "P": 30.974, "S": 32.06, "Cl": 35.45,
                  "K": 39.098, "Ca": 40.078, "Ti": 47.867, "Mn": 54.938, "Fe": 55.845, "Co": 58.933, "Cu": 63.546,
                  "Zn": 65.38, "As": 74.922, "Br": 79.904, "Sr": 87.62, "Cd": 112.41, "Sn": 118.71, "Sb": 121.76,
@@ -598,6 +633,8 @@ def check_unlocks(research, reactions, machines, gear):
     items |= LOGISTICS_UNLOCKS
     from exploration import ITEM_UNLOCKS as EXPLORATION_UNLOCKS
     items |= EXPLORATION_UNLOCKS
+    from space import ITEM_UNLOCKS as SPACE_UNLOCKS
+    items |= SPACE_UNLOCKS
     from fauna import ITEM_UNLOCKS as FAUNA_UNLOCKS
     items |= FAUNA_UNLOCKS
     known = {"crop": CROP_UNLOCKS["crop"], "map": MAP_FEATURES, "compendium": COMPENDIUM_FEATURES, "machine": set(machines) | set(POWER), "reaction": reaction_ids, "item": items, "recipe": recipes,
@@ -631,6 +668,10 @@ def reactor_outputs():
         if cfg.get("kind") == "reactor":
             out.add(cfg["spent"])
             out |= set(cfg["irradiation"].values())
+        if cfg.get("kind") == "fusion":
+            out.add(cfg["tritium"])  # 3.63.0: the Tokamak's lithium blankets breed tritium
+    from isotopes import IRRADIATION_IF
+    out |= {product for _, _, product in IRRADIATION_IF.values()}  # lithium-6 into tritium in the reactor
     return out
 
 
@@ -639,7 +680,7 @@ IRRADIATION_LENS = {"einsteinium": "nuclear_reactor", "fermium": "nuclear_reacto
 
 
 # The highest tech level the mod has built so far: every element at or below it must have a source.
-RELEASED_LEVEL = 7
+RELEASED_LEVEL = 10
 # Elements that wait for a later release (empty since 0.9.5 finished level 6).
 NUCLEAR_PENDING = set()
 

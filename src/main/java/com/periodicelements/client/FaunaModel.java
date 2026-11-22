@@ -26,7 +26,7 @@ import java.util.function.Function;
 /**
  * An animal of the fauna plan, built from its entry in runtime fauna_models.json (tools/fauna_models.py): boxes in
  * pixels, ground at y = 24, head toward -z. Each part has a role that says how it moves (legs swing, wings flap,
- * tails sway, fins beat).
+ * tails sway, fins beat; "adult" parts such as horns, antlers and tusks are hidden on babies).
  */
 public class FaunaModel extends EntityModel<MobEntity> {
 	private record Part(ModelPart part, String role, float pitch, float yaw, float roll, int index) {
@@ -89,6 +89,8 @@ public class FaunaModel extends EntityModel<MobEntity> {
 			m.pitch = p.pitch;
 			m.yaw = p.yaw;
 			m.roll = p.roll;
+			// 3.53.4: horns, antlers and tusks (role "adult") only on grown animals
+			if (p.role.equals("adult")) m.visible = !entity.isBaby();
 			float phase = p.index * 0.7f;
 			switch (p.role) {
 				case "head" -> {

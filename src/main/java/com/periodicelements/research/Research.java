@@ -52,7 +52,7 @@ public final class Research {
 		}
 	}
 
-	public static final int MAX_LEVEL = 7;
+	public static final int MAX_LEVEL = 10;
 
 	private static List<Project> projects = List.of();
 	private static Map<String, Project> byId = Map.of();

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ACA",
+    "ARA",
+    "PPP"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "R": {
+      "item": "periodic_elements:parachute"
+    },
+    "P": {
+      "item": "periodic_elements:composite_plate"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:emergency_capsule",
+    "count": 1
+  }
+}

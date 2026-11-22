@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/reprocessing",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:plutonium"
+  },
+  "title": {
+   "translate": "research.periodic_elements.americium_curium"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.americium_curium.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.reprocessing"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

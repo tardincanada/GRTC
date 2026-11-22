@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/catalytic_reforming",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:parachute"
+  },
+  "title": {
+   "translate": "research.periodic_elements.nylon"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.nylon.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.catalytic_reforming"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.haber_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/lime_burning",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:glass_furnace"
+  },
+  "title": {
+   "translate": "research.periodic_elements.glassmaking"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.glassmaking.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.lime_burning"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

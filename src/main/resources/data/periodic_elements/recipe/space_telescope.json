@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AGA",
+    "PCP",
+    "T T"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "P": {
+      "item": "periodic_elements:solar_panel"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:space_telescope",
+    "count": 1
+  }
+}

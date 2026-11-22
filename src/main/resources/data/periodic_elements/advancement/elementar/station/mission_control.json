@@ -1,0 +1,34 @@
+{
+ "parent": "periodic_elements:elementar/research/cryogenic_hydrogen",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:mission_control"
+  },
+  "title": {
+   "translate": "block.periodic_elements.mission_control"
+  },
+  "description": {
+   "translate": "advancement.periodic_elements.station.desc",
+   "with": [
+    "9",
+    "8"
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "periodic_elements:mission_control"
+     }
+    ]
+   }
+  }
+ }
+}

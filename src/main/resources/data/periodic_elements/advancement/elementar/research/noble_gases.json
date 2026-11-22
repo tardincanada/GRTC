@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/air_liquefaction",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:argon"
+  },
+  "title": {
+   "translate": "research.periodic_elements.noble_gases"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.noble_gases.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.air_liquefaction"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.spectroscopy"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

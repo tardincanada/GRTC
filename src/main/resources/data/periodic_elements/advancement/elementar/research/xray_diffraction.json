@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/geiger_counter",
+ "display": {
+  "icon": {
+   "id": "minecraft:quartz"
+  },
+  "title": {
+   "translate": "research.periodic_elements.xray_diffraction"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.xray_diffraction.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.thin_sections"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.geiger_counter"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

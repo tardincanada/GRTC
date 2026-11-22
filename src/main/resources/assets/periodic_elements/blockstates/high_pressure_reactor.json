@@ -46,10 +46,10 @@
       "model": "periodic_elements:block/high_pressure_reactor_active_12"
     },
     "facing=north,active=true,mode=13": {
-      "model": "periodic_elements:block/high_pressure_reactor_active"
+      "model": "periodic_elements:block/high_pressure_reactor_active_13"
     },
     "facing=north,active=true,mode=14": {
-      "model": "periodic_elements:block/high_pressure_reactor_active"
+      "model": "periodic_elements:block/high_pressure_reactor_active_14"
     },
     "facing=north,active=true,mode=15": {
       "model": "periodic_elements:block/high_pressure_reactor_active"
@@ -115,11 +115,11 @@
       "y": 90
     },
     "facing=east,active=true,mode=13": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_13",
       "y": 90
     },
     "facing=east,active=true,mode=14": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_14",
       "y": 90
     },
     "facing=east,active=true,mode=15": {
@@ -187,11 +187,11 @@
       "y": 180
     },
     "facing=south,active=true,mode=13": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_13",
       "y": 180
     },
     "facing=south,active=true,mode=14": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_14",
       "y": 180
     },
     "facing=south,active=true,mode=15": {
@@ -259,11 +259,11 @@
       "y": 270
     },
     "facing=west,active=true,mode=13": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_13",
       "y": 270
     },
     "facing=west,active=true,mode=14": {
-      "model": "periodic_elements:block/high_pressure_reactor_active",
+      "model": "periodic_elements:block/high_pressure_reactor_active_14",
       "y": 270
     },
     "facing=west,active=true,mode=15": {

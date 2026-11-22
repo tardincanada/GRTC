@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/gunpowder",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:blasting_charge"
+  },
+  "title": {
+   "translate": "research.periodic_elements.rock_blasting"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.rock_blasting.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.gunpowder"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

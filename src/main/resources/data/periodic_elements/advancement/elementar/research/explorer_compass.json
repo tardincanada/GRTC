@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/portolan",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:explorer_compass"
+  },
+  "title": {
+   "translate": "research.periodic_elements.explorer_compass"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.explorer_compass.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.magnetic_compass"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.portolan"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

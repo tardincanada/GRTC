@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/vitamins",
+ "display": {
+  "icon": {
+   "id": "minecraft:cod"
+  },
+  "title": {
+   "translate": "research.periodic_elements.vitamin_d"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.vitamin_d.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.vitamins"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

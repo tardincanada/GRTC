@@ -206,3 +206,8 @@ MINERALS = {
     "glowstone": ("Lysande kristallklasar som hänger från Netherns tak; modden läser dem som en zinksulfidfosfor, som på gamla urtavlor.", None, None, None),
     "end_stone": ("Blek sten från Ends svävande öar; dess föreslagna sammansättning liknar månsten.", None, None, None),
 }
+
+# 3.62.0: meteorites (tools/meteorites_i18n.py)
+import meteorites_i18n as _met  # noqa: E402
+GROUPS["meteorites"] = _met.GROUP_I18N["sv_se"]
+MINERALS.update({k: v + (None,) for k, v in _met.MINERALS_I18N["sv_se"].items()})

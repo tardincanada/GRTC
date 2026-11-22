@@ -108,6 +108,7 @@ public class ResearchState extends PersistentState {
 
 	public void sync(ServerPlayerEntity player) {
 		ServerPlayNetworking.send(player, new ResearchSyncPayload(new ArrayList<>(known(player.getUuid()))));
+		ResearchAdvancements.sync(player, known(player.getUuid()));
 	}
 
 	@Override

@@ -22,10 +22,10 @@
       "model": "periodic_elements:block/sintering_furnace_active_4"
     },
     "facing=north,active=true,mode=5": {
-      "model": "periodic_elements:block/sintering_furnace_active"
+      "model": "periodic_elements:block/sintering_furnace_active_5"
     },
     "facing=north,active=true,mode=6": {
-      "model": "periodic_elements:block/sintering_furnace_active"
+      "model": "periodic_elements:block/sintering_furnace_active_6"
     },
     "facing=north,active=true,mode=7": {
       "model": "periodic_elements:block/sintering_furnace_active"
@@ -83,11 +83,11 @@
       "y": 90
     },
     "facing=east,active=true,mode=5": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_5",
       "y": 90
     },
     "facing=east,active=true,mode=6": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_6",
       "y": 90
     },
     "facing=east,active=true,mode=7": {
@@ -155,11 +155,11 @@
       "y": 180
     },
     "facing=south,active=true,mode=5": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_5",
       "y": 180
     },
     "facing=south,active=true,mode=6": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_6",
       "y": 180
     },
     "facing=south,active=true,mode=7": {
@@ -227,11 +227,11 @@
       "y": 270
     },
     "facing=west,active=true,mode=5": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_5",
       "y": 270
     },
     "facing=west,active=true,mode=6": {
-      "model": "periodic_elements:block/sintering_furnace_active",
+      "model": "periodic_elements:block/sintering_furnace_active_6",
       "y": 270
     },
     "facing=west,active=true,mode=7": {

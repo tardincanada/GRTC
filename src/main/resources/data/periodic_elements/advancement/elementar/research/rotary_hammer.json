@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/research/high_speed_steel",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:rotary_hammer"
+  },
+  "title": {
+   "translate": "research.periodic_elements.rotary_hammer"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.rotary_hammer.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.rock_drill"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.battery_pack"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.high_speed_steel"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GWG",
+    "CMC",
+    "TTT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "W": {
+      "item": "periodic_elements:niobium_titanium_wire"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "M": {
+      "item": "periodic_elements:mission_control"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:frontier_laboratory",
+    "count": 1
+  }
+}

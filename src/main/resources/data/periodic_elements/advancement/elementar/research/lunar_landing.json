@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/space_suit",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:crew_capsule"
+  },
+  "title": {
+   "translate": "research.periodic_elements.lunar_landing"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.lunar_landing.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.space_suit"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.cryogenic_hydrogen"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/molybdenum",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:molybdenite_concentrate"
+  },
+  "title": {
+   "translate": "research.periodic_elements.rhenium"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.rhenium.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.molybdenum"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.spectroscopy"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

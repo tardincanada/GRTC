@@ -30,6 +30,7 @@ public class PeriodicElementsClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		com.periodicelements.client.ServerWatch.start(); // 3.68.3: thread dump in the log if the world's server freezes
 		HandledScreens.register(ModContent.MACHINE_SCREEN, MachineScreen::new);
 		// 3.45.0: salt water and brine are drawn exactly like water (same textures, biome water colour, overlay).
 		{
@@ -44,6 +45,7 @@ public class PeriodicElementsClient implements ClientModInitializer {
 		}
 		HandledScreens.register(com.periodicelements.samplecase.SampleCase.SCREEN, com.periodicelements.client.SampleCaseScreen::new);
 		com.periodicelements.client.ExploreClient.init();
+		com.periodicelements.client.SpaceClient.init();   // 3.61.0
 		com.periodicelements.client.FaunaClient.init();
 		HandledScreens.register(com.periodicelements.logistics.Logistics.CHEST_SCREEN, com.periodicelements.client.CrateScreen::new);
 		HandledScreens.register(com.periodicelements.logistics.Logistics.SORTER_SCREEN, com.periodicelements.client.SorterScreen::new);
@@ -147,6 +149,7 @@ public class PeriodicElementsClient implements ClientModInitializer {
 							return 1;
 						}))));
 		HudRenderCallback.EVENT.register((ctx, tick) -> lensHud(ctx));
+		com.periodicelements.client.PlantWarningHud.register();
 		ItemTooltipCallback.EVENT.register((stack, context, type, lines) -> {
 			BlockComposition.Entry entry = BlockComposition.of(Registries.ITEM.getId(stack.getItem()).toString());
 			if (entry == null || !com.periodicelements.client.ClientConfig.get().compositionTooltip) {

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/bessemer",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:steel_cylinder"
+  },
+  "title": {
+   "translate": "research.periodic_elements.gas_compression"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.gas_compression.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.bessemer"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.pneumatic_chemistry"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

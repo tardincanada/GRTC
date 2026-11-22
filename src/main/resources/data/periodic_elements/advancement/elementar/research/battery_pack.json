@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/dynamo",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:lead_acid_pack"
+  },
+  "title": {
+   "translate": "research.periodic_elements.battery_pack"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.battery_pack.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.dynamo"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -83,6 +83,10 @@ def quad(b, p):
             if p.get("tufts"):
                 b.cube(head, (ex + sx * 0.5, hy - eh - 2, hz + hl - 2), (1, 2, 1), "ear")
     horn, hs = p.get("horn"), p.get("hs", 6)
+    if horn:
+        # 3.53.4: horns, antlers and tusks sit in their own child part with role "adult", hidden on babies.
+        # It is created right after the head, so the cube order (and the texture UV layout) stays the same.
+        head = b.part("horns", (0, 0, 0), "adult", parent="head")
     if horn == "antler":
         for sx in (-1, 1):
             x0 = sx * (hw / 2 - 1) - 0.5
@@ -322,8 +326,9 @@ def pinniped(b, p):
     b.cube(head, (-hw / 2, -hh + 2, -hl), (hw, hh, hl), "body", eyes=True, belly=True)
     if p.get("tusks"):
         b.cube(head, (-hw / 2 + 1, 0, -hl - 1), (hw - 2, 2, 2), "snout")
+        tusks = b.part("tusks", (0, 0, 0), "adult", parent="head")  # 3.53.4: hidden on babies
         for sx in (-1, 1):
-            b.cube(head, (sx * 1.5 - 0.5, 2, -hl - 1), (1, 6, 1), "tusk")
+            b.cube(tusks, (sx * 1.5 - 0.5, 2, -hl - 1), (1, 6, 1), "tusk")
     for sx in (-1, 1):
         f = b.part("flip" + str(sx), (sx * bw / 2, 23, -bl / 2 + 3), "flipper_l" if sx < 0 else "flipper_r")
         b.cube(f, (0 if sx > 0 else -3, 0, -1), (3, 1, 3), "body")

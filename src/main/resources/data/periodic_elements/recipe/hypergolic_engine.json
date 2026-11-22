@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TIT",
+    " N "
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "N": {
+      "item": "periodic_elements:niobium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:hypergolic_engine",
+    "count": 1
+  }
+}

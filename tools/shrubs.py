@@ -183,8 +183,9 @@ GUIDE = [
     "Shrubs grow wild in every land biome, three to five kinds in each, and like the trees each grows only in its own "
     "biomes. A bush takes about twenty minutes to ripen; bone meal speeds it up.",
     "Right-click a ripe bush to pick what it gives: leaves, seeds, fruit, roots or stems. It stays planted and ripens "
-    "again. Shears on a grown bush cut a cutting to plant; some seeds, like peppers and jojoba, can be sown too. "
-    "Breaking a bush gives a stick or two, and its harvest if it was ripe.",
+    "again. Shears on a grown bush cut one or two cuttings to plant; some seeds, like peppers and jojoba, can be sown "
+    "too. To move a bush, sneak and right-click it with a shovel: it comes up whole with its root ball and keeps its "
+    "size when replanted. Breaking a bush gives a cutting, a stick or two, and its harvest if it was ripe.",
     "# Greenhouses",
     "In a greenhouse a shrub or a tree sapling grows far from its biomes. A greenhouse is a closed room, up to 32 by 32 "
     "blocks and 32 high, entered only by a door or a trapdoor, with a roof all of glass or glass panes over every part "
@@ -781,6 +782,9 @@ def generate_shrubs(assets, data_dir, runtime_dir, lang, mod):
         pools = [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "minecraft:stick", "functions": [
             {"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2 if sp["wood"] else 1,
                                                           "max": 3 if sp["wood"] else 2}}]}],
+                  "conditions": [{"condition": "minecraft:survives_explosion"}]},
+                 # 3.56.0 (Guilherme): breaking a bush always gives a cutting, so it is never lost by accident.
+                 {"rolls": 1, "entries": [{"type": "minecraft:item", "name": f"{mod}:{sid}_cutting"}],
                   "conditions": [{"condition": "minecraft:survives_explosion"}]}]
         if sp["product"]:
             products_used.add(sp["product"])

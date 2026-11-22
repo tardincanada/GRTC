@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/spectroscopy",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:electroscope"
+  },
+  "title": {
+   "translate": "research.periodic_elements.radioactivity"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.radioactivity.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.uranium_oxide"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.spectroscopy"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

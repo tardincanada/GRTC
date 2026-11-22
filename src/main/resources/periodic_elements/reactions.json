@@ -12558,5 +12558,690 @@
   "energy": 10.0,
   "catalyst": "",
   "reagents": []
+ },
+ {
+  "id": "oxygen_liquefaction",
+  "level": 8,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "orbital_rocketry",
+  "feed": "oxygen",
+  "products": [
+   {
+    "id": "liquid_oxygen",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 120.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "hydrogen_liquefaction",
+  "level": 8,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "cryogenic_hydrogen",
+  "feed": "hydrogen",
+  "products": [
+   {
+    "id": "liquid_hydrogen",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 1200.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "hypochlorite_making",
+  "level": 8,
+  "machines": [
+   "chlor_alkali_cell"
+  ],
+  "project": "hypergolic_propellants",
+  "feed": "sodium_hydroxide",
+  "products": [
+   {
+    "id": "sodium_hypochlorite",
+    "units": 93.05,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "sodium_chloride",
+    "units": 73.05,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "water",
+    "units": 22.5,
+    "vented": true,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 15.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": -60.0,
+  "catalyst": "",
+  "reagents": [
+   {
+    "id": "chlorine",
+    "units": 88.6
+   }
+  ]
+ },
+ {
+  "id": "hydrazine_synthesis",
+  "level": 8,
+  "machines": [
+   "high_pressure_reactor"
+  ],
+  "project": "hypergolic_propellants",
+  "feed": "ammonia",
+  "products": [
+   {
+    "id": "hydrazine",
+    "units": 94.06,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "sodium_chloride",
+    "units": 171.6,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "water",
+    "units": 52.9,
+    "vented": true,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 130.0,
+  "tMax": 180.0,
+  "pressure": 30.0,
+  "energy": -150.0,
+  "catalyst": "",
+  "reagents": [
+   {
+    "id": "sodium_hypochlorite",
+    "units": 218.6
+   }
+  ]
+ },
+ {
+  "id": "dinitrogen_tetroxide_making",
+  "level": 8,
+  "machines": [
+   "ostwald_converter"
+  ],
+  "project": "hypergolic_propellants",
+  "feed": "ammonia",
+  "products": [
+   {
+    "id": "dinitrogen_tetroxide",
+    "units": 270.1,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "water",
+    "units": 158.7,
+    "vented": true,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 800.0,
+  "tMax": 950.0,
+  "pressure": 1.0,
+  "energy": -1100.0,
+  "catalyst": "platinum-rhodium",
+  "reagents": []
+ },
+ {
+  "id": "kamacite_parting",
+  "level": 8,
+  "machines": [
+   "mond_reactor"
+  ],
+  "project": "meteorite_analysis",
+  "feed": "kamacite",
+  "products": [
+   {
+    "id": "item:minecraft:iron_ingot",
+    "units": 92.0,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "nickel",
+    "units": 7.5,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "cobalt",
+    "units": 0.5,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 50.0,
+  "tMax": 230.0,
+  "pressure": 1.0,
+  "energy": 80.0,
+  "catalyst": "carbon monoxide (recycled)",
+  "reagents": []
+ },
+ {
+  "id": "taenite_parting",
+  "level": 8,
+  "machines": [
+   "mond_reactor"
+  ],
+  "project": "meteorite_analysis",
+  "feed": "taenite",
+  "products": [
+   {
+    "id": "item:minecraft:iron_ingot",
+    "units": 65.0,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "nickel",
+    "units": 34.4,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "cobalt",
+    "units": 0.6,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 50.0,
+  "tMax": 230.0,
+  "pressure": 1.0,
+  "energy": 120.0,
+  "catalyst": "carbon monoxide (recycled)",
+  "reagents": []
+ },
+ {
+  "id": "meteoric_iridium",
+  "level": 8,
+  "machines": [
+   "mond_reactor"
+  ],
+  "project": "meteorite_analysis",
+  "feed": "iridium",
+  "products": [
+   {
+    "id": "item:periodic_elements:iridium",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 50.0,
+  "tMax": 230.0,
+  "pressure": 1.0,
+  "energy": 20.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "meteoric_platinum",
+  "level": 8,
+  "machines": [
+   "mond_reactor"
+  ],
+  "project": "meteorite_analysis",
+  "feed": "platinum",
+  "products": [
+   {
+    "id": "item:periodic_elements:platinum",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 50.0,
+  "tMax": 230.0,
+  "pressure": 1.0,
+  "energy": 20.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "heavy_water_electrolysis",
+  "level": 8,
+  "machines": [
+   "electrolysis_cell"
+  ],
+  "project": "fusion_power",
+  "feed": "heavy_water",
+  "products": [
+   {
+    "id": "deuterium",
+    "units": 20.1,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "oxygen",
+    "units": 79.9,
+    "vented": true,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 20.0,
+  "tMax": 100.0,
+  "pressure": 1.0,
+  "energy": 1650.0,
+  "catalyst": "direct current",
+  "reagents": []
+ },
+ {
+  "id": "ilmenite_hydrogen_reduction",
+  "level": 9,
+  "machines": [
+   "reduction_crucible",
+   "sintering_furnace"
+  ],
+  "project": "lunar_oxygen",
+  "feed": "ilmenite",
+  "products": [
+   {
+    "id": "iron",
+    "units": 36.8,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 52.6,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "water",
+    "units": 11.9,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 900.0,
+  "tMax": 1050.0,
+  "pressure": 1.0,
+  "energy": 60.0,
+  "catalyst": "",
+  "reagents": [
+   {
+    "id": "hydrogen",
+    "units": 1.33
+   }
+  ]
+ },
+ {
+  "id": "regolith_degassing",
+  "level": 9,
+  "machines": [
+   "sintering_furnace"
+  ],
+  "project": "helium_3_mining",
+  "feed": "helium_3",
+  "products": [
+   {
+    "id": "helium_3",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 600.0,
+  "tMax": 800.0,
+  "pressure": 1.0,
+  "energy": 40.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "molten_regolith_electrolysis",
+  "level": 9,
+  "machines": [
+   "electric_arc_furnace"
+  ],
+  "project": "lunar_oxygen",
+  "feed": "iron_ii_oxide",
+  "products": [
+   {
+    "id": "iron",
+    "units": 77.7,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "oxygen",
+    "units": 22.3,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 1600.0,
+  "tMax": 1700.0,
+  "pressure": 1.0,
+  "energy": 380.0,
+  "catalyst": "direct current",
+  "reagents": []
+ },
+ {
+  "id": "martian_carbon_dioxide",
+  "level": 9,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "martian_oxygen",
+  "feed": "carbon_dioxide",
+  "products": [
+   {
+    "id": "item:periodic_elements:carbon_dioxide",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 100.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "solid_oxide_electrolysis",
+  "level": 9,
+  "machines": [
+   "electrolysis_cell"
+  ],
+  "project": "martian_oxygen",
+  "feed": "carbon_dioxide",
+  "products": [
+   {
+    "id": "carbon_monoxide",
+    "units": 63.6,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "oxygen",
+    "units": 36.4,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 750.0,
+  "tMax": 850.0,
+  "pressure": 1.0,
+  "energy": 643.0,
+  "catalyst": "direct current",
+  "reagents": []
+ },
+ {
+  "id": "sabatier_reaction",
+  "level": 9,
+  "machines": [
+   "high_pressure_reactor"
+  ],
+  "project": "sabatier_process",
+  "feed": "carbon_dioxide",
+  "products": [
+   {
+    "id": "methane",
+    "units": 36.4,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "water",
+    "units": 81.9,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 300.0,
+  "tMax": 400.0,
+  "pressure": 1.0,
+  "energy": 40.0,
+  "catalyst": "nickel",
+  "reagents": [
+   {
+    "id": "hydrogen",
+    "units": 18.3
+   }
+  ]
+ },
+ {
+  "id": "methane_liquefaction",
+  "level": 9,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "methalox_rockets",
+  "feed": "methane",
+  "products": [
+   {
+    "id": "liquid_methane",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 300.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "superconductor_synthesis",
+  "level": 10,
+  "machines": [
+   "high_pressure_reactor"
+  ],
+  "project": "room_temperature_superconductivity",
+  "feed": "lutetium",
+  "products": [
+   {
+    "id": "room_temperature_superconductor",
+    "units": 101.7,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 20.0,
+  "tMax": 100.0,
+  "pressure": 10000.0,
+  "energy": 800.0,
+  "catalyst": "",
+  "reagents": [
+   {
+    "id": "hydrogen",
+    "units": 1.7
+   }
+  ]
+ },
+ {
+  "id": "unbihexium_synthesis",
+  "level": 10,
+  "machines": [
+   "heavy_ion_accelerator"
+  ],
+  "project": "island_of_stability",
+  "feed": "curium",
+  "products": [
+   {
+    "id": "item:periodic_elements:curium",
+    "units": 90.0,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "item:periodic_elements:unbihexium",
+    "units": 10.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 20.0,
+  "tMax": 100.0,
+  "pressure": 1.0,
+  "energy": 50000.0,
+  "catalyst": "vacuum",
+  "reagents": [
+   {
+    "id": "chromium",
+    "units": 0.1
+   }
+  ]
+ },
+ {
+  "id": "hydrogen_metallization",
+  "level": 10,
+  "machines": [
+   "high_pressure_reactor"
+  ],
+  "project": "metallic_hydrogen",
+  "feed": "liquid_hydrogen",
+  "products": [
+   {
+    "id": "metallic_hydrogen",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": -260.0,
+  "tMax": -250.0,
+  "pressure": 5000000.0,
+  "energy": 2000.0,
+  "catalyst": "diamond anvil",
+  "reagents": []
+ },
+ {
+  "id": "antihydrogen_trapping",
+  "level": 10,
+  "machines": [
+   "heavy_ion_accelerator"
+  ],
+  "project": "antimatter_containment",
+  "feed": "hydrogen",
+  "products": [
+   {
+    "id": "hydrogen",
+    "units": 99.0,
+    "vented": false,
+    "slag": false
+   },
+   {
+    "id": "antihydrogen",
+    "units": 1.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": -270.0,
+  "tMax": -260.0,
+  "pressure": 1.0,
+  "energy": 100000.0,
+  "catalyst": "vacuum",
+  "reagents": []
+ },
+ {
+  "id": "venus_sulfur_dioxide",
+  "level": 10,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "venus_aerostat",
+  "feed": "sulfur_dioxide",
+  "products": [
+   {
+    "id": "item:periodic_elements:sulfur_dioxide",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 100.0,
+  "catalyst": "",
+  "reagents": []
+ },
+ {
+  "id": "venus_sulfuric_acid",
+  "level": 10,
+  "machines": [
+   "air_liquefier"
+  ],
+  "project": "venus_aerostat",
+  "feed": "sulfuric_acid",
+  "products": [
+   {
+    "id": "item:periodic_elements:sulfuric_acid",
+    "units": 100.0,
+    "vented": false,
+    "slag": false
+   }
+  ],
+  "carbon": 0.0,
+  "tMin": 0.0,
+  "tMax": 40.0,
+  "pressure": 1.0,
+  "energy": 100.0,
+  "catalyst": "",
+  "reagents": []
  }
 ]

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/element_analyzer",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:integrated_circuit"
+  },
+  "title": {
+   "translate": "research.periodic_elements.ore_seeking"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.ore_seeking.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.heavy_drill"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.element_analyzer"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

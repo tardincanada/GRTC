@@ -62,6 +62,8 @@ public final class AtlasClient {
 	static long contactsAt;
 	static AtlasData.Marker route;
 
+	private static net.minecraft.registry.RegistryKey<net.minecraft.world.World> shownWorld;
+
 	private AtlasClient() {
 	}
 
@@ -90,6 +92,16 @@ public final class AtlasClient {
 		});
 		Minimap.register();
 		ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> client.execute(AtlasClient::clear));
+		// 3.65.0: each world has its own Atlas, so the drawing held here is dropped on going to another world
+		net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents.END_CLIENT_TICK.register(client -> {
+			var key = client.world == null ? null : client.world.getRegistryKey();
+			if (key != null && !key.equals(shownWorld)) {
+				if (shownWorld != null) {
+					clear();
+				}
+				shownWorld = key;
+			}
+		});
 		HudRenderCallback.EVENT.register((ctx, tick) -> compassBar(ctx));
 	}
 
@@ -127,8 +139,13 @@ public final class AtlasClient {
 		if (m.name().startsWith(Atlas.SHARED)) {
 			String[] parts = m.name().substring(Atlas.SHARED.length()).split("\n", 2);
 			String name = parts[0].equals(com.periodicelements.atlas.Satellites.DEATH)
-					? Text.translatable("gui.periodic_elements.atlas.death").getString() : parts[0];
+					? Text.translatable("gui.periodic_elements.atlas.death").getString()
+					: parts[0].equals(com.periodicelements.atlas.Satellites.METEOR)
+					? Text.translatable("gui.periodic_elements.atlas.meteor").getString() : parts[0];
 			return Text.translatable("gui.periodic_elements.atlas.shared", name, parts.length > 1 ? parts[1] : "").getString();
+		}
+		if (m.name().equals(com.periodicelements.atlas.Satellites.METEOR)) {
+			return Text.translatable("gui.periodic_elements.atlas.meteor").getString();
 		}
 		return m.name().equals(com.periodicelements.atlas.Satellites.DEATH)
 				? Text.translatable("gui.periodic_elements.atlas.death").getString() : m.name();

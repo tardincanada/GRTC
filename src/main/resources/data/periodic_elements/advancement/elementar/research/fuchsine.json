@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/aniline",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:aniline"
+  },
+  "title": {
+   "translate": "research.periodic_elements.fuchsine"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.fuchsine.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.aniline"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.prussian_blue"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -206,3 +206,8 @@ MINERALS = {
     "glowstone": ("Gloeiende kristaltrossen die aan het plafond van de Nether hangen; de mod leest ze als een zinksulfidefosfor, zoals op oude wijzerplaten.", None, None, None),
     "end_stone": ("Bleke steen van de zwevende eilanden van het End; de voorgestelde samenstelling lijkt op maangesteente.", None, None, None),
 }
+
+# 3.62.0: meteorites (tools/meteorites_i18n.py)
+import meteorites_i18n as _met  # noqa: E402
+GROUPS["meteorites"] = _met.GROUP_I18N["nl_nl"]
+MINERALS.update({k: v + (None,) for k, v in _met.MINERALS_I18N["nl_nl"].items()})

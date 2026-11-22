@@ -39,7 +39,17 @@ public class BiomeSaplingBlock extends SaplingBlock {
 	}
 
 	public boolean growsAt(WorldView world, BlockPos pos) {
-		return world.getBiome(pos).isIn(biomes) || com.periodicelements.shrubs.Greenhouse.allows(world, pos, climate);
+		return inBiome(world, pos) || com.periodicelements.shrubs.Greenhouse.allows(world, pos, climate);
+	}
+
+	/** In one of its own biomes (3.54.0, for the look-at warning). */
+	public boolean inBiome(WorldView world, BlockPos pos) {
+		return world.getBiome(pos).isIn(biomes);
+	}
+
+	/** The greenhouse climate it needs away from its biomes. */
+	public String climate() {
+		return climate;
 	}
 
 	/** The biomes this sapling grows in, by their game names ("Jungle, Sparse Jungle"). */

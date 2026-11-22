@@ -6,6 +6,8 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Fertilizable;
 import net.minecraft.block.PlantBlock;
 import net.minecraft.block.ShapeContext;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.BlockStateComponent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -20,6 +22,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.Property;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.text.Text;
@@ -47,6 +50,9 @@ import java.util.function.Supplier;
  * Ripe (age 3), a right-click picks its product and it goes back to age 1; shears on a bush of age 2 or more cut a
  * cutting (its item) and it goes back to age 1. Thorny kinds prick whoever walks through them (3.22.0, Guilherme:
  * a little damage like the sweet berry bush, without slowing them down).
+ * 3.56.0 (Guilherme): shears cut one or two cuttings, and say so when the bush is too young; a sneaking right-click
+ * with a shovel lifts the whole bush with its root ball ({@link #uproot}), which keeps its age when replanted; breaking
+ * a bush always gives a cutting (loot table).
  */
 public class ShrubBlock extends PlantBlock implements Fertilizable {
 	public static final IntProperty AGE = Properties.AGE_3;
@@ -100,7 +106,12 @@ public class ShrubBlock extends PlantBlock implements Fertilizable {
 
 	/** In its biomes, or in a greenhouse of the right climate. */
 	public boolean growsAt(WorldView world, BlockPos pos) {
-		return world.getBiome(pos).isIn(biomes) || Greenhouse.allows(world, pos, climate);
+		return inBiome(world, pos) || Greenhouse.allows(world, pos, climate);
+	}
+
+	/** In one of its own biomes (3.54.0, for the look-at warning). */
+	public boolean inBiome(WorldView world, BlockPos pos) {
+		return world.getBiome(pos).isIn(biomes);
 	}
 
 	public Text biomeNames() {
@@ -141,7 +152,8 @@ public class ShrubBlock extends PlantBlock implements Fertilizable {
 	@Override
 	protected void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
 		int age = state.get(AGE);
-		if (age < 3 && random.nextInt(5) == 0 && world.getBaseLightLevel(pos.up(), 0) >= 9 && growsAt(world, pos)) {
+		if (age < 3 && random.nextInt(5) == 0 && world.getBaseLightLevel(pos.up(), 0) >= 9 && growsAt(world, pos)
+				&& com.periodicelements.space.Vacuum.hasAir(world, pos)) {
 			world.setBlockState(pos, state.with(AGE, age + 1), Block.NOTIFY_LISTENERS);
 			world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(state));
 		}
@@ -180,9 +192,15 @@ public class ShrubBlock extends PlantBlock implements Fertilizable {
 	@Override
 	protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player,
 											 Hand hand, BlockHitResult hit) {
-		if (stack.isOf(Items.SHEARS) && state.get(AGE) >= 2) {
+		if (stack.isOf(Items.SHEARS) && state.get(AGE) < 2) {
 			if (!world.isClient) {
-				dropStack(world, pos, new ItemStack(cutting));
+				player.sendMessage(Text.translatable("gui.periodic_elements.shrub.too_young"), true);
+			}
+			return ItemActionResult.success(world.isClient);
+		}
+		if (stack.isOf(Items.SHEARS)) {
+			if (!world.isClient) {
+				dropStack(world, pos, new ItemStack(cutting, 1 + world.random.nextInt(2)));
 				world.playSound(null, pos, SoundEvents.ENTITY_SHEEP_SHEAR, SoundCategory.BLOCKS, 1.0f, 1.2f);
 				world.setBlockState(pos, state.with(AGE, 1), Block.NOTIFY_LISTENERS);
 				stack.damage(1, player, LivingEntity.getSlotForHand(hand));
@@ -194,6 +212,37 @@ public class ShrubBlock extends PlantBlock implements Fertilizable {
 		}
 		return harvest(state, world, pos, player) ? ItemActionResult.success(world.isClient)
 				: ItemActionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
+	}
+
+	/**
+	 * Lifts the bush whole, with its root ball (3.56.0): the player gets its cutting item carrying the bush's block
+	 * state, so it is replanted at the same age (and a hydrangea keeps its colour). No loot drops.
+	 */
+	public static ItemStack rootBall(BlockState state) {
+		ShrubBlock bush = (ShrubBlock) state.getBlock();
+		BlockStateComponent component = BlockStateComponent.DEFAULT;
+		for (Property<?> p : state.getProperties()) {
+			component = with(component, state, p);
+		}
+		ItemStack stack = new ItemStack(bush.cutting());
+		stack.set(DataComponentTypes.BLOCK_STATE, component);
+		return stack;
+	}
+
+	private static <T extends Comparable<T>> BlockStateComponent with(BlockStateComponent c, BlockState state, Property<T> p) {
+		return c.with(p, state.get(p));
+	}
+
+	/** Sneaking right-click with a shovel: takes the bush up with its root ball. Server side only. */
+	public static void uproot(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand) {
+		ItemStack ball = rootBall(state);
+		world.removeBlock(pos, false);
+		world.playSound(null, pos, SoundEvents.BLOCK_ROOTED_DIRT_BREAK, SoundCategory.BLOCKS, 1.0f, 1.0f);
+		world.emitGameEvent(GameEvent.BLOCK_DESTROY, pos, GameEvent.Emitter.of(player, state));
+		player.getStackInHand(hand).damage(1, player, LivingEntity.getSlotForHand(hand));
+		if (!player.getInventory().insertStack(ball)) {
+			player.dropItem(ball, false);
+		}
 	}
 
 	@Override

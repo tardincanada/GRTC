@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "periodic_elements:block/life_support_side",
+    "north": "periodic_elements:block/life_support_front",
+    "south": "periodic_elements:block/life_support_side",
+    "east": "periodic_elements:block/life_support_side",
+    "west": "periodic_elements:block/life_support_side",
+    "up": "periodic_elements:block/life_support_top",
+    "down": "periodic_elements:block/life_support_top"
+  }
+}

@@ -101,7 +101,8 @@ public final class Minimap {
 		for (AtlasData.Marker m : AtlasClient.shared) dot(ctx, x0 + half + (m.x() + 0.5 - px), y0 + half + (m.z() + 0.5 - pz), 0xFF40A0FF);
 		for (AtlasData.Marker m : AtlasClient.markers) {
 			boolean death = m.name().equals(com.periodicelements.atlas.Satellites.DEATH);
-			dot(ctx, x0 + half + (m.x() + 0.5 - px), y0 + half + (m.z() + 0.5 - pz), death ? 0xFFB0B0B0 : 0xFFE03C28);
+			boolean meteor = m.name().equals(com.periodicelements.atlas.Satellites.METEOR);
+			dot(ctx, x0 + half + (m.x() + 0.5 - px), y0 + half + (m.z() + 0.5 - pz), death ? 0xFFB0B0B0 : meteor ? 0xFFFF9030 : 0xFFE03C28);
 		}
 		for (AtlasPayloads.Contact c : AtlasClient.liveContacts()) {
 			int cx = (int) (x0 + half + (c.x() + 0.5 - px)), cy = (int) (y0 + half + (c.z() + 0.5 - pz));

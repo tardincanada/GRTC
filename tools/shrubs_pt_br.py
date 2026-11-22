@@ -137,10 +137,7 @@ GUIDE = [
     "# Arbustos",
     "Arbustos crescem nativos em todos os biomas terrestres, de três a cinco tipos em cada um, e como as árvores cada um só "
     "cresce nos seus biomas. Um arbusto leva uns vinte minutos para amadurecer; farinha de osso acelera.",
-    "Clique com o botão direito num arbusto maduro para colher o que ele dá: folhas, sementes, frutos, raízes ou hastes. "
-    "Ele continua plantado e amadurece de novo. Tesoura num arbusto crescido corta uma estaca para plantar; algumas "
-    "sementes, como a pimenta e a jojoba, também se plantam. Quebrar um arbusto dá um ou dois gravetos, e a colheita se "
-    "ele estava maduro.",
+    'Clique com o botão direito num arbusto maduro para colher o que ele dá: folhas, sementes, frutos, raízes ou hastes. Ele continua plantado e amadurece de novo. Tesoura num arbusto crescido corta uma ou duas estacas para plantar; algumas sementes, como a pimenta e a jojoba, também se plantam. Para mudar um arbusto de lugar, agache e clique nele com o botão direito segurando uma pá: ele sai inteiro, com torrão, e volta no mesmo tamanho quando replantado. Quebrar um arbusto dá uma estaca, um ou dois gravetos, e a colheita se ele estava maduro.',
     "# Estufas",
     "Numa estufa um arbusto ou uma muda de árvore cresce longe dos seus biomas. A estufa é um cômodo fechado, de até 32 "
     "por 32 blocos e 32 de altura, com entrada só por porta ou alçapão, e teto todo de vidro ou painel de vidro. Arbustos "

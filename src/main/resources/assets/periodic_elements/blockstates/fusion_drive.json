@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "legs=false,worn=false": {
+      "model": "periodic_elements:block/fusion_drive"
+    },
+    "legs=false,worn=true": {
+      "model": "periodic_elements:block/fusion_drive_worn"
+    },
+    "legs=true,worn=false": {
+      "model": "periodic_elements:block/fusion_drive_legs"
+    },
+    "legs=true,worn=true": {
+      "model": "periodic_elements:block/fusion_drive_legs_worn"
+    }
+  }
+}

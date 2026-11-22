@@ -107,6 +107,7 @@ public final class Radiation {
 		double near = Radioactivity.setting("carriedDistance");
 		double rate = carried / (near * near);
 		rate += surroundings(player.getServerWorld(), player.getPos().add(0, 1, 0));
+		rate += com.periodicelements.space.Vacuum.cosmic(player);   // 3.65.0: cosmic rays on airless worlds
 		return rate;
 	}
 

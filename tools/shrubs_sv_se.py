@@ -132,9 +132,7 @@ GUIDE = [
     "# Buskar",
     "Buskar växer vilt i varje landbiom, tre till fem sorter i varje, och liksom träden växer var och en bara i sina egna "
     "biom. En buske mognar på ungefär tjugo minuter; benmjöl skyndar på.",
-    "Högerklicka på en mogen buske för att plocka det den ger: blad, frön, frukter, rötter eller stjälkar. Den står kvar "
-    "och mognar igen. En sax på en fullvuxen buske klipper en stickling att plantera; vissa frön, som peppar och jojoba, "
-    "kan också sås. Att bryta en buske ger en eller två pinnar, och skörden om den var mogen.",
+    'Högerklicka på en mogen buske för att plocka det den ger: blad, frön, frukter, rötter eller stjälkar. Den står kvar och mognar igen. En sax på en fullvuxen buske klipper en eller två sticklingar att plantera; vissa frön, som peppar och jojoba, kan också sås. För att flytta en buske, smyg och högerklicka med en spade: den kommer upp hel med rotklump och behåller sin storlek när den planteras om. Att bryta en buske ger en stickling, en eller två pinnar, och skörden om den var mogen.',
     "# Växthus",
     "I ett växthus växer en buske eller en trädplanta långt från sina biom. Ett växthus är ett slutet rum, upp till 32 "
     "gånger 32 block och 32 högt, med ingång bara genom en dörr eller fallucka och ett tak helt av glas eller glasrutor. "

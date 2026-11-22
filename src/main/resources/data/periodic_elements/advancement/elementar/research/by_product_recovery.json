@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/gas_compression",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:gas_recovery_hood"
+  },
+  "title": {
+   "translate": "research.periodic_elements.by_product_recovery"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.by_product_recovery.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.coking"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.gas_compression"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

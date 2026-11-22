@@ -1,0 +1,10 @@
+{
+  "type": "periodic_elements:mercury",
+  "generator": {
+    "type": "periodic_elements:mercury",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "periodic_elements:mercury"
+    }
+  }
+}

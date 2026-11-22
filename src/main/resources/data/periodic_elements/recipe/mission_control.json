@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "CSC",
+    "TTT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:space_centre"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:mission_control",
+    "count": 1
+  }
+}

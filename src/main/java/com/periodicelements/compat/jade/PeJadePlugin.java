@@ -50,6 +50,7 @@ public class PeJadePlugin implements IWailaPlugin {
 	public static final Identifier POWER = Identifier.of(NS, "power");
 	public static final Identifier TANK = Identifier.of(NS, "storage_tank");
 	public static final Identifier COMPOSITION = Identifier.of(NS, "composition");
+	public static final Identifier PLANT = Identifier.of(NS, "plant_growth");
 	/** How many elements the short composition line names (more with Jade's "details" key, shift by default). */
 	static final int SHORT = 3, DETAILED = 8;
 
@@ -68,6 +69,8 @@ public class PeJadePlugin implements IWailaPlugin {
 		registration.registerBlockComponent(DescribeView.TANK_VIEW, StorageTankBlock.class);
 		registration.registerBlockComponent(DescribeView.TANK_VIEW, com.periodicelements.fluid.TankBlocks.Controller.class);
 		registration.registerBlockComponent(CompositionView.INSTANCE, Block.class);
+		registration.registerBlockComponent(PlantView.INSTANCE, com.periodicelements.trees.BiomeSaplingBlock.class);
+		registration.registerBlockComponent(PlantView.INSTANCE, com.periodicelements.shrubs.ShrubBlock.class);
 	}
 
 	// --- machines ------------------------------------------------------------------------------------------------
@@ -204,6 +207,25 @@ public class PeJadePlugin implements IWailaPlugin {
 		@Override
 		public Identifier getUid() {
 			return uid;
+		}
+	}
+
+	// --- plants that will not grow here (3.54.0) -----------------------------------------------------------------
+
+	enum PlantView implements IBlockComponentProvider {
+		INSTANCE;
+
+		@Override
+		public void appendTooltip(ITooltip tooltip, BlockAccessor accessor, IPluginConfig config) {
+			String key = com.periodicelements.client.PlantWarningHud.keyAt(accessor.getPosition());
+			if (key != null) {
+				tooltip.add(Text.translatable(key).formatted(Formatting.RED));
+			}
+		}
+
+		@Override
+		public Identifier getUid() {
+			return PLANT;
 		}
 	}
 

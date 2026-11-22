@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/room_temperature_superconductivity",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:annihilation_reactor"
+  },
+  "title": {
+   "translate": "research.periodic_elements.antimatter_containment"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.antimatter_containment.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.room_temperature_superconductivity"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.heavy_ion_accelerator"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

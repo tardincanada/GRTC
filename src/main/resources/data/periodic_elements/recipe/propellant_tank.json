@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aluminium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:propellant_tank",
+    "count": 2
+  }
+}

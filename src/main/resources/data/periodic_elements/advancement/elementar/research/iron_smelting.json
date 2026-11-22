@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/bronze_alloying",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:bloomery"
+  },
+  "title": {
+   "translate": "research.periodic_elements.iron_smelting"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.iron_smelting.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.bronze_alloying"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.bellows"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

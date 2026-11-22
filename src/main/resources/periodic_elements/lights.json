@@ -90,6 +90,30 @@
     90
    ],
    "note": "NEW: small amber panel lamps of an electric machine; no flame, no heat glow"
+  },
+  "fusion_plasma": {
+   "rgb": [
+    255,
+    130,
+    230
+   ],
+   "note": "NEW (3.63.0): pink-violet glow of a deuterium-tritium plasma (Balmer lines); steady, no flicker"
+  },
+  "shield_aurora": {
+   "rgb": [
+    120,
+    255,
+    180
+   ],
+   "note": "NEW (3.67.0, fiction): faint aurora green of a Magnetic Shield's field, where charged particles strike it; steady, slowly pulsing if the shader can"
+  },
+  "annihilation": {
+   "rgb": [
+    236,
+    236,
+    255
+   ],
+   "note": "NEW (3.67.0, fiction): hard blue-white light of matter meeting antimatter in an Annihilation Reactor; steady, very bright core"
   }
  },
  "lights": [
@@ -661,6 +685,20 @@
    "note": "Power block"
   },
   {
+   "id": "periodic_elements:tokamak",
+   "state": "lit=true",
+   "kind": "fusion_plasma",
+   "light": 7,
+   "note": "Power block"
+  },
+  {
+   "id": "periodic_elements:annihilation_reactor",
+   "state": "lit=true",
+   "kind": "annihilation",
+   "light": 7,
+   "note": "Power block"
+  },
+  {
    "id": "periodic_elements:sodium_lamp",
    "state": "lit=true",
    "kind": "sodium_low_pressure",
@@ -714,6 +752,26 @@
    "kind": "cherenkov",
    "light": 4,
    "note": "Cobalt-60 gamma irradiator"
+  },
+  {
+   "id": "periodic_elements:vacuum_vessel",
+   "state": "lit=true",
+   "kind": "fusion_plasma",
+   "light": 13,
+   "note": "3.63.0: wall of a Tokamak's ring while its plasma burns"
+  },
+  {
+   "id": "periodic_elements:life_support",
+   "state": "lit=true",
+   "kind": "indicator_lamp",
+   "light": 6,
+   "note": "3.64.0: green lamp of a Life Support keeping a sealed room full of air"
+  },
+  {
+   "id": "periodic_elements:magnetic_shield",
+   "kind": "shield_aurora",
+   "light": 7,
+   "note": "3.67.0 (fiction): always lit, glow of its field"
   },
   {
    "id": "periodic_elements:carbide_lamp",

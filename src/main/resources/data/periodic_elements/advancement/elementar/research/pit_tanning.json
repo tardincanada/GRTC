@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/leather_tanning",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:tanning_pit"
+  },
+  "title": {
+   "translate": "research.periodic_elements.pit_tanning"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.pit_tanning.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.leather_tanning"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

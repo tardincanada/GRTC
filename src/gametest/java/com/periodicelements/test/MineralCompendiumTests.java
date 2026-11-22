@@ -72,7 +72,7 @@ public class MineralCompendiumTests implements FabricGameTest {
 
 	@GameTest(templateName = EMPTY_STRUCTURE, batchId = "mineral_compendium_data")
 	public void everyMineralIsWellFormed(TestContext ctx) {
-		check(ctx, CompendiumData.MINERALS.size() == 66, "expected 66 minerals, found " + CompendiumData.MINERALS.size());
+		check(ctx, CompendiumData.MINERALS.size() == 69, "expected 69 minerals (3.62.0: three meteorites), found " + CompendiumData.MINERALS.size());
 		Set<net.minecraft.block.Block> seen = new HashSet<>();
 		int ores = 0, other = 0;
 		for (CompendiumData.Tree t : CompendiumData.MINERALS) {
@@ -80,9 +80,9 @@ public class MineralCompendiumTests implements FabricGameTest {
 			check(ctx, m != null && t.kind().equals(CompendiumData.MINERAL), t.id() + " is not a mineral");
 			check(ctx, CompendiumData.GROUPS.contains(m.group()), t.id() + " is in an unknown group " + m.group());
 			check(ctx, CompendiumData.CLASS_GROUPS.contains(m.section(true)), t.id() + " has an unknown class " + m.cls());
-			boolean rock = m.group().equals("rocks") || m.group().equals("sediments");
-			check(ctx, rock == (m.cls() != null), t.id() + ": only rocks and sediments have a class");
-			check(ctx, rock == m.origin(), t.id() + ": only rocks and sediments tell their origin");
+			boolean rock = m.group().equals("rocks") || m.group().equals("sediments") || m.group().equals("meteorites");
+			check(ctx, rock == (m.cls() != null), t.id() + ": only rocks, sediments and meteorites have a class");
+			check(ctx, rock == m.origin(), t.id() + ": only rocks, sediments and meteorites tell their origin");
 			check(ctx, m.real() == !m.group().equals("other_worlds"), t.id() + " is real in another world");
 			if (m.group().equals("ores")) {
 				ores++;

@@ -1,0 +1,56 @@
+{
+ "parent": "periodic_elements:elementar/research/superconductors",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:heavy_ion_accelerator"
+  },
+  "title": {
+   "translate": "research.periodic_elements.heavy_ion_accelerator"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.heavy_ion_accelerator.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.superconductors"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.integrated_circuits"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.mendelevium"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

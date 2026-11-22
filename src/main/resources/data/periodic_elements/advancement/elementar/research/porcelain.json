@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/blast_furnace",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:porcelain_kiln"
+  },
+  "title": {
+   "translate": "research.periodic_elements.porcelain"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.porcelain.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.blast_furnace"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

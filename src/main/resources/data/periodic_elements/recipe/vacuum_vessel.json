@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BTB",
+    "S S",
+    "BTB"
+  ],
+  "key": {
+    "B": {
+      "item": "periodic_elements:beryllium"
+    },
+    "T": {
+      "item": "periodic_elements:tungsten"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:vacuum_vessel",
+    "count": 4
+  }
+}

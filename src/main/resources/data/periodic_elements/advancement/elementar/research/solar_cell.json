@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/crystal_growth",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:solar_panel"
+  },
+  "title": {
+   "translate": "research.periodic_elements.solar_cell"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.solar_cell.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.crystal_growth"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.dynamo"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

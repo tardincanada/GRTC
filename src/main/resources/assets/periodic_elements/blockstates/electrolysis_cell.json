@@ -49,10 +49,10 @@
       "model": "periodic_elements:block/electrolysis_cell_active_13"
     },
     "facing=north,active=true,mode=14": {
-      "model": "periodic_elements:block/electrolysis_cell_active"
+      "model": "periodic_elements:block/electrolysis_cell_active_14"
     },
     "facing=north,active=true,mode=15": {
-      "model": "periodic_elements:block/electrolysis_cell_active"
+      "model": "periodic_elements:block/electrolysis_cell_active_15"
     },
     "facing=east,lit=false,active=false": {
       "model": "periodic_elements:block/electrolysis_cell",
@@ -119,11 +119,11 @@
       "y": 90
     },
     "facing=east,active=true,mode=14": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_14",
       "y": 90
     },
     "facing=east,active=true,mode=15": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_15",
       "y": 90
     },
     "facing=south,lit=false,active=false": {
@@ -191,11 +191,11 @@
       "y": 180
     },
     "facing=south,active=true,mode=14": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_14",
       "y": 180
     },
     "facing=south,active=true,mode=15": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_15",
       "y": 180
     },
     "facing=west,lit=false,active=false": {
@@ -263,11 +263,11 @@
       "y": 270
     },
     "facing=west,active=true,mode=14": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_14",
       "y": 270
     },
     "facing=west,active=true,mode=15": {
-      "model": "periodic_elements:block/electrolysis_cell_active",
+      "model": "periodic_elements:block/electrolysis_cell_active_15",
       "y": 270
     }
   }

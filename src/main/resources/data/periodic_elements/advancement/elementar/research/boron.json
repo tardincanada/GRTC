@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/electrolysis",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:reduction_crucible"
+  },
+  "title": {
+   "translate": "research.periodic_elements.boron"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.boron.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.acid_digestion"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.electrolysis"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

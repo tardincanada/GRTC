@@ -1033,6 +1033,18 @@
   {
    "id": "international_research_centre",
    "level": 7
+  },
+  {
+   "id": "space_centre",
+   "level": 8
+  },
+  {
+   "id": "mission_control",
+   "level": 9
+  },
+  {
+   "id": "frontier_laboratory",
+   "level": 10
   }
  ],
  "fuels": [
@@ -1457,6 +1469,37 @@
    "id": "wind_turbine",
    "level": 7,
    "project": "permanent_magnets"
+  },
+  {
+   "kind": "fusion",
+   "deuterium": "periodic_elements:deuterium",
+   "tritium": "periodic_elements:tritium_vial",
+   "lithium": "periodic_elements:lithium",
+   "coolant": "periodic_elements:helium",
+   "helium3": "periodic_elements:helium_3",
+   "helium3Gain": 1.2,
+   "pulseTicks": 12000,
+   "coolantPulses": 4,
+   "ignition": 20000.0,
+   "chargeRate": 200.0,
+   "gain": 250.0,
+   "output": 250.0,
+   "store": 25000.0,
+   "id": "tokamak",
+   "level": 8,
+   "project": "fusion_power"
+  },
+  {
+   "kind": "annihilation",
+   "fuel": "periodic_elements:antihydrogen",
+   "matter": "periodic_elements:hydrogen",
+   "ticksPerFuel": 24000,
+   "gain": 1000.0,
+   "output": 1000.0,
+   "store": 100000.0,
+   "id": "annihilation_reactor",
+   "level": 10,
+   "project": "antimatter_containment"
   }
  ],
  "wireReach": 64,

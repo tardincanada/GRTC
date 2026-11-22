@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ACA",
+    "ALA",
+    "PRP"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "L": {
+      "item": "periodic_elements:life_support"
+    },
+    "R": {
+      "item": "periodic_elements:parachute"
+    },
+    "P": {
+      "item": "periodic_elements:composite_plate"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:mercury_capsule",
+    "count": 1
+  }
+}

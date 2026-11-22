@@ -649,9 +649,18 @@ public class MachineBlockEntity extends BlockEntity implements NamedScreenHandle
 		if (power <= 1e-9) {
 			return;
 		}
+		// 3.66.0: an Air Liquefier on Mars breathes Martian air; on the Moon there is none to draw
+		Map<String, Double> intake = spec.intake();
+		if (com.periodicelements.space.Mars.is(world) && intake.containsKey("nitrogen")) {
+			intake = com.periodicelements.space.Mars.AIR;
+		} else if (com.periodicelements.space.Venus.is(world) && intake.containsKey("nitrogen")) {   // 3.68.0
+			intake = com.periodicelements.space.Venus.AIR;
+		} else if (com.periodicelements.space.Moon.airless(world) && !com.periodicelements.space.Vacuum.hasAir(world, pos)) {
+			return;
+		}
 		chargeTotal = 0;
 		pure.clear();
-		for (var e : spec.intake().entrySet()) {
+		for (var e : intake.entrySet()) {
 			charge.merge(e.getKey(), e.getValue(), Double::sum);
 			chargeTotal += e.getValue();
 		}
@@ -749,7 +758,13 @@ public class MachineBlockEntity extends BlockEntity implements NamedScreenHandle
 
 		// Fuel. Only light a new one while there is something to do.
 		boolean gas = selfHeated() && hasWork;
-		if (!spec.electric() && !gas && burnLeft <= 0 && hasWork && !banked) {
+		// 3.65.0: no oxygen, no flame: a fire goes out and no fuel lights where there is no air
+		boolean air = spec.electric() || com.periodicelements.space.Vacuum.hasAir(world, pos);
+		if (!air) {
+			burnLeft = 0;
+			gas = false;
+		}
+		if (!spec.electric() && !gas && burnLeft <= 0 && hasWork && !banked && air) {
 			ItemStack fuelStack = items.get(FUEL);
 			Reactions.Fuel fuel = Reactions.fuel(fuelStack);
 			if (fuel != null) {

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/national_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:anfo_charge"
+  },
+  "title": {
+   "translate": "research.periodic_elements.anfo"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.anfo.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.prilled_fertilizer"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.oil_refining"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

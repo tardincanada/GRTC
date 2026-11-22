@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "PCP",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "P": {
+      "item": "periodic_elements:room_temperature_superconductor"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:magnetic_shield",
+    "count": 1
+  }
+}

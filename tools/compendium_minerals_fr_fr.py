@@ -206,3 +206,8 @@ MINERALS = {
     "glowstone": ("Grappes de cristaux lumineux suspendues au plafond du Nether ; le mod les lit comme un phosphore de sulfure de zinc, comme les cadrans des vieilles montres.", None, None, None),
     "end_stone": ("Pierre pâle des îles flottantes de l'End ; sa composition proposée est proche de celle des roches lunaires.", None, None, None),
 }
+
+# 3.62.0: meteorites (tools/meteorites_i18n.py)
+import meteorites_i18n as _met  # noqa: E402
+GROUPS["meteorites"] = _met.GROUP_I18N["fr_fr"]
+MINERALS.update({k: v + (None,) for k, v in _met.MINERALS_I18N["fr_fr"].items()})

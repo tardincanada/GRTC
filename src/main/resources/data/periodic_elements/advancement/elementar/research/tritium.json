@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/isotope_enrichment",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:tritium_light"
+  },
+  "title": {
+   "translate": "research.periodic_elements.tritium"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.tritium.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.isotope_enrichment"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.nuclear_reactor"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

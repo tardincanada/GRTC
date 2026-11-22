@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/lead_smelting",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:cupel"
+  },
+  "title": {
+   "translate": "research.periodic_elements.silver_cupellation"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.silver_cupellation.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.copper_smelting"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.lead_smelting"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

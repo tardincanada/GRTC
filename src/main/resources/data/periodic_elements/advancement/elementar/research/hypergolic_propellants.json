@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/orbital_rocketry",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:hypergolic_engine"
+  },
+  "title": {
+   "translate": "research.periodic_elements.hypergolic_propellants"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.hypergolic_propellants.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.orbital_rocketry"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.ostwald_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

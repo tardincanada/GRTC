@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AHA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "H": {
+      "item": "periodic_elements:space_suit_helmet"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:thermal_suit_helmet",
+    "count": 1
+  }
+}

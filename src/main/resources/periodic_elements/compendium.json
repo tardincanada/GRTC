@@ -6643,6 +6643,60 @@
    "origin": false,
    "made": false,
    "mineral": false
+  },
+  {
+   "id": "chondrite",
+   "group": "meteorites",
+   "cls": "meteorites",
+   "icon": "periodic_elements:chondrite",
+   "blocks": [
+    "periodic_elements:chondrite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "iron_meteorite",
+   "group": "meteorites",
+   "cls": "meteorites",
+   "icon": "periodic_elements:iron_meteorite",
+   "blocks": [
+    "periodic_elements:iron_meteorite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": "(Fe,Ni)",
+   "system": "cubic",
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
+  },
+  {
+   "id": "carbonaceous_chondrite",
+   "group": "meteorites",
+   "cls": "meteorites",
+   "icon": "periodic_elements:carbonaceous_chondrite",
+   "blocks": [
+    "periodic_elements:carbonaceous_chondrite"
+   ],
+   "items": [],
+   "gives": [],
+   "formula": null,
+   "system": null,
+   "depth": null,
+   "real": true,
+   "origin": true,
+   "made": true,
+   "mineral": false
   }
  ],
  "animals": [

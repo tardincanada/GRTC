@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/geological_map",
+ "display": {
+  "icon": {
+   "id": "minecraft:paper"
+  },
+  "title": {
+   "translate": "research.periodic_elements.theory_of_the_earth"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.theory_of_the_earth.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.de_re_metallica"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.geological_map"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

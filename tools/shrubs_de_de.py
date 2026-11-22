@@ -138,10 +138,7 @@ GUIDE = [
     "# Sträucher",
     "Sträucher wachsen wild in jedem Landbiom, drei bis fünf Arten in jedem, und wie die Bäume wächst jeder nur in seinen "
     "Biomen. Ein Strauch braucht etwa zwanzig Minuten zum Reifen; Knochenmehl beschleunigt ihn.",
-    "Rechtsklick auf einen reifen Strauch erntet, was er gibt: Blätter, Samen, Früchte, Wurzeln oder Stängel. Er bleibt "
-    "stehen und reift wieder. Eine Schere an einem ausgewachsenen Strauch schneidet einen Steckling zum Pflanzen; manche "
-    "Samen, wie Pfeffer und Jojoba, lassen sich auch säen. Abbauen gibt ein oder zwei Stöcke und die Ernte, wenn er reif "
-    "war.",
+    'Rechtsklick auf einen reifen Strauch erntet, was er gibt: Blätter, Samen, Früchte, Wurzeln oder Stängel. Er bleibt stehen und reift wieder. Eine Schere an einem ausgewachsenen Strauch schneidet ein oder zwei Stecklinge zum Pflanzen; manche Samen, wie Pfeffer und Jojoba, lassen sich auch säen. Um einen Strauch umzusetzen, schleiche und mache einen Rechtsklick mit einer Schaufel: Er kommt ganz mit Wurzelballen heraus und behält beim Einpflanzen seine Größe. Abbauen gibt einen Steckling, ein oder zwei Stöcke und die Ernte, wenn er reif war.',
     "# Gewächshäuser",
     "In einem Gewächshaus wächst ein Strauch oder ein Setzling fern seiner Biome. Ein Gewächshaus ist ein geschlossener "
     "Raum, bis 32 mal 32 Blöcke und 32 hoch, nur durch eine Tür oder Falltür betreten, mit einem Dach ganz aus Glas oder "

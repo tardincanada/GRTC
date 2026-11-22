@@ -98,7 +98,7 @@ def load_substances(path, elements):
         assert s["state"] in STATES, s
         assert s["sector"] in SECTORS, s
         assert s["tier"] in TIERS, s
-        assert 0 <= s["level"] <= 7, s
+        assert 0 <= s["level"] <= 10, s
         assert len(s["use"]) <= 55, f"use text too long for a tooltip line: {s['id']}"
         s["composition"] = parse_formula(s["formula"], symbols)
         s["atoms"] = sum(s["composition"].values())

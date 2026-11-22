@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    "CIC",
+    "TTT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "I": {
+      "item": "periodic_elements:international_research_centre"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:space_centre",
+    "count": 1
+  }
+}

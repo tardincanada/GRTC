@@ -8824,6 +8824,784 @@
    }
   ]
  },
+ "periodic_elements:chondrite": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 380.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 230.0
+   },
+   {
+    "id": "kamacite",
+    "units": 160.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 100.0
+   },
+   {
+    "id": "iron_disulfide",
+    "units": 50.0
+   },
+   {
+    "id": "taenite",
+    "units": 30.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 22.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 18.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 9.0
+   },
+   {
+    "id": "iridium",
+    "units": 0.5
+   },
+   {
+    "id": "platinum",
+    "units": 0.5
+   }
+  ]
+ },
+ "periodic_elements:iron_meteorite": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "kamacite",
+    "units": 840.0
+   },
+   {
+    "id": "taenite",
+    "units": 146.0
+   },
+   {
+    "id": "iridium",
+    "units": 7.0
+   },
+   {
+    "id": "platinum",
+    "units": 7.0
+   }
+  ]
+ },
+ "periodic_elements:carbonaceous_chondrite": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 317.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 200.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 120.0
+   },
+   {
+    "id": "water",
+    "units": 120.0
+   },
+   {
+    "id": "magnetite",
+    "units": 100.0
+   },
+   {
+    "id": "iron_disulfide",
+    "units": 60.0
+   },
+   {
+    "id": "kerogen",
+    "units": 30.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 15.0
+   },
+   {
+    "id": "kamacite",
+    "units": 10.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 8.0
+   }
+  ]
+ },
+ "periodic_elements:lunar_regolith": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 430.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 170.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 110.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 100.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "ilmenite",
+    "units": 80.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 20.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 5.0
+   },
+   {
+    "id": "helium_3",
+    "units": 5.0
+   }
+  ]
+ },
+ "periodic_elements:anorthosite": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 440.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 310.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 175.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 10.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 5.0
+   }
+  ]
+ },
+ "periodic_elements:mare_basalt": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 400.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 160.0
+   },
+   {
+    "id": "ilmenite",
+    "units": 160.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 100.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 85.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 5.0
+   }
+  ]
+ },
+ "periodic_elements:lunar_ice": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "water",
+    "units": 700.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 129.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 51.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 33.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 24.0
+   },
+   {
+    "id": "ilmenite",
+    "units": 24.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 6.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 1.5
+   },
+   {
+    "id": "helium_3",
+    "units": 1.5
+   }
+  ]
+ },
+ "periodic_elements:kreep_basalt": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 480.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 150.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 100.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "monazite",
+    "units": 30.0
+   },
+   {
+    "id": "potassium_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 20.0
+   },
+   {
+    "id": "phosphorus_pentoxide",
+    "units": 15.0
+   },
+   {
+    "id": "zircon",
+    "units": 10.0
+   },
+   {
+    "id": "thorium_dioxide",
+    "units": 5.0
+   }
+  ]
+ },
+ "periodic_elements:martian_regolith": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 430.0
+   },
+   {
+    "id": "iron_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 70.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 60.0
+   },
+   {
+    "id": "calcium_sulfate",
+    "units": 60.0
+   },
+   {
+    "id": "olivine",
+    "units": 40.0
+   },
+   {
+    "id": "pyroxene",
+    "units": 40.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 10.0
+   },
+   {
+    "id": "calcium_perchlorate",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:martian_basalt": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "pyroxene",
+    "units": 380.0
+   },
+   {
+    "id": "olivine",
+    "units": 180.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 160.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 120.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 40.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:martian_sulfate": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "gypsum",
+    "units": 280.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 260.0
+   },
+   {
+    "id": "kieserite",
+    "units": 220.0
+   },
+   {
+    "id": "jarosite",
+    "units": 120.0
+   },
+   {
+    "id": "iron_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "calcium_sulfate",
+    "units": 40.0
+   }
+  ]
+ },
+ "periodic_elements:hematite_concretion": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "iron_oxide",
+    "units": 880.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 80.0
+   },
+   {
+    "id": "jarosite",
+    "units": 40.0
+   }
+  ]
+ },
+ "periodic_elements:martian_ice": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "water",
+    "units": 880.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 51.6
+   },
+   {
+    "id": "iron_oxide",
+    "units": 10.8
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 10.8
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 9.6
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 8.4
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 7.2
+   },
+   {
+    "id": "calcium_sulfate",
+    "units": 7.2
+   },
+   {
+    "id": "olivine",
+    "units": 4.8
+   },
+   {
+    "id": "pyroxene",
+    "units": 4.8
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 2.4
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 1.2
+   },
+   {
+    "id": "calcium_perchlorate",
+    "units": 1.2
+   }
+  ]
+ },
+ "periodic_elements:dry_ice": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "carbon_dioxide",
+    "units": 970.0
+   },
+   {
+    "id": "water",
+    "units": 30.0
+   }
+  ]
+ },
+ "periodic_elements:washed_martian_soil": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 440.0
+   },
+   {
+    "id": "iron_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 70.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 60.0
+   },
+   {
+    "id": "calcium_sulfate",
+    "units": 60.0
+   },
+   {
+    "id": "olivine",
+    "units": 40.0
+   },
+   {
+    "id": "pyroxene",
+    "units": 40.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:unbihexium": {
+  "amount": 111.1,
+  "parts": [
+   {
+    "id": "tungsten",
+    "units": 111.1
+   }
+  ]
+ },
+ "periodic_elements:mercurian_regolith": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 430.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 240.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 110.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 70.0
+   },
+   {
+    "id": "carbon",
+    "units": 40.0
+   },
+   {
+    "id": "sulfur",
+    "units": 30.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "pyroxene",
+    "units": 20.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:mercurian_crust": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 420.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 220.0
+   },
+   {
+    "id": "pyroxene",
+    "units": 100.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 100.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 60.0
+   },
+   {
+    "id": "carbon",
+    "units": 40.0
+   },
+   {
+    "id": "sulfur",
+    "units": 30.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:mercurian_hollows": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "silicon_dioxide",
+    "units": 460.0
+   },
+   {
+    "id": "magnesium_oxide",
+    "units": 260.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 120.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 90.0
+   },
+   {
+    "id": "sodium_oxide",
+    "units": 30.0
+   },
+   {
+    "id": "carbon",
+    "units": 20.0
+   },
+   {
+    "id": "sulfur",
+    "units": 10.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:venusian_basalt": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "pyroxene",
+    "units": 380.0
+   },
+   {
+    "id": "silicon_dioxide",
+    "units": 200.0
+   },
+   {
+    "id": "olivine",
+    "units": 150.0
+   },
+   {
+    "id": "aluminium_oxide",
+    "units": 120.0
+   },
+   {
+    "id": "iron_ii_oxide",
+    "units": 80.0
+   },
+   {
+    "id": "calcium_oxide",
+    "units": 40.0
+   },
+   {
+    "id": "iron_oxide",
+    "units": 20.0
+   },
+   {
+    "id": "titanium_dioxide",
+    "units": 10.0
+   }
+  ]
+ },
+ "periodic_elements:metallic_snow": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "lead_sulfide",
+    "units": 550.0
+   },
+   {
+    "id": "bismuth",
+    "units": 250.0
+   },
+   {
+    "id": "sulfur",
+    "units": 150.0
+   },
+   {
+    "id": "tellurium",
+    "units": 50.0
+   }
+  ]
+ },
+ "periodic_elements:venus_cloud": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "sulfuric_acid",
+    "units": 750.0
+   },
+   {
+    "id": "water",
+    "units": 250.0
+   }
+  ]
+ },
  "periodic_elements:mahogany_log": {
   "amount": 1000.0,
   "parts": [
@@ -66957,6 +67735,15 @@
    }
   ]
  },
+ "periodic_elements:antihydrogen": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "antihydrogen",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:antimony": {
   "amount": 111.11111111111111,
   "parts": [
@@ -67407,6 +68194,15 @@
    }
   ]
  },
+ "periodic_elements:calcium_perchlorate": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "calcium_perchlorate",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:calcium_sulfate": {
   "amount": 111.11111111111111,
   "parts": [
@@ -67848,6 +68644,15 @@
    }
   ]
  },
+ "periodic_elements:deuterium": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "deuterium",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:diammonium_phosphate": {
   "amount": 111.11111111111111,
   "parts": [
@@ -67889,6 +68694,15 @@
   "parts": [
    {
     "id": "diethyl_ether",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:dinitrogen_tetroxide": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "dinitrogen_tetroxide",
     "units": 111.111
    }
   ]
@@ -68388,6 +69202,15 @@
    }
   ]
  },
+ "periodic_elements:helium_3": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "helium_3",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:hemocyanin": {
   "amount": 111.11111111111111,
   "parts": [
@@ -68438,6 +69261,15 @@
   "parts": [
    {
     "id": "holmium_oxide",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:hydrazine": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "hydrazine",
     "units": 111.111
    }
   ]
@@ -68604,11 +69436,29 @@
    }
   ]
  },
+ "periodic_elements:jarosite": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "jarosite",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:jojoba_wax": {
   "amount": 111.11111111111111,
   "parts": [
    {
     "id": "jojoba_wax",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:kamacite": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "kamacite",
     "units": 111.111
    }
   ]
@@ -68636,6 +69486,15 @@
   "parts": [
    {
     "id": "kerosene",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:kieserite": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "kieserite",
     "units": 111.111
    }
   ]
@@ -68771,6 +69630,33 @@
   "parts": [
    {
     "id": "linalool",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:liquid_hydrogen": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "liquid_hydrogen",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:liquid_methane": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "liquid_methane",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:liquid_oxygen": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "liquid_oxygen",
     "units": 111.111
    }
   ]
@@ -68960,6 +69846,15 @@
   "parts": [
    {
     "id": "mercury_sulfide",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:metallic_hydrogen": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "metallic_hydrogen",
     "units": 111.111
    }
   ]
@@ -69257,6 +70152,15 @@
   "parts": [
    {
     "id": "oganesson",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:olivine": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "olivine",
     "units": 111.111
    }
   ]
@@ -69612,6 +70516,15 @@
    }
   ]
  },
+ "periodic_elements:pyroxene": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "pyroxene",
+    "units": 111.111
+   }
+  ]
+ },
  "periodic_elements:quinine": {
   "amount": 111.11111111111111,
   "parts": [
@@ -69707,6 +70620,15 @@
   "parts": [
    {
     "id": "roentgenium",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:room_temperature_superconductor": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "room_temperature_superconductor",
     "units": 111.111
    }
   ]
@@ -70175,6 +71097,15 @@
   "parts": [
    {
     "id": "superphosphate",
+    "units": 111.111
+   }
+  ]
+ },
+ "periodic_elements:taenite": {
+  "amount": 111.11111111111111,
+  "parts": [
+   {
+    "id": "taenite",
     "units": 111.111
    }
   ]
@@ -70863,6 +71794,24 @@
    }
   ]
  },
+ "periodic_elements:helium_3_cylinder": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "helium_3",
+    "units": 1000.0
+   }
+  ]
+ },
+ "periodic_elements:antihydrogen_cylinder": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "antihydrogen",
+    "units": 1000.0
+   }
+  ]
+ },
  "periodic_elements:carbon_monoxide_cylinder": {
   "amount": 1000.0,
   "parts": [
@@ -70877,6 +71826,15 @@
   "parts": [
    {
     "id": "hydrogen_fluoride",
+    "units": 1000.0
+   }
+  ]
+ },
+ "periodic_elements:deuterium_cylinder": {
+  "amount": 1000.0,
+  "parts": [
+   {
+    "id": "deuterium",
     "units": 1000.0
    }
   ]

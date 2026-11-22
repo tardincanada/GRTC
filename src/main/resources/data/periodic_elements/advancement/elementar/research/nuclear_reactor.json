@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/isotope_separation",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:nuclear_reactor"
+  },
+  "title": {
+   "translate": "research.periodic_elements.nuclear_reactor"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.nuclear_reactor.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.isotope_separation"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.van_arkel"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

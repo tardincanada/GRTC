@@ -66,7 +66,7 @@ public final class ModContent {
 
 	private static final String[][] STATION_DEFS = {{"potters_workshop", "1"}, {"alchemists_laboratory", "2"},
 			{"natural_philosophers_laboratory", "3"}, {"industrial_laboratory", "4"},
-			{"university_laboratory", "5"}, {"national_laboratory", "6"}, {"international_research_centre", "7"}};
+			{"university_laboratory", "5"}, {"national_laboratory", "6"}, {"international_research_centre", "7"}, {"space_centre", "8"}, {"mission_control", "9"}, {"frontier_laboratory", "10"}};
 
 	private ModContent() {
 	}
@@ -207,6 +207,7 @@ public final class ModContent {
 		Gear.register(ITEMS);
 		com.periodicelements.farm.Farm.register(ITEMS);
 		com.periodicelements.trees.Trees.register(ITEMS);
+		com.periodicelements.trees.LeafFall.registerVanilla();
 		com.periodicelements.shrubs.Shrubs.register(ITEMS);
 		com.periodicelements.crops.Crops.register(ITEMS);
 		com.periodicelements.mining.Mining.register(ITEMS);
@@ -219,6 +220,7 @@ public final class ModContent {
 		com.periodicelements.samplecase.SampleCase.register(ITEMS);
 		com.periodicelements.logistics.Logistics.register(ITEMS);
 		com.periodicelements.explore.Explore.register(ITEMS);
+		com.periodicelements.space.Space.register(ITEMS);   // 3.61.0 level 8: rockets
 		com.periodicelements.fauna.Fauna.register(ITEMS);
 
 		MACHINE_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE, id("machine"),

@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/research/molybdenum",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:tungsten_steel_ingot"
+  },
+  "title": {
+   "translate": "research.periodic_elements.high_speed_steel"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.high_speed_steel.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.molybdenum"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.tungsten"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.arc_furnace"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

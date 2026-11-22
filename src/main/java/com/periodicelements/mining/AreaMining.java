@@ -163,6 +163,11 @@ public final class AreaMining {
 	 * many broke. The aimed block always breaks (if the tool can pay for it).
 	 */
 	public static int harvest(ServerPlayerEntity player, ItemStack stack, BlockPos origin, Direction side) {
+		// 3.59.0: a cut tree falls by itself (LeafFall); while an area tool swings, it takes the blocks itself.
+		return com.periodicelements.trees.LeafFall.withoutFelling(() -> swing(player, stack, origin, side));
+	}
+
+	private static int swing(ServerPlayerEntity player, ItemStack stack, BlockPos origin, Direction side) {
 		ServerWorld world = player.getServerWorld();
 		if (!(stack.getItem() instanceof AreaTool tool)) {
 			return 0;

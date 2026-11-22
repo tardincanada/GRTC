@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SLS",
+    "L L",
+    "SLS"
+  ],
+  "key": {
+    "L": {
+      "item": "periodic_elements:lithium"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:lithium_blanket",
+    "count": 4
+  }
+}

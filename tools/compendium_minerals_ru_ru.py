@@ -206,3 +206,8 @@ MINERALS = {
     "glowstone": ("Светящиеся гроздья кристаллов, свисающие с потолка Незера; мод считает их люминофором из сульфида цинка, как на старых циферблатах.", None, None, None),
     "end_stone": ("Бледный камень парящих островов Энда; его предполагаемый состав близок к лунной породе.", None, None, None),
 }
+
+# 3.62.0: meteorites (tools/meteorites_i18n.py)
+import meteorites_i18n as _met  # noqa: E402
+GROUPS["meteorites"] = _met.GROUP_I18N["ru_ru"]
+MINERALS.update({k: v + (None,) for k, v in _met.MINERALS_I18N["ru_ru"].items()})

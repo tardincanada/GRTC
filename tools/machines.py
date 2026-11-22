@@ -8,6 +8,7 @@ substances, compositions and research tables, and writes:
 """
 import csv
 import json
+import math
 import random
 from pathlib import Path
 
@@ -26,6 +27,10 @@ STATIONS = {
     "national_laboratory": (6, "National Laboratory", "Research station for level 6: titanium, crystals, rare earths and the atom"),
     "international_research_centre": (7, "International Research Centre",
                                       "Research station for level 7: chips, superconductors and the last elements"),
+    "space_centre": (8, "Space Centre", "Research station for level 8, the Space Age: rockets, satellites and the road to other worlds"),
+    "mission_control": (9, "Mission Control", "Research station for level 9, Other Worlds: the Moon and Mars"),
+    "frontier_laboratory": (10, "Frontier Science Laboratory",
+                            "Research station for level 10, the Inner Planets: materials that do not exist yet, Mercury and Venus"),
 }
 
 # Machines powered by electricity from Voltaic Piles next to them instead of a fire.
@@ -134,6 +139,22 @@ POWER = {
                      "A direct-drive generator with neodymium magnets: current from the wind, more the higher it stands",
                      {"kind": "wind", "gain": 2.0, "output": 6.0, "store": 2000.0, "seaLevel": 64, "fullHeight": 128,
                       "rainFactor": 1.25, "thunderFactor": 1.5}),
+    # 3.63.0 (level 8): game-scaled fusion. A burn of deuterium + tritium lasts pulseTicks at 250 kJ per tick (about
+    # eight fission reactors); lighting the plasma first takes `ignition` kJ from the power blocks wired to it. Needs the
+    # 5 x 5 x 3 ring of Fusion parts round it (space/Fusion.java). Each burn turns one lithium into a tritium vial.
+    "tokamak": (8, "fusion_power", "Tokamak",
+                "Fusion reactor: needs its ring of magnets, deuterium, tritium and current from the wire to light the plasma",
+                {"kind": "fusion", "deuterium": "periodic_elements:deuterium", "tritium": "periodic_elements:tritium_vial",
+                 "lithium": "periodic_elements:lithium", "coolant": "periodic_elements:helium",
+                 "helium3": "periodic_elements:helium_3", "helium3Gain": 1.2,
+                 "pulseTicks": 12000, "coolantPulses": 4, "ignition": 20000.0, "chargeRate": 200.0,
+                 "gain": 250.0, "output": 250.0, "store": 25000.0}),
+    # 3.67.0 (fiction): matter meets antimatter and all of its mass becomes energy. One flask of antihydrogen lasts a day.
+    "annihilation_reactor": (10, "antimatter_containment", "Annihilation Reactor",
+                             "Fiction: antihydrogen from a Penning trap meets hydrogen; all the mass becomes energy",
+                             {"kind": "annihilation", "fuel": "periodic_elements:antihydrogen",
+                              "matter": "periodic_elements:hydrogen", "ticksPerFuel": 24000, "gain": 1000.0,
+                              "output": 1000.0, "store": 100000.0}),
 }
 
 # Copper wire: carries current from piles and dynamos to electric machines (up to WIRE_REACH blocks of wire).
@@ -555,6 +576,19 @@ RECIPES = {
                                       "key": {"G": "minecraft:glass", "T": "periodic_elements:titanium_alloy_ingot",
                                               "W": "periodic_elements:silicon_wafer",
                                               "N": "periodic_elements:national_laboratory"}},
+    "space_centre": {"pattern": ["GTG", "CIC", "TTT"],
+                     "key": {"G": "minecraft:glass", "T": "periodic_elements:titanium_alloy_ingot",
+                             "C": "periodic_elements:integrated_circuit",
+                             "I": "periodic_elements:international_research_centre"}},
+    "mission_control": {"pattern": ["GCG", "CSC", "TTT"],
+                        "key": {"G": "minecraft:glass", "T": "periodic_elements:titanium_alloy_ingot",
+                                "C": "periodic_elements:integrated_circuit",
+                                "S": "periodic_elements:space_centre"}},
+    "frontier_laboratory": {"pattern": ["GWG", "CMC", "TTT"],
+                            "key": {"G": "minecraft:glass", "T": "periodic_elements:titanium_alloy_ingot",
+                                    "W": "periodic_elements:niobium_titanium_wire",
+                                    "C": "periodic_elements:integrated_circuit",
+                                    "M": "periodic_elements:mission_control"}},
     "calutron": {"pattern": ["IWI", "ISI", "IWI"],
                  "key": {"I": "minecraft:iron_block", "W": "periodic_elements:niobium_titanium_wire",
                          "S": "periodic_elements:stainless_steel_ingot"}},
@@ -595,6 +629,13 @@ RECIPES = {
                                  "W": "periodic_elements:copper_wire", "D": "periodic_elements:dynamo"}},
     "parachute": {"pattern": ["NNN", "N N", "S S"],
                   "key": {"N": "periodic_elements:nylon", "S": "minecraft:string"}},
+    "annihilation_reactor": {"pattern": ["SPS", "WCW", "SPS"],
+                             "key": {"S": "periodic_elements:stability_alloy_ingot",
+                                     "P": "periodic_elements:room_temperature_superconductor",
+                                     "W": "periodic_elements:tungsten", "C": "periodic_elements:integrated_circuit"}},
+    "tokamak": {"pattern": ["SIS", "WCW", "SIS"],
+                "key": {"S": "periodic_elements:stainless_steel_ingot", "I": "periodic_elements:integrated_circuit",
+                        "W": "periodic_elements:niobium_titanium_wire", "C": "minecraft:copper_block"}},
     "wind_turbine": {"pattern": ["ASA", "WMW", " S "],
                      "key": {"A": "periodic_elements:aluminium", "S": "periodic_elements:stainless_steel_ingot",
                              "W": "periodic_elements:copper_wire", "M": "periodic_elements:neodymium_magnet"}},
@@ -879,6 +920,8 @@ LOOKS = {
     "chip_fab": ("planks", (236, 236, 240), (200, 200, 210), (220, 220, 228), (120, 200, 120)),
     "heavy_ion_accelerator": ("planks", (60, 90, 160), (200, 206, 214), (40, 60, 120), (255, 120, 60)),
     "wind_turbine": ("planks", (236, 238, 240), (180, 184, 190), (220, 222, 226), (140, 146, 156)),
+    "tokamak": ("noise", (120, 126, 140), None, (90, 96, 110), (255, 120, 220)),
+    "annihilation_reactor": ("noise", (40, 40, 52), None, (190, 196, 210), (255, 255, 255)),
     "radioisotope_generator": ("planks", (90, 94, 100), (60, 62, 66), (80, 84, 90), (255, 90, 40)),
     "helium_collector": ("planks", (100, 104, 116), (200, 214, 222), (84, 88, 100), (250, 220, 120)),
     "lithium_ion_battery": ("planks", (40, 44, 52), (90, 160, 240), (30, 34, 40), (90, 160, 240)),
@@ -1329,6 +1372,69 @@ def machine_textures(mid):
         for i, x in enumerate(range(3, 13, 3)):
             _rect(front, x, 4, x + 1, 5, [(80, 220, 120), (90, 160, 240), (240, 200, 70), (230, 70, 60)][i])
             _rect(front, x, 7, x + 1, 8, (60, 140, 200))
+        t.update(side=side, top=top, front=front)
+    elif mid == "space_centre":
+        side = _noise((226, 228, 232), 5, 41)                # white mission-control building
+        _rect(side, 0, 12, 15, 15, (40, 70, 140))            # blue band
+        top = _noise((150, 154, 160), 6, 42)
+        px = top.load()
+        for y in range(16):
+            for x in range(16):
+                if (x - 7.5) ** 2 + (y - 7.5) ** 2 <= 20:
+                    px[x, y] = (210, 214, 220, 255)          # the dish
+        _rect(top, 7, 7, 8, 8, (60, 60, 66))
+        front = side.copy()
+        _rect(front, 1, 2, 14, 9, (16, 18, 24))              # the big screen: an orbit over the Earth
+        for x in range(2, 14):
+            y = 6 + round(2 * math.sin((x - 2) / 11 * math.pi))
+            front.load()[x, y] = (240, 200, 70, 255)
+        _rect(front, 7, 4, 8, 5, (60, 140, 220))
+        _rect(front, 3, 11, 12, 11, (230, 70, 60))
+        t.update(side=side, top=top, front=front)
+    elif mid == "frontier_laboratory":
+        side = _noise((226, 228, 234), 4, 45)                # white clean walls
+        _rect(side, 0, 13, 15, 15, (60, 50, 110))            # violet band
+        top = _noise((150, 154, 164), 5, 46)
+        px = top.load()
+        for y in range(16):
+            for x in range(16):
+                d = (x - 7.5) ** 2 + (y - 7.5) ** 2
+                if 12 <= d <= 22:
+                    px[x, y] = (180, 120, 255, 255)          # a ring trap seen from above
+        front = side.copy()
+        _rect(front, 1, 2, 14, 10, (12, 10, 24))             # screen: Mercury and Venus by the Sun
+        fpx = front.load()
+        for y in range(2, 11):
+            for x in range(1, 15):
+                if (x - 3) ** 2 + (y - 6) ** 2 <= 5:
+                    fpx[x, y] = (255, 214, 90, 255)
+                if (x - 8) ** 2 + (y - 6) ** 2 <= 1:
+                    fpx[x, y] = (150, 140, 130, 255)
+                if (x - 12) ** 2 + (y - 6) ** 2 <= 2:
+                    fpx[x, y] = (236, 210, 150, 255)
+        for x in range(2, 14, 3):
+            _rect(front, x, 12, x + 1, 12, (190, 130, 255))  # console lamps
+        t.update(side=side, top=top, front=front)
+    elif mid == "mission_control":
+        side = _noise((70, 74, 82), 5, 43)                   # dark control-room walls
+        _rect(side, 0, 13, 15, 15, (200, 200, 205))          # grey floor band
+        top = _noise((120, 124, 130), 6, 44)
+        px = top.load()
+        for y in range(16):
+            for x in range(16):
+                if (x - 7.5) ** 2 + (y - 7.5) ** 2 <= 30 and (x - 7.5) ** 2 + (y - 7.5) ** 2 >= 18:
+                    px[x, y] = (220, 222, 228, 255)  # antenna ring
+        front = side.copy()
+        _rect(front, 1, 2, 14, 10, (10, 12, 18))             # big screen: the Moon over the Earth
+        fpx = front.load()
+        for y in range(2, 11):
+            for x in range(1, 15):
+                if (x - 10) ** 2 + (y - 5) ** 2 <= 6:
+                    fpx[x, y] = (200, 200, 196, 255)
+                if (x - 4) ** 2 + (y - 7) ** 2 <= 5:
+                    fpx[x, y] = (60, 120, 210, 255)
+        for x in range(2, 14, 3):
+            _rect(front, x, 12, x + 1, 12, (80, 220, 120))   # console lamps
         t.update(side=side, top=top, front=front)
     elif mid == "national_laboratory":
         side = _noise((210, 212, 206), 6, 19)                # concrete
@@ -2208,6 +2314,9 @@ GUI_LANG = {**_ATLAS_LANG, **_COMP_LANG, **_GEO_OPTIONS_LANG,
     "message.periodic_elements.analyzer.needs": "Research the Element Analyzer to use it",
     "message.periodic_elements.analyzer.nothing": "%s: no composition known",
     "message.periodic_elements.analyzer.result": "%s: %s",
+    "gui.periodic_elements.power.annihilation": "Annihilation Reactor: %s of %s kJ stored; %s",
+    "gui.periodic_elements.power.annihilation.running": "annihilating (%s s of this antihydrogen left)",
+    "gui.periodic_elements.power.annihilation.idle": "idle: needs antihydrogen and hydrogen, or is full",
     "gui.periodic_elements.power.rtg": "Radioisotope Generator: %s of %s kJ stored; %s plutonium-238 pellets give %s kJ per tick",
     "gui.periodic_elements.power.battery": "Lithium-Ion Battery: %s of %s kJ stored",
     "gui.periodic_elements.power.helium": "Helium Collector: %s of %s units of helium; %s units per day; %s",

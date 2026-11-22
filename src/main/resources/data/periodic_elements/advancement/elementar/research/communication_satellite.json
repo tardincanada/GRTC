@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/orbital_rocketry",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:communication_satellite"
+  },
+  "title": {
+   "translate": "research.periodic_elements.communication_satellite"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.communication_satellite.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.orbital_rocketry"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.compound_semiconductors"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

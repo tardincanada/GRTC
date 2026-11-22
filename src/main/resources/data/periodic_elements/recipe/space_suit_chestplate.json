@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "NCN",
+    "AOA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aramid"
+    },
+    "N": {
+      "item": "periodic_elements:nylon"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "O": {
+      "item": "periodic_elements:steel_cylinder"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:space_suit_chestplate",
+    "count": 1
+  }
+}

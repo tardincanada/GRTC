@@ -50,6 +50,8 @@ public final class Satellites {
 	public static final int CELL = 8, RINGS = 64, CELLS = (2 * RINGS + 1) * (2 * RINGS + 1), PER_TICK = 1, MAX_SATELLITES = 4;
 	public static final long BUDGET_NANOS = 3_000_000L;
 	public static final String DEATH = "#death";
+	/** 3.62.0: the newest meteorite fall (forecast or landed); one at a time, not counted toward the limit. */
+	public static final String METEOR = "#meteor";
 	private static final Set<UUID> HAD_CONTACTS = new HashSet<>();
 
 	private Satellites() {

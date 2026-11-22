@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/spectroscopy",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:raw_sphalerite"
+  },
+  "title": {
+   "translate": "research.periodic_elements.indium"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.indium.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.spectroscopy"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.cadmium"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

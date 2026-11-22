@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/station/space_centre",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:tokamak"
+  },
+  "title": {
+   "translate": "research.periodic_elements.fusion_power"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.fusion_power.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.superconductors"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.tritium"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.heavy_water"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -326,3 +326,20 @@ tier,level,id,name,formula,state,sector,color,use
 5,4,melanin,Melanin,(C18H10N2O4)n,solid,both,3A2818,"Dark pigment of skin, hair and sepia ink"
 5,3,cetyl_palmitate,Spermaceti Wax,C32H64O2,solid,both,F8F4E8,Whale wax: the finest candles
 5,3,ambrein,Ambrein,C30H52O,solid,both,C8B890,Fixes the scent in fine perfume
+1,8,liquid_hydrogen,Liquid Hydrogen,H2,liquid,industry,DCEBFF,Hydrogen at -253 °C: the lightest rocket fuel
+1,8,liquid_oxygen,Liquid Oxygen,O2,liquid,industry,9CC8FF,Pale blue oxygen at -183 °C: oxidizer for rockets
+2,8,hydrazine,Hydrazine,N2H4,liquid,industry,F0F4FF,Rocket fuel that ignites on touching N2O4
+2,8,dinitrogen_tetroxide,Dinitrogen Tetroxide,N2O4,liquid,industry,B8541C,Red-brown oxidizer: ignites hydrazine on contact
+2,8,kamacite,Kamacite,Fe13Ni,solid,industry,8E8E92,"Nickel-poor meteoric iron, about 7% nickel"
+2,8,taenite,Taenite,Fe2Ni,solid,industry,B4B0A2,"Nickel-rich meteoric iron, 20 to 65% nickel"
+1,8,deuterium,Deuterium,D2,gas,industry,E8E0FF,"Heavy hydrogen: fusion fuel, burned with tritium"
+1,9,helium_3,Helium-3,He,gas,industry,F0E8FF,Solar-wind helium in lunar soil: fusion fuel
+1,9,liquid_methane,Liquid Methane,CH4,liquid,industry,B8DCF0,Methane at -162 °C: rocket fuel made on Mars
+3,9,calcium_perchlorate,Calcium Perchlorate,Ca(ClO4)2,solid,industry,F2EEE8,Toxic salt in Martian soil; wash it out to farm
+3,9,olivine,Olivine,Mg2SiO4,solid,industry,8FA040,Green mineral of basalt on Mars and the Earth
+3,9,pyroxene,Pyroxene,CaMgSi2O6,solid,industry,4A4A3C,Dark mineral of basalt: most of the Martian crust
+3,9,jarosite,Jarosite,KFe3(SO4)2(OH)6,solid,industry,C8A040,Yellow sulfate that forms only in acid water
+3,9,kieserite,Kieserite,MgSO4·H2O,solid,industry,EEEAE0,Magnesium sulfate of the layered beds of Mars
+3,10,room_temperature_superconductor,Room-Temperature Superconductor,LuH3N,solid,industry,6A5CA8,Fiction: superconducts at room temperature
+1,10,metallic_hydrogen,Metallic Hydrogen,H,solid,industry,C8CCD8,Fiction: hydrogen that stays metal at 1 atm
+1,10,antihydrogen,Antihydrogen,H,gas,industry,F4D8FF,Fiction: antimatter held in a Penning trap

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rough_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#periodic_elements:rough_stones"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "periodic_elements:cobblestone_from_rough_stone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rough_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "periodic_elements:cobblestone_from_rough_stone"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "TCT",
+    "T T"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:solar_panel"
+    },
+    "G": {
+      "item": "periodic_elements:gallium_arsenide_wafer"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:communication_satellite",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/bessemer",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:refinery_still"
+  },
+  "title": {
+   "translate": "research.periodic_elements.oil_refining"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.oil_refining.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.alembic_distillation"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.bessemer"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

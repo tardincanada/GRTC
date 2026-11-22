@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ANA",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aramid"
+    },
+    "N": {
+      "item": "periodic_elements:nylon"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:space_suit_leggings",
+    "count": 1
+  }
+}

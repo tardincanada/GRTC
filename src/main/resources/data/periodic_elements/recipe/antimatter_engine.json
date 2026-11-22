@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "SMS",
+    "N N"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:room_temperature_superconductor"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "M": {
+      "item": "periodic_elements:magnetic_shield"
+    },
+    "N": {
+      "item": "periodic_elements:niobium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:antimatter_engine",
+    "count": 1
+  }
+}

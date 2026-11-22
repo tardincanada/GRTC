@@ -1,0 +1,30 @@
+{
+ "parent": "periodic_elements:elementar/root",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:potters_workshop"
+  },
+  "title": {
+   "translate": "block.periodic_elements.potters_workshop"
+  },
+  "description": {
+   "translate": "advancement.periodic_elements.workshop.desc"
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "periodic_elements:potters_workshop"
+     }
+    ]
+   }
+  }
+ }
+}

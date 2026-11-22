@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/tungsten",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:air_compressor"
+  },
+  "title": {
+   "translate": "research.periodic_elements.rock_drill"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.rock_drill.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.gas_compression"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.tungsten"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

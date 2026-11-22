@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SIS",
+    "SCS",
+    "TNT"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "N": {
+      "item": "periodic_elements:niobium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:methalox_engine",
+    "count": 1
+  }
+}

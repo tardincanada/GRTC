@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/integrated_circuits",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:element_analyzer"
+  },
+  "title": {
+   "translate": "research.periodic_elements.element_analyzer"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.element_analyzer.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.americium_curium"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.integrated_circuits"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

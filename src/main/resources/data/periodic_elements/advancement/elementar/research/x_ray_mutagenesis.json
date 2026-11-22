@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/xray_diffraction",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:seed_irradiator"
+  },
+  "title": {
+   "translate": "research.periodic_elements.x_ray_mutagenesis"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.x_ray_mutagenesis.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.mendels_laws"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.xray_diffraction"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

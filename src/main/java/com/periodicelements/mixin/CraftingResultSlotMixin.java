@@ -24,6 +24,9 @@ public abstract class CraftingResultSlotMixin extends Slot {
 		if (gate == null) {
 			gate = com.periodicelements.explore.Explore.gate(getStack());  // 3.47.0 exploration gear
 		}
+		if (gate == null) {
+			gate = com.periodicelements.space.Space.gate(getStack());  // 3.61.0 rockets
+		}
 		if (gate != null && !player.getAbilities().creativeMode && !Research.allows(ResearchAccess.known(player), gate)) {
 			if (!player.getWorld().isClient) {
 				player.sendMessage(Text.translatable("gui.periodic_elements.atlas.vanilla_locked",

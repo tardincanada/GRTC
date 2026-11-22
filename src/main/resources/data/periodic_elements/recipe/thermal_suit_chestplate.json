@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "ASA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "S": {
+      "item": "periodic_elements:space_suit_chestplate"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:thermal_suit_chestplate",
+    "count": 1
+  }
+}

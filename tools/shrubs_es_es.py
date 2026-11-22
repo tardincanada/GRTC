@@ -140,9 +140,7 @@ GUIDE = [
     "# Arbustos",
     "Los arbustos crecen silvestres en todos los biomas de tierra, de tres a cinco clases en cada uno, y como los árboles "
     "cada uno crece solo en sus biomas. Un arbusto tarda unos veinte minutos en madurar; la harina de hueso lo acelera.",
-    "Haz clic derecho en un arbusto maduro para recoger lo que da: hojas, semillas, frutos, raíces o tallos. Sigue plantado "
-    "y vuelve a madurar. Las tijeras en un arbusto crecido cortan un esqueje para plantar; algunas semillas, como el ají y "
-    "la jojoba, también se siembran. Romper un arbusto da uno o dos palos, y su cosecha si estaba maduro.",
+    'Haz clic derecho en un arbusto maduro para recoger lo que da: hojas, semillas, frutos, raíces o tallos. Sigue plantado y vuelve a madurar. Las tijeras en un arbusto crecido cortan uno o dos esquejes para plantar; algunas semillas, como el ají y la jojoba, también se siembran. Para mover un arbusto, agáchate y haz clic derecho con una pala: sale entero, con su cepellón, y conserva su tamaño al replantarlo. Romper un arbusto da un esqueje, uno o dos palos, y su cosecha si estaba maduro.',
     "# Invernaderos",
     "En un invernadero un arbusto o un brote de árbol crece lejos de sus biomas. Un invernadero es una habitación cerrada, "
     "de hasta 32 por 32 bloques y 32 de alto, con entrada solo por puerta o trampilla y el techo entero de cristal o "

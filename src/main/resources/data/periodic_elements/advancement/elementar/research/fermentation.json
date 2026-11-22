@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/fired_pottery",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:fermentation_barrel"
+  },
+  "title": {
+   "translate": "research.periodic_elements.fermentation"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.fermentation.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.fired_pottery"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

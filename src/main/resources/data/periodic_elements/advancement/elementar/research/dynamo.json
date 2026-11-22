@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/station/industrial_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:dynamo"
+  },
+  "title": {
+   "translate": "research.periodic_elements.dynamo"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.dynamo.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.electrolysis"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.steam_power"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

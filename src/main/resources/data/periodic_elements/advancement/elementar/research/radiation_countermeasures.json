@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/research/reprocessing",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:prussian_blue_capsule"
+  },
+  "title": {
+   "translate": "research.periodic_elements.radiation_countermeasures"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.radiation_countermeasures.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.reprocessing"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.prussian_blue"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.iodine"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

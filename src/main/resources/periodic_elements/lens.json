@@ -96,7 +96,8 @@
   ],
   "cobalt": [
    "cobalt_smelting",
-   "gamma_garden"
+   "gamma_garden",
+   "meteorite_analysis"
   ],
   "copernicium": [
    "cold_fusion"
@@ -110,7 +111,8 @@
    "americium_curium",
    "berkelium_californium",
    "heavy_ion_accelerator",
-   "hot_fusion"
+   "hot_fusion",
+   "island_of_stability"
   ],
   "darmstadtium": [
    "cold_fusion"
@@ -173,6 +175,7 @@
    "dysprosium_holmium"
   ],
   "hydrogen": [
+   "antimatter_containment",
    "chlor_alkali",
    "electrolysis",
    "fluorine",
@@ -187,6 +190,7 @@
    "van_arkel"
   ],
   "iridium": [
+   "meteorite_analysis",
    "platinum_metals"
   ],
   "iron": [
@@ -194,6 +198,8 @@
    "blast_furnace",
    "crucible_steel",
    "iron_smelting",
+   "lunar_oxygen",
+   "meteorite_analysis",
    "permanent_magnets",
    "steel_cementation"
   ],
@@ -252,6 +258,7 @@
   ],
   "nickel": [
    "diamond_synthesis",
+   "meteorite_analysis",
    "mond_process"
   ],
   "nihonium": [
@@ -279,6 +286,8 @@
    "electrolysis",
    "gallium",
    "indium",
+   "lunar_oxygen",
+   "martian_oxygen",
    "pneumatic_chemistry",
    "thallium"
   ],
@@ -289,6 +298,7 @@
    "phosphorus_isolation"
   ],
   "platinum": [
+   "meteorite_analysis",
    "platinum",
    "platinum_metals"
   ],
@@ -396,6 +406,7 @@
    "kroll_process"
   ],
   "tungsten": [
+   "island_of_stability",
    "tungsten"
   ],
   "uranium": [
@@ -424,6 +435,15 @@
   ]
  },
  "substances": {
+  "helium_3": {
+   "helium": 1.0
+  },
+  "metallic_hydrogen": {
+   "hydrogen": 1.0
+  },
+  "antihydrogen": {
+   "hydrogen": 1.0
+  },
   "carbon_monoxide": {
    "carbon": 0.428811,
    "oxygen": 0.571189
@@ -435,6 +455,15 @@
   "hydrogen_fluoride": {
    "hydrogen": 0.050385,
    "fluorine": 0.949615
+  },
+  "liquid_hydrogen": {
+   "hydrogen": 1.0
+  },
+  "liquid_oxygen": {
+   "oxygen": 1.0
+  },
+  "deuterium": {
+   "hydrogen": 1.0
   },
   "water": {
    "hydrogen": 0.111907,
@@ -467,6 +496,10 @@
   "titanium_tetrachloride": {
    "titanium": 0.252374,
    "chlorine": 0.747626
+  },
+  "liquid_methane": {
+   "carbon": 0.748675,
+   "hydrogen": 0.251325
   },
   "compressed_air": {
    "nitrogen": 0.777875,
@@ -594,6 +627,10 @@
    "cerium": 0.814093,
    "oxygen": 0.185907
   },
+  "taenite": {
+   "iron": 0.655523,
+   "nickel": 0.344477
+  },
   "tungsten_trioxide": {
    "tungsten": 0.792971,
    "oxygen": 0.207029
@@ -696,6 +733,14 @@
    "lutetium": 0.879385,
    "oxygen": 0.120615
   },
+  "hydrazine": {
+   "nitrogen": 0.874181,
+   "hydrogen": 0.125819
+  },
+  "dinitrogen_tetroxide": {
+   "nitrogen": 0.304467,
+   "oxygen": 0.695533
+  },
   "sulfuric_acid": {
    "hydrogen": 0.020556,
    "sulfur": 0.326903,
@@ -738,6 +783,10 @@
   "phosphorus_pentoxide": {
    "phosphorus": 0.436429,
    "oxygen": 0.563571
+  },
+  "kamacite": {
+   "iron": 0.925201,
+   "nickel": 0.074799
   },
   "praseodymium_oxide": {
    "praseodymium": 0.827707,
@@ -966,6 +1015,11 @@
    "boron": 0.78261,
    "carbon": 0.21739
   },
+  "room_temperature_superconductor": {
+   "lutetium": 0.911297,
+   "hydrogen": 0.01575,
+   "nitrogen": 0.072953
+  },
   "sodium_carbonate": {
    "sodium": 0.433823,
    "carbon": 0.113324,
@@ -1096,6 +1150,11 @@
    "uranium": 0.676187,
    "fluorine": 0.323813
   },
+  "olivine": {
+   "magnesium": 0.345509,
+   "silicon": 0.199622,
+   "oxygen": 0.454869
+  },
   "ammonium_nitrate": {
    "nitrogen": 0.349987,
    "hydrogen": 0.050373,
@@ -1111,6 +1170,12 @@
    "tantalum": 0.704443,
    "oxygen": 0.186854
   },
+  "kieserite": {
+   "magnesium": 0.175645,
+   "sulfur": 0.231688,
+   "oxygen": 0.578099,
+   "hydrogen": 0.014569
+  },
   "spodumene": {
    "lithium": 0.037295,
    "aluminium": 0.144997,
@@ -1122,9 +1187,20 @@
    "aluminium": 0.128522,
    "fluorine": 0.542955
   },
+  "pyroxene": {
+   "calcium": 0.185078,
+   "magnesium": 0.112239,
+   "silicon": 0.259389,
+   "oxygen": 0.443294
+  },
   "triuranium_octoxide": {
    "uranium": 0.848005,
    "oxygen": 0.151995
+  },
+  "calcium_perchlorate": {
+   "calcium": 0.167711,
+   "chlorine": 0.29669,
+   "oxygen": 0.535599
   },
   "gypsum": {
    "calcium": 0.23279,
@@ -1202,6 +1278,13 @@
    "vanadium": 0.107908,
    "oxygen": 0.135559,
    "chlorine": 0.025031
+  },
+  "jarosite": {
+   "potassium": 0.078073,
+   "iron": 0.334543,
+   "sulfur": 0.128038,
+   "oxygen": 0.447268,
+   "hydrogen": 0.012077
   },
   "aramid": {
    "carbon": 0.7058,

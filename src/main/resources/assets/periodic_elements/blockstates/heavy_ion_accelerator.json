@@ -28,7 +28,7 @@
       "model": "periodic_elements:block/heavy_ion_accelerator_active_6"
     },
     "facing=north,active=true,mode=7": {
-      "model": "periodic_elements:block/heavy_ion_accelerator_active"
+      "model": "periodic_elements:block/heavy_ion_accelerator_active_7"
     },
     "facing=north,active=true,mode=8": {
       "model": "periodic_elements:block/heavy_ion_accelerator_active"
@@ -91,7 +91,7 @@
       "y": 90
     },
     "facing=east,active=true,mode=7": {
-      "model": "periodic_elements:block/heavy_ion_accelerator_active",
+      "model": "periodic_elements:block/heavy_ion_accelerator_active_7",
       "y": 90
     },
     "facing=east,active=true,mode=8": {
@@ -163,7 +163,7 @@
       "y": 180
     },
     "facing=south,active=true,mode=7": {
-      "model": "periodic_elements:block/heavy_ion_accelerator_active",
+      "model": "periodic_elements:block/heavy_ion_accelerator_active_7",
       "y": 180
     },
     "facing=south,active=true,mode=8": {
@@ -235,7 +235,7 @@
       "y": 270
     },
     "facing=west,active=true,mode=7": {
-      "model": "periodic_elements:block/heavy_ion_accelerator_active",
+      "model": "periodic_elements:block/heavy_ion_accelerator_active_7",
       "y": 270
     },
     "facing=west,active=true,mode=8": {

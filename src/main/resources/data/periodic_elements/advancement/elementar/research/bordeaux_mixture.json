@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/industrial_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:bordeaux_mixture"
+  },
+  "title": {
+   "translate": "research.periodic_elements.bordeaux_mixture"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.bordeaux_mixture.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.acid_digestion"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.lime_burning"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

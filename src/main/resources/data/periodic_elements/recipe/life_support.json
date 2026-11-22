@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCS",
+    "WOW",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "O": {
+      "item": "periodic_elements:steel_cylinder"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:life_support",
+    "count": 1
+  }
+}

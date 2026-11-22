@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/station/industrial_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:insect_spray"
+  },
+  "title": {
+   "translate": "research.periodic_elements.insect_powder"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.insect_powder.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.oil_pressing"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}
