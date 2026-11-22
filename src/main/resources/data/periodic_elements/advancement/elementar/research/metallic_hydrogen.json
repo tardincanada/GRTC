@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/room_temperature_superconductivity",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:metallic_hydrogen_engine"
+  },
+  "title": {
+   "translate": "research.periodic_elements.metallic_hydrogen"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.metallic_hydrogen.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.room_temperature_superconductivity"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.cryogenic_hydrogen"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

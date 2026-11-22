@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:calcite",
+    "periodic_elements:cobbled_shale",
+    "periodic_elements:cobbled_gneiss",
+    "periodic_elements:cobbled_peridotite",
+    "periodic_elements:cobbled_kimberlite",
+    "periodic_elements:cobbled_laterite"
+  ]
+}

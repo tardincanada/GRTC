@@ -1,0 +1,56 @@
+{
+ "parent": "periodic_elements:elementar/station/national_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:deep_tank_fermenter"
+  },
+  "title": {
+   "translate": "research.periodic_elements.penicillin"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.penicillin.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.sulfa_drugs"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.mashing"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.electric_motor"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

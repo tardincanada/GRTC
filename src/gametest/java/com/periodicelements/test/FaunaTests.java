@@ -55,6 +55,25 @@ public class FaunaTests implements FabricGameTest {
 		return n;
 	}
 
+	/** 3.53.4: horns, antlers and tusks are in an "adult" part (hidden on babies by FaunaModel), never in the head. */
+	@GameTest(templateName = EMPTY_STRUCTURE, batchId = "fauna")
+	public void babiesHaveNoHornsAntlersOrTusks(TestContext ctx) {
+		var models = com.periodicelements.ElementTable.readObject("/periodic_elements/fauna_models.json");
+		for (String id : new String[]{"reindeer", "red_deer", "moose", "yak", "wild_boar", "walrus"}) {
+			boolean found = false;
+			for (var e : models.getAsJsonObject(id).getAsJsonArray("parts")) {
+				var p = e.getAsJsonObject();
+				if (!p.get("role").isJsonNull() && p.get("role").getAsString().equals("adult")) {
+					found = true;
+					expect(ctx, "head".equals(p.get("parent").getAsString()), id + ": adult part not on the head");
+					expect(ctx, p.getAsJsonArray("cubes").size() > 0, id + ": empty adult part");
+				}
+			}
+			expect(ctx, found, id + " has no adult-only horns/antlers/tusks part");
+		}
+		ctx.complete();
+	}
+
 	@GameTest(templateName = EMPTY_STRUCTURE, batchId = "fauna")
 	public void everySpeciesSpawnsWithItsEggAndLoot(TestContext ctx) {
 		expect(ctx, Fauna.SPECIES.size() >= 11, "only " + Fauna.SPECIES.size() + " species");

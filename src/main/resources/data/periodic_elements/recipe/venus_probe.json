@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " K ",
+    "TCT",
+    " T "
+  ],
+  "key": {
+    "K": {
+      "item": "periodic_elements:aramid"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:venus_probe",
+    "count": 2
+  }
+}

@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/dynamo",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:air_liquefier"
+  },
+  "title": {
+   "translate": "research.periodic_elements.air_liquefaction"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.air_liquefaction.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.dynamo"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.pneumatic_chemistry"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

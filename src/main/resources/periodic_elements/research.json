@@ -7503,5 +7503,716 @@
   "unlocks": [
    "reaction:gfp_making"
   ]
+ },
+ {
+  "id": "orbital_rocketry",
+  "level": 8,
+  "key": true,
+  "category": "space",
+  "date": "1957",
+  "requires": [
+   "satellite",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:kerosene",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:kerolox_engine",
+   "item:propellant_tank",
+   "item:payload_fairing",
+   "item:launch_console",
+   "reaction:oxygen_liquefaction"
+  ]
+ },
+ {
+  "id": "cryogenic_hydrogen",
+  "level": 8,
+  "key": true,
+  "category": "space",
+  "date": "1963",
+  "requires": [
+   "orbital_rocketry",
+   "air_liquefaction"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:aluminium",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:hydrogen_liquefaction",
+   "item:hydrolox_engine"
+  ]
+ },
+ {
+  "id": "hypergolic_propellants",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1962",
+  "requires": [
+   "orbital_rocketry",
+   "ostwald_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:ammonia",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:chlorine",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:hypochlorite_making",
+   "reaction:hydrazine_synthesis",
+   "reaction:dinitrogen_tetroxide_making",
+   "item:hypergolic_engine"
+  ]
+ },
+ {
+  "id": "weather_satellite",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1960",
+  "requires": [
+   "orbital_rocketry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:silicon_wafer",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:weather_satellite"
+  ]
+ },
+ {
+  "id": "communication_satellite",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1962",
+  "requires": [
+   "orbital_rocketry",
+   "compound_semiconductors"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:gallium_arsenide_wafer",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "item:communication_satellite"
+  ]
+ },
+ {
+  "id": "propulsive_landing",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "2015",
+  "requires": [
+   "orbital_rocketry",
+   "integrated_circuits"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:landing_legs"
+  ]
+ },
+ {
+  "id": "meteorite_analysis",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1969",
+  "requires": [
+   "orbital_rocketry",
+   "mond_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:iron_meteorite|periodic_elements:chondrite|periodic_elements:carbonaceous_chondrite",
+    "count": 1
+   },
+   {
+    "item": "periodic_elements:nickel",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:kamacite_parting",
+   "reaction:taenite_parting",
+   "reaction:meteoric_iridium",
+   "reaction:meteoric_platinum"
+  ]
+ },
+ {
+  "id": "space_telescope",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1990",
+  "requires": [
+   "orbital_rocketry"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:aluminium",
+    "count": 8
+   },
+   {
+    "item": "minecraft:glass",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "item:space_telescope"
+  ]
+ },
+ {
+  "id": "fusion_power",
+  "level": 8,
+  "key": false,
+  "category": "space",
+  "date": "1968",
+  "requires": [
+   "superconductors",
+   "tritium",
+   "heavy_water"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:niobium_titanium_wire",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:heavy_water",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:tritium_vial",
+    "count": 1
+   }
+  ],
+  "unlocks": [
+   "machine:tokamak",
+   "item:toroidal_field_coil",
+   "item:central_solenoid",
+   "item:vacuum_vessel",
+   "item:lithium_blanket",
+   "reaction:heavy_water_electrolysis"
+  ]
+ },
+ {
+  "id": "space_suit",
+  "level": 9,
+  "key": true,
+  "category": "space",
+  "date": "1969",
+  "requires": [
+   "orbital_rocketry",
+   "nylon",
+   "vulcanization"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:nylon",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:vulcanized_rubber",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:oxygen",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:space_suit_helmet",
+   "item:space_suit_chestplate",
+   "item:space_suit_leggings",
+   "item:space_suit_boots"
+  ]
+ },
+ {
+  "id": "lunar_landing",
+  "level": 9,
+  "key": true,
+  "category": "space",
+  "date": "1969",
+  "requires": [
+   "space_suit",
+   "cryogenic_hydrogen"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:liquid_hydrogen",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:crew_capsule",
+   "item:emergency_capsule"
+  ]
+ },
+ {
+  "id": "life_support",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "1973",
+  "requires": [
+   "space_suit"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 2
+   },
+   {
+    "item": "periodic_elements:oxygen",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:steel_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:life_support"
+  ]
+ },
+ {
+  "id": "lunar_oxygen",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "1993",
+  "requires": [
+   "lunar_landing"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:mare_basalt",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:ilmenite_hydrogen_reduction",
+   "reaction:molten_regolith_electrolysis"
+  ]
+ },
+ {
+  "id": "helium_3_mining",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "1986",
+  "requires": [
+   "lunar_landing",
+   "fusion_power"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lunar_regolith",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:deuterium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:regolith_degassing"
+  ]
+ },
+ {
+  "id": "mars_transit",
+  "level": 9,
+  "key": true,
+  "category": "space",
+  "date": "1990",
+  "requires": [
+   "lunar_landing",
+   "life_support"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 32
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:liquid_hydrogen",
+    "count": 16
+   }
+  ],
+  "unlocks": [
+   "item:mars_capsule"
+  ]
+ },
+ {
+  "id": "martian_oxygen",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "2021",
+  "requires": [
+   "mars_transit",
+   "electrolysis"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:martian_regolith",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:carbon_dioxide",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:martian_carbon_dioxide",
+   "reaction:solid_oxide_electrolysis"
+  ]
+ },
+ {
+  "id": "sabatier_process",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "1897",
+  "requires": [
+   "martian_oxygen",
+   "haber_process"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:martian_ice",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:nickel",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:sabatier_reaction"
+  ]
+ },
+ {
+  "id": "methalox_rockets",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "2019",
+  "requires": [
+   "sabatier_process",
+   "cryogenic_hydrogen"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:methane",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:liquid_oxygen",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:titanium_alloy_ingot",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:methalox_engine",
+   "reaction:methane_liquefaction"
+  ]
+ },
+ {
+  "id": "martian_greenhouse",
+  "level": 9,
+  "key": false,
+  "category": "space",
+  "date": "2008",
+  "requires": [
+   "mars_transit",
+   "life_support"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:martian_regolith",
+    "count": 16
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:washed_martian_soil"
+  ]
+ },
+ {
+  "id": "room_temperature_superconductivity",
+  "level": 10,
+  "key": true,
+  "category": "space",
+  "date": "2023",
+  "requires": [
+   "mars_transit",
+   "superconductors"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:lutetium",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:niobium_titanium_wire",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:helium",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:superconductor_synthesis",
+   "item:magnetic_shield"
+  ]
+ },
+ {
+  "id": "island_of_stability",
+  "level": 10,
+  "key": true,
+  "category": "space",
+  "date": "1966",
+  "requires": [
+   "room_temperature_superconductivity",
+   "transactinides"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:curium",
+    "count": 4
+   },
+   {
+    "item": "periodic_elements:chromium",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:californium_sample",
+    "count": 2
+   }
+  ],
+  "unlocks": [
+   "reaction:unbihexium_synthesis",
+   "item:unbihexium",
+   "item:stability_alloy_ingot",
+   "item:thermal_suit_helmet",
+   "item:thermal_suit_chestplate",
+   "item:thermal_suit_leggings",
+   "item:thermal_suit_boots"
+  ]
+ },
+ {
+  "id": "metallic_hydrogen",
+  "level": 10,
+  "key": false,
+  "category": "space",
+  "date": "1935",
+  "requires": [
+   "room_temperature_superconductivity",
+   "cryogenic_hydrogen"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:liquid_hydrogen",
+    "count": 16
+   },
+   {
+    "item": "minecraft:diamond",
+    "count": 4
+   }
+  ],
+  "unlocks": [
+   "reaction:hydrogen_metallization",
+   "item:metallic_hydrogen_engine"
+  ]
+ },
+ {
+  "id": "antimatter_containment",
+  "level": 10,
+  "key": false,
+  "category": "space",
+  "date": "2010",
+  "requires": [
+   "room_temperature_superconductivity",
+   "heavy_ion_accelerator"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:hydrogen",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:niobium_titanium_wire",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "reaction:antihydrogen_trapping",
+   "machine:annihilation_reactor",
+   "item:antimatter_engine"
+  ]
+ },
+ {
+  "id": "fusion_propulsion",
+  "level": 10,
+  "key": false,
+  "category": "space",
+  "date": "1978",
+  "requires": [
+   "room_temperature_superconductivity",
+   "helium_3_mining"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:helium_3",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:deuterium",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:niobium_titanium_wire",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:fusion_drive"
+  ]
+ },
+ {
+  "id": "mercury_landing",
+  "level": 10,
+  "key": false,
+  "category": "space",
+  "date": "2011",
+  "requires": [
+   "island_of_stability",
+   "metallic_hydrogen"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:tungsten",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:metallic_hydrogen",
+    "count": 8
+   },
+   {
+    "item": "periodic_elements:integrated_circuit",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:mercury_capsule"
+  ]
+ },
+ {
+  "id": "venus_aerostat",
+  "level": 10,
+  "key": false,
+  "category": "space",
+  "date": "2015",
+  "requires": [
+   "room_temperature_superconductivity",
+   "metallic_hydrogen"
+  ],
+  "samples": [
+   {
+    "item": "periodic_elements:aramid",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:nitrogen",
+    "count": 16
+   },
+   {
+    "item": "periodic_elements:composite_plate",
+    "count": 8
+   }
+  ],
+  "unlocks": [
+   "item:venus_capsule",
+   "item:aerostat_deck",
+   "item:venus_probe",
+   "reaction:venus_sulfur_dioxide",
+   "reaction:venus_sulfuric_acid"
+  ]
  }
 ]

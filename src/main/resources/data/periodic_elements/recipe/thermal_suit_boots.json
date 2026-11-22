@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "B": {
+      "item": "periodic_elements:space_suit_boots"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:thermal_suit_boots",
+    "count": 1
+  }
+}

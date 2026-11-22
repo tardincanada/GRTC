@@ -1,0 +1,51 @@
+{
+ "parent": "periodic_elements:elementar/station/national_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:ddt_duster"
+  },
+  "title": {
+   "translate": "research.periodic_elements.ddt"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.ddt.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.insect_powder"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.chlor_alkali"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.tar_distillation"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

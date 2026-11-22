@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "PNP"
+  ],
+  "key": {
+    "K": {
+      "item": "periodic_elements:aramid"
+    },
+    "P": {
+      "item": "periodic_elements:composite_plate"
+    },
+    "N": {
+      "item": "periodic_elements:nitrogen"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:aerostat_deck",
+    "count": 6
+  }
+}

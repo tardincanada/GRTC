@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WSW",
+    "W W",
+    "WSW"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:niobium_titanium_wire"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:toroidal_field_coil",
+    "count": 4
+  }
+}

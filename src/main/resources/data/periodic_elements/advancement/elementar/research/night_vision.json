@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/national_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:night_vision_goggles"
+  },
+  "title": {
+   "translate": "research.periodic_elements.night_vision"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.night_vision.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.rubidium_caesium"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.dynamo"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

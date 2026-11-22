@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/international_research_centre",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:boron"
+  },
+  "title": {
+   "translate": "research.periodic_elements.composite_armor"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.composite_armor.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.titanium_alloy"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.catalytic_reforming"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

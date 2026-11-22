@@ -1,0 +1,28 @@
+{
+ "display": {
+  "icon": {
+   "id": "periodic_elements:field_guide"
+  },
+  "title": {
+   "translate": "advancement.periodic_elements.root"
+  },
+  "description": {
+   "translate": "advancement.periodic_elements.root.desc"
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false,
+  "background": "minecraft:textures/block/packed_mud.png"
+ },
+ "criteria": {
+  "start": {
+   "trigger": "minecraft:tick"
+  }
+ },
+ "rewards": {
+  "loot": [
+   "periodic_elements:advancement/starter_guide"
+  ]
+ }
+}

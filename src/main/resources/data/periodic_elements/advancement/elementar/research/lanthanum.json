@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/rare_earths",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:rare_earth_sulfates"
+  },
+  "title": {
+   "translate": "research.periodic_elements.lanthanum"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.lanthanum.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.rare_earths"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

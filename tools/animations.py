@@ -1011,6 +1011,8 @@ POWER_LOOKS = {
     "wind_turbine": ("fan", "gas", (235, 238, 242), 20),
     # 3.36.0: helium bubbling up past a faint yellow glow (the helium line).
     "helium_collector": ("glow", "gas", (250, 220, 120), 20),
+    # 3.63.0: the pink-violet light of a deuterium plasma through the port.
+    "tokamak": ("glow", "glow", (255, 120, 220), 20),
 }
 
 

@@ -4,6 +4,7 @@ import com.periodicelements.PeriodicElements;
 import com.periodicelements.machine.MachineBlockEntity;
 import com.periodicelements.machine.PowerBlockEntity;
 import com.periodicelements.research.ResearchState;
+import com.periodicelements.research.Research;
 import net.fabricmc.fabric.api.gametest.v1.FabricGameTest;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -312,7 +313,7 @@ public class IsotopeTests implements FabricGameTest {
 	public void fieldGuideIsBuilt(TestContext ctx) {
 		check(ctx, mod("field_guide") instanceof com.periodicelements.FieldGuideItem, "field guide item");
 		var chapters = com.periodicelements.ElementTable.readObject("/periodic_elements/guidebook.json").getAsJsonArray("chapters");
-		check(ctx, chapters.size() == 44, "44 chapters (each level split into research, machines and reactions; 2.7.0 adds the Atlas, 2.8.0 the trees, 3.2.0 the Tree Compendium, 3.3.0 the structures, 3.5.0 the Plant Compendium, 3.15.0 the Mineral Compendium, 3.16.0 the shrubs, 3.23.0 crops and genetics, 3.42.0 the Geological world, 3.47.0 Exploration, 3.50.0 Animals of the World): " + chapters.size());
+		check(ctx, chapters.size() == 53, "53 chapters (each level split into research, machines and reactions; 2.7.0 adds the Atlas, 2.8.0 the trees, 3.2.0 the Tree Compendium, 3.3.0 the structures, 3.5.0 the Plant Compendium, 3.15.0 the Mineral Compendium, 3.16.0 the shrubs, 3.23.0 crops and genetics, 3.42.0 the Geological world, 3.47.0 Exploration, 3.50.0 Animals of the World, 3.61.0 level 8 research and reactions plus Space, 3.63.0 level 8 machines, 3.64.0 level 9 research and reactions, 3.67.0 level 10 research, machines and reactions): " + chapters.size());
 		for (var c : chapters) {
 			var o = c.getAsJsonObject();
 			check(ctx, o.getAsJsonArray("text").size() > 5, "chapter " + o.get("group") + " " + o.get("title") + " has text");
@@ -322,13 +323,13 @@ public class IsotopeTests implements FabricGameTest {
 			check(ctx, levels.size() == o.getAsJsonArray("text").size(), "a level per paragraph in " + o.get("id"));
 			int min = 99;
 			for (var l : levels) {
-				check(ctx, l.getAsInt() >= 0 && l.getAsInt() <= 7, "levels 0 to 7 in " + o.get("id"));
+				check(ctx, l.getAsInt() >= 0 && l.getAsInt() <= Research.MAX_LEVEL, "levels 0 to MAX_LEVEL in " + o.get("id"));
 				min = Math.min(min, l.getAsInt());
 			}
 			check(ctx, o.get("level").getAsInt() == min, "chapter level is its lowest paragraph's in " + o.get("id"));
 			String id = o.get("id").getAsString();
 			if (id.startsWith("level_")) {
-				check(ctx, min == id.charAt(6) - '0', id + " is shown from its own level");
+				check(ctx, min == Integer.parseInt(id.split("_")[1]), id + " is shown from its own level");
 			}
 		}
 		int life = -1;

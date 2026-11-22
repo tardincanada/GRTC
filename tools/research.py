@@ -3,7 +3,7 @@ import csv
 import json
 from pathlib import Path
 
-CATEGORIES = {"metallurgy", "chemistry", "machines", "materials", "food", "tools", "weapons", "knowledge", "electricity"}
+CATEGORIES = {"metallurgy", "chemistry", "machines", "materials", "food", "tools", "weapons", "knowledge", "electricity", "space"}
 
 
 def generate_research(csv_path, mod_items, runtime_dir, lang, mod_id):
@@ -14,7 +14,7 @@ def generate_research(csv_path, mod_items, runtime_dir, lang, mod_id):
         pid = r["id"].strip()
         assert pid not in projects, f"duplicate research {pid}"
         level = int(r["level"])
-        assert 1 <= level <= 7, pid
+        assert 1 <= level <= 10, pid
         assert r["key"] in ("yes", "no"), pid
         assert r["category"] in CATEGORIES, (pid, r["category"])
         samples = []

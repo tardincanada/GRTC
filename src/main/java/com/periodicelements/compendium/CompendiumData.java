@@ -23,7 +23,7 @@ public final class CompendiumData {
 	public static final String TREE = "tree", PLANT = "plant", MINERAL = "mineral", ANIMAL = "animal";
 
 	/**
-	 * What only a mineral entry has. {@code group}: rocks, sediments, ores, other_worlds; {@code cls}: igneous,
+	 * What only a mineral entry has. {@code group}: rocks, sediments, ores, other_worlds, meteorites (3.62.0); {@code cls}: igneous,
 	 * sedimentary, metamorphic or null; {@code items}: items (raw ores) that hide their composition with the blocks;
 	 * {@code depth}: {min y, max y} of an ore, or null; {@code origin}, {@code made}, {@code mineral}: whether the
 	 * entry has that text.
@@ -84,8 +84,8 @@ public final class CompendiumData {
 	private static Map<net.minecraft.entity.EntityType<?>, Tree> animalByEntity;
 	private static Map<Block, Tree> animalByBlock;
 	/** The groups of the Mineral Compendium, in the book's order, before and after Theory of the Earth. */
-	public static final List<String> GROUPS = List.of("rocks", "sediments", "ores", "other_worlds");
-	public static final List<String> CLASS_GROUPS = List.of("igneous", "sedimentary", "metamorphic", "ores", "other_worlds");
+	public static final List<String> GROUPS = List.of("rocks", "sediments", "ores", "other_worlds", "meteorites");
+	public static final List<String> CLASS_GROUPS = List.of("igneous", "sedimentary", "metamorphic", "ores", "other_worlds", "meteorites");
 	private static Map<Block, Tree> byBlock, plantByBlock, mineralByBlock;
 	private static Map<net.minecraft.item.Item, String> naturalItems;
 

@@ -339,3 +339,27 @@ periodic_elements:mrna_vaccine,111.1,protein:90.9;vegetable_oil:9.1,Messenger RN
 periodic_elements:prussian_blue_capsule,55.55,prussian_blue:50;protein:50,Medical Prussian blue in a gelatin capsule
 periodic_elements:spent_mycelium,111.1,protein:40;cellulose:40;water:20,Filtered mould from the fermenter: fertilizer
 periodic_elements:biomass,111.1,cellulose:50;protein:30;water:20,Spent microbes and plant fibre: fertilizer
+# Meteorites (3.62.0): platinum metals raised from a few ppm so that about 16 iron meteorite blocks make an iridium ingot,,,
+periodic_elements:chondrite,1000,silicon_dioxide:38;magnesium_oxide:23;iron_ii_oxide:10;aluminium_oxide:2.2;calcium_oxide:1.8;sodium_oxide:0.9;kamacite:16;taenite:3;iron_disulfide:5;iridium:0.05;platinum:0.05,"Ordinary (H) chondrite: olivine and pyroxene, nickel-iron, troilite (counted as iron sulfide)"
+periodic_elements:iron_meteorite,1000,kamacite:84;taenite:14.6;iridium:0.7;platinum:0.7,Octahedrite: kamacite and taenite with platinum metals
+periodic_elements:carbonaceous_chondrite,1000,silicon_dioxide:31.7;magnesium_oxide:20;iron_ii_oxide:12;magnetite:10;water:12;kerogen:3;iron_disulfide:6;aluminium_oxide:2;calcium_oxide:1.5;sodium_oxide:0.8;kamacite:1,"CM chondrite: serpentine clays, magnetite, water and insoluble organic matter (counted as kerogen)"
+# The Moon (3.64.0): helium-3 raised from ppb so that about 22 regolith blocks fill a flask,,,
+periodic_elements:lunar_regolith,1000,silicon_dioxide:43;aluminium_oxide:17;calcium_oxide:11;iron_ii_oxide:10;magnesium_oxide:8;ilmenite:8;sodium_oxide:0.5;titanium_dioxide:2;helium_3:0.5,"Mixed lunar soil: highland and mare grains, glass beads and solar-wind gas"
+periodic_elements:anorthosite,1000,silicon_dioxide:44;aluminium_oxide:31;calcium_oxide:17.5;iron_ii_oxide:3;magnesium_oxide:3;sodium_oxide:1;titanium_dioxide:0.5,"Lunar highland anorthosite, almost pure calcium feldspar"
+periodic_elements:mare_basalt,1000,silicon_dioxide:40;iron_ii_oxide:16;ilmenite:16;calcium_oxide:10;aluminium_oxide:9;magnesium_oxide:8.5;sodium_oxide:0.5,"High-titanium mare basalt, as from Apollo 11"
+periodic_elements:lunar_ice,1000,water:70;block:periodic_elements:lunar_regolith:30,Ice mixed with regolith from a polar crater floor
+periodic_elements:kreep_basalt,1000,silicon_dioxide:48;aluminium_oxide:15;iron_ii_oxide:10;calcium_oxide:9;magnesium_oxide:8;potassium_oxide:2;titanium_dioxide:2;phosphorus_pentoxide:1.5;monazite:3;zircon:1;thorium_dioxide:0.5,"KREEP basalt: potassium, rare earths, phosphorus; thorium raised from 10 ppm"
+periodic_elements:martian_regolith,1000,silicon_dioxide:43;iron_oxide:9;iron_ii_oxide:8;aluminium_oxide:9;magnesium_oxide:7;calcium_oxide:6;calcium_sulfate:6;olivine:4;pyroxene:4;sodium_oxide:2;titanium_dioxide:1;calcium_perchlorate:1,"Martian soil as Curiosity and Phoenix measured it; perchlorate about 0.6 %"
+periodic_elements:martian_basalt,1000,pyroxene:38;olivine:18;silicon_dioxide:16;aluminium_oxide:12;iron_ii_oxide:8;calcium_oxide:4;sodium_oxide:3;titanium_dioxide:1,"Olivine basalt like Gusev crater's (Spirit, 2004)"
+periodic_elements:martian_sulfate,1000,gypsum:28;kieserite:22;silicon_dioxide:26;jarosite:12;iron_oxide:8;calcium_sulfate:4,"Layered sulfate beds of Meridiani and Gale crater"
+periodic_elements:hematite_concretion,1000,iron_oxide:88;silicon_dioxide:8;jarosite:4,"Hematite spherules weathered out of sulfate sandstone (Opportunity, 2004)"
+periodic_elements:martian_ice,1000,water:88;block:periodic_elements:martian_regolith:12,Dusty water ice from under the soil and the polar layered deposits
+periodic_elements:dry_ice,1000,carbon_dioxide:97;water:3,Seasonal carbon dioxide frost over the polar caps
+periodic_elements:washed_martian_soil,1000,silicon_dioxide:44;iron_oxide:9;iron_ii_oxide:8;aluminium_oxide:9;magnesium_oxide:7;calcium_oxide:6;calcium_sulfate:6;olivine:4;pyroxene:4;sodium_oxide:2;titanium_dioxide:1,Martian soil with the perchlorate rinsed out
+periodic_elements:unbihexium,111.1,tungsten:100,"Fiction: element 126 has no place in the real table, so tests read it as tungsten, the heavy metal it is alloyed with"
+periodic_elements:mercurian_regolith,1000,silicon_dioxide:43;magnesium_oxide:24;aluminium_oxide:11;calcium_oxide:7;carbon:4;sulfur:3;sodium_oxide:3;iron_ii_oxide:2;pyroxene:2;titanium_dioxide:1,"Mercury's soil as MESSENGER measured it: little iron, much magnesium and sulfur, darkened by graphite"
+periodic_elements:mercurian_crust,1000,silicon_dioxide:42;magnesium_oxide:22;pyroxene:10;aluminium_oxide:10;calcium_oxide:6;carbon:4;sulfur:3;sodium_oxide:2;iron_ii_oxide:1,Low-iron volcanic crust with a few percent of graphite
+periodic_elements:mercurian_hollows,1000,silicon_dioxide:46;magnesium_oxide:26;aluminium_oxide:12;calcium_oxide:9;sodium_oxide:3;carbon:2;sulfur:1;iron_ii_oxide:1,Bright ground left where the sulfur and other volatiles boiled away
+periodic_elements:venusian_basalt,1000,pyroxene:38;olivine:15;silicon_dioxide:20;aluminium_oxide:12;iron_ii_oxide:8;calcium_oxide:4;iron_oxide:2;titanium_dioxide:1,"Basalt of the plains, as the Venera landers measured it (1975 to 1985)"
+periodic_elements:metallic_snow,1000,lead_sulfide:55;bismuth:25;sulfur:15;tellurium:5,"Fiction in the amounts: galena and bismuth sulfide frosted on the high peaks, counted as bismuth and sulfur"
+periodic_elements:venus_cloud,1000,sulfuric_acid:75;water:25,Cloud droplets of sulfuric acid and water

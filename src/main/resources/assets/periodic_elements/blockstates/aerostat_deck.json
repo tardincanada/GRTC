@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/aerostat_deck"
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 90
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 180
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 270
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/aerostat_deck",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/mercurian_regolith",
+        "y": 0
+      },
+      {
+        "model": "periodic_elements:block/mercurian_regolith",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/mercurian_regolith",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/mercurian_regolith",
+        "y": 270
+      }
+    ]
+  }
+}

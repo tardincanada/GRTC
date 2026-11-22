@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/kroll_process",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:titanium"
+  },
+  "title": {
+   "translate": "research.periodic_elements.titanium_alloy"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.titanium_alloy.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.kroll_process"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.vanadium"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

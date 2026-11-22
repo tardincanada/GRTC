@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/geiger_counter",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:raw_pitchblende"
+  },
+  "title": {
+   "translate": "research.periodic_elements.geiger_survey"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.geiger_survey.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.geiger_counter"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.radiation_mapping"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

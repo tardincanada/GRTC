@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SIS",
+    "WCW",
+    "SIS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "W": {
+      "item": "periodic_elements:niobium_titanium_wire"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:tokamak",
+    "count": 1
+  }
+}

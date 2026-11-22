@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/pneumatic_chemistry",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:survey_balloon"
+  },
+  "title": {
+   "translate": "research.periodic_elements.hot_air_balloon"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.hot_air_balloon.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.surveying"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.pneumatic_chemistry"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

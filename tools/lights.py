@@ -28,6 +28,12 @@ KINDS = {
     "cherenkov": ((80, 170, 255), "NEW: Cherenkov blue (reactor pool, gamma irradiator)"),
     "cleanroom_yellow": ((255, 205, 70), "NEW: yellow safelight of a photolithography clean room"),
     "indicator_lamp": ((255, 185, 90), "NEW: small amber panel lamps of an electric machine; no flame, no heat glow"),
+    "fusion_plasma": ((255, 130, 230), "NEW (3.63.0): pink-violet glow of a deuterium-tritium plasma (Balmer lines); "
+                                       "steady, no flicker"),
+    "shield_aurora": ((120, 255, 180), "NEW (3.67.0, fiction): faint aurora green of a Magnetic Shield's field, where "
+                                       "charged particles strike it; steady, slowly pulsing if the shader can"),
+    "annihilation": ((236, 236, 255), "NEW (3.67.0, fiction): hard blue-white light of matter meeting antimatter in an "
+                                      "Annihilation Reactor; steady, very bright core"),
 }
 
 # Machines whose light the temperature rule gets wrong.
@@ -41,7 +47,8 @@ MACHINE_KIND = {
     "refinery_still": "generic", "cracking_unit": "generic",  # oil-fired furnaces under the still
 }
 
-POWER_KIND = {"steam_engine": "generic", "nuclear_reactor": "cherenkov", "radioisotope_generator": "ember_glow"}
+POWER_KIND = {"steam_engine": "generic", "nuclear_reactor": "cherenkov", "radioisotope_generator": "ember_glow",
+              "tokamak": "fusion_plasma", "annihilation_reactor": "annihilation"}
 
 # Every other block or item that gives light.
 OTHER = [
@@ -56,6 +63,12 @@ OTHER = [
     {"id": "tallow_candle", "kind": "generic", "light": 12},
     {"id": "greenhouse_heater", "state": "lit=true", "kind": "generic", "light": 9, "note": "Brick stove burning fuel"},
     {"id": "gamma_garden", "kind": "cherenkov", "light": 4, "note": "Cobalt-60 gamma irradiator"},
+    {"id": "vacuum_vessel", "state": "lit=true", "kind": "fusion_plasma", "light": 13,
+     "note": "3.63.0: wall of a Tokamak's ring while its plasma burns"},
+    {"id": "life_support", "state": "lit=true", "kind": "indicator_lamp", "light": 6,
+     "note": "3.64.0: green lamp of a Life Support keeping a sealed room full of air"},
+    {"id": "magnetic_shield", "kind": "shield_aurora", "light": 7,
+     "note": "3.67.0 (fiction): always lit, glow of its field"},
     # Items that light the way when held or worn (for shaders' held-item light).
     {"id": "carbide_lamp", "item": True, "kind": "carbide_flame", "light": 14, "note": "Lit only while it has carbide"},
     {"id": "electric_cap_lamp", "item": True, "kind": "incandescent", "light": 15, "note": "Worn, needs a charged battery"},

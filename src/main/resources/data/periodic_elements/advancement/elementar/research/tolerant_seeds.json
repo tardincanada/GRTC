@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/recombinant_dna",
+ "display": {
+  "icon": {
+   "id": "minecraft:wheat_seeds"
+  },
+  "title": {
+   "translate": "research.periodic_elements.tolerant_seeds"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.tolerant_seeds.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.recombinant_dna"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.glyphosate"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

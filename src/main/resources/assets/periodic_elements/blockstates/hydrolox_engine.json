@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "legs=false,worn=false": {
+      "model": "periodic_elements:block/hydrolox_engine"
+    },
+    "legs=false,worn=true": {
+      "model": "periodic_elements:block/hydrolox_engine_worn"
+    },
+    "legs=true,worn=false": {
+      "model": "periodic_elements:block/hydrolox_engine_legs"
+    },
+    "legs=true,worn=true": {
+      "model": "periodic_elements:block/hydrolox_engine_legs_worn"
+    }
+  }
+}

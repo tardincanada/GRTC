@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    "WCW",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "P": {
+      "item": "periodic_elements:room_temperature_superconductor"
+    },
+    "W": {
+      "item": "periodic_elements:tungsten"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:annihilation_reactor",
+    "count": 1
+  }
+}

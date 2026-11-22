@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/pcr",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:crispr_kit"
+  },
+  "title": {
+   "translate": "research.periodic_elements.crispr"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.crispr.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.transgenesis"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.pcr"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

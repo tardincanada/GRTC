@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/two_four_d",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:pre_emergent"
+  },
+  "title": {
+   "translate": "research.periodic_elements.atrazine"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.atrazine.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.two_four_d"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.urea"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

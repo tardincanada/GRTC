@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "IWI",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "W": {
+      "item": "periodic_elements:copper_wire"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:launch_console",
+    "count": 1
+  }
+}

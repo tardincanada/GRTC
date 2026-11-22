@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "N N"
+  ],
+  "key": {
+    "A": {
+      "item": "periodic_elements:aramid"
+    },
+    "N": {
+      "item": "periodic_elements:nylon"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:space_suit_boots",
+    "count": 1
+  }
+}

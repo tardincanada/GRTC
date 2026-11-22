@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/station/national_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:diamond_press"
+  },
+  "title": {
+   "translate": "research.periodic_elements.diamond_synthesis"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.diamond_synthesis.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.cemented_carbide"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.mond_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TCT",
+    "TRT",
+    "PPP"
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "R": {
+      "item": "periodic_elements:parachute"
+    },
+    "P": {
+      "item": "periodic_elements:composite_plate"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:crew_capsule",
+    "count": 1
+  }
+}

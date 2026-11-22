@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "TST",
+    "T T"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:solar_panel"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:silicon_wafer"
+    },
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:weather_satellite",
+    "count": 1
+  }
+}

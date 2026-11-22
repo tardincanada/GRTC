@@ -28,13 +28,13 @@
       "model": "periodic_elements:block/air_liquefier_active_6"
     },
     "facing=north,active=true,mode=7": {
-      "model": "periodic_elements:block/air_liquefier_active"
+      "model": "periodic_elements:block/air_liquefier_active_7"
     },
     "facing=north,active=true,mode=8": {
-      "model": "periodic_elements:block/air_liquefier_active"
+      "model": "periodic_elements:block/air_liquefier_active_8"
     },
     "facing=north,active=true,mode=9": {
-      "model": "periodic_elements:block/air_liquefier_active"
+      "model": "periodic_elements:block/air_liquefier_active_9"
     },
     "facing=north,active=true,mode=10": {
       "model": "periodic_elements:block/air_liquefier_active"
@@ -91,15 +91,15 @@
       "y": 90
     },
     "facing=east,active=true,mode=7": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_7",
       "y": 90
     },
     "facing=east,active=true,mode=8": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_8",
       "y": 90
     },
     "facing=east,active=true,mode=9": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_9",
       "y": 90
     },
     "facing=east,active=true,mode=10": {
@@ -163,15 +163,15 @@
       "y": 180
     },
     "facing=south,active=true,mode=7": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_7",
       "y": 180
     },
     "facing=south,active=true,mode=8": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_8",
       "y": 180
     },
     "facing=south,active=true,mode=9": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_9",
       "y": 180
     },
     "facing=south,active=true,mode=10": {
@@ -235,15 +235,15 @@
       "y": 270
     },
     "facing=west,active=true,mode=7": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_7",
       "y": 270
     },
     "facing=west,active=true,mode=8": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_8",
       "y": 270
     },
     "facing=west,active=true,mode=9": {
-      "model": "periodic_elements:block/air_liquefier_active",
+      "model": "periodic_elements:block/air_liquefier_active_9",
       "y": 270
     },
     "facing=west,active=true,mode=10": {

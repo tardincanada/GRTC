@@ -147,10 +147,7 @@ GUIDE = [
     "Les arbustes poussent à l'état sauvage dans tous les biomes terrestres, trois à cinq sortes dans chacun, et comme les "
     "arbres chacun ne pousse que dans ses biomes. Un arbuste met une vingtaine de minutes à mûrir ; la poudre d'os "
     "l'accélère.",
-    "Clic droit sur un arbuste mûr pour cueillir ce qu'il donne : feuilles, graines, fruits, racines ou tiges. Il reste "
-    "planté et mûrit à nouveau. Des cisailles sur un arbuste développé coupent une bouture à planter ; certaines graines, "
-    "comme le piment et le jojoba, se sèment aussi. Casser un arbuste donne un ou deux bâtons, et sa récolte s'il était "
-    "mûr.",
+    "Clic droit sur un arbuste mûr pour cueillir ce qu'il donne : feuilles, graines, fruits, racines ou tiges. Il reste planté et mûrit à nouveau. Des cisailles sur un arbuste développé coupent une ou deux boutures à planter ; certaines graines, comme le piment et le jojoba, se sèment aussi. Pour déplacer un arbuste, accroupissez-vous et faites un clic droit avec une pelle : il sort entier avec sa motte et garde sa taille une fois replanté. Casser un arbuste donne une bouture, un ou deux bâtons, et sa récolte s'il était mûr.",
     "# Serres",
     "Dans une serre, un arbuste ou une pousse d'arbre grandit loin de ses biomes. Une serre est une pièce fermée, jusqu'à "
     "32 sur 32 blocs et 32 de haut, où l'on entre seulement par une porte ou une trappe, avec un toit tout en verre ou en "

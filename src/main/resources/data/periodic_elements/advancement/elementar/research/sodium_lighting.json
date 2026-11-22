@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/university_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:sodium_lamp"
+  },
+  "title": {
+   "translate": "research.periodic_elements.sodium_lighting"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.sodium_lighting.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.noble_gases"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.dynamo"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

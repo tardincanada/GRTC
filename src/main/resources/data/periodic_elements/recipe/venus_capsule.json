@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TCT",
+    "TLT",
+    "DAD"
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "C": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "L": {
+      "item": "periodic_elements:life_support"
+    },
+    "D": {
+      "item": "periodic_elements:aerostat_deck"
+    },
+    "A": {
+      "item": "periodic_elements:composite_plate"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:venus_capsule",
+    "count": 1
+  }
+}

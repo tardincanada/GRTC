@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/chlor_alkali",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:bayer_digester"
+  },
+  "title": {
+   "translate": "research.periodic_elements.bayer_process"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.bayer_process.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.chlor_alkali"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.acid_digestion"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

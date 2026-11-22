@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/stainless_steel",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:roller_conveyor"
+  },
+  "title": {
+   "translate": "research.periodic_elements.assembly_line"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.assembly_line.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.belt_conveyor"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.stainless_steel"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

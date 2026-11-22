@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "periodic_elements:block/life_support"
+    },
+    "lit=true": {
+      "model": "periodic_elements:block/life_support_lit"
+    }
+  }
+}

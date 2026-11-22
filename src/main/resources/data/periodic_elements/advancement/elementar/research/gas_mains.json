@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/steam_power",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:tank_wall"
+  },
+  "title": {
+   "translate": "research.periodic_elements.gas_mains"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.gas_mains.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.pneumatic_chemistry"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.steam_power"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

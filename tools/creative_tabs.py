@@ -12,6 +12,13 @@ from pathlib import Path
 import creative_items
 import crops
 import exploration
+import space
+import meteorites
+import moon
+import mars
+import fiction
+import inner
+import fusion
 import fauna
 import genetics
 import geo_rocks
@@ -27,7 +34,7 @@ DATA = ROOT / "data"
 
 TABS = ["elements", "solid_substances", "liquid_substances", "gas_substances", "materials", "ores_rocks", "trees",
         "shrubs", "crops", "fauna", "food_medicine", "machines", "power_logistics", "science", "tools", "combat",
-        "exploration", "creative"]
+        "exploration", "space", "creative"]
 
 # icon item for each tab
 ICONS = {"elements": "carbon", "solid_substances": "sodium_chloride", "liquid_substances": "sulfuric_acid",
@@ -35,19 +42,38 @@ ICONS = {"elements": "carbon", "solid_substances": "sodium_chloride", "liquid_su
          "trees": "mahogany_sapling", "shrubs": "guarana_cutting", "crops": "rice", "fauna": "capybara_spawn_egg",
          "food_medicine": "antivenom", "machines": "bessemer_converter", "power_logistics": "dynamo",
          "science": "field_guide", "tools": "manganese_steel_pickaxe", "combat": "breech_loading_rifle",
-         "exploration": "leather_backpack", "creative": "creative_generator"}
+         "exploration": "leather_backpack", "space": "kerolox_engine", "creative": "creative_generator"}
 
 NAMES = {  # English; the lang strings and translations are in creative_items.py
     "elements": "Elements", "solid_substances": "Solid Substances", "liquid_substances": "Liquid Substances",
     "gas_substances": "Gases", "materials": "Materials and Intermediates", "ores_rocks": "Ores, Rocks and Soils",
     "trees": "Trees and Wood", "shrubs": "Shrubs", "crops": "Crops and Seeds", "fauna": "Animals",
     "food_medicine": "Food and Medicine", "machines": "Machines", "power_logistics": "Power and Logistics",
-    "science": "Science", "tools": "Tools", "combat": "Combat", "exploration": "Exploration",
+    "science": "Science", "tools": "Tools", "combat": "Combat", "exploration": "Exploration", "space": "Space",
     "creative": "Creative Testing"}
 
 # Explicit placements win over every rule below.
 EXPLICIT = {
     **{i: "creative" for i in creative_items.BLOCKS + creative_items.ITEMS + ["progress_book"]},
+    # 3.62.0 meteorites: the blocks with the rocks, the telescope with the space gear, the caller for testing
+    **{i: "ores_rocks" for i in meteorites.METEORITES},
+    **{i: "space" for i in meteorites.ITEMS},
+    **{i: "creative" for i in meteorites.CREATIVE},
+    # 3.64.0 the Moon: rocks with the rocks, suit, capsules and life support with the space gear
+    **{i: "ores_rocks" for i in moon.ROCKS + ["kreep_basalt"]},
+    **{i: "space" for i in list(moon.ITEMS) + list(moon.BLOCKS) + ["mission_control"]},
+    # 3.66.0 Mars: rocks with the rocks, the capsule with the space gear, washed soil with the farm blocks
+    **{i: "ores_rocks" for i in mars.ROCKS},
+    **{i: "space" for i in mars.ITEMS + ["methalox_engine"]},
+    **{i: "crops" for i in mars.BLOCKS},
+    **{i: "space" for i in fiction.BLOCKS + fiction.ITEMS + fiction.SUIT + fiction.ENGINES
+       + ["frontier_laboratory"]},
+    "annihilation_reactor": "power_logistics",
+    # 3.68.0 Mercury and Venus: rocks and the cloud with the rocks, capsules, probe and deck with the space gear
+    **{i: "ores_rocks" for i in inner.ROCKS + [inner.CLOUD]},
+    **{i: "space" for i in inner.ITEMS + inner.BLOCKS},
+    # 3.63.0 fusion: the Tokamak's ring parts sit with the Tokamak and the other power blocks
+    **{i: "power_logistics" for i in fusion.PARTS},
     **{i: "fauna" for i in ("herring_bucket",)},
     **{i: "food_medicine" for i in ("cooked_rice", "cooked_beans", "cassava_flour") + tuple(shrubs.TEAS)},
     # science: books, research, instruments
@@ -55,10 +81,10 @@ EXPLICIT = {
                               "geiger_counter", "element_analyzer", "fibre_communicator", "field_atlas", "atlas_copy",
                               "compendium_notes", "tree_compendium", "plant_compendium", "mineral_compendium",
                               "animal_compendium", "crossing_notebook", "seed_lens",
-                              "prospecting_magnetometer", "core_drill", "handheld_radar", "gps_receiver", "satellite",
+                              "prospecting_magnetometer", "core_drill", "handheld_radar", "gps_receiver",
                               "survey_balloon", "sample_case", "carbon_ink", "iron_gall_ink", "dna_sequencer",
                               "thermocycler", "seed_irradiator", "gamma_garden", "gene_gun", "crispr_kit", "bt_gene",
-                              "epsps_gene", "golden_gene", "dreb_gene", "cobalt_60_source", "launch_pad")},
+                              "epsps_gene", "golden_gene", "dreb_gene", "cobalt_60_source")},
     # food and medicine
     **{i: "food_medicine" for i in ("leavened_bread", "anaesthetic", "carbolic_soap", "prussian_blue_capsule",
                                     "mrna_vaccine", "antivenom", "cooked_game_meat", "cooked_egg", "cooked_herring",
@@ -67,6 +93,10 @@ EXPLICIT = {
     **{i: "exploration" for i in list(exploration.ITEMS) + list(exploration.BLOCKS)
        + ["parachute", "carbide_lamp", "wetsuit_hood", "wetsuit_jacket", "wetsuit_leggings", "wetsuit_boots",
           "sneakers", "street_lamp", "explorer_light"]},
+    # space (3.61.0)
+    **{i: "space" for i in list(space.BLOCKS) + list(space.ITEMS) + ["satellite", "launch_pad", "tracking_station",
+                                                                      "space_centre", "liquid_hydrogen", "liquid_oxygen",
+                                                                      "hydrazine", "dinitrogen_tetroxide"]},
     # combat
     **{i: "combat" for i in ("dynamite", "cordite_cartridge", "tungsten_carbide_arrow", "depleted_uranium_arrow",
                              "black_powder", "smokeless_powder", "anfo_charge", "breech_loading_rifle", "hand_cannon",
@@ -80,8 +110,8 @@ EXPLICIT = {
                             "balanced_feed", "silo", "protein_meal", "oil_cake", "biomass", "spent_mycelium")},
     **{i: "science" for i in ("alchemists_laboratory", "natural_philosophers_laboratory", "potters_workshop",
                               "university_laboratory", "industrial_laboratory", "national_laboratory",
-                              "international_research_centre", "radar_station", "tracking_station", "radio_transmitter")},
-    **{i: "power_logistics" for i in ("dynamo", "steam_engine", "diesel_generator", "solar_panel", "wind_turbine",
+                              "international_research_centre", "radar_station", "radio_transmitter")},
+    **{i: "power_logistics" for i in ("dynamo", "steam_engine", "diesel_generator", "solar_panel", "wind_turbine", "tokamak",
                                       "radioisotope_generator", "nuclear_reactor", "voltaic_pile", "charging_bench",
                                       "lithium_ion_battery", "insulation")},
     **{i: "machines" for i in ("helium_collector", "greenhouse_heater", "greenhouse_cooler", "compressor", "regenerator",

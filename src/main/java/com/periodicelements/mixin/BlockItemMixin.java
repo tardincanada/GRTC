@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * 3.23.0: a crop planted from seeds takes the seeds' genes. 3.45.0: a waterloggable block placed in salt water is
- * waterlogged, as it would be in fresh water.
+ * waterlogged, as it would be in fresh water. 3.55.0: a log a player places is marked as not natural.
  */
 @Mixin(BlockItem.class)
 public abstract class BlockItemMixin {
@@ -26,6 +26,9 @@ public abstract class BlockItemMixin {
 			CallbackInfoReturnable<Boolean> cir) {
 		if (world instanceof ServerWorld sw && Genetics.info(state.getBlock()) != null) {
 			Genetics.planted(sw, pos, stack);
+		}
+		if (world instanceof ServerWorld sw) {
+			com.periodicelements.trees.LeafFall.placedByPlayer(sw, pos, state);
 		}
 	}
 

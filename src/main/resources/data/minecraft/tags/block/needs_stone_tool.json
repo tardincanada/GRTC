@@ -73,6 +73,8 @@
     "periodic_elements:peridotite_copper_ore",
     "periodic_elements:peridotite_cobaltite_ore",
     "periodic_elements:laterite_bauxite_ore",
-    "periodic_elements:laterite_pyrolusite_ore"
+    "periodic_elements:laterite_pyrolusite_ore",
+    "periodic_elements:chondrite",
+    "periodic_elements:carbonaceous_chondrite"
   ]
 }

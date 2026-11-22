@@ -26,7 +26,15 @@
 		"BiomeIceMixin",
 		"ChunkGeneratorMixin",
 		"NoiseConfigMixin",
-		"HostileEntityMixin"
+		"HostileEntityMixin",
+		"LeavesBlockMixin",
+		"ServerWorldMixin",
+		"DimensionOptionsRegistryHolderMixin",
+		"VacuumFireMixin",
+		"VacuumFireTickMixin",
+		"VacuumFurnaceMixin",
+		"VacuumPlantMixin",
+		"AirlessWeatherMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

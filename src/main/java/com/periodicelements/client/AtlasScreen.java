@@ -238,6 +238,7 @@ public class AtlasScreen extends Screen {
 		for (AtlasData.Marker m : AtlasClient.markers) {
 			int x = (int) screenX(m.x() + 0.5), y = (int) screenY(m.z() + 0.5);
 			boolean death = m.name().equals(com.periodicelements.atlas.Satellites.DEATH);
+			boolean meteor = m.name().equals(com.periodicelements.atlas.Satellites.METEOR);
 			boolean routed = m.equals(AtlasClient.route);
 			ctx.fill(x - 2, y - 1, x + 3, y + 2, 0xFF000000);
 			ctx.fill(x - 1, y - 2, x + 2, y + 3, 0xFF000000);
@@ -247,12 +248,19 @@ public class AtlasScreen extends Screen {
 				ctx.fill(x, y - 3, x + 1, y + 4, 0xFF000000);
 				ctx.fill(x - 2, y, x + 3, y + 1, 0xFFD0D0D0);
 				ctx.fill(x, y - 2, x + 1, y + 3, 0xFFD0D0D0);
+			} else if (meteor) {
+				// An orange star where a meteorite fell (3.62.0).
+				ctx.fill(x - 3, y, x + 4, y + 1, 0xFF000000);
+				ctx.fill(x, y - 3, x + 1, y + 4, 0xFF000000);
+				ctx.fill(x - 2, y, x + 3, y + 1, 0xFFFF9030);
+				ctx.fill(x, y - 2, x + 1, y + 3, 0xFFFF9030);
+				ctx.fill(x - 1, y - 1, x + 2, y + 2, routed ? 0xFFFFD040 : 0xFFFFC060);
 			} else {
 				ctx.fill(x - 1, y - 1, x + 2, y + 2, routed ? 0xFFFFD040 : 0xFFE03C28);
 			}
 			boolean hover = Math.abs(mouseX - x) < 6 && Math.abs(mouseY - y) < 6;
-			if (!m.name().isEmpty() && (zoom() >= 2 || hover || death)) {
-				ctx.drawCenteredTextWithShadow(textRenderer, AtlasClient.markerName(m), x, y - 11, death ? 0xFFE0E0E0 : 0xFFFFF0D0);
+			if (!m.name().isEmpty() && (zoom() >= 2 || hover || death || meteor)) {
+				ctx.drawCenteredTextWithShadow(textRenderer, AtlasClient.markerName(m), x, y - 11, death ? 0xFFE0E0E0 : meteor ? 0xFFFFC080 : 0xFFFFF0D0);
 			}
 		}
 	}

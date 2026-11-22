@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/kroll_process",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:triuranium_octoxide"
+  },
+  "title": {
+   "translate": "research.periodic_elements.uranium_metal"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.uranium_metal.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.fluorine"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.kroll_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

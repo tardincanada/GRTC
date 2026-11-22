@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/alembic_distillation",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:desalination_still"
+  },
+  "title": {
+   "translate": "research.periodic_elements.desalination"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.desalination.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.alembic_distillation"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.salt_evaporation"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

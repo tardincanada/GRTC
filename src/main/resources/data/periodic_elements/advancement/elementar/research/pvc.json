@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/thermal_cracking",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:insulated_cable"
+  },
+  "title": {
+   "translate": "research.periodic_elements.pvc"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.pvc.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.thermal_cracking"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.chlor_alkali"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

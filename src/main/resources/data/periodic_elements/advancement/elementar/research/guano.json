@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/station/natural_philosophers_laboratory",
+ "display": {
+  "icon": {
+   "id": "minecraft:bone_meal"
+  },
+  "title": {
+   "translate": "research.periodic_elements.guano"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.guano.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.saltpeter_refining"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

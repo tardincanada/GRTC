@@ -288,7 +288,7 @@ ISOTOPES = [
 ]
 
 
-LEVEL_RE = re.compile(r"[Ll]evel (\d)")
+LEVEL_RE = re.compile(r"[Ll]evel (\d+)")
 
 
 def _tag(text, base, explicit=None):
@@ -300,7 +300,7 @@ def _tag(text, base, explicit=None):
     last = base
     for i, p in enumerate(text):
         lvl = None
-        m = re.match(r"@(\d) ", p)
+        m = re.match(r"@(\d+) ", p)
         if m:
             p, lvl = p[m.end():], int(m.group(1))
         if explicit is not None and explicit[i] is not None:
@@ -437,7 +437,9 @@ def write_guidebook(runtime_dir, lang, mod, research, reactions, machines, trans
     data/lang/vanilla_<code>.json (Minecraft's own item names)."""
     import importlib
     from pathlib import Path
-    en = _build(_Ctx(lang, mod, EN_T), HAND, research, reactions, machines)
+    from advancements import FIRST_STEPS  # 3.60.0: "First steps" opens the first chapter
+    en = _build(_Ctx(lang, mod, EN_T), {**HAND, "INTRO": FIRST_STEPS["en"] + HAND["INTRO"]}, research, reactions,
+                machines)
     _write(runtime_dir / "guidebook.json", en)
     for code, tr_lang in (translations or {}).items():
         g = importlib.import_module(f"guide_{code}")
@@ -448,13 +450,15 @@ def write_guidebook(runtime_dir, lang, mod, research, reactions, machines, trans
         import crops_i18n
         import geo_guide
         import exploration
-        hand = {k: getattr(g, k, None) or (exploration.GUIDE_I18N[code] if k == "EXPLORATION" else None) or (__import__("fauna_guide").GUIDE_I18N[code] if k == "ANIMALS" else None) or multiblock_i18n.GUIDE[code].get(k) or shrubs_i18n.GUIDE[code].get(k)
+        hand = {k: getattr(g, k, None) or (exploration.GUIDE_I18N[code] if k == "EXPLORATION" else None) or (__import__("space").GUIDE_I18N.get(code) if k == "SPACE" else None) or (__import__("fauna_guide").GUIDE_I18N[code] if k == "ANIMALS" else None) or multiblock_i18n.GUIDE[code].get(k) or shrubs_i18n.GUIDE[code].get(k)
                 or crops_i18n.GUIDE[code].get(k) or geo_guide.I18N[code].get(k) for k in HAND}
         hand["CONTAINERS"] = hand["CONTAINERS"] + _VENT_GUIDE[code] + _TANKS_GUIDE[code] + _WATER_GUIDE[code]
         for k in HAND:
             assert len(hand[k]) == len(HAND[k]), (code, k, len(hand[k]), len(HAND[k]))
             assert [p.startswith("# ") for p in hand[k]] == [p.startswith("# ") for p in HAND[k]], (code, k, "headings")
-        out = _build(_Ctx(tr_lang, mod, {**EN_T, **g.T, **multiblock_i18n.T[code], **shrubs_i18n.T[code], **crops_i18n.T[code], **geo_guide.T[code], **__import__("exploration").T_I18N[code], **__import__("fauna_guide").T_I18N[code]}, g.WORDS, vanilla, getattr(g, "DECIMAL", ",")), hand,
+        assert [p.startswith("# ") for p in FIRST_STEPS[code]] == [p.startswith("# ") for p in FIRST_STEPS["en"]], code
+        hand["INTRO"] = FIRST_STEPS[code] + hand["INTRO"]
+        out = _build(_Ctx(tr_lang, mod, {**EN_T, **g.T, **multiblock_i18n.T[code], **shrubs_i18n.T[code], **crops_i18n.T[code], **geo_guide.T[code], **__import__("exploration").T_I18N[code], **__import__("space").T_I18N[code], **__import__("fauna_guide").T_I18N[code]}, g.WORDS, vanilla, getattr(g, "DECIMAL", ",")), hand,
                      research, reactions, machines)
         # Same paragraphs, same levels: the levels come from the English text.
         for ce, cp in zip(en, out, strict=True):
@@ -486,6 +490,7 @@ EN_T.update(_CROPS_T)
 EN_T.update(_TREES_T)
 EN_T["exploration"] = "Exploration"  # 3.47.0
 EN_T["animals"] = "Animals of the World"  # 3.50.0
+EN_T["space"] = "Space"  # 3.61.0
 from vent import GUIDE as _VENT_GUIDE
 CONTAINERS = CONTAINERS + _VENT_GUIDE["en_us"]  # 3.29.0 relief valve
 from tanks import GUIDE as _TANKS_GUIDE, SHAPED as _TANKS_SHAPED
@@ -503,7 +508,7 @@ def _tank_grids(L, text):
     return out
 
 HAND = {"GEOLOGY": GEOLOGY, "TREES": TREES, "SHRUBS": SHRUBS, "CROPS": CROPS, "ATLAS": ATLAS, "COMPENDIUM": COMPENDIUM, "PLANT_COMPENDIUM": PLANT_COMPENDIUM, "MINERAL_COMPENDIUM": MINERAL_COMPENDIUM, "INTRO": INTRO, "CONTAINERS": CONTAINERS, "UPGRADES": UPGRADES, "FARM": FARM, "TAR": TAR,
-        "INDUSTRY": INDUSTRY, "LIFE": LIFE, "MINING": MINING, "ISOTOPES": ISOTOPES, "EXPLORATION": __import__("exploration").GUIDE, "ANIMALS": __import__("fauna_guide").GUIDE,
+        "INDUSTRY": INDUSTRY, "LIFE": LIFE, "MINING": MINING, "ISOTOPES": ISOTOPES, "EXPLORATION": __import__("exploration").GUIDE, "SPACE": __import__("space").GUIDE, "ANIMALS": __import__("fauna_guide").GUIDE,
         "STRUCT_INTRO": STRUCT_INTRO, "STRUCT_FURNACE": STRUCT_FURNACE, "STRUCT_BATTERY": STRUCT_BATTERY,
         "STRUCT_OUTLINE": STRUCT_OUTLINE, "STRUCT_CHAMBER": STRUCT_CHAMBER, "STRUCT_COLUMN": STRUCT_COLUMN,
         "STRUCT_CASCADE": STRUCT_CASCADE, "STRUCT_REACTOR": STRUCT_REACTOR}
@@ -609,7 +614,7 @@ def _build(L, H, research, reactions, machines):
         return max([item_level(result)] + [item_level(i) for i in ingredients])
 
     stations = {lvl: sid for sid, (lvl, _, _) in STATIONS.items()}
-    for lvl in range(1, 8):
+    for lvl in range(1, max(stations) + 1):
         group = T["group"].format(n=lvl)
         sid = stations[lvl]
         research_text = [f"# {lang[f'block.{mod}.{sid}']}", lang[f"block.{mod}.{sid}.desc"].rstrip(".") + "."]
@@ -644,6 +649,21 @@ def _build(L, H, research, reactions, machines):
             machine_text.append(line)
             if pid in RECIPES:
                 machine_text.append(L.grid(f"{mod}:{pid}", RECIPES[pid]))
+            if cfg.get("kind") == "fusion":   # 3.63.0: the Tokamak's ring parts follow it
+                import fusion
+                for part in fusion.PARTS:
+                    pattern, key, count = fusion.RECIPES[part]
+                    machine_text.append(f"# {lang[f'block.{mod}.{part}']}")
+                    machine_text.append(lang[f"block.{mod}.{part}.desc"].rstrip(".") + ".")
+                    machine_text.append(L.grid(f"{mod}:{part}", {"pattern": pattern, "key": key, "count": count}))
+        if lvl == 10:   # 3.67.0: the fiction blocks that do work sit with the Annihilation Reactor
+            import fiction
+            import space as _space
+            for bid in fiction.BLOCKS + fiction.ENGINES:
+                pattern, key, count = fiction.RECIPES[bid] if bid in fiction.RECIPES else _space.RECIPES[bid]
+                machine_text.append(f"# {lang[f'block.{mod}.{bid}']}")
+                machine_text.append(lang[f"block.{mod}.{bid}.desc"].rstrip(".") + ".")
+                machine_text.append(L.grid(f"{mod}:{bid}", {"pattern": pattern, "key": key, "count": count}))
         if machine_text:
             chapters.append({"id": f"level_{lvl}_machines", "group": group, "title": T["machines"],
                              "icon": f"{mod}:{next((m['id'] for m in machines.values() if m['level'] == lvl), sid)}",
@@ -697,6 +717,7 @@ def _build(L, H, research, reactions, machines):
     chapters.append({"id": "life", "title": T["life"], "icon": f"{mod}:penicillin", "text": H["LIFE"]})
     chapters.append({"id": "mining", "title": T["mining"], "icon": f"{mod}:rotary_hammer", "text": H["MINING"]})
     chapters.append({"id": "exploration", "title": T["exploration"], "icon": f"{mod}:leather_backpack", "text": H["EXPLORATION"]})
+    chapters.append({"id": "space", "title": T["space"], "icon": f"{mod}:kerolox_engine", "text": H["SPACE"]})  # 3.61.0
     chapters.append({"id": "animals", "title": T["animals"], "icon": f"{mod}:animal_compendium", "text": H["ANIMALS"]})
     chapters.append({"id": "atlas", "title": T["atlas"], "icon": f"{mod}:field_atlas", "text": H["ATLAS"]})
     chapters.append({"id": "compendium", "title": T["compendium"], "icon": f"{mod}:tree_compendium",
@@ -755,10 +776,10 @@ def _build(L, H, research, reactions, machines):
                      "explicit": craft_lv})
 
     # Each paragraph's level; a chapter's level is its lowest. The client shows what the reader has reached.
-    base = {"structures": 2, "start": 0, "containers": 1, "upgrades": 3, "farm": 1, "tar": 3, "industry": 5, "life": 6, "mining": 2, "exploration": 1, "animals": 0, "atlas": 1, "compendium": 0, "plant_compendium": 0, "mineral_compendium": 0,
+    base = {"structures": 2, "start": 0, "containers": 1, "upgrades": 3, "farm": 1, "tar": 3, "industry": 5, "life": 6, "mining": 2, "exploration": 1, "space": 8, "animals": 0, "atlas": 1, "compendium": 0, "plant_compendium": 0, "mineral_compendium": 0,
             "isotopes": 5, "crops": 0}
     for c in chapters:
-        lvl_ch = re.match(r"level_(\d)_", c["id"])
+        lvl_ch = re.match(r"level_(\d+)_", c["id"])
         if lvl_ch:
             c["levels"] = [int(lvl_ch.group(1))] * len(c["text"])
         else:

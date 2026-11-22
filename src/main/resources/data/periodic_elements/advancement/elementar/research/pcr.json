@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/dna_sequencing",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:thermocycler"
+  },
+  "title": {
+   "translate": "research.periodic_elements.pcr"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.pcr.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.dna_sequencing"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

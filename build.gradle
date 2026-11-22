@@ -109,6 +109,14 @@ loom {
 			vmArg "-Dpe.shrubshots=true"
 			runDir "run"
 		}
+		// ./gradlew runBoneMealCheck : a real client right-clicks mod crops, a shrub and saplings with bone meal.
+		boneMealCheck {
+			client()
+			name "Bone Meal Check"
+			source sourceSets.gametest
+			vmArg "-Dpe.bonemealcheck=true"
+			runDir "run"
+		}
 		// ./gradlew runCropShots : screenshots the crops growing wild and a sky field of every crop.
 		cropShots {
 			client()
@@ -226,12 +234,112 @@ loom {
 			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
 			runDir "run"
 		}
+		// ./gradlew runHornShots : animals with horns, antlers or tusks next to their babies (3.53.4).
+		// PE_LANG=pt_br ./gradlew runPlantWarningShots : the "doesn't grow here" warning under the crosshair (3.54.0).
+		// PE_LANG=pt_br ./gradlew runTransplantShots : moving and multiplying shrubs (3.56.0).
+		transplantShots {
+			client()
+			name "Transplant Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.transplantshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			programArgs "--width", "1280", "--height", "720"
+			runDir "run"
+		}
+		// PE_LANG=pt_br ./gradlew runAdvancementShots : starter Field Guide and the Elementar advancement tab (3.60.0).
+		advancementShots {
+			client()
+			name "Advancement Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.advancementshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			programArgs "--width", "1280", "--height", "720"
+			runDir "run"
+		}
+		plantWarningShots {
+			client()
+			name "Plant Warning Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.plantwarningshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			programArgs "--width", "1280", "--height", "720"
+			runDir "run"
+		}
+		hornShots {
+			client()
+			name "Horn Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.hornshots=true"
+			programArgs "--width", "1280", "--height", "720"
+			runDir "run"
+		}
 		// ./gradlew runExploreShots : street lamps, tent, cap lamp, goggles and the backpack at night (3.47.0).
 		exploreShots {
 			client()
 			name "Explore Shots"
 			source sourceSets.gametest
 			vmArg "-Dpe.exploreshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runSpaceShots : two rockets on their pads, lift-off, separation and the first stage landing (3.61.0).
+		spaceShots {
+			client()
+			name "Space Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.spaceshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runMeteorShots : a meteorite falls, its crater, the telescope's forecast (3.62.0).
+		meteorShots {
+			client()
+			name "Meteor Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.meteorshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runFusionShots : the Tokamak, its ring and its glowing vessels (3.63.0).
+		fusionShots {
+			client()
+			name "Fusion Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.fusionshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runMoonShots : the Moon, the Earth in its sky, a sealed base and an icy polar crater (3.64.0).
+		moonShots {
+			client()
+			name "Moon Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.moonshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		// ./gradlew runMarsShots : a volcano, a greenhouse, the blue sunset, a canyon, the polar cap and a dust storm (3.66.0).
+		marsShots {
+			client()
+			name "Mars Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.marsshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		fictionShots {
+			client()
+			name "Fiction Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.fictionshots=true"
+			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
+			runDir "run"
+		}
+		innerShots {
+			client()
+			name "Inner Planet Shots"
+			source sourceSets.gametest
+			vmArg "-Dpe.innershots=true"
 			vmArg "-Dpe.lang=" + (System.getenv("PE_LANG") ?: "en_us")
 			runDir "run"
 		}
@@ -304,3 +412,8 @@ java {
 	targetCompatibility = JavaVersion.VERSION_21
 }
 
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}" }
+	}
+}

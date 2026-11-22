@@ -10,7 +10,7 @@
       "model": "periodic_elements:block/chlor_alkali_cell_active"
     },
     "facing=north,active=true,mode=1": {
-      "model": "periodic_elements:block/chlor_alkali_cell_active"
+      "model": "periodic_elements:block/chlor_alkali_cell_active_1"
     },
     "facing=north,active=true,mode=2": {
       "model": "periodic_elements:block/chlor_alkali_cell_active"
@@ -67,7 +67,7 @@
       "y": 90
     },
     "facing=east,active=true,mode=1": {
-      "model": "periodic_elements:block/chlor_alkali_cell_active",
+      "model": "periodic_elements:block/chlor_alkali_cell_active_1",
       "y": 90
     },
     "facing=east,active=true,mode=2": {
@@ -139,7 +139,7 @@
       "y": 180
     },
     "facing=south,active=true,mode=1": {
-      "model": "periodic_elements:block/chlor_alkali_cell_active",
+      "model": "periodic_elements:block/chlor_alkali_cell_active_1",
       "y": 180
     },
     "facing=south,active=true,mode=2": {
@@ -211,7 +211,7 @@
       "y": 270
     },
     "facing=west,active=true,mode=1": {
-      "model": "periodic_elements:block/chlor_alkali_cell_active",
+      "model": "periodic_elements:block/chlor_alkali_cell_active_1",
       "y": 270
     },
     "facing=west,active=true,mode=2": {

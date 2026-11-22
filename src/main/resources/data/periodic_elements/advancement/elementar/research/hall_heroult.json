@@ -1,0 +1,48 @@
+{
+ "parent": "periodic_elements:elementar/research/bayer_process",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:hall_heroult_cell"
+  },
+  "title": {
+   "translate": "research.periodic_elements.hall_heroult"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.hall_heroult.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.bayer_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

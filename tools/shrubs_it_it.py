@@ -137,9 +137,7 @@ GUIDE = [
     "# Arbusti",
     "Gli arbusti crescono spontanei in ogni bioma di terra, da tre a cinque specie ciascuno, e come gli alberi ognuno "
     "cresce solo nei suoi biomi. Un arbusto matura in una ventina di minuti; la farina d'ossa lo accelera.",
-    "Clic destro su un arbusto maturo per raccogliere ciò che dà: foglie, semi, frutti, radici o fusti. Resta piantato e "
-    "matura di nuovo. Le cesoie su un arbusto cresciuto tagliano una talea da piantare; alcuni semi, come il peperoncino "
-    "e la jojoba, si seminano anche. Rompere un arbusto dà uno o due bastoni, e il raccolto se era maturo.",
+    'Clic destro su un arbusto maturo per raccogliere ciò che dà: foglie, semi, frutti, radici o fusti. Resta piantato e matura di nuovo. Le cesoie su un arbusto cresciuto tagliano una o due talee da piantare; alcuni semi, come il peperoncino e la jojoba, si seminano anche. Per spostare un arbusto, accovacciati e fai clic destro con una pala: esce intero con la sua zolla e mantiene la sua grandezza quando lo ripianti. Rompere un arbusto dà una talea, uno o due bastoni, e il raccolto se era maturo.',
     "# Serre",
     "In una serra un arbusto o un germoglio d'albero cresce lontano dai suoi biomi. Una serra è una stanza chiusa, fino a "
     "32 per 32 blocchi e 32 di altezza, in cui si entra solo da una porta o una botola, con il tetto tutto di vetro o "

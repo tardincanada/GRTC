@@ -50,6 +50,14 @@ Fictional blocks get a proposed real analogue, marked "Proposed" in the CSV
 
 ## Research, treatises and the first machines
 
+**Getting started (3.60.0).** Every player gets a Field Guide the first time they join a world; its first chapter
+opens with "First steps" (charcoal, bricks and raw copper, the Potter's and Smith's Workshop, Fired Pottery, then the
+key projects). The **Elementar** tab of the advancements screen (L) is the progression map: one advancement per
+research project, each hanging from the project of its level it needs (or from its level's research station), with
+every requirement in its description. tools/advancements.py writes it from data/research.csv; research advancements
+are granted and revoked by ResearchAdvancements.java to match the player's research. Key projects and stations toast
+and announce in chat; optional projects are earned silently.
+
 Research is per player and saved with the world. A player's tech level is the highest level whose
 **key** projects (and those of every level below) are finished; optional projects improve the current
 era. Level 0 needs no research.
@@ -912,8 +920,3 @@ With Jade in the mods folder, the panel at the top of the screen shows:
   tanks behind it to those in front; redstone stops it.
 - Strings, research and Field Guide paragraphs (end of the Containers chapter, with recipe grids) in all ten
   languages: `tools/tanks.py`. Tests: `TankTests` (9). Screenshots: `PE_LANG=pt_br xvfb-run ./gradlew runTankShots`.
-
-## License
-
-All rights reserved. Copyright (c) 2026 Guilherme. The source is public so it can be read and built,
-but it may not be copied, modified or redistributed without permission.

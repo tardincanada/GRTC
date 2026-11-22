@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/mars_transit",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:martian_regolith"
+  },
+  "title": {
+   "translate": "research.periodic_elements.martian_oxygen"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.martian_oxygen.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.mars_transit"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.electrolysis"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

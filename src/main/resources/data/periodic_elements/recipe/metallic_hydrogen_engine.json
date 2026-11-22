@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TIT",
+    "SCS",
+    "N N"
+  ],
+  "key": {
+    "T": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:stainless_steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "periodic_elements:niobium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:metallic_hydrogen_engine",
+    "count": 1
+  }
+}

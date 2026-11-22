@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/university_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:kerosene"
+  },
+  "title": {
+   "translate": "research.periodic_elements.rocketry"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.rocketry.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.oil_refining"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.air_liquefaction"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

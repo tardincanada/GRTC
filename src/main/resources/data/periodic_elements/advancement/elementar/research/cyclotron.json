@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/isotope_separation",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:cyclotron"
+  },
+  "title": {
+   "translate": "research.periodic_elements.cyclotron"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.cyclotron.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.isotope_separation"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

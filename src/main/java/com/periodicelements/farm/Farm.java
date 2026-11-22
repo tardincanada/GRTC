@@ -218,6 +218,7 @@ public final class Farm {
 		fire.add(RUBBER_LOG, 5, 5);
 		fire.add(RUBBER_PLANKS, 5, 20);
 		fire.add(RUBBER_LEAVES, 30, 60);
+		com.periodicelements.trees.LeafFall.support(RUBBER_LEAVES, RUBBER_LOG);
 		CompostingChanceRegistry.INSTANCE.add(RUBBER_LEAVES, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(RUBBER_SAPLING, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(Registries.ITEM.get(id("protein_meal")), 0.65f);

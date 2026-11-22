@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/university_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:radio_transmitter"
+  },
+  "title": {
+   "translate": "research.periodic_elements.radio_direction_finding"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.radio_direction_finding.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.dynamo"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.portolan"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

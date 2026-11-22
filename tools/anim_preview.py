@@ -139,7 +139,7 @@ PARTS = ["refractory_brick", "tuyere", "silica_brick", "lead_sheet", "gay_lussac
 
 
 POWER = ["voltaic_pile", "steam_engine", "dynamo", "diesel_generator", "solar_panel", "nuclear_reactor",
-         "radioisotope_generator", "wind_turbine", "helium_collector"]
+         "radioisotope_generator", "wind_turbine", "helium_collector", "tokamak"]
 
 
 def power_sheet(lang, out_dir):

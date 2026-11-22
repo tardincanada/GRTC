@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/university_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:chainsaw"
+  },
+  "title": {
+   "translate": "research.periodic_elements.chainsaw"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.chainsaw.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.battery_pack"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.electric_motor"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

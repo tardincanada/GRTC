@@ -1,0 +1,56 @@
+{
+ "parent": "periodic_elements:elementar/station/mission_control",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:space_suit_helmet"
+  },
+  "title": {
+   "translate": "research.periodic_elements.space_suit"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.space_suit.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.orbital_rocketry"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.nylon"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.vulcanization"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

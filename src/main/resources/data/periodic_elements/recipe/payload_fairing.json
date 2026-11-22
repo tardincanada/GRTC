@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "periodic_elements:composite_plate"
+    },
+    "S": {
+      "item": "periodic_elements:titanium_alloy_ingot"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:payload_fairing",
+    "count": 1
+  }
+}

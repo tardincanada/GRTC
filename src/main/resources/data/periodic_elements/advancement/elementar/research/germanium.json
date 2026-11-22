@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/indium",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:raw_sphalerite"
+  },
+  "title": {
+   "translate": "research.periodic_elements.germanium"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.germanium.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.indium"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.pneumatic_chemistry"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

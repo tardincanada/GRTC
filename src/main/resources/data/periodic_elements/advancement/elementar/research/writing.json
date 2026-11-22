@@ -1,0 +1,28 @@
+{
+ "parent": "periodic_elements:elementar/station/potters_workshop",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:carbon_ink"
+  },
+  "title": {
+   "translate": "research.periodic_elements.writing"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.writing.desc"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

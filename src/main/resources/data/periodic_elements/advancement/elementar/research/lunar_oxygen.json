@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/lunar_landing",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:mare_basalt"
+  },
+  "title": {
+   "translate": "research.periodic_elements.lunar_oxygen"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.lunar_oxygen.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.lunar_landing"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

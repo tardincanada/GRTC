@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WIW",
+    "WIW",
+    "WIW"
+  ],
+  "key": {
+    "W": {
+      "item": "periodic_elements:niobium_titanium_wire"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:central_solenoid",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/orbital_rocketry",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:hydrolox_engine"
+  },
+  "title": {
+   "translate": "research.periodic_elements.cryogenic_hydrogen"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.cryogenic_hydrogen.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.orbital_rocketry"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.air_liquefaction"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

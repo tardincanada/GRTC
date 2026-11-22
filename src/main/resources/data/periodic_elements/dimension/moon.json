@@ -1,0 +1,10 @@
+{
+  "type": "periodic_elements:moon",
+  "generator": {
+    "type": "periodic_elements:moon",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "periodic_elements:moon"
+    }
+  }
+}

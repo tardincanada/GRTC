@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "STS",
+    "N N"
+  ],
+  "key": {
+    "P": {
+      "item": "periodic_elements:room_temperature_superconductor"
+    },
+    "I": {
+      "item": "periodic_elements:integrated_circuit"
+    },
+    "S": {
+      "item": "periodic_elements:stability_alloy_ingot"
+    },
+    "T": {
+      "item": "periodic_elements:tokamak"
+    },
+    "N": {
+      "item": "periodic_elements:niobium"
+    }
+  },
+  "result": {
+    "id": "periodic_elements:fusion_drive",
+    "count": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/station/university_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:prospecting_magnetometer"
+  },
+  "title": {
+   "translate": "research.periodic_elements.magnetic_prospecting"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.magnetic_prospecting.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.core_drilling"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.dynamo"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

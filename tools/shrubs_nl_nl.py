@@ -137,9 +137,7 @@ GUIDE = [
     "# Struiken",
     "Struiken groeien wild in elk landbioom, drie tot vijf soorten per bioom, en net als bomen groeit elke soort alleen in "
     "haar eigen biomen. Een struik rijpt in ongeveer twintig minuten; beendermeel versnelt dat.",
-    "Klik rechts op een rijpe struik om te plukken wat hij geeft: bladeren, zaden, vruchten, wortels of stengels. Hij "
-    "blijft staan en rijpt opnieuw. Een schaar op een volgroeide struik knipt een stek om te planten; sommige zaden, zoals "
-    "peper en jojoba, kun je ook zaaien. Een struik breken geeft een of twee stokken, en zijn oogst als hij rijp was.",
+    'Klik rechts op een rijpe struik om te plukken wat hij geeft: bladeren, zaden, vruchten, wortels of stengels. Hij blijft staan en rijpt opnieuw. Een schaar op een volgroeide struik knipt een of twee stekken om te planten; sommige zaden, zoals peper en jojoba, kun je ook zaaien. Om een struik te verplaatsen, sluip en klik rechts met een schep: hij komt heel met zijn wortelkluit omhoog en houdt zijn grootte als je hem herplant. Een struik breken geeft een stek, een of twee stokken, en zijn oogst als hij rijp was.',
     "# Kassen",
     "In een kas groeit een struik of een boomzaailing ver van zijn biomen. Een kas is een gesloten ruimte, tot 32 bij 32 "
     "blokken en 32 hoog, alleen toegankelijk via een deur of luik, met een dak helemaal van glas of glasruiten. Struiken "

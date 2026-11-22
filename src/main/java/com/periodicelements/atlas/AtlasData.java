@@ -105,6 +105,22 @@ public class AtlasData extends PersistentState {
 		return server.getOverworld().getPersistentStateManager().getOrCreate(TYPE, PeriodicElements.MOD_ID + "_atlas_" + player);
 	}
 
+	/**
+	 * 3.65.0: the Atlas of {@code player} for the world they are in. The Earth keeps the old file; each other world (the
+	 * Moon, Mars) gets its own map, saved as ..._atlas_&lt;uuid&gt;_&lt;world&gt;.
+	 */
+	public static AtlasData of(MinecraftServer server, UUID player, net.minecraft.registry.RegistryKey<net.minecraft.world.World> world) {
+		if (world == net.minecraft.world.World.OVERWORLD) {
+			return of(server, player);
+		}
+		return server.getOverworld().getPersistentStateManager().getOrCreate(TYPE,
+				PeriodicElements.MOD_ID + "_atlas_" + player + "_" + world.getValue().getPath());
+	}
+
+	public static AtlasData here(net.minecraft.server.network.ServerPlayerEntity player) {
+		return of(player.getServer(), player.getUuid(), player.getWorld().getRegistryKey());
+	}
+
 	public static AtlasData copy(MinecraftServer server, UUID copy) {
 		return server.getOverworld().getPersistentStateManager().getOrCreate(TYPE, PeriodicElements.MOD_ID + "_atlas_copy_" + copy);
 	}

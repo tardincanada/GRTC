@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/superconductors",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:calutron"
+  },
+  "title": {
+   "translate": "research.periodic_elements.electromagnetic_separation"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.electromagnetic_separation.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.isotope_separation"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.superconductors"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -42,7 +42,7 @@ public class CreativeTests implements FabricGameTest {
 	@GameTest(templateName = EMPTY_STRUCTURE)
 	public void everyItemHasATab(TestContext ctx) {
 		expect(ctx, CreativeTabs.unplaced().isEmpty(), "items with no creative tab: " + CreativeTabs.unplaced());
-		expect(ctx, CreativeTabs.tabs().size() == 18, "18 tabs expected, got " + CreativeTabs.tabs());
+		expect(ctx, CreativeTabs.tabs().size() == 19, "19 tabs expected, got " + CreativeTabs.tabs());
 		expect(ctx, CreativeTabs.tabOf(item("carbon")).equals("elements"), "carbon should be in Elements");
 		expect(ctx, CreativeTabs.tabOf(item("chlorine")).equals("elements"), "chlorine (a gas) stays in Elements");
 		expect(ctx, CreativeTabs.tabOf(item("sodium_chloride")).equals("solid_substances"), "salt is a solid");

@@ -123,6 +123,7 @@ public final class Trees {
 					str(o, "tap"), o.get("tapFlask").getAsBoolean(), o.get("tapTicks").getAsInt());
 			ALL.add(s);
 			BY_LOG.put(log, s);
+			LeafFall.support(leaves, log, stripped);
 
 			StrippableBlockRegistry.register(log, stripped);
 			FlammableBlockRegistry fire = FlammableBlockRegistry.getDefaultInstance();
@@ -178,7 +179,9 @@ public final class Trees {
 					sw.spawnParticles(ParticleTypes.SMOKE, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 6, 0.2, 0.2, 0.2, 0.01);
 					player.sendMessage(Text.translatable("gui.periodic_elements.sapling.wrong_biome", sapling.biomeNames()), true);
 				}
-				return ActionResult.FAIL;
+				// 3.52.1: SUCCESS on the client sends the click to the server (FAIL kept it client-side, so the
+				// player saw no smoke and no note); FAIL on the server keeps the bone meal.
+				return world.isClient ? ActionResult.SUCCESS : ActionResult.FAIL;
 			}
 			// An axe strips the bark off a log whose bark is worth having, and drops it.
 			Species s = BY_LOG.get(state.getBlock());

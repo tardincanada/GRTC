@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "periodic_elements:martian_regolith"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "id": "periodic_elements:washed_martian_soil",
+    "count": 8
+  }
+}

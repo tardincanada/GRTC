@@ -1,0 +1,34 @@
+{
+ "parent": "periodic_elements:elementar/research/hall_heroult",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:university_laboratory"
+  },
+  "title": {
+   "translate": "block.periodic_elements.university_laboratory"
+  },
+  "description": {
+   "translate": "advancement.periodic_elements.station.desc",
+   "with": [
+    "5",
+    "4"
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "periodic_elements:university_laboratory"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/lunar_landing",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:mars_capsule"
+  },
+  "title": {
+   "translate": "research.periodic_elements.mars_transit"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.mars_transit.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.lunar_landing"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.life_support"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

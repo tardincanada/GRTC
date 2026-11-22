@@ -74,6 +74,13 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 	private boolean burningNatural;
 	/** Why a reactor is not running: 0 it is (or idle), 1 subcritical, 2 scrammed (ran away), 3 scrammed (dry). */
 	private int stopped;
+	/** 3.63.0 Tokamak: ticks left on this burn, kJ gathered to light the plasma, burns left on the helium flask. */
+	private int plasmaLeft;
+	private double ignition;
+	private int coolantLeft;
+	private boolean burningHe3;
+	@org.jetbrains.annotations.Nullable
+	private com.periodicelements.space.Fusion.Ring ring;
 
 	public PowerBlockEntity(BlockPos pos, BlockState state) {
 		super(ModContent.POWER_ENTITY, pos, state);
@@ -103,7 +110,8 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 	public boolean givesCurrent() {
 		return spec.kind().equals("electric") || spec.kind().equals("dynamo") || spec.kind().equals("solar")
 				|| spec.kind().equals("reactor") || spec.kind().equals("wind") || spec.kind().equals("rtg")
-				|| spec.kind().equals("battery") || spec.kind().equals("generator");
+				|| spec.kind().equals("battery") || spec.kind().equals("generator") || spec.kind().equals("fusion")
+				|| spec.kind().equals("annihilation");
 	}
 
 	/** Would a dynamo take more current from an engine? */
@@ -238,17 +246,33 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 				tickReactor(world, pos);
 			}
 		} else if (spec.kind().equals("wind")) {
-			tickWind(world, pos);
+			if (world.getRegistryKey() == com.periodicelements.space.Moon.MOON) {
+				running = false;   // 3.65.0: no air, no wind (on Mars a little: windPower)
+			} else {
+				tickWind(world, pos);
+			}
 		} else if (spec.kind().equals("rtg")) {
 			tickRtg();
 		} else if (spec.kind().equals("battery")) {
 			tickBattery(world, pos);
 		} else if (spec.kind().equals("generator")) {
-			tickGenerator();
+			if (com.periodicelements.space.Vacuum.hasAir(world, pos)) {
+				tickGenerator();
+			} else {
+				burnLeft = 0;   // 3.65.0: a diesel needs air to burn
+				running = false;
+			}
 		} else if (spec.kind().equals("helium")) {
 			tickHelium();
-		} else {
+		} else if (spec.kind().equals("fusion")) {
+			tickFusion(world, pos);
+		} else if (spec.kind().equals("annihilation")) {
+			tickAnnihilation();
+		} else if (com.periodicelements.space.Vacuum.hasAir(world, pos)) {
 			tickEngine(world, pos);
+		} else {
+			burnLeft = 0;   // 3.65.0: the firebox of a steam engine goes out without air
+			running = false;
 		}
 		BlockState next = state.with(Properties.LIT, running);
 		if (state.getBlock() instanceof BatteryBlock) {
@@ -312,6 +336,9 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 		double sea = spec.num("seaLevel");
 		double height = Math.max(0, Math.min(1, (pos.getY() - sea) / (spec.num("fullHeight") - sea)));
 		double weather = world.isThundering() ? spec.num("thunderFactor") : world.isRaining() ? spec.num("rainFactor") : 1;
+		if (com.periodicelements.space.Mars.is(world)) {   // 3.66.0: thin air, but strong storm winds
+			weather = com.periodicelements.space.Mars.WIND * (1 + 3 * com.periodicelements.space.Mars.storm(world));
+		}
 		return spec.num("gain") * (0.25 + 0.75 * height) * weather;
 	}
 
@@ -440,6 +467,119 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 		}
 	}
 
+	/** 3.63.0: the Tokamak's ring, as last checked (null before the first check). */
+	@org.jetbrains.annotations.Nullable
+	public com.periodicelements.space.Fusion.Ring ring() {
+		return ring;
+	}
+
+	/** Ticks left on the Tokamak's burn (0 when the plasma is out). */
+	public int plasmaLeft() {
+		return plasmaLeft;
+	}
+
+	public double ignition() {
+		return ignition;
+	}
+
+	private int count(String itemId) {
+		int n = 0;
+		for (ItemStack s : items) {
+			if (!s.isEmpty() && id(s).equals(itemId)) {
+				n += s.getCount();
+			}
+		}
+		return n;
+	}
+
+	private boolean fusionFuel() {
+		return count(spec.str("deuterium")) > 0 && (count(spec.str("tritium")) > 0 || count(spec.str("helium3")) > 0)
+				&& (coolantLeft > 0 || count(spec.str("coolant")) > 0);
+	}
+
+	/** 3.64.0: is this burn deuterium with helium-3 from the Moon? */
+	public boolean burningHelium3() {
+		return burningHe3;
+	}
+
+	/** Uses the fuel of one burn: a deuterium, a tritium vial, a helium flask every few burns; breeds a lithium into tritium. */
+	private void startBurn() {
+		use(find(s -> id(s).equals(spec.str("deuterium"))));
+		// 3.64.0: helium-3 burns first when there is some: D + He-3 gives off almost no neutrons and a little more energy
+		burningHe3 = count(spec.str("helium3")) > 0;
+		use(find(s -> id(s).equals(spec.str(burningHe3 ? "helium3" : "tritium"))));
+		if (coolantLeft <= 0) {
+			use(find(s -> id(s).equals(spec.str("coolant"))));
+			coolantLeft = (int) spec.num("coolantPulses");
+		}
+		coolantLeft--;
+		int li = burningHe3 ? -1 : find(s -> id(s).equals(spec.str("lithium")));
+		if (li >= 0) {
+			Item tritium = Registries.ITEM.get(Identifier.of(spec.str("tritium")));
+			ItemStack lithium = items.get(li);
+			lithium.decrement(1);
+			if (lithium.isEmpty()) {
+				items.set(li, new ItemStack(tritium));
+			} else if (!insert(new ItemStack(tritium))) {
+				lithium.increment(1);   // no room for the vial: the lithium waits for the next burn
+			}
+		}
+		plasmaLeft = (int) spec.num("pulseTicks");
+		markDirty();
+	}
+
+	/**
+	 * 3.63.0: the Tokamak. With a whole ring round it and fuel in its slots, it first gathers {@code ignition} kJ from the
+	 * power blocks wired to it, then burns: {@code gain} kJ a tick for {@code pulseTicks}, starting the next burn at once
+	 * while fuel lasts. A broken ring puts the plasma out.
+	 */
+	private void tickFusion(ServerWorld world, BlockPos pos) {
+		if (ring == null || structureTimer % 20 == 0) {
+			ring = com.periodicelements.space.Fusion.check(world, pos);
+		}
+		structureTimer++;
+		boolean was = running;
+		running = false;
+		if (!ring.valid()) {
+			plasmaLeft = 0;
+			ignition = 0;
+		} else if (plasmaLeft > 0 || startOrLight(world, pos, was)) {
+			stored = Math.min(spec.num("store"), stored + spec.num("gain") * (burningHe3 ? spec.num("helium3Gain") : 1));
+			plasmaLeft--;
+			running = true;
+			markDirty();
+		}
+		if (running != was && ring.centre() != null) {
+			com.periodicelements.space.Fusion.light(world, ring, running);
+		}
+	}
+
+	/** Starts a burn: straight away after the last one, or once enough current has been drawn to light the plasma. */
+	private boolean startOrLight(ServerWorld world, BlockPos pos, boolean hot) {
+		if (!fusionFuel()) {
+			return false;
+		}
+		if (!hot) {
+			double need = spec.num("ignition") - ignition;
+			for (PowerBlockEntity p : MachineBlockEntity.powerSources(world, pos)) {
+				double room = Math.min(spec.num("chargeRate"), need);
+				if (p == this || p.spec().kind().equals("fusion") || room <= 1e-9) {
+					continue;
+				}
+				double got = p.draw(room);
+				ignition += got;
+				need -= got;
+			}
+			markDirty();
+			if (need > 1e-6) {
+				return false;
+			}
+			ignition = 0;
+		}
+		startBurn();
+		return true;
+	}
+
 	/** Burns liquid fuel straight into current while there is room to store it. */
 	private void tickGenerator() {
 		double gain = spec.num("burn") * spec.num("efficiency");
@@ -462,6 +602,34 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 		markDirty();
 	}
 
+	/**
+	 * 3.67.0 (fiction): an Annihilation Reactor. Each flask of antihydrogen, met by a flask of hydrogen, gives
+	 * "gain" kJ per tick for "ticksPerFuel" ticks; when full, the burn waits. It needs no air: nothing burns.
+	 */
+	private void tickAnnihilation() {
+		double gain = spec.num("gain");
+		// full: the burn waits, the trap held open, and the core keeps its glow until the current is drawn
+		running = burnLeft > 0;
+		if (stored + gain > spec.num("store") + 1e-9) {
+			return;
+		}
+		running = false;
+		if (burnLeft <= 0) {
+			int f = find(s -> id(s).equals(spec.str("fuel")));
+			int m = find(s -> id(s).equals(spec.str("matter")));
+			if (f < 0 || m < 0) {
+				return;
+			}
+			use(f);
+			use(m);
+			burnLeft = (int) spec.num("ticksPerFuel");
+		}
+		burnLeft--;
+		stored += gain;
+		running = true;
+		markDirty();
+	}
+
 	private void tickWind(ServerWorld world, BlockPos pos) {
 		double gain = windPower(world, pos);
 		running = gain > 0 && stored < spec.num("store");
@@ -474,7 +642,12 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 	private void tickSolar(ServerWorld world, BlockPos pos) {
 		running = sunlit(world, pos) && stored < spec.num("store");
 		if (running) {
-			stored = Math.min(spec.num("store"), stored + spec.num("gain"));
+			// 3.66.0: Mars gets 43 % of the Earth's sunlight, and a dust storm blots most of that out
+			// 3.68.0: Mercury's day side 6.7 times, none on its night side; over Venus's clouds 1.9 times
+			double sun = com.periodicelements.space.Mercury.is(world) ? com.periodicelements.space.Mercury.sunlight(com.periodicelements.space.Mercury.clock(world), pos.getX())
+					: com.periodicelements.space.Venus.is(world) ? com.periodicelements.space.Venus.SUNLIGHT
+					: com.periodicelements.space.Mars.sunlight(world);
+			stored = Math.min(spec.num("store"), stored + spec.num("gain") * sun);
 			markDirty();
 		}
 	}
@@ -748,6 +921,11 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 					String.format(Locale.ROOT, "%.0f", spec.num("store")),
 					running ? Text.translatable(ns + "generator.running", burnLeft / 20) : Text.translatable(ns + "generator.idle"));
 		}
+		if (spec.kind().equals("annihilation")) {
+			return Text.translatable(ns + "annihilation", String.format(Locale.ROOT, "%.0f", stored),
+					String.format(Locale.ROOT, "%.0f", spec.num("store")),
+					running ? Text.translatable(ns + "annihilation.running", burnLeft / 20) : Text.translatable(ns + "annihilation.idle"));
+		}
 		if (spec.kind().equals("helium")) {
 			double perDay = heliumRate() * 24000;
 			Text state = perDay <= 0 ? Text.translatable(ns + "helium.nothing")
@@ -776,6 +954,26 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 					burnLeft > 0 ? Text.translatable(ns + "reactor.burning", Math.round(100.0 * (rod - burnLeft) / rod))
 							: Text.translatable(ns + "reactor.no_rod"),
 					Text.translatable(ns + (getWorld() instanceof ServerWorld w && cooled(w, pos) ? "reactor.cooled" : "reactor.dry")));
+		}
+		if (spec.kind().equals("fusion")) {
+			Text state;
+			if (ring == null || ring.centre() == null) {
+				state = Text.translatable(ns + "fusion.no_ring");
+			} else if (!ring.valid()) {
+				BlockPos m = ring.missingAt();
+				state = Text.translatable(ns + "fusion.missing", ring.missing().getName(), m.getX(), m.getY(), m.getZ());
+			} else if (plasmaLeft > 0) {
+				int pulse = (int) spec.num("pulseTicks");
+				state = Text.translatable(ns + "fusion.burning", Math.round(100.0 * (pulse - plasmaLeft) / pulse),
+						count(spec.str("lithium")));
+			} else if (!fusionFuel()) {
+				state = Text.translatable(ns + "fusion.no_fuel");
+			} else {
+				state = Text.translatable(ns + "fusion.charging", String.format(Locale.ROOT, "%.0f", ignition),
+						String.format(Locale.ROOT, "%.0f", spec.num("ignition")));
+			}
+			return Text.translatable(ns + "fusion", String.format(Locale.ROOT, "%.0f", stored),
+					String.format(Locale.ROOT, "%.0f", spec.num("store")), state);
 		}
 		if (spec.kind().equals("electric")) {
 			return Text.translatable(ns + "pile", String.format(Locale.ROOT, "%.0f", stored),
@@ -840,6 +1038,10 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 		nbt.putInt("PendingSpent", pendingSpent);
 		nbt.putDouble("BurnCarry", burnCarry);
 		nbt.putBoolean("BurningNatural", burningNatural);
+		nbt.putInt("PlasmaLeft", plasmaLeft);
+		nbt.putDouble("Ignition", ignition);
+		nbt.putInt("CoolantLeft", coolantLeft);
+		nbt.putBoolean("BurningHe3", burningHe3);
 	}
 
 	@Override
@@ -856,6 +1058,11 @@ public class PowerBlockEntity extends BlockEntity implements SidedInventory, Nam
 		pendingSpent = nbt.getInt("PendingSpent");
 		burnCarry = nbt.getDouble("BurnCarry");
 		burningNatural = nbt.getBoolean("BurningNatural");
+		plasmaLeft = nbt.getInt("PlasmaLeft");
+		ignition = nbt.getDouble("Ignition");
+		coolantLeft = nbt.getInt("CoolantLeft");
+		burningHe3 = nbt.getBoolean("BurningHe3");
+		running = plasmaLeft > 0;
 	}
 
 	@Override

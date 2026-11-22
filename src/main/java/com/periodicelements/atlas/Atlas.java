@@ -150,7 +150,7 @@ public final class Atlas {
 	}
 
 	public static void tickPlayer(ServerPlayerEntity player) {
-		if (player.getWorld().getRegistryKey() != World.OVERWORLD || player.isSpectator() || !carriesAtlas(player)) {
+		if (!drawn(player.getWorld()) || player.isSpectator() || !carriesAtlas(player)) {
 			return;
 		}
 		Set<String> known = ResearchState.get(player.getServer()).known(player.getUuid());
@@ -164,12 +164,12 @@ public final class Atlas {
 			return;
 		}
 		LAST.put(player.getUuid(), new long[]{x, z, now});
-		if (has(known, "geiger_log") && player.getInventory().contains(new ItemStack(com.periodicelements.ModContent.GEIGER_COUNTER))) {
+		boolean home = player.getWorld().getRegistryKey() == World.OVERWORLD;
+		if (home && has(known, "geiger_log") && player.getInventory().contains(new ItemStack(com.periodicelements.ModContent.GEIGER_COUNTER))) {
 			Prospecting.logRadiation(player);
 			if (has(known, "isotopes")) Prospecting.aerial(player);
 		}
-		record(player.getServerWorld(), AtlasData.of(player.getServer(), player.getUuid()), x, z, reach(known),
-				has(known, "geology"));
+		record(player.getServerWorld(), AtlasData.here(player), x, z, reach(known), home && has(known, "geology"));
 	}
 
 	/**
@@ -229,8 +229,13 @@ public final class Atlas {
 		return changed;
 	}
 
+	/** 3.65.0: the Atlas draws the Earth and the worlds of the space levels (each on its own map). */
+	public static boolean drawn(World world) {
+		return world.getRegistryKey() == World.OVERWORLD || com.periodicelements.space.Moon.airless(world);
+	}
+
 	private static void answer(ServerPlayerEntity player, AtlasPayloads.Request req) {
-		AtlasData data = AtlasData.of(player.getServer(), player.getUuid());
+		AtlasData data = AtlasData.here(player);
 		int n = Math.min(Math.min(req.keys().size(), req.revs().size()), 96);
 		for (int i = 0; i < n; i++) {
 			AtlasTile t = data.tiles.get(req.keys().get(i));
@@ -270,7 +275,9 @@ public final class Atlas {
 		MinecraftServer server = player.getServer();
 		java.util.Set<UUID> owners = new java.util.LinkedHashSet<>();
 		RadioState.get(server).transmitters.forEach((pos, owner) -> {
-			if (pos.getSquaredDistance(player.getPos()) <= (double) RadioState.RANGE * RadioState.RANGE) {
+			// 3.61.0: a transmitter whose owner has a Communication Satellite reaches the whole world
+			if (pos.getSquaredDistance(player.getPos()) <= (double) RadioState.RANGE * RadioState.RANGE
+					|| com.periodicelements.space.Space.has(server, owner, "communication")) {
 				if (!owner.equals(player.getUuid())) {
 					owners.add(owner);
 					out.add(new AtlasData.Marker(ownerName(server, owner), pos.getX(), pos.getZ()));
@@ -299,7 +306,7 @@ public final class Atlas {
 	public static void editMarker(ServerPlayerEntity player, AtlasPayloads.EditMarker edit) {
 		Set<String> known = ResearchState.get(player.getServer()).known(player.getUuid());
 		if (!canDraw(known)) return;
-		AtlasData data = AtlasData.of(player.getServer(), player.getUuid());
+		AtlasData data = AtlasData.here(player);
 		if (edit.add()) {
 			if (countMarkers(data.markers) >= markerLimit(known)) {
 				player.sendMessage(net.minecraft.text.Text.translatable("gui.periodic_elements.atlas.marker.full"), true);
@@ -325,7 +332,19 @@ public final class Atlas {
 
 	/** Markers that count toward the limit: all but the GPS death marker. */
 	public static long countMarkers(List<AtlasData.Marker> markers) {
-		return markers.stream().filter(m -> !m.name().equals(Satellites.DEATH)).count();
+		return markers.stream().filter(m -> !m.name().equals(Satellites.DEATH) && !m.name().equals(Satellites.METEOR)).count();
+	}
+
+	/** 3.62.0: puts a meteorite fall on {@code owner}'s Atlas (replacing the last one) and updates it if they are online. */
+	public static void markMeteor(MinecraftServer server, UUID owner, int x, int z) {
+		AtlasData d = AtlasData.of(server, owner);
+		d.markers.removeIf(m -> m.name().equals(Satellites.METEOR));
+		d.markers.add(new AtlasData.Marker(Satellites.METEOR, x, z));
+		d.markDirty();
+		ServerPlayerEntity p = server.getPlayerManager().getPlayer(owner);
+		if (p != null && ServerPlayNetworking.canSend(p, AtlasPayloads.Markers.ID)) {
+			sendMarkers(p, d);
+		}
 	}
 
 	/** Whether a crafted vanilla item is held back by research (the map and the compass). */

@@ -26,6 +26,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
@@ -159,13 +160,24 @@ public final class Shrubs {
 			ItemStack stack = player.getStackInHand(hand);
 			BlockPos pos = hit.getBlockPos();
 			BlockState state = world.getBlockState(pos);
+			// 3.56.0: sneak + right-click with a shovel lifts the bush whole, with its root ball. SUCCESS on the client
+			// too, so the click reaches the server (see 3.52.1 below).
+			if (!player.isSpectator() && player.isSneaking() && stack.isIn(ItemTags.SHOVELS)
+					&& state.getBlock() instanceof ShrubBlock && player.canModifyBlocks() && world.canPlayerModifyAt(player, pos)) {
+				if (!world.isClient) {
+					ShrubBlock.uproot(state, world, pos, player, hand);
+				}
+				return ActionResult.SUCCESS;
+			}
 			if (!player.isSpectator() && stack.isOf(Items.BONE_MEAL) && state.getBlock() instanceof ShrubBlock bush
 					&& state.get(ShrubBlock.AGE) < 3 && !bush.growsAt(world, pos)) {
 				if (world instanceof ServerWorld sw) {
 					sw.spawnParticles(ParticleTypes.SMOKE, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 6, 0.2, 0.2, 0.2, 0.01);
 					player.sendMessage(Text.translatable("gui.periodic_elements.shrub.wrong_place", bush.biomeNames()), true);
 				}
-				return ActionResult.FAIL;
+				// 3.52.1: SUCCESS on the client sends the click to the server (FAIL kept it client-side, so the
+				// player saw no smoke and no note); FAIL on the server keeps the bone meal.
+				return world.isClient ? ActionResult.SUCCESS : ActionResult.FAIL;
 			}
 			return ActionResult.PASS;
 		});

@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/fired_pottery",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:oil_press"
+  },
+  "title": {
+   "translate": "research.periodic_elements.oil_pressing"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.oil_pressing.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.fired_pottery"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

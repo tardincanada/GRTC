@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/research/thermal_cracking",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:ethylene"
+  },
+  "title": {
+   "translate": "research.periodic_elements.polyethylene"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.polyethylene.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.thermal_cracking"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.haber_process"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

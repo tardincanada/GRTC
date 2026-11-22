@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "periodic_elements:block/carbonaceous_chondrite",
+        "y": 0
+      },
+      {
+        "model": "periodic_elements:block/carbonaceous_chondrite",
+        "y": 90
+      },
+      {
+        "model": "periodic_elements:block/carbonaceous_chondrite",
+        "y": 180
+      },
+      {
+        "model": "periodic_elements:block/carbonaceous_chondrite",
+        "y": 270
+      }
+    ]
+  }
+}

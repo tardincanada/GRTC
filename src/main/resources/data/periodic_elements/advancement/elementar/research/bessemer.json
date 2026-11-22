@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/station/industrial_laboratory",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:bessemer_converter"
+  },
+  "title": {
+   "translate": "research.periodic_elements.bessemer"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.bessemer.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.crucible_steel"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.steam_power"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

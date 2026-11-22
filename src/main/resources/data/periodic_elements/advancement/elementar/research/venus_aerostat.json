@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/metallic_hydrogen",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:venus_capsule"
+  },
+  "title": {
+   "translate": "research.periodic_elements.venus_aerostat"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.venus_aerostat.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.room_temperature_superconductivity"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.metallic_hydrogen"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

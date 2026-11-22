@@ -133,9 +133,7 @@ GUIDE = [
     "# Buske",
     "Buske vokser vildt i alle landbiomer, tre til fem slags i hver, og ligesom træerne vokser hver kun i sine egne "
     "biomer. En busk modner på omkring tyve minutter; benmel får det til at gå hurtigere.",
-    "Højreklik på en moden busk for at plukke det, den giver: blade, frø, frugter, rødder eller stængler. Den bliver stående "
-    "og modner igen. En saks på en udvokset busk klipper en stikling til at plante; nogle frø, som peber og jojoba, kan "
-    "også sås. At bryde en busk giver en eller to pinde, og høsten, hvis den var moden.",
+    'Højreklik på en moden busk for at plukke det, den giver: blade, frø, frugter, rødder eller stængler. Den bliver stående og modner igen. En saks på en udvokset busk klipper en eller to stiklinger til at plante; nogle frø, som peber og jojoba, kan også sås. For at flytte en busk, snig og højreklik med en skovl: den kommer op hel med rodklump og beholder sin størrelse, når den plantes igen. At bryde en busk giver en stikling, en eller to pinde, og høsten, hvis den var moden.',
     "# Drivhuse",
     "I et drivhus vokser en busk eller en træplante langt fra sine biomer. Et drivhus er et lukket rum, op til 32 gange 32 "
     "blokke og 32 højt, med adgang kun gennem en dør eller lem og et tag helt af glas eller glasruder. Buske skal bruge to "

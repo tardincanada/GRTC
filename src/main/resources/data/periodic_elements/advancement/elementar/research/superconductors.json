@@ -1,0 +1,52 @@
+{
+ "parent": "periodic_elements:elementar/station/international_research_centre",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:niobium"
+  },
+  "title": {
+   "translate": "research.periodic_elements.superconductors"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.superconductors.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.key",
+     "color": "gold"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.kroll_process"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.van_arkel"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "goal",
+  "show_toast": true,
+  "announce_to_chat": true,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "periodic_elements:block/vacuum_vessel"
+    },
+    "lit=true": {
+      "model": "periodic_elements:block/vacuum_vessel_lit"
+    }
+  }
+}

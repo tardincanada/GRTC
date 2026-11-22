@@ -111,7 +111,8 @@ public class ShrubTests implements FabricGameTest {
 		state = ctx.getWorld().getBlockState(abs);
 		state.onUseWithItem(player.getMainHandStack(), ctx.getWorld(), player, Hand.MAIN_HAND,
 				new BlockHitResult(Vec3d.ofCenter(abs), Direction.UP, abs, false));
-		check(ctx, drops(ctx, abs, mod("holly_mangrove_cutting")) == 1, "shears should cut one holly mangrove cutting");
+		int cut = drops(ctx, abs, mod("holly_mangrove_cutting"));
+		check(ctx, cut >= 1 && cut <= 2, "shears should cut one or two holly mangrove cuttings (3.56.0), got " + cut);
 		check(ctx, ctx.getWorld().getBlockState(abs).get(ShrubBlock.AGE) == 1, "a cut bush goes back to age 1");
 
 		// Sown seed plants the bush.

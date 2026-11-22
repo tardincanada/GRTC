@@ -1,0 +1,47 @@
+{
+ "parent": "periodic_elements:elementar/research/antimony_smelting",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:treatise_printed"
+  },
+  "title": {
+   "translate": "research.periodic_elements.printing_press"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.printing_press.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.writing"
+        },
+        ", ",
+        {
+         "translate": "research.periodic_elements.antimony_smelting"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

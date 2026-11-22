@@ -1,0 +1,43 @@
+{
+ "parent": "periodic_elements:elementar/research/compound_semiconductors",
+ "display": {
+  "icon": {
+   "id": "periodic_elements:fibre_communicator"
+  },
+  "title": {
+   "translate": "research.periodic_elements.optical_fibre"
+  },
+  "description": {
+   "text": "",
+   "extra": [
+    {
+     "translate": "research.periodic_elements.optical_fibre.desc"
+    },
+    "\n",
+    {
+     "translate": "advancement.periodic_elements.needs",
+     "with": [
+      {
+       "text": "",
+       "extra": [
+        {
+         "translate": "research.periodic_elements.compound_semiconductors"
+        }
+       ]
+      }
+     ],
+     "color": "gray"
+    }
+   ]
+  },
+  "frame": "task",
+  "show_toast": false,
+  "announce_to_chat": false,
+  "hidden": false
+ },
+ "criteria": {
+  "done": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}
